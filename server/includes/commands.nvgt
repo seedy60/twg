@@ -127,6 +127,26 @@ void command(player@p, string command) {
 		} else {
 			p.sendpacket(get_xp_status_message(), 2);
 		}
+	} else if (parsed[0] == "/doublexp") {
+		if (!p.is_dev() && !p.is_manager() && !p.is_admin()) return;
+		string duration = parsed.length() > 1 ? parsed[1] : "";
+		start_xp_event(doublexp == 1 ? 0 : 1, duration, p.name);
+	} else if (parsed[0] == "/superxp") {
+		if (!p.is_dev() && !p.is_manager() && !p.is_admin()) return;
+		string duration = parsed.length() > 1 ? parsed[1] : "";
+		start_xp_event(superxp == 1 ? 0 : 2, duration, p.name);
+	} else if (parsed[0] == "/megaxp") {
+		if (!p.is_dev() && !p.is_manager() && !p.is_admin()) return;
+		string duration = parsed.length() > 1 ? parsed[1] : "";
+		start_xp_event(megaxp == 1 ? 0 : 3, duration, p.name);
+	} else if (parsed[0] == "/gigaxp") {
+		if (!p.is_dev() && !p.is_manager() && !p.is_admin()) return;
+		string duration = parsed.length() > 1 ? parsed[1] : "";
+		start_xp_event(gigaxp == 1 ? 0 : 4, duration, p.name);
+	} else if (parsed[0] == "/masterxp") {
+		if (!p.is_dev() && !p.is_manager() && !p.is_admin()) return;
+		string duration = parsed.length() > 1 ? parsed[1] : "";
+		start_xp_event(masterxp == 1 ? 0 : 5, duration, p.name);
 	} else if (parsed[0] == "/xppotion") {
 		if (p.xppotion == 1)
 			send_reliable(p, "xp potion remaining time: " + ms_to_readable_time(p.xppotiontime - p.xppotiontimer.elapsed) + "", 2);
