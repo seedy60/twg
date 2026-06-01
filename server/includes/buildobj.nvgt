@@ -10,6 +10,37 @@ void buildobj_perform(player@ p, string w) {
 		c.send(p.peer_id);
 		return;
 	}
+	if (w == "task" || w == "nottask") {
+		if (!p.admin) {
+			send_reliable(p, "Only admins can manage the tasks list", 2);
+			return;
+		}
+		string[] tasks = string_split(file_get_contents("chmaps.svr").replace("\r\n", "\n"), "\n", false);
+		for (int i = int(tasks.length()) - 1; i >= 0; i--)
+			if (tasks[i] == "") tasks.remove_at(i);
+		int idx = tasks.find(p.map);
+		if (w == "task") {
+			if (idx > -1) {
+				send_reliable(p, p.map + " is already in the tasks list", 2);
+				return;
+			}
+			tasks.insert_last(p.map);
+		} else {
+			if (idx < 0) {
+				send_reliable(p, p.map + " is not in the tasks list", 2);
+				return;
+			}
+			tasks.remove_at(idx);
+		}
+		file f;
+		f.open("chmaps.svr", "wb");
+		f.write(tasks.length() > 0 ? join(tasks, "\r\n") + "\r\n" : "");
+		f.close();
+		string verb = (w == "task" ? "added " + p.map + " to" : "removed " + p.map + " from");
+		send_reliable(p, "Done — " + verb + " the tasks list", 2);
+		admintell(p.name + " " + verb + " the tasks list");
+		return;
+	}
 	send_reliable(p, "build" + w, 0);
 }
 bool buildobj_event(player@ p, string packet) {

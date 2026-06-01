@@ -33,7 +33,7 @@
 	}
 
 	private tone_synth synth;
-	private sound@ beep;
+	private upcoming::sound@ beep;
 
 	private double high;
 	private double low;

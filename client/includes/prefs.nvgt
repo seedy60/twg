@@ -12,6 +12,10 @@ void readprefs() {
 		name = values[peramitors.find("name")];
 	if (peramitors.find("password") != -1)
 		password = values[peramitors.find("password")];
+	if (peramitors.find("netaddress") != -1)
+		netaddress = values[peramitors.find("netaddress")];
+	if (peramitors.find("netport") != -1)
+		netport = string_to_number(values[peramitors.find("netport")]);
 	if (peramitors.find("voicechat") != -1)
 		voicechat = string_to_number(values[peramitors.find("voicechat")]);
 	if (peramitors.find("audioform_keyboard_echo") != -1)
@@ -310,6 +314,8 @@ void writeprefs() {
 	string[] s = {
 		"name=" + name ,
 		"password=" + password ,
+		"netaddress=" + netaddress ,
+		"netport=" + netport ,
 		"voicechat=" + voicechat ,
 		"audioform_keyboard_echo=" + audioform_keyboard_echo ,
 		"holdv=" + holdv ,

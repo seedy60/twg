@@ -1861,6 +1861,20 @@ menu.send(p.peer_id);
 		i.multiline = 1;
 		i.send(p.peer_id);
 		return;
+	} else if (parsed[0] == "/admincmds" && p.assistant) {
+		string c = file_get_contents("commands-staff.md");
+		c = string_replace(c, "\r\n", "\n", true);
+		serverinput i;
+		i.title = "Staff Commands";
+		i.text = "Staff Commands";
+		i.default_text = c;
+		i.button1 = "";
+		i.button2 = "&Close";
+		i.button2cancel = 1;
+		i.readonly = 1;
+		i.multiline = 1;
+		i.send(p.peer_id);
+		return;
 	} else if (parsed[0] == "/feedback") {
 		if (parsed.length() > 1) {
 			string msg = string_trimleft(command, (parsed[0] + " ").length());
@@ -2918,9 +2932,11 @@ menu.send(p.peer_id);
 			send_reliable(p, "timer must be grader than 0!", 2);
 			return;
 		}
-		if (players[index2].name == "turando") {
-			send_reliable(p, "you can't ban developer", 2);
-			remove_player(p.name);
+		int pos1 = staff.get_highest_pos_of(p.name);
+		int pos2 = staff.get_highest_pos_of(players[index2].name);
+		if (pos1 > pos2) {
+			send_reliable(p, "Sorry, can't ban the " + staff.title(staff.str_get_highest_of(players[index2].name)), 0);
+			send_reliable(players[index2], "notify alert! " + string_capitalize(staff.title(staff.str_get_highest_of(p.name))) + " " + p.name + " has tryed to ban you off the server", 0);
 			return;
 		}
 		create_temp_ban(players[index2].name, time);

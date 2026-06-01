@@ -225,7 +225,7 @@ double convert_weekday_number(string weekdayname) {
 	else return -1;
 }
 tone_synth progress_synth;
-sound@ progress_sound;
+upcoming::sound@ progress_sound;
 void beep_percentage(double val, double vol = -5) {
 	val = round(val, 0);
 	if (val < 0) val = 0;

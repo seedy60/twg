@@ -4,16 +4,12 @@ library bass;
 //init bass
 long init_bass() {
 	bass.load("libraries/bass.dll");
-	dictionary s = bass.call("void BASS_Init(long, long, long, float, float);", -1, 44100, 0, 0, 0);
-	long handle;
-	s.get("0", handle);
+	long handle = bass.call("int BASS_Init(long, long, long, float, float);", -1, 44100, 0, 0, 0);
 	return handle;
 }
 //load a URL
 long load_stream_url(string url) {
-	dictionary s = bass.call("long BASS_StreamCreateURL(char*,long,long,int,int);", url, 0, 0, 0, 0);
-	long h;
-	s.get(0, h);
+	long h = bass.call("long BASS_StreamCreateURL(char*,long,long,int,int);", url, 0, 0, 0, 0);
 	return h;
 }
 //play

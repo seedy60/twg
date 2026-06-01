@@ -15,16 +15,10 @@ string mci_send_command(string command) {
 	string error;
 	test.resize(255);
 	error.resize(255);
-	dictionary@ result = dll.call(mci_call, command, test, test.length(), 0);
-	test = "";
-	int ret = 0;
-	result.get("2", test);
+	int ret = dll.call(mci_call, command, test, test.length(), 0);
 	test = string_replace(test, "\0", "", true);
-	result.get("0", ret);
 	if (ret != 0) {
-		@result = dll.call(mci_result_call, ret, error, error.length());
-		error = "";
-		result.get("2", error);
+		dll.call(mci_result_call, ret, error, error.length());
 		error_mci = error;
 		error = string_replace(error, "\0", "", true);
 		if (test != "") test += "\r\n";

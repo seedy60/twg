@@ -37,4 +37,6 @@ server/pre/**
 server/compchars.log
 server/corpses.svr
 server/profile.log
+server/admin_log.svr
+server/e.log
 client/pack/*

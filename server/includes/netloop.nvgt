@@ -1350,7 +1350,6 @@ msgs.insert_last("contribute to our game at: https://github.com/amirmahdifard/ul
 						chnotify(players[index].langchan, players[index].name + " is a language channel manager of this channel", "notify4.ogg");
 					}
 					if (players[index].in_lcm) send(players[index].peer_id, "islcm", 0);
-					if (devs.find(players[index].name) > -1 && !file_exists(staff.folder + "/" + players[index].name + "/developer" + staff.ext)) file_put(staff.folder + "/" + players[index].name + "/developer" + staff.ext, "Auto");
 					for (uint si = 0; si < staff.types.length(); si++) {
 						if (!is_staff(players[index].name, staff.types[si])) continue;
 						send(players[index].peer_id, "isstaff " + staff.types[si], 0);

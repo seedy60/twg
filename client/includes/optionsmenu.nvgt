@@ -2,8 +2,47 @@ void optionsmenu() {
 	custom_menu c;
 	setupmenu(c);
 	c.add("Manage your account", "macc");
+	c.add("Server connection settings", "server");
 	string r = menu("Options", c);
 	c.reset(true);
 	if (r == "") return;
 	else if (r == "macc") player::menu::ch();
+	else if (r == "server") server_connection_menu();
+}
+
+// Lets the player point the client at a custom server (hostname/IP and port).
+// Values are saved to preferences and used the next time the client connects.
+void server_connection_menu() {
+	while (true) {
+		custom_menu c;
+		setupmenu(c);
+		c.add("Server address: " + netaddress, "host");
+		c.add("Server port: " + netport, "port");
+		c.add("Reset to the main server (" + mainnetaddress + ", port 6200)", "reset");
+		string r = menu("Server connection", c);
+		c.reset(true);
+		if (r == "") return;
+		else if (r == "host") {
+			string h = v.input("Enter the server hostname or IP address");
+			if (h != "") {
+				netaddress = h;
+				writeprefs();
+				speak("Server address set to " + netaddress + ". It will be used the next time you connect.");
+			}
+		} else if (r == "port") {
+			string pt = v.input("Enter the server port, a whole number from 1 to 65535");
+			if (pt != "") {
+				if (pt.is_digits() && string_to_number(pt) >= 1 && string_to_number(pt) <= 65535) {
+					netport = string_to_number(pt);
+					writeprefs();
+					speak("Server port set to " + netport + ". It will be used the next time you connect.");
+				} else speak("Invalid port. Please enter a whole number between 1 and 65535.");
+			}
+		} else if (r == "reset") {
+			netaddress = mainnetaddress;
+			netport = 6200;
+			writeprefs();
+			speak("Server connection reset to the main server.");
+		}
+	}
 }

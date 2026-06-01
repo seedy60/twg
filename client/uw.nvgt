@@ -313,7 +313,7 @@ string gamever;
 bool canjump = true;
 int rapidfire = 0;
 typedef uint8 usmall; typedef int8 small;
-sound@ bleepy;
+upcoming::sound@ bleepy;
 tone_synth bleeper, ts;
 string banid = generate_computer_id("S���uafama�����decolecionartampasdecr�nios" + app.version, true);
 network n;
@@ -1127,7 +1127,7 @@ void beep(int hz) {
 	ts.set_edge_fades(0, 0);
 	ts.waveform_type = 4;
 	ts.freq_ms(hz, 50);
-	sound@ snd = ts.write_wave_sound();
+	upcoming::sound@ snd = ts.write_wave_sound();
 	snd.play_wait();
 }
 string random_string_from_array(string[] arraystring) {

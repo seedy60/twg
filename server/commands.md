@@ -44,3 +44,6 @@ To use a command, you can either press `Slash`, type `/` 1 more time, or press t
 - `teamkick <name>`: Removes a member from your team (if you are the owner).
 - `teamcreate <ID> <name-optional>: Creates a team with a given ID. The name is optional and can contain spaces, and will be used to display. The ID is used as the name otherwise.
 - `team <name>`: Check if a given player has a team, and in which if they have.
+
+---
+Staff members: the administrative command reference is available in game with `/admincmds`.
