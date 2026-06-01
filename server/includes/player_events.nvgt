@@ -3668,6 +3668,25 @@ void player_event(player@p, string event) {
 			return;
 		}
 		send_serverbox(p.peer_id, 2, -1, 1, -1, "transferinv/" + n + "/" + parsed[1], "How many " + parsed[1] + "s would you like to give to " + n + "?");
+	} else if (parsed[0] == "plot_teleport" and parsed.length() > 1) {
+		string[] payload = parsed[1].split(":");
+		if (payload.length() < 4) return;
+		string target_map = payload[0];
+		int x = parse_int(payload[1]);
+		int y = parse_int(payload[2]);
+		int z = parse_int(payload[3]);
+		if (!map_exists(target_map)) {
+			send_reliable(p, "That plot's map no longer exists.", 2);
+			return;
+		}
+		for (uint h = 0; h < houses.length(); h++) {
+			if (houses[h].map != target_map) continue;
+			if (abs(houses[h].x - x) > 8 || abs(houses[h].y - y) > 8) continue;
+			send_reliable(p, "That plot was just taken. Try /plots again.", 2);
+			return;
+		}
+		move_player(p, target_map, x, y, z, true);
+		send_reliable(p, "Teleported. Use your house item now to build here.", 2);
 	} else if (parsed[0] == "mtester" and parsed.length() > 1) {
 		string mapname = parsed[1];
 		if (directory_exists("maps/" + mapname)) {

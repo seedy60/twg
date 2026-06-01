@@ -63,6 +63,71 @@ void command(player@p, string command) {
 		p.finishtasktimer.pause();
 		move_player(p, "main_map", 5, 0, 0, true);
 		send_reliable(p, "You have returned to the main map", 2);
+	} else if (parsed[0] == "/plots") {
+		cmenupage m;
+		m.initial_packet = "plot_teleport";
+		string[] map_dirs = find_directories("maps/*");
+		int count = 0;
+		for (uint i = 0; i < map_dirs.length(); i++) {
+			if (!map_dirs[i].starts_with("residencial_area_")) continue;
+			string mapname = map_dirs[i];
+			string data = file_get_contents("maps/" + mapname + "/!.map").replace("\r\n", "\n");
+			if (data == "") continue;
+			string[] lines = data.split("\n");
+			for (uint a = 0; a < lines.length(); a++) {
+				string line = lines[a].trim_whitespace();
+				if (!line.starts_with("zone:")) continue;
+				string[] parts = line.split(":");
+				if (parts.length() < 8) continue;
+				string zname = parts[7].lower().trim_whitespace();
+				// Must be exactly "number <one word>" — same gate as house_buildable.
+				if (!zname.starts_with("number ")) continue;
+				string suffix = zname.substr(7);
+				if (suffix == "" || string_contains(suffix, " ", 1) > -1) continue;
+				int minx = parse_int(parts[1]);
+				int maxx = parse_int(parts[2]);
+				int miny = parse_int(parts[3]);
+				int maxy = parse_int(parts[4]);
+				int minz = parse_int(parts[5]);
+				int maxz = parse_int(parts[6]);
+				bool occupied = false;
+				for (uint h = 0; h < houses.length(); h++) {
+					if (houses[h].map != mapname) continue;
+					if (houses[h].x < minx || houses[h].x > maxx) continue;
+					if (houses[h].y < miny || houses[h].y > maxy) continue;
+					if (houses[h].z < minz || houses[h].z > maxz) continue;
+					occupied = true;
+					break;
+				}
+				if (occupied) continue;
+				int cx = (minx + maxx) / 2;
+				int cy = (miny + maxy) / 2;
+				string label = mapname + " / " + zname;
+				string payload = mapname + ":" + cx + ":" + cy + ":" + minz;
+				m.add(label, payload);
+				count++;
+			}
+		}
+		if (count == 0) {
+			send_reliable(p, "All residential plots are currently occupied.", 2);
+			return;
+		}
+		m.intro = "Choose an empty plot to teleport to (" + count + " available). Once there, use your house item to build.";
+		m.send(p.peer_id);
+		return;
+	} else if (parsed[0] == "/clearplots" && p.is_dev()) {
+		if (houses.length() < 1) {
+			send_reliable(p, "No houses to clear.", 2);
+			return;
+		}
+		int n = int(houses.length());
+		for (uint i = 0; i < houses.length(); i++) {
+			houses[i].health = 0;
+			houses[i].hitby = "Server reset";
+		}
+		send_reliable(p, "Marked " + n + " houses for destruction. They will clean up over the next few server ticks.", 2);
+		admintell(p.name + " ran /clearplots — destroying all " + n + " houses.");
+		return;
 	} else if (parsed[0] == "/changes") {
 		if (parsed.length() == 1) {
 			cmenupage m;

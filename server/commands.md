@@ -7,6 +7,7 @@ To use a command, you can either press `Slash`, type `/` 1 more time, or press t
 - `changes`: Displays server changelog.
 - `suicide`: Exits from a private, public, or task map. Broadcasts a message and resets task progress.
 - `lm`: Leaves the current map and returns you to the main map, quietly (no broadcast). Useful when you're stuck.
+- `plots`: Opens a menu of empty residential plots across all residencial_area_* maps. Select one to teleport there; then use your house item to build. Saves you walking around hunting for vacancies.
 - `xpstatus`: Check which XP is active, i.e. Master, Giga, Super, Mega.
 - `xppotion`: Check whether you have XP potion used, and displays remaining time if applicable.
 - `playtime`: Combined play time of all players.

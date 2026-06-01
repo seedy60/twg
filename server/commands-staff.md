@@ -171,6 +171,7 @@ Arguments in `[brackets]` are optional. Targets are character (login) names unle
 | `/getbackupmap <map>` | Admin | Copy a backed-up map to your clipboard. |
 | `/delmap <map>` | Manager | Delete a map. |
 | `/cleanmapowners` | Admin | Remove duplicate owner entries from every map. |
+| `/clearplots` | Developer | Destroy **every** house on the server. Marks each house health=0; the normal destruction loop then cleans up house maps, dependent items, and zone markers. Intended for fresh-server setup; broadcasts per-house death messages if players are online. |
 | `/maptrash` | Manager | Run a map spam-collection pass. |
 | `/initmaps` | Admin | Reboot the map system. |
 
