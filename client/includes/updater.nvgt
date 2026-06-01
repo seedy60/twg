@@ -14,17 +14,33 @@ string get_dl_filename() property {
 	#endif
 	return f;
 }
-string get_download_url() property {
-	string url = app.website + "/svrfile/" + dl_filename;
-	return url;
+
+// Returns the raw tag_name of the latest GitHub release, or "" on failure.
+// Uses minimal string parsing so we don't pull in a JSON dependency.
+string get_latest_release_tag() {
+	string response = url_get("https://api.github.com/repos/seedy60/twg/releases/latest");
+	if (response == "") return "";
+	int pos = string_contains(response, "\"tag_name\":\"", 1);
+	if (pos < 0) return "";
+	string after = string_trim_left(response, pos + 12); // 12 = length of `"tag_name":"`
+	int end = string_contains(after, "\"", 1);
+	if (end < 0) return "";
+	return string_left(after, end);
 }
+
 int check_updates(bool silent = false) {
-	// 0 = success, 1 = available but canceled, -1 = internal error.
+	// 0 = success, 1 = available but canceled, 2 = no update or download failed, -1 = could not reach the release API.
 	if (!silent) speak("Checking for updates...");
 	sound s;
-	string ws = app.website + "/file.php?name=";
-	string l = url_get(app.website + "/version.txt");
-	if (l == "" || l.find("<") > -1 || l.find(">") > -1) l = app.version;
+	string raw_tag = get_latest_release_tag();
+	if (raw_tag == "") {
+		if (!silent) alert("Update", "Could not check for updates");
+		return -1;
+	}
+	// Strip an optional leading "v" so multiversion can parse a plain numeric/dotted version.
+	// We keep raw_tag intact for URL construction — GitHub's download URL uses the original tag.
+	string l = raw_tag;
+	if (string_left(l, 1) == "v") l = string_right(l, l.length() - 1);
 	multiversion lv(l);
 	multiversion yv(app.version);
 	if (lv > yv) {
@@ -34,7 +50,8 @@ int check_updates(bool silent = false) {
 			s.close();
 			s.load(AUDIO_DIR + "updating" + random(1, 7) + ".ogg");
 			s.play_looped();
-			int f = dl_file(download_url, dl_filename);
+			string url = "https://github.com/seedy60/twg/releases/download/" + raw_tag + "/" + dl_filename;
+			int f = dl_file(url, dl_filename);
 			if (f == dl_status_done) {
 				s.close();
 				s.load(AUDIO_DIR + "updated.ogg");

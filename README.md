@@ -10,7 +10,7 @@ Gaming Toolkit), a scripting engine built on AngelScript, and ships as two progr
 | **Client** | `client/uw.nvgt` | `client/uw.json` | What players run (`uw.exe`). Connects to a server. |
 | **Server** | `server/uwserver.nvgt` | `server/uwserver.json` | The authoritative dedicated server that hosts the world. |
 
-- **Current version:** 2.49.1 (see `client/application.nvgt` / `server/application.nvgt`)
+- **Current version:** 2518 (see `client/application.nvgt` / `server/application.nvgt`)
 - **Default game server:** `twg.seedy.cc:6200`
 - **Game port (UDP/ENet):** `6200`
 - **Contact:** uwgame@outlook.com
