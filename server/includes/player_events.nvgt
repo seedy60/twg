@@ -10054,13 +10054,6 @@ void player_event(player@p, string event) {
 					return;
 				}
 			}
-			p.logout_requested = true;
-			p.logout_timer.restart();
-			p.logout_x = p.x;
-			p.logout_y = p.y;
-			p.logout_z = p.z;
-			send_reliable(p, "Logging out in 10 seconds. Don't move!", 2);
-			return;
 		}
 		p.should_finalize_close = false;
 		log("disconnections", p.name + " offline", true);

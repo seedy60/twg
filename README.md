@@ -11,7 +11,7 @@ Gaming Toolkit), a scripting engine built on AngelScript, and ships as two progr
 | **Server** | `server/uwserver.nvgt` | `server/uwserver.json` | The authoritative dedicated server that hosts the world. |
 
 - **Current version:** 2.49.1 (see `client/application.nvgt` / `server/application.nvgt`)
-- **Official server / website:** <https://uw.posix.live>
+- **Default game server:** `twg.seedy.cc:6200`
 - **Game port (UDP/ENet):** `6200`
 - **Contact:** uwgame@outlook.com
 
@@ -75,7 +75,7 @@ pack — it is only the saved settings file for the pack‑creator tool.
 
 You don't have to compile to test — NVGT can run a script in place.
 
-**Client** (connects to `uw.posix.live:6200` by default):
+**Client** (connects to `twg.seedy.cc:6200` by default):
 
 ```sh
 nvgt client/uw.nvgt
@@ -92,7 +92,7 @@ nvgt server/uwserver.nvgt
 **Testing client + server locally:** start the server, then in the client open
 **main menu → misc → "Server connection settings"** and set the address to `127.0.0.1` (and the
 port to match the server). The values are saved to preferences and reused on the next connect.
-The defaults live in `client/includes/net.nvgt` (`mainnetaddress = "uw.posix.live"`,
+The defaults live in `client/includes/net.nvgt` (`mainnetaddress = "twg.seedy.cc"`,
 `netport = 6200`); a dev-only localhost toggle also exists in uncompiled builds.
 
 ## Compiling release builds
