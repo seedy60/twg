@@ -5,7 +5,8 @@ To use a command, you can either press `Slash`, type `/` 1 more time, or press t
 - `help`: Displays the commands menu. This menu might not update with latest commands.
 - `cmds`: Brings up a dialog in which you can view a list of commands. This is often updated.
 - `changes`: Displays server changelog.
-- `suicide`: Exits from a private, public, or task map.
+- `suicide`: Exits from a private, public, or task map. Broadcasts a message and resets task progress.
+- `lm`: Leaves the current map and returns you to the main map, quietly (no broadcast). Useful when you're stuck.
 - `xpstatus`: Check which XP is active, i.e. Master, Giga, Super, Mega.
 - `xppotion`: Check whether you have XP potion used, and displays remaining time if applicable.
 - `playtime`: Combined play time of all players.

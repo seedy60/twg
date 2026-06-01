@@ -41,6 +41,28 @@ void command(player@p, string command) {
 			p.finishtasktimer.force(0);
 			p.finishtasktimer.pause();
 		}
+	} else if (parsed[0] == "/lm") {
+		if (p.looking != "") {
+			send_reliable(p, "you can't leave the map while looking at someone", 2);
+			return;
+		}
+		if (p.pvp == 1) {
+			send_reliable(p, "you can't leave the map while you are pvp", 2);
+			return;
+		}
+		if (p.falling == true) {
+			send_reliable(p, "you can't leave the map while falling", 2);
+			return;
+		}
+		if (p.prison == true) {
+			send_reliable(p, "you can't leave the map while in jail", 2);
+			return;
+		}
+		p.finishing_task = false;
+		p.finishtasktimer.force(0);
+		p.finishtasktimer.pause();
+		move_player(p, "main_map", 5, 0, 0, true);
+		send_reliable(p, "You have returned to the main map", 2);
 	} else if (parsed[0] == "/changes") {
 		if (parsed.length() == 1) {
 			cmenupage m;
