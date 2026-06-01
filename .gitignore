@@ -6,6 +6,8 @@ client/logs/**
 client/maps/**
 client/voices/**
 client/uw/**
+client/uw_*/
+client/uw_*.zip
 client/audio/**
 sounds.dat
 audio.dat
