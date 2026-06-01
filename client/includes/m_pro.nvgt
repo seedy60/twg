@@ -416,7 +416,7 @@ class dynamic_menu_pro {
 				if (item_list[menu_position - 1].is_filename == true) {
 					if (@internal_tts != null)
 						internal_tts.stop();
-					if (internal_sound.stream(item_list[menu_position - 1].option) == false) {
+					if (internal_sound.stream(AUDIO_DIR + item_list[menu_position - 1].option) == false) {
 						running = false;
 						return -1;
 					}
