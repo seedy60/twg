@@ -1094,7 +1094,12 @@ menu.send(p.peer_id);
 				send_reliable(p, "Not found", 0);
 				return;
 			}
-			players[index2].level = string_to_number(parsed[2]);
+			double v = string_to_number(parsed[2]);
+			if (v > 65536) {
+				send_reliable(p, "value too high (maximum is 65536)", 0);
+				return;
+			}
+			players[index2].level = v;
 			send_reliable(p, players[index2].name + "'s level updated to " + parsed[2], 0);
 		}
 	} else if (parsed[0] == "/setreinforcement" and parsed.length() > 2) {
@@ -1104,7 +1109,12 @@ menu.send(p.peer_id);
 				send_reliable(p, "Not found", 0);
 				return;
 			}
-			players[index2].reinforcement = string_to_number(parsed[2]);
+			double v = string_to_number(parsed[2]);
+			if (v > 65536) {
+				send_reliable(p, "value too high (maximum is 65536)", 0);
+				return;
+			}
+			players[index2].reinforcement = v;
 			send_reliable(p, players[index2].name + "'s reinforcement updated to " + parsed[2], 0);
 		}
 	} else if (parsed[0] == "/setxp" and parsed.length() > 2) {
