@@ -74,13 +74,32 @@ void command(player@p, string command) {
 			string data = file_get_contents("maps/" + mapname + "/!.map").replace("\r\n", "\n");
 			if (data == "") continue;
 			string[] lines = data.split("\n");
+			// Pre-scan the map's marker-style zones once. These look like
+			// "<owner>'s <itemtype>" (the format house_zoner writes), and
+			// they survive in the map data even if the house JSON has been
+			// deleted, so the runtime houses[] array alone misses them.
+			int[] m_minx, m_maxx, m_miny, m_maxy, m_minz, m_maxz;
+			for (uint a = 0; a < lines.length(); a++) {
+				string l = lines[a].trim_whitespace();
+				if (!l.starts_with("zone:")) continue;
+				string[] zp = l.split(":");
+				if (zp.length() < 8) continue;
+				string zn = zp[7];
+				int apos = string_contains(zn, "'s ", 1);
+				if (apos <= 0) continue;
+				if (string_contains(string_left(zn, apos), " ", 1) > -1) continue;
+				string zsuf = string_trim_left(zn, apos + 3);
+				if (zsuf == "" || string_contains(zsuf, " ", 1) > -1) continue;
+				m_minx.insert_last(parse_int(zp[1])); m_maxx.insert_last(parse_int(zp[2]));
+				m_miny.insert_last(parse_int(zp[3])); m_maxy.insert_last(parse_int(zp[4]));
+				m_minz.insert_last(parse_int(zp[5])); m_maxz.insert_last(parse_int(zp[6]));
+			}
 			for (uint a = 0; a < lines.length(); a++) {
 				string line = lines[a].trim_whitespace();
 				if (!line.starts_with("zone:")) continue;
 				string[] parts = line.split(":");
 				if (parts.length() < 8) continue;
 				string zname = parts[7].lower().trim_whitespace();
-				// Must be exactly "number <one word>" — same gate as house_buildable.
 				if (!zname.starts_with("number ")) continue;
 				string suffix = zname.substr(7);
 				if (suffix == "" || string_contains(suffix, " ", 1) > -1) continue;
@@ -99,6 +118,15 @@ void command(player@p, string command) {
 					occupied = true;
 					break;
 				}
+				if (!occupied) {
+					for (uint k = 0; k < m_minx.length(); k++) {
+						if (m_maxx[k] < minx || m_minx[k] > maxx) continue;
+						if (m_maxy[k] < miny || m_miny[k] > maxy) continue;
+						if (m_maxz[k] < minz || m_minz[k] > maxz) continue;
+						occupied = true;
+						break;
+					}
+				}
 				if (occupied) continue;
 				int cx = (minx + maxx) / 2;
 				int cy = (miny + maxy) / 2;
@@ -116,17 +144,59 @@ void command(player@p, string command) {
 		m.send(p.peer_id);
 		return;
 	} else if (parsed[0] == "/clearplots" && p.is_dev()) {
-		if (houses.length() < 1) {
-			send_reliable(p, "No houses to clear.", 2);
-			return;
-		}
 		int n = int(houses.length());
 		for (uint i = 0; i < houses.length(); i++) {
 			houses[i].health = 0;
 			houses[i].hitby = "Server reset";
 		}
-		send_reliable(p, "Marked " + n + " houses for destruction. They will clean up over the next few server ticks.", 2);
-		admintell(p.name + " ran /clearplots — destroying all " + n + " houses.");
+		// Scrub orphan house-marker zones from residential area maps.
+		// These are zones whose name matches "<owner>'s <itemtype>" — the
+		// format house_zoner writes. Runtime destruction would normally
+		// remove these via house_zoner(d=true), but if the corresponding
+		// house JSON was deleted, the marker is stuck in the map data.
+		int scrubbed = 0;
+		int maps_changed = 0;
+		string[] map_dirs = find_directories("maps/*");
+		for (uint i = 0; i < map_dirs.length(); i++) {
+			if (!map_dirs[i].starts_with("residencial_area_")) continue;
+			string mp = map_dirs[i];
+			string data = file_get_contents("maps/" + mp + "/!.map").replace("\r\n", "\n");
+			if (data == "") continue;
+			string[] lines = data.split("\n");
+			string[] kept;
+			bool changed = false;
+			for (uint a = 0; a < lines.length(); a++) {
+				string ln = lines[a];
+				string t = ln.trim_whitespace();
+				bool drop = false;
+				if (t.starts_with("zone:")) {
+					string[] parts = t.split(":");
+					if (parts.length() >= 8) {
+						string zn = parts[7];
+						int apos = string_contains(zn, "'s ", 1);
+						if (apos > 0 && string_contains(string_left(zn, apos), " ", 1) < 0) {
+							string zsuf = string_trim_left(zn, apos + 3);
+							if (zsuf != "" && string_contains(zsuf, " ", 1) < 0) {
+								drop = true;
+							}
+						}
+					}
+				}
+				if (drop) { scrubbed++; changed = true; continue; }
+				kept.insert_last(ln);
+			}
+			if (changed) {
+				file_put("maps/" + mp + "/!.map", join(kept, "\n"));
+				mapupdate(mp);
+				maps_changed++;
+			}
+		}
+		if (n == 0 && scrubbed == 0) {
+			send_reliable(p, "No houses or orphan markers to clear.", 2);
+			return;
+		}
+		send_reliable(p, "Cleared. " + n + " runtime houses queued for destruction; scrubbed " + scrubbed + " orphan marker zones across " + maps_changed + " maps.", 2);
+		admintell(p.name + " ran /clearplots — " + n + " houses + " + scrubbed + " orphan markers.");
 		return;
 	} else if (parsed[0] == "/changes") {
 		if (parsed.length() == 1) {
