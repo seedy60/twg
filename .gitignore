@@ -6,6 +6,7 @@ client/logs/**
 client/maps/**
 client/voices/**
 client/uw/**
+client/audio/**
 sounds.dat
 audio.dat
 uw.exe

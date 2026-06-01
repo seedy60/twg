@@ -9,7 +9,7 @@
 		mainmenu();
 	} else if (yv < lv) {
 		sound updatefound;
-		updatefound.load("update.ogg");
+		updatefound.load(AUDIO_DIR + "update.ogg");
 		updatefound.play_wait();
 		int updateask = question("Update available!", "a new changelog is available! Your changelog version is: " + cver + ". The latest version is: " + latest + ". Would you like to download it?");
 		if (updateask == 1) {
@@ -18,7 +18,7 @@
 				sound updatedone;
 				sound updatemus;
 				updatemus.stop();
-				updatedone.load("updated.ogg");
+				updatedone.load(AUDIO_DIR + "updated.ogg");
 				updatedone.play_wait();
 				bool result = run("unzip.exe", "-o -qq changelog.zip", true, true);
 				if (result == true) {

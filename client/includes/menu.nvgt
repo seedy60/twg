@@ -1496,17 +1496,11 @@ int yesno(string question) {
 void musicmenu() {
 	setupmenu(false, true);
 	string[] ambs = string_split(musictypes, "\r\n", false);
-	#if plugin_legacy_sound
-		pack@ musicpack = cast<pack>(sound_default_pack);
-	#endif
-	#if_not plugin_legacy_sound
-		pack_file@ musicpack = cast<pack_file>(sound_default_pack);
-	#endif
-	if (@musicpack == null) {
+	string[] all_pack_files = find_files(AUDIO_DIR + "*.ogg");
+	if (all_pack_files.length() < 1) {
 		speak("Error. Unable to load game musics.");
 		return;
 	}
-	string[] all_pack_files = musicpack.list_files();
 	for (uint i = 0; i < ambs.length(); i++) {
 		string name = ambs[i];
 		string filename = name + ".ogg";

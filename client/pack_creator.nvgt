@@ -194,7 +194,10 @@ bool showtext(string text) {
 	if (silent) {
 		printf(text + "\n");
 		return true;
-	} else return show_window(text);
+	} else {
+		show_window(text);
+		return true;
+	}
 }
 int print(string title, string text, bool newline = true) {
 	if (!silent) return alert(title, text);

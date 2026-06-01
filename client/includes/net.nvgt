@@ -21,7 +21,7 @@ void login(bool is_reconnecting = false) {
 		speak("reconnecting... please wait");
 	else
 		speak("connecting... please wait");
-	sr.load("roleta.ogg");
+	sr.load(AUDIO_DIR + "roleta.ogg");
 	sr.play_looped();
 	reset_network();
 	net_client();
@@ -212,7 +212,7 @@ void create() {
 				lmsg.add("node_id", system_node_id);
 				lmsg.add("yv", app.version);
 				speak("establishing connection... please wait");
-				sr.load("roleta.ogg");
+				sr.load(AUDIO_DIR + "roleta.ogg");
 				sr.play_looped();
 				reset_network();
 				net_client();

@@ -120,7 +120,7 @@ class dynamic_menu_pro {
 	}
 	void add_music(string musicpath) {
 		if (music.playing == false) {
-			music.load(musicpath);
+			music.load(AUDIO_DIR + musicpath);
 			music_added = true;
 		}
 	}

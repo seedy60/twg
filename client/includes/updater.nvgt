@@ -28,28 +28,28 @@ int check_updates(bool silent = false) {
 	multiversion lv(l);
 	multiversion yv(app.version);
 	if (lv > yv) {
-		s.load("update.ogg");
+		s.load(AUDIO_DIR + "update.ogg");
 		s.play();
 		if (question("Update available", "A new update " + l + " is available. Download now?") == 1) {
 			s.close();
-			s.load("updating" + random(1, 7) + ".ogg");
+			s.load(AUDIO_DIR + "updating" + random(1, 7) + ".ogg");
 			s.play_looped();
 			int f = dl_file(download_url, dl_filename);
 			if (f == dl_status_done) {
 				s.close();
-				s.load("updated.ogg");
+				s.load(AUDIO_DIR + "updated.ogg");
 				s.play();
 				run("unzip.bat", "", false, false);
 				exit();
 				return 0;
 			}
 			s.close();
-			s.load("updatefail.ogg");
+			s.load(AUDIO_DIR + "updatefail.ogg");
 			s.play();
 			return 2;
 		}
 		s.close();
-		s.load("update_canceled.ogg");
+		s.load(AUDIO_DIR + "update_canceled.ogg");
 		s.play();
 		alert("Update", "Update's canceled");
 		return 1;

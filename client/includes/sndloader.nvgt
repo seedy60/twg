@@ -3,7 +3,7 @@ void sound_init() {
 	speak("loading sounds...this might take a while");
 	sound bar;
 	sound preloading;
-	preloading.load("m2.ogg");
+	preloading.load(AUDIO_DIR + "m2.ogg");
 	preloading.volume = -10;
 	string filename = get_sound_storage();
 	bool success = soundspack.open(filename);

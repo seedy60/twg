@@ -136,7 +136,7 @@
 	}
 	string input(string ttl, string default_text = "", int ccursor = 1, bool uses_password = false, string mask_char = "", int txtlength = 0) {
 		if (saveinputbox == 0) reset();
-		if (!capital.active) capital.load("cap.ogg");
+		if (!capital.active) capital.load(AUDIO_DIR + "cap.ogg");
 		intextbox = true;
 		title = ttl;
 		passworded = uses_password;

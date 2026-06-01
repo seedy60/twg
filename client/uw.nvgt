@@ -3,6 +3,7 @@
 #pragma plugin legacy_sound
 #pragma namespace sound upcoming
 #pragma plugin nvgt_curl
+const string AUDIO_DIR = "audio/";
 string[] store_owners_list;
 string[] player_stores_list;
 bool received_store_owners = false;
@@ -181,7 +182,6 @@ int winsound;
 int mutetts;
 int sitting = 0;
 instance uwinstance();
-//string packname = "audio.dat";
 const string decryption_key = "meowza";
 int readerinterrupt = 0;
 int menumusvol = -5;
@@ -318,14 +318,8 @@ tone_synth bleeper, ts;
 string banid = generate_computer_id("S���uafama�����decolecionartampasdecr�nios" + app.version, true);
 network n;
 network_event e;
-string sndloc = "audio.dat";
-pack@ sndpack = null;
-
 void main() {
 	if (!directory_exists("logs")) directory_create("logs");
-	@sndpack = pack();
-	sndpack.open(sndloc, PACK_OPEN_MODE_READ);
-	@sound_default_pack = @sndpack;
 	set_sound_global_hrtf(true);
 	@default_input_process_loop = process_loops;
 	invcats.insert_last("weapons");
@@ -370,7 +364,7 @@ void main() {
 	create_buffer("robot");
 	create_buffer("misc");
 	if (!directory_exists(prefsdir))directory_create(prefsdir);
-	capbeep.load("cap.ogg");
+	capbeep.load(AUDIO_DIR + "cap.ogg");
 	readprefs();
 	set_sound_master_volume(mvol);
 	initialize_pools();
@@ -392,15 +386,15 @@ void main() {
 	signpool.volume_step = 1;
 	itempool.pan_step = 1;
 	itempool.volume_step = 1;
-	chuvalivre.load("telhado.ogg");
+	chuvalivre.load(AUDIO_DIR + "telhado.ogg");
 	chuvalivre.volume = -100;
 	chuvalivre.load("rain" + random(1, 12) + ".ogg");
 	chuvalivre.volume = -100;
-	windlivre.load("silence.ogg");
+	windlivre.load(AUDIO_DIR + "silence.ogg");
 	windlivre.volume = -100;
 	windlivre.load("wind" + random(1, 5) + ".ogg");
 	windlivre.volume = -100;
-	nightlivre.load("silence.ogg");
+	nightlivre.load(AUDIO_DIR + "silence.ogg");
 	nightlivre.volume = -100;
 	nightlivre.load("night" + random(2, 4) + ".ogg");
 	nightlivre.volume = -100;
@@ -423,7 +417,7 @@ void main() {
 	} else {
 		overrun = true;
 		sound enterfake;
-		enterfake.load("menuenter.ogg");
+		enterfake.load(AUDIO_DIR + "menuenter.ogg");
 		enterfake.play();
 		speak("Ok. Using " + soundcardname);
 		mainmenu();
@@ -1718,7 +1712,7 @@ void telephonemenu() {
 		string telefonar = tel.input("");
 		can_move = false;
 		sound s;
-		s.load("telefone.ogg");
+		s.load(AUDIO_DIR + "telefone.ogg");
 		int a = random(2, 9);
 		for (int i = 0; i < a; i++) {
 			s.play();

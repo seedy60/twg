@@ -10,7 +10,7 @@
 		string[] ms;
 		get_characters();
 		sound phonecaiu;
-		phonecaiu.load("phone2.ogg");
+		phonecaiu.load(AUDIO_DIR + "phone2.ogg");
 		while (true) {
 			wait(5);
 			mainloop();

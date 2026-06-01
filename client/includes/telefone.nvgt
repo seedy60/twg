@@ -10,7 +10,7 @@
 		string[] ms;
 		get_characters();
 		sound telefonecaiu;
-		telefonecaiu.load("telefone2.ogg");
+		telefonecaiu.load(AUDIO_DIR + "telefone2.ogg");
 		p.play_stationary("telefonetirandogancho.ogg", false);
 		send_reliable(peer_id, "draw telefonetirandogancho.ogg", 7);
 		while (true) {

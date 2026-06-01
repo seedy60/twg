@@ -79,7 +79,7 @@ class sound_pool_item {
 		extra_data = "";
 	}
 	bool load() {
-		if (!this.memory) return handle.load(filename, @packfile != null ? @packfile : @sound_default_pack);
+		if (!this.memory) return handle.load(AUDIO_DIR + filename, @packfile != null ? @packfile : @sound_default_pack);
 		return handle.load(filename, filename.length());
 	}
 	/*

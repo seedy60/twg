@@ -96,7 +96,7 @@ if (ztrackx != -1 and ztracky != -1 and ztrackz != -1 and ztracking != "") {
 	if (sleepmode == 1 and sleeptimer.elapsed >= 1000) {
 		sleeptimer.restart();
 		sleepmode = 0;
-		sleeping.load("sleeping.ogg");
+		sleeping.load(AUDIO_DIR + "sleeping.ogg");
 		sleeping.play_looped();
 	}
 	if (sleepmode == 0 and snoretimer.elapsed >= 5241) {

@@ -246,8 +246,7 @@ void netloop() {
 					int y = string_to_number(parsed[2]);
 					int z = string_to_number(parsed[3]);
 					string map = parsed[4];
-					pack@ pf = @sndpack;
-					if (pf.file_exists((get_tile_at(x, y, z) + "trip.ogg"))) {
+					if (file_exists(AUDIO_DIR + get_tile_at(x, y, z) + "trip.ogg")) {
 						if (get_tile_at(me.x, me.y, me.z) != "chair") {
 							rvp.play_stationary(get_tile_at(x, y, z) + "trip.ogg", false);
 							send_reliable(peer_id, "draw " + get_tile_at(x, y, z) + "trip.ogg", 7);
@@ -934,7 +933,7 @@ void netloop() {
 					fade_pool(musicpool, -100, 10);
 					fade_pool(signpool, -100, 10);
 					fade_pool(itempool, -100, 10);
-					sleepstart.load("sleepstart.ogg");
+					sleepstart.load(AUDIO_DIR + "sleepstart.ogg");
 					sleepstart.play();
 					pause_all_sources();
 					pause_all_musics();
@@ -1010,7 +1009,7 @@ void netloop() {
 				} else if (parsed[0] == "phone") {
 					string telefonar = fone.input("");
 					sound s;
-					s.load("telefone.ogg");
+					s.load(AUDIO_DIR + "telefone.ogg");
 					int a = random(2, 9);
 					for (int i = 0; i < a; i++) {
 						s.play();
@@ -1678,7 +1677,7 @@ void netloop() {
 					string mn = mdic.get_value("map");
 					string sndd = mdic.get_value("soundname");
 					string alt_snd = mdic.get_value("alt_snd");
-					if (@sndpack != null && alt_snd != "" && !sndpack.file_exists(sndd)) sndd = alt_snd;
+					if (alt_snd != "" && !file_exists(AUDIO_DIR + sndd)) sndd = alt_snd;
 					int range = stn(mdic.get_value("range", "0"));
 					int s = rvp.play_3d(sndd, lx, ly, lz, x, y, z, calculate_theta(facing), false);
 					rvp.update_sound_range_3d(s, 0, range, 0, range, 0, range);
@@ -1694,7 +1693,7 @@ void netloop() {
 					vector m1(stn(m1s[0]), stn(m1s[1]), stn(m1s[2]));
 					vector m2(stn(m2s[0]), stn(m2s[1]), stn(m2s[2]));
 					string alt_snd = mdic.get_value("alt_snd");
-					if (@sndpack != null && alt_snd != "" && !sndpack.file_exists(sndd)) sndd = alt_snd;
+					if (alt_snd != "" && !file_exists(AUDIO_DIR + sndd)) sndd = alt_snd;
 					int range = stn(mdic.get_value("range", "0"));
 					int s = rvp.play_3d(sndd, lx, ly, lz, m1.x, m1.y, m1.z, facing, false);
 					rvp.update_sound_range_3d(s, 0, m2.x + range - m1.x + range, 0, m2.y - m1.y + range, 0, m2.z - m1.z + range);
