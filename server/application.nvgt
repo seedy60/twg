@@ -1,11 +1,11 @@
 #include "includes/appinfo.nvgt"
 class application: appinfo {
-	string website = "https://uw.posix.live";
+	string website = "https://github.com/seedy60/twg";
 	application() {
 		super();
-		this.name = "Ultra World";
+		this.name = "Seediffusion's Ultra World";
 		this.shortname = "UW";
 		this.status = "";
-		this.version = "2518.1";
+		this.version = "2518.3";
 	}
 }//
