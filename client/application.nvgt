@@ -7,6 +7,6 @@ class application: appinfo {
 		this.name = "Seediffusion's Ultra World";
 		this.shortname = "UW";
 		this.status = "";
-		this.version = "2518.3";
+		this.version = "2518.4";
 	}
 }//
