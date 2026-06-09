@@ -1373,7 +1373,7 @@ bool drawwep(string w, player@ p) {
 			p.firetimer = 460;
 			p.weapon_ammos = 0;
 			p.weapon_ammo_type = "7.62mm_ammo";
-			p.weapon_copasity = 200;
+			p.weapon_copasity = 2000;
 			send_reliable(p, w, 0);
 			send_reliable(p, "rapid", 0);
 		}
