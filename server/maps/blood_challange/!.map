@@ -1,0 +1,107 @@
+mapname:blood_challange
+minx:0
+maxx:0
+miny:0
+maxy:300
+minz:0
+maxz:500
+owner:powermon
+starting_point:0:0:0:0:5:5
+deathpoint:0:0:0:0:5:5
+litem:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+tile:0:0:0:300:0:0:hazard
+tile:0:0:0:0:0:5:bathtub
+tile:0:0:5:5:6:10:hardwood
+zone:0:0:0:300:0:500:the blood challenge
+zone:0:0:0:0:0:10:press enter to read a sign!:trackme
+tile:0:0:0:0:5:10:bathtub
+src:0:0:0:300:0:15:-10:100:fire2.ogg
+tile:0:0:11:14:9:11:rocks
+tile:0:0:20:20:11:15:hay
+tile:0:0:26:26:15:20:beam
+tile:0:0:30:30:23:30:marble
+tile:0:0:32:32:33:35:bathtub
+tile:0:0:40:40:35:35:bathtub3
+tile:0:0:40:41:40:42:branch
+tile:0:0:49:49:42:45:marble2
+tile:0:0:50:50:49:50:bathtub
+tile:0:0:53:53:54:54:bleacher
+tile:0:0:54:54:57:58:bare
+tile:0:0:55:55:62:65:pipe
+tile:0:0:60:60:66:67:grass3
+tile:0:0:63:63:70:70:roof
+tile:0:0:70:70:70:71:thickforrest
+tile:0:0:75:75:72:75:chair
+zone:0:0:75:75:71:80:resting zone, prepare! upcoming jumps will be tough!
+tile:0:0:85:85:76:80:bare
+tile:0:0:94:94:81:84:branch
+tile:0:0:102:102:83:90:tile4
+tile:0:0:110:110:89:89:bathtub3
+tile:0:0:115:115:91:100:water
+door:0:0:115:115:100:100:0:150:150:keep it up!:0:silence.ogg:silence.ogg:dooropen24.ogg:doorclose24.ogg
+zone:0:0:115:115:100:100:press enter to move to next level:trackme
+tile:0:0:150:150:150:150:marble
+src:0:0:0:300:0:500:-5:100:windchimes2.ogg
+tile:0:0:156:157:150:152:rocks
+tile:0:0:160:160:154:160:rocks2
+tile:0:0:165:165:161:164:water3
+tile:0:0:172:172:164:170:carpet6
+tile:0:0:179:180:170:173:carpet5
+tile:0:0:185:187:173:175:carpet3
+tile:0:0:194:194:175:186:flint
+tile:0:0:200:200:187:200:ice
+tile:0:0:206:206:201:202:water2
+tile:0:0:214:214:202:220:marble2
+tile:0:0:220:220:221:222:rope
+tile:0:0:227:227:221:224:water3
+tile:0:0:235:235:224:226:tile2
+tile:0:0:241:242:227:235:rocks3
+tile:0:0:250:250:231:250:wetconcrete
+tile:0:0:260:260:220:243:tile
+tile:0:0:261:261:220:220:tile
+tile:0:0:270:270:200:213:rocks3
+tile:0:0:270:270:196:196:shortgrass
+tile:0:0:270:270:192:192:shortgrass
+tile:0:0:270:270:188:188:shortgrass
+tile:0:0:270:270:184:184:shortgrass
+tile:0:0:270:270:180:180:shortgrass
+tile:0:0:270:270:176:176:shortgrass
+tile:0:0:270:270:172:172:shortgrass
+tile:0:0:270:270:168:168:shortgrass
+tile:0:0:270:270:164:164:shortgrass
+tile:0:0:270:270:160:160:shortgrass
+tile:0:0:270:270:156:156:shortgrass
+tile:0:0:270:270:152:152:shortgrass
+tile:0:0:285:285:130:145:shortgrass
+tile:0:0:287:287:120:125:shortgrass
+tile:0:0:288:288:110:115:shortgrass
+tile:0:0:290:300:100:100:cloth
+zone:0:0:270:270:200:200:take your camra down:trackme
+zone:0:0:290:300:100:109:reward_area:trackme
+zone:0:0:300:300:100:100:press shift_enter to get your reward:trackme
+src:0:0:300:300:100:105:-7:100:fireworkloop2.ogg
+tile:0:0:290:300:1:99:wallbarrel
+tile:0:0:300:300:100:100:marble2
+safezone:0:0:0:300:0:500
+checkpoint:0:0:10
+sign:0:0:0:0:0:10:welcome traveler. ok I'll stop going all city guard on you from a heroes call and tell you the important stuff ya need to know. jump across platforms, use your camera, if you fall, you lose. that's it.:sign.ogg
+tile:0:0:81:81:74:74:marble
+automover:0:0:1:50:0:0:0:0:0:woops:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+itdoor:0:0:270:270:152:152:0:285:145:you submit 40 ice and move along:ice:40:0:silence.ogg:silence.ogg:open15.ogg:silence.ogg
+tile:0:0:280:280:120:200:wallwood
+zone:0:0:270:270:152:152:press enter to submit 40 ice to continue
+music:0:0:290:300:100:120:-5:100:musica87.ogg:1
+fire:0:0:1:300:0:0:100:200
+tile:0:0:90:90:81:81:plywood4
+checkpoint:0:0:100
+automover:0:0:151:300:90:90:0:150:150:woops:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+zone:0:0:200:200:187:210:icy ice. time to collect some?
+task_status:0:0:300:300:100:110:coins:5000000
+travelpoint:0:0:300:300:100:110:main_map:5:1:1:thanks for trying blood challange! do come back!:silence.ogg:silence.ogg:win.ogg
+tile:0:0:1:1:0:8:wallwood13
+tile:0:0:151:300:90:90:hazard
+fire:0:0:151:300:90:90:100:200
+automover:0:0:51:150:0:0:0:50:50:woops:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg

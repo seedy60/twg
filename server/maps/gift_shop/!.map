@@ -1,0 +1,28 @@
+mapname:gift_shop
+minx:0
+maxx:21
+miny:0
+maxy:21
+minz:0
+maxz:20
+tile:0:21:0:21:0:0:hardwood3
+owner:kannadiga
+litem:0
+starting_point:1:1:0:0:0:0
+deathpoint:0:21:0:21:0:0
+tile:0:0:0:21:0:20:wallwood19
+tile:21:21:0:21:0:20:wallwood19
+tile:1:21:21:21:0:20:wallglass5
+tile:0:21:0:0:0:20:wallwood19
+tile:10:10:0:0:0:20:wallwooddoor
+zone:1:20:1:20:0:20:a small gift shop.
+zone:10:10:1:1:0:20:exit door.:trackme
+item:1:20:2:20:0:0:35000:5:gift
+night:none
+rain:none
+wind:none
+travelpoint:10:10:1:1:0:20:a_noisy_city:163:129:0:hint, you can convert gifts into paid!gifts.:silence.ogg:door_passage.ogg:silence.ogg
+reinforcement:0:10000000
+
+src:1:20:1:20:0:20:-5:100:household_room.ogg:1
+music:0:21:0:21:0:20:-30:100:menumus60.ogg

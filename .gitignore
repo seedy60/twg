@@ -3,7 +3,6 @@ pre/**
 !pre/README.md
 # Client
 client/logs/**
-client/maps/**
 client/voices/**
 client/uw/**
 client/uw_*/
@@ -27,9 +26,7 @@ server/fridges/**
 server/houses/**
 server/lockers/**
 server/logs/**
-server/maps/**
 # Exclude main though
-!server/maps/main_map/**
 server/microwaves/**
 server/motd/**
 server/playerstores/**

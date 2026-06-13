@@ -1,0 +1,148 @@
+mapname:beautiful_house
+minx:0
+maxx:200
+miny:0
+maxy:200
+minz:0
+maxz:200
+tile:0:200:0:200:0:0:grass4
+owner:fifi
+owner:rishi
+litem:0
+starting_point:50:50:0:0:0:0
+deathpoint:50:50:0:0:0:0
+tile:30:90:30:90:9:9:carpet8
+tile:29:29:30:90:0:50:wallbuilding
+tile:29:91:91:91:0:50:wallbuilding
+tile:91:91:30:90:0:50:wallbuilding
+tile:29:91:29:29:0:50:wallbuilding
+litem:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+music:0:200:0:200:0:8:0:99:staffmus3.ogg:1
+src:0:200:0:200:0:8:-5:99:birds6.ogg:1
+zone:0:200:0:200:0:200:Garden of Eternal Love
+tile:110:150:30:70:0:0:mud4
+tile:120:140:40:60:0:0:water10:trackme
+zone:110:150:30:70:0:5:Path of Promise
+zone:120:140:40:60:0:5:Serenity of Love Pond
+sign:120:140:40:60:0:0:A symbol of two souls who found peace in each other. Beneath the quiet sky, this pond rests — calm and pure, just like the love shared between two hearts across distance and time. The ripples tell a story of devotion, of love that doesn’t need loud words to be felt. Every reflection on the water carries a memory — of laughter, of waiting, of gentle faith that love will always find its way home. This is where love breathes in peace, where Fifi and Rishi’s hearts meet — not in noise, but in the quiet beauty of understanding.:silence.ogg
+src:120:140:40:60:0:6:-5:99:lake.ogg
+sign:110:119:40:60:0:0:A gentle trail that leads to the Serenity of Love Pond, where every step carries a silent vow between two hearts. This path tells the story of love’s journey — not always smooth, sometimes muddy, but always beautiful. Each footprint whispers a promise of faith, patience, and forever. It is where Fifi and Rishi’s love walked through distance and time, finding its way to peace, to home, and to each other.:silence.ogg
+tile:0:90:18:28:0:0:concrete11
+zone:0:90:18:28:0:8:in front of the house
+tile:126:134:19:27:3:3:metal18
+zone:125:135:18:28:0:6:near the table
+zone:126:134:19:27:0:2:under the table
+zone:126:134:19:27:3:9:table
+sign:126:134:19:27:3:3:An elegant marble table stands by the pond, reflecting the shimmering water. This is where Rishi and Fifi often share afternoon tea, gentle laughter, and endless conversations, accompanied by the soft breeze and the fragrance of jasmine in the garden.:silence.ogg
+tile:129:131:16:17:0:2:wallbank
+tile:130:130:17:17:1:1:chair:trackme
+tile:129:129:16:17:2:2:metal5
+tile:130:130:17:17:2:2:air
+tile:130:131:16:16:2:2:metal5
+tile:131:131:17:17:2:2:metal5
+zone:129:131:16:17:1:8:Eternal Embrace Chair
+sign:130:130:17:17:1:1:The Eternal Embrace Chair rests by the pond, waiting patiently beneath the sky that both Fifi and Rishi share. Though miles apart, their hearts meet here — where love is felt more deeply than touch, and distance becomes just another proof of eternity. It is a place where time pauses, and their souls sit together, forever embraced beyond borders.:silence.ogg
+door:50:60:28:28:0:0:55:30:9:you entered the house:200:silence.ogg:silence.ogg:entering_house4.ogg:exiting_house4.ogg
+door:50:60:30:30:9:9:55:28:0:you leave the house:200:silence.ogg:silence.ogg:entering_house4.ogg:exiting_house4.ogg
+tile:50:60:29:29:0:15:walldoor
+zone:30:90:30:90:9:15:Rishi and Fifi's house
+zone:50:60:28:30:0:15:entrance and exit of the house:trackme
+tile:45:65:45:65:9:9:carpet9
+tile:45:65:44:44:9:16:wallbuilding3
+tile:44:44:44:65:9:16:wallbuilding3
+tile:44:65:66:66:9:16:wallbuilding3
+tile:66:66:44:66:9:16:wallbuilding3
+door:55:55:43:43:9:9:55:45:9:you entered in the bedroom!:1500:silence.ogg:silence.ogg:door50open.ogg:door50close.ogg
+door:55:55:45:45:9:9:55:43:9:you leave the bedroom:1500:silence.ogg:silence.ogg:door50open.ogg:door50close.ogg
+sign:46:64:46:64:9:9:The room breathes like a living poem—soft, quiet, eternal. Moonlight spills gently across the sheets, tracing the shape of dreams shared between Rishi and Fifi. Their laughter lingers in the air, woven with the faint scent of roses and rain. Here, time forgets to move; only heartbeats speak. It is a world made of whispers, warmth, and promise—a sacred place where two souls rest, not in silence, but in love.:silence.ogg
+zone:45:65:45:65:9:15:bedroom
+zone:55:55:43:45:9:15:bedroom door:trackme
+zone:132:132:17:17:0:8:chair
+tile:132:132:17:17:0:1:chair:trackme
+tile:128:128:17:17:0:1:chair:trackme
+zone:128:128:17:17:0:8:chair
+music:45:65:45:65:9:16:0:99:musiccalm7.ogg:1
+tile:60:65:60:65:9:10:wallbank
+tile:60:65:60:65:10:10:cloth
+zone:59:65:59:65:9:16:near the bed
+zone:60:65:60:65:10:16:comfortable bed
+sign:60:65:60:65:10:10:The bed in Rishi and Fifi’s room is more than a place to rest—it is a haven where love finds its quiet rhythm. Soft white sheets hold the warmth of their shared dreams, and the scent of comfort lingers like a tender memory. The pillows remember every whisper, every laugh, every moment when their hearts beat as one. Bathed in gentle light, the bed becomes a silent witness to their closeness—a sacred space where the world fades away, and only love remains.:silence.ogg
+src:45:65:45:65:9:16:0:99:room4.ogg:1
+tile:59:59:65:65:9:10:walltable
+zone:58:59:64:65:9:16:near the bedside table
+zone:59:59:65:65:10:16:bedside table
+tile:59:59:65:65:10:10:hardwood3
+tile:50:60:23:28:0:0:carpet5
+tile:55:55:44:44:9:16:wallwooddoor
+src:30:90:30:90:9:16:0:99:calm.ogg:1
+trashcan:130:130:16:16:1:1
+tile:127:133:19:19:1:1:walltable
+tile:126:126:26:26:0:1:walltable
+tile:126:134:19:27:1:2:walltable
+tile:134:134:27:27:0:0:walltable
+tile:126:126:19:19:0:0:walltable
+tile:134:134:26:26:0:0:walltable
+tile:134:134:19:19:0:0:walltable
+tile:55:55:43:43:9:9:carpet5
+tile:55:55:45:45:9:9:carpet5
+door:45:45:55:55:9:9:43:55:9:you enter the bathroom:1100:silence.ogg:silence.ogg:door24open.ogg:door24close.ogg
+door:43:43:55:55:9:9:45:55:9:You leave the bathroom:1100:silence.ogg:silence.ogg:door24open.ogg:door24close.ogg
+zone:33:43:50:60:9:17:bathroom
+tile:33:43:50:60:9:9:cement
+tile:45:45:55:55:9:9:carpet5
+tile:43:43:55:55:9:9:carpet5
+zone:43:45:55:55:9:16:bathroom door:trackme
+tile:44:44:55:55:9:15:wallscreen
+tile:32:32:50:60:9:15:wallstone
+tile:32:43:49:49:9:15:wallstone
+tile:32:43:61:61:9:15:wallstone
+src:33:43:50:60:9:17:0:99:bathroom.ogg:1
+tile:30:90:30:90:8:8:wall
+tile:38:38:50:60:9:15:wallglass5
+tile:33:37:55:55:9:15:wallstone
+door:37:37:52:52:9:9:39:52:9:you leave the toilet:1000:silence.ogg:silence.ogg:door33open.ogg:door33close.ogg
+door:39:39:52:52:9:9:37:52:9:you enter the toilet:1000:silence.ogg:silence.ogg:door33open.ogg:door33close.ogg
+tile:39:39:52:52:9:9:carpet5
+tile:37:37:52:52:9:9:carpet5
+zone:37:39:52:52:9:15:door to the toilet:trackme
+tile:33:35:53:54:9:11:wallstone2
+tile:34:34:53:53:10:11:air
+tile:34:34:53:53:10:10:water5
+tile:33:33:53:54:11:11:metal5
+tile:34:35:54:54:11:11:metal5
+tile:35:35:53:53:11:11:metal5
+zone:33:35:52:54:9:17:sink
+washbasin:34:34:52:54:9:11
+tile:34:34:50:51:9:11:wallpole
+tile:34:34:51:51:11:11:air
+tile:34:34:51:51:10:10:metalpipe
+toilet:34:34:51:51:10:10
+zone:33:34:50:51:9:17:toilet
+tile:34:34:50:50:11:11:metalpipe
+tile:39:39:58:58:9:9:carpet5
+door:39:39:58:58:9:9:37:58:9:You enter the shower room:1500:silence.ogg:silence.ogg:door69open.ogg:door69close.ogg
+tile:33:37:56:60:9:9:wetconcrete
+shower:33:36:56:60:9:9
+door:37:37:58:58:9:9:39:58:9:you leave the shower room:1500:silence.ogg:silence.ogg:door69open.ogg:door69close.ogg
+zone:33:37:56:60:9:9:shower room
+zone:37:39:58:58:9:15:shower room door:trackme
+music:33:37:56:60:9:15:0:99:musiccalm3.ogg:1
+music:33:37:50:54:9:17:0:99:musica31.ogg:1
+music:39:43:50:60:9:15:0:99:musica86.ogg:1
+zone:52:52:65:65:9:15:clock
+tile:52:52:65:65:9:15:metal6
+clock:52:52:65:65:9:9:the time is
+src:52:52:65:65:9:16:-10:99:clock3.ogg
+safezone:30:90:30:90:9:50
+zone:45:45:65:65:9:15:trashcan
+tile:65:65:59:59:9:9:plastic
+trashcan:65:65:59:59:9:9
+zone:65:65:59:59:9:20:on the bedside trashcan
+sign:65:65:59:59:9:9:Hi, %name%! This trashcan is build after seing ultra world staff members over kindness to give us some useless items. You feel free to trash them here if you don't need anything.:silence.ogg
+oven:64:64:59:59:9:9
+tile:64:64:59:59:9:9:metal6
+sign:64:64:59:59:9:9:Hi, %name%. This oven was built for those who are too lazy to move out of their bedroom. It sounds a bit strange, but enjoy!:silence.ogg
+zone:64:64:59:59:9:16:on the bedside oven

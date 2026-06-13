@@ -1,0 +1,18 @@
+mapname:music_room
+minx:0
+maxx:20
+miny:0
+maxy:20
+minz:0
+maxz:20
+tile:0:20:0:20:0:0:carpet2
+owner:NicoDiAngelo
+litem:1
+starting_point:0:20:0:20:0:0
+deathpoint:0:20:0:20:0:0
+zone:0:20:0:20:0:20:music room
+tile:0:0:0:0:0:0:cement2
+zone:0:0:0:0:0:20:exit_door:trackme
+travelpoint:0:0:0:0:0:10:main_map:5:10:20:exited:silence.ogg:silence.ogg:exiting_sliding_door.ogg
+
+night:none.ogg

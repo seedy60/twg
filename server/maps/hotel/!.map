@@ -1,0 +1,104 @@
+mapname:hotel
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:300
+tile:0:100:0:100:0:0:carpet
+owner:said99
+litem:1
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+tile:0:5:90:100:0:0:wood4
+tile:0:5:90:90:0:300:wallglass3
+tile:5:5:91:100:0:300:wallglass5
+tile:0:100:0:100:100:100:carpet
+tile:0:100:0:100:200:200:carpet
+tile:0:100:0:100:300:300:carpet
+zone:0:5:90:100:0:300:Elevator
+zone:4:4:100:100:0:300:a
+zone:3:3:100:100:0:300:b
+zone:2:2:100:100:0:300:c
+zone:1:1:100:100:0:300:d
+zone:0:0:100:100:0:300:e
+door:4:4:100:100:0:300:4:100:0:going:100:silence.ogg:elevator_inside.ogg:elevator_start2.ogg:elevator_stop2.ogg
+door:3:3:100:100:0:300:3:100:100:going:100:silence.ogg:elevator_inside.ogg:elevator_start2.ogg:elevator_stop.ogg
+door:2:2:100:100:0:300:2:100:200:going:100:silence.ogg:elevator_inside.ogg:elevator_start2.ogg:elevator_stop.ogg
+door:1:1:100:100:0:300:1:100:300:going:100:silence.ogg:elevator_inside.ogg:elevator_start2.ogg:elevator_stop.ogg
+src:0:5:90:100:0:300:0:100:elevator_inside.ogg:1
+door:0:5:91:91:0:0:2:89:0:ok:100:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+zone:0:5:89:91:0:300:Elevator door
+door:0:5:89:89:0:0:2:91:0:ok:100:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+zone:0:100:0:88:0:7:Hotel reception room
+src:0:100:0:88:0:7:-5:100:hallway.ogg:1
+tile:30:50:30:50:0:4:wallwood16
+tile:30:50:30:50:5:5:wood4
+zone:30:50:30:50:0:5:The large table
+tile:30:50:0:2:0:4:wallsofa
+tile:30:50:0:2:5:5:carpet3
+zone:29:51:0:3:0:7:Big and beautiful sofa
+tile:0:5:90:90:100:200:wallglass5
+door:0:5:89:89:100:100:2:91:100:ok:100:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+tile:5:5:91:100:100:200:wallglass
+door:0:5:91:91:100:100:2:89:100:ok:100:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:0:5:91:91:200:200:2:89:200:ok:100:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:0:5:89:89:200:200:2:91:200:ok:100:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+tile:10:10:0:20:200:220:wallwood19
+tile:0:9:20:20:200:220:wallwood19
+tile:5:5:19:21:200:200:carpet5
+tile:5:5:20:20:200:220:wallwooddoor
+door:5:5:21:21:200:200:5:19:200:ok:100:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+door:5:5:19:19:200:200:5:21:200:ok:100:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:5:5:0:5:200:220:wallwood19
+tile:0:5:5:5:200:220:wallwood19
+door:2:2:6:6:200:220:2:4:200:ok:100:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+door:2:2:4:4:200:200:2:6:200:ok:100:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+zone:0:10:0:20:200:207:Room A 1
+src:0:100:0:20:200:207:0:75:musiccalm6.ogg:1
+tile:6:9:0:5:203:203:carpet9
+tile:6:9:0:5:200:202:wallsofa
+bed:6:9:0:5:203:203
+washbasin:0:0:4:4:200:200
+tile:0:0:4:4:200:200:water
+tile:4:4:0:0:200:200:metal5
+toilet:4:4:0:0:200:200
+shower:0:0:0:0:200:200
+tile:0:0:0:0:200:200:bathtub2
+litem:0
+tile:6:6:10:19:200:220:wallwood19
+night:none.ogg
+wind:none.ogg
+tile:7:9:10:10:200:220:wallwood19
+tile:8:8:10:10:200:220:wallwooddoor
+door:8:8:9:9:200:200:8:11:200:Go to the kitchen:100:silence.ogg:silence.ogg:door1open.ogg:silence.ogg
+tile:7:9:18:19:200:200:metal6
+oven:7:9:18:19:200:200
+door:8:8:11:11:200:200:8:9:200: :100:silence.ogg:silence.ogg:silence.ogg:door1close.ogg
+tile:11:21:20:20:200:220:wallwood19
+tile:16:16:19:21:200:200:carpet5
+tile:16:16:20:20:200:220:wallwooddoor
+door:16:16:21:21:200:220:16:19:200:going A 2:100:silence.ogg:silence.ogg:door2open.ogg:silence.ogg
+door:16:16:19:19:200:220:16:21:200:ok:100:silence.ogg:silence.ogg:silence.ogg:door2close.ogg
+tile:21:21:0:19:200:220:wallwood19
+zone:11:21:0:19:200:207:A2,  room 
+tile:11:20:0:5:200:202:wallsofa
+tile:11:20:0:5:203:203:carpet7
+bed:11:21:0:5:203:203
+washbasin:11:13:17:19:200:200
+tile:11:13:17:19:200:200:water2
+zone:11:13:17:19:200:200:washbasin
+shower:19:19:20:20:200:200
+tile:20:20:19:19:200:200:bathtub2
+tile:0:50:0:50:100:100:shortgrass
+src:0:50:0:50:100:100:0:105:birds37.ogg
+zone:0:50:0:50:100:100:Hotel Garden
+
+starting_point:0:0:0:0:0:0
+tile:20:20:17:17:200:200:metal5
+toilet:20:20:17:17:200:200
+zone:20:20:17:17:200:200:Toilet
+owner:anas99
+owner:abo_victor
+src:7:9:18:19:200:200:0:100:fireroar2.ogg:1
+toilet:20:20:17:17:20:20

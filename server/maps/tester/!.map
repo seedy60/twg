@@ -1,0 +1,15 @@
+mapname:tester
+minx:0
+maxx:50
+miny:0
+maxy:50
+minz:0
+maxz:50
+tile:0:50:0:50:0:0:carpet
+owner:shon
+litem:1
+starting_point:0:50:0:50:0:0
+deathpoint:0:50:0:50:0:0
+night:none.ogg
+
+reverb:0:30:0:30:0:30:p:1.0:1.0:0.8:0.5:1.0

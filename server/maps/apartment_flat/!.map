@@ -1,0 +1,155 @@
+mapname:apartment_flat
+minx:-1
+maxx:81
+miny:-1
+maxy:81
+minz:-1
+maxz:101
+tile:-1:81:-1:81:-1:101:wall
+owner:subkitty
+litem:0
+rain:telha2.ogg
+night:none.ogg
+wind:none.ogg
+starting_point:55:55:0:0:0:0
+deathpoint:55:55:0:0:0:0
+tile:0:80:0:80:0:100:air
+tile:0:80:0:80:0:0:cement3
+zone:0:80:0:80:0:100:apartment
+tile:0:80:0:4:0:100:wall
+tile:50:60:0:3:0:100:air
+tile:50:60:0:3:0:0:concrete2
+zone:50:60:0:3:0:100:entryway
+tile:55:55:0:0:0:0:carpet5
+zone:55:55:0:0:0:10:the apartment exit:trackme
+music:50:60:0:3:0:20:0:100:musica73.ogg:1
+tile:54:56:3:3:0:0:marble6
+zone:54:56:3:3:0:20:apartment door:trackme
+pdoor:54:56:3:3:0:10:55:5:0:as you put your hand on the doornob,  a screen on the door lights up. ritten in bold letters. please enter the security password. a keyboard attached just beside the screen:50:0:silence.ogg:silence.ogg:entering_house5.ogg:silence.ogg
+tile:0:80:5:80:0:0:concrete12
+door:54:56:5:5:0:10:55:3:0:you turn the doornob and walk out of the apartment hallway:0:silence.ogg:silence.ogg:exiting_house4.ogg:silence.ogg
+tile:54:56:5:5:0:0:marble6
+tile:59:59:5:80:-1:101:wallwood10
+tile:60:80:5:80:0:0:hardwood3
+zone:60:80:5:80:0:100:kitchen
+zone:52:58:5:80:0:50:hallway
+zone:54:56:5:5:0:10:door leading out of the apartment hallway
+tile:51:51:5:80:-1:101:wallwood10
+tile:58:58:19:21:0:0:marble5
+tile:60:60:19:21:0:0:marble5
+zone:58:58:19:21:0:10:door to kitchen:trackme
+zone:60:60:19:21:0:10:door leading out of the kitchen
+door:58:58:19:21:0:10:60:20:0:,:100:silence.ogg:silence.ogg:door18open.ogg:silence.ogg
+door:60:60:19:21:0:10:58:20:0:,:100:silence.ogg:silence.ogg:door18close.ogg:silence.ogg
+music:60:80:5:80:0:20:0:100:musica77.ogg:1
+tile:76:80:50:80:0:2:walltable2
+tile:76:80:50:80:3:3:floor
+zone:76:80:50:80:3:10:kitchen counter
+tile:78:80:60:70:3:3:diamond
+zone:78:80:60:70:3:10:stove
+oven:78:80:60:70:3:10
+src:78:80:60:70:3:10:-5:100:Deep_Fryer.ogg
+tile:80:80:80:80:3:3:metal22
+zone:80:80:80:80:3:10:microwave
+tile:60:62:77:80:0:10:wallmedal4
+tile:61:61:78:79:1:9:air
+tile:61:61:78:79:0:0:diamond
+zone:61:61:76:78:0:10:fridge doors
+zone:61:61:79:79:0:10:fridge
+door:61:61:76:76:0:10:61:78:0:,:0:silence.ogg:silence.ogg:silence.ogg:open_fridge.ogg
+door:61:61:78:78:0:10:61:76:0:,:0:silence.ogg:silence.ogg:silence.ogg:close_fridge.ogg
+tile:80:80:54:56:3:3:hay
+trashcan:80:80:54:56:3:10
+zone:80:80:54:56:0:10:trashcan
+tile:76:76:80:80:3:3:wallstone2
+tile:76:76:80:80:4:4:water7
+zone:76:76:80:80:4:10:sink
+washbasin:76:76:80:80:4:10
+zone:65:75:35:45:0:10:cushions around the dining table
+tile:65:75:35:45:0:0:carpet9
+tile:66:74:36:44:0:0:walltable
+tile:66:74:36:44:1:1:wood10
+zone:66:74:36:44:1:10:dining table
+tile:76:80:5:10:0:2:walltable
+tile:76:80:5:10:3:3:wood4
+zone:76:80:5:10:3:10:coffee table
+music:52:58:5:80:0:20:0:100:musica44.ogg:1
+tile:0:50:5:40:0:0:carpet8
+zone:0:50:5:40:0:20:bedroom
+tile:50:50:19:21:0:0:marble5
+tile:52:52:19:21:0:0:marble5
+zone:52:52:19:21:0:10:door to bedroom
+zone:50:50:19:21:0:10:door leading out of the bedroom
+door:52:52:19:21:0:10:50:20:0:,:100:silence.ogg:silence.ogg:silence.ogg:door14open.ogg
+door:50:50:19:21:0:10:52:20:0:,:100:silence.ogg:silence.ogg:silence.ogg:door14close.ogg
+tile:0:12:5:10:0:2:wallcloth
+tile:0:12:5:10:3:3:cloth
+zone:0:12:5:10:3:10:bed
+bed:0:12:5:10:3:10
+tile:0:2:11:13:0:1:walltable
+tile:0:2:11:13:2:2:wood4
+zone:0:2:11:13:2:10:side table
+tile:0:0:11:11:2:2:diamond
+zone:0:0:11:11:2:10:minifridge
+tile:0:0:13:13:2:2:metal22
+zone:0:0:13:13:2:10:calendar
+calendar:0:0:13:13:2:10:today is
+tile:2:2:13:13:2:2:paper
+zone:2:2:13:13:2:10:clock
+clock:2:2:13:13:2:10:right now its
+tile:2:2:11:11:2:2:water5
+zone:2:2:11:11:2:10:waterpot
+zone:0:0:5:5:7:20:fan
+zone:1:1:5:5:7:20:steem
+zone:2:2:5:5:7:20:air_conditioner
+tile:0:2:5:5:7:7:pavement
+zone:0:2:5:5:8:20:swichboard
+tile:20:30:5:5:0:2:wallclothing
+tile:20:30:5:5:3:3:chair
+zone:20:30:5:5:3:10:a ro of chairs
+tile:0:0:20:30:0:2:wallclothing
+tile:0:0:20:30:3:3:chair
+zone:0:0:20:30:3:10:another ro of chairs
+tile:33:37:13:17:0:0:wallstone2
+tile:33:37:13:17:1:1:wood4
+zone:33:37:13:17:1:10:coffee table
+music:0:50:5:40:0:20:0:100:updating3.ogg:1
+tile:0:52:41:59:-1:101:wallwood10
+tile:25:35:39:40:0:3:wallsofa
+tile:25:35:39:40:1:10:air
+tile:25:35:39:40:1:1:cloth
+zone:25:35:39:40:1:10:sofa:trackme
+tile:25:35:40:40:1:2:wallbody
+tile:25:35:40:40:3:3:carpet9
+zone:25:35:40:40:3:10:back of the sofa
+tile:35:35:39:39:1:1:wallbody
+tile:35:35:39:39:2:2:marble4
+tile:25:25:39:39:1:1:wallbody
+tile:25:25:39:39:2:2:marble4
+zone:25:25:39:39:2:5:armrest of sofa
+zone:35:35:39:39:2:5:armrest of sofa
+tile:0:50:60:80:0:0:marble3
+zone:0:50:60:80:0:20:office area
+tile:1:5:60:80:0:2:walltable
+tile:1:5:60:80:3:3:wood4
+zone:1:5:60:80:3:10:worktable
+zone:0:0:60:80:0:2:chair
+tile:0:0:60:80:0:2:chair
+tile:0:0:60:80:3:3:carpet9
+zone:0:0:60:80:3:10:cushions
+tile:32:36:76:80:0:10:wallmetal20
+tile:33:35:77:80:0:9:air
+tile:33:35:77:80:0:0:metal12
+zone:33:35:75:77:0:10:safe doors, protected by advance security
+zone:33:35:78:80:0:10:safe
+zone:33:33:80:80:0:10:locker1
+zone:34:34:80:80:0:10:locker2
+zone:35:35:80:80:0:10:locker3
+src:33:35:77:80:0:10:-5:100:fridge4.ogg:1
+pdoor:33:35:75:75:0:10:34:77:0:enter the access password, please:6900:0:silence.ogg:silence.ogg:silence.ogg:open_microwave.ogg
+pdoor:33:35:77:77:0:10:34:75:0:enter the access password, please:61900:0:silence.ogg:silence.ogg:silence.ogg:close_microwave.ogg
+tile:5:5:40:40:-1:-1:pavement
+tile:10:10:60:60:-1:-1:pavement
+pdoor:5:5:40:40:-1:-1:10:60:2:,:69100:0:silence.ogg:silence.ogg:silence.ogg:entering_stone_door.ogg
+automover:10:10:60:60:-1:-1:5:35:2:,:0:silence.ogg:silence.ogg:silence.ogg:exiting_stone_door.ogg
+music:0:50:60:80:0:20:0:100:maxkomusic39.ogg:1

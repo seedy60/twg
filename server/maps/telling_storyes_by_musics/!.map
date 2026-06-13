@@ -1,0 +1,16 @@
+mapname:telling_storyes_by_musics
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:100:0:0:0:0:air
+owner:arvin
+litem:1
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+
+tile:0:100:0:0:0:0:air
+tile:0:100:0:0:0:0:thickforrest:trackme

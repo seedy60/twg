@@ -1,0 +1,30 @@
+mapname:dragone_cave
+minx:-1
+maxx:50
+miny:-1
+maxy:50
+minz:-1
+maxz:50
+tile:-1:50:-1:50:0:0:cavegrounds2
+owner:kannadiga
+litem:1
+starting_point:-1:50:-1:50:0:0
+deathpoint:-1:50:-1:50:0:0
+tile:-1:-1:-1:50:-1:50:wallgrass2reverb
+tile:-1:50:-1:-1:-1:50:wallgrass2reverb
+tile:50:50:0:50:0:50:wallgrass2reverb
+tile:0:50:50:50:0:50:wallgrass2reverb
+zone:-1:50:-1:50:0:50:a dragone cave.
+zone:0:49:0:0:0:10:shift enter to go back from this dragone cave:trackme
+ai:1:50:1:50:0:0:40000:1:dragon
+travelpoint:0:50:0:0:0:0:mountain_to_go_dragon_cave:5:150:0:fortunately, you came back.:silence.ogg:silence.ogg:silence.ogg
+src:0:50:0:50:0:10:-10:100:cave5.ogg:1
+src:0:50:0:50:0:10:-15:100:fireroar1.ogg
+item_usage_restriction:0:50:0:40:0:50:conex:partner_house:small_conex:beehive:locker:fridge:microwave
+tile:0:50:0:50:-1:-1:wallwood15
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+reinforcement:0:10000000
+
+reverb:-1:50:-1:50:-1:50:dragon:1.0:1.0:0.4:0.5:1.0

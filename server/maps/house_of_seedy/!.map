@@ -1,0 +1,482 @@
+mapname:house_of_seedy
+minx:0
+maxx:80
+miny:0
+maxy:80
+minz:-1
+maxz:40
+tile:0:80:0:80:-1:-1:wall
+tile:0:80:0:80:0:0:marble3
+owner:seedy
+litem:0
+starting_point:2:2:0:0:0:0
+deathpoint:2:2:0:0:0:0
+night:none.ogg
+tile:1:3:0:8:0:0:marble4
+tile:0:0:0:11:0:39:wall
+tile:4:4:0:7:0:39:wall
+zone:1:3:0:8:0:10:entrence hallway
+zone:2:2:0:0:0:10:exit door:trackme
+src:2:2:0:0:0:10:-28:100:charm.ogg
+tile:2:2:0:0:0:0:carpet5
+tile:0:21:11:11:0:39:wall
+tile:4:21:7:7:0:39:wall
+tile:1:22:8:10:0:0:marble4
+zone:1:22:8:10:0:10:entrence hallway
+tile:22:22:9:9:0:0:entrence:trackme
+tile:22:22:8:10:0:0:marble5
+zone:22:28:0:80:0:20:hallway
+zone:22:22:8:10:0:10:house entrence
+tile:4:21:0:7:0:39:wall
+music:0:21:0:10:0:20:0:100:musical41.ogg:1
+automover:4:21:0:7:0:39:2:0:0:autocheck:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:21:12:18:0:0:concrete18
+tile:0:21:19:19:0:39:wall
+zone:0:20:12:18:0:20:storage room
+tile:21:21:11:19:0:39:wall
+tile:20:20:15:15:0:0:door:trackme
+tile:20:20:15:15:0:0:cement4
+tile:22:22:15:15:0:0:door:trackme
+tile:22:22:15:15:0:0:cement4
+door:20:20:15:15:0:10:22:15:0:exiting storage room and entering hallway:0:silence.ogg:silence.ogg:open6.ogg:close6.ogg
+door:22:22:15:15:0:10:20:15:0:exiting hallway and entering storage room:0:silence.ogg:silence.ogg:open6.ogg:close6.ogg
+usic:0:20:12:18:0:20:-5:100:musical40.ogg:1
+zone:20:22:15:15:0:10:door between storage room and hallway:trackme
+music:22:28:0:80:0:20:-6:100:musical25.ogg:1
+tile:0:20:20:60:0:0:marble7
+zone:0:20:20:60:0:20:kitchen
+music:0:20:20:60:0:20:-18:100:musicepic11.ogg:1
+wind:none.ogg
+rain:telha2.ogg
+tile:21:21:19:61:0:39:wall
+tile:19:20:20:21:0:2:wallcardboard
+tile:19:20:20:21:3:3:hay
+zone:19:20:20:21:3:10:trashcan:trackme
+trashcan:19:20:20:21:3:10
+tile:9:11:20:22:0:3:wallmetal19
+tile:9:11:20:22:4:4:puddle
+zone:9:11:20:22:4:10:washbasin:trackme
+washbasin:9:11:20:22:4:10
+tile:20:20:40:40:0:0:door:trackme
+tile:22:22:40:40:0:0:door:trackme
+tile:20:20:39:41:0:0:marble5
+tile:22:22:39:41:0:0:marble5
+zone:20:22:39:41:0:10:door between kitchen and hallway:trackme
+door:20:20:39:41:0:10:22:40:0:exiting kitchen and entering hallway:0:silence.ogg:silence.ogg:entering_house2.ogg:exiting_house2.ogg
+door:22:22:39:41:0:10:20:40:0:exiting hallway and entering kitchen:0:silence.ogg:silence.ogg:entering_house2.ogg:exiting_house2.ogg
+tile:0:5:52:61:0:10:walldiamond
+tile:0:4:53:60:1:9:air
+tile:0:4:53:60:0:0:diamond
+tile:0:0:51:51:0:0:door:trackme
+tile:0:0:53:53:0:0:door:trackme
+tile:0:0:51:51:0:0:marble5
+tile:0:0:53:53:0:0:marble5
+door:0:0:51:51:0:10:0:53:0:entering fridge area:0:silence.ogg:silence.ogg:open_microwave.ogg:close_microwave.ogg
+door:0:0:53:53:0:10:0:51:0:exiting fridge area:0:silence.ogg:silence.ogg:open_microwave.ogg:close_microwave.ogg
+zone:0:4:53:60:0:10:fridge area
+zone:0:0:51:53:0:10:door between fridge and kitchen:trackme
+tile:0:0:60:60:0:0:concrete16
+zone:0:0:60:60:0:9:fridge1
+tile:2:2:60:60:0:0:concrete16
+zone:2:2:60:60:0:9:fridge2
+tile:4:4:60:60:0:0:concrete16
+zone:4:4:60:60:0:9:fridge3
+src:0:4:53:60:0:9:-10:100:fridge5.ogg:1
+tile:0:6:25:45:0:2:wallcounter
+tile:0:6:25:45:3:3:hardwood7
+zone:0:6:25:45:3:10:countertop:trackme
+tile:0:3:31:39:4:4:steel2
+zone:0:3:31:39:4:10:stove:trackme
+src:0:3:31:39:4:10:-7:100:Deep_Fryer.ogg
+zone:0:3:31:39:3:3:under the stove
+oven:0:3:31:39:4:10
+tile:0:2:41:43:3:6:wallscreen
+tile:3:3:42:42:3:3:diamond
+tile:1:1:42:42:3:3:diamond
+tile:0:0:42:42:3:3:microwave
+tile:2:2:42:42:3:3:elevation_point
+automover:2:2:42:42:2:4:0:42:3:you open the microwave:0:silence.ogg:silence.ogg:open_microwave.ogg:silence.ogg
+automover:1:1:42:42:2:4:3:42:3:you close the microwave:0:silence.ogg:silence.ogg:silence.ogg:close_microwave.ogg
+zone:1:3:42:42:3:5:microwave doors:trackme
+zone:0:0:42:42:3:5:microwave:trackme
+tile:0:2:41:43:7:7:metal9
+zone:0:2:41:43:7:15:on top of the microwave:trackme
+tile:9:9:34:36:0:2:wallclothing
+tile:8:8:34:36:0:1:wallclothing
+tile:8:8:35:35:1:1:chair
+tile:9:9:34:36:3:3:carpet9
+tile:8:8:34:34:2:2:marble5
+tile:8:8:36:36:2:2:marble5
+zone:9:9:34:36:3:10:backrest of the cooking chair
+zone:8:8:34:36:2:10:armrest of the cooking chair
+zone:8:8:35:35:1:10:cooking chair:trackme
+tile:0:21:61:61:0:39:wall
+tile:0:20:62:80:0:0:concrete25
+music:0:20:62:80:0:20:-15:100:musical20.ogg:1
+tile:21:21:61:80:0:39:wall
+tile:9:11:63:63:0:0:marble5
+tile:8:8:62:62:0:10:wallstone2
+tile:12:12:62:62:0:10:wallstone2
+tile:8:8:62:62:11:11:marble2
+tile:12:12:62:62:11:11:marble2
+tile:9:11:60:60:0:0:marble5
+zone:0:20:62:80:0:20:dining area
+zone:9:11:60:63:0:10:automatic sliders between dining area and kitchen:trackme
+tile:9:11:61:62:0:0:elevation_point
+automover:9:11:61:61:0:10:10:63:0:exiting kitchen and entering dining area:0:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+automover:9:11:62:62:0:10:10:60:0:exiting dining area and entering kitchen:0:silence.ogg:silence.ogg:silence.ogg:door16close.ogg
+automover:0:80:0:80:-1:-1:2:0:0:fixed:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:4:16:67:73:0:2:wallcone
+tile:4:16:67:73:3:3:hardwood4
+zone:4:16:67:73:3:10:dining table:trackme
+tile:5:7:65:65:0:2:wallcloth
+tile:6:6:66:66:0:0:couch:trackme
+tile:5:7:66:66:0:1:wallcloth
+tile:6:6:66:66:1:1:cloth
+tile:5:5:66:66:2:2:marble4
+tile:7:7:66:66:2:2:marble4
+tile:5:7:65:65:3:3:carpet9
+zone:5:7:65:65:3:10:backrest of the couch
+zone:5:7:66:66:2:10:armrest of the couch
+zone:6:6:66:66:1:10:dining couch
+tile:9:11:65:65:0:2:wallcloth
+tile:10:10:66:66:0:0:couch:trackme
+tile:9:11:66:66:0:1:wallcloth
+tile:10:10:66:66:1:1:cloth
+tile:9:9:66:66:2:2:marble4
+tile:11:11:66:66:2:2:marble4
+tile:9:11:65:65:3:3:carpet9
+zone:9:11:65:65:3:10:backrest of the couch
+zone:9:11:66:66:2:10:armrest of the couch
+zone:10:10:66:66:1:10:dining couch
+tile:13:15:65:65:0:2:wallcloth
+tile:14:14:66:66:0:0:couch:trackme
+tile:13:15:66:66:0:1:wallcloth
+tile:14:14:66:66:1:1:cloth
+tile:13:13:66:66:2:2:marble4
+tile:15:15:66:66:2:2:marble4
+tile:13:15:65:65:3:3:carpet9
+zone:13:15:65:65:3:10:backrest of the couch
+zone:13:15:66:66:2:10:armrest of the couch
+zone:14:14:66:66:1:10:dining couch
+tile:5:7:75:75:0:2:wallcloth
+tile:6:6:74:74:0:0:couch:trackme
+tile:5:7:74:74:0:1:wallcloth
+tile:6:6:74:74:1:1:cloth
+tile:5:5:74:74:2:2:marble4
+tile:7:7:74:74:2:2:marble4
+tile:5:7:75:75:3:3:carpet9
+zone:5:7:75:75:3:10:backrest of the couch
+zone:5:7:74:74:2:10:armrest of the couch
+zone:6:6:74:74:1:10:dining couch
+tile:9:11:75:75:0:2:wallcloth
+tile:10:10:74:74:0:0:couch:trackme
+tile:9:11:74:74:0:1:wallcloth
+tile:10:10:74:74:1:1:cloth
+tile:9:9:74:74:2:2:marble4
+tile:11:11:74:74:2:2:marble4
+tile:9:11:75:75:3:3:carpet9
+zone:9:11:75:75:3:10:backrest of the couch
+zone:9:11:74:74:2:10:armrest of the couch
+zone:10:10:74:74:1:10:dining couch
+tile:13:15:75:75:0:2:wallcloth
+tile:14:14:74:74:0:0:couch:trackme
+tile:13:15:74:74:0:1:wallcloth
+tile:14:14:74:74:1:1:cloth
+tile:13:13:74:74:2:2:marble4
+tile:15:15:74:74:2:2:marble4
+tile:13:15:75:75:3:3:carpet9
+zone:13:15:75:75:3:10:backrest of the couch
+zone:13:15:74:74:2:10:armrest of the couch
+zone:14:14:74:74:1:10:dining couch
+tile:2:2:69:71:0:2:wallcloth
+tile:3:3:70:70:0:0:couch:trackme
+tile:3:3:69:71:0:1:wallcloth
+tile:3:3:70:70:1:1:cloth
+tile:3:3:69:69:2:2:marble4
+tile:3:3:71:71:2:2:marble4
+tile:2:2:69:71:3:3:carpet9
+zone:2:2:69:71:3:10:backrest of the couch
+zone:3:3:69:71:2:10:armrest of the couch
+zone:3:3:70:70:1:10:dining couch
+tile:18:18:69:71:0:2:wallcloth
+tile:17:17:70:70:0:0:couch:trackme
+tile:17:17:69:71:0:1:wallcloth
+tile:17:17:70:70:1:1:cloth
+tile:17:17:69:69:2:2:marble4
+tile:17:17:71:71:2:2:marble4
+tile:18:18:69:71:3:3:carpet9
+zone:18:18:69:71:3:10:backrest of the couch
+zone:17:17:69:71:2:10:armrest of the couch
+zone:17:17:70:70:1:10:dining couch
+tile:19:19:74:76:0:0:marble5
+tile:20:20:73:73:0:10:wallstone2
+tile:20:20:77:77:0:10:wallstone2
+tile:20:20:73:73:11:11:marble2
+tile:20:20:73:73:11:11:marble2
+tile:22:22:74:76:0:0:marble5
+zone:19:22:74:76:0:10:automatic sliders between dining area and hallway:trackme
+tile:20:21:74:76:0:0:elevation_point
+automover:21:21:74:76:0:10:19:75:0:exiting hallway and entering dining area:0:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+automover:20:20:74:76:0:10:22:75:0:exiting dining area and entering hallway:0:silence.ogg:silence.ogg:silence.ogg:door16close.ogg
+tile:30:70:0:30:0:0:mat
+tile:29:29:0:31:0:39:wall
+tile:24:26:28:32:3:3:cloth
+zone:24:26:28:32:3:10:powermons temperary bed:trackme
+tile:71:71:0:31:0:39:wall
+zone:30:70:0:30:0:20:living room
+music:29:70:0:30:0:20:-3:100:musical15.ogg:1
+tile:28:30:8:10:0:0:marble5
+zone:28:30:8:10:0:10:entrence to the living room:trackme
+tile:31:31:15:15:0:0:rockingchair:trackme
+tile:30:30:14:16:0:2:wallclothing
+tile:31:31:14:16:0:1:wallclothing
+tile:30:30:14:16:3:3:carpet9
+tile:31:31:14:14:2:2:marble4
+tile:31:31:16:16:2:2:marble4
+tile:31:31:15:15:1:1:chair
+zone:30:30:14:16:3:10:backrest of the rockingchair
+zone:31:31:14:16:2:10:armrest of the rockingchair
+zone:31:31:15:15:1:10:rockingchair:trackme
+tile:55:65:0:0:0:2:wallsofa
+tile:55:65:1:2:0:1:wallsofa
+tile:55:65:0:0:3:3:carpet10
+tile:55:55:1:2:2:2:carpet9
+tile:65:65:1:2:2:2:carpet9
+tile:56:64:1:2:1:1:cloth
+zone:55:65:0:0:3:10:backrest of the sofa
+zone:55:65:1:2:2:10:armrest of the sofa
+zone:56:64:1:2:1:10:the sofa:trackme
+tile:69:69:10:10:0:0:sofa:trackme
+tile:70:70:5:15:0:2:wallsofa
+tile:68:69:5:15:0:1:wallsofa
+tile:70:70:5:15:3:3:carpet10
+tile:68:69:5:5:2:2:carpet9
+tile:68:69:15:15:2:2:carpet9
+tile:68:69:6:14:1:1:cloth
+zone:70:70:5:15:3:10:backrest of the sofa
+zone:68:69:5:15:2:10:armrest of the sofa
+zone:68:69:6:14:1:10:the sofa:trackme
+tile:55:65:5:15:0:1:walltable
+tile:55:65:5:15:2:2:hardwood
+zone:55:65:5:15:2:10:coffee table:trackme
+tile:29:71:31:31:0:39:wall
+tile:55:65:29:30:0:2:wallfurniture
+tile:55:65:29:30:3:3:glass2
+zone:55:65:29:30:3:20:smart television stand
+zone:55:65:30:30:3:20:smart television:trackme
+tile:55:65:30:30:3:20:wallglass6
+tile:55:65:30:30:21:21:glass3
+zone:55:65:30:30:21:39:on top of the television
+tile:59:61:9:11:2:2:plywood3
+zone:59:61:9:11:2:2:built in coffee tray in the table:trackme
+tile:30:36:28:30:0:1:wallcouch
+tile:30:36:28:30:2:2:cloth
+zone:30:36:28:30:2:10:a small bed. With great power... comes great need to take a nap.:trackme
+bed:30:36:28:30:2:10
+tile:67:67:30:30:0:0:wallcone
+tile:67:67:30:30:1:1:pavement
+zone:67:67:30:30:1:10:a digital clock:trackme
+clock:67:67:30:30:1:10:looking at the time shows, 
+tile:69:69:30:30:0:1:wallcone
+tile:69:69:30:30:2:2:paper
+zone:69:69:30:30:1:10:a neet calendar:trackme
+calendar:69:69:30:30:2:10:looking at the calendar shows, 
+tile:69:69:19:21:0:0:marble5
+tile:72:72:19:21:0:0:marble5
+zone:72:78:0:80:0:39:hallway
+zone:69:72:19:21:0:10:automatic sliders between living room and hallway:trackme
+automover:70:70:19:21:0:10:72:20:0:exiting living room and entering hallway:0:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+automover:71:71:19:21:0:10:69:20:0:exiting hallway and entering living room:0:silence.ogg:silence.ogg:silence.ogg:door16close.ogg
+tile:70:71:19:21:0:0:elevation_point
+tile:70:70:18:18:0:10:wallstone2
+tile:70:70:22:22:0:10:wallstone2
+tile:70:70:18:18:11:11:marble2
+tile:70:70:22:22:11:11:marble2
+tile:79:80:0:80:0:39:wall
+automover:79:80:0:80:0:39:2:0:0:fixed:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:0:0:0:0:0:0:2:0:0:fixed:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+music:72:78:0:80:0:20:-4:100:musical25.ogg:1
+tile:29:29:39:80:0:39:wall
+tile:30:70:40:60:0:0:carpet2
+zone:30:70:40:60:0:40:bedroom
+music:30:70:40:60:0:20:-6:100:musical35.ogg:1
+tile:29:71:61:61:0:39:wall
+tile:71:71:39:80:0:39:wall
+tile:60:70:56:60:0:2:wallcloth
+tile:60:70:56:60:3:3:cloth
+zone:60:70:56:60:3:10:lower bunkbed:trackme
+tile:58:59:59:60:0:13:steel5
+zone:58:59:59:60:0:20:bunkbed ladder:trackme
+zone:58:59:59:60:3:3:lower bunkbed
+tile:60:70:56:60:10:12:wallcloth
+tile:60:70:56:60:13:13:cloth
+zone:60:70:56:60:13:20:upper bunkbed:trackme
+zone:58:59:59:60:13:13:upper bunkbed
+bed:60:70:56:60:3:10
+bed:60:70:56:60:13:20
+tile:59:59:55:58:13:13:wallcloth
+tile:59:70:55:55:13:13:wallcloth
+tile:70:70:50:54:0:1:wallcouch
+tile:70:70:50:54:2:2:pavement
+zone:70:70:50:54:2:10:switchboard:trackme
+zone:70:70:50:50:2:10:air_conditioner
+zone:70:70:52:52:2:10:fan
+zone:70:70:54:54:2:10:steam
+tile:62:64:53:55:0:1:walltable
+tile:62:64:53:55:2:2:wood4
+zone:62:64:53:55:2:10:side table:trackme
+zone:62:62:55:55:2:10:calendar
+calendar:62:62:55:55:2:10:looking at the calendar shows
+tile:62:62:55:55:2:2:paper
+tile:64:64:55:55:2:2:metal5
+zone:64:64:55:55:2:10:mini_fridge
+zone:62:62:53:53:2:10:digital_clock
+tile:62:62:53:53:2:2:pavement
+clock:62:62:53:53:2:10:looking at the clock shows
+tile:64:64:53:53:2:2:water9
+zone:64:64:53:53:2:10:water jug
+tile:30:31:59:60:0:1:wallcardboard
+tile:30:31:59:60:2:2:hay
+zone:30:31:59:60:2:10:trashcan:trackme
+trashcan:30:31:59:60:2:10
+tile:51:51:61:80:0:39:wall
+tile:30:50:62:80:0:0:concrete12
+music:30:50:62:80:0:20:-14:100:musica31.ogg:1
+zone:30:50:62:80:0:20:office
+tile:30:36:74:77:0:1:wallcounter
+tile:30:36:74:77:2:2:hardwood3
+zone:30:36:74:77:2:10:work-desk:trackme
+tile:32:34:75:75:2:4:wallcomputer
+tile:32:34:75:75:5:5:glass2
+zone:31:35:74:76:2:5:near the computer screen
+zone:32:34:75:75:2:4:computer screen:trackme
+zone:32:34:75:75:5:15:on top of the computer screen
+tile:32:34:76:76:2:2:diamond
+zone:31:35:76:77:2:10:near the computer keyboard
+zone:32:34:76:76:2:10:keyboard:trackme
+tile:33:33:79:79:0:0:office_chair:trackme
+tile:32:34:80:80:0:3:wallclothing
+tile:32:34:79:79:0:2:wallclothing
+tile:32:34:80:80:4:4:carpet9
+tile:32:32:79:79:3:3:marble4
+tile:34:34:79:79:3:3:marble4
+tile:33:33:79:79:2:2:chair
+zone:32:34:80:80:4:10:backrest of the office_chair
+zone:32:34:79:79:3:10:armrest of the office_chair
+zone:33:33:79:79:2:10:office_chair:trackme
+door:32:34:76:76:2:10:33:76:2:browsing the internet... . . . :0:silence.ogg:silence.ogg:silence.ogg:keabord.ogg
+src:32:34:75:75:2:10:-30:100:computer.ogg
+tile:46:50:78:80:0:10:wallmedal
+zone:45:50:77:80:0:20:near the file-cabinet
+zone:46:50:78:80:0:10:the file-cabinet
+tile:46:50:78:80:11:11:metal2
+zone:46:50:78:80:11:20:on top of the file-cabinet
+tile:39:41:78:80:0:10:wallmetal20
+tile:40:40:79:80:0:9:air
+tile:40:40:79:80:0:0:diamond
+tile:40:40:77:77:0:0:diamond
+zone:38:42:77:80:0:20:near the safe
+zone:40:40:77:79:0:10:safe door:trackme
+zone:40:40:80:80:0:10:the safe
+door:40:40:77:77:0:10:40:79:0:opening safe doors:0:silence.ogg:silence.ogg:open_fridge.ogg:silence.ogg
+door:40:40:79:79:0:10:40:77:0:closing safe doors:0:silence.ogg:silence.ogg:silence.ogg:close_fridge.ogg
+tile:52:70:62:80:0:0:smallwood
+zone:52:70:62:80:0:20:balcony
+music:52:70:62:80:0:20:-15:100:musica25.ogg:1
+tile:52:52:62:62:0:0:door:trackme
+tile:52:52:60:60:0:0:door:trackme
+tile:52:52:62:62:0:0:marble5
+tile:52:52:60:60:0:0:marble5
+zone:52:52:60:62:0:10:door between balcony and bedroom:trackme
+door:52:52:62:62:0:10:52:60:0:exiting balcony and entering bedroom:0:silence.ogg:silence.ogg:silence.ogg:door33close.ogg
+door:52:52:60:60:0:10:52:62:0:exiting bedroom and entering balcony:0:silence.ogg:silence.ogg:silence.ogg:door33open.ogg
+tile:55:65:62:63:0:1:wallstone
+tile:55:65:62:62:2:2:marble4
+tile:55:55:63:63:2:2:marble4
+tile:65:65:63:63:2:2:marble4
+tile:56:64:63:63:1:1:plywood4
+zone:55:65:62:62:2:10:back of the bench
+zone:55:65:63:63:2:10:arm of the bench
+zone:56:64:63:63:1:10:bench:trackme
+zone:57:67:79:80:0:20:near the large window overlooking the residencial area
+tile:58:66:80:80:0:39:wallglass5
+tile:61:63:80:80:5:12:air
+tile:61:63:80:80:4:4:cement3
+zone:61:63:80:80:4:10:the large window overlooking the residencial area:trackme
+src:60:64:80:80:0:20:-8:100:birds4.ogg
+src:60:64:80:80:0:20:-8:100:birds3.ogg
+tile:33:33:60:60:0:10:wallstone2
+tile:37:37:60:60:0:10:wallstone2
+tile:33:33:60:60:11:11:marble2
+tile:37:37:60:60:11:11:marble2
+tile:34:36:59:59:0:0:marble5
+tile:34:36:60:61:0:0:elevation_point
+automover:34:36:60:60:0:10:35:62:0:exiting bedroom and entering office:0:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+automover:34:36:61:61:0:10:35:59:0:exiting office and entering bedroom:0:silence.ogg:silence.ogg:silence.ogg:door16close.ogg
+zone:34:36:59:62:0:10:automatic sliders between bedroom and office:trackme
+tile:34:36:62:62:0:0:marble5
+tile:29:71:39:39:0:39:wall
+zone:29:71:32:38:0:20:connecting_hallway:trackme
+music:29:71:32:38:0:20:-13:100:musica79.ogg:1
+tile:48:48:30:30:0:10:wallstone2
+tile:52:52:30:30:0:10:wallstone2
+tile:48:48:30:30:11:11:marble2
+tile:52:52:30:30:11:11:marble2
+tile:49:51:29:29:0:0:marble5
+tile:49:51:30:31:0:0:elevation_point
+tile:49:51:32:32:0:0:marble5
+automover:49:51:30:30:0:10:50:32:0:exiting living room and entering connecting hallway:0:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+automover:49:51:31:31:0:10:50:29:0:exiting connecting hallway and entering living room:0:silence.ogg:silence.ogg:silence.ogg:door16close.ogg
+zone:49:51:29:32:0:10:automatic sliders between living room and connecting hallway:trackme
+tile:48:48:40:40:0:10:wallstone2
+tile:52:52:40:40:0:10:wallstone2
+tile:48:48:40:40:11:11:marble2
+tile:52:52:40:40:11:11:marble2
+tile:49:51:41:41:0:0:marble5
+tile:49:51:39:40:0:0:elevation_point
+tile:49:51:38:38:0:0:marble5
+automover:49:51:40:40:0:10:50:38:0:exiting bedroom and entering connecting hallway:0:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+automover:49:51:39:39:0:10:50:41:0:exiting connecting hallway and entering bedroom:0:silence.ogg:silence.ogg:silence.ogg:door16close.ogg
+zone:49:51:38:41:0:10:automatic sliders between bedroom and connecting hallway:trackme
+tile:72:78:69:69:0:39:wall
+tile:72:78:70:80:0:0:ceramic2
+zone:72:78:70:80:0:20:bathroom
+tile:75:75:70:70:0:0:marble5
+tile:75:75:68:68:0:0:marble5
+zone:75:75:68:70:0:10:door between bathroom and hallway:trackme
+tile:72:72:70:70:0:1:wallglass11
+tile:72:72:70:70:2:2:synthetic
+washbasin:72:72:70:70:2:10
+zone:72:72:70:70:2:10:washbasin:trackme
+door:75:75:68:68:0:10:75:70:0:exiting hallway and entering bathroom:0:silence.ogg:silence.ogg:open_blind.ogg:silence.ogg
+door:75:75:70:70:0:10:75:68:0:exiting bathroom and entering hallway:0:silence.ogg:silence.ogg:silence.ogg:close_blind.ogg
+tile:72:74:78:80:0:2:wallbarrel
+tile:72:74:78:80:2:2:balloon2
+tile:73:73:79:79:2:2:air
+tile:73:73:79:79:1:1:bathtub
+zone:72:74:78:80:2:10:on the toilet seat
+zone:73:73:79:79:1:10:sitting on the toilet seat. :trackme
+toilet:73:73:79:79:1:10
+tile:75:75:76:80:0:39:wall
+tile:75:78:76:76:0:39:wall
+tile:76:78:77:80:0:0:bathtub2
+tile:78:78:75:76:0:0:marble4
+zone:78:78:75:76:0:10:shower entrence:trackme
+zone:76:78:77:80:0:10:shower
+shower:76:78:77:80:0:10
+tile:72:72:76:76:0:0:wallbrick2
+tile:72:72:76:76:1:1:bare
+zone:72:72:76:76:1:10:Toilet-Paper-Dispenser:trackme
+igdoor:72:72:76:76:1:1:72:76:1:you've took the toilet paper.:toilet_paper:1:15:silence.ogg:silence.ogg:toilet_paper_dispenser.ogg:silence.ogg
+zone:22:28:32:38:0:10:3way hallway intersection:trackme
+zone:72:78:32:38:0:10:3way hallway intersection:trackme
+description:applikent for the house compitition 2025. 80x80x80size, rooms, entrence, storage, kitchen,, dining, hallway, living room, connecting hallway, bedroom, office, balcony, hallway, bathroom. stats, 19575 characters, 475 lines, 19.12 KB.
+tile:32:34:79:79:0:1:wallclothing
+door:67:67:30:30:1:10:67:30:1: :500:silence.ogg:silence.ogg:clock_chime4.ogg:silence.ogg
+door:62:62:53:53:2:10:62:53:2: :500:silence.ogg:silence.ogg:clock_chime4.ogg:silence.ogg
+safezone:0:80:0:80:-1:40
+music:0:20:12:18:0:20:-7:100:musical16.ogg:1
+
+reverb:72:78:70:80:0:10:21:1.0:1.0:0.8:0.5:1.0
+item_usage_restriction:0:80:0:80:-1:40:golden_gate_house:rosehaven_house:beehive:store:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat

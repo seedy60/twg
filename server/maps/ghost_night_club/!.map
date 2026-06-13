@@ -1,0 +1,28 @@
+mapname:ghost_night_club
+minx:-1
+maxx:51
+miny:-1
+maxy:101
+minz:0
+maxz:100
+litem:1
+starting_point:-1:51:-1:101:0:0
+deathpoint:0:50:0:100:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+#disable:coordinates
+owner:turando
+tile:0:50:0:100:0:0:carpet2
+zone:0:50:0:100:0:100:A large night club. In this place, no music. Just a strange vibe tells you that this place looks like it hasn't been open for a while, yet hiding a dark history
+ai:0:50:0:100:0:0:50000:1:vampire:ghost
+item_usage_restriction:-1:51:-1:101:0:100:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+tile:-1:-1:-1:101:0:100:wallbrick4
+tile:0:50:-1:-1:0:100:wallbrick4
+tile:51:51:-1:101:0:100:wallbrick4
+tile:0:50:101:101:0:100:wallbrick4
+zone:23:27:0:0:0:100:exit door, press shift enter to go out:trackme
+tile:23:27:-1:-1:0:100:wallwooddoor
+travelpoint:23:27:0:0:0:0:ghost_continent:125:49:0:you go back in the city:silence.ogg:door42open.ogg:door42close.ogg
+reinforcement:0:10000000
+src:0:50:0:100:0:100:-5:100:torture.ogg

@@ -1,0 +1,13 @@
+mapname:small,planet
+minx:0
+maxx:1000
+miny:0
+maxy:1000
+minz:0
+maxz:1000
+tile:0:1000:0:1000:0:0:stone2
+owner:linklink
+litem:0
+starting_point:0:1000:0:1000:0:0
+deathpoint:0:1000:0:1000:0:0
+music:0:0:0:0:0:0:0:56:musica74.ogg

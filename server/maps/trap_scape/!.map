@@ -1,0 +1,262 @@
+mapname:trap_scape
+minx:1
+maxx:50
+miny:1
+maxy:300
+minz:0
+maxz:150
+tile:1:50:1:300:0:0:sand
+owner:tuanthanh
+litem:1
+starting_point:1:1:1:1:0:0
+deathpoint:0:0:1:50:0:0
+tile:1:50:1:800:0:0:sand
+sign:1:1:1:1:0:0:hey guys welcome to my challenge, have fun guys! Here i have lots of interesting challenges waiting for you, go to 1 10 0 and open the dore to start first challenge:sign2.ogg
+tile:1:50:11:11:0:100:wallwooddoor
+zone:1:50:1:300:0:50:trapscape
+zone:1:1:1:1:0:50:read the sign
+door:1:50:10:10:0:15:1:12:0:starting challenge, good luck!:200:silence.ogg:warp.ogg:silence.ogg:silence.ogg
+src:1:50:1:10:0:50:0:100:wind9.ogg:1
+zone:1:50:10:10:0:50:door to start
+src:1:50:12:29:0:50:0:100:beach.ogg:1
+tile:1:50:12:22:0:0:swimming
+tile:1:50:30:62:0:0:grass4
+zone:1:50:12:22:0:50:a beautyful beach
+zone:1:50:23:30:0:50:a long sand bar
+tile:1:1:12:12:0:0:wood12
+zone:1:1:12:12:0:50:READ THE SIGN OF THE FIRST CHALLENGE
+src:1:50:30:35:0:50:-5:100:beach.ogg:1
+src:1:50:36:36:0:50:-10:100:beach.ogg:1
+sign:1:1:12:12:0:0:at the first challenge, you will go to the island, you must go through dogs, if you don't want to a they throw you back again, good luck!:sign3.ogg
+zone:1:50:30:62:0:50:an island
+src:1:7:34:46:0:50:0:100:labrador1.ogg:1
+automover:1:6:35:45:0:0:1:12:25:hahahahaha, you think you can go far, let's back, i don't want you to go to my island!:100:silence.ogg:silence.ogg:itemopen.ogg:silence.ogg
+src:9:21:34:46:0:50:0:100:labrador1.ogg:1
+automover:10:20:35:45:0:0:1:12:25:don't try different dog, you will never go through!:100:silence.ogg:silence.ogg:itemopen.ogg:silence.ogg
+src:4:16:48:60:0:50:0:100:labrador1.ogg:1
+automover:5:15:49:60:0:0:1:12:25:you don't lucky? sad face! hahahahahahahahahahahahahahaha:100:silence.ogg:silence.ogg:itemopen.ogg:silence.ogg
+src:23:35:47:60:0:50:0:100:labrador1.ogg:1
+automover:24:34:48:58:0:0:1:12:25:i don't like you do that's go back and don't come back!:100:silence.ogg:silence.ogg:itemopen.ogg:silence.ogg
+src:36:48:47:59:0:50:0:100:labrador1.ogg:1
+automover:37:47:48:58:0:0:1:12:25:i was says with you, don't come again!:100:silence.ogg:silence.ogg:itemopen.ogg:silence.ogg
+src:1:50:12:62:0:50:0:100:birds5.ogg:1
+tile:1:50:63:63:0:50:wallwooddoor
+door:1:50:62:62:0:50:1:63:0:starting the second challenge:200:silence.ogg:warp.ogg:silence.ogg:silence.ogg
+zone:1:50:62:62:0:50:door to start the second challenge
+sign:1:1:64:64:0:0:oh, good job, first challenge maybe is easy, you come to the second challenge. In this challenge, you see a small room, and it has lots of doors. You must find the door to go through the room. If you open true, you can go to the second room, but open wrong, you will go back:sign.ogg
+zone:1:50:64:84:0:50:a small room
+music:1:50:64:84:0:50:0:100:musica121.ogg:1
+tile:1:50:64:114:0:0:carpet2
+zone:1:1:64:64:0:50:sign of second challenge
+night:none.ogg
+wind:none.ogg
+tile:1:5:74:74:0:50:wallwooddoor
+door:1:5:73:73:0:50:1:64:0:oh, try again!:300:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+tile:6:10:74:74:0:50:wallwood19
+tile:11:15:74:74:0:50:wallwooddoor
+zone:1:5:73:73:0:50:door
+door:11:15:73:73:0:50:1:64:0:oh, sorry, you open wrong door, try try try!:300:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+zone:11:15:73:73:0:50:door
+tile:16:20:74:74:0:50:wallwood19
+tile:21:25:74:74:0:50:wallwooddoor
+door:21:25:73:73:0:50:1:64:0:try again:200:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+zone:21:25:73:73:0:50:door
+tile:26:30:74:74:0:50:wallwood19
+tile:31:35:74:74:0:50:wallwooddoor
+door:31:35:73:73:0:50:1:64:0:oh, sorry, let try again:100:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+zone:31:35:73:73:0:50:door
+tile:36:40:74:74:0:50:wallwood19
+tile:41:45:74:74:0:50:wallwooddoor
+door:41:45:73:73:0:50:1:64:0:oh, try again!:100:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+zone:41:45:73:73:0:50:door
+tile:46:50:74:74:0:50:wallwood19
+tile:50:50:72:73:0:50:wallwood19
+tile:50:50:67:71:0:50:wallwooddoor
+door:49:49:67:71:0:50:1:76:0:good job!:50:silence.ogg:aplause2.ogg:door14open.ogg:door14close.ogg
+zone:49:49:67:71:0:50:door
+tile:50:50:64:66:0:50:wallwood19
+zone:1:50:75:84:0:50:second room
+door:1:5:75:75:0:50:1:64:0:oh, wrong wrong:500:silence.ogg:silence.ogg:door18open.ogg:door18close.ogg
+zone:1:5:75:75:0:50:door
+door:11:15:75:75:0:50:1:64:0:wrong, try again:200:silence.ogg:silence.ogg:door20open.ogg:door20close.ogg
+zone:11:15:75:75:0:50:door
+door:21:25:75:75:0:50:1:64:0:oh, sorry, you open wrong door:100:silence.ogg:silence.ogg:door22open.ogg:door23close.ogg
+zone:21:25:75:75:0:50:door
+zone:21:25:75:75:0:50:door
+door:31:35:75:75:0:50:1:85:0:nice job:100:silence.ogg:aplause2.ogg:opend3.ogg:close3.ogg
+zone:31:35:75:75:0:50:door
+door:41:45:75:75:0:50:1:64:0:oh, maybe you don't lucky:50:silence.ogg:silence.ogg:door28open.ogg:door28close.ogg
+zone:41:45:75:75:0:50:door
+tile:50:50:75:76:0:50:wallwood19
+tile:50:50:77:81:0:50:wallwooddoor
+door:49:49:77:81:0:50:1:64:0:oho:50:silence.ogg:silence.ogg:Open Chest.ogg:Close Chest.ogg
+zone:49:49:77:81:0:50:door
+tile:50:50:82:83:0:50:wallwood19
+tile:1:5:84:84:0:50:wallwooddoor
+door:1:5:83:83:0:50:1:64:0:oh wrong again:50:silence.ogg:silence.ogg:tp4.ogg:tp5.ogg
+zone:1:5:83:83:0:50:door
+tile:6:10:84:84:0:50:wallwood19
+tile:11:15:84:84:0:50:wallwooddoor
+door:11:15:83:83:0:50:1:64:0:oh, you don't lucky today:50:silence.ogg:silence.ogg:dooropen71.ogg:doorclose71.ogg
+zone:11:15:83:83:0:50:door
+tile:16:20:84:84:0:50:wallwood19
+tile:21:25:84:84:0:50:wallwooddoor
+door:21:25:83:83:0:50:1:64:0:sad face:50:silence.ogg:silence.ogg:open.ogg:close1.ogg
+zone:21:25:83:83:0:50:door
+tile:26:30:84:84:0:50:wallwood19
+tile:31:35:84:84:0:50:wallwooddoor
+door:31:35:83:83:0:50:1:64:0:oh, maybe this challenge don't easy:50:silence.ogg:silence.ogg:opend1.ogg:close4.ogg
+zone:31:35:83:83:0:50:door
+tile:36:40:84:84:0:50:wallwood19
+tile:41:45:84:84:0:50:wallwooddoor
+door:41:45:83:83:0:50:1:64:0:oh no:50:silence.ogg:silence.ogg:open4.ogg:close4.ogg
+zone:41:45:83:83:0:50:door
+tile:46:50:84:84:0:50:wallwood19
+tile:1:50:85:105:0:0:wood19
+tile:1:50:85:155:0:0:soil
+sign:1:1:85:85:0:0:I'm very fun when you finish 2nd challenge. Now you come to the third challenge. In this mountain, has a crazy witch. she often jails people who live there. You can go up to the top of the mountain and free them? Careful with energy of the witch who can jail you in the mountain cave. Remember, people are jailed on top of the mountain. And you too if you aren't careful, you will be jailed in the mountain cave. Good luck!:sign4.ogg
+tile:1:50:95:95:0:20:walldirt
+zone:1:50:85:93:0:50:third challenge
+zone:1:1:85:85:0:50:sign
+zone:1:50:94:94:0:20:start here
+tile:1:50:94:94:1:20:soil
+tile:1:50:95:104:20:20:soil
+tile:1:50:105:105:20:50:wallstone
+tile:1:50:104:104:20:50:stone2
+tile:1:50:104:114:50:50:gravel8
+tile:1:50:115:115:50:80:walldirt
+tile:1:50:114:114:50:80:gravel7
+tile:1:50:109:110:50:50:air
+tile:1:50:112:113:50:50:air
+tile:1:50:115:125:85:85:gravel10
+tile:1:50:125:125:85:120:walldirt
+automover:1:50:121:121:85:85:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:1:50:122:123:85:85:air
+tile:1:50:124:124:85:120:sand
+tile:1:50:124:135:120:120:sand
+tile:1:50:129:131:120:120:air
+automover:1:50:132:133:120:120:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:1:50:135:135:120:140:walldirt
+tile:1:50:134:134:120:140:stone4
+tile:1:50:134:175:140:140:snow5
+zone:1:50:95:134:20:139:the mountain
+zone:1:50:134:175:140:150:top of the mountain, go to jail, but careful energy of the witch's
+automover:1:50:126:127:120:120:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+src:1:50:104:175:50:150:0:100:wind.ogg:1
+automover:1:50:108:108:50:50:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:1:50:96:100:20:20:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:1:50:140:145:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:1:5:150:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:11:15:150:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:21:25:150:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:31:35:150:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:41:45:150:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:6:10:160:167:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:6:10:167:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:17:19:150:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:27:29:150:174:140:140:1:96:15:oh, you has been jail by energy of the witchs!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:37:39:150:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:47:49:150:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:16:16:160:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:26:26:160:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:36:36:160:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:46:46:160:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:20:20:160:174:140:140:1:96:15:oh, you has been jail by energy of the witchs!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:30:30:160:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:40:40:160:174:140:140:1:96:15:oh, you has been jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:11:50:146:149:140:140:1:96:15:oh, you has been jail by energy of the witchs!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:1:50:176:176:140:150:walljaledoor
+zone:1:50:175:175:140:150:a large gate leading to large jail
+sign:1:49:175:175:140:140:this door has been block:silence.ogg
+zone:50:50:175:175:140:150:abyss
+tile:50:50:175:175:140:140:human
+tile:1:50:177:225:140:140:concrete6
+itdoor:50:50:175:175:140:150:25:177:140:you paid 100000 coins for dribery to abyss:coins:100000:100:silence.ogg:silence.ogg:open8.ogg:close8.ogg
+tile:1:50:226:226:140:150:walljaledoor
+tile:20:20:177:225:140:160:walljaledoor
+zone:1:50:177:225:140:150:jail
+zone:1:19:177:225:140:150:lots of people in here, maybe they are very sad
+tile:25:25:195:195:142:145:rope2
+zone:25:25:195:195:142:145:a string, climb here to find key
+tile:24:24:196:196:146:146:rope
+zone:24:24:196:196:146:150:string, climb here to find key
+sign:21:21:177:225:140:140:this door has been block, you need a key:silence.ogg
+zone:21:21:177:225:140:150:door to go to sel
+rain:none.ogg
+night:none.ogg
+wind:none.ogg
+tile:23:23:197:197:147:147:rope
+zone:23:23:197:197:147:150:a string, climb here to find key
+tile:21:22:198:198:147:147:rope
+zone:21:22:198:198:147:150:string, climb here to find key
+tile:21:21:198:198:147:147:ladder2
+zone:21:21:198:198:147:147:key, press enter to open
+door:21:21:198:198:147:147:19:177:140:good job, let's free people!:100:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+tile:1:1:177:185:140:140:wetconcrete
+shower:1:1:177:185:140:140
+zone:1:1:177:185:140:150:a long shower for people to take
+tile:1:19:190:215:140:140:carpet4
+zone:1:19:190:215:140:150:a large bed
+bed:1:19:190:215:140:140
+tile:19:19:177:177:140:140:paper
+zone:19:19:177:177:140:150:a paper trash bag
+trashcan:19:19:177:177:140:140
+tile:19:19:225:225:140:140:human2
+zone:19:19:225:225:140:140:a witch sits here
+tile:1:50:226:226:0:139:walldirt
+tile:1:50:96:225:0:0:cave
+zone:1:50:96:225:0:18:a large mountain cave
+sign:19:19:225:225:140:140:good job, you can come to my jail. But you will never free them! let's find them and free, try now? hahahahaha, you will never. I have tied them in a long string:silence.ogg
+tile:1:10:225:225:140:140:rope
+automover:11:49:134:139:140:140:1:96:0:oh, you will be jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+src:1:50:96:225:0:19:0:100:cave.ogg:1
+automover:50:50:160:164:140:140:1:96:15:oh, you will be jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:50:50:168:172:140:140:1:96:15:oh, you will be jail by energy of the witch's!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+zone:25:25:195:195:140:141:jump and do page up
+src:1:19:177:225:140:150:0:100:people3.ogg:1
+zone:1:10:225:225:140:140:a long string
+automover:1:10:225:225:140:140:1:177:140:i was saying, you never can free they. Remember.:50:silence.ogg:tp9.ogg:silence.ogg:silence.ogg
+tile:1:1:225:225:145:145:ladder2
+zone:1:1:225:225:145:145:a hammer
+tile:1:1:218:224:145:145:rope2
+zone:1:1:218:224:145:150:string
+tile:1:1:219:220:145:145:air
+tile:1:1:222:222:145:145:air
+tile:1:1:223:223:145:145:air
+door:1:1:225:225:145:145:1:227:0:you destroy the wall and help people exit from jail, nice job!!:20:silence.ogg:aplause2.ogg:walldest.ogg:silence.ogg
+automover:1:1:219:220:145:145:1:96:0:hahahahaha, do you like to jail, enjoy mountain cave. You will never exit from that's. You must died:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+automover:1:1:222:223:145:145:1:96:0:hahahahaha:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+sign:1:1:227:227:0:0:this is the 4th challenge, This place has lots of teleporters and hazards waiting for you. In this challenge, you can go to the place find the Reward and get it, but careful of teleporters and hazards be careful if you walk on teleporters you will start all over, and if you walk on hazards, you will die:sign3.ogg
+tile:1:50:227:300:0:0:concrete6
+teleporter:1:50:234:238:0:0
+zone:1:50:227:300:0:50:4th challenge
+zone:1:1:227:227:0:50:sign
+teleporter:1:50:250:256:0:0
+teleporter:1:5:260:298:0:0
+teleporter:11:15:260:298:0:0
+teleporter:11:15:260:298:0:0
+teleporter:21:25:260:298:0:0
+teleporter:31:35:260:298:0:0
+teleporter:41:45:260:298:0:0
+teleporter:41:45:260:298:0:0
+teleporter:6:10:270:298:0:0
+teleporter:16:20:280:298:0:0
+teleporter:26:30:290:298:0:0
+teleporter:36:40:290:298:0:0
+teleporter:11:49:257:258:0:0
+teleporter:11:49:259:259:0:0
+tile:6:10:264:267:0:0:hazard
+teleporter:11:49:239:249:0:0
+teleporter:11:49:227:233:0:0
+tile:1:5:240:244:0:0:hazard
+tile:1:5:246:248:0:0:hazard
+tile:1:5:258:258:0:0:hazard
+tile:18:19:260:269:0:0:hazard
+tile:16:20:270:276:0:0:hazard
+tile:26:27:260:279:0:0:hazard
+tile:26:30:281:287:0:0:hazard
+tile:36:40:260:288:0:0:hazard
+tile:46:50:290:298:0:0:hazard
+task_status:50:50:300:300:0:0:credit:2000000
+zone:50:50:300:300:0:5:the end. pressing shift enter  will lead to the reward.
+travelpoint:50:50:300:300:0:0:main_map:5:1:0:i am congratulating you for completing this hard challenge. hope you never try this haha?:silence.ogg:silence.ogg:aplause1.ogg

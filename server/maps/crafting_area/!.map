@@ -1,0 +1,41 @@
+mapname:crafting_area
+minx:0
+maxx:22
+miny:0
+maxy:0
+minz:0
+maxz:0
+tile:0:22:0:0:0:0:cavegrounds
+owner:kannadiga
+litem:0
+enable:2dsupport
+tile:5:5:0:0:0:0:wood11
+tile:10:10:0:0:0:0:glass7
+tile:15:15:0:0:0:0:shortgrass
+tile:3:3:0:0:0:0:clay
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+starting_point:0:0:0:0:0:0
+deathpoint:22:22:0:0:0:0
+zone:0:22:0:0:0:0:crafting area.
+sign:0:0:0:0:0:0:%n! welcome to crafting area. here, i manage to gather all the main resources that will be use to make crafting. happy crafting.:silence.ogg
+zone:0:0:0:0:0:0:a sign.
+zone:3:3:0:0:0:0:clay tile.
+zone:5:5:0:0:0:0:wood tile.
+zone:10:10:0:0:0:0:glass tile.
+zone:15:15:0:0:0:0:grass tile.
+tile:8:8:0:0:0:0:stone3
+zone:8:8:0:0:0:0:stone tile.
+tile:20:20:0:0:0:0:fence
+zone:20:20:0:0:0:0:metal tile.
+tile:22:22:0:0:0:0:paper
+zone:22:22:0:0:0:0:a trash bag to throw your unwanted items.
+trashcan:22:22:0:0:0:0
+oven:18:18:0:0:0:0
+tile:18:18:0:0:0:0:metal19
+zone:18:18:0:0:0:0:a stove to cook. for food lovers. if you feels bore while crafting.
+
+sign:9:9:0:0:0:0:heya %n! let's get crafty! I'm making ammo for myself!:silence.ogg
+zone:9:9:0:0:0:0:Patricus is standing there, hammering at his ammo
+reinforcement:0:10000000

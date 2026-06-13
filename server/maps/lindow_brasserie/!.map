@@ -1,0 +1,179 @@
+mapname:lindow_brasserie
+minx:0
+maxx:30
+miny:0
+maxy:36
+minz:0
+maxz:30
+tile:0:24:0:30:0:0:wood4
+owner:owlinor
+litem:1
+starting_point:1:1:9:11:0:0
+deathpoint:0:24:0:20:0:0
+zone:0:24:0:19:0:15:lindowbrasserie_store
+opening_hours:7:24
+rain:silence.ogg
+wind:silence.ogg
+night:silence.ogg
+item_usage_restriction:0:24:0:20:0:15:conex:partner_house:beehive:small_conex:locker:fridge:microwave:fan:air_conditioner:steem:store
+disable:coordinates
+travelpoint:1:1:9:11:0:15:lindow_town:149:195:0: :silence.ogg:door11open.ogg:door11close.ogg
+zone:1:1:9:11:0:14:terrace door. Press shift enter to go out:trackme
+music:0:30:0:20:0:30:-15:100:musica107.ogg:1
+tile:0:0:0:20:0:19:wallglass8
+tile:0:24:0:0:0:19:wallglass8
+tile:24:24:0:20:0:19:wallgeneric2
+tile:0:24:20:20:0:19:wallgeneric2
+tile:0:0:9:11:0:19:wallwood2
+tile:0:24:0:36:20:20:wallgeneric2
+specified_air_temperature:0:24:0:20:0:15:21
+tile:0:24:0:30:20:20:wallgeneric2
+src:0:24:0:20:0:15:-2:100:bar.ogg:1
+src:0:0:1:19:0:19:-5:100:people4.ogg
+src:1:24:0:0:0:19:-5:100:people4.ogg
+safezone:0:24:0:20:0:15
+#table
+zone:2:5:1:7:0:15:table, 1
+zone:8:11:1:7:0:15:table, 2
+zone:14:17:1:7:0:15:table, 3
+zone:20:23:1:7:0:15:table, 4
+zone:20:23:10:13:0:15:table, 5
+zone:20:23:16:19:0:15:table, 6
+tile:21:23:20:20:0:2:wallcloth
+tile:21:23:19:19:0:0:wallcloth
+tile:21:23:19:19:1:1:carpet8
+zone:21:23:19:19:0:5:seat
+tile:21:23:17:18:0:2:walltable
+tile:21:23:17:18:3:3:hardwood2
+zone:21:23:17:18:3:5:on the table
+tile:23:23:16:16:0:1:chair
+zone:23:23:16:16:0:5:chair
+tile:21:21:16:16:0:1:chair
+zone:21:21:16:16:0:5:chair
+tile:21:21:13:13:0:1:chair
+tile:23:23:13:13:0:1:chair
+zone:21:21:13:13:0:5:chair
+zone:23:23:13:13:0:5:chair
+tile:21:23:11:12:0:2:walltable
+tile:21:23:11:12:3:3:hardwood2
+zone:21:23:11:12:3:5:on the table
+tile:23:23:10:10:0:1:chair
+tile:21:21:10:10:0:1:chair
+zone:21:21:10:10:0:5:chair
+zone:23:23:10:10:0:5:chair
+tile:21:22:2:6:0:2:walltable
+tile:21:22:2:6:3:3:hardwood2
+zone:21:22:2:6:0:5:on the table
+tile:23:23:2:6:1:1:carpet8
+tile:23:23:2:6:0:0:wallcloth
+tile:24:24:2:6:0:2:wallcloth
+zone:23:23:2:6:0:5:seat
+tile:20:20:2:2:0:1:chair
+zone:20:20:2:2:0:5:chair
+tile:20:20:4:4:0:1:chair
+zone:20:20:4:4:0:5:chair
+tile:20:20:6:6:0:1:chair
+zone:20:20:6:6:0:5:chair
+tile:15:16:2:6:0:2:walltable
+tile:15:16:2:6:3:3:hardwood2
+zone:15:16:2:6:0:5:on the table
+tile:17:17:2:2:0:1:chair
+tile:24:24:2:6:0:2:wallcloth
+zone:17:17:2:2:0:5:chair
+tile:14:14:2:2:0:1:chair
+zone:14:14:2:2:0:5:chair
+tile:14:14:4:4:0:1:chair
+zone:14:14:4:4:0:5:chair
+tile:14:14:6:6:0:1:chair
+zone:14:14:6:6:0:5:chair
+tile:17:17:4:4:0:1:chair
+tile:17:17:6:6:0:1:chair
+zone:17:17:4:4:0:5:chair
+zone:17:17:6:6:0:5:chair
+tile:9:10:2:6:0:2:walltable
+tile:9:10:2:6:3:3:hardwood2
+zone:9:10:2:6:0:3:on the table
+tile:11:11:2:2:0:1:chair
+tile:24:24:2:6:0:2:wallcloth
+zone:11:11:2:2:0:5:chair
+tile:8:8:2:2:0:1:chair
+zone:8:8:2:2:0:5:chair
+tile:8:8:4:4:0:1:chair
+zone:8:8:4:4:0:5:chair
+tile:8:8:6:6:0:1:chair
+zone:8:8:6:6:0:5:chair
+tile:11:11:4:4:0:1:chair
+tile:11:11:6:6:0:1:chair
+zone:11:11:4:4:0:5:chair
+zone:11:11:6:6:0:5:chair
+tile:3:4:2:6:0:2:walltable
+tile:3:4:2:6:3:3:hardwood2
+zone:3:4:2:6:0:5:on the table
+tile:5:5:2:2:0:1:chair
+tile:24:24:2:6:0:2:wallcloth
+zone:5:5:2:2:0:5:chair
+tile:2:2:2:2:0:1:chair
+zone:2:2:2:2:0:5:chair
+tile:2:2:4:4:0:1:chair
+zone:2:2:4:4:0:5:chair
+tile:2:2:6:6:0:1:chair
+zone:2:2:6:6:0:5:chair
+tile:5:5:4:4:0:1:chair
+tile:5:5:6:6:0:1:chair
+zone:5:5:4:4:0:5:chair
+zone:5:5:6:6:0:5:chair
+tile:1:23:21:35:0:0:marble2
+tile:0:0:20:36:0:19:wallgeneric2
+tile:0:24:36:36:0:19:wallgeneric2
+tile:24:24:20:36:0:19:wallgeneric2
+#counter
+tile:8:16:11:13:0:3:wallcounter
+tile:8:16:11:13:4:4:wood3
+tile:9:9:10:10:0:2:chair
+zone:9:9:10:10:0:5:stool
+tile:11:11:10:10:0:2:chair
+zone:11:11:10:10:0:5:stool
+tile:13:13:10:10:0:2:chair
+zone:13:13:10:10:0:5:Vstool
+tile:15:15:10:10:0:2:chair
+zone:15:15:10:10:0:5:stool
+zone:7:17:10:14:0:19:near counter
+zone:7:17:14:19:0:19:behin"d the counter
+zone:8:16:11:13:4:6:on the counter
+tile:10:14:20:20:0:14:wallbuilding
+zone:10:14:19:19:0:15:kitchen door:trackme
+door:10:14:19:19:0:15:12:21:0: :1000:silence.ogg:silence.ogg:door25open.ogg:door25close.ogg
+#kitchen
+src:1:23:20:35:0:15:0:100:5_CUISINE_MIX_BF_1_WX.ogg:1
+zone:1:23:21:35:0:19:kitchen
+zone:10:14:21:21:0:15:main room door
+door:10:14:21:21:0:15:12:19:0: :1000:silence.ogg:silence.ogg:door25open.ogg:door25close.ogg
+tile:20:23:21:35:0:2:wallbuilding4
+tile:20:23:21:35:3:3:ceramic4
+tile:21:22:23:25:3:3:glass5
+tile:21:22:33:34:3:3:metal20
+zone:19:23:21:35:0:20:near the worktop
+zone:21:23:21:35:3:5:on the worktop
+zone:21:22:23:25:3:5:the cooking plates
+zone:21:22:33:34:3:5:the grill
+tile:10:16:33:36:0:2:wallmetal20
+tile:10:16:33:35:3:3:metal8
+tile:13:15:34:35:1:1:wallwater
+tile:13:15:34:35:2:2:puddle
+tile:13:15:34:35:3:3:air
+zone:9:17:32:35:0:19:near the large sink
+zone:10:16:33:35:3:5:the large sink
+zone:13:15:34:35:2:5:in the large sink
+tile:1:7:21:23:0:15:walldesk2
+zone:1:8:21:24:0:19:near the shelves with dish
+tile:1:7:33:35:0:15:wallmetal19
+tile:2:6:33:33:0:14:wallwoodcrate
+zone:1:8:32:35:0:19:near the large fridge
+tile:20:20:22:26:0:2:wallscreen
+zone:19:19:22:26:0:19:near the large oven
+src:20:22:22:26:0:3:-15:100:oven.ogg
+src:21:22:33:34:3:3:5:100:Deep_Fryer.ogg
+src:13:15:34:35:2:3:-10:100:sink5.ogg
+src:1:7:33:35:0:15:-3:100:fridge5.ogg
+enable:coordinates
+reinforcement:0:10000000

@@ -1,0 +1,259 @@
+mapname:lindow_town
+minx:0
+maxx:205
+miny:-1
+maxy:403
+minz:-3
+maxz:500
+owner:kannadiga
+tile:0:205:0:403:0:0:concrete3
+litem:1
+starting_point:129:129:125:125:0:0
+deathpoint:0:205:0:300:0:0
+wind:none.ogg
+rain:rain8.ogg
+night:none.ogg
+src:0:205:0:402:0:500:0:100:citybirds.ogg
+zone:0:205:0:402:0:500:lindow_town
+#parking lot of the  mall
+zone:59:109:125:175:0:0:parking lot
+tile:59:109:125:175:0:0:cement3
+src:59:109:125:175:0:500:-5:100:parking_lot.ogg
+tile:50:118:176:272:0:0:concrete2
+tile:59:109:185:263:0:50:wallbrick4
+tile:79:89:185:185:0:49:wallglass8
+zone:79:89:184:184:0:50:mall door. press shift enter to go in.:trackme
+travelpoint:79:89:184:184:0:50:mall:5:-1:0:You go in the mall:silence.ogg:door104open.ogg:door104close.ogg
+#the town square
+tile:110:149:125:175:0:0:stone4
+zone:110:149:125:175:0:500:the town square:trackme
+tile:111:115:170:174:0:0:shortgrass
+zone:111:115:170:174:0:500:a grassy area with a tree in the center.
+tile:144:148:170:174:0:0:shortgrass
+zone:144:148:170:174:0:500:a grassy area with a tree in the center.
+tile:111:115:126:130:0:0:shortgrass
+zone:111:115:126:130:0:500:a grassy area with a tree in the center.
+tile:144:148:126:130:0:0:shortgrass
+zone:144:148:126:130:0:500:a grassy area with a tree in the center.
+tile:113:113:172:172:0:30:tree
+zone:113:113:172:172:0:30:tree
+tile:146:146:172:172:0:30:tree
+zone:146:146:172:172:0:30:tree
+tile:113:113:128:128:0:30:tree
+zone:113:113:128:128:0:30:tree
+tile:146:146:128:128:0:30:tree
+zone:146:146:128:128:0:30:tree
+#fountain
+tile:126:133:147:153:0:2:wallstone2
+tile:126:133:147:153:3:3:wetconcrete
+tile:127:132:148:152:1:1:wallwater
+tile:127:132:148:152:2:2:spring
+tile:127:132:148:152:3:3:air
+src:127:132:148:152:2:2:-3:100:waterflow6.ogg
+zone:125:134:146:154:0:500:near the fountain
+zone:127:132:148:152:2:5:in the fountain
+#terrace of the brasserie
+tile:141:174:176:204:0:0:wood
+tile:142:148:203:203:0:1:wallwood17
+zone:141:174:176:204:0:500:terrace of the brasserie
+zone:149:149:194:196:0:15:brasserie door. press shift enter to go in.:1
+src:141:174:176:204:0:20:0:100:people4.ogg
+src:150:174:185:204:0:20:-5:100:bar.ogg
+tile:142:148:204:204:0:2:wallwood17
+tile:142:148:203:203:1:1:carpet3
+tile:142:148:204:204:1:1:wallbody
+tile:142:148:204:204:3:3:generic
+zone:141:149:202:204:0:10:near seat
+zone:142:148:204:204:3:5:back of the seat
+zone:142:148:203:203:1:5:seat
+tile:142:142:198:200:0:1:wallwood18
+tile:141:141:198:200:0:2:wallwood18
+tile:142:142:199:199:1:1:carpet3
+tile:142:142:198:198:2:2:generic
+tile:142:142:200:200:2:2:generic
+tile:141:141:198:200:3:3:generic
+zone:141:143:197:201:0:10:near armchair
+zone:142:142:199:199:1:5:in the armchair
+zone:142:142:198:198:2:5:armrest of the armchair
+zone:142:142:200:200:2:5:armrest of the armchair
+zone:141:141:198:200:3:5:back of the armchair
+tile:145:147:199:200:0:1:walltable
+tile:145:147:199:200:2:2:hardwood7
+zone:144:148:198:201:0:10:near coffee table
+zone:145:147:199:200:1:5:on the coffee table
+tile:144:146:189:190:0:2:walltable
+tile:144:146:189:190:3:3:hardwood
+tile:144:144:191:191:0:1:chair
+tile:146:146:191:191:0:1:chair
+tile:144:144:188:188:0:1:chair
+tile:146:146:188:188:0:1:chair
+zone:143:147:188:191:0:15:table, A
+zone:144:146:189:190:3:5:on table
+zone:144:144:191:191:0:5:chair
+zone:146:146:191:191:0:5:chair
+zone:144:144:188:188:0:5:chair
+zone:146:146:188:188:0:5:chair
+tile:144:146:182:183:0:2:walltable
+tile:144:146:182:183:3:3:hardwood
+tile:144:144:184:184:0:1:chair
+tile:146:146:184:184:0:1:chair
+tile:144:144:181:181:0:1:chair
+tile:146:146:181:181:0:1:chair
+zone:143:147:181:184:0:15:table, b
+zone:144:146:182:183:3:5:on table
+zone:144:144:184:184:0:5:chair
+zone:146:146:184:184:0:5:chair
+zone:144:144:181:181:0:5:chair
+zone:146:146:181:181:0:5:chair
+tile:151:152:178:182:0:2:walltable
+tile:151:152:178:182:3:3:hardwood
+tile:150:150:178:178:0:1:chair
+tile:150:150:180:180:0:1:chair
+tile:150:150:182:182:0:1:chair
+tile:153:153:178:178:0:1:chair
+tile:153:153:180:180:0:1:chair
+tile:153:153:182:182:0:1:chair
+zone:150:153:177:183:0:15:table, C
+zone:150:150:178:178:0:5:chair
+zone:150:150:180:180:0:5:chair
+zone:150:150:182:182:0:5:chair
+zone:153:153:178:178:0:5:chair
+zone:153:153:180:180:0:5:chair
+zone:153:153:182:182:0:5:chair
+tile:158:159:178:182:0:2:walltable
+tile:158:159:178:182:3:3:hardwood
+tile:157:157:178:178:0:1:chair
+tile:157:157:180:180:0:1:chair
+tile:157:157:182:182:0:1:chair
+tile:160:160:178:178:0:1:chair
+tile:160:160:180:180:0:1:chair
+tile:160:160:182:182:0:1:chair
+zone:157:160:177:183:0:15:table, D
+zone:157:157:178:178:0:5:chair
+zone:157:157:180:180:0:5:chair
+zone:157:157:182:182:0:5:chair
+zone:160:160:178:178:0:5:chair
+zone:160:160:180:180:0:5:chair
+zone:160:160:182:182:0:5:chair
+tile:165:166:178:182:0:2:walltable
+tile:165:166:178:182:3:3:hardwood
+tile:164:164:178:178:0:1:chair
+tile:164:164:180:180:0:1:chair
+tile:164:164:182:182:0:1:chair
+tile:167:167:178:178:0:1:chair
+tile:167:167:180:180:0:1:chair
+tile:167:167:182:182:0:1:chair
+zone:164:167:177:183:0:15:table, E
+zone:164:164:178:178:0:5:chair
+zone:164:164:180:180:0:5:chair
+zone:164:164:182:182:0:5:chair
+zone:167:167:178:178:0:5:chair
+zone:167:167:180:180:0:5:chair
+zone:167:167:182:182:0:5:chair
+tile:172:173:178:182:0:2:walltable
+tile:172:173:178:182:3:3:hardwood
+tile:171:171:178:178:0:1:chair
+tile:171:171:180:180:0:1:chair
+tile:171:171:182:182:0:1:chair
+tile:174:174:178:178:0:1:chair
+tile:174:174:180:180:0:1:chair
+tile:174:174:182:182:0:1:chair
+zone:171:174:177:183:0:15:table, F
+zone:171:171:178:178:0:5:chair
+zone:171:171:180:180:0:5:chair
+zone:171:171:182:182:0:5:chair
+zone:174:174:178:178:0:5:chair
+zone:174:174:180:180:0:5:chair
+zone:174:174:182:182:0:5:chair
+#store
+tile:150:174:185:263:0:20:wallbrick4
+tile:150:173:185:185:0:19:wallglass8
+tile:150:150:186:204:0:19:wallglass8
+tile:150:150:185:185:0:19:wallbrick4
+tile:150:150:194:196:0:15:wallwood2
+travelpoint:149:149:194:196:0:15:lindow_brasserie:1:10:0: :silence.ogg:door11open.ogg:door11close.ogg
+tile:141:149:205:263:0:0:concrete2
+tile:150:150:222:241:0:15:wallglass8
+tile:150:150:243:262:0:15:wallglass8
+tile:150:150:230:233:0:15:wallscreen
+tile:150:150:251:254:0:15:wallscreen
+zone:149:149:230:233:0:15:paid-store door. press shift enter to go in.:trackme
+zone:149:149:251:254:0:15:credit store door. press shift enter to go in.:trackme
+travelpoint:149:149:230:233:0:15:paid_store:0:9:0: :silence.ogg:door28open.ogg:door28close.ogg
+travelpoint:149:149:251:254:0:15:credit_store:0:9:0: :silence.ogg:door28open.ogg:door28close.ogg
+#staff center yard
+tile:4:205:291:402:0:0:concrete2
+tile:109:151:321:321:0:19:wallglass8
+tile:109:109:322:341:0:19:wallglass8
+tile:151:151:322:341:0:19:wallglass8
+tile:78:182:341:402:0:120:wallbrick4
+tile:183:196:341:341:0:30:wallfence5
+tile:64:77:341:341:0:30:wallfence5
+tile:64:64:300:402:0:30:wallfence5
+tile:196:196:300:402:0:30:wallfence5
+tile:64:196:300:300:0:30:wallfence5
+tile:126:136:300:300:0:30:wallsign
+zone:126:136:299:299:0:20:ultra world staff center gate. press shift enter to access.:trackme
+travelpoint:126:136:299:299:0:20:staff_center:250:1:0: :silence.ogg:silence.ogg:doorclose43.ogg
+zone:204:204:201:351:0:500:a quiet forest. press shift enter to continue:trackme
+travelpoint:204:204:201:351:0:500:quiet_forest:0:75:0: :silence.ogg:silence.ogg:silence.ogg
+tile:141:174:264:272:0:0:concrete2
+tile:175:183:176:272:0:0:concrete2
+#park
+src:59:174:105:121:0:20:-5:100:street1.ogg
+src:59:174:105:121:0:20:-5:100:carmove.ogg
+tile:55:113:56:104:0:0:concrete2
+tile:59:109:60:100:0:0:shortgrass
+zone:59:109:60:100:0:20:park:trackme
+src:59:109:60:100:0:500:0:100:escola1.ogg
+#tenis field
+tile:119:183:56:104:0:0:concrete2
+tile:123:174:60:100:0:20:wallfence
+tile:123:123:78:82:0:15:wallfence3
+tile:124:173:61:99:0:0:cement3
+tile:124:173:61:99:1:20:air
+zone:124:173:61:99:0:20:tenis field
+zone:122:124:78:82:0:20:tenis field gate:trackme
+door:122:122:78:82:0:20:124:80:0: :1500:silence.ogg:silence.ogg:door48open.ogg:door48close.ogg
+door:124:124:78:82:0:20:122:80:0: :1500:silence.ogg:silence.ogg:door48open.ogg:door48close.ogg
+src:125:171:61:99:0:20:0:100:tenis.ogg
+#Petanque court
+tile:155:169:140:160:0:0:wallwood18
+tile:155:169:140:160:1:1:smallwood
+zone:155:169:140:160:0:20:on a wooden board delimiting the petanque court
+tile:156:168:141:159:0:0:gravel8
+tile:156:168:141:159:1:20:air
+zone:156:168:141:159:0:500:petanque court:trackme
+src:158:165:141:159:0:20:-5:100:petanque.ogg
+travelpoint:0:80:0:0:0:200:country_road:25:700:0: :silence.ogg:silence.ogg:silence.ogg
+zone:0:80:0:0:0:200:country road. press shift enter to continue:trackme
+item_usage_restriction:0:205:0:402:0:200:conex:small_conex:partner_house:locker:microwave:fridge:beehive:store:fan:steem:air_conditioner
+tile:0:0:0:50:0:50:wallbrick
+tile:0:0:23:27:0:15:walljaledoor2
+zone:1:1:23:27:0:200:abandoned_warehouse door. Press shift enter to go in.:trackme
+travelpoint:1:1:23:27:0:15:abandoned_warehouse:50:25:0: :silence.ogg:door111open.ogg:door111close.ogg
+tile:0:0:51:160:0:20:wallbrush
+tile:0:0:161:402:0:20:wallbrush
+tile:0:0:217:278:0:51:wallbrick2
+tile:0:0:240:244:0:19:walljaledoor
+zone:1:1:240:244:0:200:factory door. Press shif enter to go in.:trackme
+travelpoint:1:1:240:244:0:19:futurist_map:50:26:0: :silence.ogg:tp28.ogg:tp29.ogg
+travelpoint:1:1:85:85:0:0:longroad:0:0:0: :silence.ogg:silence.ogg:silence.ogg
+zone:1:1:85:85:0:0:a long road. press shift enter to continue.:trackme
+zone:1:1:300:300:0:10:kannadiga and rachelK's reward center. press shift enter to see what's in there.:trackme
+travelpoint:1:1:300:300:0:10:kannadiga_and_rachelk's_reward:0:0:0:you have entoerd the reward center.:silence.ogg:silence.ogg:silence.ogg
+zone:1:1:150:160:0:100:to enter ocean view parking lot, press shift enter:trackme
+travelpoint:1:1:150:160:0:100:garage:0:0:0:entering ocean view parking lot.:silence.ogg:silence.ogg:door104close.ogg
+tile:0:205:0:402:-1:-1:wall
+travelpoint:50:50:402:402:0:20:lindow_sewers:0:10:0:entering sewers. careful with blasters.:silence.ogg:silence.ogg:silence.ogg
+zone:50:50:402:402:0:20:door to the lindow_sewers. a horrible smell comes from this place. press shift enter to enter there.:trackme
+teleporter:0:205:0:402:-1:-1
+automover:0:205:0:402:-3:-3:1:1:0:you escaped from trap:10:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+reinforcement:0:10000000
+tile:0:205:403:403:0:100:wallbrush
+tile:205:205:0:403:0:100:wallbrush
+tile:0:205:-1:-1:0:100:wall
+travelpoint:1:10:402:402:0:0:ocean:1:1:0: :silence.ogg:silence.ogg:silence.ogg
+zone:1:10:402:402:0:7:to enter a beautiful ocean, press shift enter:trackme
+music:0:205:-1:403:-3:500:-11:100:musiccalm6.ogg
+zone:204:204:276:276:0:0:to enter a quiet forest press shift enter here:trackme

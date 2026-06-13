@@ -1,0 +1,176 @@
+mapname:Chichie's_enchanted_Garden
+minx:0
+maxx:55
+miny:0
+maxy:119
+minz:0
+maxz:50
+tile:0:55:0:119:0:0:grass3
+owner:chichie
+litem:1
+starting_point:54:54:0:0:3:3
+deathpoint:0:55:0:119:0:0
+tile:3:55:0:119:0:3:wallwater
+tile:0:2:0:119:0:0:puddle
+tile:3:55:0:119:3:3:grass4
+tile:50:50:0:54:3:50:walltree
+tile:50:50:65:119:3:50:walltree
+tile:51:51:0:54:3:6:wallstone2
+tile:51:51:65:119:3:6:wallstone2
+tile:51:51:0:54:6:6:fire
+tile:51:51:65:119:6:6:fire
+tile:49:49:0:54:3:6:tree
+tile:49:49:65:119:3:6:tree
+tile:52:55:0:119:3:3:shortgrass
+tile:51:51:55:64:3:3:shortgrass
+src:0:50:0:119:3:50:0:100:wind_in_trees_light_1.ogg:1
+src:0:50:0:119:3:50:0:100:Wind_Leaves_Light_2.ogg:1
+src:0:50:0:119:3:50:0:100:Birds_in_tree.ogg:1
+src:0:50:0:119:3:50:-10:100:wind4.ogg:1
+src:51:51:0:54:6:6:0:100:fireplace1.ogg
+src:51:51:65:119:6:6:0:100:fireplace1.ogg
+src:51:55:0:119:3:50:0:100:windchimes3.ogg:1
+tile:4:49:0:0:3:6:tree
+tile:11:49:119:119:3:6:tree
+tile:21:31:51:51:3:8:wallstone2
+tile:21:31:80:80:3:8:wallstone2
+tile:21:21:51:79:3:8:wallstone2
+tile:31:31:51:79:3:8:wallstone2
+tile:22:30:52:79:3:3:water7
+tile:21:31:51:51:8:8:marble7
+tile:21:31:80:80:8:8:marble7
+tile:21:21:52:79:8:8:marble7
+tile:31:31:52:79:8:8:marble7
+src:21:31:51:80:3:8:-5:100:waterfountain8.ogg
+tile:4:4:114:119:3:10:wallfence8
+tile:10:10:114:119:3:10:wallfence8
+tile:11:11:114:118:3:6:tree
+tile:3:3:0:119:3:3:mud7
+tile:5:9:114:119:3:3:leaves4
+tile:5:9:114:114:3:10:wallglass8
+door:5:9:113:113:3:3:7:115:3:you've entered inside the hen's cage:100:silence.ogg:silence.ogg:door14open.ogg:close6.ogg
+door:5:9:115:115:3:3:7:113:3:you've left inside inside the hen's cage:100:silence.ogg:silence.ogg:door14open.ogg:close6.ogg
+tile:4:10:114:119:10:10:glass7
+tile:12:25:114:118:3:5:wallrocks
+tile:12:25:114:118:5:5:corpse
+tile:26:26:114:118:3:15:wallwater
+tile:27:48:114:118:3:15:water5
+tile:26:48:113:113:3:3:marsh2
+tile:11:25:113:113:3:3:tree
+tile:11:48:106:112:3:3:gravel6
+src:26:48:114:118:3:14:-5:100:water.ogg
+door:49:49:55:65:3:3:51:59:3:you've left inside the magical garden:100:silence.ogg:silence.ogg:door8open.ogg:close6.ogg
+tile:50:50:55:65:3:50:wallgate
+door:51:51:55:65:3:3:49:59:3:you've entered in the magical garden:100:silence.ogg:silence.ogg:door8open.ogg:close6.ogg
+src:4:10:114:119:3:10:-5:100:farm3.ogg
+tile:4:4:1:25:3:6:wallbrush
+tile:25:25:1:25:3:6:wallbrush
+tile:5:24:25:25:3:6:wallbrush
+tile:4:4:1:25:6:6:tree
+tile:25:25:1:25:6:6:tree
+tile:5:24:25:25:6:6:tree
+tile:5:24:1:24:3:3:swimming
+src:4:25:1:25:3:6:-5:100:lake2.ogg
+tile:35:40:11:15:3:3:marble2
+tile:36:39:12:14:3:3:fire
+oven:36:39:12:14:3:3
+src:36:39:12:14:3:3:-5:100:fire5.ogg
+zone:0:50:0:119:0:50:an enchanted secret garden with lush oasis hidden away from the world. The air is filled with sweet scents of blooming flowers - roses, lavender, and jasmine. Soft sunlight filters through the verdant canopy above, casting dappled shadows on the winding stone path beneath. The gentle hum of bees and chirping birds create a soothing melody. As you wander deeper, vibrant flowers of every color burst forth from the earth, their petals swaying gently in the breeze. The atmosphere is alive with magic, where time stands still and nature's beauty reigns supreme. This enchanted haven beckons you to linger, breathe deeply, and let the world's worries fade away.
+zone:21:31:51:80:3:8:In the heart of the magical garden, a majestic water fountain comes alive with wonder. Crystal-clear water cascades from the lips of a delicate stone mermaid, creating a mesmerizing dance of droplets that shimmer like diamonds in the sunlight. The gentle melody of the water's song echoes through the garden, weaving a spell of serenity and enchantment. As the water flows, it changes colors, shifting from soft blues to radiant purples, and finally to iridescent hues that seem almost otherworldly. The fountain's base is adorned with intricate carvings of mythical creatures, which appear to come to life as the water ripples and flows over them.
+zone:49:49:0:54:3:6:The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:49:49:55:65:3:6:The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:4:48:0:0:3:6:The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:11:48:119:119:3:6:The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:11:11:114:118:3:6:The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:4:4:1:25:6:6:The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:25:25:1:25:6:6:The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:5:24:25:25:6:6:The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:5:24:1:24:3:6:a magical lake shimmers like a mirror, its crystal-clear waters reflecting the vibrant hues of the surrounding garden. Soft ripples disturb the surface, as if the lake itself is breathing. Water lilies float like delicate jewels, their blooms unfolding in shades of pink, white, and purple. The lake's edge is lined with smooth stones and lush greenery, where frogs sing sweet melodies and dragonflies dance in the sunlight. A misty veil rises from the water, carrying the whispers of ancient secrets and forgotten dreams.
+src:4:25:1:25:3:6:-5:100:frog.ogg
+zone:36:39:12:14:3:5:a magical bonfire crackles and dances, its flames shimmering in shades of emerald green, sapphire blue, and amber gold. The fire seems to have a life of its own, as if infused with ancient magic and mysticism that Sparks swirl upward
+door:5:6:118:119:3:3:6:118:3:you pat the back of the hen and it gives you a sweet greetings in responds:100:silence.ogg:silence.ogg:hen.ogg:silence.ogg
+zone:5:9:115:119:3:9:inside the hen's cage
+zone:5:6:118:119:3:5:the chichie's hen sits here, looking out in the enchanted garden as she waits for chichie to come in
+zone:5:9:113:115:3:10:frosted gate of a hen's cage
+tile:21:30:101:106:3:20:branch2
+zone:21:30:101:106:3:20:Narra enchanted tree stands tall and majestic, its trunk strong and gnarled with age. Its bark shimmers with a warm, golden light, as if infused with the essence of sunlight. The leaves rustle softly, whispering ancient secrets and tales of the garden.
+tile:11:40:106:119:20:20:branch
+zone:11:40:106:119:20:30:The treehouse nestled in the enchanted secret garden is a whimsical haven, blending seamlessly into the branches of a ancient, gnarled tree. Its wooden boards are weathered to a soft, silvery gray, and the roof is a lush carpet of living greenery, complete with tiny, star-shaped flowers.
+tile:11:11:106:119:20:30:wallbrush
+tile:40:40:106:119:20:30:wallbrush
+tile:12:20:106:106:20:25:walltree
+tile:31:39:106:106:20:25:walltree
+tile:12:20:106:106:25:25:brush5
+tile:31:39:106:106:25:25:brush5
+tile:12:39:119:119:20:24:wallpot
+tile:12:39:119:119:24:26:tree
+tile:31:33:106:106:25:30:walltree
+tile:18:20:106:106:25:30:walltree
+tile:11:40:106:119:30:30:brush2
+tile:12:12:107:118:20:23:wallbrick
+tile:39:39:107:118:20:23:wallbrick
+tile:12:12:107:118:23:23:chair
+tile:39:39:107:118:23:23:chair
+zone:12:39:119:119:24:26:a delicate flowers add a touch of whimsy and charm. Vases on wooden shelves hold bouquets of wildflowers, their petals shimmering in shades of soft pink, lavender, and pale yellow. Tiny, star-shaped flowers similar to those on the roof bloom in small pots on the windowsills, filling the air with a sweet, gentle fragrance.
+zone:12:12:107:118:23:23:The chair sits in a sunny nook, bathed in warm, dappled light filtering through the leafy branches outside. A soft, plush throw blanket in shades of ivory and sage green drapes, inviting you to snuggle up with a good book or a quiet reverie. The chair seems to whisper, Sit, stay awhile, and let the magic of the garden surround you.
+zone:39:39:107:118:23:23:The chair sits in a sunny nook, bathed in warm, dappled light filtering through the leafy branches outside. A soft, plush throw blanket in shades of ivory and sage green drapes, inviting you to snuggle up with a good book or a quiet reverie. The chair seems to whisper, Sit, stay awhile, and let the magic of the garden surround you.
+zone:51:51:0:54:6:10:a fireplace stands sentinel near the entrance of the enchanted secret garden, its stone hearth weathered to a soft, moss-covered gray. The fire pit itself is surrounded by intricately carved stone, adorned with leaves, vines, and flowers that seem to dance in the flickering light. As the flames crackle and dance, the fireplace emits a warm, golden glow that illuminates the surrounding foliage, casting a magical ambiance over the garden's entrance. 
+zone:51:51:65:119:6:10:a fireplace stands sentinel near the entrance of the enchanted secret garden, its stone hearth weathered to a soft, moss-covered gray. The fire pit itself is surrounded by intricately carved stone, adorned with leaves, vines, and flowers that seem to dance in the flickering light. As the flames crackle and dance, the fireplace emits a warm, golden glow that illuminates the surrounding foliage, casting a magical ambiance over the garden's entrance. 
+zone:26:49:114:118:3:15:As the water tumbles over the rocky edge, it creates a misty veil that rises like a mystical aura, carrying the scent of enchanted blooms and sparkling fairy dust. The waterfall's base is surrounded by lush, vibrant greenery, with flowers that seem to bloom in rhythm with the water's gentle song. The sunlight catches the mist, casting a rainbow-colored glow that dances in the air, infusing the surrounding atmosphere with wonder and magic. 
+zone:12:25:114:118:5:6:a majestic rock stone chair sits serenely, as if carved by the garden's ancient magic. The chair's sturdy base is rooted in the earth, while its seat and backrest are crafted from a single piece of richly textured stone, weathered to a warm, mossy gray. The stone's natural patterns seem to shift and swirl, evoking images of flowing water, leaves, and vines. Delicate moss and tiny flowers have begun to claim the chair as their own, softening its rugged edges and adding a touch of whimsy. From this throne-like seat, you can listen to the waterfall's soothing melody, feel the mist on your skin, and bask in the enchanting ambiance of the garden. The rock stone chair appears to be a place of contemplation, where one can sit in harmony with nature, and connect with the garden's mystical energy.
+zone:52:52:59:60:3:6:The guardian of the enchanted garden is a gentle, ethereal creature with delicate, leaf-like wings and skin that shimmers like the petals of a moonflower. Her hair flows like vines, with tiny flowers woven into the strands, and her eyes sparkle like dew-kissed leaves. With a quiet strength, she tends to the garden's every need, coaxing blooms from the most reluctant flowers and whispering secrets to the ancient trees. Her presence is a soothing balm, calming the garden's creatures and nurturing the magic that dwells within
+zone:49:51:55:65:3:50:a magical gate of an enchanted garden
+zone:40:43:64:67:3:6:Faerie Statue, A delicate, intricately carved statue of a faerie playing a lute, surrounded by flowers and vines.
+zone:40:43:47:50:3:6:Mermaid Statue, A shimmering statue of a mermaid, half-submerged in a crystal-clear pool, surrounded by water lilies and fish.
+zone:40:43:81:84:3:6:Unicorn Statue, A beautiful, ethereal statue of a unicorn, with a delicate horn and flowing mane, nestled among the garden's lush foliage.
+zone:9:12:47:50:3:6:Wisdom Statue, A statue of a wise old sage, with a gentle face and hands clasped in contemplation, surrounded by ancient tomes and mystical symbols.
+zone:9:12:64:67:3:6:Love Statue, A romantic statue of a couple embracing, surrounded by roses and other flowers, with a soft, golden glow.
+zone:9:12:81:84:3:6:Phoenix Statue, A majestic statue of a phoenix, with wings outstretched and flames rising from its body, symbolizing rebirth and renewal.
+zone:24:28:89:93:3:6:Dreamer Statue, A statue of a person sitting on a bench, lost in thought, surrounded by misty veils and twinkling stars.
+zone:24:28:38:42:3:6:Nature Goddess Statue, A statue of a goddess, surrounded by animals and plants, with a gentle smile and outstretched arms, embodying the garden's natural magic.
+tile:0:55:0:119:50:50:glass7
+src:40:43:64:67:3:6:-5:100:musicmisc6.ogg
+src:40:43:47:50:3:6:-5:100:water7.ogg
+src:40:43:81:84:3:6:-5:100:bell.ogg
+src:9:12:47:50:3:6:-5:100:paper.ogg
+src:9:12:64:67:3:6:-5:100:heart.ogg
+src:9:12:81:84:3:6:-5:100:fireroar2.ogg
+src:24:28:89:93:3:6:-5:100:menumus30.ogg
+src:24:28:38:42:3:6:-5:100:jungle_r3.ogg
+src:52:52:59:60:3:6:-5:100:jungle_r14.ogg
+zone:48:48:1:54:3:6:near The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:48:48:65:112:3:6:near The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:26:47:1:1:3:6:near The Sunset Blossoms burst forth in vibrant hues of orange, pink, and purple, their colors shifting and deepening as the sun sets. The Wishflowers have petals that change color based on the intentions of those who approach them, they glow red for passion, blue for calmness, and green for growth. The Dreamweavers have delicate, filmy petals that seem to shift and change shape as you gaze at them, inspiring vivid dreams and imagination.
+zone:26:26:2:25:3:6:near a magical lake shimmers like a mirror, its crystal-clear waters reflecting the vibrant hues of the surrounding garden. Soft ripples disturb the surface, as if the lake itself is breathing. Water lilies float like delicate jewels, their blooms unfolding in shades of pink, white, and purple. The lake's edge is lined with smooth stones and lush greenery, where frogs sing sweet melodies and dragonflies dance in the sunlight. A misty veil rises from the water, carrying the whispers of ancient secrets and forgotten dreams.
+zone:4:26:26:26:3:6:near a magical lake shimmers like a mirror, its crystal-clear waters reflecting the vibrant hues of the surrounding garden. Soft ripples disturb the surface, as if the lake itself is breathing. Water lilies float like delicate jewels, their blooms unfolding in shades of pink, white, and purple. The lake's edge is lined with smooth stones and lush greenery, where frogs sing sweet melodies and dragonflies dance in the sunlight. A misty veil rises from the water, carrying the whispers of ancient secrets and forgotten dreams.
+zone:0:2:0:119:0:3:muddy puddle
+zone:3:3:0:119:3:3:near the muddy puddle
+zone:21:31:50:50:3:8:near the heart of the magical garden, a majestic water fountain comes alive with wonder. Crystal-clear water cascades from the lips of a delicate stone mermaid, creating a mesmerizing dance of droplets that shimmer like diamonds in the sunlight. The gentle melody of the water's song echoes through the garden, weaving a spell of serenity and enchantment. As the water flows, it changes colors, shifting from soft blues to radiant purples, and finally to iridescent hues that seem almost otherworldly. The fountain's base is adorned with intricate carvings of mythical creatures, which appear to come to life as the water ripples and flows over them.
+zone:21:31:81:81:3:8:near the heart of the magical garden, a majestic water fountain comes alive with wonder. Crystal-clear water cascades from the lips of a delicate stone mermaid, creating a mesmerizing dance of droplets that shimmer like diamonds in the sunlight. The gentle melody of the water's song echoes through the garden, weaving a spell of serenity and enchantment. As the water flows, it changes colors, shifting from soft blues to radiant purples, and finally to iridescent hues that seem almost otherworldly. The fountain's base is adorned with intricate carvings of mythical creatures, which appear to come to life as the water ripples and flows over them.
+zone:20:20:50:81:3:8:near the heart of the magical garden, a majestic water fountain comes alive with wonder. Crystal-clear water cascades from the lips of a delicate stone mermaid, creating a mesmerizing dance of droplets that shimmer like diamonds in the sunlight. The gentle melody of the water's song echoes through the garden, weaving a spell of serenity and enchantment. As the water flows, it changes colors, shifting from soft blues to radiant purples, and finally to iridescent hues that seem almost otherworldly. The fountain's base is adorned with intricate carvings of mythical creatures, which appear to come to life as the water ripples and flows over them.
+zone:32:32:50:81:3:8:near the heart of the magical garden, a majestic water fountain comes alive with wonder. Crystal-clear water cascades from the lips of a delicate stone mermaid, creating a mesmerizing dance of droplets that shimmer like diamonds in the sunlight. The gentle melody of the water's song echoes through the garden, weaving a spell of serenity and enchantment. As the water flows, it changes colors, shifting from soft blues to radiant purples, and finally to iridescent hues that seem almost otherworldly. The fountain's base is adorned with intricate carvings of mythical creatures, which appear to come to life as the water ripples and flows over them.
+zone:35:40:11:11:3:6:near a magical bonfire crackles and dances, its flames shimmering in shades of emerald green, sapphire blue, and amber gold. The fire seems to have a life of its own, as if infused with ancient magic and mysticism that Sparks swirl upward
+zone:35:40:15:15:3:6:near a magical bonfire crackles and dances, its flames shimmering in shades of emerald green, sapphire blue, and amber gold. The fire seems to have a life of its own, as if infused with ancient magic and mysticism that Sparks swirl upward
+zone:35:35:12:14:3:6:near a magical bonfire crackles and dances, its flames shimmering in shades of emerald green, sapphire blue, and amber gold. The fire seems to have a life of its own, as if infused with ancient magic and mysticism that Sparks swirl upward
+zone:40:40:12:14:3:6:near a magical bonfire crackles and dances, its flames shimmering in shades of emerald green, sapphire blue, and amber gold. The fire seems to have a life of its own, as if infused with ancient magic and mysticism that Sparks swirl upward
+zone:26:48:113:113:3:15:near The waterfall's base is surrounded by lush, vibrant greenery, with flowers that seem to bloom in rhythm with the water's gentle song. The sunlight catches the mist, casting a rainbow-colored glow that dances in the air, infusing the surrounding atmosphere with wonder and magic. 
+zone:4:10:114:119:10:10:on top of the hen's cage
+zone:13:38:118:118:20:26:near a delicate flowers add a touch of whimsy and charm. Vases on wooden shelves hold bouquets of wildflowers, their petals shimmering in shades of soft pink, lavender, and pale yellow. Tiny, star-shaped flowers similar to those on the roof bloom in small pots on the windowsills, filling the air with a sweet, gentle fragrance.
+zone:13:13:107:117:20:23:near The chair sits in a sunny nook, bathed in warm, dappled light filtering through the leafy branches outside. A soft, plush throw blanket in shades of ivory and sage green drapes, inviting you to snuggle up with a good book or a quiet reverie. The chair seems to whisper, Sit, stay awhile, and let the magic of the garden surround you.
+zone:38:38:107:117:20:23:near The chair sits in a sunny nook, bathed in warm, dappled light filtering through the leafy branches outside. A soft, plush throw blanket in shades of ivory and sage green drapes, inviting you to snuggle up with a good book or a quiet reverie. The chair seems to whisper, Sit, stay awhile, and let the magic of the garden surround you.
+rain:none.ogg
+night:none.ogg
+zone:53:55:0:119:3:50:the main path of an enchanted secret garden, inviting exploration and discovery. Soft, short grass carpets the ground, a gentle caress beneath each step. The path's edges are lined with delicate, glowing stones that illuminate the way, casting a warm, ethereal light. As you walk, the path unfolds like a ribbon, revealing hidden clearings, sparkling fountains, and vibrant blooms. Ancient trees arch overhead, their branches intertwined, forming a canopy of leafy greens and dappled shade. The air is filled with the sweet songs of birds and the gentle rustle of leaves.
+zone:52:52:0:54:3:10:near a fireplace stands sentinel near the entrance of the enchanted secret garden, its stone hearth weathered to a soft, moss-covered gray. The fire pit itself is surrounded by intricately carved stone, adorned with leaves, vines, and flowers that seem to dance in the flickering light. As the flames crackle and dance, the fireplace emits a warm, golden glow that illuminates the surrounding foliage, casting a magical ambiance over the garden's entrance. 
+zone:52:52:65:119:3:10:near a fireplace stands sentinel near the entrance of the enchanted secret garden, its stone hearth weathered to a soft, moss-covered gray. The fire pit itself is surrounded by intricately carved stone, adorned with leaves, vines, and flowers that seem to dance in the flickering light. As the flames crackle and dance, the fireplace emits a warm, golden glow that illuminates the surrounding foliage, casting a magical ambiance over the garden's entrance. 
+zone:52:52:54:58:3:10:the main path of an enchanted secret garden, inviting exploration and discovery. Soft, short grass carpets the ground, a gentle caress beneath each step. The path's edges are lined with delicate, glowing stones that illuminate the way, casting a warm, ethereal light. As you walk, the path unfolds like a ribbon, revealing hidden clearings, sparkling fountains, and vibrant blooms. Ancient trees arch overhead, their branches intertwined, forming a canopy of leafy greens and dappled shade. The air is filled with the sweet songs of birds and the gentle rustle of leaves.
+zone:52:52:61:64:3:10:the main path of an enchanted secret garden, inviting exploration and discovery. Soft, short grass carpets the ground, a gentle caress beneath each step. The path's edges are lined with delicate, glowing stones that illuminate the way, casting a warm, ethereal light. As you walk, the path unfolds like a ribbon, revealing hidden clearings, sparkling fountains, and vibrant blooms. Ancient trees arch overhead, their branches intertwined, forming a canopy of leafy greens and dappled shade. The air is filled with the sweet songs of birds and the gentle rustle of leaves.
+safezone:0:55:0:119:0:50
+sign:54:54:0:0:3:3:hello! %n it's good to see you here. Enjoy exploring inside my enchanted garden and Don't forget to ask the blessing of the guardian fairy.:sign3.ogg
+zone:54:54:0:0:3:3:read the sign
+zone:12:12:112:113:23:26:Chichie sits here, surrounded by lush greenery and vibrant blooms, her pen gliding effortlessly across the page as she pours her heart and soul into her poetry. Her words flow like a gentle stream, weaving a spell of wonder and enchantment that captures the essence of the garden's magic. As she writes, the flowers seem to lean in, as if to listen, their petals swaying gently in the breeze like a chorus of whispers. The soft chirping of birds and the distant hum of bees provide a soothing melody, inspiring Chichie's creative flow. With each stroke of her pen, Chichie's emotions come alive on the page, her poetry a reflection of the beauty and mystery that surrounds her. Her words dance with the rhythm of the garden, a symphony of love, hope, and dreams that seems to capture the very essence of the enchanted garden itself.
+src:12:12:112:113:23:26:-2:100:writing.ogg
+sign:12:12:112:113:23:26:Hello, %n It's nice to see you here!:silence.ogg
+zone:14:17:107:107:20:30:near the open window of the treehouse nestled in the enchanted secret garden is a whimsical haven, blending seamlessly into the branches of a ancient, gnarled tree. Its wooden boards are weathered to a soft, silvery gray, and the roof is a lush carpet of living greenery, complete with tiny, star-shaped flowers.
+zone:34:37:107:107:20:30:near the open window of the treehouse nestled in the enchanted secret garden is a whimsical haven, blending seamlessly into the branches of a ancient, gnarled tree. Its wooden boards are weathered to a soft, silvery gray, and the roof is a lush carpet of living greenery, complete with tiny, star-shaped flowers.
+zone:11:25:113:113:3:5:near a majestic rock stone chair sits serenely, as if carved by the garden's ancient magic. The chair's sturdy base is rooted in the earth, while its seat and backrest are crafted from a single piece of richly textured stone, weathered to a warm, mossy gray. The stone's natural patterns seem to shift and swirl, evoking images of flowing water, leaves, and vines. Delicate moss and tiny flowers have begun to claim the chair as their own, softening its rugged edges and adding a touch of whimsy. From this throne-like seat, you can listen to the waterfall's soothing melody, feel the mist on your skin, and bask in the enchanting ambiance of the garden. The rock stone chair appears to be a place of contemplation, where one can sit in harmony with nature, and connect with the garden's mystical energy.

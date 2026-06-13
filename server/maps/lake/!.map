@@ -1,0 +1,38 @@
+mapname:lake
+minx:0
+maxx:200
+miny:0
+maxy:200
+minz:0
+maxz:200
+litem:1
+starting_point:0:200:0:200:0:0
+deathpoint:0:200:0:200:0:0
+night:none.ogg
+owner:turando
+tile:0:200:0:200:0:0:dirt9
+zone:0:200:0:200:0:200:around a large lake
+src:0:200:0:200:0:200:-5:100:birds35.ogg
+music:0:200:0:200:0:200:-15:100:musica81.ogg
+ai:50:150:50:150:0:0:30000:3:duck:goose
+zone:48:152:48:152:0:200:muddy edge of the lake:trackme
+tile:50:150:50:150:0:200:air
+tile:48:152:48:152:0:0:mud4
+zone:50:150:50:150:0:200:in the lake
+tile:50:150:50:150:0:0:swimming
+fishingcoordinate:50:150:50:150:0:0
+src:50:150:50:150:0:5:0:100:feedingducks.ogg
+src:50:150:50:150:-3:5:0:100:ducks.ogg
+src:50:150:50:150:0:5:0:100:lake.ogg
+zone:0:0:0:200:0:200:lindow town. press shift enter to continue.:trackme
+travelpoint:0:0:0:200:0:200:lindow_town:205:100:0: :silence.ogg:silence.ogg:silence.ogg
+wind:wind7.ogg
+travelpoint:0:150:200:200:0:200:quiet_forest:75:0:0: :silence.ogg:silence.ogg:silence.ogg
+zone:0:150:200:200:0:200:a quiet forest. press shift enter to continue:trackme
+item_usage_restriction:0:200:0:200:0:200:conex:partner_house:beehive:small_conex:locker:fridge:microwave
+//disable:coordinates
+wind:wind7.ogg
+rain:rain9.ogg
+travelpoint:0:200:0:0:0:200:country_road2:100:700:0: :silence.ogg:silence.ogg:silence.ogg
+zone:0:200:0:0:0:200:countryside area. Press shift enter to continue:tracmke
+reinforcement:0:10000000

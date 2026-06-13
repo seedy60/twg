@@ -1,0 +1,84 @@
+mapname:indian_food_court
+minx:-1
+maxx:31
+miny:-1
+maxy:101
+minz:0
+maxz:50
+tile:-1:31:-1:101:0:0:marble2
+owner:kannadiga
+litem:0
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+safezone:0:30:0:100:0:50
+tile:-1:-1:-1:101:0:50:wallglass6
+tile:-1:31:-1:-1:0:50:wallglass6
+tile:31:31:0:101:0:50:wallglass6
+tile:0:30:101:101:0:50:wallglass6
+tile:0:30:10:10:0:50:wallglass7
+zone:0:30:0:9:0:50:back side of the food cort. glausy walls, and a cozy ambients invite you inside.
+zone:0:0:0:0:0:20:a sign.:trackme
+sign:0:0:0:0:0:20:welcome %n! this is the indianfood cort that you can get almost all items. slitely tipsy. but best taste. find the door, and pay 1500 coins to enter.:silence.ogg
+itdoor:20:20:9:9:0:20:0:11:0:welcome! you have payed 1500 coins.:coins:1500:5:silence.ogg:silence.ogg:getcoins.ogg:door17open.ogg
+zone:0:30:11:100:0:50:inside vibrent indian food cort. where the cozy inviting look and smell of fragrant food tickles your nostrals.
+zone:20:20:9:9:0:20:door to the food cort.:trackme
+door:20:20:11:11:0:20:21:9:0:have you enjoyed it? i think you dont bother about tips.:5:silence.ogg:silence.ogg:door17open.ogg:silence.ogg
+zone:20:20:11:11:0:20:door to the back side.:trackme
+tile:0:5:85:85:0:50:wallglass8
+tile:5:5:86:100:0:50:wallglass8
+door:0:5:84:84:0:20:0:86:0:you opened the fridge. you are seeing many premium, and local drinkslike mocktails and other juices.:10:silence.ogg:silence.ogg:open_fridge.ogg:silence.ogg
+door:0:5:86:86:0:20:0:84:0:you closed the fridge.:10:silence.ogg:silence.ogg:silence.ogg:close_fridge.ogg
+tile:0:5:86:100:0:0:metal9
+zone:0:5:86:100:0:50:inside the mini fridge.
+src:0:5:86:100:0:50:0:100:fridge6.ogg
+tile:6:6:85:100:0:50:wallglass8
+zone:0:6:84:84:0:50:a transperent mini fridge door. full of  rich and premium drinks.:trackme
+zone:0:6:86:86:0:50:fridge exit.:trackme
+tile:11:11:95:100:0:50:wallglass8
+tile:12:17:95:95:0:50:wallglass8
+tile:17:17:96:100:0:50:wallglass8
+door:14:14:94:94:0:20:14:96:0:welcome to sweet stall.:10:silence.ogg:silence.ogg:door69open.ogg:silence.ogg
+door:14:14:96:96:0:20:14:94:0:stay sweet always.:10:silence.ogg:silence.ogg:door69open.ogg:silence.ogg
+tile:12:17:96:100:0:0:metal19
+zone:12:17:96:100:0:50:The sweet stall. sweet trays are standing here making your mouth water.
+tile:18:18:96:100:0:50:wallglass8
+zone:14:14:94:94:0:50:door to sweet stall:trackme
+zone:14:14:96:96:0:50:go back from the sweet stall.:trackme
+tile:0:5:56:56:0:50:wallcone
+tile:6:6:56:61:0:50:wallcone
+tile:0:6:62:62:0:50:wallcone
+tile:0:5:57:61:0:0:glass7
+zone:0:5:57:61:0:50:in the tost and buns microwave. yum. yum. grab as much as you can.
+door:7:7:58:58:0:50:5:58:0:grab fast.:5:silence.ogg:silence.ogg:open_microwave.ogg:silence.ogg
+door:5:5:58:58:0:50:7:58:0:hope it fullfills your need.:5:silence.ogg:silence.ogg:silence.ogg:close_microwave.ogg
+zone:7:7:58:58:0:50:door to various buns and tost area,:trackme
+zone:5:5:58:58:0:50:exit back to the food coart.:trackme
+tile:23:30:56:56:0:50:wallcone
+tile:23:30:63:63:0:50:wallcone
+tile:22:22:56:63:0:50:wallcone
+door:21:21:57:57:0:20:23:57:0:hurry up! hurry up!  taste the delicious bakery items.:10:silence.ogg:silence.ogg:door69open.ogg:silence.ogg
+door:23:23:57:57:0:20:21:57:0:exiting the bakery.:10:silence.ogg:silence.ogg:silence.ogg:door69close.ogg
+zone:21:21:57:57:0:20:bakery door.:trackme
+tile:23:30:57:62:0:0:tile5
+zone:23:30:57:62:0:20:a bakery. full of junk food. most of you guys like.
+zone:23:23:57:57:0:20:bakery exit.:trackme
+tile:26:30:74:74:0:50:wallcone
+tile:26:30:84:84:0:50:wallcone
+tile:26:26:75:83:0:50:wallcone
+zone:25:25:79:79:0:20:door to the rolls and sandwiches area.:trackme
+zone:27:30:75:83:0:20:an area filled with crispy and delicious rolls and sandwhiches. mouth watering is it?
+door:25:25:79:79:0:0:27:79:0:going thrue:1000:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+zone:27:27:79:79:0:20:exiting door of area.:trackme
+door:27:27:79:79:0:0:25:79:0:exiting.:10:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:0:5:70:70:0:20:wallcone
+tile:0:5:77:77:0:20:wallcone
+tile:5:5:71:76:0:20:wallcone
+tile:0:4:71:76:0:0:linoleum
+zone:0:4:71:76:0:20:potato mela. as the word mela says, you can get many foods made from potato. feels yum is in't it?
+door:4:4:73:73:0:10:6:73:0:hope you tasted the special things here. come again.:25:silence.ogg:silence.ogg:door109open.ogg:silence.ogg
+door:6:6:73:73:0:10:4:73:0:welcome to the mela. a special place to fullfill your taste buds needs.:25:silence.ogg:silence.ogg:door109open.ogg:silence.ogg
+zone:6:6:73:73:0:10:door to the potato mela.:trackme
+zone:4:4:73:73:0:10:back from the mela.:trackme

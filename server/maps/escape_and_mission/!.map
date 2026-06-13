@@ -1,0 +1,30 @@
+mapname:escape_and_mission
+minx:0
+maxx:500
+miny:0
+maxy:500
+minz:0
+maxz:500
+tile:0:500:0:500:0:0:concrete
+owner:hoanganh
+litem:1
+deathpoint:0:500:0:500:0:0
+night:none.ogg
+zone:0:500:0:500:0:500:escape and mission
+sign:0:0:0:0:0:0:Hello dear players, today we have a challenge, much improved from the previous 2d challenge, let's see how good you are. Not only boring words and questions, also have some interesting challenges for you, enjoy it. your first level, pass the maze system, the police dog, remember it's not like the dog you saw in tuanthanh's challenge, it's quiet and quick, and will suddenly bite you, be careful, the camera and all the sistem can help you look have been neutralized, play well, hahahahahahahahahahahahaahaah!:sign.ogg
+zone:0:0:0:0:0:0:sign, read and? enjoy
+disable:camera
+disable:spy
+zone:0:10:10:10:0:20:level1, maze and police dogs.
+tile:0:500:11:11:0:500:wallwood19
+door:0:10:10:10:0:10:0:12:0:welcome to level 1, enjoy what we have for you,, chalanger:1:silence.ogg:silence.ogg:silence.ogg:close1.ogg
+starting_point:0:0:0:0:0:0
+tile:10:100:12:100:0:0:wallstone
+zone:9:9:20:20:0:0:starting way
+tile:10:30:20:20:0:0:concrete
+tile:20:20:12:30:0:0:concrete
+zone:20:20:20:20:0:0:intersection
+src:30:30:20:20:0:3:-25:100:dogs.ogg
+automover:25:30:20:20:0:0:0:0:200:shit, leave me alone. ok, you choos the ded:1:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+src:20:20:12:12:0:0:-22:100:dogs.ogg
+automover:20:20:12:15:0:4:0:0:50:target found, %n:1:silence.ogg:silence.ogg:silence.ogg:silence.ogg

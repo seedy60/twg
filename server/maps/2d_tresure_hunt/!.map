@@ -1,0 +1,127 @@
+mapname:2d_tresure_hunt
+minx:0
+maxx:300
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:300:0:0:0:0:cement3
+owner:sanjay
+litem:1
+starting_point:0:300:0:0:0:0
+deathpoint:0:300:0:0:0:0
+enable:2dsupport
+tile:20:25:0:0:0:0:hazard
+src:20:25:0:0:0:10:-17:100:waterfall2.ogg
+tile:17:20:0:0:0:0:wetconcrete2
+tile:26:28:0:0:0:0:wetconcrete2
+checkpoint:17:0:0
+starting_point:0:0:0:0:0:0
+tile:35:42:0:0:0:0:hazard
+src:35:42:0:0:0:10:-15:100:water_attack_loop.ogg
+tile:31:34:0:0:0:0:wetconcrete2
+tile:42:45:0:0:0:0:wetconcrete2
+tile:52:62:0:0:0:0:hazard
+tile:49:51:0:0:0:0:wetconcrete2
+tile:63:66:0:0:0:0:wetconcrete
+src:52:62:0:0:0:10:-15:100:water5.ogg
+checkpoint:76:0:0
+tile:81:85:0:0:0:0:hazard
+tile:86:89:0:0:0:0:metal13
+tile:76:80:0:0:0:0:metal13
+tile:92:95:0:0:0:0:metal13
+tile:96:102:0:0:0:0:hazard
+tile:103:106:0:0:0:0:metal13
+src:95:103:0:0:0:10:-10:100:electricity3.ogg
+src:80:86:0:0:0:10:-10:100:electricity3.ogg
+tile:108:109:0:0:0:0:metal13
+tile:110:120:0:0:0:0:hazard
+tile:121:124:0:0:0:0:metal16
+src:110:120:0:0:0:10:-10:100:electricity3.ogg
+tile:130:140:0:0:0:0:hardwood5
+tile:146:146:0:0:0:50:wallstand
+tile:141:145:0:0:0:50:tree
+tile:141:145:0:0:0:15:wobbly_wood
+tile:146:151:0:0:50:50:bridge2
+tile:154:158:0:0:50:50:hardwood
+tile:165:168:0:0:50:50:bridge3
+tile:175:180:0:0:50:50:old_wood
+tile:190:193:0:0:50:50:plank
+tile:204:209:0:0:50:50:plywood2
+tile:214:219:0:0:50:50:hardwood6
+tile:220:223:0:0:0:50:old_wood
+tile:219:219:0:0:0:49:wallbuilding7
+tile:224:224:0:0:1:50:wallbuilding7
+tile:230:280:0:0:0:0:grass
+tile:237:237:0:0:0:6:wallbrush
+tile:236:236:0:0:0:7:packed_leaves
+tile:237:240:0:0:7:10:pine
+tile:241:241:0:0:0:9:wallbrush
+tile:241:242:0:0:10:15:branch2
+tile:243:243:0:0:10:14:wallbrush
+tile:243:246:0:0:15:15:grass2
+tile:247:247:0:0:15:22:wallbrush
+tile:246:246:0:0:15:22:grass5
+tile:246:250:0:0:21:21:grass9
+tile:246:246:0:0:23:23:wallbrushtangle
+tile:251:251:0:0:21:30:wallbrush
+tile:250:250:0:0:21:30:grass2
+tile:251:260:0:0:27:27:grass8
+tile:250:250:0:0:31:31:wallbrush
+tile:261:261:0:0:27:40:wallbrush
+tile:260:260:0:0:40:40:wallbrush
+tile:260:260:0:0:27:39:grass8
+tile:261:270:0:0:35:35:gravel8
+tile:271:271:0:0:35:50:grass
+tile:272:272:0:0:0:49:wallbrush
+tile:272:279:0:0:50:50:rocks2
+tile:280:280:0:0:1:50:wallbrush
+tile:279:279:0:0:0:50:stone3
+tile:281:300:0:0:0:0:marble3
+tile:291:291:0:0:0:10:wallglass2
+door:290:290:0:0:0:0:292:0:0:wellcome to final building :0:silence.ogg:silence.ogg:open.ogg:silence.ogg
+tile:292:300:0:0:0:0:marble4
+tile:278:278:0:0:0:49:wallbrush
+zone:292:300:0:0:0:10:treasure building
+zone:300:300:0:0:0:0:press shift enter to clame your reward.
+zone:1:16:0:0:0:10:path to water hazzard 
+zone:17:66:0:0:0:10:water hazzard 
+zone:67:75:0:0:0:10:path to electric hazzard 
+zone:76:89:0:0:0:0:electricc hazzard.
+zone:80:124:0:0:0:10:eletric hazard 
+zone:124:140:0:0:0:10:path to the old bridge 
+zone:141:145:0:0:0:50:old staires to climb brij  careful here 
+zone:146:223:0:0:50:60:broken brij over deddely river
+src:146:220:0:0:0:10:-15:100:river6.ogg:1
+zone:220:223:0:0:0:50:climb down from this old brij
+zone:224:235:0:0:0:10:path to maize system
+zone:236:279:0:0:0:60:maize system.
+src:280:290:0:0:0:60:-5:100:background3.ogg
+zone:280:289:0:0:0:10:path to treasure
+wind:none.ogg
+zone:290:290:0:0:0:10:press enter to go inside treasure building 
+tile:147:218:5:5:0:0:hazard
+tile:146:218:0:0:0:0:water
+src:230:278:0:0:0:60:-5:100:jungle.ogg
+tile:0:0:0:0:0:0:paper
+tile:146:146:0:0:0:1:wallstand
+sign:0:0:0:0:0:0:hi challengers! welcome to this chalange map. remember, you need to cross this water hazard, eletric hazard, river and mace system and at last not the leest, you need to reach final building to get reward. all the best.:sign2.ogg
+checkpoint:236:0:0
+zone:0:0:0:0:0:0:a sign.
+night:none.ogg
+task_status:300:300:0:0:0:0:coins:200000
+travelpoint:300:300:0:0:0:0:main_map:5:1:0:sanjay and kannadiga welcomes you to try again.:silence.ogg:silence.ogg:aplause3.ogg
+owner:kannadiga
+rain:none.ogg
+rain:none.ogg
+tile:147:218:0:0:1:1:hazard
+automover:146:219:0:0:0:0:145:0:50:aaa carefull! carefull:100:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:146:219:0:0:1:1:145:0:50:aaa carefull! carefull:100:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+src:146:220:0:0:0:45:0:100:river3.ogg
+src:146:220:0:0:0:35:-5:100:waterfall2.ogg
+reinforcement:0:10000000
+tile:151:213:0:0:50:50:air:trackme
+tile:157:163:0:0:50:50:warehouse
+tile:170:175:0:0:50:50:wood4
+tile:182:186:0:0:50:50:wood12
+tile:197:201:0:0:50:50:wood14

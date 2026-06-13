@@ -1,0 +1,47 @@
+mapname:NelsonAndHisFriends'sSharedMansion
+minx:-1
+maxx:201
+miny:-1
+maxy:201
+minz:-100
+maxz:200
+#basic parameters
+tile:-1:201:0:201:0:0:carpet7
+tile:-1:201:-1:-1:0:190:walltile
+tile:-1:201:201:201:0:190:walltile
+tile:-1:-1:0:200:0:190:walltile
+tile:201:201:0:200:0:190:walltile
+zone:-1:201:-1:201:-30:200:Nelson and his friends's shared mansion
+safezone:-1:201:-1:201:-30:200
+music:-1:201:-1:201:0:200:-7:100:musica49.ogg
+night:none.ogg
+rain:raininterior.ogg
+wind:windshakeystructure
+starting_point:25:25:0:0:3:3
+deathpoint:25:25:0:0:3:3
+owner:JamesNelson
+owner:Harith
+litem:1
+#living room parameters
+tile:25:25:0:0:0:0:human
+zone:25:25:0:0:0:3:If you just come here, read this
+dialog:25:25:0:0:0:0:Hello %name%. My name is Nelson, and wellcome to the grand mansion=I don't live alone here though. The one who's sitting on the sofa directly to your right is Crystal, my sister, go talk to her, assuming she don't fill you in with her rumbling and chats=and there're a few more people live here as well. they spend most of their time inside their room, so you may want to visit them. Don't worry, they're friendly around new people=well, go and explore the whole mansion. I can assure you, there're plenty of things to be discovered and you may hear some stories during your exploration=not that I say this mansion is some kind of adventure map though, but that's just how I rephrase it. Now, off you go!
+##sofa
+tile:26:32:0:0:0:2:wallcloth
+tile:26:32:1:4:0:1:wallcloth
+tile:26:32:0:0:3:3:cloth
+tile:27:31:1:4:1:1:cloth
+tile:26:26:1:4:2:2:carpet10
+tile:32:32:1:4:2:2:carpet10
+zone:26:32:0:0:3:6:the fluffy back of the comfy sofa, you may rest your back comfortably here
+zone:26:26:1:4:2:2:arm rest of the sofa, can also become a pillow for those who wants to sleep
+zone:32:32:1:4:2:2:arm rest of the sofa, can also become a pillow for those who wants to sleep
+zone:27:31:1:4:1:6:on the comfy sofa, people sit here after a long day of work
+tile:28:28:1:1:1:3:human2
+zone:28:28:1:1:1:3:A young girl, possibly in early twentie is sitting here, scrolling through her social media
+src:28:28:1:1:1:3:-17:100:tv2.ogg
+dialog:28:28:1:1:1:1:Yo %name%. I'm Crystal, if Nelson hasn't mentioned my name yet. I'm the most charming and gorgeous person in this mansion haha=sorry, just joking. I only say something that my mom always throws at me, in this case, compliment. Anyway, I'm 20 years old, specifically two years older than Nelson=I love music and audio related stuffs. And just like Nelson, I'm a vocalist myself. We used to join various singing competitions during school time, and we make a pretty good team=Unlike Nelson, I'm not really good at speaking English, I mean, Nelson isn't literally good either, but he can replicate accents pretty well, while I cannot do that sometimes=I do better in Indonesian compare to Nelson though. I don't have problem with grammars and speaking comfidently in Indonesian, while Nelson sometimes struggle with vocabularies=Now, I'm sure that you've got plenty to explore, and I don't want to take your time too much reading this, so, farewell, and hope to see you in my room later
+##table
+tile:26:32:6:11:0:2:walltable
+tile:26:32:6:11:3:3:glass
+zone:26:32:6:11:3:3:a shiny blue glass table where people put things on

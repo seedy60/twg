@@ -1,0 +1,16 @@
+mapname:MeowsAndCats
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:0
+tile:10:100:0:0:0:0:air
+owner:storn
+litem:0
+starting_point:10:100:0:0:0:0
+deathpoint:10:100:0:0:0:0
+enable:2dsupport
+
+tile:0:100:0:0:0:0:carpet2
+night:none.ogg

@@ -1,0 +1,56 @@
+mapname:snakes_and_ladders
+minx:0
+maxx:20
+miny:0
+maxy:20
+minz:0
+maxz:50
+tile:0:20:0:20:0:0:concrete39
+owner:kiwi-james
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+zone:0:20:0:20:0:50:snakes and ladders.
+disable:spy
+disable:camera
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+zone:0:0:0:0:0:10:instructive sign.
+sign:0:0:0:0:0:10:welcome %n! You know the classic game of snakes and ladders? This is a version of that without dice.:sign1.ogg
+tile:0:20:0:20:20:20:concrete39
+owner:kannadiga
+owner:RachelK
+tile:0:0:20:20:0:0:ladder2
+zone:0:0:20:20:0:10:a ladder
+automover:0:0:20:20:0:0:0:20:20:you have climbed the 1st ladder.:100:silence.ogg:ladder2step2.ogg:silence.ogg:silence.ogg
+tile:0:20:0:20:30:30:concrete39
+tile:10:10:10:10:20:20:ladder2
+zone:10:10:10:10:20:20:ladder2
+automover:10:10:10:10:20:20:10:10:30:congrats! going upwords.:100:silence.ogg:ladder2step1.ogg:silence.ogg:silence.ogg
+tile:0:20:0:20:40:40:concrete39
+tile:15:15:10:10:30:30:ladder2
+automover:15:15:10:10:30:30:15:10:20:oops, snake bites! going downwords.:100:silence.ogg:falling.ogg:silence.ogg:silence.ogg
+zone:15:15:10:10:30:30:ladder3.
+tile:11:11:6:6:30:30:ladder2
+zone:11:11:6:6:30:30:ladder4.
+automover:11:11:6:6:30:30:11:6:20:oops! snake bites!. going downwords.:100:silence.ogg:falling.ogg:silence.ogg:silence.ogg
+tile:5:5:15:15:20:20:ladder2
+zone:5:5:15:15:20:20:ladder5
+automover:5:5:15:15:20:20:5:0:0:oopse! snake bites! going downwords:100:silence.ogg:falling.ogg:silence.ogg:silence.ogg
+tile:1:1:15:15:30:30:ladder2
+zone:1:1:15:15:30:30:ladder6.
+automover:1:1:15:15:30:30:1:15:40:congrats! going upwords.:100:silence.ogg:ladder2step3.ogg:silence.ogg:silence.ogg
+tile:0:20:0:20:50:50:concrete39
+tile:20:20:20:20:40:40:ladder2
+zone:20:20:20:20:40:40:ladder7.
+automover:20:20:20:20:40:40:0:0:50:congrats! you have completed the challenge. take your prise by finding the end of the map.:100:silence.ogg:ladder2step2.ogg:silence.ogg:silence.ogg
+tile:16:16:8:8:40:40:ladder2
+zone:16:16:8:8:40:40:ladder8.
+automover:16:16:8:8:40:40:5:5:30:oops! snake bites!  going downwords.:100:silence.ogg:falling.ogg:silence.ogg:silence.ogg
+travelpoint:20:20:20:20:50:50:main_map:5:1:0:You've finished the game of snakes and ladders. Thanks for playing.:silence.ogg:silence.ogg:aplause3.ogg
+task_status:20:20:20:20:50:50:coins:25000
+zone:20:20:20:20:50:50:end of the snakes and ladders map
+disable:tracking
+
+owner:RachelK

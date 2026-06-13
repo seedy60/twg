@@ -1,0 +1,42 @@
+mapname:hidden_cave
+minx:0
+maxx:50
+miny:0
+maxy:50
+minz:0
+maxz:50
+tile:0:50:0:50:0:0:cavegrounds3
+owner:kannadiga
+litem:1
+starting_point:1:1:1:1:0:0
+deathpoint:0:50:0:50:0:0
+zone:0:50:0:50:0:50:a small hidden cave. be aware of the cave_beasts.
+tile:0:50:0:0:0:50:wallstone
+tile:0:0:1:50:0:50:wallstone
+tile:1:50:50:50:0:50:wallstone
+tile:50:50:0:50:0:50:wallstone
+tile:49:49:49:49:50:50:wall
+zone:49:49:49:49:49:49:press shift enter to continue in the large mountain.:trackme
+zone:49:49:49:49:0:48: natural stone steps:trackme
+travelpoint:49:49:49:49:49:49:mountain_to_go_dragon_cave:0:0:0:you continued in the large mountain:silence.ogg:silence.ogg:silence.ogg
+src:1:49:1:49:0:49:0:100:cave.ogg:1
+tile:49:49:49:49:0:49:stone2
+tile:49:49:48:48:1:49:wallstone
+tile:48:48:49:49:1:49:wallstone
+tile:21:25:1:49:0:0:water3
+src:21:25:1:49:0:10:-10:100:waterflow3.ogg:1
+src:15:35:1:49:0:10:-15:100:water10.ogg:1
+zone:21:25:1:49:0:10:natural streem, made by waterfall 
+rain:none.ogg
+item:1:20:1:49:0:0:10000:1:fried_peanut
+music:1:49:1:49:0:49:-10:100:battle_1_loop.ogg:1
+night:none.ogg
+zone:1:2:1:1:0:0:hit shift enter to fall back to the large river.:trackme
+travelpoint:1:2:1:1:0:10:new_zealand_hunting:50:70:-50:you have fallen into a river.:silence.ogg:silence.ogg:silence.ogg
+ai:1:20:2:49:0:0:100000:1:cave_beast
+item_usage_restriction:0:50:0:50:0:50:conex:small_conex:fridge:locker:microwave:beehive:fan:air_conditioner
+reinforcement:0:10000000
+night:none.ogg
+wind:none.ogg
+
+reverb:0:50:0:50:0:50:cave:1.0:1.0:0.8:0.5:1.0

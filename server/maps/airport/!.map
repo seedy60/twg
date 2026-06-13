@@ -1,0 +1,48 @@
+mapname:airport
+minx:0
+maxx:800
+miny:0
+maxy:500
+minz:0
+maxz:100
+tile:0:800:0:500:0:0:concrete6
+owner:hoanganh
+litem:1
+starting_point:0:800:0:500:0:0
+deathpoint:0:800:0:500:0:0
+zone:0:100:0:500:0:50:parking 
+tile:0:100:0:500:0:0:concrete9
+tile:101:101:0:100:0:100:wallbrick4
+src:0:100:0:500:0:50:-4:100:a19.ogg:1
+zone:101:500:0:500:0:50:in the international airport
+src:101:500:0:500:0:50:-6:100:aeroporto.ogg
+src:101:500:0:500:0:10:-6:100:airport hotel break fast.ogg
+starting_point:0:0:0:0:0:0
+zone:0:0:0:0:0:0:pay 5 coins, go to the airport :trackme
+tile:101:101:200:500:0:100:wallbrick4
+itdoor:0:0:0:0:0:0:101:101:0:go:coins:5:800:silence.ogg:tp1.ogg:silence.ogg:close5.ogg
+tile:120:120:0:500:0:100:wallwood19
+zone:119:119:100:150:0:50:To go through security gate press enter:trackme
+door:119:119:80:150:0:50:121:80:0:go :220:silence.ogg:elev.ogg:silence.ogg:close3.ogg
+zone:150:480:0:500:0:50:waiting room :trackme
+tile:501:501:0:500:0:60:wallglass7
+zone:502:550:80:150:0:50:Telescopic tube leading to the plane:trackme
+zone:500:500:80:150:0:50:aircraft gate:trackme
+door:500:500:80:150:0:50:502:80:0:come :200:silence.ogg:door2.ogg:door3open.ogg:close3.ogg
+tile:502:550:80:150:0:0:carpet
+tile:502:550:79:79:0:100:wallglass8
+tile:502:535:100:150:0:100:wallglass8
+tile:551:560:79:150:0:100:wallglass6
+tile:510:550:152:220:0:0:carpet3
+zone:502:550:152:220:0:20:inside a330 wide body aircraft:trackme
+src:502:550:152:220:0:50:-4:100:amb20.ogg
+tile:502:550:151:151:0:100:wallbuilding
+door:535:550:150:150:0:50:535:152:0:go :250:silence.ogg:doormove2.ogg:door17open.ogg:close5.ogg
+zone:520:540:180:200:0:50:enter to start the flight:trackme
+door:520:550:180:200:0:50:0:0:100:thanks for use!:1000:silence.ogg:aviao2.ogg:silence.ogg:close3.ogg
+litem:0
+night:an12.ogg
+reinforcement:0:10000000
+specified_air_temperature:0:50:0:30:0:100:0
+tile:551:551:151:220:0:50:wallglass4
+zone:501:510:160:220:0:50:plane control zome

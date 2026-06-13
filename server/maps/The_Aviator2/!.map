@@ -1,0 +1,117 @@
+mapname:The_Aviator2
+minx:0
+maxx:3
+miny:0
+maxy:5
+minz:-5
+maxz:130
+tile:0:3:0:5:0:0:carpet
+owner:HarryMK
+litem:1
+starting_point:0:3:0:5:0:0
+deathpoint:0:3:0:5:0:0
+zone:0:3:0:5:-5:130:The Aviator - Part 2
+zone:0:3:0:0:0:9:A sign
+sign:0:3:0:0:0:0:Hello again, %n! Have you completed the part 1 of this aviation question test? This is part 2, with some more advanced questions.:silence.ogg
+tile:0:3:0:5:10:10:carpet2
+door:0:3:5:5:0:0:0:0:10:Good luck!:250:silence.ogg:vine_climb.ogg:door4open.ogg:door4close.ogg
+zone:0:3:5:5:0:9:Press Enter to start
+zone:0:3:0:5:10:19:What is the main job of Air Traffic Control (ATC)?
+zone:0:0:5:5:10:10:Clean the airplanes
+zone:1:1:5:5:10:10:Guide aircraft safely during takeoff, landing, and flight
+zone:2:2:5:5:10:10:Repair airplane engines
+zone:3:3:5:5:10:10:Help passengers with tickets
+door:0:0:5:5:10:10:0:0:0:Fall!:10:silence.ogg:warp2.ogg:workshopenter.ogg:workshopexit.ogg
+door:2:3:5:5:10:10:0:0:0:Fall!:10:silence.ogg:warp2.ogg:workshopenter.ogg:silence.ogg
+door:1:1:5:5:10:10:0:0:20:Congrats!:200:silence.ogg:vine_climb.ogg:door4open.ogg:door4close.ogg
+tile:0:3:0:5:20:20:concrete2
+zone:0:3:0:5:20:29:What is the main purpose of a runway number (like 09 or 27)?
+starting_point:0:3:0:0:0:0
+zone:0:0:5:5:20:20:It shows the runway’s length
+zone:1:1:5:5:20:20:It shows the runway’s direction in degrees ?
+zone:2:2:5:5:20:20:It shows how many planes can land at once
+zone:3:3:5:5:20:20:It shows which airline owns it
+door:2:3:5:5:20:20:0:0:10:Fail!:20:silence.ogg:warp2.ogg:workshopenter.ogg:workshopexit.ogg
+door:0:0:5:5:20:20:0:0:0:How is it possible! Gravity awaits you!:10:silence.ogg:warp2.ogg:workshopenter.ogg:workshopexit.ogg
+door:1:1:5:5:20:20:0:0:30:Congrats %n!:200:silence.ogg:vine_climb.ogg:door4open.ogg:door4close.ogg
+tile:0:3:0:5:30:30:concrete4
+zone:0:3:0:5:30:39:Which part of the plane helps control up-and-down movement (pitch)?
+zone:0:0:5:5:30:30:Rudder
+zone:1:1:5:5:30:30:Ailerons
+zone:2:2:5:5:30:30:Elevators
+zone:3:3:5:5:30:30:Flaps
+door:0:1:5:5:30:30:0:0:20:Failed!:20:silence.ogg:warp2.ogg:workshopenter.ogg:workshopexit.ogg
+door:2:2:5:5:30:30:0:0:40:Congrats!:200:silence.ogg:vine_climb.ogg:door1open.ogg:door1close.ogg
+door:3:3:5:5:30:30:0:0:0:Oh well, gravity meets you!:10:silence.ogg:silence.ogg:silence.ogg:workshopexit.ogg
+tile:0:3:0:5:40:40:concrete6
+zone:0:3:0:5:40:49:What is the main difference between a jet engine and a propeller engine?
+zone:0:0:5:5:40:40:Jet engines use water
+zone:1:1:5:5:40:40:Jet engines push air backwards with high speed
+zone:2:2:5:5:40:40:Propellers are always faster
+zone:3:3:5:5:40:40:Propellers only work in space
+door:0:0:5:5:40:40:0:0:0:Oh, how obvious is this? Well, meet the gravity!:5:silence.ogg:silence.ogg:silence.ogg:tp50.ogg
+door:1:1:5:5:40:40:0:0:50:Congrats!:200:silence.ogg:vine_climb.ogg:door2open.ogg:door2close.ogg
+door:2:3:5:5:40:40:0:0:30:Failed!:20:silence.ogg:silence.ogg:silence.ogg:tp50.ogg
+tile:0:3:0:5:50:50:concrete11
+zone:0:3:0:5:50:59:Which of these is used by pilots to know their speed?
+zone:0:0:5:5:50:50:Altimeter
+zone:1:1:5:5:50:50:Airspeed indicator ?
+zone:2:2:5:5:50:50:Heading indicator
+zone:3:3:5:5:50:50:Vertical speed indicator
+door:2:3:5:5:50:50:0:0:40:Failed, you!:20:silence.ogg:silence.ogg:silence.ogg:tp41.ogg
+door:0:0:5:5:50:50:0:0:0:Oh well, gravity!:10:silence.ogg:silence.ogg:silence.ogg:tp36.ogg
+door:1:1:5:5:50:50:0:0:60:Congrats!:200:silence.ogg:vine_climb.ogg:door1open.ogg:door1close.ogg
+tile:0:3:0:5:60:60:concrete17
+zone:0:3:0:5:60:69:Why do pilots lower the flaps during landing?
+zone:0:0:5:5:60:60:To make the airplane go faster
+zone:1:1:5:5:60:60:To use less fuel
+zone:2:2:5:5:60:60:To turn left and right
+zone:3:3:5:5:60:60:To create more lift and drag
+door:0:2:5:5:60:60:0:0:50:Failed!:20:silence.ogg:silence.ogg:silence.ogg:workshopexit.ogg
+door:3:3:5:5:60:60:0:0:70:Congrats!:200:silence.ogg:vine_climb.ogg:door5open.ogg:door5close.ogg
+tile:0:3:0:5:70:70:carpet5
+zone:0:3:0:5:70:79:What is the “cabin pressurization” system for?
+zone:0:0:5:5:70:70:To make the engines stronger
+zone:1:1:5:5:70:70:To keep the cabin at a safe pressure for breathing
+zone:2:2:5:5:70:70:To clean the airplane windows
+zone:3:3:5:5:70:70:To store extra luggage
+door:0:0:5:5:70:70:0:0:9:Wonderful! Gravity awaits you!:20:silence.ogg:aviao2.ogg:wallopen.ogg:tp50.ogg
+door:1:1:5:5:70:70:0:0:80:Congrats!:200:silence.ogg:vine_climb.ogg:door6open.ogg:door6close.ogg
+door:2:3:5:5:70:70:0:0:60:Fail!:20:silence.ogg:vine_climb.ogg:door_passage.ogg:silence.ogg
+tile:0:3:0:5:80:80:concrete2
+zone:0:3:0:5:80:89:Which of these lights are used to make an airplane visible to others in the sky?
+zone:0:0:5:5:80:80:Taxi lights
+zone:1:1:5:5:80:80:Landing lights
+zone:2:2:5:5:80:80:Strobe lights
+zone:3:3:5:5:80:80:Cabin lights
+door:0:1:5:5:80:80:0:0:70:Fail!:20:silence.ogg:vine_climb.ogg:silence.ogg:workshopexit.ogg
+door:3:3:5:5:80:80:0:0:9:Oh, cabin lights? That's interesting gravity!:30:silence.ogg:tp52.ogg:wallopen.ogg:tp50.ogg
+door:2:2:5:5:80:80:0:0:90:Perfect!:200:silence.ogg:vine_climb.ogg:door1open.ogg:door1close.ogg
+tile:0:3:0:5:90:90:concrete3
+zone:0:3:0:5:90:99:What does “altitude” mean in aviation?
+zone:0:0:5:5:90:90:The direction an airplane is heading
+zone:1:1:5:5:90:90:The airplane’s speed
+zone:2:2:5:5:90:90:The height of the airplane above sea level
+zone:3:3:5:5:90:90:The distance between airports
+door:0:1:5:5:90:90:0:0:89:fail!:20:silence.ogg:silence.ogg:silence.ogg:tp50.ogg
+door:3:3:5:5:90:90:0:0:9:Gravity kicks in!:40:silence.ogg:aviao3.ogg:walldown.ogg:tp50.ogg
+door:2:2:5:5:90:90:0:0:100:Perfect!:200:silence.ogg:vine_climb.ogg:door10open.ogg:door10close.ogg
+tile:0:3:0:5:100:100:concrete6
+zone:0:3:0:5:100:109:What is the purpose of the aircraft’s transponder?
+zone:0:0:5:5:100:100:To play in-flight entertainment
+zone:1:1:5:5:100:100:To show the airplane’s identity and altitude to ATC radar
+zone:2:2:5:5:100:100:To record cockpit conversations
+zone:3:3:5:5:100:100:To control the landing gear
+door:0:0:5:5:100:100:0:0:9:Go around!:50:silence.ogg:aviao3.ogg:wallopen.ogg:tp50.ogg
+door:2:3:5:5:100:100:0:0:90:Fail!:20:silence.ogg:vine_climb.ogg:walldown.ogg:tp50.ogg
+door:1:1:5:5:100:100:0:0:111:Oh no!:75:silence.ogg:aviao2.ogg:walldest.ogg:tp50.ogg
+tile:0:3:0:5:-5:-5:concrete
+automover:0:3:0:5:110:115:0:0:-4:Seems stuck!:75:silence.ogg:aviao3.ogg:unlock.ogg:tp13.ogg
+tile:0:3:0:5:-1:-1:wall
+disable:coordinates
+disable:camera
+disable:spy
+task_status:0:3:0:5:-5:-4:credit:40000
+automatic_travelpoint:0:3:0:5:-5:-5:main_map:10:1:0:Congratulations!:silence.ogg:tp51.ogg:snowmobilestop.ogg
+
+night:none.ogg

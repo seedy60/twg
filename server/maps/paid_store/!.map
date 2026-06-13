@@ -1,0 +1,35 @@
+mapname:paid_store
+minx:-1
+maxx:20
+miny:-1
+maxy:20
+minz:0
+maxz:20
+tile:-1:20:-1:20:0:20:wallbuilding3
+owner:owlinor
+litem:1
+starting_point:0:10:0:10:0:0
+deathpoint:0:10:0:10:0:0
+safezone:0:10:0:10:0:10
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+zone:0:19:0:19:0:20:paid_store
+tile:0:19:0:19:0:0:marble3
+tile:0:19:0:19:1:19:air
+tile:-1:-1:0:19:0:19:wallglass8
+tile:-1:-1:8:11:0:15:wallscreen
+zone:0:0:8:11:0:15:paid-store door. Press shift enter to go out.:trackme
+music:0:19:0:19:0:19:-25:100:maxkomusic53.ogg
+travelpoint:0:0:8:11:0:15:lindow_town:149:231:0: :silence.ogg:door28open.ogg:door28close.ogg
+item_usage_restriction:0:19:0:19:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+#disable:coordinates
+tile:15:17:7:12:0:3:walltable
+tile:15:17:7:12:3:3:hardwood
+zone:14:18:6:13:0:10:near table
+zone:15:17:7:12:3:7:on the table
+tile:16:16:9:10:3:3:paper
+zone:16:16:9:10:3:5:the catalog:trackme
+src:16:16:9:10:3:3:-20:100:paper.ogg
+dialog:16:16:9:10:3:3:Hello ! and welcome to my store=Here, i only accept credits as payment=If you don't have any, my neighbor sells some at a very good price=Now, I will explain to you the items that I sell here so that you can make the right choice=Safe card, this card sprotect you against death whatever its reason, hunger, thirst, animal or monster attacks and falling=When this card activates automatically, you will stay in the same place, inventory intact=This card can be only used once=Teleporter, the teleporter, as the name suggest, will teleport you to a few maps in this world, defined by the staff, others can be added in the future=Telehouse, this teleporter will teleport you directly to your house and that of your partner, if his/hers is a partner house=These teleporters can be only used once=PVP escapator, when you feel in danger, you can disable your pvp instantly, without even waiting a minute=This item can be only used once=Nuclear bombs, these bombs can explode all animals/monsters/players with PVP on=The difference between the 3 is their power=To activate a bomb, you have to turn your PVP on=Health box, this potion restores completly your health=Paid gift, A special gift with some premium items than a regular gift=Quick thirst fix drug, this drug restaure your thirst to 0=Quick hunger fix snack, this snack restaure your hunger to 0=Xp potion, this potion doubles xps that you earn during events such as double, super, mega, giga and master xp=Apart from these events, it will have no effect=Once you have purchased the desired quantity of hours, an xp potion will appear in your inventory=You can also extend your current potion=To check your remaining time, just use an xp potion, and it will displayed and will not used=The time indicated will be the time online in the game and nnot the real time so if you disconnect, the remaining time will be paused=If you drink an xp potion once the previous one is finished, its time will be 5 minutes, (default time), the hours previously purchased being consumed, are not re-usable=Armor and large armor plate, these armors protects you against animals, monsters and players with PVP on, it protects you for arround respectively 500 and 1020 shots, depend the strongh of them=To check your remaining shots in your armor, press H=If your armor has no more shots, it will disappear from your inventory=Energy box, this potion increases your energy by 5000=advanced bone repair kit, if your bones are broken, this item completely heal them=This item can be only used once=RPG7, This weapon is currently the strongest weapon in the game=It is slow and can hold 2 RPG ammos in it=Item grabber, this device collects all the items present on the map where you are and brings them to you=You can't move during collect=This device can be only used once=If you have questions, ask them to the staff=Enjoy !
+reinforcement:0:10000000

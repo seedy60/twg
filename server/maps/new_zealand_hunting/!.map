@@ -1,0 +1,70 @@
+mapname:new_zealand_hunting
+minx:0
+maxx:200
+miny:0
+maxy:200
+minz:-50
+maxz:100
+tile:0:200:0:200:0:0:grass3
+owner:kiwi-james
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:200:0:200:0:0
+zone:0:200:0:200:0:100:new zealand hunting
+zone:0:0:0:0:0:10:press shift enter to get back to the meadow.:trackme
+src:0:200:0:200:0:100:0:100:birds58.ogg:1
+src:0:200:0:200:0:100:-5:100:birds24.ogg:1
+tile:0:50:150:200:0:0:thickforrest
+zone:0:50:150:200:0:10:Some thick scrub. Home of the pigs.:trackme
+tile:100:150:150:200:0:10:rocks3
+zone:100:150:150:200:0:10:the goats come down from this rocky outcrop in winter to enjoy the morning sun:trackme
+tile:55:85:150:200:0:0:grass4
+zone:55:85:150:200:0:10:this patch of grass is where the rabbits have made their home:trackme
+tile:190:200:100:200:0:0:water2
+zone:190:200:100:200:0:10:a small stream that feeds the river.:trackme
+src:190:200:100:200:0:10:0:100:stream9.ogg
+tile:0:200:50:95:0:0:water
+zone:0:200:50:95:0:10:a large river:trackme
+src:0:200:50:95:0:10:0:100:river5.ogg
+tile:130:160:120:140:0:0:water
+zone:130:160:120:140:0:10:the lake filled up when the river overflows:trackme
+src:130:160:120:140:0:10:0:100:lake bank2.ogg
+ai:55:85:150:200:0:0:65000:1:rabbit
+ai:0:50:150:200:0:0:75000:1:pig:boar
+ai:100:150:150:200:0:0:85000:1:goat:sheep
+ai:130:160:120:140:0:0:150000:1:duck:goose
+tile:0:200:0:200:-1:-1:wall
+tile:0:200:50:95:-50:-1:underwater
+zone:0:200:50:95:-50:-1:under the large river.
+zone:50:50:70:70:-50:-50:Access through a hidden cave.:trackme
+src:0:200:50:95:-50:-1:-10:100:underwater.ogg:1
+travelpoint:50:50:70:70:-50:-50:hidden_cave:21:10:0:you  have felled in to a small stream.:silence.ogg:silence.ogg:silence.ogg
+travelpoint:0:0:0:0:0:10:rabbit:99:99:0:you have entered the meadow.:silence.ogg:silence.ogg:silence.ogg
+tile:0:200:49:49:-50:-1:wallunderwater2
+tile:0:200:96:96:-50:-1:wallunderwater2
+night:none.ogg
+tile:0:200:45:49:0:0:mud6
+tile:0:200:96:100:0:0:mud6
+zone:0:200:45:49:0:10:mud at the edge of a large river
+zone:0:200:96:100:0:10:mud at the edge of a large river
+tile:25:27:34:35:0:30:tree:trackme
+zone:25:27:34:35:0:40:Mango Tree:trackme
+tile:20:24:34:34:10:10:branch:trackme
+tile:19:24:35:35:11:11:branch:trackme
+src:0:200:0:200:0:100:-10:100:birds89.ogg:1
+tile:25:25:36:42:13:13:branch:trackme
+tile:26:26:36:44:14:14:branch:trackme
+tile:26:26:28:33:14:14:branch:trackme
+tile:27:27:36:45:15:15:branch:trackme
+tile:28:33:35:35:16:16:branch:trackme
+tile:27:27:27:33:17:17:branch:trackme
+tile:28:33:34:34:20:20:branch:trackme
+tile:18:24:34:34:22:22:branch:trackme
+tile:25:25:20:33:25:25:branch:trackme
+tile:25:25:36:48:27:27:branch:trackme
+tile:25:27:36:50:30:30:branch:trackme
+tile:18:24:35:35:30:30:branch:trackme
+tile:25:27:20:33:30:30:branch:trackme
+tile:28:50:35:35:30:30:branch:trackme
+tile:25:27:34:35:30:40:branch:trackme
+item:18:50:20:30:0:40:100000:2:mango

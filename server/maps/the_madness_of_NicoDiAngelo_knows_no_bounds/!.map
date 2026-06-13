@@ -1,0 +1,36 @@
+mapname:the_madness_of_NicoDiAngelo_knows_no_bounds
+minx:-1
+maxx:41
+miny:-1
+maxy:121
+minz:-11
+maxz:21
+tile:-1:41:-1:121:-11:21:wall
+tile:0:40:0:120:0:0:marble3
+owner:NicoDiAngelo
+litem:1
+starting_point:20:20:0:0:0:0
+deathpoint:20:20:60:60:-10:-10
+tile:0:40:40:80:-10:-10:cavegrounds3
+tile:0:40:40:80:-9:-3:air
+night:none.ogg
+wind:none.ogg
+zone:0:40:0:120:-10:20:fortress of NicoDiAngelo, the-maddness of Nico-Di-Angelo knows no-bounds
+tile:20:20:0:0:0:0:concrete2
+zone:20:20:0:0:0:9:sign:trackme
+sign:20:20:0:0:0:9:since I have the domain of madness, I decided a little display was in order. enjoy. :chat24.ogg
+src:0:40:0:120:0:20:-20:100:alarm4.ogg:trackme
+src:0:40:0:120:0:20:-15:100:alarm2.ogg:trackme
+teleporter:0:19:0:13:0:0
+teleporter:21:40:0:13:0:0
+teleporter:0:3:15:31:0:0
+teleporter:5:32:15:35:0:0
+teleporter:0:2:32:40:0:0
+teleporter:4:4:33:40:0:0
+teleporter:0:5:42:50:0:0
+teleporter:4:10:41:41:0:0
+teleporter:34:40:15:24:0:0
+teleporter:40:40:14:14:0:0
+teleporter:0:0:14:14:0:0
+
+tile:0:40:0:120:1:20:air

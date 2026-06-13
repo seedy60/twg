@@ -1,0 +1,42 @@
+mapname:abandoned_warehouse
+minx:-1
+maxx:51
+miny:-1
+maxy:51
+minz:-40
+maxz:50
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+tile:-1:51:-1:51:-40:40:wallbrick4
+tile:0:50:0:50:0:0:cavegrounds
+tile:0:50:0:50:-40:-40:cavegrounds
+owner:kannadiga
+litem:1
+starting_point:0:50:0:50:0:0
+deathpoint:0:50:0:50:0:0
+zone:0:50:0:50:0:20:abandoned warehouse, so many chests are still here. is it really a good idea to know what is hidden inside?
+zone:0:50:0:50:-40:-1:basement of the warehouse
+zone:0:0:0:0:-40:21:stair:trackme
+tile:0:1:0:1:-39:-1:wallmetal5
+tile:0:0:0:0:-40:-0:metal7
+src:0:50:0:50:-40:50:-5:100:rumble4.ogg
+zone:50:50:23:27:0:20:To go back to Lindow town, press shift enter:trackme
+tile:51:51:23:27:0:15:walljaledoor2
+travelpoint:50:50:23:27:0:10:lindow_town:1:25:0:You go out of the warehouse.:silence.ogg:silence.ogg:door111close.ogg
+music:-1:51:-1:51:-40:21:-20:100:musicepic14.ogg:1
+ai:0:50:0:50:0:0:60000:3:chest
+tile:0:50:0:50:40:40:cavegrounds
+zone:0:50:0:50:40:50:boss chests, look out! they hit verry hard.
+zone:24:26:50:50:40:40:door back down to the ground floor.:trackme
+zone:24:26:50:50:40:40:the door to the boss chest room. Be prepared.:trackme
+door:24:26:50:50:0:20:25:50:40:going to the boss area.:50:silence.ogg:silence.ogg:entering_stone_door.ogg:exiting_stone_door.ogg
+door:24:26:50:50:40:40:25:50:0:going back to the ground flore.:50:silence.ogg:silence.ogg:entering_stone_door.ogg:exiting_stone_door.ogg
+ai:0:50:0:50:40:40:30000:1:boss_chest:developers_xp_chest
+ai:0:50:0:50:-40:-40:120000:2:big_chest
+reinforcement:0:10000000
+reinforcement:0:10000000
+tile:-1:0:-1:51:41:50:wallbrick4
+tile:50:51:-1:51:41:50:wallbrick4
+zone:24:26:50:50:0:0:door going up to the boss chests:trackme
+reverb:-1:51:-1:51:-40:50:1:1.0:1.0:0.7:0.5:1.0

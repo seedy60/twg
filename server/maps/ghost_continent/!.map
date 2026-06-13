@@ -1,0 +1,35 @@
+mapname:ghost_continent
+minx:0
+maxx:200
+miny:0
+maxy:200
+minz:-20
+maxz:200
+litem:1
+starting_point:60:60:40:40:0:0
+deathpoint:0:200:0:200:0:0
+night:none.ogg
+owner:turando
+tile:0:200:0:200:0:0:concrete10
+zone:0:200:0:200:0:200:ghost city
+src:0:200:0:200:0:200:-5:101:birds30.ogg:1
+music:0:200:0:200:0:200:-15:100:musicepic20.ogg
+item_usage_restriction:0:200:0:200:0:200:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+tile:100:150:50:150:0:100:wallbrick4
+zone:123:127:49:49:0:100:night club door, press shift enter to go in:trackme
+travelpoint:123:127:49:49:0:0:ghost_night_club:25:0:0:you arrive in a old abandonned night club:silence.ogg:door42open.ogg:door42close.ogg
+tile:123:127:50:50:0:100:wallwooddoor
+zone:0:200:200:200:0:100:a dark forest. Press shift enter to go in:trackme
+travelpoint:0:200:200:200:0:0:ghost_forest:75:0:0:you arrive in a dark forest:silence.ogg:silence.ogg:silence.ogg
+src:0:200:200:200:0:100:-5:100:eerie.ogg
+tile:50:70:41:61:0:20:wallbrick4
+zone:58:61:40:40:0:20:ship station door, press shift enter to go in:trackme
+travelpoint:58:62:40:40:0:0:ghost_ship_station:10:0:0:you go in the ship station:silence.ogg:door79open.ogg:door79close.ogg
+tile:58:62:41:41:0:20:wallglass13
+zone:200:200:0:200:0:200:press shift enter to go in the torgones's temple:trackme
+travelpoint:200:200:0:200:0:0:torgone's_temple:0:50:0:you go in a old temple:silence.ogg:silence.ogg:silence.ogg
+src:200:200:0:200:0:200:-10:100:eerie1.ogg
+zone:0:0:25:25:0:10:a misterious hidden area. press shift enter to travel.:trackme
+travelpoint:0:0:25:25:0:0:hidden_area:0:25:0: :silence.ogg:silence.ogg:silence.ogg
+reinforcement:0:10000000
+level:0:100000000

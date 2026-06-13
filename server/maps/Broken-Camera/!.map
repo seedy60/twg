@@ -1,0 +1,80 @@
+mapname:Broken-Camera
+minx:0
+maxx:200
+miny:0
+maxy:1
+minz:0
+maxz:200
+tile:0:200:0:1:0:0:concrete
+owner:HarryMK
+litem:1
+starting_point:5:5:0:0:0:0
+deathpoint:0:200:0:1:0:0
+zone:0:200:0:1:0:200:Broken Camera
+tile:0:4:0:1:0:20:wall1
+zone:5:5:0:0:0:20:Press Enter to read a sign:trackme
+sign:5:5:0:0:0:0:Welcome to this challenge. You will have to cross this challenge map, however the camera is broken so you will have to folow the zones and signs. So! If you are ready, walk right arrow 10 tiles.:sign.ogg
+zone:15:15:0:0:0:20:Jump right 5 tiles, press up 1 tiles, and jump right 5 tiles
+tile:16:19:0:1:0:0:hazard
+tile:21:200:0:0:0:0:hazard
+tile:21:24:1:1:0:0:hazard
+zone:25:25:1:1:0:20:Jump right 7 tiles, then walk 3 tiles right, press down 1 time, jump right 5 tiles again, then jump 5 tiles right again. After that, walk 20 tiles right, 1 front, and 20 tiles right
+tile:26:30:1:1:0:0:hazard
+tile:35:35:0:0:0:0:concrete
+tile:36:64:1:1:0:0:hazard
+tile:40:40:0:0:0:0:concrete
+tile:45:45:0:0:0:0:concrete6
+tile:45:65:0:0:0:0:carpet2
+zone:85:85:1:1:0:0:Walk right 2 times, then jump right 8 tiles, after that, press down once. After that, jump 8 tiles right, walk 2 tiles right. After that, go front once. After that, jump 5 tiles right, then jump 5 tiles right.
+tile:88:94:1:1:0:0:hazard
+tile:96:104:1:1:0:0:hazard
+tile:95:95:0:0:0:0:cement3
+tile:103:105:0:0:0:0:carpet
+tile:106:109:1:1:0:0:hazard
+zone:115:115:1:1:0:20:Walk right until you hit the wall.
+tile:125:125:0:1:0:4:wall2
+tile:125:125:1:1:4:4:carpet1
+zone:124:124:1:1:0:20:Jump right 1 tile
+zone:125:125:1:1:4:15:Yep, use page up to climb up
+tile:126:200:1:1:0:0:hazard
+tile:125:125:1:1:4:50:carpet
+zone:125:125:1:1:50:60:Hit right arrow slowly
+tile:125:125:0:0:4:60:wall2
+tile:126:126:1:1:45:45:carpet
+zone:126:126:1:1:45:45:Yep, just do like that until you found another zone
+tile:127:127:1:1:40:40:carpet
+tile:128:128:1:1:35:35:carpet
+tile:129:129:1:1:30:30:carpet
+tile:130:130:1:1:25:25:carpet
+tile:126:126:0:1:2:40:wall3
+tile:131:131:1:1:20:20:carpet
+tile:132:132:1:1:15:15:carpet
+tile:133:133:1:1:10:10:carpet
+tile:134:134:1:1:5:5:carpet
+tile:135:135:1:1:0:0:carpet
+zone:135:135:1:1:0:3:Wo, stop right there! Walk right 15 tiles, and press down once, and walk 50 tiles to end!
+tile:136:150:1:1:0:0:carpet
+tile:150:200:0:0:0:0:cement2
+zone:200:200:0:0:0:20:press shift enter to end, and get your reward!:trackme
+checkpoint:5:0:0
+checkpoint:85:1:0
+checkpoint:125:1:50
+vanishing_platform:126:126:1:1:47:47:900:carpet:silence.ogg
+vanishing_platform:127:127:1:1:43:43:900:carpet6:charm.ogg
+vanishing_platform:128:128:1:1:38:38:850:cave:silence.ogg
+vanishing_platform:129:129:1:1:33:33:900:vent:silence.ogg
+vanishing_platform:130:130:1:1:27:27:900:tile:silence.ogg
+vanishing_platform:131:131:1:1:22:22:900:rocks:silence.ogg
+vanishing_platform:132:132:1:1:17:17:900:carpet:charm.ogg
+
+vanishing_platform:133:133:1:1:13:13:900:carpet:silence.ogg
+vanishing_platform:134:134:1:1:7:7:900:carpet:silence.ogg
+vanishing_platform:135:135:1:1:2:2:900:fence:silence.ogg
+disable:coordinates
+disable:camera
+disable:spy
+task_status:200:200:0:0:0:10:coins:50000
+travelpoint:200:200:0:0:0:20:main_map:10:1:0:Congrats:silence.ogg:silence.ogg:silence.ogg
+night:none
+wind:none
+rain:none

@@ -1,0 +1,55 @@
+mapname:the_treasure_mountain
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:170
+tile:0:100:0:100:0:0:soil
+owner:kannadiga
+litem:1
+tile:0:100:0:8:0:0:dirt3
+tile:0:100:10:10:0:29:wallstone
+tile:0:100:9:9:1:30:soil
+tile:0:100:10:16:30:30:soil
+tile:0:100:17:17:30:70:gravel7
+tile:0:100:18:18:30:69:wallstone
+tile:0:100:18:18:70:70:gravel7
+tile:0:100:21:28:70:70:rocks2
+tile:0:100:29:29:70:120:stone2
+tile:0:100:30:30:70:119:wallstone
+tile:0:100:29:38:120:120:stone2
+tile:0:100:40:40:120:149:wallstone
+tile:0:100:39:39:120:150:sand
+tile:0:100:40:50:150:150:sand
+tile:0:100:56:66:150:150:gravel8
+tile:0:100:67:67:150:169:wallstone
+tile:0:100:66:66:150:170:gravel8
+tile:0:100:66:100:170:170:snow5
+tile:0:100:66:66:170:170:gravel8
+src:0:100:17:100:70:170:0:100:highmountain.ogg:1
+zone:0:100:0:8:0:0:you enter this place %n and then you look, you see a mountain in front of you, you start to tremble. and your eyes do not believe what you see, and if you begin to understand That you are just  are Immortal .you ask yourself what brought me In here
+zone:0:100:9:9:0:30:the climb starts hear
+zone:0:100:10:18:30:70:At the beginning of the mountain
+zone:0:100:19:65:70:150:In the mountain
+zone:0:100:66:66:150:169:You are close to the top of the mountain
+zone:0:100:66:100:170:170:congratulations, you reached the top of the mountain,you see the treasure palace ahead of you
+zone:0:0:0:0:0:0:To go back to ocean, press shift enter :trackme
+rain:none.ogg
+night:none.ogg
+night:none.ogg
+zone:50:50:100:100:170:170:press shift enter to continue to the treasure palace.:trackme
+wind:none.ogg
+zone:0:0:4:4:0:0:sign, important please read.:trackme
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+sign:0:0:4:4:0:0:dear %n, welcome to the mountain. at the end of this map stands the treasure palace. how ever, to go into palace, you must be reinforcement 50. happy climing:sign2.ogg
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+automover:0:100:19:20:0:70:0:0:0:o no, you felt down, oops, lets try again:5:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:0:100:51:55:0:150:0:0:0:o no, you felt down, lets try it again:5:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+item_usage_restriction:0:100:0:100:0:170:conex:partner_house:small_conex:fridge:locker:microwave:beehive
+owner:sneha
+travelpoint:0:0:0:0:0:100:sea_twords_mountain:100:999:0:entering an ocean.:silence.ogg:silence.ogg:silence.ogg
+travelpoint:50:50:100:100:170:170:a_treasure_palace:0:0:0:entering a treasure_palace.:silence.ogg:silence.ogg:silence.ogg
+reinforcement:50:10000000

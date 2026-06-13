@@ -1,0 +1,29 @@
+mapname:avoid_the_shark
+minx:0
+maxx:50
+miny:0
+maxy:0
+minz:0
+maxz:10
+tile:0:50:0:0:0:0:water2
+owner:Remu
+litem:1
+deathpoint:0:50:0:0:0:0
+enable:2dsupport
+tile:0:1:0:0:10:10:bridge
+tile:10:11:0:0:10:10:bridge
+tile:18:20:0:0:10:10:bridge
+tile:28:29:0:0:10:10:bridge
+tile:35:36:0:0:10:10:bridge
+tile:48:50:0:0:10:10:bridge
+night:none.ogg
+wind:none.ogg
+src:0:50:0:0:0:5:-7:99:ocean3.ogg
+zone:0:50:0:0:0:50:avoid the shark
+sign:0:0:0:0:10:10:Here that water? The shark lives there. Be careful, very careful. Because if that shark bites you you're back at the start. Can you avoid the shark?:sign.ogg
+automover:0:50:0:0:0:0:0:0:10:Oh no! You just got bitten by the shark.:100:silence.ogg:silence.ogg:silence.ogg:shark_shoot.ogg
+zone:50:50:0:0:10:10:finish
+rain:none.ogg
+travelpoint:50:50:0:0:10:10:main_map:5:1:1:congratulations. the shark glares at you while  you run away:silence.ogg:silence.ogg:shark_voice.ogg
+task_status:50:50:0:0:10:10:coins:6500
+starting_point:0:0:0:0:10:10

@@ -1,0 +1,16 @@
+mapname:the_arena
+minx:0
+maxx:400
+miny:0
+maxy:400
+minz:0
+maxz:400
+tile:0:400:0:400:0:0:bare
+owner:patricus
+litem:1
+starting_point:0:400:0:400:0:0
+deathpoint:0:400:0:400:0:0
+litem:0
+zone:0:200:0:200:0:200:the arena, fight pvp here!
+pvp:0:200:0:200:0:200:1
+zone:50:60:50:60:0:0:weapon_store

@@ -1,0 +1,36 @@
+mapname:court
+minx:0
+maxx:10
+miny:0
+maxy:25
+minz:0
+maxz:50
+tile:0:10:0:25:0:0:carpet9
+owner:kannadiga
+litem:0
+starting_point:1:1:0:0:0:0
+deathpoint:20:20:0:25:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+item_usage_restriction:0:20:0:25:0:50:conex:small_conex:partner_house:beehive:microwave:fridge:locker:air_conditioner:fan
+safezone:0:20:0:25:0:50
+zone:0:10:0:25:0:50:the court. the floor was a sea of shattered reflections, each shard a jagged memory. He avoided her gaze, his face a mask of forced indifference that couldn't quite conceal the flicker of pain in his eyes. She, in turn, nervously adjusted her shawl, the frantic movement betraying the carefully constructed composure she wore like armor. Each footstep on the fragmented glass was a tiny stab of regret, a constant reminder of the beauty they had once seen in each other, now twisted and broken.
+tile:0:0:0:25:0:50:wallwood18
+tile:10:10:0:25:0:50:wallwood18
+tile:0:10:0:0:0:50:wallglass6
+tile:0:10:21:25:0:19:wall
+tile:1:9:20:20:0:20:tile6
+tile:1:9:21:25:20:20:wood7
+tile:0:10:21:21:0:19:wall
+zone:1:9:1:1:0:10:hit shift enter to fall back to the staff center.:trackme
+zone:1:9:20:20:0:0:the stairs to the judgement place.:trackme
+src:0:10:0:25:0:50:-5:100:office.ogg
+zone:1:9:20:20:1:19:the stairs. He stared straight ahead, his jaw clenched, trying to ignore the butterflies fluttering in his stomach. She squeezed his hand, her touch cold and clammy, her eyes wide with a mixture of fear and apprehension With each upward lurch. the facesThe anticipation made them dizzy and anxious.
+zone:1:9:20:20:20:20:stairs back to the court.:trackme
+tile:1:9:25:25:20:22:walltable
+tile:1:9:25:25:23:23:carpet9
+zone:1:9:21:24:20:27:the judgement place. The bench itself was constructed from a single, polished slab of obsidian, a stark contrast to the broken glass that covered the floor. The judge, silhouetted against a blinding spotlight, was an almost ethereal figure, a symbol of impartial justice presiding over a landscape of shattered dreams. The reflection from the platform was perfect, but it was the reflection of them, broken.
+zone:1:9:25:25:23:30:divorce_place
+travelpoint:1:9:1:1:0:10:staff_center:209:67:0:Your heart was unhappy. Your eyes look around the court for your sweetheart, by force, you left the court.:silence.ogg:door23open.ogg:silence.ogg
+music:0:10:0:25:0:50:0:100:musica31.ogg:1

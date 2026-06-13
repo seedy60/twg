@@ -1,0 +1,28 @@
+mapname:ask_urvin
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:100:0:0:0:0:cement
+owner:urvin
+litem:1
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+music:0:100:0:0:0:100:0:100:musiccalm5.ogg:1
+night:none.ogg
+zone:0:0:0:0:0:0:press enter to read the sign!:trackme
+zone:1:1:0:0:0:0:press enter to get normal information about me!:trackme
+zone:3:100:0:0:0:100:the blank space waiting for you'r questions!
+zone:2:2:0:0:0:100:the blank space waiting for you'r questions!
+starting_point:0:0:0:0:0:0
+dialog:0:0:0:0:0:0:hi!=this map will surv as a q and a=here i will anser questions-to ask me a question pm me=thanks for visiting
+
+dialog:1:1:0:0:0:0:i am soham mondal=i am from india kolkata=i am 13 years old
+dialog:2:2:0:0:0:0:question asked by RachelK=first of all please use the pms to ask question=what are my hobyes?=hmm=dificult question.=i have lots of them=first to play games!=yyayyy!=i have more then 600 games on windows=20 on android=then to code=i am just learning pythan=maybe i will make my own game=know more gk things-i cannot remember more=so that's it
+zone:2:2:0:0:0:0:question by RachelK. what are my hobyes?:trackme
+zone:3:3:0:0:0:0:question by king. what is your favourite food?
+sign:3:3:0:0:0:0:um. foods i like lot of them lol! some of them are. chicken pizza,any kind of sweets/choclate,some indian dishes:silence.ogg
+safezone:0:100:0:0:0:100

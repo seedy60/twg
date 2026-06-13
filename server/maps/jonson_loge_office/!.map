@@ -1,0 +1,897 @@
+mapname:jonson_loge_office
+minx:0
+maxx:50
+miny:0
+maxy:50
+minz:0
+maxz:500
+tile:0:50:0:50:0:0:carpet2
+owner:hoanganh
+litem:1
+starting_point:0:50:0:50:0:0
+deathpoint:0:50:0:50:0:0
+deathpoint:0:50:0:50:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+zone:0:50:0:50:0:99:Inside the admin's room covered with a dark blue carpet surrounded by clear glass walls so you can look outside and see the world around you. at the center of the room is a large conference table with armchairs, where the staff pick on each other, i mean hold their meetings.
+tile:0:50:0:0:0:500:wallglass5
+tile:0:0:0:50:0:500:wallglass5
+tile:0:50:50:50:0:500:wallglass5
+tile:50:50:0:50:0:500:wallglass5
+tile:10:40:10:40:0:0:marble2
+zone:10:40:10:40:0:30:Around the conference table
+starting_point:1:1:1:1:0:0
+deathpoint:0:50:0:50:0:500
+tile:21:30:21:30:0:3:wallglass5
+tile:21:30:21:30:4:4:hardwood3
+zone:20:31:20:31:0:30:near table
+zone:21:30:21:30:0:30:on the conference table
+tile:22:22:20:20:0:1:chair
+tile:22:22:20:20:1:1:cloth
+tile:24:24:20:20:0:1:chair
+tile:24:24:20:20:1:1:cloth
+tile:26:26:20:20:0:1:chair
+tile:26:26:20:20:1:1:cloth
+tile:28:28:20:20:0:1:chair
+tile:28:28:20:20:1:1:cloth
+tile:31:31:22:22:0:1:chair
+tile:31:31:22:22:1:1:cloth
+tile:31:31:24:24:0:1:chair
+tile:31:31:24:24:1:1:cloth
+tile:31:31:26:26:0:1:chair
+tile:31:31:26:26:1:1:cloth
+tile:31:31:28:28:0:1:chair
+tile:31:31:28:28:1:1:cloth
+tile:22:22:31:31:0:1:chair
+tile:22:22:31:31:1:1:cloth
+tile:24:24:31:31:0:1:chair
+tile:24:24:31:31:1:1:cloth
+tile:26:26:31:31:0:1:chair
+tile:26:26:31:31:1:1:cloth
+tile:28:28:31:31:0:1:chair
+tile:28:28:31:31:1:1:cloth
+tile:20:20:22:22:0:1:chair
+tile:20:20:22:22:1:1:cloth
+tile:20:20:24:24:0:1:chair
+tile:20:20:24:24:1:1:cloth
+tile:20:20:26:26:0:1:chair
+tile:20:20:26:26:1:1:cloth
+tile:20:20:28:28:0:1:chair
+tile:20:20:28:28:1:1:cloth
+trashcan:1:1:30:30:0:0
+zone:1:1:30:30:0:15:trashcan:trackme
+tile:1:1:30:30:0:0:plastic
+description:0
+zone:49:49:1:1:0:15:Bathroom door:trackme
+travelpoint:49:49:1:1:0:0:admin's_toilet:0:0:0:Welcome the white clean bathroom:silence.ogg:silence.ogg:door_passage.ogg
+enable:tracking
+zone:28:28:20:20:0:10:Rose's chair:trackme
+zone:26:26:20:20:0:10:Kerry's chair:trackme
+zone:1:1:49:49:0:20:press shift enter to go to the jail:trackme
+zone:22:22:31:31:0:20:eric104's chair:trackme
+zone:47:49:49:49:0:10:to enter the adminroom kitchen, press shift enter:trackme
+tile:47:49:49:49:0:0:carpet5
+zone:22:22:20:20:0:20:Dillon9769's chair:trackme
+zone:26:26:31:31:0:20:terry's chair:trackme
+door:21:21:16:16:101:101:19:16:101::1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:21:21:16:16:101:101:door to dillon9769's office, press enter to go in
+zone:1:19:11:21:101:130:inside dillon9769's office
+zone:19:20:16:16:101:101:door to leave dillon9769's office, press enter to leave
+tile:1:4:11:21:101:103:wallspaceship
+tile:1:4:11:21:104:104:wood10
+zone:1:4:11:21:104:115:dillon9769's desk, there is a keyboard and a yetti placed in front of his chair
+tile:5:5:16:16:101:103:chair
+zone:5:5:16:16:101:103:dillon9769's chair
+tile:5:5:16:16:103:103:cloth
+tile:10:16:18:21:101:116:wallmetalbox
+tile:11:15:19:21:101:101:metal9
+icdoor:13:13:17:17:101:101:13:19:101:you swipe your staff key card and open the file cabenit drawer:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door31open.ogg:door31close.ogg
+door:13:13:19:19:101:101:13:17:101:you close the drawer, having found what you needed:1970:silence.ogg:silence.ogg:door31open.ogg:door31close.ogg
+zone:11:15:19:21:101:115:inside the file cabenit
+zone:13:13:17:17:101:101:copper handle to Dillon9769's file cabenit
+zone:13:13:19:19:101:101:copper handle, there is a dragon carved on the handle with the numbers 9769
+zone:1:21:24:43:101:130:near Angie's office
+tile:1:20:25:25:101:130:wallbuilding3
+tile:1:20:42:42:101:130:wallbuilding3
+tile:20:20:25:42:101:130:wallbuilding3
+icdoor:21:21:30:30:101:101:19:30:101:you swipe your staff key card and enter the office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:dooropen31.ogg:doorclose34.ogg
+zone:1:19:26:42:101:130:Angie's office
+zone:19:19:30:30:101:101:door to exit Angie's office, press enter to go out
+zone:21:21:30:30:101:101:door to go inside Angie's office, press enter to go in
+zone:20:20:30:30:101:101:Angie's office
+tile:1:4:26:34:101:103:walltable
+tile:1:4:26:34:104:104:wood14
+zone:1:4:26:34:104:110:on Angie's desk, she has her laptop and a microphone set up in the center, a bottle of wild cherry pepsi is beside her laptop, and an open bag of chips can also be seen to the right of her laptop
+tile:5:5:30:30:101:103:chair
+zone:5:5:30:30:101:103:Angie's chair
+tile:5:5:30:30:103:103:cloth
+src:3:4:30:31:104:104:-10:100:laptop.ogg
+src:4:4:30:30:104:104:-20:100:keabord2.ogg
+src:4:4:16:16:104:104:-8:100:keabord2.ogg
+zone:1:1:11:49:101:130:window looking out, you see cars far below, and a nice thunderstorm is raging, you can hear it even inside the cozy office
+tile:20:20:16:16:101:105:wallwooddoor
+src:0:0:11:20:101:130:-6:100:thunderstorm1.ogg
+tile:20:20:30:30:101:105:wallwooddoor
+tile:2:6:40:41:101:110:wallmetalbox
+zone:3:5:41:42:101:110:inside Angie's filing cabenit
+tile:3:5:41:41:101:101:metal11
+icdoor:4:4:39:39:101:101:4:41:101:swiping your staff key card, you open the drawer:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:opendoor2.ogg:closedoor2.ogg
+door:4:4:41:41:101:101:4:39:101:closing the file drawer:1970:silence.ogg:silence.ogg:opendoor2.ogg:closedoor2.ogg
+zone:4:4:39:40:101:101:carved ivory handle of the file drawer
+zone:4:4:41:41:101:101:carved ivory handle
+tile:28:49:42:42:101:130:wallbuilding3
+tile:28:49:10:10:101:130:wallbuilding3
+tile:28:28:11:41:101:130:wallbuilding3
+tile:29:49:25:25:101:130:wallbuilding3
+zone:29:49:11:24:101:114:shakira's office
+icdoor:27:27:34:34:101:101:29:34:101:you swipe your staff key card and enter the office of Kerry:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+door:29:29:34:34:101:101:27:34:101:exiting Kerry's office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:27:28:34:34:101:101:door to go inside Kerry's office
+zone:29:29:34:34:101:101:door to exit Kerry's office
+icdoor:27:27:14:14:101:101:29:14:101:you swipe your staff key card and enter the office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+door:29:29:14:14:101:101:27:14:101:exiting shakira's office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:27:28:14:14:101:101:door to Shakira's office
+zone:29:29:14:14:101:101:door exiting Shakira's office
+tile:1:49:1:49:139:139:wallwood18
+tile:1:49:1:49:140:140:carpet10
+zone:0:50:0:50:140:230:third floor of the admin room
+zone:1:1:1:2:140:140:stairs going down
+tile:1:20:10:10:140:200:wallbuilding3
+tile:1:20:22:22:140:230:wallbuilding3
+zone:1:19:11:21:140:200:Tony's office
+tile:1:4:11:21:140:143:wallspaceship
+tile:1:4:11:21:144:144:wood10
+zone:1:4:11:21:144:150:on Tony's desk, his desktop computer is in the center in front of his chair, and a pack of cigarettes and a vape are laying next to it, he also has a chrome coffeemaker to the left of his computer
+tile:5:5:16:16:140:143:chair
+tile:5:5:16:16:143:143:cloth
+zone:5:5:16:16:140:143:Tony's chair, it has a nice cigarette burn on it, but he still sits on it in style
+zone:1:1:11:49:140:200:a large window looking out over the area, far below you see cars moving by, looking like ants at this height, rain is falling gently outside, 
+src:0:0:11:49:140:200:-8:100:telha2.ogg
+tile:20:20:11:21:140:230:wallbuilding3
+icdoor:19:19:16:16:140:140:21:16:140:you swipe your staff card and exit Tony's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+icdoor:21:21:16:16:140:140:19:16:140:you swipe your staff key card and enter Tony's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:21:21:16:16:140:140:door to enter Tony's office
+zone:19:20:16:16:140:140:door exiting Tony's office
+tile:20:20:16:16:140:140:wallwooddoor
+tile:20:20:25:42:140:180:wallbuilding3
+tile:0:19:25:25:140:180:wallbuilding3
+tile:20:20:33:33:140:150:wallwooddoor
+door:19:19:33:33:140:140:21:33:140:exiting charry's office:2500:silence.ogg:silence.ogg:door27open.ogg:door27close.ogg
+zone:21:21:33:33:140:160:door to enter charry's office
+tile:1:19:42:42:140:180:wallbuilding3
+zone:2:19:26:41:140:170:inside charry's office
+zone:19:19:33:33:140:160:the door out of charry's office
+tile:2:2:1:2:1:100:wallrail
+tile:2:2:1:2:102:139:wallrail
+tile:28:28:10:49:140:230:wallbuilding3
+tile:29:49:10:10:140:230:wallbuilding3
+tile:28:28:16:16:140:140:wallwooddoor
+icdoor:27:27:16:16:140:140:29:16:140:you swipe your staff key card and enter the office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+door:29:29:16:16:140:140:27:16:140:exiting the office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:29:49:11:25:140:200:inside kb3icc's office
+tile:29:49:25:25:140:200:wallbuilding3
+zone:29:29:16:16:140:140:door out of kb3icc's office
+zone:27:28:16:16:140:140:door to go inside kb3icc's office
+tile:46:49:11:24:140:143:walltable
+tile:46:49:11:24:144:144:wood14
+zone:46:49:11:24:144:150:on kb3icc's desk
+zone:49:50:11:49:140:200:a large window looks down on the street far below
+src:50:50:11:49:140:200:-8:100:rain9.ogg
+src:50:50:11:49:140:200:-6:100:city.ogg
+tile:45:45:16:16:140:143:chair
+tile:45:45:16:16:143:143:cloth
+zone:45:45:16:16:140:143:kb3icc's chair
+tile:29:42:11:12:140:142:wallcloth
+tile:29:42:12:12:142:142:cloth
+tile:29:42:11:11:143:143:cloth
+zone:29:43:11:13:140:141:near kb3icc's soft cumfy sofa for visitors to hang out
+zone:29:42:12:12:142:142:kb3icc's cumfy sofa for visitors to hang out
+zone:29:42:11:11:143:144:back of kb3icc's sofa
+igdoor:4:4:11:11:144:144:4:11:144:you get a steaming cup of coffee from the coffeemaker:cup_of_coffee:1:0:silence.ogg:silence.ogg:coffeemachineopen.ogg:coffeemachineclose.ogg
+tile:5:5:26:26:140:140:walltable
+tile:1:1:26:26:140:140:walltable
+tile:5:5:41:41:140:140:walltable
+zone:4:4:11:11:144:144:Tony's shiny chrome coffeemaker, brewing a fresh steaming cup of coffee on demand
+tile:1:1:41:41:140:140:walltable
+tile:1:5:26:41:141:142:walltable
+tile:1:5:26:41:143:143:wood19
+zone:1:5:26:41:140:140:under the table
+zone:28:49:43:43:101:120:near Kerry's office
+zone:27:27:35:43:101:120:near kerry's office
+zone:27:27:26:33:101:120:near kerry's office
+tile:1:28:46:49:101:103:wallbuilding2
+tile:1:28:46:49:104:104:ceramic3
+zone:2:29:45:49:101:103:near a long counter with coffeemaker, and a fridge
+zone:2:28:46:49:104:110:on a long ceramic counter with a coffeemaker, and a minifridge, a microwave is also at the end for cooking needs
+door:7:7:41:41:140:140:28:31:1: :10:silence.ogg:doormove1.ogg:silence.ogg:silence.ogg
+zone:7:7:41:41:140:140:a teleporter
+tile:7:7:41:41:140:140:metal20
+zone:27:27:15:25:101:120:near cray's office
+zone:27:27:10:13:101:120:neare cray's office
+zone:27:49:9:9:101:120:near cray's office
+igdoor:4:4:11:11:104:104:4:11:104:you take a bottle of wild cherry pepsi from the minifridge:bottle_of_wild_cherry_pepsi:1:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+zone:4:4:11:11:104:104:minifridge with wild cherry pepsi inside
+igdoor:4:4:21:21:104:104:4:21:104:you take a blunt and without stopping to breathe, you smoke it:blunt:1:0:silence.ogg:silence.ogg:smoke.ogg:silence.ogg
+zone:4:4:21:21:104:104:blunt dispenser
+tile:8:19:11:12:101:102:wallsofa
+tile:8:19:12:12:103:103:cloth
+tile:8:19:11:11:103:105:wallsofa
+tile:8:19:11:11:106:106:cloth
+zone:8:19:12:12:103:103:Dillon9769's sofa, for visitors to hang out on
+tile:7:7:11:12:101:105:wallsofa
+tile:7:7:11:13:106:106:cloth
+zone:7:7:12:13:106:106:arm of the sofa
+zone:7:19:11:11:106:110:back of Dillon9769's sofa
+tile:19:19:21:21:101:101:plastic
+zone:19:19:21:21:101:101:trash can 
+zone:12:12:11:11:106:106:ThunderStar, the cat, laying here, he meows when you pet him, so give him a kindly pet
+trashcan:19:19:21:21:101:101
+src:12:12:11:11:106:106:-6:100:pur.ogg
+door:12:12:11:11:106:106:12:11:106:you gently pet ThunderStar and he meows and stretches majesticly:0:silence.ogg:silence.ogg:cat1.ogg:silence.ogg
+tile:8:19:11:12:140:142:wallcloth
+tile:8:19:12:12:143:143:cloth
+tile:8:19:11:11:143:145:wallcloth
+tile:8:19:11:11:146:146:cloth
+zone:7:19:11:13:140:141:near Tony's sofa
+zone:8:19:11:11:146:149:on the back of Tony's sofa
+zone:8:19:12:12:143:143:Tony's sofa
+trashcan:19:19:41:41:101:101
+zone:19:19:41:41:101:101:trashcan
+tile:19:19:41:41:101:101:plastic
+tile:1:49:1:49:240:240:wallwood18
+tile:1:49:1:49:241:241:carpet9
+zone:1:49:1:49:241:241:fourth floor of the staff room, offices take up this space
+zone:1:9:1:9:0:499:near the staff elevator:trackme
+zone:1:7:1:7:0:500:inside the staff elevator
+tile:1:8:1:8:0:0:glass6
+tile:1:8:8:8:0:499:wallglass8
+tile:8:8:1:7:0:499:wallglass8
+tile:1:7:1:7:101:101:glass6
+icdoor:9:9:4:4:0:0:7:4:0:you swipe your staff key card and enter the elevator:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+door:7:7:4:4:0:0:9:4:0:exiting the staff elevator:1970:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:1:1:1:1:0:0:1:1:101:moving to floor 2:50:silence.ogg:elevator_inside.ogg:silence.ogg:elevator_stop.ogg
+door:7:7:4:4:101:101:9:4:101:exiting the elevator on the second floor of the staff room:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:101:101:7:4:101:swiping your staff key card, you enter the elevator on the second floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:7:8:4:4:101:101:door exiting the elevator
+zone:9:9:4:4:101:101:second floor elevator door:trackme
+door:1:1:1:1:101:101:1:1:0:moving down to the main floor of the staff elevator:50:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+zone:1:1:1:1:0:0:button for the second floor:trackme
+zone:1:1:1:1:101:101:button for the main floor
+door:2:2:1:1:0:0:2:1:140:moving to the third floor:60:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+zone:2:2:1:1:0:0:button for the third floor
+tile:1:7:1:7:140:140:glass6
+door:1:1:1:1:140:140:1:1:101:moving to the second floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:46:49:11:24:144:150:on kb3icc's desk
+zone:49:50:11:49:140:200:a large window looks down on the street far below
+src:50:50:11:49:140:200:-8:100:rain9.ogg
+src:50:50:11:49:140:200:-6:100:city.ogg
+tile:45:45:16:16:140:143:chair
+tile:45:45:16:16:143:143:cloth
+zone:45:45:16:16:140:143:kb3icc's chair
+tile:29:42:11:12:140:142:wallcloth
+tile:29:42:12:12:142:142:cloth
+tile:29:42:11:11:143:143:cloth
+zone:29:43:11:13:140:141:near kb3icc's soft cumfy sofa for visitors to hang out
+zone:29:42:12:12:142:142:kb3icc's cumfy sofa for visitors to hang out
+zone:29:42:11:11:143:144:back of kb3icc's sofa
+igdoor:4:4:11:11:144:144:4:11:144:you get a steaming cup of coffee from the coffeemaker:cup_of_coffee:1:0:silence.ogg:silence.ogg:coffeemachineopen.ogg:coffeemachineclose.ogg
+tile:5:5:26:26:140:140:walltable
+tile:1:1:26:26:140:140:walltable
+tile:5:5:41:41:140:140:walltable
+zone:4:4:11:11:144:144:Tony's shiny chrome coffeemaker, brewing a fresh steaming cup of coffee on demand
+tile:1:1:41:41:140:140:walltable
+tile:1:5:26:41:141:142:walltable
+tile:1:5:26:41:143:143:wood19
+zone:1:5:26:41:140:140:under the table
+zone:28:49:43:43:101:120:near Kerry's office
+zone:27:27:35:43:101:120:near kerry's office
+zone:27:27:26:33:101:120:near kerry's office
+tile:1:28:46:49:101:103:wallbuilding2
+tile:1:28:46:49:104:104:ceramic3
+zone:2:29:45:49:101:103:near a long counter with coffeemaker, and a fridge
+zone:2:28:46:49:104:110:on a long ceramic counter with a coffeemaker, and a minifridge, a microwave is also at the end for cooking needs
+door:7:7:41:41:140:140:28:31:1: :10:silence.ogg:doormove1.ogg:silence.ogg:silence.ogg
+zone:7:7:41:41:140:140:a teleporter
+tile:7:7:41:41:140:140:metal20
+zone:27:27:15:25:101:120:near cray's office
+zone:27:27:10:13:101:120:neare cray's office
+zone:27:49:9:9:101:120:near cray's office
+igdoor:4:4:11:11:104:104:4:11:104:you take a bottle of wild cherry pepsi from the minifridge:bottle_of_wild_cherry_pepsi:1:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+zone:4:4:11:11:104:104:minifridge with wild cherry pepsi inside
+igdoor:4:4:21:21:104:104:4:21:104:you take a blunt and without stopping to breathe, you smoke it:blunt:1:0:silence.ogg:silence.ogg:smoke.ogg:silence.ogg
+zone:4:4:21:21:104:104:blunt dispenser
+tile:8:19:11:12:101:102:wallsofa
+tile:8:19:12:12:103:103:cloth
+tile:8:19:11:11:103:105:wallsofa
+tile:8:19:11:11:106:106:cloth
+zone:8:19:12:12:103:103:Dillon9769's sofa, for visitors to hang out on
+tile:7:7:11:12:101:105:wallsofa
+tile:7:7:11:13:106:106:cloth
+zone:7:7:12:13:106:106:arm of the sofa
+zone:7:19:11:11:106:110:back of Dillon9769's sofa
+tile:19:19:21:21:101:101:plastic
+zone:19:19:21:21:101:101:trash can 
+zone:12:12:11:11:106:106:ThunderStar, the cat, laying here, he meows when you pet him, so give him a kindly pet
+trashcan:19:19:21:21:101:101
+src:12:12:11:11:106:106:-6:100:pur.ogg
+door:12:12:11:11:106:106:12:11:106:you gently pet ThunderStar and he meows and stretches majesticly:0:silence.ogg:silence.ogg:cat1.ogg:silence.ogg
+tile:8:19:11:12:140:142:wallcloth
+tile:8:19:12:12:143:143:cloth
+tile:8:19:11:11:143:145:wallcloth
+tile:8:19:11:11:146:146:cloth
+zone:7:19:11:13:140:141:near Tony's sofa
+zone:8:19:11:11:146:149:on the back of Tony's sofa
+zone:8:19:12:12:143:143:Tony's sofa
+trashcan:19:19:41:41:101:101
+zone:19:19:41:41:101:101:trashcan
+tile:19:19:41:41:101:101:plastic
+tile:1:49:1:49:240:240:wallwood18
+tile:1:49:1:49:241:241:carpet9
+zone:1:49:1:49:241:241:fourth floor of the staff room, offices take up this space
+zone:1:9:1:9:0:499:near the staff elevator:trackme
+zone:1:7:1:7:0:500:inside the staff elevator
+tile:1:8:1:8:0:0:glass6
+tile:1:8:8:8:0:499:wallglass8
+tile:8:8:1:7:0:499:wallglass8
+tile:1:7:1:7:101:101:glass6
+icdoor:9:9:4:4:0:0:7:4:0:you swipe your staff key card and enter the elevator:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+door:7:7:4:4:0:0:9:4:0:exiting the staff elevator:1970:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:1:1:1:1:0:0:1:1:101:moving to floor 2:50:silence.ogg:elevator_inside.ogg:silence.ogg:elevator_stop.ogg
+door:7:7:4:4:101:101:9:4:101:exiting the elevator on the second floor of the staff room:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:101:101:7:4:101:swiping your staff key card, you enter the elevator on the second floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:7:8:4:4:101:101:door exiting the elevator
+zone:9:9:4:4:101:101:second floor elevator door:trackme
+door:1:1:1:1:101:101:1:1:0:moving down to the main floor of the staff elevator:50:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+zone:1:1:1:1:0:0:button for the second floor:trackme
+zone:1:1:1:1:101:101:button for the main floor
+door:2:2:1:1:0:0:2:1:140:moving to the third floor:60:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+zone:2:2:1:1:0:0:button for the third floor
+tile:1:7:1:7:140:140:glass6
+door:1:1:1:1:140:140:1:1:101:moving to the second floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:1:1:1:1:140:140:button for the second floor
+bed:8:19:12:12:103:103
+tile:0:50:0:50:500:500:wallglass5
+door:2:2:1:1:101:101:2:1:140:moving to the third floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:101:101:button to go to the third floor
+door:7:7:4:4:140:140:9:4:140:exiting the elevator on the third floor:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:140:140:7:4:140:entering the elevator from the third floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:9:9:4:4:140:140:third floor elevator door
+zone:7:7:4:4:140:140:door to exit the elevator
+door:2:2:1:1:140:140:2:1:0:moving to the main floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:140:140:button for the main floor
+zone:14:14:11:11:146:146:Chloe the cat sleeping on the back of the sofa, she purrs quietly and meows when you touch her
+src:14:14:11:11:146:146:-10:100:pur.ogg
+door:14:14:11:11:146:146:14:11:146:Chloe thanks you for petting her, she is happy, and gives a meow in response:0:silence.ogg:silence.ogg:cat1.ogg:silence.ogg
+zone:9:9:4:4:0:0:first floor elevator door
+zone:7:8:4:4:0:0:door to exit the elevator on the main floor
+tile:8:19:26:27:101:103:wallcloth
+tile:8:19:27:27:103:103:cloth
+tile:8:19:26:26:104:106:wallcloth
+tile:8:19:26:26:106:106:cloth
+zone:7:19:26:28:101:102:near Angie's sofa
+zone:8:19:27:27:103:103:on Angie's sofa
+tile:7:7:26:28:101:104:wallcloth
+tile:7:7:26:28:105:105:cloth
+zone:7:7:26:28:105:105:arm of Angie's sofa,
+zone:8:19:26:26:106:106:back of Angie's sofa
+bed:8:19:27:27:103:103
+tile:1:7:1:7:241:241:glass6
+door:3:3:1:1:140:140:3:1:241:going to the forth floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:140:140:button for the forth floor
+door:7:7:4:4:241:241:9:4:241:exiting the elevator on the fourth floor:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:241:241:7:4:241:you swipe your staff key card and enter the elevator on the fourth floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:3:3:1:1:0:0:button for the fourth floor
+door:3:3:1:1:0:0:3:1:241:moving to the fourth floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:9:9:4:4:241:241:elevator door
+zone:7:8:4:4:241:241:door to exit the elevator
+door:1:1:1:1:241:241:1:1:0:door to the main floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:1:1:1:1:241:241:button for the main floor
+door:2:2:1:1:241:241:2:1:140:moving to the third floor:60:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:241:241:button for the third floor
+door:3:3:1:1:241:241:3:1:101:moving to the second floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:241:241:button for the second floor
+door:3:3:1:1:101:101:3:1:241:moving to the fourth floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:101:101:button for the fourth floor
+travelpoint:44:49:49:49:101:101:staff_bathroom:1:1:0:entering the staff bathroom:silence.ogg:doorsecureopen.ogg:doorsecureclose.ogg
+zone:44:49:49:49:101:101:press shift enter to go to the staff bathroom:trackme
+src:0:0:26:49:101:200:-10:100:citybirds.ogg
+travelpoint:30:36:49:49:101:101:staff_test_room:1:1:0:entering the staff testing room:silence.ogg:entering_factory.ogg:exiting_factory.ogg
+zone:30:36:49:49:101:101:press shift enter to go to the staff ai testing lab:trackme
+igdoor:4:4:49:49:104:104:4:49:104:you get a hot cup of coffee:cup_of_coffee:1:0:silence.ogg:silence.ogg:coffeemachineopen.ogg:coffeemachineclose.ogg
+zone:4:4:49:49:104:104:a shiny new coffeemaker, press enter to take a hot cup of freshly brewed coffee
+oven:12:16:47:49:104:104
+tile:12:16:47:49:104:104:diamond
+src:12:16:47:49:104:104:-24:100:oven.ogg
+zone:12:16:47:49:104:104:stove top:trackme
+zone:29:48:26:49:140:200:Jazzyjennifer's office:trackme
+door:29:29:30:30:140:140:27:30:140:exiting Jazzyjennifer's office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:29:29:30:30:140:140:door to exit Jazzyjennifer's office:trackme
+icdoor:27:27:30:30:140:140:29:30:140:you swipe your staff key card and enter the office of Jazzyjennifer:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:27:28:30:30:140:140:door to go inside Jazzyjennifer's office:trackme
+clock:8:10:41:41:101:104:you look at the grandfather clock and see the time is
+zone:8:10:41:41:101:104:a beautiful grandfather clock stands against the wall and you watch the pendulum swing and the rhythmic ticking lulls you into a state of calmness:trackme
+src:8:10:41:41:101:104:-14:100:clock3.ogg
+tile:28:28:30:30:140:145:wallwooddoor
+washbasin:6:8:47:48:104:104
+zone:6:8:47:48:104:104:sink:trackme
+icdoor:19:19:16:16:101:101:21:16:101:swiping your staff key card, you leave Dillon's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+icdoor:19:19:30:30:101:101:21:30:101:you swipe your staff key card and exit Angie's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:28:28:34:34:101:105:wallwooddoor
+tile:28:28:14:14:101:105:wallwooddoor
+tile:28:28:1:49:241:341:wallbuilding3
+icdoor:27:27:32:32:241:241:29:32:241:you swipe your ul staff key card and enter Terry's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:29:49:26:26:241:340:wallbuilding3
+zone:29:49:27:49:241:340:Terry's office:trackme
+door:29:29:32:32:241:241:27:32:241:exiting Terry's office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:29:29:32:32:241:241:door to exit Terry's office:trackme
+tile:28:28:32:32:241:241:wallwooddoor
+zone:27:28:32:32:241:241:door to enter Terry's office:trackme
+zone:46:49:11:24:144:150:on kb3icc's desk
+zone:49:50:11:49:140:200:a large window looks down on the street far below
+src:50:50:11:49:140:200:-8:100:rain9.ogg
+src:50:50:11:49:140:200:-6:100:city.ogg
+tile:45:45:16:16:140:143:chair
+tile:45:45:16:16:143:143:cloth
+zone:45:45:16:16:140:143:kb3icc's chair
+tile:29:42:11:12:140:142:wallcloth
+tile:29:42:12:12:142:142:cloth
+tile:29:42:11:11:143:143:cloth
+zone:29:43:11:13:140:141:near kb3icc's soft cumfy sofa for visitors to hang out
+zone:29:42:12:12:142:142:kb3icc's cumfy sofa for visitors to hang out
+zone:29:42:11:11:143:144:back of kb3icc's sofa
+igdoor:4:4:11:11:144:144:4:11:144:you get a steaming cup of coffee from the coffeemaker:cup_of_coffee:1:0:silence.ogg:silence.ogg:coffeemachineopen.ogg:coffeemachineclose.ogg
+tile:5:5:26:26:140:140:walltable
+tile:1:1:26:26:140:140:walltable
+tile:5:5:41:41:140:140:walltable
+zone:4:4:11:11:144:144:Tony's shiny chrome coffeemaker, brewing a fresh steaming cup of coffee on demand
+tile:1:1:41:41:140:140:walltable
+tile:1:5:26:41:141:142:walltable
+tile:1:5:26:41:143:143:wood19
+zone:1:5:26:41:140:140:under the table
+zone:28:49:43:43:101:120:near Kerry's office
+zone:27:27:35:43:101:120:near kerry's office
+zone:27:27:26:33:101:120:near kerry's office
+tile:1:28:46:49:101:103:wallbuilding2
+tile:1:28:46:49:104:104:ceramic3
+zone:2:29:45:49:101:103:near a long counter with coffeemaker, and a fridge
+zone:2:28:46:49:104:110:on a long ceramic counter with a coffeemaker, and a minifridge, a microwave is also at the end for cooking needs
+door:7:7:41:41:140:140:28:31:1: :10:silence.ogg:doormove1.ogg:silence.ogg:silence.ogg
+zone:7:7:41:41:140:140:a teleporter
+tile:7:7:41:41:140:140:metal20
+zone:27:27:15:25:101:120:near cray's office
+zone:27:27:10:13:101:120:neare cray's office
+zone:27:49:9:9:101:120:near cray's office
+igdoor:4:4:11:11:104:104:4:11:104:you take a bottle of wild cherry pepsi from the minifridge:bottle_of_wild_cherry_pepsi:1:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+zone:4:4:11:11:104:104:minifridge with wild cherry pepsi inside
+igdoor:4:4:21:21:104:104:4:21:104:you take a blunt and without stopping to breathe, you smoke it:blunt:1:0:silence.ogg:silence.ogg:smoke.ogg:silence.ogg
+zone:4:4:21:21:104:104:blunt dispenser
+tile:8:19:11:12:101:102:wallsofa
+tile:8:19:12:12:103:103:cloth
+tile:8:19:11:11:103:105:wallsofa
+tile:8:19:11:11:106:106:cloth
+zone:8:19:12:12:103:103:Dillon9769's sofa, for visitors to hang out on
+tile:7:7:11:12:101:105:wallsofa
+tile:7:7:11:13:106:106:cloth
+zone:7:7:12:13:106:106:arm of the sofa
+zone:7:19:11:11:106:110:back of Dillon9769's sofa
+tile:19:19:21:21:101:101:plastic
+zone:19:19:21:21:101:101:trash can 
+zone:12:12:11:11:106:106:ThunderStar, the cat, laying here, he meows when you pet him, so give him a kindly pet
+trashcan:19:19:21:21:101:101
+src:12:12:11:11:106:106:-6:100:pur.ogg
+door:12:12:11:11:106:106:12:11:106:you gently pet ThunderStar and he meows and stretches majesticly:0:silence.ogg:silence.ogg:cat1.ogg:silence.ogg
+tile:8:19:11:12:140:142:wallcloth
+tile:8:19:12:12:143:143:cloth
+tile:8:19:11:11:143:145:wallcloth
+tile:8:19:11:11:146:146:cloth
+zone:7:19:11:13:140:141:near Tony's sofa
+zone:8:19:11:11:146:149:on the back of Tony's sofa
+zone:8:19:12:12:143:143:Tony's sofa
+trashcan:19:19:41:41:101:101
+zone:19:19:41:41:101:101:trashcan
+tile:19:19:41:41:101:101:plastic
+tile:1:49:1:49:240:240:wallwood18
+tile:1:49:1:49:241:241:carpet9
+zone:1:49:1:49:241:241:fourth floor of the staff room, offices take up this space
+zone:1:9:1:9:0:499:near the staff elevator:trackme
+zone:1:7:1:7:0:500:inside the staff elevator
+tile:1:8:1:8:0:0:glass6
+tile:1:8:8:8:0:499:wallglass8
+tile:8:8:1:7:0:499:wallglass8
+tile:1:7:1:7:101:101:glass6
+icdoor:9:9:4:4:0:0:7:4:0:you swipe your staff key card and enter the elevator:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+door:7:7:4:4:0:0:9:4:0:exiting the staff elevator:1970:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:1:1:1:1:0:0:1:1:101:moving to floor 2:50:silence.ogg:elevator_inside.ogg:silence.ogg:elevator_stop.ogg
+door:7:7:4:4:101:101:9:4:101:exiting the elevator on the second floor of the staff room:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:101:101:7:4:101:swiping your staff key card, you enter the elevator on the second floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:7:8:4:4:101:101:door exiting the elevator
+zone:9:9:4:4:101:101:second floor elevator door:trackme
+door:1:1:1:1:101:101:1:1:0:moving down to the main floor of the staff elevator:50:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+zone:1:1:1:1:0:0:button for the second floor:trackme
+zone:1:1:1:1:101:101:button for the main floor
+door:2:2:1:1:0:0:2:1:140:moving to the third floor:60:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+zone:2:2:1:1:0:0:button for the third floor
+tile:1:7:1:7:140:140:glass6
+door:1:1:1:1:140:140:1:1:101:moving to the second floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:1:1:1:1:140:140:button for the second floor
+bed:8:19:12:12:103:103
+tile:0:50:0:50:500:500:wallglass5
+door:2:2:1:1:101:101:2:1:140:moving to the third floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:101:101:button to go to the third floor
+door:7:7:4:4:140:140:9:4:140:exiting the elevator on the third floor:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:140:140:7:4:140:entering the elevator from the third floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:9:9:4:4:140:140:third floor elevator door
+zone:7:7:4:4:140:140:door to exit the elevator
+door:2:2:1:1:140:140:2:1:0:moving to the main floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:140:140:button for the main floor
+zone:14:14:11:11:146:146:Chloe the cat sleeping on the back of the sofa, she purrs quietly and meows when you touch her
+src:14:14:11:11:146:146:-10:100:pur.ogg
+door:14:14:11:11:146:146:14:11:146:Chloe thanks you for petting her, she is happy, and gives a meow in response:0:silence.ogg:silence.ogg:cat1.ogg:silence.ogg
+zone:9:9:4:4:0:0:first floor elevator door
+zone:7:8:4:4:0:0:door to exit the elevator on the main floor
+tile:8:19:26:27:101:103:wallcloth
+tile:8:19:27:27:103:103:cloth
+tile:8:19:26:26:104:106:wallcloth
+tile:8:19:26:26:106:106:cloth
+zone:7:19:26:28:101:102:near Angie's sofa
+zone:8:19:27:27:103:103:on Angie's sofa
+tile:7:7:26:28:101:104:wallcloth
+tile:7:7:26:28:105:105:cloth
+zone:7:7:26:28:105:105:arm of Angie's sofa,
+zone:8:19:26:26:106:106:back of Angie's sofa
+bed:8:19:27:27:103:103
+tile:1:7:1:7:241:241:glass6
+door:3:3:1:1:140:140:3:1:241:going to the forth floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:140:140:button for the forth floor
+door:7:7:4:4:241:241:9:4:241:exiting the elevator on the fourth floor:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:241:241:7:4:241:you swipe your staff key card and enter the elevator on the fourth floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:3:3:1:1:0:0:button for the fourth floor
+door:3:3:1:1:0:0:3:1:241:moving to the fourth floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:9:9:4:4:241:241:elevator door
+zone:7:8:4:4:241:241:door to exit the elevator
+door:1:1:1:1:241:241:1:1:0:door to the main floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:1:1:1:1:241:241:button for the main floor
+door:2:2:1:1:241:241:2:1:140:moving to the third floor:60:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:241:241:button for the third floor
+door:3:3:1:1:241:241:3:1:101:moving to the second floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:241:241:button for the second floor
+door:3:3:1:1:101:101:3:1:241:moving to the fourth floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:101:101:button for the fourth floor
+travelpoint:44:49:49:49:101:101:staff_bathroom:1:1:0:entering the staff bathroom:silence.ogg:doorsecureopen.ogg:doorsecureclose.ogg
+zone:44:49:49:49:101:101:press shift enter to go to the staff bathroom:trackme
+src:0:0:26:49:101:200:-10:100:citybirds.ogg
+travelpoint:30:36:49:49:101:101:staff_test_room:1:1:0:entering the staff testing room:silence.ogg:entering_factory.ogg:exiting_factory.ogg
+zone:30:36:49:49:101:101:press shift enter to go to the staff ai testing lab:trackme
+igdoor:4:4:49:49:104:104:4:49:104:you get a hot cup of coffee:cup_of_coffee:1:0:silence.ogg:silence.ogg:coffeemachineopen.ogg:coffeemachineclose.ogg
+zone:4:4:49:49:104:104:a shiny new coffeemaker, press enter to take a hot cup of freshly brewed coffee
+oven:12:16:47:49:104:104
+tile:12:16:47:49:104:104:diamond
+src:12:16:47:49:104:104:-24:100:oven.ogg
+zone:12:16:47:49:104:104:stove top:trackme
+zone:29:48:26:49:140:200:Jazzyjennifer's office:trackme
+door:29:29:30:30:140:140:27:30:140:exiting Jazzyjennifer's office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:29:29:30:30:140:140:door to exit Jazzyjennifer's office:trackme
+icdoor:27:27:30:30:140:140:29:30:140:you swipe your staff key card and enter the office of Jazzyjennifer:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:27:28:30:30:140:140:door to go inside Jazzyjennifer's office:trackme
+clock:8:10:41:41:101:104:you look at the grandfather clock and see the time is
+zone:8:10:41:41:101:104:a beautiful grandfather clock stands against the wall and you watch the pendulum swing and the rhythmic ticking lulls you into a state of calmness:trackme
+src:8:10:41:41:101:104:-14:100:clock3.ogg
+tile:28:28:30:30:140:145:wallwooddoor
+washbasin:6:8:47:48:104:104
+zone:6:8:47:48:104:104:sink:trackme
+icdoor:19:19:16:16:101:101:21:16:101:swiping your staff key card, you leave Dillon's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+icdoor:19:19:30:30:101:101:21:30:101:you swipe your staff key card and exit Angie's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:28:28:34:34:101:105:wallwooddoor
+tile:28:28:14:14:101:105:wallwooddoor
+tile:28:28:1:49:241:341:wallbuilding3
+icdoor:27:27:32:32:241:241:29:32:241:you swipe your ul staff key card and enter Terry's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:29:49:26:26:241:340:wallbuilding3
+zone:29:49:27:49:241:340:Terry's office:trackme
+door:29:29:32:32:241:241:27:32:241:exiting Terry's office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:29:29:32:32:241:241:door to exit Terry's office:trackme
+tile:28:28:32:32:241:241:wallwooddoor
+zone:27:28:32:32:241:241:door to enter Terry's office:trackme
+icdoor:27:27:16:16:241:241:29:16:241:you swipe your staff key card and enter the office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:28:28:16:16:241:241:wallwooddoor
+door:29:29:16:16:241:241:27:16:241:exiting the office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:32:39:26:28:140:141:wallsofa
+tile:32:39:26:28:142:142:cloth
+tile:32:39:26:26:142:145:wallsofa
+bed:32:39:27:28:142:142
+zone:32:39:27:28:142:142:Jazzyjennifer's sofa
+tile:32:39:26:26:146:146:cloth
+zone:2:5:26:41:143:150:on the table with various item such as a a laptop that has pink coloured keyboards and other stufs
+tile:35:45:27:34:241:243:wallsofa
+tile:6:6:31:31:140:140:wallbody
+tile:6:6:31:31:141:141:cloth
+tile:35:45:27:34:243:243:cloth
+tile:45:45:27:34:144:145:wallsofa
+tile:46:46:27:35:241:246:wallsofa
+tile:34:34:27:34:241:245:wallsofa
+zone:6:6:31:31:141:151:on charry's soft and comfy chair
+zone:27:28:16:16:241:241:door to Shamarokoo's office:trackme
+tile:35:45:27:27:243:245:wallsofa
+bed:35:45:28:34:243:243
+zone:33:47:27:35:241:245:sofa:trackme
+tile:29:49:44:49:241:243:wallwood16
+tile:29:49:44:49:243:243:marble2
+zone:29:49:43:49:241:243:large desk:trackme
+tile:35:37:42:42:241:242:chair
+zone:34:38:42:42:241:242:desk chair:trackme
+tile:35:37:42:42:242:242:cloth
+zone:29:49:1:25:241:256:Shamarokoo's office
+zone:29:29:16:16:241:256:Exit door to Shamarokoo's office
+igdoor:4:4:20:20:144:144:4:20:144:you take a cuban cigar from the dispenser and smoke it:cuban_cigar:1:0:silence.ogg:silence.ogg:smoke.ogg:silence.ogg
+zone:4:4:20:20:144:144:cuban cigar dispenser
+travelpoint:24:28:1:1:101:101:staff_pool:0:0:0:going to the staff pool:silence.ogg:slidestart.ogg:slidestop.ogg
+zone:24:28:1:1:101:101:press shift enter to go to the staff pool:trackme
+igdoor:4:4:26:26:104:104:4:26:104:you open the fridge and take out a strawberry_cream_weed_smoothie and drink it:strawberry_cream_weed_smoothie:2:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+zone:4:4:26:26:104:104:press enter to get a strawberry_cream_weed_smoothie
+igdoor:40:40:45:45:243:243:40:45:243:you get a vape:weed_vape:2:0:silence.ogg:silence.ogg:silence.ogg:drawlighter.ogg
+zone:40:40:45:45:243:243:weed vape:trackme
+igdoor:45:45:45:45:243:243:45:45:243:you get a blunt:blunt:2:0:silence.ogg:silence.ogg:silence.ogg:smoke.ogg
+zone:45:45:45:45:243:243:blunts:trackme
+igdoor:30:30:45:45:243:243:30:45:243:you get a weed browny:weed_browny:2:0:silence.ogg:silence.ogg:silence.ogg:eatkiwi.ogg
+zone:30:30:45:45:243:243:weed brownie:trackme
+tile:1:4:43:45:101:101:metal9
+tile:1:4:45:45:101:120:wallwoodcrate
+tile:1:1:43:45:101:120:wallwoodcrate
+tile:1:4:43:43:101:120:wallwoodcrate
+tile:1:4:43:45:120:120:wallwoodcrate
+zone:5:5:43:45:101:115:in frunt of the staff fridge
+zone:2:3:44:44:101:115:inside the staff fridge
+zone:4:4:44:44:101:101:going thrue the fridge door
+tile:4:4:44:44:101:119:wallwoodcrate
+zone:5:5:44:44:101:115:staff fridge door:trackme
+zone:3:3:44:44:101:115:staff fridge door
+icdoor:5:5:44:44:101:101:3:44:101:using your staff key card, you open the staff fridge and take a look inside:ul_staff_key_card:1:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+door:3:3:44:44:101:101:5:44:101:you close the fridge after taking out what you wanted:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+tile:21:21:48:49:104:109:wallmetal20
+tile:23:23:48:49:104:109:wallmetal20
+tile:21:23:48:49:110:110:wallmetal20
+tile:22:22:47:47:104:109:wallmetal20
+zone:46:49:11:24:144:150:on kb3icc's desk
+zone:49:50:11:49:140:200:a large window looks down on the street far below
+src:50:50:11:49:140:200:-8:100:rain9.ogg
+src:50:50:11:49:140:200:-6:100:city.ogg
+tile:45:45:16:16:140:143:chair
+tile:45:45:16:16:143:143:cloth
+zone:45:45:16:16:140:143:kb3icc's chair
+tile:29:42:11:12:140:142:wallcloth
+tile:29:42:12:12:142:142:cloth
+tile:29:42:11:11:143:143:cloth
+zone:29:43:11:13:140:141:near kb3icc's soft cumfy sofa for visitors to hang out
+zone:29:42:12:12:142:142:kb3icc's cumfy sofa for visitors to hang out
+zone:29:42:11:11:143:144:back of kb3icc's sofa
+igdoor:4:4:11:11:144:144:4:11:144:you get a steaming cup of coffee from the coffeemaker:cup_of_coffee:1:0:silence.ogg:silence.ogg:coffeemachineopen.ogg:coffeemachineclose.ogg
+tile:5:5:26:26:140:140:walltable
+tile:1:1:26:26:140:140:walltable
+tile:5:5:41:41:140:140:walltable
+zone:4:4:11:11:144:144:Tony's shiny chrome coffeemaker, brewing a fresh steaming cup of coffee on demand
+tile:1:1:41:41:140:140:walltable
+tile:1:5:26:41:141:142:walltable
+tile:1:5:26:41:143:143:wood19
+zone:1:5:26:41:140:140:under the table
+zone:28:49:43:43:101:120:near Kerry's office
+zone:27:27:35:43:101:120:near kerry's office
+zone:27:27:26:33:101:120:near kerry's office
+tile:1:28:46:49:101:103:wallbuilding2
+tile:1:28:46:49:104:104:ceramic3
+zone:2:29:45:49:101:103:near a long counter with coffeemaker, and a fridge
+zone:2:28:46:49:104:110:on a long ceramic counter with a coffeemaker, and a minifridge, a microwave is also at the end for cooking needs
+door:7:7:41:41:140:140:28:31:1: :10:silence.ogg:doormove1.ogg:silence.ogg:silence.ogg
+zone:7:7:41:41:140:140:a teleporter
+tile:7:7:41:41:140:140:metal20
+zone:27:27:15:25:101:120:near cray's office
+zone:27:27:10:13:101:120:neare cray's office
+zone:27:49:9:9:101:120:near cray's office
+igdoor:4:4:11:11:104:104:4:11:104:you take a bottle of wild cherry pepsi from the minifridge:bottle_of_wild_cherry_pepsi:1:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+zone:4:4:11:11:104:104:minifridge with wild cherry pepsi inside
+igdoor:4:4:21:21:104:104:4:21:104:you take a blunt and without stopping to breathe, you smoke it:blunt:1:0:silence.ogg:silence.ogg:smoke.ogg:silence.ogg
+zone:4:4:21:21:104:104:blunt dispenser
+tile:8:19:11:12:101:102:wallsofa
+tile:8:19:12:12:103:103:cloth
+tile:8:19:11:11:103:105:wallsofa
+tile:8:19:11:11:106:106:cloth
+zone:8:19:12:12:103:103:Dillon9769's sofa, for visitors to hang out on
+tile:7:7:11:12:101:105:wallsofa
+tile:7:7:11:13:106:106:cloth
+zone:7:7:12:13:106:106:arm of the sofa
+zone:7:19:11:11:106:110:back of Dillon9769's sofa
+tile:19:19:21:21:101:101:plastic
+zone:19:19:21:21:101:101:trash can 
+zone:12:12:11:11:106:106:ThunderStar, the cat, laying here, he meows when you pet him, so give him a kindly pet
+trashcan:19:19:21:21:101:101
+src:12:12:11:11:106:106:-6:100:pur.ogg
+door:12:12:11:11:106:106:12:11:106:you gently pet ThunderStar and he meows and stretches majesticly:0:silence.ogg:silence.ogg:cat1.ogg:silence.ogg
+tile:8:19:11:12:140:142:wallcloth
+tile:8:19:12:12:143:143:cloth
+tile:8:19:11:11:143:145:wallcloth
+tile:8:19:11:11:146:146:cloth
+zone:7:19:11:13:140:141:near Tony's sofa
+zone:8:19:11:11:146:149:on the back of Tony's sofa
+zone:8:19:12:12:143:143:Tony's sofa
+trashcan:19:19:41:41:101:101
+zone:19:19:41:41:101:101:trashcan
+tile:19:19:41:41:101:101:plastic
+tile:1:49:1:49:240:240:wallwood18
+tile:1:49:1:49:241:241:carpet9
+zone:1:49:1:49:241:241:fourth floor of the staff room, offices take up this space
+zone:1:9:1:9:0:499:near the staff elevator:trackme
+zone:1:7:1:7:0:500:inside the staff elevator
+tile:1:8:1:8:0:0:glass6
+tile:1:8:8:8:0:499:wallglass8
+tile:8:8:1:7:0:499:wallglass8
+tile:1:7:1:7:101:101:glass6
+icdoor:9:9:4:4:0:0:7:4:0:you swipe your staff key card and enter the elevator:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+door:7:7:4:4:0:0:9:4:0:exiting the staff elevator:1970:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:1:1:1:1:0:0:1:1:101:moving to floor 2:50:silence.ogg:elevator_inside.ogg:silence.ogg:elevator_stop.ogg
+door:7:7:4:4:101:101:9:4:101:exiting the elevator on the second floor of the staff room:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:101:101:7:4:101:swiping your staff key card, you enter the elevator on the second floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:7:8:4:4:101:101:door exiting the elevator
+zone:9:9:4:4:101:101:second floor elevator door:trackme
+door:1:1:1:1:101:101:1:1:0:moving down to the main floor of the staff elevator:50:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+zone:1:1:1:1:0:0:button for the second floor:trackme
+zone:1:1:1:1:101:101:button for the main floor
+door:2:2:1:1:0:0:2:1:140:moving to the third floor:60:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+zone:2:2:1:1:0:0:button for the third floor
+tile:1:7:1:7:140:140:glass6
+door:1:1:1:1:140:140:1:1:101:moving to the second floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:1:1:1:1:140:140:button for the second floor
+bed:8:19:12:12:103:103
+tile:0:50:0:50:500:500:wallglass5
+door:2:2:1:1:101:101:2:1:140:moving to the third floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:101:101:button to go to the third floor
+door:7:7:4:4:140:140:9:4:140:exiting the elevator on the third floor:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:140:140:7:4:140:entering the elevator from the third floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:9:9:4:4:140:140:third floor elevator door
+zone:7:7:4:4:140:140:door to exit the elevator
+door:2:2:1:1:140:140:2:1:0:moving to the main floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:140:140:button for the main floor
+zone:14:14:11:11:146:146:Chloe the cat sleeping on the back of the sofa, she purrs quietly and meows when you touch her
+src:14:14:11:11:146:146:-10:100:pur.ogg
+door:14:14:11:11:146:146:14:11:146:Chloe thanks you for petting her, she is happy, and gives a meow in response:0:silence.ogg:silence.ogg:cat1.ogg:silence.ogg
+zone:9:9:4:4:0:0:first floor elevator door
+zone:7:8:4:4:0:0:door to exit the elevator on the main floor
+tile:8:19:26:27:101:103:wallcloth
+tile:8:19:27:27:103:103:cloth
+tile:8:19:26:26:104:106:wallcloth
+tile:8:19:26:26:106:106:cloth
+zone:7:19:26:28:101:102:near Angie's sofa
+zone:8:19:27:27:103:103:on Angie's sofa
+tile:7:7:26:28:101:104:wallcloth
+tile:7:7:26:28:105:105:cloth
+zone:7:7:26:28:105:105:arm of Angie's sofa,
+zone:8:19:26:26:106:106:back of Angie's sofa
+bed:8:19:27:27:103:103
+tile:1:7:1:7:241:241:glass6
+door:3:3:1:1:140:140:3:1:241:going to the forth floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:140:140:button for the forth floor
+door:7:7:4:4:241:241:9:4:241:exiting the elevator on the fourth floor:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+icdoor:9:9:4:4:241:241:7:4:241:you swipe your staff key card and enter the elevator on the fourth floor:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:elev2.ogg:elevadorfecha.ogg
+zone:3:3:1:1:0:0:button for the fourth floor
+door:3:3:1:1:0:0:3:1:241:moving to the fourth floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:9:9:4:4:241:241:elevator door
+zone:7:8:4:4:241:241:door to exit the elevator
+door:1:1:1:1:241:241:1:1:0:door to the main floor:100:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:1:1:1:1:241:241:button for the main floor
+door:2:2:1:1:241:241:2:1:140:moving to the third floor:60:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:2:2:1:1:241:241:button for the third floor
+door:3:3:1:1:241:241:3:1:101:moving to the second floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:241:241:button for the second floor
+door:3:3:1:1:101:101:3:1:241:moving to the fourth floor:80:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:3:3:1:1:101:101:button for the fourth floor
+travelpoint:44:49:49:49:101:101:staff_bathroom:1:1:0:entering the staff bathroom:silence.ogg:doorsecureopen.ogg:doorsecureclose.ogg
+zone:44:49:49:49:101:101:press shift enter to go to the staff bathroom:trackme
+src:0:0:26:49:101:200:-10:100:citybirds.ogg
+travelpoint:30:36:49:49:101:101:staff_test_room:1:1:0:entering the staff testing room:silence.ogg:entering_factory.ogg:exiting_factory.ogg
+zone:30:36:49:49:101:101:press shift enter to go to the staff ai testing lab:trackme
+igdoor:4:4:49:49:104:104:4:49:104:you get a hot cup of coffee:cup_of_coffee:1:0:silence.ogg:silence.ogg:coffeemachineopen.ogg:coffeemachineclose.ogg
+zone:4:4:49:49:104:104:a shiny new coffeemaker, press enter to take a hot cup of freshly brewed coffee
+oven:12:16:47:49:104:104
+tile:12:16:47:49:104:104:diamond
+src:12:16:47:49:104:104:-24:100:oven.ogg
+zone:12:16:47:49:104:104:stove top:trackme
+zone:29:48:26:49:140:200:Jazzyjennifer's office:trackme
+door:29:29:30:30:140:140:27:30:140:exiting Jazzyjennifer's office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:29:29:30:30:140:140:door to exit Jazzyjennifer's office:trackme
+icdoor:27:27:30:30:140:140:29:30:140:you swipe your staff key card and enter the office of Jazzyjennifer:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:27:28:30:30:140:140:door to go inside Jazzyjennifer's office:trackme
+clock:8:10:41:41:101:104:you look at the grandfather clock and see the time is
+zone:8:10:41:41:101:104:a beautiful grandfather clock stands against the wall and you watch the pendulum swing and the rhythmic ticking lulls you into a state of calmness:trackme
+src:8:10:41:41:101:104:-14:100:clock3.ogg
+tile:28:28:30:30:140:145:wallwooddoor
+washbasin:6:8:47:48:104:104
+zone:6:8:47:48:104:104:sink:trackme
+icdoor:19:19:16:16:101:101:21:16:101:swiping your staff key card, you leave Dillon's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+icdoor:19:19:30:30:101:101:21:30:101:you swipe your staff key card and exit Angie's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:28:28:34:34:101:105:wallwooddoor
+tile:28:28:14:14:101:105:wallwooddoor
+tile:28:28:1:49:241:341:wallbuilding3
+icdoor:27:27:32:32:241:241:29:32:241:you swipe your ul staff key card and enter Terry's office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:29:49:26:26:241:340:wallbuilding3
+zone:29:49:27:49:241:340:Terry's office:trackme
+door:29:29:32:32:241:241:27:32:241:exiting Terry's office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:29:29:32:32:241:241:door to exit Terry's office:trackme
+tile:28:28:32:32:241:241:wallwooddoor
+zone:27:28:32:32:241:241:door to enter Terry's office:trackme
+icdoor:27:27:16:16:241:241:29:16:241:you swipe your staff key card and enter the office:ul_staff_key_card:1:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:28:28:16:16:241:241:wallwooddoor
+door:29:29:16:16:241:241:27:16:241:exiting the office:1970:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:32:39:26:28:140:141:wallsofa
+tile:32:39:26:28:142:142:cloth
+tile:32:39:26:26:142:145:wallsofa
+bed:32:39:27:28:142:142
+zone:32:39:27:28:142:142:Jazzyjennifer's sofa
+tile:32:39:26:26:146:146:cloth
+zone:2:5:26:41:143:150:on the table with various item such as a a laptop that has pink coloured keyboards and other stufs
+tile:35:45:27:34:241:243:wallsofa
+tile:6:6:31:31:140:140:wallbody
+tile:6:6:31:31:141:141:cloth
+tile:35:45:27:34:243:243:cloth
+tile:45:45:27:34:144:145:wallsofa
+tile:46:46:27:35:241:246:wallsofa
+tile:34:34:27:34:241:245:wallsofa
+zone:6:6:31:31:141:151:on charry's soft and comfy chair
+zone:27:28:16:16:241:241:door to Shamarokoo's office:trackme
+tile:35:45:27:27:243:245:wallsofa
+bed:35:45:28:34:243:243
+zone:33:47:27:35:241:245:sofa:trackme
+tile:29:49:44:49:241:243:wallwood16
+tile:29:49:44:49:243:243:marble2
+zone:29:49:43:49:241:243:large desk:trackme
+tile:35:37:42:42:241:242:chair
+zone:34:38:42:42:241:242:desk chair:trackme
+tile:35:37:42:42:242:242:cloth
+zone:29:49:1:25:241:256:Shamarokoo's office
+zone:29:29:16:16:241:256:Exit door to Shamarokoo's office
+igdoor:4:4:20:20:144:144:4:20:144:you take a cuban cigar from the dispenser and smoke it:cuban_cigar:1:0:silence.ogg:silence.ogg:smoke.ogg:silence.ogg
+zone:4:4:20:20:144:144:cuban cigar dispenser
+travelpoint:24:28:1:1:101:101:staff_pool:0:0:0:going to the staff pool:silence.ogg:slidestart.ogg:slidestop.ogg
+zone:24:28:1:1:101:101:press shift enter to go to the staff pool:trackme
+igdoor:4:4:26:26:104:104:4:26:104:you open the fridge and take out a strawberry_cream_weed_smoothie and drink it:strawberry_cream_weed_smoothie:2:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+zone:4:4:26:26:104:104:press enter to get a strawberry_cream_weed_smoothie
+igdoor:40:40:45:45:243:243:40:45:243:you get a vape:weed_vape:2:0:silence.ogg:silence.ogg:silence.ogg:drawlighter.ogg
+zone:40:40:45:45:243:243:weed vape:trackme
+igdoor:45:45:45:45:243:243:45:45:243:you get a blunt:blunt:2:0:silence.ogg:silence.ogg:silence.ogg:smoke.ogg
+zone:45:45:45:45:243:243:blunts:trackme
+igdoor:30:30:45:45:243:243:30:45:243:you get a weed browny:weed_browny:2:0:silence.ogg:silence.ogg:silence.ogg:eatkiwi.ogg
+zone:30:30:45:45:243:243:weed brownie:trackme
+tile:1:4:43:45:101:101:metal9
+tile:1:4:45:45:101:120:wallwoodcrate
+tile:1:1:43:45:101:120:wallwoodcrate
+tile:1:4:43:43:101:120:wallwoodcrate
+tile:1:4:43:45:120:120:wallwoodcrate
+zone:5:5:43:45:101:115:in frunt of the staff fridge
+zone:2:3:44:44:101:115:inside the staff fridge
+zone:4:4:44:44:101:101:going thrue the fridge door
+tile:4:4:44:44:101:119:wallwoodcrate
+zone:5:5:44:44:101:115:staff fridge door:trackme
+zone:3:3:44:44:101:115:staff fridge door
+icdoor:5:5:44:44:101:101:3:44:101:using your staff key card, you open the staff fridge and take a look inside:ul_staff_key_card:1:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+door:3:3:44:44:101:101:5:44:101:you close the fridge after taking out what you wanted:0:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+tile:21:21:48:49:104:109:wallmetal20
+tile:23:23:48:49:104:109:wallmetal20
+tile:21:23:48:49:110:110:wallmetal20
+tile:22:22:47:47:104:109:wallmetal20
+icdoor:22:22:46:46:104:104:22:48:104:you swipe your staff key card and open the microwave:ul_staff_key_card:1:0:silence.ogg:silence.ogg:open_microwave.ogg:close_microwave.ogg
+door:22:22:48:48:104:104:22:46:104:exiting the microwave:0:silence.ogg:silence.ogg:open_microwave.ogg:close_microwave.ogg
+zone:22:22:46:46:104:104:microwave door
+tile:31:31:27:28:142:143:wallsofa
+tile:40:40:27:28:142:143:wallsofa
+tile:32:39:40:49:140:142:wallwood16
+tile:32:39:40:49:142:142:marble2
+tile:31:31:40:49:142:143:wallwood16
+tile:40:40:40:49:142:143:wallwood16
+zone:31:40:39:49:140:142:jazzyjennifers desk:trackme
+tile:35:35:39:39:140:141:chair
+zone:35:35:39:39:140:141:desk chair:trackme
+igdoor:33:33:45:45:142:142:33:45:142:you get a weed_browny:weed_browny:2:0:silence.ogg:silence.ogg:silence.ogg:eatkiwi.ogg
+zone:33:33:45:45:142:142:weed_browny:trackme
+igdoor:35:35:45:45:142:142:35:45:142:you get a weed_vape:weed_vape:2:0:silence.ogg:silence.ogg:silence.ogg:drawlighter.ogg
+zone:35:35:45:45:142:142:weed vape:trackme
+igdoor:39:39:45:45:142:142:39:45:142:you get a blunt:blunt:2:0:silence.ogg:silence.ogg:silence.ogg:smoke.ogg
+zone:39:39:45:45:142:142:blunts:trackme
+zone:14:16:41:41:101:101:press shift enter to go to Dillon and Angie's domaine:trackme
+icdoor:21:21:33:33:140:140:19:33:140:you swipe your keycard and enter charry's office:ul_staff_key_card:1:2000:silence.ogg:silence.ogg:door27open.ogg:door27close.ogg

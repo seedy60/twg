@@ -1,0 +1,281 @@
+mapname:amazing_little_house
+minx:1
+maxx:16
+miny:0
+maxy:25
+minz:0
+maxz:16
+tile:1:16:0:25:0:0:marble7
+owner:chichie
+litem:1
+starting_point:2:4:0:0:0:0
+deathpoint:1:16:1:25:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+zone:1:16:1:25:0:10:amazing little house
+tile:1:1:1:25:0:10:wallstone2
+tile:16:16:1:25:0:10:wallstone2
+tile:2:15:24:25:0:5:wallstone2
+tile:2:15:24:25:5:5:marble2
+tile:2:3:24:25:5:10:wallstone2
+tile:3:6:25:25:5:8:wallglass
+tile:7:15:24:25:5:10:wallstone2
+tile:3:6:24:25:9:10:wallstone2
+tile:2:7:1:2:0:5:wallstone2
+tile:2:7:1:2:5:5:marble2
+tile:2:2:1:2:5:10:wallstone2
+tile:3:5:1:1:5:8:wallglass
+tile:6:7:1:2:5:10:wallstone2
+tile:3:5:1:2:9:10:wallstone2
+tile:11:15:1:2:0:10:wallstone2
+tile:8:10:1:1:0:8:wallmetal
+tile:8:15:17:17:0:10:wallstone2
+tile:8:8:20:23:0:10:wallstone2
+tile:2:4:21:23:4:4:wood4
+tile:4:7:21:21:0:3:wallwood15
+tile:5:6:22:22:3:3:water7
+tile:4:7:23:23:3:3:wallstone2
+tile:4:7:21:21:3:3:wallstone2
+tile:4:4:22:22:3:3:wallstone2
+tile:7:7:22:22:3:3:wallstone2
+washbasin:5:6:22:22:3:3
+tile:5:7:23:23:4:4:wood4
+tile:5:7:21:21:4:4:wood4
+tile:7:7:22:22:4:4:wood4
+tile:2:3:22:23:0:0:paper
+tile:3:3:22:22:4:4:metal
+tile:12:12:18:23:0:4:wallsofa
+tile:12:15:18:23:4:4:cloth
+tile:2:5:17:17:0:10:wallstone2
+tile:5:5:7:16:0:10:wallstone2
+tile:2:4:14:16:0:0:bathtub3
+tile:2:3:7:7:0:10:wallstone2
+tile:2:4:8:13:0:0:ceramic3
+tile:2:2:12:12:0:4:walldiamond
+tile:2:2:12:12:4:4:tile
+tile:2:2:8:10:0:5:wallbeaulon
+tile:2:2:8:10:5:5:bathtub3
+shower:2:4:14:16:0:0
+toilet:2:2:12:12:4:4
+washbasin:2:2:8:10:5:5
+tile:4:4:7:7:0:10:walldoor
+tile:1:1:4:5:0:8:wallglass8
+trashcan:2:3:22:23:0:0
+tile:6:8:7:12:0:4:wallsofa
+tile:6:8:7:12:4:4:carpet9
+tile:6:6:7:12:4:7:wallsofa
+tile:6:6:7:12:7:7:carpet8
+bed:7:8:7:12:4:4
+tile:15:15:8:11:0:7:wallglass2
+tile:15:15:8:11:7:7:glass5
+tile:14:15:15:16:0:3:wallbrick3
+tile:14:15:15:16:3:6:tree
+tile:12:15:3:3:0:5:wallstone
+tile:12:15:3:3:5:5:fire
+oven:3:3:22:22:4:4
+tile:9:11:23:23:0:8:wallbuilding
+tile:9:11:18:22:0:0:marble4
+tile:9:14:7:14:0:0:carpet2
+tile:8:11:16:16:0:6:wallglass3
+tile:8:11:16:16:6:6:glass6
+tile:15:15:12:14:0:0:carpet2
+tile:12:13:15:16:0:0:carpet2
+tile:6:8:13:15:0:0:carpet2
+tile:8:10:3:4:0:0:mat
+tile:9:11:15:15:0:0:carpet2
+tile:15:15:7:7:0:0:carpet2
+tile:11:12:9:10:0:5:wallborder
+tile:11:12:9:10:5:5:glass
+zone:6:14:2:14:0:10:a living room with more than just a space,  it's a haven, a refuge from the world outside. It's a place where memories are made, where laughter and tears are shared, and where the beauty of everyday moments is celebrated.
+zone:2:5:2:6:0:10:a living room with more than just a space,  it's a haven, a refuge from the world outside. It's a place where memories are made, where laughter and tears are shared, and where the beauty of everyday moments is celebrated.
+tile:8:8:18:19:0:10:wallwooddoor
+door:7:7:18:19:0:0:9:18:0:you entered in the bedroom:100:silence.ogg:silence.ogg:silence.ogg:door58close.ogg
+door:9:9:18:19:0:0:7:18:0:you left in the bedroom:100:silence.ogg:silence.ogg:silence.ogg:door58close.ogg
+door:4:4:6:6:0:0:4:8:0:you entered in bathroom:100:silence.ogg:silence.ogg:silence.ogg:door13close.ogg
+door:4:4:8:8:0:0:4:6:0:you left in the bathroom:100:silence.ogg:silence.ogg:silence.ogg:door13close.ogg
+zone:2:4:8:13:0:10:a bathroom with a haven of serenity. Gleaming white tiles reflect the light, creating a bright and airy space.  
+zone:2:4:14:16:0:10:A spacious shower with rainfall showerheads, promises a revitalizing experience.  
+zone:2:2:12:12:4:4:a seamlessly integrated toilet add to the clean lines and sophisticated feel. 
+zone:3:3:12:12:0:4:near a seamlessly integrated toilet add to the clean lines and sophisticated feel. 
+zone:2:2:8:10:5:5:A stylish minimalist washbasin 
+zone:3:3:8:10:0:5:near A stylish minimalist washbasin 
+zone:8:10:3:4:0:0:a luxurious rug, a masterpiece of hand-woven artistry, boasts a captivating tapestry of deep blues and earthy browns accented with shimmering gold.  Its incredibly soft texture invites you to sink your toes into its plush fibers, while the intricate design adds a touch of timeless elegance to any space. 
+zone:10:14:7:14:0:0:A plush, deep-pile carpet, the color of a twilight sky, stretches across the floor, muffling sounds and inviting bare feet.  Its soft, luxurious texture whispers comfort, while its subtle, mottled pattern adds a touch of understated elegance.  The overall effect is one of quiet opulence, transforming the room into a haven of warmth and tranquility.
+zone:9:9:7:12:0:4:near A plush, oversized sofa, upholstered in a rich, velvet fabric the color of melted chocolate, beckons with the promise of ultimate relaxation.  Deep, inviting cushions promise unparalleled comfort, while elegant, subtly curved arms add a touch of sophistication.  It's the perfect spot to curl up with a good book, enjoy a quiet evening, or simply unwind after a long day.
+zone:7:8:7:12:4:7:A plush, oversized sofa, upholstered in a rich, velvet fabric the color of melted chocolate, beckons with the promise of ultimate relaxation.  Deep, inviting cushions promise unparalleled comfort, while elegant, subtly curved arms add a touch of sophistication.  It's the perfect spot to curl up with a good book, enjoy a quiet evening, or simply unwind after a long day.
+zone:6:6:7:12:7:7:the back of A plush, oversized sofa, upholstered in a rich, velvet fabric the color of melted chocolate, beckons with the promise of ultimate relaxation.  Deep, inviting cushions promise unparalleled comfort, while elegant, subtly curved arms add a touch of sophistication.  It's the perfect spot to curl up with a good book, enjoy a quiet evening, or simply unwind after a long day.
+zone:12:15:4:4:0:5:near the stately stone fireplace, a hearth, wide and inviting, is perfect for settling in with a warm drink.  Flickering flames dance within, casting a warm, inviting glow across the surrounding space.  Intricate carvings adorn the mantelpiece, adding a touch of classic elegance.  It's a focal point that evokes feelings of comfort, warmth, and cherished memories.
+zone:12:15:3:3:5:5:the stately stone fireplace, a hearth, wide and inviting, is perfect for settling in with a warm drink.  Flickering flames dance within, casting a warm, inviting glow across the surrounding space.  Intricate carvings adorn the mantelpiece, adding a touch of classic elegance.  It's a focal point that evokes feelings of comfort, warmth, and cherished memories.
+zone:2:2:4:5:0:8:A full-length mirror, framed in sleek, dark wood, stands poised against the wall, reflecting the room with crisp clarity. Its expansive surface offers a complete view, from head to toe, allowing for a thorough self-assessment before stepping out.  The polished glass is flawless, free from distortion, providing an accurate reflection that is both functional and subtly elegant.  The dark frame adds a touch of sophistication, contrasting beautifully with lighter walls or furniture.  
+zone:4:4:6:8:0:10:the door to the bathroom
+zone:11:12:9:10:5:5:A sleek, low coffee table crafted from polished dark wood sits invitingly in the center of the room.  Its simple, square shape is both modern and timeless, while the rich, dark wood adds a touch of sophistication.  
+zone:8:11:16:16:0:6:A captivating goldfish aquarium sits nestled in a corner of the living room, its gentle bubbling and shimmering scales offering a tranquil counterpoint to the room's activity.  The rectangular tank of 12 gallons is seamlessly integrated into the décor, perhaps perched on a simple stand or built into a custom unit.  The clear glass allows for a full view of the inhabitants, their vibrant colors ranging from classic orange to calico patterns catching the light and adding a touch of living art to the space.  Subtle gravel and a few carefully chosen aquatic plants complete the scene, creating a miniature underwater world that's both calming and visually stunning.
+zone:8:11:15:15:0:6:near A captivating goldfish aquarium sits nestled in a corner of the living room, its gentle bubbling and shimmering scales offering a tranquil counterpoint to the room's activity.  The rectangular tank of 12 gallons is seamlessly integrated into the décor, perhaps perched on a simple stand or built into a custom unit.  The clear glass allows for a full view of the inhabitants, their vibrant colors ranging from classic orange to calico patterns catching the light and adding a touch of living art to the space.  Subtle gravel and a few carefully chosen aquatic plants complete the scene, creating a miniature underwater world that's both calming and visually stunning.
+zone:14:15:15:16:3:6:A vibrant flowering plant, a Gerbera daisy in a decorative pot, brightens a corner of the room.  Its cheerful blossoms, a mix of oranges and reds, add a splash of color against the room's neutral tones. 
+zone:13:13:15:16:0:6:near A vibrant flowering plant, a Gerbera daisy in a decorative pot, brightens a corner of the room.  Its cheerful blossoms, a mix of oranges and reds, add a splash of color against the room's neutral tones. 
+zone:13:15:14:14:0:6:near A vibrant flowering plant, a Gerbera daisy in a decorative pot, brightens a corner of the room.  Its cheerful blossoms, a mix of oranges and reds, add a splash of color against the room's neutral tones. 
+clock:15:15:13:13:0:5:empty
+calendar:15:15:12:12:0:5:empty
+zone:15:15:13:13:0:5:wall clock
+zone:15:15:12:12:0:5:calendar
+zone:14:15:8:11:0:7:a silver smart tv
+zone:11:12:8:8:0:5:near A sleek, low coffee table crafted from polished dark wood sits invitingly in the center of the room.  Its simple, square shape is both modern and timeless, while the rich, dark wood adds a touch of sophistication.  
+zone:6:9:13:14:0:0:A plush, deep-pile carpet, the color of a twilight sky, stretches across the floor, muffling sounds and inviting bare feet.  Its soft, luxurious texture whispers comfort, while its subtle, mottled pattern adds a touch of understated elegance.  The overall effect is one of quiet opulence, transforming the room into a haven of warmth and tranquility.
+zone:6:7:15:15:0:0:A plush, deep-pile carpet, the color of a twilight sky, stretches across the floor, muffling sounds and inviting bare feet.  Its soft, luxurious texture whispers comfort, while its subtle, mottled pattern adds a touch of understated elegance.  The overall effect is one of quiet opulence, transforming the room into a haven of warmth and tranquility.
+zone:12:12:15:16:0:0:A plush, deep-pile carpet, the color of a twilight sky, stretches across the floor, muffling sounds and inviting bare feet.  Its soft, luxurious texture whispers comfort, while its subtle, mottled pattern adds a touch of understated elegance.  The overall effect is one of quiet opulence, transforming the room into a haven of warmth and tranquility.
+zone:2:7:17:20:0:10:The kitchen is a culinary haven, a symphony of stainless steel and warm wood, where the scent of freshly brewed coffee mingles with the promise of delicious meals. Gleaming countertops beckon, inviting the creation of gastronomic masterpieces, while sunlight streams through the window, illuminating the space with a warm, inviting glow.
+zone:9:15:18:23:0:10:The bedroom is a sanctuary of serenity, a haven of peace and tranquility where soft light filters through sheer curtains, creating a calming atmosphere.  The plush carpet invites bare feet, while the gentle hues of the walls whisper of restful nights and sweet dreams.
+zone:12:15:18:23:4:4:The bed, a cloud of luxurious comfort, is draped in crisp linens, inviting slumber with its soft embrace.  The plush mattress cradles the body, promising a night of deep, restorative sleep, while the pillows offer a comforting support.
+zone:11:11:18:21:0:4:near The bed, a cloud of luxurious comfort, is draped in crisp linens, inviting slumber with its soft embrace.  The plush mattress cradles the body, promising a night of deep, restorative sleep, while the pillows offer a comforting support.
+zone:9:11:22:23:0:8:The cabinet, crafted from rich, dark wood, stands as a testament to timeless elegance. Its smooth surface reflects the soft light, while its interior holds treasures both practical and sentimental, each item carefully stored within its designated space.
+zone:2:7:21:23:4:10:The sink, a gleaming expanse of porcelain, reflects the light like a still pool of water, its pristine surface a testament to cleanliness and order.  The gentle curve of its basin invites the cleansing ritual, a daily reminder of renewal and freshness.
+zone:3:3:22:22:4:4:The stove, a powerful hearth of culinary creation, stands ready to transform raw ingredients into delectable dishes. Its gleaming surface reflects the anticipation of culinary adventures, while its sturdy construction promises years of reliable service.
+zone:5:6:22:22:3:4:fresh running watter
+zone:2:3:21:21:0:3:under the sink
+zone:2:3:22:23:0:3:a black trash bag, subtly tucked away in its designated bin, silently and efficiently performs its essential task
+zone:6:7:16:16:0:10:The kitchen is a culinary haven, a symphony of stainless steel and warm wood, where the scent of freshly brewed coffee mingles with the promise of delicious meals. Gleaming countertops beckon, inviting the creation of gastronomic masterpieces, while sunlight streams through the window, illuminating the space with a warm, inviting glow.
+zone:3:5:2:2:5:8:The window, a portal to the world beyond, frames a breathtaking view, a living picture that changes with the light and the seasons.  Sunlight streams through the glass, illuminating the room with warmth and life, connecting the interior with the vibrant energy of the outdoors.
+zone:3:5:3:3:0:8:near The window, a portal to the world beyond, frames a breathtaking view, a living picture that changes with the light and the seasons.  Sunlight streams through the glass, illuminating the room with warmth and life, connecting the interior with the vibrant energy of the outdoors.
+zone:4:4:6:8:0:10:the door to the bathroom:trackme
+zone:7:9:18:19:0:10:the door to the bedroom:trackme
+src:8:11:16:16:0:5:-23:102:waterflow8.ogg
+src:15:15:13:13:5:5:-16:102:clock6.ogg
+src:12:15:3:3:5:5:-16:102:fire5.ogg
+src:3:3:22:22:4:4:-12:102:Deep_Fryer.ogg
+src:5:6:22:22:3:4:-12:102:sink2.ogg
+src:2:2:12:12:4:4:-10:102:toilet.ogg
+zone:2:7:20:20:0:10:near The sink, a gleaming expanse of porcelain, reflects the light like a still pool of water, its pristine surface a testament to cleanliness and order.  The gentle curve of its basin invites the cleansing ritual, a daily reminder of renewal and freshness.
+src:15:15:9:10:0:7:-26:102:tv2.ogg
+zone:7:8:9:9:4:6:Chichi, nestled comfortably into the plush cushions of her sofa, cradled a steaming mug of her favorite hot chocolate.  The rich aroma swirled around her as she lost herself in the pages of "I Love You Since 1892," a captivating book that held her completely enthralled.  :trackme
+sign:2:2:4:5:0:8:Hey, %name% you're doing great! You've got this. Your unique blend of quirks and strengths makes you, you. Own that confidence, and rock this day with kindness, curiosity, and a dash of humor. You're a work in progress, and that's perfectly okay.:silence.ogg
+bed:12:15:18:23:4:4
+zone:4:6:24:24:5:8:The window, a portal to the world beyond, frames a breathtaking view, a living picture that changes with the light and the seasons.  Sunlight streams through the glass, illuminating the room with warmth and life, connecting the interior with the vibrant energy of the outdoors.
+zone:15:15:7:7:0:0:A plush, deep-pile carpet, the color of a twilight sky, stretches across the floor, muffling sounds and inviting bare feet.  Its soft, luxurious texture whispers comfort, while its subtle, mottled pattern adds a touch of understated elegance.  The overall effect is one of quiet opulence, transforming the room into a haven of warmth and tranquility.
+zone:15:15:5:6:0:10:a living room with more than just a space,  it's a haven, a refuge from the world outside. It's a place where memories are made, where laughter and tears are shared, and where the beauty of everyday moments is celebrated.
+zone:8:10:2:2:0:10:house door:trackme
+src:7:7:9:9:4:4:-26:102:paper.ogg
+zone:8:8:4:4:0:0:Chichi's puppy sits here with  a fluffy cloud of cream-colored fur, with paws the size of marshmallows and ears that flop endearingly over its big, brown eyes.  Its tiny tail wags incessantly, a blur of happy motion, and a little pink tongue perpetually peeks out from between its gummy teeth.  It toddles around on wobbly legs, tripping over its own paws with comical grace, and emits the cutest little yipping sounds that melt your heart instantly.  Its breath smells faintly of milk and sunshine.:trackme
+door:8:8:4:4:0:0:8:4:0:you pat the back of the puppy and it gives you a sweet greetings in responds:50:silence.ogg:silence.ogg:silence.ogg:labrador2.ogg
+tile:6:7:16:16:0:0:carpet2
+tile:9:11:23:23:8:8:hardwood7
+tile:6:7:12:12:0:2:wallwoodcrate
+tile:6:7:11:11:0:0:metal9
+zone:6:7:11:13:0:2:A mini fridge, a compact marvel of modern convenience, stands proudly, a miniature version of its full-sized counterpart.  Its diminutive stature belies its powerful cooling capabilities, keeping beverages refreshingly chilled and snacks delightfully crisp within its small but mighty interior.
+tile:2:7:18:20:0:0:hardwood
+tile:6:7:17:17:0:0:hardwood
+zone:6:7:16:16:0:0:A plush, deep-pile carpet, the color of a twilight sky, stretches across the floor, muffling sounds and inviting bare feet.  Its soft, luxurious texture whispers comfort, while its subtle, mottled pattern adds a touch of understated elegance.  The overall effect is one of quiet opulence, transforming the room into a haven of warmth and tranquility.
+tile:2:3:21:21:0:0:hardwood
+door:6:7:13:13:0:0:7:11:0:you entered in the fridge:50:silence.ogg:silence.ogg:silence.ogg:door61close.ogg
+door:7:7:11:11:0:0:7:13:0:you left in the fridge:50:silence.ogg:silence.ogg:silence.ogg:door61close.ogg
+tile:1:16:1:25:11:12:wallstone2
+tile:5:5:17:17:0:12:stairs
+tile:1:16:1:25:12:12:marble6
+zone:5:5:17:17:0:11:stairs going to the 2nd floor:trackme
+zone:5:5:17:17:12:12:stairs going down to the 1st floor:trackme
+tile:1:10:11:11:12:16:wallwood18
+tile:10:10:9:10:12:16:wallwood18
+tile:10:10:1:5:12:16:wallwood18
+zone:1:9:1:10:12:16:a simple small office designed for both efficiency and well-being, a haven of creativity and accomplishment.
+tile:1:5:5:5:12:14:walltable
+tile:5:5:1:4:12:14:walltable
+tile:1:5:1:5:14:14:glass5
+zone:1:5:1:5:14:14:a sleek modern desk
+tile:4:4:2:3:14:14:areiamovedissa
+src:3:4:2:3:15:15:-6:102:keabord.ogg
+tile:8:9:2:3:12:13:wallcloth
+tile:8:8:2:3:13:13:chair
+tile:9:9:2:3:13:14:wallcloth
+tile:9:9:2:3:14:14:carpet8
+zone:8:8:2:3:13:13:a comfortable chair that invites focus and concentration for work
+tile:3:3:8:10:12:15:wallfurniture
+tile:1:2:8:8:12:15:wallfurniture
+zone:1:3:8:10:12:15:a cleverly concealed storage that keeps the space clutter free 
+tile:1:3:8:10:15:15:cement4
+zone:1:5:6:6:12:14:near a sleek modern desk
+zone:6:6:1:6:12:14:near a sleek modern desk
+zone:4:4:8:10:12:15:near a cleverly concealed storage that keeps the space clutter free 
+zone:9:9:2:3:14:14:the back of a comfortable chair that invites focus and concentration for work
+tile:1:16:1:25:16:16:wallboat
+tile:10:10:6:8:12:16:wallcrate2
+zone:9:11:6:8:12:16:the door to the office:trackme
+door:11:11:6:8:12:12:9:7:12:you entered in the office:50:silence.ogg:silence.ogg:silence.ogg:door38close.ogg
+door:9:9:6:8:12:12:11:7:12:you left in the office:50:silence.ogg:silence.ogg:silence.ogg:door38close.ogg
+tile:11:13:4:4:12:16:wallfence8
+tile:16:16:4:4:12:16:wallfence8
+zone:11:16:1:4:12:16:inside the drying cage
+tile:14:15:4:4:12:16:wallglass13
+door:14:15:5:5:12:12:15:3:12:you entered in the drying cage:50:silence.ogg:silence.ogg:silence.ogg:door47close.ogg
+door:14:15:3:3:12:12:15:5:12:you left in the drying cage:50:silence.ogg:silence.ogg:silence.ogg:door47close.ogg
+zone:14:15:3:5:12:16:the door to the drying cage:trackme
+tile:5:5:12:16:12:16:wallwood18
+tile:1:1:17:17:12:16:wallwood18
+tile:4:4:17:17:12:16:wallwood18
+zone:1:4:12:16:12:16:Step into a sanctuary of cleanliness and comfort.  Our lavatories offer modern fixtures and a refreshing atmosphere, ensuring a pleasant and hygienic experience.  
+tile:5:7:18:18:12:16:wallwood18
+tile:11:16:18:18:12:16:wallwood18
+tile:1:16:19:25:12:12:shortgrass
+zone:1:16:19:25:12:16:a chill area, a perfect santuary to relax and get some fresh air after a tiring day
+tile:1:4:18:18:12:12:shortgrass
+tile:2:3:17:17:12:12:shortgrass
+zone:1:4:18:18:12:16:a chill area, a perfect santuary to relax and get some fresh air after a tiring day
+zone:2:3:17:17:12:16:a chill area, a perfect santuary to relax and get some fresh air after a tiring day
+src:1:16:19:25:12:16:-6:102:wind4.ogg:1
+src:1:16:19:25:12:16:-6:102:birds8.ogg:1
+tile:12:12:12:17:12:16:wallwood18
+tile:12:14:11:11:12:16:wallwood18
+tile:8:10:18:18:12:16:wallgate
+door:8:10:17:17:12:16:9:19:12:you entered in the chill area:50:silence.ogg:silence.ogg:silence.ogg:door48close.ogg
+door:8:10:19:19:12:12:9:17:12:you left in the chill area:50:silence.ogg:silence.ogg:silence.ogg:door48close.ogg
+zone:8:10:17:19:12:16:the door to the chill area:trackme
+tile:13:16:15:15:12:13:wallcloth
+tile:13:16:15:17:13:13:carpet4
+bed:13:16:14:17:13:13
+tile:13:13:12:13:12:14:wallbuilding2
+tile:13:13:12:13:14:14:wobbly_wood
+zone:13:16:12:17:12:16:an escape to your private sanctuary, designed for ultimate relaxation and convenience. Sink into plush bedding, enjoy modern amenities, and unwind in a space crafted for your comfort. 
+tile:15:16:11:11:12:16:wallwood15
+door:15:16:10:10:12:12:16:12:12:you entered in the guest room:50:silence.ogg:silence.ogg:silence.ogg:door56close.ogg
+door:15:16:12:12:12:12:16:10:12:you left in the bedroom:50:silence.ogg:silence.ogg:silence.ogg:door56close.ogg
+zone:15:16:10:12:12:16:the door to the guest room:trackme
+zone:6:7:17:17:12:16:hall way
+zone:6:11:12:16:12:16:hall way
+zone:11:11:9:11:12:16:hall way
+zone:12:16:6:9:12:16:hall way
+zone:11:13:5:5:12:16:hall way
+zone:16:16:5:5:12:16:hall way
+zone:12:14:10:10:12:16:hall way
+zone:11:11:17:17:12:16:hall way
+src:1:4:17:18:12:16:-6:102:wind4.ogg:1
+src:1:4:17:18:12:16:-6:102:birds8.ogg:1
+zone:11:16:1:2:12:16:inside the drying cage, Say goodbye to damp clothes with this ingenious, space-saving solution. This discreet drying cage offers a quick and efficient way to freshen up garments, ensuring you're always ready for your next adventure. Enjoy the convenience of having perfectly dry clothes, no matter the weather.
+zone:11:14:3:3:12:16:inside the drying cage, Say goodbye to damp clothes with this ingenious, space-saving solution. This discreet drying cage offers a quick and efficient way to freshen up garments, ensuring you're always ready for your next adventure. Enjoy the convenience of having perfectly dry clothes, no matter the weather.
+zone:16:16:3:3:12:16:inside the drying cage, Say goodbye to damp clothes with this ingenious, space-saving solution. This discreet drying cage offers a quick and efficient way to freshen up garments, ensuring you're always ready for your next adventure. Enjoy the convenience of having perfectly dry clothes, no matter the weather.
+zone:13:16:15:17:13:13:a bed that features a plush queen-sized mattress, promising a restful night's sleep.  A crisp white duvet and soft pillows add to the inviting comfort. The sturdy wooden frame is painted a calming shade of seafoam green, complementing the room's overall aesthetic.
+zone:13:16:14:14:12:13:near a bed that features a plush queen-sized mattress, promising a restful night's sleep.  A crisp white duvet and soft pillows add to the inviting comfort. The sturdy wooden frame is painted a calming shade of seafoam green, complementing the room's overall aesthetic.
+zone:13:13:12:13:14:14:A small, yet functional bedside table sits beside the bed.  It boasts a smooth, dark wood finish and a single drawer for convenient storage.  A small lamp with a warm, inviting glow sits atop the table, perfect for late-night reading.
+zone:14:14:12:13:12:14:near A small, yet functional bedside table sits beside the bed.  It boasts a smooth, dark wood finish and a single drawer for convenient storage.  A small lamp with a warm, inviting glow sits atop the table, perfect for late-night reading.
+igdoor:6:6:12:12:12:12:6:12:12:here's your hot chocolate:hot_chocolate:1:250:silence.ogg:silence.ogg:coffeemachineopen.ogg:coffeemachineclose.ogg
+zone:6:6:12:12:12:12:a hot chocolate machine:trackme
+tile:3:5:12:12:12:14:walldesk3
+tile:3:4:12:12:14:14:glass5
+src:3:4:12:12:13:14:-12:102:washing_machine.ogg
+zone:3:4:13:13:12:14:near the washing machine
+zone:3:4:12:12:14:14:on top of the washing machine
+door:8:10:2:2:0:0:9:0:0:you left in the house:50:silence.ogg:silence.ogg:silence.ogg:door11close.ogg
+src:1:16:0:0:0:16:-6:102:wind4.ogg:1
+src:1:16:0:0:0:16:-6:102:Wind_Leaves_Light_2.ogg:1
+src:1:16:0:0:0:16:-6:102:wind_in_trees_light_1.ogg:1
+zone:1:16:0:0:0:0:outside the house:trackme
+door:8:10:0:0:0:0:9:2:0:you entered in the house:50:silence.ogg:silence.ogg:silence.ogg:door11close.ogg
+zone:8:10:0:0:0:10:house door:trackme
+tile:13:16:0:0:0:12:tree
+zone:13:16:0:0:0:12:cherry blossom:trackme
+tile:1:12:0:0:12:16:wallstone2
+zone:4:4:2:3:14:14:a mini stylish key board laptop, ready for a productive day
+tile:3:3:2:3:14:14:glass6
+tile:2:2:2:3:14:16:wallglass5
+zone:3:3:2:3:14:16:a mini stylish screen laptop, ready for a productive day
+safezone:1:16:0:25:0:16
+zone:6:6:11:11:0:2:inside the fridge
+zone:7:7:11:11:0:2:fridge door

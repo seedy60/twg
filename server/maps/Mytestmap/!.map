@@ -1,0 +1,14 @@
+mapname:Mytestmap
+minx:0
+maxx:600
+miny:0
+maxy:0
+minz:0
+maxz:600
+tile:0:600:0:0:0:0:cavegrounds3
+owner:Lingelwap
+litem:0
+starting_point:0:600:0:0:0:0
+deathpoint:0:600:0:0:0:0
+enable:2dsupport
+night:none.ogg

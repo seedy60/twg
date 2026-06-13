@@ -1,0 +1,17 @@
+mapname:my_quiet_area
+minx:0
+maxx:50
+miny:0
+maxy:50
+minz:0
+maxz:50
+tile:0:50:0:50:0:0:carpet2
+owner:mafia
+litem:0
+starting_point:0:50:0:50:0:0
+deathpoint:0:50:0:50:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+zone:0:50:0:50:0:50:the safe zone
+src:0:50:0:50:0:50:-8:100:fridge5.ogg

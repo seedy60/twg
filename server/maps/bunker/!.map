@@ -1,0 +1,16 @@
+mapname:bunker
+minx:-50
+maxx:50
+miny:-25
+maxy:25
+minz:-30
+maxz:40
+tile:-50:50:-25:25:0:0:steel3
+owner:averlice
+litem:0
+starting_point:-50:50:-25:25:0:0
+deathpoint:-50:50:-25:25:0:0
+floor:-25:25:-25:25:0:4040
+tile:-25:25:-25:25:-30:40:floor:trackme
+owner:landon
+forcefield:-25:25:-25:25:-30:40:1:100:electricity_device.ogg:electricityhit.ogg

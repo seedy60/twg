@@ -1,0 +1,38 @@
+mapname:country_road
+minx:0
+maxx:80
+miny:0
+maxy:700
+minz:-1
+maxz:200
+litem:0
+starting_point:1:1:0:1:0:0
+deathpoint:0:50:0:700:0:0
+night:none.ogg
+owner:kannadiga
+zone:0:80:0:700:0:200:Lindow  road
+travelpoint:0:80:699:699:0:200:lindow_town:25:0:0: :silence.ogg:silence.ogg:silence.ogg
+zone:0:80:699:699:0:200:lindow_town. press shift enter to continue:trackme
+sign:1:1:18:18:0:5:Hello Traveler. For your information, Lindow town is located at the very north of this road. The trip is quite long, I can drive you there if you wish. pay 10 coins. go 3 steps north of here you press enter to get in the car.:sign.ogg
+zone:1:1:18:18:0:5:a sign:trackme
+sign:1:1:675:675:0:5:Lindow town, 25 tiles north. if you want to go back , you can go 3 tile south ant press enter on sports car.:sign.ogg
+zone:1:1:675:675:0:5:a sign:trackme
+rain:rain3.ogg
+wind:wind7.ogg
+item_usage_restriction:0:80:0:700:0:200:conex:partner_house:beehive:small_conex:locker:microwave:fan:air_conditioner:fridge
+tile:1:80:0:700:0:0:concrete33
+itdoor:1:1:21:21:0:0:1:675:0:you have payed 10 coins.:coins:10:25:silence.ogg:doormove9.ogg:drawcoins.ogg:silence.ogg
+tile:1:1:672:672:0:0:wood2
+zone:1:1:672:672:0:10:a red BMW M3. press enter to go back to the country road.:trackme
+itdoor:1:1:672:672:0:0:1:19:0:you have payed 10 coins:coins:10:25:silence.ogg:doormove9.ogg:drawcoins.ogg:silence.ogg
+tile:1:1:21:21:0:0:wood2
+zone:1:1:21:21:0:10:a red BMW M3. press enter to go to lindow_town.:trackme
+tile:0:0:0:700:0:200:wallbrush
+src:0:80:0:700:-1:200:-10:90:city3.ogg
+reinforcement:0:10000000
+tile:0:80:0:0:0:100:wallbrick4
+travelpoint:1:80:1:1:0:0:main:100:199:0: :silence.ogg:silence.ogg:silence.ogg
+zone:1:80:1:1:0:8:to return to main, press shift enter:trackme
+tile:80:80:1:700:0:100:wallbrick4
+tile:1:80:700:700:0:100:wallbrush
+music:0:80:0:700:-1:200:-14:100:musiccalm9.ogg:1

@@ -1,0 +1,90 @@
+mapname:My_house
+minx:0
+maxx:500
+miny:0
+maxy:0
+minz:0
+maxz:500
+tile:0:500:0:0:0:0:shortgrass
+owner:Nina
+enable:2dsupport
+night:none.ogg
+wind:none.ogg
+rain:raininterior.ogg
+litem:0
+src:0:50:0:0:0:50:0:100:birds13.ogg:1
+zone:0:500:0:0:0:500:My house. This house is made of brick and topaz. This house is luxurious. The roof is topped with a statue of a coiling snake.
+zone:0:50:0:0:0:500:The yard of a luxurious house. In this courtyard, there are brick benches where the servants of the owner of the house are sitting.
+dialog:0:0:0:0:0:500:Hello=Welcome to my house!=I hope you will like this house. It is luxurious. There will be plenty for you to see.
+src:0:0:0:0:0:500:0:100:sign3.ogg
+tile:0:0:0:0:0:0:paper
+zone:0:0:0:0:0:500:There is a sheet of paper lying on the grass. Maybe we should read it?:trackme
+tile:15:27:0:0:0:2:wallmetal15
+tile:15:27:0:0:2:2:wood10
+zone:14:28:0:0:0:500:A bench for the servants, so they can sit down and rest from their work.
+tile:50:50:0:0:0:500:wallwood18
+dialog:17:17:0:0:2:2:Hello, traveler!=My name is Luiz.=I am the maid of the owner of this luxurious house.=You go ahead, go. We want to rest. Soon we’ll have to get back to work again.
+zone:17:17:0:0:2:2:On the bench sits an old woman in a dress made of the cheapest silk. She is obviously sad.:trackme
+tile:17:17:0:0:2:2:carpet11
+dialog:23:23:0:0:2:2:Traveler, I have no time for you, sorry.=My crazy dog doesn’t listen to me at all.=Krinzy! Come here! Riiiiiight next to me!
+zone:17:17:0:0:2:2:A stout man is sitting on a bench and whistling into the distance.:trackme
+tile:30:42:0:0:0:2:wallstone2
+tile:30:42:0:0:2:2:wetconcrete2
+src:30:42:0:0:2:500:-1:100:stream8.ogg
+zone:29:43:0:0:0:500:A small concrete fountain.
+door:49:49:0:0:0:0:51:0:0:Welcome, new visitors! Come in. You will be received.:1000:silence.ogg:silence.ogg:entering_house1.ogg:exiting_house1.ogg
+tile:51:500:0:0:0:0:wood19
+door:51:51:0:0:0:0:49:0:0:Oh, are you leaving already? What a pity, visitor. I hope you will come back here again.:1000:silence.ogg:silence.ogg:entering_house1.ogg:exiting_house1.ogg
+zone:49:51:0:0:0:10:A luxurious carved wooden door leading into the house.:trackme
+src:51:500:0:0:0:500:-1:100:room4.ogg:1
+tile:60:60:0:0:0:10:wallwood16
+tile:60:60:0:0:0:0:carpet9
+tile:61:91:0:0:0:0:carpet8
+zone:60:60:0:0:0:10:Entrance to the living room.
+zone:61:91:0:0:0:10:You are in the living room. The atmosphere in this living room is luxurious and relaxed. Every element of the interior emphasizes both luxury and comfort.
+tile:62:68:0:0:0:2:wallcloth
+tile:62:68:0:0:2:2:carpet5
+zone:61:69:0:0:0:10:The luxurious sofa is made of finished ash wood. It is upholstered with a durable, luxurious fabric.
+tile:72:77:0:0:0:2:walltable2
+tile:72:77:0:0:2:2:wood13
+zone:71:78:0:0:0:10:A small table with a candelabrum for thirty candles on it. In one of the candelabrum’s holders, a bright yellow candle is burning.
+tile:74:74:0:0:2:2:metal7
+src:74:74:0:0:2:10:-1:100:fire_loop_v2.ogg
+zone:74:74:0:0:2:10:The candelabrum for thirty candles looks luxurious, but because of the candle burning in one of its holders, it has become very sooty and blackened.
+tile:91:91:0:0:0:10:wallwood16
+tile:82:88:0:0:0:2:wallstone2
+tile:82:88:0:0:2:2:stone2
+zone:81:89:0:0:0:10:The luxurious fireplace warms the entire living room.
+src:82:88:0:0:2:10:-1:100:fire5.ogg
+tile:91:91:0:0:0:0:carpet9
+zone:91:91:0:0:0:10:Entrance to the living room.
+tile:98:98:0:0:0:10:wallglass7
+door:97:97:0:0:0:0:99:0:0:Come in, visitors. A warm shower awaits you!:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:99:139:0:0:0:0:wood2
+door:99:99:0:0:0:0:97:0:0:Have you all finished taking a warm shower? Then please exit! We look forward to seeing you again!:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+zone:99:139:0:0:0:10:You are in the bathroom. Although the house is luxurious, there is nothing remarkable about this room. You might agree that not everything in a house has to be luxurious.
+tile:102:105:0:0:0:2:wallmetalbox
+tile:102:105:0:0:2:2:glass7
+zone:101:106:0:0:0:10:A metal toilet.
+tile:103:103:0:0:2:2:sewer2
+toilet:103:103:0:0:2:2
+src:102:105:0:0:2:10:-1:100:toilet.ogg
+zone:103:103:0:0:2:10:To flush, press Enter.:trackme
+tile:109:120:0:0:0:2:wallwood15
+tile:109:120:0:0:2:2:bathtub
+zone:108:121:0:0:0:10:A large copper bathtub.
+shower:114:114:0:0:2:2
+tile:124:136:0:0:0:2:walltile
+tile:139:139:0:0:0:10:wallglass7
+
+zone:114:114:0:0:2:10:There is a faucet here. You can turn on the water and wash yourself. To do this, press Enter.
+tile:114:114:0:0:2:2:bathtub2
+tile:124:136:0:0:2:2:glass2
+zone:123:137:0:0:0:10:An unremarkable sink.
+washbasin:127:127:0:0:2:2
+zone:127:127:0:0:2:10:Here you can wash your hands. To do this, please press Enter.:trackme
+door:138:138:0:0:0:0:140:0:0:We look forward to seeing you next time, visitor! Goodbye!:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+door:140:140:0:0:0:0:138:0:0:Visitor! Would you like a warm shower? Come in, come in. We are waiting for you! We are very happy to welcome guests who come to us!:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:150:150:0:0:0:10:wallwood9
+tile:151:201:0:0:0:0:carpet8
+zone:151:201:0:0:0:10:You are in my bedroom. My bedroom is ordinary, just like in any other house. The entire interior of this bedroom is showy and luxurious.

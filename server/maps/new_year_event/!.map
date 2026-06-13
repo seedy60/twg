@@ -1,0 +1,17 @@
+mapname:new_year_event
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:100
+tile:0:100:0:100:0:0:carpet2
+owner:tony
+litem:1
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+night:none.ogg
+zone:0:100:0:100:0:100:a room full of gifts, you can grab as many as you like
+zone:0:0:0:0:0:10:press shift enter to getback to main:trackme
+travelpoint:0:0:0:0:0:0:main:50:0:0:you go back to main, the ultraworld staff hope you enjoyed it:silence.ogg:silence.ogg:silence.ogg
+rain:none.ogg

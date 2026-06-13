@@ -1,0 +1,177 @@
+mapname:pixie_forest
+minx:-1
+maxx:51
+miny:-1
+maxy:51
+minz:-10
+maxz:100
+tile:-1:51:-1:51:0:100:wallfoliage
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+dialog:0:0:0:0:0:0:Disclaimer; This map was originally written for another game moddified by Kannadiga..= Hail, and well met, traveler.=I am thankful that someone of your caliber has decided to visit my forest.=My name is Titania, Queen of the Pixies, and I am in desperate need of your help.=You see, my pixie subjects, they are very mischievous and playful beings.=They have decided to take my wand, and break it into five fragments.=All five of my wand fragments are scattered throughout my forest.=If you would do me a huge favor and go look for them, you can find me in my palace at the top of the tallest tree in the forest.=Your help for me is sincerely appreciated.
+tile:0:50:0:50:0:0:grass4
+tile:0:50:0:50:1:100:air
+zone:0:50:0:50:0:50:An Ancient Forest
+zone:0:0:0:0:0:6:Queen Titania has written a letter, why not press enter and see what it says?
+src:0:50:0:50:0:10:-10:500:people.ogg
+src:0:50:0:50:0:10:-10:200:people2.ogg
+src:0:50:0:50:0:10:-10:200:people3.ogg
+src:0:50:0:50:0:10:-10:200:people4.ogg
+src:0:50:0:50:0:10:-5:100:sky_indica.ogg
+tile:0:0:1:1:0:15:wallfoliage
+tile:1:1:0:0:0:15:wallfoliage
+tile:1:1:2:2:0:15:wallfoliage
+tile:2:2:1:1:0:15:wallfoliage
+tile:2:2:3:3:0:15:wallfoliage
+tile:3:3:2:2:0:15:wallfoliage
+tile:3:3:4:4:0:15:wallfoliage
+tile:4:4:3:3:0:15:wallfoliage
+tile:4:4:5:5:0:15:wallfoliage
+tile:5:5:4:4:0:15:wallfoliage
+tile:5:5:6:6:0:15:wallfoliage
+tile:6:6:5:5:0:15:wallfoliage
+src:0:0:0:0:0:7:-10:100:paper.ogg:1
+tile:6:6:6:6:0:15:wallfoliage
+tile:0:0:2:2:0:15:wallfoliage
+tile:2:2:0:0:0:15:wallfoliage
+tile:1:1:3:3:0:15:wallfoliage
+tile:3:3:1:1:0:15:wallfoliage
+tile:2:2:4:4:0:15:wallfoliage
+tile:4:4:2:2:0:15:wallfoliage
+tile:3:3:5:5:0:15:wallfoliage
+tile:5:5:3:3:0:15:wallfoliage
+tile:4:4:6:6:0:15:wallfoliage
+tile:6:6:4:4:0:15:wallfoliage
+zone:5:5:5:5:0:0:A tree limb hangs down from overhead.
+tile:5:5:5:5:1:10:tree
+tile:5:5:5:10:10:10:branch2
+zone:5:5:5:5:1:10:Climbing the Hanging Limb
+tile:4:4:7:10:10:25:wallfoliage
+tile:6:6:7:9:10:25:wallfoliage
+zone:5:5:6:10:10:17:Traversing a Low Hanging Branch
+tile:5:10:10:10:10:10:branch2
+zone:6:10:10:10:10:17:Traversing a Low Hanging Branch
+zone:10:10:10:10:10:10:Another hanging limb can be seen overhead.
+tile:10:10:10:10:10:25:tree
+tile:-1:51:-1:51:30:50:wallbars
+tile:0:50:0:50:30:30:cavegrounds3
+tile:0:50:0:50:31:50:air
+zone:0:50:0:50:30:50:The Dungeon of the Pixie Queen's Palace
+src:0:50:0:50:30:54:-20:100:a11.ogg:1
+src:0:50:0:50:30:54:-20:150:haunted.ogg:1
+src:0:50:0:50:30:54:-15:150:torture.ogg:1
+dialog:0:0:0:0:30:30:Hail and well met, yet again, traveler to my domain.=You have found the fragments of my wand, but we pixies are mischievous beings.=I will not make it easy for you to bring the fragments to me.=But do understand, if you can pass my tests, the reward will be well worth it.=Can you reach my throne room?=Or will you die trying?=Will you claim the prestigious honor of being called Pixie Friend?=Or will you wallow in despair, trying to make it out of my dungeon?=That is for you to decide, traveler.=So far, my pixies and I have made it relatively easy for you to make your way here.=But be forewarned, traveler, the challenge becomes much more dangerous from here on out.=Good Luck.
+item:5:5:5:5:0:0:60000:1:wand_fragment
+tile:5:5:11:11:10:17:wallfoliage
+item:5:5:10:10:10:10:60000:1:wand_fragment
+tile:6:10:11:11:10:17:wallfoliage
+tile:7:10:9:9:10:17:wallfoliage
+tile:11:11:10:10:10:17:wallfoliage
+item:10:10:10:10:10:10:60000:1:wand_fragment
+item:10:10:10:10:15:15:60000:1:wand_fragment
+item:10:10:10:10:20:20:60000:1:wand_fragment
+icautomover:10:10:10:10:25:25:0:0:30:A group of Queen Titania's royal guard gather around you.  with a mad bevvy of pixie cackling, they swoop you up and whisk you off to somewhere else...:wand_fragment:4:250:silence.ogg:silence.ogg:open9.ogg:close9.ogg
+zone:0:0:25:25:30:37:An ornate wooden door is set into the west wall of the dungeon.
+zone:50:50:25:25:30:37:An ornate wooden door is set into the east wall of the dungeon.
+sign:50:50:0:0:30:30:The wrought-iron sign has the words "patefacio sursum" intricately lettered upon it.:sign.ogg
+zone:50:50:0:0:30:37:A wrought-iron sign
+sign:50:50:50:50:30:30:The wrought-iron sign has the words "revelare ostium" intricately lettered upon it.:sign.ogg
+zone:50:50:50:50:30:30:A wrought-iron sign
+sign:0:0:50:50:30:30:The wrought-iron sign has the words "amicus pixie" intricately lettered upon it.:sign.ogg
+pdoor:0:0:25:25:30:30:0:0:0:Please inscribe the correct spell to enter this door.:patefacio sursum:50:silence.ogg:warp.ogg:silence.ogg:silence.ogg
+pdoor:50:50:25:25:30:30:0:0:0:Please inscribe the correct spell to enter this door.:revelare ostium:25:silence.ogg:warp.ogg:silence.ogg:silence.ogg
+zone:24:26:24:26:30:54:A set of beautifully intricate marble spiral stairs dominates the center of this otherwise dark and dismal dungeon.  Contemplation before action might be in order, though, as the stairs hum with an otherworldy energy.
+src:24:26:24:26:30:54:-10:100:avs.ogg:1
+tile:25:25:25:25:31:49:stairs3
+automover:25:25:25:25:35:37:0:0:30:A tendril of otherworldly energy knocks you back down the stairs.:25:silence.ogg:doormove1.ogg:silence.ogg:silence.ogg
+tile:24:24:25:25:34:34:stairs3
+automover:25:25:25:25:40:47:0:0:30:A tendril of otherworldly energy knocks you back down the stairs.:50:silence.ogg:doormove1.ogg:silence.ogg:silence.ogg
+tile:25:25:26:26:39:41:stairs3
+tile:26:26:26:26:42:44:stairs3
+tile:26:26:25:25:45:47:stairs3
+tile:-1:51:-1:51:53:100:wallwood19
+tile:0:50:0:50:55:55:concrete14
+itdoor:25:25:25:25:49:49:0:0:55:Queen Titania, in all of her pixie splendor, removes the wand fragments from you and ushers you into her throne room.:wand_fragment:5:100:silence.ogg:silence.ogg:tp28.ogg:tp29.ogg
+tile:0:50:0:50:56:100:air
+zone:0:50:0:50:55:60:You have finally made it to the throne room of the Pixie Queen, Titania.  Her ornately carved throne is situated in the northeastern corner of the room, better make tracks in that direction.
+zone:0:0:50:50:30:30:A Wrought-iron Sign
+tile:-1:-1:25:25:30:37:wallwooddoor
+tile:51:51:25:25:30:37:wallwooddoor
+src:0:50:0:50:55:100:-10:150:amb_lvl7.ogg:1
+src:0:50:0:50:55:100:0:100:amb16.ogg:1
+tile:0:0:1:1:55:80:wallwood19
+tile:1:1:0:0:55:80:wallwood19
+tile:1:1:2:2:55:80:wallwood19
+tile:2:2:1:1:55:80:wallwood19
+tile:0:0:2:2:55:80:wallwood19
+tile:2:2:0:0:55:80:wallwood19
+tile:1:1:3:3:55:80:wallwood19
+tile:3:3:1:1:55:80:wallwood19
+tile:2:2:3:3:55:80:wallwood19
+tile:3:3:4:4:55:80:wallwood19
+tile:3:3:2:2:55:80:wallwood19
+tile:2:2:4:4:55:80:wallwood19
+tile:4:4:2:2:55:80:wallwood19
+tile:4:4:5:5:55:80:wallwood19
+tile:4:4:3:3:55:80:wallwood19
+tile:3:3:5:5:55:80:wallwood19
+tile:5:5:3:3:55:80:wallwood19
+tile:5:5:6:6:55:80:wallwood19
+tile:5:5:4:4:55:80:wallwood19
+tile:4:4:6:6:55:80:wallwood19
+tile:6:6:4:4:55:80:wallwood19
+tile:6:6:5:5:55:80:wallwood19
+zone:5:5:5:5:55:70:A wrought-iron ladder
+tile:6:6:6:6:55:80:wallwood19
+dialog:0:0:0:0:55:55:Welcome to my throne room, traveler.=You are well on your way to claiming the prestigious honor of being called Pixie Friend.=However, you are not yet out of danger.=Can you make it to the dais where my throne sits, to claim your reward?=Or will you be forever ensnared here, wallowing in your own despair?=The choice, as always, is yours, traveler.=Good luck.
+zone:0:0:0:0:55:61:Another letter from the Pixie Queen awaits your perusal.  why not press enter and see what the letter has to say?
+tile:5:5:5:5:55:70:ladder2
+tile:5:5:6:21:70:70:steel3
+zone:5:21:6:21:70:77:A narrow catwalk overlooking the throne room
+tile:5:5:10:10:70:74:hazard
+tile:5:5:15:15:70:74:hazard
+tile:5:21:21:21:70:70:steel3
+tile:7:7:21:21:70:74:hazard
+tile:14:14:21:21:70:74:hazard
+zone:21:21:21:21:70:80:A wrought-iron ladder bathed in intense magical energy
+src:21:21:21:21:70:87:0:100:fundal3.ogg:1
+src:21:21:21:21:70:87:0:100:fundal.ogg:1
+tile:21:21:21:21:70:80:ladder2
+tile:31:31:21:50:80:80:steel3
+tile:31:31:20:20:80:100:wallwood19
+zone:31:31:21:50:80:87:A Narrow Catwalk Overlooking the Throne Room
+tile:33:50:50:50:80:80:steel3
+zone:33:50:50:50:80:87:A Narrow Catwalk Overlooking the Throne Room
+zone:50:50:50:50:80:100:Ornate wooden stairs leading the Pixie Queen's throne
+tile:50:50:50:50:80:97:stairs3
+src:50:50:50:50:80:97:0:100:wploop.ogg:1
+tile:49:49:50:50:81:98:wallwood19
+tile:50:50:49:49:81:98:wallwood19
+tile:50:50:50:50:98:99:wallwood19
+zone:0:0:0:0:30:30:Queen Titania has placed a second letter for your perusal.  Why not press enter and see what it has to say?
+automover:10:50:10:50:59:59:0:0:55:Just as you are about to hit the floor, a tendril oftherworldly energy zaps you elsewhere. You land on the floor with a loud thud...:50:silence.ogg:doormove1.ogg:silence.ogg:silence.ogg
+tile:23:23:21:21:80:80:steel3
+tile:25:25:21:21:80:80:steel3
+tile:27:27:21:21:80:80:steel3
+tile:29:29:21:21:80:80:steel3
+tile:40:50:40:50:100:100:tile5
+igdoor:50:50:50:50:97:97:40:40:100:Congratulations, traveler!  You have proven your worth, and have claimed the prestigious honor of being called a friend to the pixies.  Please, take this small token of 50 credits as a bonus reward.  You are welcome back to the Pixie Forest any time you like.:credit:50:500:silence.ogg:tp14.ogg:silence.ogg:silence.ogg
+tile:40:50:39:39:100:100:wallwood19
+tile:39:39:39:50:100:100:wallwood19
+zone:40:50:40:50:100:100:The Pixie Queen's throne is quite large, especially since pixies are such tiny creatures.  The back of the throne is decorated with ornate carvings and depictions of previous pixie royalty.  The seat of the throne is cushioned with a multicolored, velvet cushion.  Queen Titania seems absent for the moment, but she can usually be seen sitting here, ruling over her pixie subjects.  A tiny wooden door goes almost unnoticed, but can be seen in the northeastern corner of the throne.
+zone:50:50:50:50:100:100:Congratulations!  Press shift-enter to collect your reward and leave the map.
+task_status:50:50:50:50:100:100:credit:200000
+travelpoint:50:50:50:50:100:100:main_map:5:1:0:Queen Titania, with an entourage of her royal guard, applaud and cheer with smiles on their faces as you are whisked out of the Pixie Forest, back from whence you came.:silence.ogg:silence.ogg:aplause3.ogg
+tile:31:31:26:31:80:80:air
+tile:31:31:36:41:80:80:air
+tile:31:31:43:48:80:80:air
+zone:22:50:21:21:80:87:A Narrow Catwalk Overlooking the Throne Room
+zone:50:50:50:50:97:99:Door to the Pixie Queen's Throne
+disable:spy
+enable:tracking
+item_usage_restriction:-1:51:-1:51:-10:100:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat:animal_revitalizer:friendship_sphere:marriage_ring:teleporter:telehouse
+owner:kannadiga

@@ -1,0 +1,18 @@
+mapname:the_gym
+minx:0
+maxx:40
+miny:0
+maxy:40
+minz:0
+maxz:40
+tile:0:40:0:40:0:0:carpet4
+owner:kiwi-james
+litem:1
+starting_point:0:40:0:40:0:0
+deathpoint:0:40:0:40:0:0
+night:none.ogg
+zone:0:40:0:40:0:40:welcome to the punching bag gym
+ai:0:20:0:20:0:0:60000:1:punching_bag
+tile:0:40:0:40:0:0:concrete14
+travelpoint:2:2:0:0:0:0:main_map:12:0:0:going back to the cozy house:silence.ogg:silence.ogg:silence.ogg
+zone:2:2:0:0:0:0:press shift enter to go back to the cozy house:trackme

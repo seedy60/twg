@@ -1,0 +1,30 @@
+mapname:bathroom
+minx:0
+maxx:10
+miny:0
+maxy:10
+minz:0
+maxz:20
+tile:0:10:0:10:0:0:glass6
+litem:1
+starting_point:0:10:0:10:0:0
+deathpoint:0:10:0:10:0:0
+night:none.ogg
+zone:0:10:0:10:0:20:toilet
+src:0:10:0:10:0:20:0:100:incide.ogg:1
+rain:none.ogg
+tile:5:5:10:10:0:2:diamond
+zone:5:5:10:10:2:10:Here is the toilet:trackme
+wind:none.ogg
+toilet:5:5:10:10:2:2
+tile:6:6:10:10:0:20:wallwoodcrate
+tile:4:4:10:10:0:20:wallwoodcrate
+rain:none.ogg
+tile:10:10:0:0:0:2:beam
+tile:10:10:0:0:2:2:bathtub2
+zone:10:10:0:0:2:10:here is the sink:trackme
+washbasin:10:10:0:0:2:2
+zone:0:0:0:0:0:10:Press shift enter to return to the club:trackme
+litem:0
+src:0:10:0:10:0:20:-8:100:music outside.ogg:1
+travelpoint:0:0:0:0:0:0:Night-club:0:0:0:Done!:silence.ogg:door4open.ogg:close4.ogg

@@ -1,0 +1,79 @@
+mapname:india_ture
+minx:0
+maxx:10
+miny:0
+maxy:4000
+minz:0
+maxz:20
+owner:Sanjay
+litem:1
+starting_point:0:10:0:4000:0:0
+deathpoint:0:10:0:4000:0:0
+zone:10:10:0:0:0:0:wellcome to india ture moter bote. press enter to start 
+door:10:10:0:0:0:0:10:99:0:enjoy trip:200:snowmobile.ogg:snowmobilego.ogg:silence.ogg:silence.ogg
+tile:0:0:0:0:0:0:deepsand2
+tile:0:10:0:4000:0:0:deepsand
+tile:0:10:10:3990:0:10:wall
+starting_point:0:0:0:0:0:0
+tile:0:9:10:10:0:7:wallfence5
+src:0:10:0:100:0:10:-10:100:ocean3.ogg:1
+src:0:10:0:100:0:10:-5:100:lake.ogg:1
+zone:0:9:0:10:0:10:port station 
+zone:10:10:1:10:0:10:port station 
+zone:10:10:11:99:0:10:oation path to mumbai city.
+sign:0:0:0:0:0:0:wellcome to india ture! on write you can go at 10 0 0 and board moter boat to biggen your journey. enjoy trip :sign2.ogg
+zone:0:0:0:0:0:0:sign 1 wellcome :trackme
+tile:0:0:0:0:0:0:hardwood5
+tile:10:10:99:99:0:0:hardwood5
+sign:10:10:99:99:0:0: wellcome to mumbai city buss station! go at 10 101 0 to board in the buss :sign.ogg
+zone:10:10:99:120:0:10:buss station:trackme
+tile:10:10:100:101:0:0:cement
+zone:10:10:99:99:0:0:sign 2 :trackme
+tile:10:10:101:101:0:0:metal5
+zone:10:10:101:101:0:0:press enter to board in the  buss :trackme
+zone:10:10:121:200:0:10:get of India 
+src:10:10:121:199:0:10:0:100:beach_r12.ogg:1
+door:10:10:101:101:0:0:10:507:0:sit back, and enjoy view of mumbai :300:silence.ogg:bus.ogg:silence.ogg:silence.ogg
+src:10:10:151:181:0:10:-10:100:beach_r9.ogg:1
+zone:10:10:201:300:0:0:taj hotel mumbai 
+src:10:10:200:300:0:10:0:100:gospital4.ogg:1
+src:10:10:200:300:0:10:0:100:calm.ogg:1
+src:10:10:200:300:0:10:0:100:casino.ogg:1
+zone:10:10:301:400:0:10:filmcity  
+src:10:10:301:400:0:10:-13:100:city_r11.ogg:1
+src:10:10:301:400:0:10:0:100:city_r13.ogg:1
+zone:10:10:401:506:0:10:mall view of mumbai 
+src:10:10:401:506:0:10:0:100:mall2.ogg:1
+src:10:10:401:506:0:10:0:100:crowd_uproar.ogg:1
+src:10:10:401:506:0:10:-4:100:city_r18.ogg:1
+zone:10:10:507:529:0:10:mumbai chhatra pati tarmeness train station 
+tile:10:10:507:510:0:0:tile6
+src:10:10:507:520:0:10:-8:100:airport.ogg:1
+tile:10:10:507:510:1:7:air
+tile:10:10:99:101:1:7:air
+door:10:10:510:510:0:0:10:700:0:enjoy train:300:doorloop.ogg:trem.ogg:wallopen.ogg:silence.ogg
+zone:10:10:530:600:0:10:farm
+src:10:10:530:600:0:10:0:100:farm.ogg:1
+src:10:10:530:600:0:10:0:100:farm4.ogg:1
+src:10:10:550:600:0:10:-8:100:farm5.ogg:1
+zone:10:10:601:700:0:10:farm house. its raining here 
+src:10:10:601:700:0:10:-15:100:cicada.ogg:1
+src:10:10:601:700:0:10:-5:100:thunderstorm6.ogg:1
+src:10:10:601:700:0:10:0:100:rain13.ogg:1
+zone:10:10:701:710:0:10:banglore station 
+src:10:10:701:710:0:10:-5:100:aeroporto.ogg:1
+tile:10:10:701:703:0:0:cement4
+tile:10:10:701:703:1:4:air
+sign:10:10:701:701:0:0:go frunt at 10 703 to catch train :sign3.ogg
+door:10:10:703:703:0:0:10:990:0:.:300:starloop.ogg:trainroule.ogg:silence.ogg:silence.ogg
+zone:10:10:711:990:0:10:banglore city 
+src:10:10:720:990:0:10:-6:100:city_r18.ogg:1
+zone:10:10:750:800:0:10:bhoomi and cheri's house 
+src:10:10:750:800:0:10:0:151:horse_battle.ogg:1
+owner:kannadiga
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+sign:10:10:508:508:0:0:welcome go ahead to catch train for banglore :sign.ogg
+
+reinforcement:0:10000000

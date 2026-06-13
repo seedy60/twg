@@ -1,0 +1,14 @@
+mapname:dev_arena
+minx:0
+maxx:200
+miny:0
+maxy:200
+minz:0
+maxz:100
+tile:0:200:0:200:0:0:gravel2
+owner:NicoDiAngelo
+litem:0
+starting_point:0:200:0:200:0:0
+deathpoint:0:200:0:200:0:0
+zone:0:200:0:200:0:100:arena
+zone:0:20:0:20:0:20:weapon_store:trackme

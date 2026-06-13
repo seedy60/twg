@@ -1,0 +1,58 @@
+mapname:stables
+minx:0
+maxx:60
+miny:0
+maxy:46
+minz:0
+maxz:20
+litem:1
+starting_point:0:60:0:60:0:0
+deathpoint:0:60:0:60:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+owner:kannadiga
+tile:0:60:0:46:0:20:wallbrick
+zone:0:60:0:46:0:20:stables
+music:0:60:0:46:0:20:-25:100:maxkomusic55.ogg
+tile:1:59:1:45:1:19:air
+tile:1:59:1:45:0:0:concrete24
+tile:1:59:16:16:0:10:wallgate
+tile:1:59:1:15:0:0:grass
+tile:20:20:1:16:0:19:walljaledoor
+tile:40:40:1:16:0:19:walljaledoor
+zone:1:59:1:15:0:20:stall of horse
+zone:1:59:15:16:0:20:door of stall of horse
+zone:1:19:17:17:0:20:door of stall of horse
+zone:21:39:17:17:0:20:door of stall of horse
+zone:41:59:17:17:0:20:door of stall of horse
+door:1:19:17:17:0:20:10:15:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:21:39:17:17:0:20:30:15:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:41:59:17:17:0:20:50:15:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:1:19:15:15:0:20:10:17:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:21:39:15:15:0:20:30:17:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:41:59:15:15:0:20:50:17:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+# 
+tile:1:59:30:30:0:10:wallgate
+tile:1:59:31:45:0:0:grass
+tile:20:20:30:45:0:19:walljaledoor
+tile:40:40:30:45:0:19:walljaledoor
+zone:1:59:31:45:0:20:stall of horse
+zone:1:59:30:31:0:20:door of stall of horse
+zone:1:19:29:29:0:20:door of stall of horse
+zone:21:39:29:29:0:20:door of stall of horse
+zone:41:59:29:29:0:20:door of stall of horse
+door:1:19:29:29:0:20:10:31:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:21:39:29:29:0:20:30:31:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:41:59:29:29:0:20:50:31:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:1:19:31:31:0:20:10:29:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:21:39:31:31:0:20:30:29:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+door:41:59:31:31:0:20:50:29:0: :1000:silence.ogg:silence.ogg:tp2.ogg:tp3.ogg
+tile:60:60:18:28:0:15:wallmetal10
+zone:59:59:18:28:0:20:stables door. Press shift enter to go out:trackme
+travelpoint:59:59:18:28:0:15:farm:61:153:0: :silence.ogg:workshopenter.ogg:workshopexit.ogg
+src:60:60:0:46:0:20:-10:100:birds7.ogg
+item_usage_restriction:0:60:0:46:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+ai:25:25:7:7:0:0:50000:3:horse
+
+reinforcement:0:10000000

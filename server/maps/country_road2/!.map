@@ -1,0 +1,65 @@
+mapname:country_road2
+minx:-30
+maxx:200
+miny:0
+maxy:700
+minz:0
+maxz:200
+tile:-30:200:0:700:0:0:dirt12
+owner:owlinor
+litem:1
+starting_point:0:30:0:700:0:0
+deathpoint:0:30:0:700:0:0
+src:-30:200:0:700:0:200:-12:100:trop47.ogg
+music:-30:200:0:700:0:200:-15:100:musica61.ogg
+zone:0:200:0:700:0:200:countryside area
+tile:0:0:0:600:0:20:wallfence7
+tile:0:0:73:77:0:20:wallfence6
+travelpoint:1:1:73:77:0:15:horse_pasture:100:75:0: :silence.ogg:silence.ogg:doorclose43.ogg
+zone:1:1:73:77:0:200:horses pasture gate. press shift enter to access.:trackme
+tile:0:0:223:227:0:20:wallfence6
+travelpoint:1:1:223:227:0:15:goats_pasture:100:75:0: :silence.ogg:silence.ogg:doorclose43.ogg
+zone:1:1:223:227:0:200:goats pasture gate. press shift enter to access.:trackme
+tile:0:0:383:387:0:20:wallfence6
+travelpoint:1:1:383:387:0:15:cows_pasture:100:75:0: :silence.ogg:silence.ogg:doorclose43.ogg
+zone:1:1:383:387:0:200:cows pasture gate. press shift enter to access.:trackme
+tile:0:0:453:457:0:20:wallfence6
+zone:1:1:453:457:0:200:sheeps pasture gate. press shift enter to access.:trackme
+travelpoint:1:1:453:457:0:15:sheep_pasture:100:75:0: :silence.ogg:silence.ogg:doorclose43.ogg
+tile:-30:0:601:601:0:30:wallfence7
+tile:-30:0:0:0:0:30:wallfence7
+src:-30:-3:0:150:0:20:10:100:horses2.ogg
+src:-30:-3:160:300:0:2-30:-3:100:goat_voice.ogg
+src:-30:-3:320:440:0:20:5:100:farm4.ogg
+src:-30:-3:460:600:0:2-30:-3:100:farm5.ogg
+night:none.ogg
+tile:16:186:16:215:0:20:wallbrick
+tile:16:16:37:115:0:20:walljaledoor
+tile:17:68:37:115:1:20:air
+tile:17:68:37:115:0:0:dirt
+zone:15:15:37:115:0:20:farm large gate. Press shift enter to access.:trackme
+travelpoint:15:15:17:115:0:15:farm:1:40:0: :silence.ogg:door122open.ogg:door122close.ogg
+tile:169:185:215:215:0:20:wallmetal6
+tile:186:186:16:215:0:20:wallbrush
+zone:169:185:216:216:0:20:farm gate. Press shift enter to access.:trackme
+travelpoint:169:185:216:216:0:20:farm:162:199:0: :silence.ogg:door48open.ogg:door48close.ogg
+rain:rain3.ogg
+wind:wind7.ogg
+zone:0:200:0:0:0:200:wheat_field. Press shift enter to continue.:trackme
+travelpoint:0:200:0:0:0:200:wheat_field:0:10:0: :silence.ogg:silence.ogg:silence.ogg
+item:16:186:217:699:0:0:30000:15:olive
+tile:-30:-30:601:700:0:25:wallbrush
+tile:-30:-1:700:700:0:25:wallbrush
+tile:-30:-10:657:677:0:20:walltile
+tile:-10:-10:665:669:0:15:wallwooddoor
+zone:-9:-9:665:669:0:15:wheat mill door. Press shift enter to go in.:trackme
+travelpoint:-9:-9:665:669:0:15:wheat_mills:19:15:0: :silence.ogg:door_passage.ogg:silence.ogg
+tile:-30:-10:617:637:0:20:walltile
+tile:-10:-10:625:629:0:15:wallwooddoor
+zone:-9:-9:625:629:0:15:oil mill door. Press shift enter to go in.:trackme
+travelpoint:-9:-9:625:629:0:15:oil_mill:19:15:0: :silence.ogg:door_passage.ogg:silence.ogg
+sign:-9:-9:623:623:0:5:The oil mill. For 50 olives, you can take a oil bottle. The exchange is done inside.:sign3.ogg
+zone:-9:-9:623:623:0:5:sign
+sign:-9:-9:663:663:0:5:The wheat mill. For 50 wheats, you can take a flour pack. The exchange is done inside.:sign3.ogg
+zone:-9:-9:663:663:0:15:sign
+reinforcement:0:10000000

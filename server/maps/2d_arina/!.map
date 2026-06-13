@@ -1,0 +1,18 @@
+mapname:2d_arina
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:123
+tile:0:100:0:0:0:0:concrete
+owner:arvin
+litem:1
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+description:0
+pvp:0:100:0:0:0:123:1
+sign:0:0:0:0:0:0:hi! wel stard it! i mean the fight o let me get some popcorn:sign3.ogg
+zone:0:0:0:0:0:12:read this!:trackme
+zone:1:100:0:0:0:123:THE_ARINA!:trackme

@@ -1,0 +1,13 @@
+mapname:feersCats
+minx:0
+maxx:250
+miny:0
+maxy:0
+minz:0
+maxz:0
+tile:0:250:0:0:0:0:bridge3
+owner:storn
+litem:0
+starting_point:0:250:0:0:0:0
+deathpoint:0:250:0:0:0:0
+enable:2dsupport

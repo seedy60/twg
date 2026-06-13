@@ -1,0 +1,73 @@
+mapname:The_Aviator3
+minx:0
+maxx:4
+miny:0
+maxy:2
+minz:-5
+maxz:1000
+tile:0:4:0:2:0:0:carpet6
+owner:HarryMK
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:4:0:2:0:0
+zone:0:4:0:2:0:1000:The Aviator Part 3
+zone:0:4:0:0:0:9:A sign:trackme
+sign:0:4:0:0:0:9:Hello %name%, welcome back to part 3 of aviation questions. Here, I have 100 different questions for you.:silence.ogg
+tile:0:4:0:2:-5:-5:concrete10
+automatic_travelpoint:0:4:0:2:-5:-5:main_map:5:1:0:Congratulations!:silence.ogg:unlock.ogg:snowmobilestop.ogg
+zone:0:4:2:2:0:9:Press enter to start:trackme
+tile:0:4:0:2:10:10:concrete2
+door:0:4:2:2:0:0:0:0:10:Good luck!:20:silence.ogg:vine_climb.ogg:door_passage.ogg:silence.ogg
+zone:0:4:0:2:10:19:What does “crosswind” mean during a landing?
+zone:0:0:2:2:10:10:Wind blowing along the runway
+zone:1:1:2:2:10:10:Wind blowing perpendicular to the runway
+zone:2:2:2:2:10:10:Wind blowing straight down the runway
+zone:3:3:2:2:10:10:Wind blowing from above
+zone:4:4:2:2:10:10:Wind blowing from below the aircraft
+door:0:0:2:2:10:10:0:0:0:Fail!:20:silence.ogg:silence.ogg:silence.ogg:tp38.ogg
+door:2:4:2:2:10:10:0:0:0:Fail!:20:silence.ogg:silence.ogg:silence.ogg:tp38.ogg
+door:1:1:2:2:10:10:0:0:20:Congrats!:20:silence.ogg:vine_climb.ogg:door1open.ogg:door1close.ogg
+tile:0:4:0:2:20:20:concrete
+zone:0:4:0:2:20:29:Why do pilots perform a preflight checklist?
+zone:0:0:2:2:20:20:To test aircraft safety systems ?
+zone:1:1:2:2:20:20:To memorize the flight schedule
+zone:2:2:2:2:20:20:To calculate ticket prices
+zone:3:3:2:2:20:20:To plan passenger meals
+zone:4:4:2:2:20:20:To save time before departure
+door:1:4:2:2:20:20:0:0:10:Fail!:50:silence.ogg:water_leave.ogg:door_passage.ogg:door1close.ogg
+door:0:0:2:2:20:20:0:0:30:Congrats!:30:silence.ogg:vine_climb.ogg:door1open.ogg:door1close.ogg
+tile:0:4:0:2:30:30:carpet
+zone:0:4:0:2:30:39:What does the acronym "ATIS" mean?
+zone:0:0:2:2:30:30:Air Traffic Internal System
+zone:1:1:2:2:30:30:Aircraft Turbine Ignition System
+zone:2:2:2:2:30:30:Aeronautical Timing and Information Station
+zone:3:3:2:2:30:30:Airborne Transmission Integrated System
+zone:4:4:2:2:30:30:Automatic Terminal Information Service
+door:0:3:2:2:30:30:0:0:20:Fail!:50:silence.ogg:water_leave.ogg:workshopenter.ogg:tp50.ogg
+door:4:4:2:2:30:30:0:0:40:Congratulations %n!:40:silence.ogg:vine_climb.ogg:door1open.ogg:door1close.ogg
+tile:0:4:0:2:40:40:concrete3
+zone:0:4:0:2:40:49:Why do flight attendants ask passengers to keep seatbelts fastened while seated?
+zone:0:0:2:2:40:40:To prevent theft of seatbelts
+zone:1:1:2:2:40:40:To help balance the plane’s weight
+zone:2:2:2:2:40:40:To avoid injuries during unexpected turbulence
+zone:3:3:2:2:40:40:To assist with faster boarding
+zone:4:4:2:2:40:40:To keep passengers comfortable
+door:0:1:2:2:40:40:0:0:9:Oh wait! Gravity is it?:40:silence.ogg:water_leave.ogg:workshopenter.ogg:tp50.ogg
+door:3:4:2:2:40:40:0:0:30:Failed!:50:silence.ogg:water_leave.ogg:workshopenter.ogg:tp50.ogg
+door:2:2:2:2:40:40:0:0:50:Congrats!:40:silence.ogg:vine_climb.ogg:door2open.ogg:door2close.ogg
+tile:0:4:0:2:50:50:concrete4
+zone:0:4:0:2:50:59:What is the “yaw” movement of an airplane?
+zone:1:1:2:2:50:50:Nose moves left or right
+zone:0:0:2:2:50:50:Nose moves up or down
+zone:2:2:2:2:50:50:Wings tilt left or right
+zone:3:3:2:2:50:50:Aircraft speed increases
+zone:4:4:2:2:50:50:Entire plane rotates upside down
+door:0:0:2:2:50:50:0:0:40:Fail!:40:silence.ogg:water_leave.ogg:workshopenter.ogg:tp50.ogg
+door:1:1:2:2:50:50:0:0:60:Congrats!:40:silence.ogg:vine_climb.ogg:door3open.ogg:door3close.ogg
+tile:0:4:0:2:60:60:carpet2
+door:2:3:2:2:50:50:0:0:40:Fail!:50:silence.ogg:water_leave.ogg:workshopenter.ogg:tp50.ogg
+door:4:4:2:2:50:50:0:0:0:I will show you upside down! Meet the gravity!:60:silence.ogg:water_leave.ogg:workshopenter.ogg:tp50.ogg
+zone:0:4:0:2:60:69:What is the “pitch” movement of an airplane?
+night:none.ogg
+wind:none.ogg
+rain:none.ogg

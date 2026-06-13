@@ -1,0 +1,170 @@
+mapname:farm_house
+minx:0
+maxx:24
+miny:0
+maxy:33
+minz:0
+maxz:40
+litem:1
+starting_point:0:33:0:24:0:0
+deathpoint:0:33:0:24:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+owner:turando
+tile:0:24:0:33:0:40:wallwood16
+tile:1:23:1:32:0:0:concrete4
+tile:1:23:1:32:1:39:air
+src:1:23:1:32:0:39:0:100:kitchen.ogg:1
+music:1:23:1:32:0:39:-20:100:musichotel.ogg
+zone:1:23:1:32:0:39:farm house
+tile:0:0:14:19:0:15:wallwooddoor
+tile:0:0:24:27:4:6:wallglass
+tile:0:0:6:9:4:6:wallglass
+src:0:0:6:9:4:6:-12:100:birds7.ogg
+src:0:0:24:27:4:6:-12:100:birds7.ogg
+#fireplace
+tile:10:14:0:3:0:40:wallstone
+tile:10:14:3:3:1:1:stone3
+tile:10:14:3:3:2:39:air
+tile:11:13:1:2:1:1:fire
+tile:11:13:1:1:2:40:air
+tile:11:13:2:2:2:5:air
+zone:11:13:1:2:1:40:in the hearth
+zone:10:14:3:3:0:5:on the fireplace
+oven:11:13:1:2:1:1
+fire:11:13:1:2:1:39:50:24000
+src:11:13:1:2:1:5:0:100:fireplace2.ogg
+#stairs
+zone:22:23:10:19:0:39:stairs:trackme
+tile:22:23:10:10:0:2:wood8
+tile:22:23:11:11:0:1:wallwood16
+tile:22:23:11:11:2:4:wood8
+tile:22:23:12:12:2:3:wallwood16
+tile:22:23:12:12:4:6:wood8
+tile:22:23:13:13:4:5:wallwood16
+tile:22:23:13:13:6:8:wood8
+tile:22:23:14:14:6:7:wallwood16
+tile:22:23:14:14:8:10:wood8
+tile:22:23:15:15:8:9:wallwood16
+tile:22:23:15:15:10:12:wood8
+tile:22:23:16:16:10:11:wallwood16
+tile:22:23:16:16:12:14:wood8
+tile:22:23:17:17:12:13*:wallwood16
+tile:22:23:17:17:14:16:wood8
+tile:22:23:18:18:14:15*:wallwood16
+tile:22:23:18:18:16:18:wood8
+tile:22:23:19:19:16:17*:wallwood16
+tile:22:23:19:19:18:20:wood8
+tile:21:21:10:10:0:24:wallwood17
+tile:21:21:11:11:0:24:wallwood17
+tile:21:21:12:12:4:24:wallwood17
+tile:21:21:13:13:6:24:wallwood17
+tile:21:21:14:14:8:24:wallwood17
+tile:21:21:15:15:10:24:wallwood17
+tile:21:21:16:16:12:24:wallwood17
+tile:21:21:17:17:14:24:wallwood17
+tile:21:21:18:18:16:24:wallwood17
+tile:11:21:19:19:18:24:wallwood17
+tile:21:21:10:18:25:25:hardwood7
+zone:21:21:10:18:25:30:on the balustrade
+#mezzanine
+zone:11:23:20:32:20:39:mezzanine
+tile:1:23:20:32:18:19*:wallwood16
+tile:1:23:20:32:20:20:wood4
+tile:11:21:19:19:25:25:hardwood7
+zone11:20:19:19:25:30:on the balustrade
+tile:1:10:19:19:20:39:wallwood16
+tile:10:10:20:32:20:39:wallwood16
+zone:1:9:20:32:20:39:bathroom
+tile:10:10:25:27:20:35:wallwood19
+zone:9:10:25:27:20:39:mezzanine door
+door:9:9:25:27:20:35:11:26:20: :1250:silence.ogg:silence.ogg:dooropen37.ogg:doorclose40.ogg
+zone:11:11:25:27:20:39:bathroom door:trackme
+door:11:11:25:27:20:35:9:26:20: :1250:silence.ogg:silence.ogg:dooropen37.ogg:doorclose40.ogg
+tile:1:9:20:32:20:20:tile2
+tile:1:3:30:32:20:20:wetconcrete
+tile:2:2:33:33:20:35:wallpole
+zone:1:3:30:32:20:39:the walk-in shower
+shower:1:3:30:32:20:39
+tile:6:8:31:32:20:22:wallbuilding5
+tile:6:8:31:33:22:22:walldiamond
+tile:7:7:32:32:21:21:walldiamond
+tile:7:7:32:32:22:22:puddle
+tile:6:8:31:32:23:23:ceramic3
+tile:7:7:32:32:23:23:air
+zone:5:9:30:32:20:39:near the washbasin
+zone:6:9:31:32:23:28:the washbasin
+zone:7:7:32:32:22:23:in the washbasin
+washbasin:5:9:30:32:20:23
+tile:1:2:21:21:20:21:walldiamond
+tile:1:1:21:21:22:22:walldiamond
+tile:1:1:21:21:23:23:ceramic3
+tile:2:2:21:21:21:21:hardwood7
+zone:1:2:20:22:20:39:Near the toilet bowl
+zone:2:2:21:21:21:26:On the toilet bowl seat
+zone:1:1:21:21:23:27:the toilet cistern
+src:1:1:21:21:20:22:-10:100:toilet.ogg
+tile:0:0:23:23:22:22:wallbody
+zone:1:1:23:23:20:25:near toilet paper dispenser
+igdoor:1:1:23:23:20:22:1:23:20:You take toilet paper:toilet_paper:1:0:silence.ogg:silence.ogg:toilet_paper_dispenser.ogg:silence.ogg
+toilet:2:2:21:21:21:21
+tile:17:23:27:31:20:21:wallsofa
+tile:17:22:27:31:21:21:carpet4
+tile:23:23:27:31:21:21:mat
+tile:23:23:30:30:21:21:carpet10
+tile:23:23:28:28:21:21:carpet10
+zone:16:23:26:32:20:39:near the bed
+zone:17:23:27:31:21:26:on the bed
+tile:23:23:32:32:21:21:hardwood2
+tile:23:23:26:26:21:21:hardwood2
+zone:23:23:32:32:21:26:a night-stand
+zone:23:23:26:26:21:26:a night-stand
+tile:11:12:30:32:20:30:wallwood6
+zone:11:13:29:32:20:39:near the cupboard
+zone:21:23:12:12:0:3:Under the stairs
+zone:21:23:13:13:0:5:Under the stairs
+zone:21:23:14:14:0:7:Under the stairs
+zone:21:23:15:15:0:9:Under the stairs
+zone:21:23:16:16:0:11:Under the stairs
+zone:21:23:17:17:0:13:Under the stairs
+zone:21:23:18:18:0:14:Under the stairs
+zone:21:23:19:19:0:17:Under the stairs
+tile:20:23:30:32:0:15:wallwoodcrate
+tile:20:23:23:29:0:2:wallwood
+tile:20:23:23:29:3:3:hardwood2
+zone:19:19:30:32:0:15:near the fridge
+zone:19:23:22:29:0:15:near the worktop
+tile:21:24:27:29:1:2:wallmetal20
+tile:21:23:27:29:3:3:metal9
+tile:22:23:28:28:2:2:puddle
+tile:22:23:28:28:3:3:air
+zone:19:20:27:29:0:15:near the sink
+zone:21:23:27:29:3:8:the sink
+zone:22:23:28:28:2:5:in the sink
+washbasin:19:23:27:29:0:3
+tile:21:22:24:25:3:3:glass2
+tile:20:20:24:25:0:2:wallscreen
+zone:19:19:24:25:0:2:near the oven
+zone:21:22:24:25:3:6:the cooking plates
+oven:19:23:24:25:0:3
+src:23:23:31:31:0:10:0:100:fridge6.ogg
+tile:9:11:25:27:0:2:walltable2
+tile:9:11:25:27:3:3:hardwood3
+zone:8:12:24:28:0:15:near the table
+zone:9:11:25:27:3:6:on the table
+tile:8:8:26:26:0:1:chair
+zone:8:8:26:26:0:5:chair
+tile:12:12:26:26:0:1:chair
+zone:12:12:26:26:0:5:chair
+tile:10:10:26:26:3:3:generic
+zone:10:10:26:26:3:5:recipe book
+dialog:10:10:26:26:3:3:To make an omelette, you need an egg, a fork, a bowl, and a poellon. 1, break the egg into the bowl. 2, beat with a fork bowl with egg. 4, pour bowl with raw omelette into the skillet. 5, cook raw omelette in skillet. 6, remove cooked omelette from skillet. 7, enjoy. Press enter to read the next recipe.=To make a fried egg, you need, an egg and a skillet. 1, break the egg in the skillet. 2, cook the egg in  skillet. 3, remove the fried egg from the skillet. Enjoy. Press enter to read the next recipe.
+zone:1:1:14:19:0:19:Exit door. Press shift enter to go out.:trackme
+travelpoint:1:1:14:19:0:19:farm:122:59:0: :silence.ogg:entering_house4.ogg:exiting_house4.ogg
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+item_usage_restriction:0:24:0:33:0:40:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+
+reinforcement:0:10000000

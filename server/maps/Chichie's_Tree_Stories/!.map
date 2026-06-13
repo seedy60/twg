@@ -1,0 +1,107 @@
+mapname:Chichie's_Tree_Stories
+minx:0
+maxx:10
+miny:0
+maxy:500
+minz:0
+maxz:500
+tile:0:10:0:500:0:0:grass
+owner:Chichie
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:10:0:500:0:0
+src:0:10:0:500:0:500:0:50:wind_in_trees_light_1.ogg:1
+src:0:10:0:500:0:500:0:50:Wind_Leaves_Light_2.ogg:1
+tile:4:7:11:11:0:25:tree
+zone:4:7:11:11:0:25:Anne Frank's Chestnut Tree :trackme
+tile:4:7:21:21:25:50:tree
+zone:4:7:21:21:25:50:Liberty Tree :trackme
+tile:4:7:22:22:25:49:walltree
+tile:4:7:31:31:50:75:tree
+zone:4:7:31:31:50:75:Isaac Newton's Apple Tree :trackme
+tile:4:7:32:32:50:74:walltree
+tile:4:7:41:41:75:100:tree
+zone:4:7:41:41:75:100:Charter Oak :trackme
+tile:4:7:42:42:75:99:walltree
+tile:4:7:51:51:100:125:tree
+zone:4:7:51:51:100:125:September 11 Survivor Tree :trackme
+tile:4:7:52:52:100:124:walltree
+tile:4:7:61:61:125:150:tree
+zone:4:7:61:61:125:150:Major Oak :trackme
+tile:4:7:62:62:125:149:walltree
+tile:4:7:71:71:150:175:tree
+tile:4:7:72:72:150:174:walltree
+zone:4:7:71:71:150:175:Japanese Cherry Trees :trackme
+tile:4:7:81:81:175:200:tree
+zone:4:7:81:81:175:200:Emancipation Oak :trackme
+tile:4:7:82:82:175:199:walltree
+tile:4:7:91:91:200:225:tree
+zone:4:7:91:91:200:225:General Sherman Tree :trackme
+tile:4:7:92:92:200:224:walltree
+tile:4:7:101:101:225:250:tree
+zone:4:7:101:101:225:250:Bodhi Tree :trackme
+tile:4:7:102:102:225:249:walltree
+tile:0:10:102:110:250:250:weed
+zone:0:10:102:110:250:250:2nd station:trackme
+tile:0:5:111:111:250:260:ladder:trackme
+zone:0:5:111:111:250:260:1st story:trackme
+tile:0:5:112:120:260:260:bridge
+zone:0:5:112:120:260:260:Anne Frank's Chestnut Tree (Amsterdam, Netherlands) This tree provided solace to Anne Frank during her family's hiding in World War II.  After its death in 2010, saplings from its chestnuts were planted globally
+tile:0:5:121:121:260:270:ladder
+zone:0:5:121:121:260:270:2nd story:trackme
+tile:0:5:122:130:270:270:bridge
+zone:0:5:122:130:270:270:The Liberty Tree (Boston, Massachusetts) A symbol of American independence, colonists rallied under this elm tree to protest the Stamp Act in 1765.  It was later cut down by British soldiers
+tile:0:5:131:131:270:280:ladder
+zone:0:5:131:131:270:280:3rd story:trackme
+tile:0:5:132:140:280:280:bridge
+zone:0:5:132:140:280:280:Isaac Newton's Apple Tree (Woolsthorpe, England) Legend says that observing a falling apple from this tree inspired Newton's theory of universal gravitation.  The original tree fell in 1820, but it regrew from its base
+tile:0:5:141:141:280:290:ladder
+zone:0:5:141:141:280:290:4th story:trackme
+tile:0:5:142:150:290:290:bridge
+zone:0:5:142:150:290:290:The Charter Oak (Hartford, Connecticut)  This white oak tree famously concealed Connecticut's colonial charter from the British governor in 1687
+tile:0:5:151:151:290:300:ladder
+zone:0:5:151:151:290:300:fifth story:trackme
+tile:0:5:152:160:300:300:bridge
+zone:0:5:152:160:300:300:September 11 Survivor Tree (New York City) A callery pear tree miraculously survived the 9/11 attacks and was replanted at the memorial as a symbol of resilience
+tile:0:5:161:161:300:310:ladder
+zone:0:5:161:161:300:325:6th story:trackme
+tile:0:5:162:170:310:310:bridge
+zone:0:5:162:170:310:310:Major Oak (Edwinstowe, England) Located in Sherwood Forest, this ancient oak is believed to have been Robin Hood's hideout
+tile:0:5:171:171:310:320:ladder
+zone:0:5:171:171:310:320:7th story:trackme
+tile:0:5:172:180:320:320:bridge
+zone:0:5:172:180:320:320:Japanese Cherry Trees (Washington, D.C.) These trees, a gift from Japan, symbolize peace and are a celebrated annual spectacle in Washington D.C
+tile:0:5:181:181:320:330:ladder
+zone:0:5:181:181:320:330:8th story:trackme
+tile:0:5:182:190:330:330:bridge
+zone:0:5:182:190:330:330:Emancipation Oak (Hampton, Virginia)  This Southern live oak witnessed the first reading of the Emancipation Proclamation in the South
+tile:0:5:191:191:330:340:ladder
+zone:0:5:191:191:330:340:9th story:trackme
+tile:0:5:192:200:340:340:bridge
+zone:0:5:192:200:340:340:General Sherman Tree (Sequoia National Park, California) The world's largest tree by volume, this giant sequoia is estimated to be 2,300-2,700 years old
+tile:0:5:201:201:340:350:ladder
+zone:0:5:201:201:340:350:final story:trackme
+tile:0:5:202:210:350:350:bridge
+zone:0:5:202:210:350:350:Bodhi Tree (Bodh Gaya, India)  A descendant of the original fig tree under which Buddha attained enlightenment, this tree is a sacred site for Buddhists worldwide
+tile:0:10:221:300:350:350:leaves
+zone:0:10:221:300:350:350:3rd station:trackme
+tile:0:10:311:400:350:350:spring2
+src:0:10:311:400:350:350:-15:100:pond2.ogg
+fishingcoordinate:0:10:311:400:350:350
+night:none.ogg
+zone:0:10:311:400:350:350:fishing pond:trackme
+tile:0:10:401:401:350:360:wallwater
+itdoor:0:10:400:400:350:350:6:411:350:Thank you for donating 100 fish, I hope you had fun and good luck to your final destination!:fish:100:100:silence.ogg:silence.ogg:silence.ogg:getfish.ogg
+zone:0:10:400:400:350:350:fish donation:trackme
+tile:0:10:411:500:350:350:gravel
+zone:0:10:411:500:350:350:final destination:trackme
+tile:0:10:500:500:350:500:floor
+zone:0:10:500:500:350:500:stage:trackme
+zone:0:10:500:500:500:500:top of the stage:trackme
+travelpoint:0:10:500:500:500:500:main_map:5:1:0:chichie says well done! and she invite you to  return to do it again:silence.ogg:silence.ogg:aplause3.ogg
+zone:0:10:500:500:500:500:press shift enter to get your price and finnish the chalenge:trackme
+task_status:0:10:500:500:500:500:coins:500000
+zone:0:10:0:500:0:0:1st station
+sign:0:10:0:0:0:0:Welcome to Chichie's Tree Stories! Enjoy and have fun. XD:sign.ogg
+safezone:0:10:0:500:0:500
+zone:0:0:0:0:0:10:a sign.

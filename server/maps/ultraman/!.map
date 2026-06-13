@@ -1,0 +1,78 @@
+mapname:ultraman
+minx:0
+maxx:1000
+miny:0
+maxy:0
+minz:0
+maxz:200
+tile:0:1000:0:0:0:0:gravel
+owner:linklink
+litem:0
+starting_point:0:1000:0:0:0:0
+litem:0
+automover:198:198:0:0:0:0:200:0:0:as you slide down the flag pole you enter the outpost of the craytons:5:preview8.ogg:aplause2.ogg:entering_dungeon_door.ogg:aviaoloop.ogg
+owner:taha
+tile:199:199:0:0:0:200:wallrocks:trackme
+zone:0:0:0:0:0:0:secret sience and recerch facility devon 07
+src:36:36:0:0:0:0:0:100:alarm1.ogg
+fire:36:38:0:0:0:2:50:1
+dialog:0:0:0:0:0:0:wake up test subject 0.0=a robodic voice speaks=wakeing up test subject 0.0 alias ultraman=sounds of machines can be heard steam hissis then elipsis=you wake up=ultra man aliens have invaded a gruff voice speaks=we need you to infiltrate there bais find the mother ship and shut it down.=with a cracking of your knuckles, a nod and the sound of your weapon reloading you start the mission
+sign:1:1:0:0:0:0:at 0 0 0 is story info enjoy:sign3.ogg
+music:0:1000:0:0:0:100:0:100:musica113.ogg:1
+starting_point:0:0:0:0:0:0
+checkpoint:3:0:0
+checkpoint:201:0:0
+tile:40:45:0:0:7:7:bridge:trackme
+tile:50:55:0:0:4:4:bridge:trackme
+tile:30:35:0:0:10:10:bridge:trackme
+tile:40:70:0:0:13:13:bridge:trackme
+tile:75:80:0:0:0:13:beam:trackme
+fire:56:74:0:0:0:12:1000:200
+src:56:74:0:0:0:0:0:100:boiling.ogg
+sign:100:100:0:0:0:0:nice work ultra man. a tip for you there is a enemy transport. it is said to lead to the prison camp. it is a hidden rout used by the enemy, im not shure of the exact rout but it starts at 15, 0, 17:sign4.ogg
+fire:50:55:0:0:13:3:50:500
+src:50:55:0:0:13:13:0:100:alarm1.ogg
+tile:10:15:0:0:17:17:bridge2
+zone:10:15:0:0:17:17:hidden enemy convoy path
+tile:20:25:0:0:13:13:bridge
+zone:20:25:0:0:13:18:sleeping pod:trackme
+bed:20:25:0:0:13:13
+zone:0:198:0:0:20:200:hidden convoy trail
+zone:75:80:0:0:0:25:ladder
+zone:100:100:0:0:0:0:soldger
+zone:81:99:0:0:0:13:war torn battlefield
+zone:2:74:0:0:0:13:war torn battlefield
+zone:1:1:0:0:0:13:info
+tile:140:145:0:0:0:13:beam
+zone:101:139:0:0:0:13:war torn battlefield
+tile:150:160:0:0:13:13:bridge:trackme
+zone:140:145:0:0:0:13:ladder
+zone:146:197:0:0:0:15:war torn battle field near the outpost
+fire:146:197:0:0:0:8:800:300
+src:146:197:0:0:0:8:0:125:alarm1.ogg
+fire:154:156:0:0:13:13:200:450
+src:154:156:0:0:13:13:0:101:alarm1.ogg
+tile:165:170:0:0:9:9:catwalk:trackme
+tile:175:179:0:0:11:11:catwalk:trackme
+tile:185:188:0:0:13:13:catwalk:trackme
+sign:186:188:0:0:13:13:jump right ultra man ill hold them off:sign4.ogg
+tile:0:5:0:0:21:21:bridge2
+tile:0:2:0:0:21:50:beam
+tile:8:35:0:0:53:53:cavegrounds
+fire:11:15:0:0:53:55:500:400
+src:11:15:0:0:53:55:0:56:airport.ogg
+fire:24:29:0:0:53:56:755:300
+tile:41:47:0:0:56:56:bleacher
+tile:44:47:0:0:56:100:beam
+tile:52:99:0:0:104:104:glass
+music:52:198:0:0:104:200:0:56:game1.ogg:1
+automatic_dialog:58:58:0:0:104:104:wait=your not suppose to be here=and what are you going to do about it. you say cracking your knuckles, while checking the magazine=he fires his weapon, you dodge out of the way putting two rounds in his hard exoskeleten=more come at you= ducking behind one of there transport ships you return fire some fall some dont the few that ran try to collapse the space matter around you=there not too successful but still the space you walk on is starting to become unstable=you fire wounding one and killing the other=after beating him to near death you get a code out of him=v89=you finish him off= with a sigh noticing a few soldgers in the transport ships you free them=you now have a plan to get past the outpost=you must be fast due to the space being unstable=but=this should work
+vanishing_platform:105:110:0:0:105:105:5000:glass4:alarm10.ogg
+tile:115:120:0:0:107:107:glass
+tile:119:120:0:0:107:120:beam
+vanishing_platform:125:130:0:0:123:123:10000:glass4:alarm10.ogg
+tile:135:150:0:0:126:126:glass
+vanishing_platform:155:170:0:0:128:128:10000:glass4:alarm10.ogg
+tile:160:185:0:0:129:129:glass
+tile:190:198:0:0:131:131:glass
+sign:197:197:0:0:131:131:we made it ultraman. we should be able to break into the prison from here. to be continued. :sign4.ogg

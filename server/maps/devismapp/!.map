@@ -1,0 +1,37 @@
+		mapname:asmallvillage
+minx:0
+
+maxx:100
+miny:0
+maxy:50
+minz:0
+maxz:500
+tile:0:100:0:50:0:0:concrete46
+owner:devis
+litem:0
+starting_point:0:100:0:50:0:0
+deathpoint:0:100:0:50:0:0
+zone:0:50:0:50:0:100:Animals are grazing here :trackme
+tile:0:50:0:50:0:100:hay
+src:0:50:0:50:0:25:0:94:farm5.ogg
+src:0:50:0:50:0:20:-6:87:village_r13.ogg
+src:0:50:0:50:10:100:0:81:cliff2.ogg
+zone:55:70:15:35:0:0:a watersorce:trackme
+tile:55:70:15:35:-10:0:water4
+src:55:70:15:35:0:0:0:70:lake.ogg
+src:0:20:0:15:0:20:0:17:cicada.ogg
+tile:54:54:15:35:0:0:sand8
+src:0:100:0:50:0:100:-3:100:birds88.ogg:1
+src:0:100:0:50:0:100:0:100:southwest.ogg:1
+zone:60:70:10:0:0:5:a house near the watersorce:trackme
+tile:60:70:0:10:0:0:concrete5
+tile:60:60:0:10:0:5:wallglass
+tile:70:70:0:10:0:5:wallglass
+tile:61:69:0:0:0:5:wallglass
+tile:61:69:10:10:1:5:wallglass
+tile:60:70:0:10:5:5:roof2
+bed:61:61:1:2:0:0
+tile:61:61:1:2:0:0:carpet3:trackme
+oven:65:65:1:1:0:0
+toilet:71:71:0:0:0:0
+washbasin:72:72:0:0:0:0

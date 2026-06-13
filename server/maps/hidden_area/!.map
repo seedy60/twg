@@ -1,0 +1,27 @@
+mapname:hidden_area
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:100
+tile:0:100:0:100:0:0:cavegrounds3
+owner:kannadiga
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:100:0:100:0:0
+zone:0:100:0:100:0:100:a hidden area. "The silence is profound, absolute. Not the peaceful silence of nature, but a deadening hush that feels like it’s pressing on your eardrums. You can feel the vibrations of your own heartbeat, amplified by the oppressive quiet.
+wind:none
+night:none
+src:0:100:0:100:0:100:-10:90:haunted.ogg
+zone:0:0:25:25:0:10:to go back to the ghost city, press shift enter.:trackme
+zone:0:0:40:40:0:10:a grave yard. press shift enter to enter.:trackme
+travelpoint:0:0:25:25:0:10:ghost_continent:0:25:0:you arived in the ghost city.:silence.ogg:silence.ogg:silence.ogg
+travelpoint:0:0:40:40:0:10:grave_yard:1:5:0:entering the grave yard.:silence.ogg:door48open.ogg:silence.ogg
+zone:0:0:100:100:0:7:to enter the dinosaur cave, hit shift enter:trackme
+travelpoint:0:0:100:100:0:0:dinosaur_cave:1:1:0:you enter the cave, where dinosaurs are waiting to attack you!:silence.ogg:silence.ogg:silence.ogg
+reinforcement:0:100000000000
+zone:55:55:63:63:0:0:explosive_store
+
+level:0:100000000
+reverb:0:100:0:100:0:100:a1:1.0:1.0:0.4:0.5:1.0

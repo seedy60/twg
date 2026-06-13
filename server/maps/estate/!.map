@@ -1,0 +1,509 @@
+mapname:estate
+minx:-1
+maxx:61
+miny:-1
+maxy:201
+minz:-201
+maxz:201
+tile:-1:61:-1:201:-201:201:wall
+tile:0:60:0:200:-200:200:air
+tile:0:60:0:200:0:0:concrete10
+owner:powermon
+litem:0
+starting_point:55:55:0:0:0:0
+deathpoint:55:55:0:0:0:0
+night:none.ogg
+litem:0
+wind:none.ogg
+rain:none.ogg
+tile:0:60:0:4:0:0:concrete9
+tile:0:60:5:5:-20:50:wallwood10
+tile:0:60:0:200:-100:-100:stone4
+zone:0:60:0:200:-140:-80:bacement
+zone:0:60:0:4:-10:20:%n's estate driveway
+zone:54:56:0:1:-10:20:near the estate exit
+zone:55:55:0:0:-10:10:estate  glass exit gateway:trackme
+tile:54:56:0:1:0:0:marble3
+tile:55:55:0:0:0:0:marble6
+tile:54:56:-1:-1:0:10:wallglass6
+src:0:60:0:98:0:200:-15:100:birds13.ogg
+src:0:60:0:98:0:200:-15:100:birds15.ogg
+src:0:60:0:4:0:40:-15:100:birds16.ogg
+tile:0:5:4:4:0:0:marble6
+zone:0:5:4:4:-10:10:large glass gateway to %n's estate:trackme
+door:0:5:6:6:0:10:0:4:0:the guards steps aside, letting you pass:0:silence.ogg:silence.ogg:silence.ogg:close11.ogg
+door:0:5:4:4:0:10:0:6:0:you enter the estate:500:silence.ogg:silence.ogg:open11.ogg:silence.ogg
+tile:0:5:6:6:0:0:marble6
+zone:0:60:6:98:-10:30:estate garden
+zone:0:5:6:6:-10:10:large glass gateway to %n's estate driveway
+zone:0:5:7:90:-10:30:pathway to estate_villa
+tile:0:60:6:99:0:0:grass4
+tile:0:5:7:90:0:0:cement3
+zone:0:5:7:90:-10:20:pathway to estate villa
+zone:0:5:26:34:-10:10:east t shape
+tile:6:60:26:34:0:0:cement3
+tile:56:60:26:34:0:0:concrete9
+zone:6:60:26:34:-10:10:pathway to parking lot
+zone:56:60:26:34:-10:10:parking lot
+zone:8:22:8:22:-10:10:near the southern fountain
+zone:9:21:9:21:-10:10:edge of southern fountain
+zone:10:20:10:20:-10:10:southern fountain:trackme
+tile:9:21:9:21:0:3:wallbuilding5
+tile:9:21:9:21:4:4:concrete42
+tile:10:20:10:20:0:4:air
+tile:10:20:10:20:0:0:walldesk3
+tile:10:20:10:20:1:1:spring2
+src:10:20:10:20:0:10:-5:100:stream2.ogg
+washbasin:10:20:10:20:0:10
+zone:8:22:68:82:-10:10:near the northern fountain
+zone:9:21:69:81:-10:10:edge of northern fountain
+zone:10:20:70:80:-10:10:northern fountain:trackme
+tile:9:21:69:81:0:3:wallbuilding5
+tile:9:21:69:81:4:4:concrete42
+tile:10:20:70:80:0:4:air
+tile:10:20:70:80:0:0:walldesk3
+tile:10:20:70:80:1:1:spring2
+src:10:20:70:80:0:10:-5:100:stream2.ogg
+shower:10:20:70:80:0:10
+tile:30:50:40:60:0:2:wallbrick
+tile:30:50:40:60:2:2:smallwood
+zone:29:51:39:61:-10:10:near the swimmingboard
+zone:30:50:40:60:-10:10:on the swimmingboard
+zone:34:46:44:56:-10:10:swimmingpool
+zone:34:46:44:56:-5:-3:under the swimmingpool
+tile:33:47:43:57:-6:-1:wallunderwater2
+tile:33:47:43:57:-2:-0:wallwater
+tile:34:46:44:56:-5:2:air
+tile:34:46:44:56:-2:-2:swimming
+tile:34:46:44:56:-5:-3:underwater
+src:34:46:44:56:-4:10:-10:100:stream9.ogg
+tile:39:41:41:43:2:10:ladder2
+tile:39:41:41:45:10:10:wobbly_wood
+zone:39:41:41:45:10:15:low divingboard
+zone:39:41:41:43:2:10:ladder going up to the low divingboard
+tile:31:33:49:51:2:20:ladder2
+tile:31:35:49:51:20:20:wobbly_wood
+zone:31:35:49:51:20:25:meediam divingboard
+zone:31:33:49:51:2:20:ladder going up to the meediam divingboard
+tile:39:41:57:59:2:50:ladder2
+zone:39:41:55:59:50:55:epick divingboard
+zone:39:41:57:59:2:50:ladder going up to the epick divingboard
+tile:39:41:55:59:50:50:wobbly_wood
+tile:47:49:49:51:2:30:ladder2
+zone:45:49:49:51:30:35:high divingboard
+zone:47:49:49:51:2:30:ladder going up to the high divingboard
+tile:45:49:49:51:30:30:wobbly_wood
+tile:0:60:99:99:-200:200:wallglass8
+tile:0:60:90:98:0:0:concrete9
+zone:0:60:90:98:-10:20:a landskape concrete floor near to the estate villa building entrence
+tile:27:33:98:98:0:0:marble6
+zone:27:33:98:98:-10:10:large glass gates leading in the estate villa:trackme
+tile:0:60:100:200:0:0:marble3
+door:27:33:98:98:0:10:30:100:0:,:500:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+door:27:33:100:100:0:10:30:98:0:,:500:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+zone:27:33:100:100:0:10:large glass gates leading out of  the estate villa
+tile:27:33:100:200:0:0:marble2
+tile:28:32:102:184:0:0:carpet9
+tile:27:33:100:100:0:0:marble6
+zone:27:33:101:200:0:10:corridor
+zone:28:32:102:184:0:20:a soft, luxurious, wight carpet
+tile:26:26:100:200:0:20:wallwood10
+tile:34:34:100:200:0:20:wallwood10
+tile:28:32:100:184:100:100:carpet9
+zone:28:32:100:184:100:120:a soft, luxurious, wight carpet
+tile:0:25:141:141:0:20:wallwood10
+tile:35:60:141:141:0:20:wallwood10
+tile:0:25:100:140:0:0:carpet2
+tile:35:60:100:140:0:0:carpet2
+zone:0:25:100:140:-10:20:guestroom1
+zone:35:60:100:140:-10:20:guestroom2
+tile:0:4:100:110:0:2:wallsofa
+tile:0:4:100:110:3:3:cloth
+tile:56:60:100:110:0:2:wallsofa
+tile:56:60:100:110:3:3:cloth
+zone:0:4:100:110:-10:10:bed
+zone:56:60:100:110:-10:10:bed
+tile:0:10:140:140:0:2:wallclothing
+tile:50:60:140:140:0:2:wallclothing
+tile:0:10:140:140:2:2:chair
+tile:50:60:140:140:2:2:chair
+zone:0:10:140:140:-10:10:a ro of chairs
+zone:50:60:140:140:-10:10:a ro of chairs
+tile:25:25:120:120:0:0:marble6
+tile:35:35:120:120:0:0:marble6
+tile:27:27:120:120:0:0:marble6
+tile:33:33:120:120:0:0:marble6
+door:25:25:120:120:0:10:27:120:0:,:0:silence.ogg:silence.ogg:door14close.ogg:silence.ogg
+door:35:35:120:120:0:10:33:120:0:,:0:silence.ogg:silence.ogg:door14close.ogg:silence.ogg
+door:27:27:120:120:0:10:25:120:0:,:0:silence.ogg:silence.ogg:door14open.ogg:silence.ogg
+door:33:33:120:120:0:10:35:120:0:,:0:silence.ogg:silence.ogg:door14open.ogg:silence.ogg
+zone:25:25:120:120:0:10:door to corridor
+zone:35:35:120:120:-10:10:door to corridor
+zone:27:27:120:120:-10:10:door to guestroom1:trackme
+zone:33:33:120:120:-10:10:door to guestroom2:trackme
+bed:0:4:100:110:0:10
+bed:56:60:100:110:0:10
+tile:0:5:6:6:0:0:marble6
+tile:0:25:149:149:0:20:wallwood10
+tile:0:25:150:200:0:0:carpet8
+zone:0:25:150:200:-10:20:livving room
+tile:0:3:150:165:0:2:wallsofa
+tile:0:3:150:165:3:3:cloth
+zone:0:3:150:165:-10:10:a long bed
+bed:0:3:150:165:3:10
+tile:0:8:200:200:0:2:wallclothing
+tile:0:8:200:200:3:3:chair
+zone:0:8:200:200:-10:10:first ro of chairs
+tile:17:25:200:200:0:2:wallclothing
+tile:17:25:200:200:3:3:chair
+zone:17:25:200:200:-10:10:second ro of chairs
+tile:11:19:150:151:0:3:wallsofa
+tile:11:19:150:151:1:10:air
+tile:11:19:150:151:1:1:cloth
+zone:11:19:150:151:-10:10:a small sofa
+tile:11:19:150:150:1:2:wallbody
+tile:11:19:150:150:3:3:carpet9
+zone:11:19:150:150:1:10:back of the sofa
+tile:11:11:151:151:1:1:wallbody
+tile:11:11:151:151:2:2:marble4
+tile:19:19:151:151:1:1:wallbody
+tile:19:19:151:151:2:2:marble4
+zone:11:11:151:151:2:5:armrest of sofa
+zone:19:19:151:151:2:5:armrest of sofa
+tile:24:25:161:173:0:3:wallsofa
+tile:24:25:161:173:1:10:air
+tile:24:25:161:173:1:1:cloth
+zone:24:25:161:173:-10:10:a big sofa
+tile:25:25:161:173:1:2:wallbody
+tile:25:25:161:173:3:3:carpet9
+zone:25:25:161:173:3:10:back of the sofa
+tile:24:24:161:161:1:1:wallbody
+tile:24:24:161:161:2:2:marble4
+tile:24:24:173:173:1:1:wallbody
+tile:24:24:173:173:2:2:marble4
+zone:24:24:161:161:2:5:armrest of sofa
+zone:24:24:173:173:2:5:armrest of sofa
+tile:25:25:150:150:0:0:marble5
+door:25:25:150:150:0:10:27:150:0:,:200:silence.ogg:silence.ogg:silence.ogg:door24close.ogg
+zone:25:25:150:150:-10:10:door to corridor
+tile:27:27:150:150:0:0:marble5
+door:27:27:150:150:0:10:25:150:0:,:200:silence.ogg:silence.ogg:silence.ogg:door24open.ogg
+zone:27:27:150:150:-10:10:door to livving room:trackme
+tile:0:8:195:199:0:3:walltable
+tile:0:8:195:199:4:4:wood4
+zone:0:8:195:199:-10:10:coffee table
+tile:17:25:195:199:0:3:walltable
+tile:17:25:195:199:4:4:wood4
+zone:17:25:195:199:-10:10:coffee table
+tile:35:50:150:154:0:0:cement4
+zone:35:50:150:154:-10:10:bathroom
+tile:35:35:150:150:0:0:marble6
+tile:33:33:150:150:0:0:marble6
+door:33:33:150:150:0:10:35:150:0:,:200:silence.ogg:silence.ogg:silence.ogg:door38open.ogg
+door:35:35:150:150:0:10:33:150:0:,:200:silence.ogg:silence.ogg:silence.ogg:door38close.ogg
+zone:33:33:150:150:-10:10:door to bathroom:trackme
+zone:35:35:150:150:-10:10:door to corridor
+tile:35:35:154:154:0:0:walltile
+tile:35:35:154:154:1:1:concrete16
+toilet:35:35:154:154:1:10
+zone:35:35:154:154:1:10:toylet
+tile:44:44:150:154:0:20:wallstreet
+tile:43:43:154:154:0:0:wallstone2
+tile:43:43:154:154:1:1:water3
+washbasin:43:43:154:154:1:1
+zone:43:43:154:154:-10:10:washbasin
+tile:45:50:150:154:0:0:bathtub2
+zone:46:50:150:154:-10:10:shower
+shower:46:50:150:154:0:10
+door:43:43:150:153:0:10:45:150:0:,:200:silence.ogg:silence.ogg:silence.ogg:open_blind.ogg
+door:45:45:150:154:0:10:43:150:0:,:200:silence.ogg:silence.ogg:silence.ogg:close_blind.ogg
+zone:43:43:150:153:-10:10:door to the shower area
+zone:45:45:150:154:-10:10:door back to the bathroom
+tile:35:60:155:155:0:20:wallwood10
+zone:43:43:154:154:1:10:washbasin
+tile:35:60:149:149:0:20:wallwood10
+tile:28:32:190:200:-1:-1:wall
+tile:28:32:190:200:0:0:diamond
+tile:0:60:100:200:100:100:marble3
+tile:27:33:100:188:100:100:marble2
+tile:27:33:188:188:-200:200:wallbuilding4
+tile:26:26:100:200:100:150:wallwood10
+tile:34:34:100:200:100:150:wallwood10
+zone:27:33:100:186:100:150:corridor
+automover:28:32:187:187:0:10:30:190:0:,:0:silence.ogg:silence.ogg:elevadorabre.ogg:silence.ogg
+automover:28:32:189:189:0:10:30:186:0:,:0:silence.ogg:silence.ogg:silence.ogg:elevadorfecha.ogg
+tile:28:32:189:189:-200:200:air
+tile:28:32:187:187:-200:200:air
+zone:28:32:190:200:-200:200:expressway elevator
+zone:28:32:189:190:-200:200:auto sliding doors out of the elevator
+zone:28:32:186:187:-200:200:auto sliding doors to  the elevator
+zone:28:32:188:188:0:10:,
+zone:28:28:200:200:0:200:bacement, button
+zone:30:30:200:200:0:10:ground floor, button cannot be pressed
+zone:32:32:200:200:0:10:first floor, button
+src:28:32:190:200:-200:200:-10:100:escalator.ogg:1
+tile:27:27:186:200:-200:200:wallbuilding4
+tile:33:33:186:200:-200:200:wallbuilding4
+automover:28:32:187:187:100:110:30:190:100:,:0:silence.ogg:silence.ogg:elevadorabre.ogg:silence.ogg
+automover:28:32:189:189:100:110:30:186:100:,:0:silence.ogg:silence.ogg:silence.ogg:elevadorfecha.ogg
+door:32:32:200:200:0:10:30:199:100:you pressed the button of first floor:150:silence.ogg:Doormove20.ogg:elevator_start2.ogg:elevator_stop2.ogg
+tile:28:32:190:200:100:100:diamond
+tile:27:27:149:151:100:100:marble5
+tile:0:25:100:200:100:100:wood4
+tile:25:25:149:151:100:100:marble5
+zone:0:25:100:200:100:140:a large kitchen
+door:25:25:149:151:100:100:27:150:100:,:200:silence.ogg:silence.ogg:door30open.ogg:door30close.ogg
+door:27:27:149:151:100:100:25:150:100:,:200:silence.ogg:silence.ogg:door30open.ogg:door30open.ogg
+zone:25:25:149:151:100:110:door to corridor
+zone:27:27:149:151:100:110:door to the kitchen:trackme
+tile:0:11:194:194:100:110:walldiamond
+tile:11:11:194:200:100:110:walldiamond
+tile:0:10:195:200:100:100:diamond
+src:0:10:195:200:100:110:-10:100:freezer2.ogg:1
+tile:0:2:193:193:100:100:marble6
+zone:0:10:195:200:100:110:freezing area, you can see 3 different fridges here
+zone:0:2:193:195:100:110:doors to the fridge area
+door:0:2:193:193:100:110:0:195:100:,:0:silence.ogg:silence.ogg:silence.ogg:open_blind.ogg
+door:0:2:195:195:100:110:0:193:100:,:0:silence.ogg:silence.ogg:silence.ogg:close_blind.ogg
+zone:0:0:200:200:100:110:fridge1
+zone:5:5:200:200:100:110:fridge2
+zone:10:10:200:200:100:110:fridge3
+tile:0:0:200:200:100:100:concrete16
+tile:5:5:200:200:100:100:concrete16
+tile:10:10:200:200:100:100:concrete16
+tile:18:22:192:198:100:102:walltable
+tile:18:22:192:198:103:103:concrete39
+zone:17:23:191:199:100:110:near the coffee table
+zone:18:22:192:198:103:110:coffee table
+zone:9:21:109:121:100:110:chairs around the dining table1
+zone:10:20:110:120:100:110:dining table1
+tile:9:21:109:121:100:102:chair
+tile:9:21:109:121:103:103:carpet9
+tile:10:20:110:120:100:103:walltable
+tile:10:20:110:120:104:104:wood10
+tile:0:4:100:140:100:102:walltable
+tile:0:4:100:140:103:103:pavement
+zone:0:4:100:140:103:110:the kitchen counter
+tile:0:3:112:118:103:103:diamond
+zone:0:3:112:118:103:110:stove
+oven:0:3:112:118:103:110
+src:0:3:112:118:103:110:-10:100:Deep_Fryer.ogg
+tile:0:2:128:132:103:110:wallscreen
+tile:0:1:129:131:103:109:air
+tile:0:1:129:131:103:103:metal22
+zone:0:1:129:131:103:110:microwave cupboard
+zone:1:3:129:131:103:110:doors of microwave cupboard
+door:1:1:129:131:103:110:3:130:103:,:0:silence.ogg:silence.ogg:silence.ogg:close_microwave.ogg
+door:3:3:129:131:103:110:1:130:103:,:0:silence.ogg:silence.ogg:silence.ogg:open_microwave.ogg
+zone:0:0:129:129:103:110:microwave1
+zone:0:0:131:131:103:110:microwave2
+tile:-1:61:-1:201:-1:-1:wall
+tile:-1:61:100:201:99:99:wall
+tile:0:1:149:151:100:100:wallcardboardbox
+tile:0:1:149:151:101:101:hay
+zone:0:1:149:151:101:110:trashcan
+trashcan:0:1:149:151:101:110
+zone:9:21:129:141:100:110:chairs around the dining table2
+zone:10:20:130:140:100:110:dining table2
+tile:9:21:129:141:100:102:chair
+tile:9:21:129:141:103:103:carpet9
+tile:10:20:130:140:100:103:walltable
+tile:10:20:130:140:104:104:wood10
+tile:35:60:100:200:100:100:carpet11
+zone:35:60:100:200:100:140:master bedroom
+zone:33:33:149:151:100:110:door to the master bedroom
+zone:35:35:149:151:100:110:door out of the master bedroom
+door:33:33:149:151:100:110:35:150:100:,:0:silence.ogg:silence.ogg:door31open.ogg:silence.ogg
+tile:33:33:149:151:100:100:marble5
+door:35:35:149:151:100:110:33:150:100:,:0:silence.ogg:silence.ogg:door31close.ogg:silence.ogg
+tile:35:35:149:151:100:100:marble5
+tile:35:60:190:200:100:103:wallcloth
+tile:35:60:190:200:104:104:cloth
+zone:35:60:190:200:104:120:king sised bed
+bed:35:60:190:200:104:120
+tile:59:60:186:189:100:102:walltable
+tile:59:60:186:189:103:103:wood4
+zone:59:60:186:189:103:110:side table
+clock:60:60:188:188:103:103:its
+zone:60:60:188:188:103:110:clock
+tile:60:60:188:188:103:103:metal22
+tile:60:60:187:187:103:103:paper
+calendar:60:60:187:187:103:103:the day is
+zone:60:60:187:187:103:110:calendar
+tile:60:60:189:189:103:103:diamond
+zone:60:60:189:189:103:110:minifridge
+tile:49:51:100:100:100:100:marble6
+tile:39:61:89:98:100:104:wallmetalbox
+tile:40:60:90:98:100:110:air
+tile:40:60:90:98:100:100:cement3
+tile:49:51:98:98:100:100:marble6
+door:49:51:100:100:100:110:50:98:100:,:0:silence.ogg:silence.ogg:door13open.ogg:silence.ogg
+door:49:51:98:98:100:110:50:100:100:,:0:silence.ogg:silence.ogg:door13close.ogg:silence.ogg
+zone:40:60:90:98:100:110:balcony
+zone:49:51:98:100:100:110:glass doors between balcony and bedroom:trackme
+tile:39:39:89:98:104:104:glass3
+tile:39:60:89:89:104:104:glass3
+zone:39:60:89:89:104:110:balcony railing
+zone:39:39:89:98:104:110:balcony railing
+tile:-1:61:-1:201:-11:-9:wall
+tile:0:60:0:200:-10:-10:concrete50
+tile:39:39:89:89:105:105:linoleum
+zone:39:39:89:89:105:110:sound cctv camera. to look at the garden and estate driveway realtime image view, press enter. press the arrow keys to move the image view to up, down, left, and right. you can press enter at anytime to close the image view:trackme
+door:0:60:0:200:-10:-10:39:89:105:you close the camera image view:0:silence.ogg:silence.ogg:close_fridge.ogg:silence.ogg
+door:39:39:89:89:105:105:55:0:-10:you open the camera image view, and it shows you the view of the entrence gateway, press left, right, up, and down arrows to move the image view:0:silence.ogg:silence.ogg:silence.ogg:open_fridge.ogg
+tile:54:60:100:121:100:110:wallgeneric2
+tile:55:60:100:120:100:109:air
+tile:55:60:100:120:100:100:concrete39
+door:60:60:122:122:100:110:60:120:100:,:200:silence.ogg:silence.ogg:silence.ogg:door38open.ogg
+door:60:60:120:120:100:110:60:122:100:,:200:silence.ogg:silence.ogg:silence.ogg:door38close.ogg
+zone:55:60:100:120:100:110:bathroom
+zone:60:60:120:122:100:110:bathroom doors
+tile:55:55:115:115:100:100:wallstone2
+tile:55:55:115:115:101:101:water3
+washbasin:55:55:115:115:101:101
+tile:55:55:120:120:100:100:walltile
+tile:55:55:120:120:101:101:concrete16
+toilet:55:55:120:120:101:110
+zone:55:55:120:120:100:110:toylet
+zone:55:55:115:115:101:110:washbasin
+tile:55:60:114:114:100:110:wallscreen
+tile:55:60:100:113:100:100:bathtub
+door:56:60:115:115:100:110:60:113:100:,:200:silence.ogg:silence.ogg:silence.ogg:open_blind.ogg
+door:55:60:113:113:100:110:60:115:100:,:200:silence.ogg:silence.ogg:silence.ogg:close_blind.ogg
+zone:56:60:115:115:100:110:door to the shower area
+zone:55:60:113:113:100:110:door back to the bathroom
+tile:55:60:110:110:100:102:wallcardboard
+tile:55:60:110:110:103:103:bathtub3
+zone:55:60:100:112:100:110:shower area
+zone:55:60:100:109:100:110:in the bathtub
+tile:55:60:100:109:100:100:bathtub2
+shower:55:60:100:109:100:105
+src:55:60:100:109:100:110:-8:100:sink2.ogg
+zone:30:30:200:200:100:110:ground floor, button
+zone:32:32:200:200:100:110:first floor, button  cannot be pressed
+door:30:30:200:200:100:110:30:199:0:you pressed the button of ground floor:150:silence.ogg:Doormove20.ogg:elevator_start2.ogg:elevator_stop2.ogg
+music:0:60:0:4:-5:20:0:100:musica86.ogg:1
+music:0:60:6:98:-5:89:0:100:musica74.ogg:1
+music:0:25:100:140:0:20:0:100:musica30.ogg:1
+music:35:60:100:140:0:20:0:100:musica30.ogg:1
+music:0:25:150:200:0:20:0:100:musica34.ogg:1
+music:35:60:150:154:0:20:-8:100:musica88.ogg:1
+music:28:32:190:200:-200:200:0:100:musica25.ogg:1
+music:0:25:100:200:100:120:0:100:musiccalm8.ogg:1
+music:35:60:100:200:100:120:0:100:musicmisc1.ogg:1
+music:30:60:80:98:90:120:-5:100:musica10.ogg:1
+tile:34:46:44:56:-1:-1:air
+door:28:28:200:200:0:10:30:199:-100:you pressed the button of bacement:150:silence.ogg:Doormove20.ogg:elevator_start2.ogg:elevator_stop2.ogg
+automover:28:32:187:187:-100:-90:30:190:-100:,:0:silence.ogg:silence.ogg:elevadorabre.ogg:silence.ogg
+automover:28:32:189:189:-100:-90:30:186:-100:,:0:silence.ogg:silence.ogg:silence.ogg:elevadorfecha.ogg
+tile:0:60:0:200:-101:-101:wall
+tile:28:32:190:200:-100:-100:diamond
+tile:0:26:186:200:-100:-80:wall
+tile:34:60:186:200:-100:-80:wall
+music:0:60:100:185:-100:-90:0:100:updating1.ogg:1
+music:0:60:0:98:-100:-50:0:100:music_bonus.ogg:1
+safezone:0:60:0:200:-50:200
+safezone:0:60:99:200:-200:-50
+music:0:60:0:200:-11:-9:0:100:updating6.ogg:1
+fishingcoordinate:10:20:70:80:0:10
+fishingcoordinate:10:20:10:20:0:10
+tile:0:3:100:101:103:105:wallmetal19
+tile:0:3:100:101:106:106:diamond
+tile:0:2:100:100:103:110:air
+tile:0:2:100:100:103:103:puddle
+zone:0:3:100:101:103:110:on the sink
+zone:0:2:100:100:103:110:in the sink
+washbasin:0:2:100:100:103:110
+tile:41:41:89:89:106:106:paper
+zone:41:41:89:89:106:110:parachute. press enter to fly down and land in the swimming pool
+door:41:41:89:89:106:110:41:50:2:you open the parachute and start flying downwards:150:silence.ogg:vine_climb.ogg:slidestart.ogg:slidestop.ogg
+tile:0:60:90:98:-100:-100:sand
+tile:0:60:0:98:-100:-100:deepsand
+zone:0:60:0:98:-100:-80:an arena for people to test their combat skills, and fight as well
+tile:0:60:99:99:-100:-50:wallwood10
+tile:0:60:100:140:-100:-100:marble2
+zone:0:60:100:140:-100:-50:office
+tile:0:60:141:141:-100:-50:wallwood10
+door:29:31:142:142:-100:-90:30:140:-100:you enter the office:1000:silence.ogg:silence.ogg:door17open.ogg:silence.ogg
+door:29:31:140:140:-100:-90:30:142:-100:you exit the office:1000:silence.ogg:silence.ogg:door17close.ogg:silence.ogg
+zone:29:31:140:142:-100:-90:doors between the office and bacement:trackme
+tile:29:31:140:140:-100:-100:marble5
+tile:29:31:142:142:-100:-100:marble5
+zone:0:16:100:110:-100:-80:chairs around the office table
+tile:0:16:100:110:-100:-98:chair
+tile:0:16:100:110:-97:-97:carpet9
+zone:1:15:101:109:-100:-80:office_table
+tile:1:15:101:109:-100:-97:walltable
+tile:1:15:101:109:-96:-96:wood10
+tile:49:60:100:106:-100:-80:wallmetal20
+tile:50:60:100:105:-100:-81:air
+tile:50:60:100:105:-100:-100:mat
+zone:50:60:100:105:-100:-80:safe_area
+zone:48:50:100:103:-100:-80:doors between the safe area and the office:trackme
+door:48:48:100:103:-100:-80:50:100:-100:you open the safe area and walk in:1000:silence.ogg:silence.ogg:open_blind.ogg:silence.ogg
+door:50:50:100:103:-100:-80:48:100:-100:you close the safe area and walk out:1000:silence.ogg:silence.ogg:close_blind.ogg:silence.ogg
+zone:50:50:105:105:-100:-90:locker1
+zone:55:55:100:100:-100:-90:locker2
+zone:60:60:100:100:-100:-90:locker4
+zone:55:55:105:105:-100:-90:locker3
+zone:60:60:105:105:-100:-90:locker5
+tile:27:33:100:100:-100:-100:marble5
+tile:27:33:98:98:-100:-100:marble5
+zone:27:33:98:100:-100:-80:arena doors:trackme
+tile:19:41:39:71:-100:-97:wallstone2
+tile:19:41:39:71:-96:-96:pavement
+tile:20:40:40:70:-99:-50:air
+tile:20:40:40:70:-99:-99:packed_leaves
+zone:18:42:38:72:-100:-80:near the fighting ring
+zone:20:40:40:70:-99:-80:fighting_ring:trackme
+door:27:33:100:100:-100:-90:30:98:-100:you enter the arena:1000:silence.ogg:silence.ogg:door9open.ogg:silence.ogg
+door:27:33:98:98:-100:-90:30:100:-100:you exit the arena:1000:silence.ogg:silence.ogg:door9close.ogg:silence.ogg
+tile:0:4:100:100:6:6:pavement
+zone:0:4:100:100:6:15:guestroom1_swichboard
+zone:0:0:100:100:6:6:fan
+zone:2:2:100:100:6:6:air_conditioner
+zone:4:4:100:100:6:6:steam
+tile:56:60:100:100:6:6:pavement
+zone:56:60:100:100:6:15:guestroom2_swichboard
+zone:60:60:100:100:6:6:fan
+zone:58:58:100:100:6:6:air_conditioner
+zone:56:56:100:100:6:6:steam
+tile:0:0:150:154:6:6:pavement
+zone:0:0:150:154:6:15:livving_room_swichboard
+zone:0:0:150:150:6:6:fan
+zone:0:0:152:152:6:6:air_conditioner
+zone:0:0:154:154:6:6:steam
+tile:56:60:200:200:107:107:pavement
+zone:56:60:200:200:107:115:master_bedroom_swichboard
+zone:60:60:200:200:107:107:fan
+zone:58:58:200:200:107:107:air_conditioner
+zone:56:56:200:200:107:107:steam
+music:27:33:100:186:0:150:-1:100:menumus37.ogg:1
+tile:0:60:0:200:200:200:areia
+zone:0:60:0:200:200:200:AFK zone
+zone:32:32:200:200:-100:-100:first floor, button
+zone:30:30:200:200:-100:-100:ground floor, button
+door:32:32:200:200:-100:-100:30:199:100:you pressed the button of first floor:75:silence.ogg:Doormove20.ogg:elevator_start2.ogg:elevator_stop2.ogg
+door:30:30:200:200:-100:-100:30:199:0:you pressed the button of ground floor:150:silence.ogg:Doormove20.ogg:elevator_start2.ogg:elevator_stop2.ogg
+zone:28:28:200:200:-100:-100:bacement, button, cannot be pressed
+door:28:28:200:200:100:100:30:199:-100:you pressed the button to the bacement floor:75:silence.ogg:elevator_running.ogg:elevator_start2.ogg:elevator_stop2.ogg
+tile:0:20:142:185:-100:-98:wallcloth
+tile:0:20:142:185:-97:-97:cloth
+zone:0:20:142:185:-97:-90:a big and long bed kind of place with a lot of fluffy  pillows and blanket, making a cute place to play around with:trackme
+tile:40:60:142:185:-100:-98:wallcloth
+tile:40:60:142:185:-97:-97:cloth
+zone:40:60:142:185:-97:-90:another big and long bed kind of place with a lot of fluffy  pillows and blanket, making another cute place to play around with:trackme
+bed:0:20:142:185:-97:-90
+bed:40:60:142:185:-97:-90
+tile:50:50:105:105:-100:-100:marble6
+tile:55:55:105:105:-100:-100:marble6
+tile:60:60:105:105:-100:-100:marble6
+tile:55:55:100:100:-100:-100:marble6
+tile:60:60:100:100:-100:-100:marble6
+tile:51:60:150:154:0:2:wallmetal19
+tile:51:60:150:154:3:3:metal6
+zone:51:60:150:154:3:10:dryer
+src:51:60:150:154:3:10:0:100:dishwasher.ogg
+
+owner:Harbinger
+owner:chichie

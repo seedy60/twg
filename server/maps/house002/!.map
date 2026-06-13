@@ -1,0 +1,38 @@
+mapname:house002
+minx:0
+maxx:3000
+miny:0
+maxy:3000
+minz:0
+maxz:80
+
+# --- Terrain and Layout ---
+tile:0:3000:0:3000:0:0:cobblestone
+tile:400:2600:400:2600:0:0:marble_floor
+tile:1200:1800:2000:2600:0:0:market_square
+tile:600:2400:600:1000:0:0:roman_road
+tile:800:1000:1000:2000:0:0:temple_floor
+tile:100:400:100:400:0:0:villa_mosaic
+
+# --- Map Info ---
+owner:ss
+litem:12
+lighting:soft_sunset
+weather:clear
+
+# --- Player Positions ---
+starting_point:1500:1600:0:0:0:0
+deathpoint:1200:1250:0:0:0:0
+safezone:1400:1600:1300:1500:0:0
+
+# --- Sound & Ambience ---
+ambience:market_square:daytime:market_chatter.ogg
+ambience:temple_floor:wind:soft_chant.ogg
+ambience:villa_mosaic:indoor:fireplace.ogg
+ambience:roman_road:outdoor:hoofsteps.ogg
+
+# --- Decorative & Interactive Objects ---
+object:temple_statue:950:1100:0:0:marble
+object:market_fountain:1600:2000:0:0:granite
+object:villa_table:300:350:0:0:wood
+object:amphitheatre_gate:2500:2700:0:0:iron

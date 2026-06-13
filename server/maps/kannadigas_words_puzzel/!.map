@@ -1,0 +1,42 @@
+mapname:kannadigas_words_puzzel
+minx:0
+maxx:51
+miny:0
+maxy:0
+minz:0
+maxz:0
+tile:0:51:0:0:0:0:carpet2
+owner:kannadiga
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:50:50:0:0:0:0
+enable:2dsupport
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+litem:0
+zone:0:51:0:0:0:0:kannadigas world puzzel.
+zone:0:0:0:0:0:0:welcome sighn.
+sign:0:0:0:0:0:0:hi dear %n! just type these disordered words and get your reward. thank you.:sign.ogg
+tile:10:10:0:0:0:0:wallwood19
+zone:9:9:0:0:0:0:first word.
+pdoor:9:9:0:0:0:0:11:0:0:H A I R C:chair:10:silence.ogg:silence.ogg:door1open.ogg:door2close.ogg
+tile:20:20:0:0:0:0:wallbuilding3
+zone:19:19:0:0:0:0:2nd word.
+pdoor:19:19:0:0:0:0:21:0:0:K E T C I R C:cricket:10:silence.ogg:silence.ogg:door1open.ogg:door2close.ogg
+tile:30:30:0:0:0:0:wallmedal4
+zone:29:29:0:0:0:0:3rd word.
+pdoor:29:29:0:0:0:0:31:0:0:U I T Q:quit:10:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+tile:40:40:0:0:0:0:wallbuilding6
+zone:39:39:0:0:0:0:4th word.
+pdoor:39:39:0:0:0:0:41:0:0:N N A I DA G A K:kannadiga:10:silence.ogg:silence.ogg:door4open.ogg:door4close.oggkannidiga
+tile:46:46:0:0:0:0:wallwood17
+zone:45:45:0:0:0:0:last word.
+pdoor:45:45:0:0:0:0:47:0:0:R A O R A C T T:tractor:10:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+tile:51:51:0:0:0:0:wallwooddoor
+zone:50:50:0:0:0:0:press shift enter to get your reward.
+zone:47:47:0:0:0:0:congratulations.
+sign:47:47:0:0:0:0:congratulations! you have successfully crossed all the ways. now go last and collect your reward.:sign3.ogg
+travelpoint:50:50:0:0:0:0:main_map:5:1:0:kannadiga welcomes you to try again.:silence.ogg:silence.ogg:aplause3.ogg
+task_status:50:50:0:0:0:0:coins:6000
+reinforcement:0:10000000

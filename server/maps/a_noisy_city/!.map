@@ -1,0 +1,48 @@
+mapname:a_noisy_city
+minx:-1
+maxx:501
+miny:-1
+maxy:501
+minz:0
+maxz:1000
+tile:-1:501:-1:501:0:0:lawn
+owner:kannadiga
+litem:1
+starting_point:0:500:0:500:0:0
+deathpoint:0:500:0:500:0:0
+zone:0:500:0:500:0:1000:a noisy city
+src:0:500:0:500:0:1000:0:100:birds10.ogg
+tile:0:500:136:140:0:0:concrete7
+zone:0:500:136:140:0:20:main street of noisy city:trackme
+src:0:500:136:140:0:0:0:100:street3.ogg
+tile:36:40:141:145:0:0:concrete9
+zone:36:40:141:145:0:20:night club car parking area:trackme
+tile:36:40:145:145:0:20:wallwood19
+travelpoint:38:38:144:144:0:0:Night-club:1:1:0:You entered a night club. Apparently the people here are very respectful.:silence.ogg:silence.ogg:silence.ogg
+zone:38:38:144:144:0:0:night club door, press shift enter to go:trackme
+music:0:500:0:500:0:1000:-10:100:musichappy3.ogg
+tile:100:105:141:145:0:0:concrete4
+tile:100:105:145:145:0:20:wallwood19
+travelpoint:0:0:0:0:0:0:ocean:1:155:0:you're back at the ocean:silence.ogg:silence.ogg:silence.ogg
+zone:0:0:0:0:0:0:press shift enter to go back to the ocean:trackme
+tile:160:170:141:160:0:0:concrete9
+zone:160:170:141:160:0:10:parking lot of sneha and kannadigas restorent.:trackme
+tile:160:170:161:161:0:10:wallwood19
+zone:165:165:160:160:0:0:press shift enter to go to sneha and kannadigas restorent.:trackme
+tile:160:165:130:135:0:0:concrete9
+tile:160:165:130:130:0:10:wallwood19
+zone:160:165:130:135:0:20:gift shop parking area:trackme
+travelpoint:163:163:131:131:0:0:gift_shop:10:2:0:You enter the gift shop.:silence.ogg:door_passage.ogg:silence.ogg
+zone:163:163:129:129:0:0:gift shop door, press shift enter to go:trackme
+travelpoint:165:265:160:160:0:50:sneha&kannadigas_restorent:0:0:0:you entered into a grand restorent of sneha and kannadiga.:silence.ogg:silence.ogg:silence.ogg
+night:none
+travelpoint:0:0:20:20:0:0:patricus_restaurant:0:0:0:you enter the restaurant and smell of food hits your nostrils:silence.ogg:door12open.ogg:door12close.ogg
+zone:0:0:20:20:0:0:Patricus's restaurant, press shift enter to enter:trackme
+reinforcement:0:10000000
+tile:163:163:130:130:0:6:wallwooddoor
+travelpoint:163:163:129:129:0:0:gift_shop:10:2:0:You enter the gift shop.:silence.ogg:door_passage.ogg:silence.ogg
+tile:-1:501:-1:-1:0:100:wall
+tile:-1:-1:-1:501:0:100:wall
+tile:-1:501:501:501:0:100:wall
+tile:501:501:-1:501:0:100:wall
+item_usage_restriction:0:500:0:500:0:1000:conex:small_conex:partner_house:locker:fridge:microwave:air_conditioner:fan:beehive

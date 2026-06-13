@@ -1,0 +1,21 @@
+mapname:firepitArena
+minx:0
+maxx:31
+miny:0
+maxy:31
+minz:0
+maxz:50
+tile:0:31:0:31:0:0:stone2
+owner:shon
+litem:0
+starting_point:0:31:0:31:0:0
+deathpoint:0:31:0:31:0:0
+
+reverb:0:31:0:31:0:50:arena:1.0:1.0:0.9:0.5:1.0
+zone:0:31:0:31:0:50:firepit arena, be careful!
+tile:0:31:31:31:0:50:wallstone
+tile:0:0:0:31:0:50:wallstone
+tile:0:31:0:0:0:50:wallstone
+tile:31:31:0:31:0:50:wallstone
+tile:15:20:15:20:0:0:air
+owner:rizky

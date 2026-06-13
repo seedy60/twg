@@ -1,0 +1,105 @@
+mapname:the_ice_mountain_and_the_yeti_flower
+minx:-1
+maxx:51
+miny:-1
+maxy:201
+minz:0
+maxz:200
+tile:0:50:0:200:0:0:soil
+owner:sneha
+litem:1
+night:none.ogg
+owner:kannadiga
+tile:-1:51:-1:-1:0:200:walldirt
+tile:-1:-1:-1:201:0:200:walldirt
+tile:-1:51:201:201:0:200:walldirt
+tile:51:51:-1:201:0:200:walldirt
+starting_point:0:0:0:0:0:0
+sign:0:0:0:0:0:0:Mount Frigid is a giant ice mountain. It's slippery and scary, with big jumps and grumpy polar bears guarding the top.  Can you climb it all the way up?  At the very peak, there's a special flower called the Yeti Flower.  It's said to be super warm!  The Yeti people who live inside the mountain really need it.  If you can bring them the Yeti Flower, they'll give you a special reward. go ahead to read the story of Yeti peoples!:sign2.ogg
+zone:0:50:0:200:0:200:Mount Frigid.
+tile:0:50:11:11:1:20:soil
+tile:0:50:12:12:0:19:walldirt
+tile:0:50:12:20:20:20:gravel8
+dialog:0:0:5:5:0:0:Up in the snowy mountains live friendly Yeti people.  Their homes are made of ice and snow,=but lately they haven't been feeling very good.=They're cold all the time, even inside their houses!=Their wise leader, Big Beard, looked in old books and found a story about a magic flower.=This flower, called the Yeti Flower, grows on the very top of Mount Frigid, the scary mountain with grumpy polar bears.=The Yetis are too big and gentle to climb the mountain and fight the bears.=So, they need a brave adventurer like YOU to help them!=Why the Yetis Can't Get the Flower, Yetis are strong, but they're used to the cold.  Climbing the slippery mountain and fighting the bears would be too hard for them.  They're also big and white, so the bears would see them easily!=Giving the Flower, If you can climb the mountain and bring back the Yeti Flower, Big Beard will use it to make a special warm drink for all the Yetis!=This drink will make them feel better again, so they can be warm and happy in their snowy homes.
+zone:0:0:5:5:0:0:story of Yeti peoples
+tile:0:50:20:20:20:40:gravel8
+tile:0:50:21:21:20:39:walldirt
+tile:0:50:20:30:40:40:gravel7
+tile:0:50:31:31:40:59:walldirt
+tile:0:50:30:30:40:60:gravel7
+tile:0:50:31:40:60:60:sand
+tile:0:50:35:37:60:60:air
+automover:0:50:35:151:5:0:0:0:0:o know! you fell down.:5:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:50:41:41:60:79:walldirt
+tile:0:50:40:40:60:80:sand
+tile:0:50:41:50:80:80:stone2
+tile:0:50:51:51:80:99:walldirt
+tile:0:50:50:50:80:100:stone2
+src:0:50:50:80:95:140:0:100:cave.ogg
+tile:0:50:50:60:100:100:stone4
+tile:0:50:55:59:100:100:air
+tile:0:50:61:61:100:119:wallstone
+automover:0:50:55:59:5:5:0:0:0:o no! you felt down:5:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:50:60:60:100:120:stone4
+tile:0:50:61:70:120:120:wetconcrete
+tile:0:50:71:71:120:139:wallstone
+tile:0:50:70:70:120:140:wetconcrete
+zone:0:50:61:69:120:120:a slippery area of the mountain. be careful hear, you can slip at any time
+zone:0:50:70:70:120:140:a slippery steps
+tile:0:50:71:80:140:140:cave
+tile:0:50:74:79:140:140:air
+automover:0:50:74:79:5:5:0:0:0:o no! you felt down:5:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:50:81:81:140:159:wallstone
+tile:0:50:80:80:140:160:cave
+tile:0:50:81:90:160:160:stone4
+tile:0:50:91:91:160:179:wallstone
+tile:0:50:90:90:161:180:stone4
+tile:0:50:90:90:180:190:snow5
+tile:0:50:90:120:190:190:snow5
+zone:0:50:90:150:190:200:top of Mount Frigid. hear you will get the Yeti Flower. but be careful of polar bears
+tile:0:50:120:150:190:190:ice
+zone:0:50:150:150:190:195:steps leeding to words  Yeti home:trackme
+tile:0:50:150:150:190:195:ice
+zone:0:50:151:160:195:195:snow platform in front of the home
+tile:0:50:151:160:195:195:snow4
+item_usage_restriction:0:50:0:200:0:200:conex:unique_villa:small_conex:locker:microwave:fridge:beehive:partner_house:elegant_house:large_nuclear_bomb:small_nuclear_bomb:nuclear_bomb:fan:air_conditioner
+tile:0:50:161:161:0:200:wallcouch
+wind:none.ogg
+zone:0:50:160:160:195:195:wall of snow
+zone:25:30:160:160:195:200:snow door of a home:trackme
+door:25:30:160:160:195:200:25:162:195:you entered Yeti home made by ice and snow:5:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:50:162:200:195:195:snow4
+src:0:50:90:160:180:195:-5:100:highmountain.ogg:1
+src:0:50:162:200:195:200:-10:100:windchimes2.ogg:1
+zone:0:50:161:200:195:200:Yeti peoples home build with ice and snow. people are shivering here because of cold
+tile:0:50:170:175:195:195:ice
+tile:0:50:186:190:195:195:ice
+tile:20:25:200:200:195:195:ice
+tile:20:25:200:200:195:200:ice
+zone:20:25:200:200:195:200:steps leeding to words fire place
+zone:20:25:200:200:200:200:fire place to make home warm, but still the people are shivering, leader Big Beard is waighting for the magic Yeti Flower. move right and press enter to give him a flower
+src:20:25:200:200:200:200:0:100:fire3.ogg:1
+zone:25:25:200:200:200:200:presss enter to hand over the Yeti Flower
+zone:50:50:200:200:200:200:press shift enter to take your prize
+tile:26:49:200:200:195:200:wallboat
+tile:50:50:200:200:195:199:wallboat
+tile:50:50:200:200:200:200:ice
+itdoor:25:25:200:200:200:200:50:200:200:thank you for giving the yeti_flower. we can now leve comfortably and, peasefully.:yeti_flower:1:20:silence.ogg:silence.ogg:getgrass.ogg:silence.ogg
+zone:0:0:0:0:0:10:welcome sighn.
+tile:0:50:35:37:0:5:hazard
+tile:0:50:55:59:0:5:hazard
+tile:0:50:74:79:0:5:hazard
+tile:0:50:151:151:190:194:wallboat
+tile:-1:-1:162:200:195:200:wallcouch
+tile:0:25:201:201:195:200:wallcouch
+tile:51:51:162:199:95:200:wallcouch
+item:0:50:0:150:190:190:10000:1:yeti_flower
+tile:0:50:152:200:0:194:wallboat
+travelpoint:50:50:200:200:200:200:main_map:5:1:0:congratulations! you finished the challenge. yeti people will be thankfull for you.:silence.ogg:silence.ogg:aplause3.ogg
+ai:0:50:0:150:190:190:60000:1:polar_bear
+safezone:0:50:162:200:195:200
+tile:50:50:199:199:195:200:wallboat
+task_status:50:50:200:200:200:200:coins:1000000
+safezone:0:50:150:195:195:195
+reinforcement:0:10000000
+door:25:25:162:162:195:195:25:161:195:find the flower:1:silence.ogg:silence.ogg:door_passage.ogg:silence.ogg

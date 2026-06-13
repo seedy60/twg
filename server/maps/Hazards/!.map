@@ -1,0 +1,39 @@
+mapname:Hazards
+minx:0
+Maxx:2000
+miny:0
+maxy:2000
+minz:0
+maxz:110
+owner:Sango
+litem:1
+deathpoint:0:0:0:0:0:0
+owner:deathdogg
+starting_point:0:0:0:0:110:110
+tile:0:10:0:10:0:0:dirt6
+src:0:10:0:10:0:0:-6:100:birds7.ogg:1
+litem:0
+tile:0:10:0:10:110:110:bridge3
+starting_point:0:0:0:0:110:110
+tile:11:11:0:11:110:110:wallbuilding3
+sign:0:0:0:0:110:110:Welcome. You've paid good money to get here, but are you ready for this challenge? You're in for a treat! Face North and head over to that elevator. The fun begins way down below!:sign3.ogg
+src:0:10:0:10:110:110:-18:100:battle_2_loop.ogg:1
+tile:1:11:11:11:110:110:wallbuilding3
+door:0:0:10:10:110:110:0:0:0:Here we go! Hold on tight!:10:doorloop9.ogg:elev2.ogg:elevator_start.ogg:elevadorfecha.ogg
+tile:0:11:11:11:110:110:wallbuilding3
+checkpoint:0:0:0
+zone:0:0:0:0:110:110:A sign. Read it before proceeding.:trackme
+owner:aiden
+zone:1:10:0:10:110:110:Just part of your little box! I mean, the main area!
+zone:0:0:1:9:110:110:Path to the elevator to um... the lake. Yeah.
+zone:0:0:10:10:110:110:Elevator down to the supposed lake
+night:none.ogg
+tile:11:16:0:20:0:10:hazard
+src:11:16:0:20:0:10:-5:100:lava.ogg
+litem:0
+litem:1
+litem:0
+tile:10:10:0:20:0:20:ladder:trackme
+tile:10:20:0:20:20:20:bridge3
+
+vanishing_platform:21:25:0:20:20:20:1000:cavegrounds3:alarm3.ogg

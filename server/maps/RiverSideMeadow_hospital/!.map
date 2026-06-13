@@ -1,0 +1,102 @@
+mapname:RiverSideMeadow_hospital
+minx:-1
+maxx:51
+miny:-1
+maxy:81
+minz:-1
+maxz:101
+tile:-1:51:-1:81:-1:101:wall
+tile:0:50:0:80:0:100:air
+tile:0:50:0:80:0:0:marble2
+owner:NicoDiAngelo
+litem:0
+starting_point:5:5:0:0:0:0
+deathpoint:5:5:0:0:0:0
+night:none.ogg
+wind:none.ogg
+zone:0:50:0:80:0:100:RiverSideMeadow_hospital
+tile:5:5:0:0:0:0:marble4
+zone:5:5:0:0:0:20:the bluish wight hospital doors, press shift enter to exit:trackme
+tile:2:48:2:78:0:0:carpet9
+zone:2:48:2:78:0:20:light green luxurious carpets, adding a touch of elliganse
+tile:0:3:8:16:0:2:walltable
+tile:0:3:8:16:3:3:wood4
+zone:0:3:8:16:3:10:a resseption desk
+tile:-1:-1:12:12:3:3:chair
+tile:-1:-1:12:12:4:10:air
+zone:-1:-1:12:12:3:10:the ressepshenist sitting on her chair, working at the computer in front of her  meenwhile providing the newcomers with the information they will need for the hospitel
+sign:-1:-1:12:12:3:10:welcome everyone. I am clera, the RiverSideMeadow_hospital ressepshenist, on the north west corner of the hospitel is the medics shopp. on the north east corner are the stairs to the second floor. the first floor is normaly filled with cafetarea, medicle shopp, and other random things. the second floor contains the patients rooms. have a nice day, and once again, welcome to RiverSideMeadow_hospital!:sign4.ogg
+tile:-1:11:64:81:-1:21:wallfurniture
+tile:0:10:65:80:0:20:air
+tile:0:10:65:80:0:0:marble6
+zone:0:10:65:80:0:20:the medics shopp
+zone:0:1:63:65:0:10:medics shopp doors
+door:0:1:63:63:0:10:0:65:0:you enter the medics shopp:1000:silence.ogg:silence.ogg:tp4.ogg:silence.ogg
+door:0:1:65:65:0:10:0:63:0:you leave the medics shopp:1000:silence.ogg:silence.ogg:tp5.ogg:silence.ogg
+tile:2:8:72:78:0:5:wallglass2
+tile:2:8:72:78:6:6:glass5
+zone:1:9:71:79:0:15:the glass shelvs with medicle items like injections, sirup bottles, and other items neetly placed 
+zone:2:8:72:78:6:20:the top of the glass shelvs
+zone:2:8:72:78:0:5:inside the glass shelvs
+zone:4:4:71:71:0:0:Health Injection. costs 4899 coins:trackme
+zone:6:6:71:71:0:0:Energy Injection. costs 5699 coins:trackme
+tile:4:4:73:73:4:4:air
+tile:6:6:73:73:0:4:air
+tile:4:4:73:73:0:0:marble5
+tile:6:6:73:73:0:0:marble5
+zone:3:7:73:77:0:5:press enter to take the item
+itdoor:4:4:71:71:0:0:4:73:0:,:coins:4899:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+igdoor:4:4:73:73:0:0:4:71:0:you take  the injection from the shelf:health_injection:1:0:silence.ogg:silence.ogg:getwhistle.ogg:silence.ogg
+automover:2:8:72:78:4:5:5:75:6:,:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+itdoor:6:6:71:71:0:0:6:73:0:,:coins:5699:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+igdoor:6:6:73:73:0:0:6:71:0:you take the injection from the shelf:energy_injection:1:0:silence.ogg:silence.ogg:getwhistle.ogg:silence.ogg
+tile:4:4:77:77:0:0:marble6
+tile:6:6:77:77:0:0:marble6
+zone:4:4:79:79:0:0:vitality sirup. costs 1310 coins
+zone:6:6:79:79:0:0:protein sirup. costs 848 coins
+itdoor:4:4:79:79:0:0:4:77:0:,:coins:1310:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+itdoor:6:6:79:79:0:0:6:77:0:,:coins:848:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+igdoor:4:4:77:77:0:0:4:79:0:you take the sirup from the shelf:vitality_sirup:1:0:silence.ogg:silence.ogg:getlighter_fluid.ogg:silence.ogg
+igdoor:6:6:77:77:0:0:6:79:0:you take the sirup from the shelf:protein_sirup:1:0:silence.ogg:silence.ogg:getlighter_fluid.ogg:silence.ogg
+itdoor:5:5:75:75:6:6:5:75:0:,:coins:10000:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+tile:5:5:75:75:0:0:marble6
+zone:5:5:75:75:6:6:5 bandaids. costs 10000 coins
+igdoor:5:5:75:75:0:0:5:75:6:you take the bandaids from the shelf:bandaid:5:0:silence.ogg:silence.ogg:getbandaid.ogg:silence.ogg
+music:-1:51:-1:81:-1:49:-2:100:musica81.ogg:1
+src:-1:51:-1:81:-1:101:-3:100:hospital.ogg:1
+tile:5:5:65:65:0:1:chair
+tile:5:5:65:65:2:2:human
+zone:5:5:65:65:0:1:pharmacist chair
+zone:5:5:65:65:2:10:logan, an old pharmacist
+sign:5:5:65:65:2:10:hello! I hope you get what you need in my pharmacy. I sell all sorts of medicle supports. from injections to sirups, as well as bandaids!:sign4.ogg
+sign:32:32:11:11:0:5:come here you noughty cat!:sign4.ogg
+zone:32:32:11:11:0:5:a middle aged man, johny, standing here with an annoyed expression
+zone:36:36:14:14:0:5:beljue, the gray cat
+door:36:36:14:14:0:5:36:14:0:meow! I hate injections! meow! meow meow meow!:0:silence.ogg:silence.ogg:cat1.ogg:silence.ogg
+src:36:36:14:14:0:5:0:100:pur.ogg
+tile:39:51:39:61:-1:11:wallbrick
+tile:40:50:40:60:0:10:air
+tile:40:50:40:60:0:0:wood2
+zone:40:50:40:60:0:10:cafeteria
+zone:38:40:49:51:0:10:cafeteria door, a sign abuvv the door reads, healthy food only!
+door:38:38:49:51:0:10:40:50:0:you enter the cafeteria:1000:silence.ogg:silence.ogg:door12open.ogg:silence.ogg
+door:40:40:49:51:0:10:38:50:0:you leave the cafeteria:1000:silence.ogg:silence.ogg:door12close.ogg:silence.ogg
+tile:50:50:40:40:0:0:hay
+zone:50:50:40:40:0:10:trashcan
+trashcan:50:50:40:40:0:10
+tile:50:50:58:58:0:2:chair
+tile:50:50:58:58:3:3:human
+zone:50:50:58:58:0:2:chair
+zone:50:50:58:58:3:10:brandy, a yung woman looking at the cafeteria.
+sign:50:50:58:58:3:10:the * * * * * * doctor doesn't discharge me sooner! I miss my video games! also this stupid cencership! ugg ugg ugg!:sign4.ogg
+safezone:-1:51:-1:81:-1:101
+door:30:30:70:70:0:5:30:70:0:its so cold here! why they cannot turn off the airconditions for a sec! * * * *! damn you cencership! voof voof!:0:silence.ogg:silence.ogg:dog_pain3.ogg:silence.ogg
+src:30:30:70:70:0:10:-2:100:sign4.ogg
+zone:30:30:70:70:0:10:jamtol, a furry brown dog is curling up in a ball, clearly frustrated
+tile:0:50:0:80:50:50:marble3
+zone:0:50:0:80:50:100:hospital floor 2
+tile:23:27:78:81:4:49:wall
+tile:24:26:79:80:0:50:stairs2
+zone:24:26:79:80:0:60:stairs between floor 1 and the second floor.
+tile:21:21:0:80:49:101:wallwood10
+tile:29:29:0:80:49:101:wallwood10

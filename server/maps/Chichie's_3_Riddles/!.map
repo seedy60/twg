@@ -1,0 +1,33 @@
+mapname:Chichie's_3_Riddles
+minx:1
+maxx:3
+miny:0
+maxy:40
+minz:0
+maxz:12
+tile:1:3:0:40:0:0:marble7
+owner:chichie
+litem:1
+starting_point:2:2:0:0:0:0
+deathpoint:1:3:0:40:0:0
+safezone:1:3:0:40:0:12
+zone:1:3:0:40:0:12:Chichie's_3_Riddles
+sign:1:3:0:0:0:0:Good day %n! wishing you to solve all those 3 riddles.:sign4.ogg
+tile:1:3:11:11:0:12:wallglass8
+zone:1:3:10:10:0:12:1st riddle, I'm a guide to hidden gold, With every fold, a tale to be told. Wonder waits, in lines so fine, Unfolding secrets, one place at a time. What am I?
+tile:1:3:21:21:0:12:wallglass8
+zone:1:3:20:20:0:12:2nd riddle, I hold the heart of human might, A lesson hidden, in every line tonight. Love, life, and all we adore, Uncovered truths, forever in store. What am I?
+tile:1:3:31:31:0:12:wallglass8
+zone:1:3:30:30:0:12:3rd riddle, Through twists and turns, I slowly grow, With every step, a beauty shows. Patience blooms, as understanding deep, Guiding us through life's mystic sleep. What am I?
+pdoor:1:3:10:10:0:12:2:12:0:enter your answer here:map:100:silence.ogg:silence.ogg:door14open.ogg:close6.ogg
+pdoor:1:3:20:20:0:12:2:22:0:enter your answer here:story:100:silence.ogg:silence.ogg:door14open.ogg:close6.ogg
+pdoor:1:3:30:30:0:12:2:32:0:enter your answer here:effort:100:silence.ogg:silence.ogg:door14open.ogg:close6.ogg
+src:1:3:0:40:0:12:0:100:menumus4.ogg:1
+zone:1:3:0:0:0:10:welcome sign.
+night:none.ogg
+rain:none.ogg
+wind:none.ogg
+zone:1:3:40:40:0:10:press shift enter to be rewarded
+zone:1:3:32:39:0:10:congrats on completing this map.
+task_status:1:3:40:40:0:10:coins:900000
+travelpoint:1:3:40:40:0:10:main_map:5:1:0:Congratulations! You answered those 3 riddles very well. feel free to come next time.:silence.ogg:silence.ogg:aplause3.ogg

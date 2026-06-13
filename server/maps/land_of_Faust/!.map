@@ -1,0 +1,826 @@
+mapname:land_of_Faust
+minx:-200
+maxx:200
+miny:-200
+maxy:200
+minz:-200
+maxz:500
+starting_point:100:100:-199:-199:0:0
+tile:-200:200:-200:200:0:0:dirt9
+zone:-200:200:-200:200:-200:200:yard
+tile:-200:200:-200:-200:-200:200:wallfence2
+tile:200:200:-200:200:-200:200:wallfence2
+tile:-200:200:200:200:-200:200:wallfence2
+tile:-200:-200:-200:200:-200:200:wallfence2
+tile:100:100:-200:-200:-200:200:wallfence
+night:none.ogg
+zone:100:100:-199:-199:0:10:Gate handle:trackme
+owner:troyanda
+owner:Faust
+tile:-200:200:-200:200:0:0:concrete4
+zone:-200:200:-200:200:-200:200:city
+tile:-200:200:-200:-200:-200:200:wallbank
+tile:200:200:-200:200:-200:200:wallbank
+tile:-200:200:200:200:-200:200:wallbank
+tile:-200:-200:-200:200:-200:200:wallbank
+tile:100:100:-200:-200:-200:200:wallfence
+night:none.ogg
+zone:100:100:-199:-199:0:10:Gate handle:trackme
+tile:-1:101:-1:101:0:50:wallfence3
+tile:0:100:0:100:0:50:air
+tile:0:100:0:100:0:0:concrete22
+zone:0:100:0:100:0:50:territory of cottage:trackme
+tile:10:10:-1:-1:0:10:wallfence2
+door:10:10:-2:-2:0:10:10:0:0:Welcome!:2000:doorsnd3.ogg:silence.ogg:door64open.ogg:door64close.ogg
+zone:10:10:0:0:0:10:exit to the city:trackme
+door:10:10:0:0:0:10:10:-2:0:come again!:2000:silence.ogg:silence.ogg:door64open.ogg:door64close.ogg
+tile:9:91:9:91:0:50:wallbrick4
+tile:10:90:10:90:0:49:air
+tile:10:90:10:90:0:0:marble3
+zone:10:90:10:90:0:49:corridor
+zone:20:20:8:8:0:10:Cottage door:trackme
+tile:20:20:9:9:0:10:wallglass7
+zone:20:20:10:10:0:10:exit door:trackme
+zone:20:20:10:10:0:10:exit door:trackme
+tile:10:20:30:40:0:49:wallgeneric3
+tile:11:19:31:39:0:48:air
+tile:11:19:31:39:0:0:tile3
+zone:10:20:30:40:0:30:kitchen
+tile:15:15:30:30:0:10:wallwooddoor
+door:15:15:29:29:0:10:15:31:0:.:2000:doorsnd4.ogg:silence.ogg:dooropen6.ogg:doorclose6.ogg
+door:15:15:31:31:0:10:15:29:0:.:2000:silence.ogg:silence.ogg:dooropen6.ogg:doorclose6.ogg
+zone:15:15:29:30:0:10:door to the kitchen:trackme
+zone:15:15:31:31:0:10:exit door:trackme
+tile:29:41:29:41:0:20:wallgeneric3
+tile:30:40:30:40:0:19:air
+tile:30:40:30:40:0:0:carpet3
+tile:35:35:29:29:0:10:walldoor
+zone:30:40:30:40:0:20:dining room
+zone:35:35:28:29:0:10:door to the dining room:trackme
+door:35:35:28:28:0:10:35:30:0:.:1000:door1s.ogg:silence.ogg:door4open.ogg:door4close.ogg
+zone:35:35:30:30:0:10:exit door:trackme
+door:35:35:30:30:0:10:35:28:0:.:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+src:30:40:30:40:0:20:-5:100:bar1.ogg
+tile:49:61:29:41:0:20:wallgeneric2
+tile:50:60:30:40:0:19:air
+tile:50:60:30:40:0:0:tile4
+zone:50:60:30:40:0:20:bathroom
+tile:55:55:29:29:0:10:wallglass11
+zone:55:55:28:30:0:10:bathroom door:trackme
+door:55:55:28:28:0:10:55:30:0:.:2000:door2s.ogg:silence.ogg:door30open.ogg:door30close.ogg
+door:55:55:30:30:0:10:55:28:0:.:2000:silence.ogg:silence.ogg:door30open.ogg:door30close.ogg
+tile:58:60:38:40:0:1:wallrail:trackme
+tile:58:60:38:40:1:1:generic
+tile:58:60:40:40:0:3:wallsign
+tile:58:60:40:40:3:3:glass6
+zone:58:60:38:39:0:10:toilet seat:trackme
+zone:58:60:40:40:0:10:the toilet cistern:trackme
+toilet:58:60:38:39:1:1
+tile:50:53:37:40:0:10:wallcontainer
+tile:51:52:38:39:0:9:air
+tile:51:52:38:39:0:0:bathtub2
+zone:50:53:37:40:0:10:shower cabin:trackme
+tile:52:52:37:37:0:10:wallcardboard
+zone:52:52:36:38:0:10:shower door:trackme
+door:52:52:36:36:0:10:52:38:0:.:2000:silence.ogg:silence.ogg:dooropen8.ogg:doorclose8.ogg
+door:52:52:38:38:0:5:52:36:0:.:1000:silence.ogg:silence.ogg:dooropen4.ogg:doorclose4.ogg
+shower:51:53:39:39:0:5
+shower:51:51:38:38:0:5
+tile:54:56:39:40:0:1:wallbucket
+tile:54:56:39:40:2:2:debris
+trashcan:54:56:39:40:2:2
+zone:54:56:39:40:0:10:trashcan:trackme
+src:10:100:10:100:0:50:-10:100:room3.ogg
+tile:19:51:69:100:0:50:wallwood16
+tile:20:50:70:99:0:48:air
+tile:20:50:70:99:0:0:carpet9
+zone:20:50:70:100:0:50:partner room
+tile:30:30:69:69:0:10:wallglass6
+zone:30:30:68:68:0:10:door to the partner room:trackme
+zone:30:30:70:70:0:10:exit door
+door:30:30:68:68:0:10:30:70:0:.:1000:doorloop2.ogg:silence.ogg:door12open.ogg:door12close.ogg
+door:30:30:70:70:0:10:30:68:0:.:2000:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+tile:20:30:95:99:0:3:wallcloth
+tile:20:30:95:99:3:3:mat
+zone:20:30:95:99:0:20:big bed:trackme
+tile:40:50:95:99:0:3:wallcloth
+tile:40:50:95:99:3:3:mat
+zone:40:50:95:99:0:10:big bed:trackme
+tile:40:50:70:75:0:3:wallsofa
+tile:41:49:71:75:1:10:air
+tile:41:49:71:75:1:1:cloth
+tile:40:50:70:75:4:4:carpet10
+tile:41:49:71:75:4:10:air
+zone:40:50:70:75:0:20:comfortable, soft sofa:trackme
+src:47:49:70:72:1:1:0:100:pur.ogg:1
+zone:47:49:71:72:1:10:fluffy cat
+bed:20:30:95:99:3:3
+bed:40:50:95:99:3:3
+bed:41:49:70:75:1:1
+safezone:10:100:10:100:0:50
+src:-200:200:-200:7:0:100:0:100:birds4.ogg
+tile:16:19:38:39:0:2:wallscreen
+tile:16:19:38:39:3:3:glass5
+zone:16:19:38:39:0:10:oven:trackme
+src:16:19:38:39:0:10:-10:100:oven.ogg
+oven:16:19:38:39:3:3
+tile:30:34:34:35:0:3:wallbarrel
+tile:30:34:35:35:3:3:chair
+tile:30:34:34:34:3:7:wallwood18
+tile:30:34:34:34:7:7:carpet10
+zone:30:34:34:35:0:20:bench:trackme
+zone:30:34:34:34:7:20:back of bench:trackme
+tile:30:34:37:39:0:4:walltable
+tile:30:34:37:39:4:4:wood5
+zone:30:34:37:39:0:19:table:trackme
+tile:11:11:39:39:0:0:glass5
+zone:11:11:39:39:0:10:fridge:trackme
+tile:11:11:31:31:0:0:metal
+zone:11:11:31:31:0:10:microwave:trackme
+tile:-199:-150:-199:0:0:1:wallstone
+tile:-199:-150:-199:0:1:1:concrete29
+zone:-199:-150:-199:0:0:50:sidewalk:trackme
+src:-199:-150:-199:0:0:50:-5:100:walking_people2.ogg
+tile:150:199:-199:0:0:1:wallstone
+tile:150:199:-199:0:1:1:concrete6
+zone:150:199:-199:0:0:50:sidewalk:trackme
+src:150:199:-199:0:0:50:-5:100:walking_people.ogg
+tile:-120:-20:-150:-50:0:0:stone4
+src:-120:-20:-150:-50:0:50:-5:100:street4.ogg
+zone:-120:-20:-150:-50:0:50:Troyanda_street:trackme
+tile:-1:21:-190:-10:0:5:wallstreet
+tile:0:20:-190:-10:0:4:air
+tile:0:20:-190:-10:0:0:concrete27
+tile:-1:21:-190:-2:5:5:concrete5
+tile:0:20:-190:-10:5:5:air
+zone:0:20:-190:-10:0:50:main road:trackme
+src:0:20:-190:-10:0:50:-5:100:traffic2.ogg
+tile:50:120:-150:-50:0:0:stone4
+src:50:120:-150:-50:0:50:-5:100:street4.ogg
+zone:50:120:-150:-50:0:50:Moren_street:trackme
+tile:-199:-2:1:150:0:0:grass6
+zone:-199:-2:1:150:0:50:field:trackme
+src:-199:-2:5:140:0:5:-7:100:birds5.ogg
+tile:102:199:1:199:0:0:grass6
+zone:102:199:1:199:0:50:field:trackme
+src:102:199:1:140:0:50:-7:100:birds3.ogg
+tile:-1:102:102:150:0:0:grass
+zone:-1:102:101:150:0:50:field
+src:0:100:101:140:0:50:-7:100:birds3.ogg
+tile:-1:102:151:199:0:0:rocks5
+zone:-1:102:151:199:0:100:an old, small, abandoned village:trackme
+tile:10:100:180:199:0:0:dirt5
+zone:10:100:180:200:0:50:an abandoned street with houses gray with time:trackme
+tile:20:50:185:195:0:50:wallwood4
+tile:80:100:185:195:0:50:wallwood4
+src:0:100:150:200:0:50:-5:105:village_a2.ogg
+tile:19:31:159:171:0:50:wallwood15
+tile:20:30:160:170:0:49:air
+tile:20:30:160:170:0:0:concrete3
+zone:20:30:160:170:0:50:abandoned tavern:trackme
+tile:25:25:159:159:0:10:wallwooddoor
+door:25:25:158:158:0:10:25:160:0:.:3000:silence.ogg:silence.ogg:dooropen6.ogg:doorclose6.ogg
+zone:25:25:158:160:0:10:old door:trackme
+door:25:25:160:160:0:10:25:158:0:.:3000:silence.ogg:silence.ogg:dooropen6.ogg:doorclose6.ogg
+tile:-100:-20:-190:-160:0:0:grass3
+tile:50:100:-190:-170:0:0:lawn
+tile:99:111:-111:-99:0:3:walltile
+tile:100:110:-110:-100:1:5:air
+tile:99:111:-111:-99:3:3:stone2
+tile:100:111:-110:-100:3:3:air
+tile:100:110:-110:-100:1:1:water5
+src:100:110:-110:-100:0:50:-5:105:water.ogg
+zone:99:111:-111:-99:0:50:fountain
+tile:-111:-99:-111:-99:0:3:walltile
+tile:-111:-99:-111:-99:3:3:concrete29
+tile:-110:-100:-110:-100:1:5:air
+tile:-110:-100:-110:-100:1:1:spring2
+zone:-111:-99:-111:-99:0:50:fountain:trackme
+src:-110:-100:-110:-100:0:50:-5:105:water.ogg
+tile:20:30:160:170:20:20:wood9
+tile:30:30:170:170:0:20:wood6
+zone:20:30:160:170:20:50:second floor:trackme
+zone:30:30:170:170:0:50:ladder to second floor:trackme
+tile:-21:-9:-31:-9:0:1:wallstone
+tile:-21:-9:-31:-9:1:1:concrete
+tile:-20:-10:-30:-10:0:5:wallbrushtangle
+tile:-20:-10:-30:-10:5:5:thickforest
+tile:15:15:-30:-30:0:20:wallmetal
+tile:29:41:-31:-9:0:1:wallstone
+tile:29:41:-31:-9:1:1:cement3
+tile:30:40:-30:-10:0:5:wallbrushtangle
+tile:30:40:-30:-10:5:5:thickforest
+tile:21:49:-141:-129:0:5:wallstreet
+tile:21:49:-140:-130:0:5:air:trackme
+tile:21:49:-140:-130:0:0:concrete2
+tile:21:49:-141:-129:5:5:concrete5
+tile:21:49:-140:-130:5:5:air
+zone:21:49:-140:-130:0:50:road to the moren street:trackme
+tile:0:20:-140:-130:0:0:concrete3
+zone:0:20:-140:-130:0:50:intersection between two streets:trackme
+tile:-19:0:-141:-129:0:5:wallstreet
+tile:-19:0:-141:-129:5:5:concrete5
+tile:-19:0:-140:-130:0:5:air
+tile:-19:0:-140:-130:0:0:concrete12
+zone:-19:0:-140:-130:0:50:road to the troyanda street:trackme
+zone:20:30:102:150:0:50:old road to the village:trackme
+tile:24:26:151:158:0:5:wallbushleaves4
+tile:24:26:151:158:5:5:branch2
+tile:25:25:151:158:0:5:air
+tile:25:25:151:158:0:0:concrete10
+tile:20:30:102:150:0:0:brush5
+zone:24:26:151:157:0:50:path to the tavern is surrounded by plants on both sides:trackme
+tile:-121:-99:-31:-4:0:1:wallstone2
+tile:-121:-99:-31:-4:1:1:concrete
+tile:-120:-100:-30:-5:0:5:air
+tile:-120:-100:-30:-5:0:0:grass3
+zone:-120:-100:-30:-5:0:50:park:trackme
+tile:-115:-105:-25:-20:0:3:walltable
+tile:-115:-105:-24:-20:3:3:wood
+tile:-115:-105:-25:-25:0:5:wallwood18
+tile:-115:-105:-25:-25:5:5:bridge3
+zone:-115:-105:-25:-20:0:50:park bench:trackme
+zone:-115:-105:-25:-25:5:50:back of bench
+tile:-115:-112:-15:-12:0:1:wallmetal18
+tile:-115:-112:-15:-12:1:1:diamond
+zone:-115:-112:-15:-12:0:20:grill:trackme
+oven:-115:-112:-15:-12:1:1
+src:-115:-112:-15:-12:1:20:0:105:fire5.ogg
+tile:99:106:-31:-24:0:50:wallgeneric2
+tile:100:105:-30:-25:0:49:air
+tile:100:105:-30:-25:0:0:wood9
+zone:100:105:-30:-25:0:50:toilet_room
+tile:103:103:-31:-31:0:10:wallwood19
+zone:103:103:-32:-30:0:10:toilet door:trackme
+door:103:103:-32:-32:0:10:103:-30:0:.:3000:door2s.ogg:silence.ogg:door3open.ogg:door3close.ogg
+door:103:103:-30:-30:0:10:103:-32:0:.:3000:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+tile:103:104:-27:-25:0:1:wallsign
+tile:103:104:-27:-25:1:1:generic
+zone:103:104:-27:-25:0:20:toilet seat:trackme
+tile:103:104:-25:-25:1:5:wallrail
+tile:103:104:-25:-25:5:5:glass5
+zone:103:104:-25:-25:5:40:toilet cistern
+toilet:103:104:-27:-26:1:1
+tile:104:106:-106:-104:0:5:wallmetal19
+tile:104:106:-106:-104:5:5:bleacher5
+shower:104:106:-106:-104:5:5
+tile:20:30:160:170:0:0:hardwood2
+tile:-150:99:-199:-191:0:1:wallstone
+tile:-150:99:-199:-191:1:1:concrete29
+zone:-150:99:-199:-191:0:50:sidewalk
+tile:101:150:-199:-191:0:1:wallstone
+tile:101:150:-199:-191:1:1:concrete6
+zone:101:150:-199:-191:0:50:sidewalk
+tile:-1:21:-9:-9:0:4:wallstone
+tile:9:11:-9:-3:0:10:wallstone
+tile:10:10:-9:-3:0:10:air:trackme
+tile:10:10:-9:-3:0:0:cement3
+tile:11:11:-2:-2:0:10:wallstone
+tile:9:9:-2:-2:0:10:wallstone
+zone:10:10:-9:-2:0:50:path to the hotel:trackme
+tile:5:15:-20:-10:0:0:concrete21
+tile:11:11:-9:-2:10:10:concrete8
+tile:9:9:-9:-2:10:10:concrete16
+tile:-1:8:-8:-2:5:10:air
+tile:12:21:-8:-2:5:10:air
+tile:-51:-19:-31:-9:0:50:wallwood16
+tile:-50:-20:-30:-10:0:9:air
+tile:-50:-20:-30:-10:0:0:carpet2
+tile:-30:-30:-31:-31:0:10:wallwood19
+zone:-50:-20:-30:-10:0:50:bathroom
+zone:-30:-30:-32:-30:0:10:bathroom door:trackme
+door:-30:-30:-32:-32:0:10:-30:-30:0:.:1000:door2s.ogg:silence.ogg:door1open.ogg:door1close.ogg
+door:-30:-30:-30:-30:0:10:-30:-32:0:':1000:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+tile:-30:-20:-20:-10:0:5:wallbarrel
+tile:-30:-20:-20:-10:5:5:bathtub
+tile:-29:-21:-19:-11:1:5:air
+tile:-29:-21:-19:-11:1:3:water5
+tile:-24:-22:-15:-11:0:4:wallcardboard
+tile:-24:-22:-15:-11:4:4:bathtub3
+zone:-30:-20:-20:-10:0:50:bath with water:trackme
+shower:-24:-22:-15:-11:4:4
+zone:-24:-22:-15:-11:4:10:shower:trackme
+tile:-50:-40:-15:-10:0:10:wallcontainer
+tile:-49:-41:-14:-10:0:9:air
+tile:-49:-41:-14:-10:0:0:bathtub2
+tile:-45:-45:-14:-10:0:9:wallcardboard
+zone:-50:-40:-15:-10:0:10:shower cabin:trackme
+tile:-48:-48:-15:-15:0:9:wallglass5
+tile:-42:-42:-15:-15:0:9:wallglass5
+zone:-48:-48:-16:-14:0:9:shower_door:trackme
+zone:-42:-42:-16:-14:0:9:shower_door:trackme
+door:-42:-42:-16:-16:0:9:-42:-14:0:`:1000:door2s.ogg:silence.ogg:dooropen4.ogg:doorclose4.ogg
+door:-42:-42:-14:-14:0:9:-42:-16:0:`:1000:silence.ogg:silence.ogg:dooropen4.ogg:doorclose4.ogg
+door:-48:-48:-16:-16:0:9:-48:-14:0:`:2000:door2s.ogg:silence.ogg:door16open.ogg:door16close.ogg
+door:-48:-48:-14:-14:0:9:-48:-16:0:`:2000:silence.ogg:silence.ogg:door16open.ogg:door16close.ogg
+tile:-49:-46:-10:-10:0:0:steel5
+tile:-44:-41:-10:-10:0:0:steel5
+shower:-49:-41:-10:-10:0:9
+zone:-49:-41:-10:-10:0:9:shower
+tile:-101:-59:4:101:-6:-1:wallgrassdirt
+tile:-80:-70:5:100:-5:0:wallgrass3
+tile:-80:-70:5:100:0:0:grass4
+src:-200:-10:0:100:0:50:0:90:war4.ogg
+src:110:200:0:100:0:50:0:90:war4.ogg
+tile:-200:200:-200:200:-50:-1:wallbank
+tile:-199:199:-199:199:-49:-2:air
+tile:-199:199:-199:199:-50:-50:tile5
+tile:10:15:-190:-180:0:0:metal9
+zone:10:15:-190:-180:-1:50:sewer hatch:trackme
+zone:-200:200:-200:200:-50:-2:sewerage
+tile:9:16:-191:-189:-40:-1:wallmetal23
+tile:10:15:-190:-190:-50:-2:ladder
+door:10:15:-190:-190:0:10:10:-190:-2:`:3000:silence.ogg:silence.ogg:door73open.ogg:door73close.ogg
+tile:10:15:-190:-190:0:0:steel2
+zone:10:15:-190:-190:-2:50:hatch handle:trackme
+door:10:15:-190:-190:-2:-2:10:-190:0:`:2000:silence.ogg:silence.ogg:door73open.ogg:door73close.ogg
+zone:10:15:-190:-190:-50:-3:ladder:trackme
+tile:10:15:-199:-191:-50:-2:wallmedal2
+src:-200:200:-200:200:-50:-40:0:100:waterdrip.ogg
+tile:-199:99:-180:-180:-50:-2:wallbank
+tile:-199:199:-179:179:-50:-50:pipe
+tile:10:20:-180:-180:-50:-40:walljaledoor2
+zone:10:20:-181:-179:-50:-40:door:trackme
+door:10:20:-181:-181:-50:-40:10:-179:-50:`:2000:silence.ogg:silence.ogg:tp40.ogg:tp41.ogg
+door:10:20:-179:-179:-50:-40:10:-181:-50:`:2000:silence.ogg:silence.ogg:tp40.ogg:tp41.ogg
+tile:-199:200:180:180:-50:-2:wallbank
+tile:10:20:180:180:-50:-40:air
+tile:10:20:180:180:-50:-50:tile2
+tile:50:199:-170:175:-50:-2:wallscreen
+tile:51:194:-169:174:-50:-50:sewer
+src:50:199:-175:175:-50:-30:0:90:sewer3.ogg
+tile:-199:30:-175:175:-50:-2:wallscreen
+tile:-198:29:-174:174:-50:-50:sewer2
+src:-198:30:-175:175:-50:-40:0:89:sewer3.ogg
+tile:30:50:0:10:-50:-50:metalpipe
+tile:31:49:119:131:-50:-1:wallscreen
+tile:31:49:120:129:-50:0:air
+tile:30:49:120:129:-50:-50:mud3
+tile:29:60:125:125:-50:-50:pipe3
+tile:60:60:125:175:-50:-50:pipe2
+src:31:49:119:130:-50:0:-10:100:sewer2.ogg
+zone:31:49:120:130:-50:1:pipe
+zone:-198:198:-175:175:-50:-2:pipe:trackme
+zone:31:49:-178:178:-50:-2:pipe system:trackme
+tile:10:20:199:199:-50:0:bridge3
+zone:10:20:199:199:-50:0:old wooden ladder:trackme
+tile:0:100:197:199:0:50:walldebris3
+tile:31:39:99:99:3:3:wobbly_wood
+tile:31:39:100:100:3:10:wallglass
+zone:31:39:99:101:3:10:window:trackme
+zone:31:49:99:99:0:2:under the window
+tile:31:39:99:99:2:2:wallwood18
+door:31:39:99:99:3:5:35:102:5:you broke the window! it magically appeared.:500:silence.ogg:tp52.ogg:silence.ogg:doorclose61.ogg
+tile:59:100:69:100:0:40:wallwood16
+tile:60:99:70:99:0:30:carpet3
+zone:60:100:70:100:0:40:guest room
+tile:70:70:69:69:0:10:walldoor
+zone:70:70:68:68:0:10:door to the guest room:trackme
+zone:70:70:70:70:0:10:exit door:trackme
+door:70:70:68:68:0:10:70:70:0:':1000:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+door:70:70:70:70:0:10:70:68:0:':1000:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:61:99:70:99:1:30:air
+tile:9:101:9:91:50:100:wallbrick4
+tile:10:90:10:100:50:99:air:trackme
+tile:10:100:10:90:50:50:marble2
+zone:10:100:10:100:50:100:second floor:trackme
+zone:52:58:90:90:0:70:stairs to the second floor:trackme
+tile:9:101:91:91:50:100:wallbrick4
+tile:52:58:90:90:0:50:stairs2
+tile:10:50:20:50:50:60:wallbounce
+tile:10:50:20:50:60:60:marble5
+tile:11:49:21:49:51:57:underwater
+tile:11:49:21:49:58:58:deepwater
+tile:11:49:21:49:59:60:air
+src:10:50:20:50:50:70:0:100:water_loop.ogg
+tile:20:30:10:14:50:70:wallwood15
+zone:10:50:20:50:50:90:swiming pool:trackme
+tile:20:30:10:14:70:70:deck
+tile:20:30:15:15:50:70:wobbly_wood
+zone:20:30:10:14:50:90:springboard:trackme
+zone:20:30:15:15:50:90:ladder:trackme
+tile:19:51:69:91:50:90:wallwood16
+tile:20:50:70:90:50:80:air
+tile:20:50:70:90:50:50:concrete24
+tile:30:30:69:69:50:60:wallwood19
+zone:30:30:68:68:50:60:the door to the flower shop:trackme
+zone:20:50:70:90:50:70:flower shop:trackme
+zone:30:30:70:70:50:80:exit door
+door:30:30:70:70:50:60:30:68:50:bye!:2000:silence.ogg:silence.ogg:door10open.ogg:door11close.ogg
+door:30:30:68:68:50:60:30:70:50:welcome to the flower shop! sponsored by troyanda:2000:silence.ogg:silence.ogg:door10open.ogg:door11close.ogg
+src:30:30:69:69:50:60:0:100:silence.ogg
+src:20:50:70:90:50:90:0:102:store.ogg
+tile:50:80:-40:-20:0:0:marble2
+zone:50:80:-40:-20:0:50:parking_lot:trackme
+tile:64:69:-38:-25:0:5:wallcar3
+tile:65:68:-37:-26:0:3:air
+tile:64:69:-36:-27:5:5:metal8
+tile:64:69:-38:-36:3:5:air
+tile:64:69:-38:-36:3:3:metal18
+tile:64:69:-26:-25:3:5:air
+tile:64:69:-26:-25:3:3:metal12
+tile:64:69:-27:-27:3:4:wallglass
+tile:64:64:-26:-25:0:2:wallcone
+tile:69:69:-26:-25:0:2:wallcone
+tile:69:69:-38:-37:0:2:wallcone
+tile:64:64:-38:-37:0:2:wallcone
+tile:65:68:-35:-27:0:0:plexi
+tile:65:68:-37:-36:0:0:plastic
+tile:65:68:-27:-26:0:0:metal22
+tile:65:69:-27:-27:0:2:wallcardboard
+tile:65:69:-36:-36:0:2:wallcardboard
+tile:65:65:-31:-30:0:3:wallsofa
+tile:65:65:-30:-30:1:3:air
+tile:65:65:-30:-30:1:1:cloth
+tile:65:65:-31:-31:3:3:mat
+tile:68:68:-31:-30:0:3:wallsofa
+tile:68:68:-30:-30:1:3:air
+tile:68:68:-30:-30:1:1:cloth
+tile:68:68:-31:-31:3:3:mat
+tile:65:68:-35:-33:0:1:wallsofa
+tile:65:68:-35:-33:2:2:cloth
+tile:65:68:-35:-35:0:2:wallsofa
+tile:65:68:-35:-35:3:3:mat
+tile:64:69:-36:-36:3:4:wallglass
+zone:63:70:-39:-24:0:10:near the vehicle:trackme
+zone:65:69:-37:-25:0:10:inside the vehicle
+zone:65:68:-35:-33:0:4:back seat:trackme
+zone:65:68:-35:-35:2:4:back of the back seat:trackme
+zone:65:65:-30:-30:0:4:driver's seat:trackme
+zone:65:65:-31:-31:3:4:back of the driver's seat:trackme
+zone:68:68:-30:-30:1:4:passenger seat:trackme
+zone:68:68:-31:-31:3:4:back of the passenger seat:trackme
+tile:64:64:-29:-29:0:3:wallcar2
+tile:69:69:-29:-29:0:3:wallcar2
+tile:69:69:-34:-34:0:3:wallcar
+zone:63:65:-29:-29:0:4:driver's door:trackme
+zone:68:70:-29:-29:0:4:passenger door:trackme
+zone:68:70:-34:-34:0:4:sliding door:trackme
+door:65:65:-29:-29:0:2:63:-29:0:':1000:silence.ogg:silence.ogg:door19openleft.ogg:door19closeleft.ogg
+door:63:63:-29:-29:0:2:65:-30:1:':1000:silence.ogg:silence.ogg:door19openleft.ogg:door19closeleft.ogg
+door:68:68:-29:-29:0:2:70:-29:0:`:1000:silence.ogg:silence.ogg:door19openright.ogg:door19closeright.ogg
+door:70:70:-29:-29:0:2:68:-30:1:`:1000:silence.ogg:silence.ogg:door19openright.ogg:door19closeright.ogg
+door:68:68:-34:-34:0:2:70:-34:0:':2000:silence.ogg:silence.ogg:door9open.ogg:door9close.ogg
+door:70:70:-34:-34:0:2:68:-34:2:`:2000:silence.ogg:silence.ogg:door9open.ogg:door9close.ogg
+src:64:69:-38:-25:0:20:-4:82:car8.ogg
+src:65:68:-35:-27:0:4:0:102:doorsnd6.ogg:1
+zone:64:69:-36:-27:5:20:car roof:trackme
+tile:64:69:-36:-36:5:5:metal8
+zone:64:69:-38:-37:3:20:trunk:trackme
+zone:65:68:-38:-37:0:2:inside the trunk:trackme
+door:64:69:-38:-38:3:4:66:-37:0:':1000:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+tile:66:66:-38:-38:3:3:metal20
+zone:66:66:-38:-38:0:10:trunk handle:trackme
+door:65:69:-37:-37:0:1:66:-39:1:`:1000:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+tile:65:69:-37:-37:2:2:wallcar3
+zone:64:69:-26:-25:3:20:car hood:trackme
+zone:66:66:-25:-25:3:20:hood handle:trackme
+door:66:66:-25:-25:3:5:66:-26:0:':1000:silence.ogg:silence.ogg:tp45.ogg:tp46.ogg
+zone:65:68:-26:-26:0:2:inside the hood:trackme
+tile:65:68:-26:-26:2:2:wallcar3
+src:65:68:-26:-26:0:2:0:77:car7.ogg:1
+door:65:68:-26:-26:0:2:66:-24:3:`:1000:silence.ogg:silence.ogg:tp45.ogg:tp46.ogg
+tile:9:101:9:91:100:100:roof
+tile:30:50:8:8:0:100:stairs
+zone:9:101:9:91:100:150:roof:trackme
+zone:30:50:8:8:0:150:stairs to the roof:trackme
+src:9:101:9:91:100:150:-5:105:wind7.ogg
+tile:50:60:50:60:100:100:glass7
+zone:50:60:50:60:100:150:flagpole:trackme
+tile:55:55:55:55:100:120:wallsign
+tile:55:55:50:54:110:120:wallcouch
+zone:54:56:54:56:100:120:Ukrainian flag:trackme
+src:50:60:50:60:100:120:0:100:flag.ogg
+bed:65:67:-35:-33:2:2
+tile:-200:200:-200:200:200:200:concrete8
+tile:0:50:-199:-199:0:200:marble5
+zone:-200:200:-200:200:200:250:dome covering the city:trackme
+zone:0:50:-199:-199:0:250:large marble steps:trackme
+src:-200:200:-200:200:100:250:0:100:wind7.ogg
+tile:0:10:0:10:200:210:wallmedal3
+tile:-1:-1:0:10:200:205:wallchain
+tile:-1:-1:0:10:205:205:metal10
+tile:11:11:0:10:200:205:wallchain
+tile:11:11:0:10:205:205:metal10
+zone:-1:11:0:10:200:220:tank tracks
+tile:0:10:0:10:210:210:metal
+zone:0:10:0:10:210:250:on the tank:trackme
+tile:4:9:4:9:205:209:wallsoftbang
+tile:5:8:5:8:205:208:air
+tile:5:8:5:8:205:205:plastic
+zone:5:8:5:8:205:209:inside the tank:trackme
+tile:7:7:7:7:209:209:wallmetal23
+tile:7:7:7:7:210:210:metal6
+zone:7:7:7:7:209:220:tank hatch:trackme
+tile:5:6:6:7:205:207:wallmetal19
+tile:5:6:7:7:207:207:mat
+tile:5:6:6:6:208:208:carpet7
+zone:5:6:6:7:205:209:driver's seat:trackme
+door:7:7:7:7:210:210:5:7:207:you are in the tank!:1000:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+door:7:7:7:7:207:207:7:5:211:you jumped out of the cab of the tank!:1000:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+tile:7:8:5:8:205:206:wallmetal20
+tile:7:8:5:8:207:207:synthetic
+zone:7:8:5:8:207:209:control panel:trackme
+tile:7:7:7:7:207:207:steel2
+zone:7:7:7:7:207:209:open hatch:trackme
+src:0:10:0:10:200:220:-10:100:tank_voice.ogg
+src:5:8:5:8:205:209:0:25:tank_voice.ogg:1
+owner:Moren
+tile:59:100:69:90:50:90:wallwood16
+tile:60:99:70:89:50:70:wallsofa
+tile:61:98:71:88:50:69:air
+tile:61:98:71:88:50:50:carpet4
+tile:70:70:70:70:50:60:air
+tile:70:70:70:70:50:50:carpet2
+zone:60:100:70:90:50:70:private room
+tile:70:70:69:69:50:60:walldoor
+zone:70:70:68:69:50:60:door to a private room:trackme
+zone:70:70:70:70:50:60:exit door:trackme
+pdoor:70:70:68:68:50:60:70:70:50:it's private property! password?:1111:1000:silence.ogg:mapswitchtimer.ogg:door2open.ogg:door2close.ogg
+door:70:70:70:70:50:60:70:68:50:':1000:silence.ogg:mapswitchtimer.ogg:door2open.ogg:door2close.ogg
+src:60:100:70:90:50:70:0:100:bathroom.ogg:1
+tile:61:65:80:88:50:53:wallcloth
+tile:61:65:80:87:53:53:cloth
+tile:61:65:88:88:53:53:mat
+zone:61:65:80:87:50:60:bed:trackme
+zone:61:65:88:88:53:61:big fluffy pillow:trackme
+bed:61:65:80:88:53:53
+tile:65:67:85:88:50:52:walltable
+tile:65:67:85:88:52:52:wood
+zone:65:67:85:88:50:70:bedside table:trackme
+tile:69:76:84:88:50:70:wallbuilding
+tile:70:75:85:87:51:69:air:trackme
+tile:70:75:85:87:51:51:hardwood6
+tile:74:76:84:84:50:60:wallwood6
+zone:68:77:83:88:50:69:near the closet:trackme
+zone:70:75:85:88:50:70:inside the closet:trackme
+zone:74:76:83:85:50:60:closet door:trackme
+door:74:76:83:83:50:50:74:85:51:`:3000:silence.ogg:silence.ogg:dooropen62.ogg:doorclose58.ogg
+door:74:76:85:85:51:51:74:83:50:`:3000:silence.ogg:silence.ogg:dooropen62.ogg:doorclose58.ogg
+tile:70:75:88:88:50:70:wallsoftbang
+tile:69:81:94:98:0:10:wallbuilding
+tile:70:80:95:97:1:9:air:trackme
+tile:70:80:95:97:1:1:old_wood
+zone:68:82:93:98:0:10:near the old big closet:trackme
+zone:70:80:95:98:0:10:inside an old closet:trackme
+tile:74:76:94:94:0:9:wallwood13
+door:74:76:93:93:0:9:74:95:1:`:2000:silence.ogg:silence.ogg:dooropen62.ogg:doorclose58.ogg
+zone:74:76:93:95:0:9:closet door:trackme
+door:74:76:95:95:1:9:74:93:0:':2000:silence.ogg:silence.ogg:dooropen62.ogg:doorclose58.ogg
+tile:69:81:98:98:0:9:wallslam
+tile:90:99:90:99:0:3:wallmetal20
+tile:90:99:90:99:3:3:mat
+zone:90:99:90:99:0:40:an old metal bed:trackme
+tile:60:60:70:99:1:20:air
+tile:65:68:-29:-28:0:0:carpet10
+tile:66:67:-32:-31:0:1:wallsofa
+tile:66:67:-32:-31:1:1:synthetic
+rain:none.ogg
+tile:119:131:19:41:-5:-1:wallrockdirt
+tile:120:130:20:40:-4:0:air
+tile:120:130:20:40:-4:-4:dirt11
+zone:110:150:10:60:-5:10:dug trenches in the middle of the field:trackme
+tile:134:151:9:61:-5:-1:wallgrass3
+tile:135:150:10:60:-4:0:air
+tile:135:150:10:60:-4:-4:clay3
+tile:-199:-1:150:199:0:0:grass5
+zone:-200:-1:150:200:0:50:a field near a nuclear power plant:trackme
+tile:-101:-49:159:181:0:100:wallmetal3
+zone:-102:-48:158:181:0:100:armored metal fence:trackme
+tile:-100:-50:160:180:0:50:air
+tile:-100:-50:160:180:0:0:cement2
+zone:-100:-50:160:180:0:50:territory of the nuclear power station:trackme
+tile:-70:-60:159:159:0:10:wallcelle5
+zone:-70:-60:158:160:0:10:hermetic gate:trackme
+zone:-60:-60:158:160:0:10:gate handle:trackme
+door:-60:-60:158:158:0:10:-60:160:0:you have entered the territory of a nuclear plant that is still functioning!:4000:silence.ogg:silence.ogg:open16.ogg:close15.ogg
+door:-60:-60:160:160:0:10:-60:158:0:`:5000:silence.ogg:silence.ogg:open16.ogg:close15.ogg
+tile:-91:-79:169:180:0:20:wallmetal14
+tile:-90:-80:170:179:0:25:air
+zone:-92:-78:168:180:0:30:near the reactor hall:trackme
+tile:-90:-80:170:179:0:0:cave
+zone:-90:-80:170:180:0:30:inside the reactor hall:trackme
+tile:-85:-85:169:169:0:10:wallmedaldebris
+zone:-85:-85:168:170:0:10:large metal door:trackme
+door:-85:-85:168:168:0:10:-85:170:0:don't go near the reactor!:2000:silence.ogg:silence.ogg:workshopenter.ogg:workshopexit.ogg
+door:-85:-85:170:170:0:10:-85:168:0:':2000:silence.ogg:silence.ogg:workshopenter.ogg:workshopexit.ogg
+tile:-90:-80:175:179:0:5:wallmedal2
+tile:-90:-80:175:179:5:5:metal7
+zone:-90:-80:174:179:0:10:near the reactor:trackme
+zone:-90:-80:175:179:5:20:on the reactor:trackme
+src:-90:-80:175:179:0:20:0:75:spaceship.ogg
+fire:-90:-80:174:179:0:10:5000:10000
+src:-90:-80:175:179:0:20:-14:29:tank_voice.ogg
+tile:-71:-50:169:180:0:5:wallmetal17
+zone:-72:-50:168:180:0:20:pool with nuclear fuel:trackme
+tile:-71:-50:169:179:5:5:metal12
+tile:-70:-51:170:179:5:5:air
+tile:-70:-51:170:179:1:4:underwater
+tile:-70:-51:170:179:4:4:swimming2
+src:-70:-50:170:180:0:20:0:75:underwaterair.ogg
+fire:-70:-51:170:179:1:4:10000:500
+tile:-151:-109:159:181:-5:-1:wallunderwater2
+tile:-151:-109:159:181:-1:-1:walldirt
+tile:-150:-110:160:180:-1:0:air
+tile:-150:-110:160:180:-4:-1:underwater
+tile:-150:-110:160:180:-1:-1:swim
+zone:-155:-105:155:185:0:50:near the lake:trackme
+zone:-150:-110:160:180:-1:50:in the lake:trackme
+zone:-150:-110:160:180:-5:-2:under water
+src:-150:-110:160:180:-1:20:-5:100:water10.ogg
+src:-150:-110:160:180:-5:-2:0:100:underwaterair.ogg:1
+fishingcoordinate:-150:-110:160:180:-1:-1
+tile:-90:-87:170:173:0:4:wallmetal2
+tile:-90:-87:170:173:4:4:metal4
+zone:-90:-86:170:173:0:20:near the reactor cooler:trackme
+zone:-90:-87:170:173:4:20:on the cooler:trackme
+src:-90:-87:170:173:0:20:-10:65:car.ogg
+tile:110:199:150:199:0:0:debris
+src:110:199:150:199:0:20:0:80:amb3.ogg
+trashcan:110:199:150:199:0:0
+door:-60:-58:131:132:2:2:61:-10:0:':1000:silence.ogg:crg.ogg:silence.ogg:silence.ogg
+tile:-61:-49:119:141:0:7:wallcar2
+tile:-61:-49:119:141:7:7:metal20
+tile:-61:-49:138:141:3:10:air
+tile:-61:-49:138:141:3:3:metal9
+tile:-60:-50:120:124:3:10:air
+tile:-61:-49:119:124:5:5:metal21
+tile:-60:-50:120:124:3:10:air
+tile:-60:-50:126:136:1:5:air
+tile:-60:-50:-26:-36:1:1:carpet10
+zone:-62:-48:118:142:0:20:near the pickup truck:trackme
+zone:-60:-50:120:140:0:6:inside a pickup truck:trackme
+zone:-61:-49:125:137:7:20:car roof:trackme
+tile:-60:-50:120:124:3:3:metal5
+zone:-62:-48:118:124:0:20:near the trunk:trackme
+zone:-61:-49:119:124:5:20:sides of the trunk:trackme
+zone:-60:-50:120:124:0:20:inside the trunk:trackme
+zone:-62:-48:138:142:0:20:near the hood:trackme
+zone:-61:-49:138:141:3:20:on the hood:trackme
+tile:-60:-50:126:136:1:1:carpet10
+tile:-60:-58:130:132:1:2:wallsofa
+tile:-60:-58:130:132:2:2:plexi
+tile:-60:-58:130:130:1:5:wallsofa
+zone:-60:-57:129:133:1:6:near the driver's seat:trackme
+zone:-60:-58:130:132:1:6:driver's seat:trackme
+tile:-53:-50:130:132:1:2:wallcardboard
+tile:-53:-50:130:132:2:2:cloth
+tile:-53:-50:130:130:1:5:wallsofa
+zone:-54:-50:129:133:1:6:near the passenger seat:trackme
+zone:-53:-50:130:132:1:6:passenger seat:trackme
+tile:-60:-50:129:129:0:4:wallglass11
+tile:-60:-55:134:136:1:3:wallcomputer
+tile:-60:-55:134:136:3:3:synthetic
+zone:-60:-55:134:136:1:6:control panel:trackme
+tile:-59:-57:133:135:2:5:wallcone
+tile:-59:-58:133:134:3:4:air
+tile:-59:-58:133:134:3:3:synthetic
+zone:-59:-58:133:135:2:4:helm:trackme
+tile:-54:-51:133:136:2:4:wallcardboardbox
+tile:-54:-51:133:136:4:4:wood4
+zone:-54:-51:133:136:2:6:car chest:trackme
+zone:-54:-51:133:136:1:2:under the chest:trackme
+tile:-61:-61:130:133:0:4:wallcar
+zone:-62:-60:130:133:0:10:driver's door:trackme
+zone:-62:-62:130:130:0:10:door handle:trackme
+zone:-60:-60:133:133:1:6:door handle:trackme
+tile:-49:-49:130:133:0:4:wallcar:trackme
+zone:-50:-48:130:133:0:6:passenger door:trackme
+zone:-48:-48:130:130:0:10:door handle:trackme
+zone:-50:-50:133:133:0:6:door handle:trackme
+door:-60:-60:133:133:1:1:-62:130:0:':1000:silence.ogg:silence.ogg:door138open.ogg:doorclose32.ogg
+door:-62:-62:130:130:0:1:-60:131:2:`:1000:silence.ogg:silence.ogg:dooropen29.ogg:doorclose32.ogg
+door:-50:-50:133:133:1:2:-48:130:0:`:1000:silence.ogg:silence.ogg:dooropen28.ogg:door140close.ogg
+door:-48:-48:130:130:0:2:-50:131:2:`:1000:silence.ogg:silence.ogg:dooropen28.ogg:door140close.ogg
+tile:-60:-50:126:127:1:4:wallcardboard
+tile:-60:-50:126:127:4:4:synthetic
+zone:-60:-50:126:127:1:6:soft bench:trackme
+tile:-61:-61:125:128:0:4:wallcar
+zone:-62:-60:126:128:0:6:left back door:trackme
+tile:-49:-49:125:128:0:4:wallcar
+zone:-50:-48:125:128:0:6:right back door:trackme
+zone:-50:-50:128:128:1:6:door handle:trackme
+zone:-48:-48:125:125:0:10:door handle:trackme
+zone:-60:-60:128:128:1:6:door handle:trackme
+zone:-62:-62:125:125:0:10:door handle:trackme
+door:-62:-62:125:125:0:2:-60:126:4:`:1000:silence.ogg:silence.ogg:door141open.ogg:door148close.ogg
+door:-60:-60:128:128:1:2:-62:125:0:`:1000:silence.ogg:silence.ogg:dooropen61.ogg:door148close.ogg
+door:-50:-50:128:128:1:2:-48:125:0:`:1000:silence.ogg:silence.ogg:door140open.ogg:door166close.ogg
+door:-48:-48:125:125:0:2:-50:126:4:`:1000:silence.ogg:silence.ogg:door140open.ogg:door166close.ogg
+tile:-59:-59:133:135:2:5:wallcone
+door:65:65:-30:-30:1:1:-60:110:0:`:1000:silence.ogg:silence.ogg:crg.ogg:silence.ogg
+tile:31:31:10:15:60:90:wallwoodcrate
+tile:10:100:9:89:49:49:wallboat
+tile:19:19:10:15:60:90:wallwoodcrate:trackme
+tile:79:91:92:101:50:55:wallglass11
+tile:80:90:92:100:50:55:air
+tile:79:91:92:101:55:55:glass7
+tile:80:90:92:100:55:60:air
+tile:80:90:92:100:50:50:concrete36
+zone:79:91:92:101:55:80:balcony railings:trackme
+zone:80:90:92:100:50:80:on the balcony:trackme
+tile:80:85:89:91:50:60:air
+tile:80:85:89:90:50:50:carpet
+tile:80:85:91:91:50:70:wallglass8
+zone:80:85:89:90:50:70:near the balcony door:trackme
+zone:80:85:90:92:50:70:balcony doors:trackme
+zone:80:80:90:92:50:70:door handle:trackme
+door:80:80:90:90:50:60:80:92:50:':1000:silence.ogg:silence.ogg:door17open.ogg:door17close.ogg
+door:80:80:92:92:50:60:80:90:50:':1000:silence.ogg:silence.ogg:door17open.ogg:door17close.ogg
+src:80:90:92:100:50:70:0:100:wind8.ogg
+tile:80:90:92:100:49:49:wallboat
+tile:9:101:-1:8:50:70:wallfence8
+tile:10:100:0:8:50:70:air
+tile:10:100:0:8:50:50:marble2
+zone:10:100:0:9:50:70:on a large balcony:trackme
+tile:50:70:9:9:50:70:wallglass3
+zone:50:70:8:10:50:70:large transparent door:trackme
+zone:50:50:8:10:50:70:door handle:trackme
+door:50:50:10:10:50:60:50:8:50:you can see the whole city from here! at the foot of the fence, you can see unknown stairs leading in different directions:2000:silence.ogg:silence.ogg:open5.ogg:close5.ogg
+door:50:50:8:8:50:70:50:10:50:`:1000:silence.ogg:silence.ogg:open5.ogg:close5.ogg
+src:50:50:9:9:50:60:0:100:silence.ogg
+src:50:50:9:9:50:60:-10:87:doorloop4.ogg
+tile:30:40:0:0:30:50:marble5
+tile:30:40:-1:-1:30:40:air
+tile:30:40:-10:-1:30:30:marble4
+tile:30:40:-10:0:29:29:wallwoodcrate
+tile:30:40:1:8:30:49:wallbrick4
+tile:29:29:-10:0:30:49:wallwoodcrate
+tile:41:41:-10:0:30:40:wallwoodcrate
+tile:-50:50:-20:-10:20:20:marble2
+tile:30:40:-11:-11:21:30:marble7
+tile:-50:50:-10:-10:20:29:wallbrick2
+tile:-50:50:-19:-19:20:40:wallstone
+tile:-50:20:-16:-16:20:40:wallstone
+tile:-51:-51:-20:0:20:40:wallstone
+tile:-50:-19:-19:-17:21:50:air
+tile:-39:-29:-50:-19:20:30:wallstone
+tile:-38:-30:-50:-20:20:20:marble6
+tile:-38:-30:-19:-19:20:20:marble3
+tile:-38:-30:-50:-50:4:20:marble5
+tile:-40:-30:-49:-45:0:19:wallbrick4
+tile:-38:-30:-50:-20:21:30:air
+tile:40:50:-16:-16:20:40:wallstone
+tile:51:51:-19:-10:20:40:wallstone
+tile:51:56:-19:-16:20:30:wallstone
+tile:52:55:-18:-17:20:30:air
+tile:52:55:-18:-17:20:20:marble6
+tile:51:51:-18:-17:20:20:marble3
+tile:53:56:-50:-20:20:30:wallstone
+tile:54:55:-50:-19:20:20:marble6
+tile:54:55:-50:-20:21:30:air
+tile:54:55:-50:-50:0:20:marble7
+tile:50:80:-49:-45:0:19:wallbrick4
+zone:-50:50:-19:-1:20:50:lower stair area:trackme
+zone:-50:20:-19:-16:20:50:the western opening of the stairwell:trackme
+zone:-38:-30:-50:-19:20:50:marble road leading to troyanda street:trackme
+zone:-38:-30:-50:-50:0:50:marble stairs:trackme
+zone:51:55:-19:-16:20:50:the eastern opening of the stairwell:trackme
+zone:54:55:-50:-19:20:50:marble road leading to moren street:trackme
+zone:54:56:-50:-50:0:50:marble stairs:trackme
+tile:30:40:-11:-11:20:20:marble5
+zone:30:40:-10:0:30:50:upper staircase area:trackme
+zone:30:40:0:0:30:70:unknown marble stairs:trackme
+zone:30:40:-11:-11:20:50:stairs leading further down:trackme
+tile:29:29:-15:-11:30:50:wallwoodcrate
+tile:41:41:-15:-11:30:50:wallwoodcrate
+tile:49:101:-199:-190:-50:-30:wallborder
+tile:50:100:-198:-191:-50:-40:air
+tile:50:100:-198:-191:-50:-50:cavegrounds2
+zone:50:100:-199:-190:-50:-40:Prison:trackme
+tile:60:60:-190:-190:-50:-40:wallcelle
+zone:60:60:-191:-189:-50:-40:prison door:trackme
+door:60:60:-189:-189:-50:-30:60:-191:-50:':1000:silence.ogg:silence.ogg:tp11.ogg:tp10.ogg
+door:60:60:-191:-191:-50:-40:60:-189:-50:`:1000:silence.ogg:silence.ogg:tp11.ogg:tp10.ogg
+src:50:100:-199:-190:-50:-30:0:100:cave.ogg
+tile:50:100:-198:-195:-50:-48:wallmetal
+tile:50:100:-198:-195:-48:-48:metal
+zone:50:100:-199:-195:-50:-20:a metal bench:trackme
+tile:-50:-20:-180:-150:0:50:wallbuilding4
+zone:-51:-19:-181:-149:0:50:near the club building:trackme
+owner:troyenda
+tile:-35:-35:-180:-180:0:10:walldoor:trackme
+travelpoint:-35:-35:-181:-181:0:10:nightclub:50:0:0:welcome to the club:shortdoorsnd7.ogg:opend2.ogg:close2.ogg
+zone:-35:-35:-181:-181:0:10:club door:trackme
+tile:49:61:49:61:0:10:wallmetal19
+tile:50:60:49:60:0:9:air
+tile:50:60:49:60:0:0:metal5
+zone:50:60:49:60:0:10:elevator to the second floor:trackme
+zone:55:55:60:60:0:10:button:trackme
+tile:55:55:60:60:0:0:generic
+tile:51:60:50:61:50:70:wallmetal19
+tile:52:59:50:59:50:69:air
+tile:52:59:50:60:50:50:metal5
+zone:50:60:50:60:50:70:elevator to the first floor:trackme
+tile:52:59:60:60:51:69:air
+zone:55:55:60:60:50:60:button:trackme
+tile:55:55:60:60:50:50:generic
+door:55:55:60:60:50:55:55:60:0:`:100:silence.ogg:silence.ogg:tp9.ogg:doorclose61.ogg
+door:20:20:8:8:0:10:20:10:0:welcome:2000:silence.ogg:silence.ogg:door55open.ogg:door55close.ogg
+door:20:20:10:10:0:10:20:8:0:.:2000:silence.ogg:silence.ogg:door55open.ogg:door55close.ogg
+zone:10:10:-9:-3:0:20:Road to a cottage:trackme
+zone:10:10:-2:-1:0:20:gate:trackme
+door:5:6:7:7:207:207:5:40:200:...:1500:silence.ogg:silence.ogg:tp43.ogg:pazzleok.ogg
+
+owner:gemer
+owner:troyanda

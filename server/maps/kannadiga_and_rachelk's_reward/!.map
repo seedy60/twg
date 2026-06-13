@@ -1,0 +1,216 @@
+mapname:kannadiga_and_rachelk's_reward
+minx:0
+maxx:11
+miny:0
+maxy:11
+minz:0
+maxz:10
+tile:0:11:0:11:0:0:cement
+litem:1
+deathpoint:0:30:0:30:0:0
+night:none.ogg
+zone:0:11:0:11:0:10:kannadiga and Rachel's_reward
+safezone:0:11:0:11:0:10
+zone:0:0:10:10:0:10:press shift enter to go back.:trackme
+itdoor:2:2:5:5:0:0:2:5:5:Thank you. please take your reward:corpse_of_rabbit:10:10:silence.ogg:silence.ogg:silence.ogg:warp.ogg
+tile:2:2:5:5:5:5:wall
+zone:2:2:5:5:0:0:Press enter to deliver rabbit corpse:trackme
+igdoor:2:2:5:5:5:5:2:5:0:You have got 20000 coins for delivering these corpses:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:1:5:5:5:5:5:wall
+tile:3:3:5:5:5:5:wall
+tile:2:2:4:4:5:5:wall
+tile:2:2:6:6:5:5:wall
+starting_point:0:0:0:0:0:0
+itdoor:5:5:5:5:0:0:5:5:5:Thank you. Please claim your reward.:corpse_of_guinea_pig:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+zone:5:5:5:5:0:0:Press enter to deliver guinea Pig Corpse:trackme
+igdoor:5:5:5:5:5:5:5:5:0:You have got 20000 coins for delivering these corpses.:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:drawcoins.ogg
+tile:5:5:6:6:5:5:wall
+tile:6:6:5:5:5:5:wall
+tile:5:5:4:4:5:5:wall
+itdoor:8:8:5:5:0:0:8:5:5:Thank you. Please take your reward:corpse_of_frog:20:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:8:8:5:5:5:5:8:5:0:You have got 20000 coins for delivering these corpses:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:7:7:5:5:5:5:wall
+tile:8:8:5:5:5:5:wall
+tile:8:8:6:6:5:5:wall
+tile:8:8:4:4:5:5:wall
+tile:9:9:5:5:5:5:wall
+itdoor:2:2:7:7:0:0:2:7:5:Thank you. Please claim your reward.:corpse_of_hen:20:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:2:2:7:7:5:5:2:7:0:Congratulations. You now have 20000 more coins.:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:1:1:7:7:5:5:wall
+zone:2:2:7:7:0:0:Press enter to deliver hen corpses:trackme
+zone:8:8:5:5:0:0:Press enter to deliver frog corpses:trackme
+tile:3:3:0:0:5:5:wall
+tile:2:2:8:8:5:5:wall
+tile:2:2:6:6:5:5:wall
+tile:2:2:7:7:5:5:wall
+tile:3:3:7:7:5:5:wall
+itdoor:5:5:7:7:0:0:5:7:5:Thank you for delivering these corpses:corpse_of_duck:20:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+tile:5:5:7:7:5:5:wall
+igdoor:5:5:7:7:5:5:5:7:0:congratulations! you have now got 20000 more coins.:coins:20000:10:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+tile:4:4:7:7:5:5:wall
+tile:6:6:7:7:5:5:wall
+wind:none.ogg
+tile:5:5:8:8:5:5:wall
+itdoor:7:7:7:7:0:0:7:7:5:Thank you for delivering these corpses:corpse_of_goose:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:7:7:7:7:5:5:7:7:0:Congratulations. Take 20000 coins:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:7:7:7:7:5:5:wall
+tile:7:7:6:6:5:5:wall
+tile:8:8:7:7:5:5:wall
+tile:7:7:8:8:5:5:wall
+zone:7:7:7:7:0:4:press enter to deliver goose corpses:trackme
+itdoor:4:4:7:7:0:0:4:7:5:Thank you very much.:lamb:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:4:4:7:7:5:5:4:7:0:Congratulations, take 30000 coins for your effort:coins:30000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:6:6:7:7:5:5:wall
+tile:4:4:8:8:5:5:wall
+tile:4:4:6:6:5:5:wall
+zone:4:4:7:7:0:0:Press enter to deliver lamb corpses:trackme
+zone:10:10:5:5:0:0:Press enter to deliver snake corpses:trackme
+tile:10:10:4:4:5:5:wall
+tile:10:10:6:6:5:5:wall
+owner:Kannadiga
+sign:0:0:0:0:0:0:Oh hello there %name%, Kannadiga and RachelK would like to welcome you to our reward centre. Here, we collect your disgusting corpses, while you collect coins! Sounds like a great deal? Well why don't you go ahead and deposit the corpses in the appropriate places. Simply track where you need to go with shift grov, go there, and press enter. Easy right?! Enjoy the rewards!:silence.ogg
+zone:0:0:0:0:0:10:welcome sign.
+tile:9:9:5:5:5:5:wall
+tile:10:10:10:10:5:5:wall
+tile:10:10:9:9:5:5:wall
+itdoor:10:10:5:5:0:0:10:5:5:Thank you. please take your reward.:corpse_of_snake:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:10:10:5:5:5:5:10:5:0:here's your reward of 20000 coins:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:10:10:5:5:5:5:wall
+tile:11:11:5:5:5:5:wall
+owner:RachelK
+itdoor:4:4:3:3:0:0:4:3:10:Thank you %n, Please claim your reward:corpse_of_insane_blaster:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+zone:4:4:3:3:0:0:Press enter to deliver Insane Blaster corpse:trackme
+igdoor:4:4:3:3:10:10:4:3:0:Here's 20000 coins for your effort:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:3:4:3:3:10:10:wall
+tile:3:3:3:3:10:10:wall
+tile:4:4:4:4:10:10:wall
+tile:4:4:2:2:10:10:wall
+tile:5:5:3:3:10:10:wall
+itdoor:6:6:3:3:0:0:6:3:10:'thanks for delivering these corpses:corpse_of_sheep:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:6:6:3:3:10:10:5:3:0:Here's 10000 coins:coins:10000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:6:6:2:2:10:10:wall
+tile:6:6:4:4:10:10:wall
+zone:6:6:3:3:0:0:Press enter to deliver sheep corpse:trackme
+tile:6:6:3:3:10:10:wall
+itdoor:8:8:3:3:0:0:8:3:10:Thanks so much!:corpse_of_cow:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:8:8:3:3:10:10:8:3:0:Here's 20000 coins, thanks.:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:9:9:3:3:10:10:wall
+zone:8:8:3:3:0:0:press enter to deliver corpse of cow:trackme
+tile:8:8:3:3:10:10:wall:trackme
+tile:9:9:3:3:10:10:wall
+tile:8:8:2:2:10:10:wall
+tile:7:7:3:3:10:10:wall
+zone:10:10:3:3:0:0:Press Enter to deliver lion corpse:trackme
+itdoor:10:10:3:3:0:0:10:3:10:Thanks for delivering these lions:corpse_of_lion:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:10:10:3:3:10:10:10:3:0:Take 20000 coins for your effort:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:11:11:3:3:10:10:wall
+tile:10:10:2:2:10:10:wall
+tile:10:10:4:4:10:10:wall
+tile:10:10:3:3:10:10:wall
+zone:1:1:9:9:0:0:Press enter to deliver your horse corpses:trackme
+itdoor:1:1:9:9:0:0:1:9:10:Thank you so much!:corpse_of_horse:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:1:1:9:9:10:10:1:9:0:Here's 20000 coins for your effort:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:1:1:9:9:10:10:wall
+tile:0:0:9:9:10:10:wall
+tile:2:2:9:9:10:10:wall
+tile:1:1:10:10:10:10:wall
+tile:1:1:8:8:10:10:wall
+zone:3:3:9:9:0:0:Press enter to deliver your bear corpses:trackme
+itdoor:3:3:9:9:0:0:3:9:10:Thanks for these!:corpse_of_bear:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:3:3:9:9:10:10:3:9:0:Here's your reward:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:3:3:9:9:10:10:wall:trackme
+tile:3:3:10:10:10:10:wall
+itdoor:10:10:7:7:0:5:10:7:10:great! here is your reward.:corpse_of_polar_bear:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+tile:4:4:9:9:10:10:wall
+tile:3:3:8:8:10:10:wall
+tile:10:10:7:7:10:10:wall
+zone:5:5:9:9:0:0:Press enter to deliver your tiger corpses:trackme
+itdoor:5:5:9:9:0:0:5:9:10:Thanks for delivering these tiger corpses:corpse_of_tiger:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:5:5:9:9:10:10:5:9:0:Here's your reward:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:5:5:9:9:10:10:wall
+tile:5:5:8:8:10:10:wall
+tile:6:6:9:9:10:10:wall
+zone:7:7:9:9:0:0:Press enter to deliver your leopard corpses:trackme
+itdoor:7:7:9:9:0:0:7:9:10:Thank you for your leopard corpses:corpse_of_leopard:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+tile:11:11:7:7:10:10:wall
+tile:9:9:7:7:10:10:wallboat
+igdoor:10:10:7:7:10:10:10:7:0:thanks for delivering these corpse. here is your  reward 20000:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+zone:10:10:7:7:0:5:press enter to deliver polar_bear corpse.:trackme
+igdoor:7:7:9:9:10:10:7:9:0:Here's 20000 coins for your effort:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:12:12:6:6:10:10:wall
+tile:7:7:9:9:10:10:wall
+tile:11:11:6:6:10:10:wall
+tile:7:7:10:10:10:10:wall:trackme
+tile:13:13:6:6:10:10:wall
+tile:8:8:9:9:10:10:wall
+itdoor:12:12:6:6:0:5:12:6:10:thanks for delivering these corpses please get your reward.:corpse_of_elephant:20:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:12:12:6:6:10:10:12:6:0:here is your reward as expected. 100000 coins:coins:100000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+zone:12:12:6:6:0:5:press enter to deliver elephant corpses.:trackme
+tile:12:12:7:7:10:10:wall
+zone:9:9:9:9:0:0:Press enter to deliver goat corpses:trackme
+tile:12:12:5:5:10:10:wall
+itdoor:9:9:9:9:0:0:9:9:10:Thanks for the goat corpses:corpse_of_goat:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+tile:10:10:8:8:10:10:wall
+tile:10:10:6:6:10:10:wall
+igdoor:9:9:9:9:10:10:9:9:0:Here's 20000 coins for your effort:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:9:9:9:9:10:10:wall
+tile:9:9:10:10:10:10:wall
+tile:9:9:8:8:10:10:wall
+tile:10:10:9:9:10:10:wall
+tile:3:3:11:11:10:10:wall
+tile:3:3:12:12:10:10:wallboat
+zone:1:1:11:11:0:0:Press enter to deliver boar corpses:trackme
+itdoor:1:1:11:11:0:0:1:11:10:Thanks for these boar corpses:corpse_of_boar:10000:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+tile:4:4:11:11:10:10:wall
+tile:2:2:11:11:10:10:wallboat
+igdoor:1:1:11:11:10:10:1:11:0:Here's 20000 coins for your effort:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:1:1:11:11:10:10:wall
+tile:0:0:11:11:10:10:wall:trackme
+tile:1:1:12:12:10:10:wall
+itdoor:3:3:11:11:0:5:3:11:10:grate! now get your reward.:corpse_of_pig:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+zone:3:3:11:11:0:0:Press enter to deliver corpse of pig:trackme
+igdoor:3:3:11:11:10:10:3:11:0:here is your reward 20000:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+zone:5:5:11:11:0:0:Press enter to deliver your coyote corpses:trackme
+igdoor:5:5:11:11:10:10:5:11:0:Please take 20000 coins for your work!:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:5:5:11:11:10:10:wall
+tile:6:6:11:11:10:10:wall
+tile:5:5:10:10:10:10:wall
+tile:5:5:12:12:10:10:wall
+itdoor:5:5:11:11:0:0:5:11:10:Thanks for these corpses:coyote:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+zone:7:7:11:11:0:0:Press enter to deliver your shark corpses:trackme
+tile:7:7:11:11:10:10:wall
+tile:8:8:11:11:10:10:wall
+tile:7:7:12:12:10:10:wall
+itdoor:7:7:11:11:0:5:7:11:10:thanks for delivering these corpses.:corpse_of_shark:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:7:7:11:11:10:10:7:11:0:here is your reward. 20000 coins.:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+zone:9:9:11:11:0:0:Press enter to deliver your fish:trackme
+itdoor:9:9:11:11:0:0:9:11:10:Thanks for delivering your Fish!:fish:30:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+tile:9:9:11:11:10:10:wall
+igdoor:9:9:11:11:10:10:9:11:0:Take 10000 coins for your effort:coins:10000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+zone:1:1:13:13:0:0:Press enter to deliver your Gorilla corpses:trackme
+itdoor:1:1:13:13:0:0:1:13:10:Thanks for your Gorilla corpses; well done!:corpse_of_gorilla:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:1:1:13:13:10:10:1:13:0:Takes 20000 coins for your effort:coins:20000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:1:1:13:13:10:10:wall
+tile:0:0:13:13:10:10:wall
+tile:2:2:13:13:10:10:wall
+tile:1:1:14:14:10:10:wall
+music:0:11:0:11:0:10:-6:100:musical1.ogg
+travelpoint:0:0:10:10:0:10:lindow_town:1:300:0:exiting back.:silence.ogg:door19open.ogg:silence.ogg
+zone:4:4:1:1:0:0:Press enter to deliver your soldier corpses:trackme
+itdoor:4:4:1:1:0:0:4:1:10:Thanks for your soldier corpses; good job!:corpse_of_soldier:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:4:4:1:1:10:10:4:1:0:Here's 20000 coins for your amazing work!:coins:20000:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+tile:4:4:1:1:10:10:wall
+tile:5:5:1:1:10:10:wall
+tile:3:3:1:1:10:10:wall
+tile:4:4:0:0:10:10:wall
+zone:6:6:1:1:0:0:Press enter to deliver your duck corpses:trackme
+itdoor:6:6:1:1:0:0:6:1:10:Thanks for delivering your duck corpses:corpse_of_duck:10:10:silence.ogg:silence.ogg:warp.ogg:silence.ogg
+igdoor:6:6:1:1:10:10:6:1:0:Here's 10000 coins for your work:coins:10000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+tile:6:6:1:1:10:10:wall
+tile:7:7:1:1:10:10:wall
+tile:6:6:0:0:10:10:wall
+itdoor:11:11:11:11:0:0:11:11:5:Thank you for delivering these corpses. Here is your reward, 50000 coins:corpse_of_vampire:10:100:silence.ogg:warp.ogg:silence.ogg:silence.ogg
+igdoor:11:11:11:11:5:5:11:11:0:You receive 50000 coins for delivering these corpses.:coins:50000:100:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+zone:11:11:11:11:0:0:Press enter to deliver your vampire corpses.:trackme
+tile:11:11:11:11:5:5:wall
+zone:11:11:11:11:5:5:Press enter to receive your reward.

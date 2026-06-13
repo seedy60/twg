@@ -1,0 +1,13 @@
+mapname:littlehouse
+minx:1
+maxx:100
+miny:0
+maxy:0
+minz:1
+maxz:100
+tile:1:100:0:0:0:0:carpet
+litem:0
+starting_point:1:100:0:0:0:0
+deathpoint:1:100:0:0:0:0
+enable:2dsupport
+enable:2dsupport

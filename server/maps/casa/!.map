@@ -1,0 +1,126 @@
+mapname:casa
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:10
+tile:0:100:0:100:0:0:marble6
+owner:Bess
+litem:1
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+night:none.ogg
+zone:0:100:0:100:0:10:casa domnului profesor:trackme
+tile:60:100:5:45:0:0:carpet3:trackme
+zone:60:100:5:45:0:0:sufrageria:trackme
+tile:60:100:46:70:0:0:marble2:trackme
+zone:60:100:46:70:0:0:bucataria:trackme
+tile:60:100:71:100:0:0:carpet2:trackme
+zone:60:100:71:100:0:0:biroul pentru meditatii:trackme
+zone:45:59:0:100:0:0:holul:trackme
+tile:0:44:50:100:0:0:carpet9:trackme
+zone:0:44:50:100:0:0:cuibusorul de nebunii al domnului profesor:trackme
+tile:0:44:24:49:0:0:ceramic2:trackme
+zone:0:44:24:49:0:0:baia:trackme
+tile:0:100:0:4:0:0:cement4:trackme
+zone:0:100:0:4:0:0:intrarea in casa domnului profesor:trackme
+tile:44:44:5:23:0:0:chair:trackme
+zone:44:44:5:23:0:0:niste scaune de bar:trackme
+tile:35:42:5:23:0:2:walltable2:trackme
+tile:35:42:5:23:2:2:wood4:trackme
+zone:43:43:5:23:0:0:langa o masa de bar:trackme
+zone:35:42:5:23:2:2:o masa de bar plina cu bauturi:trackme
+tile:0:44:90:100:0:0:marble7:trackme
+zone:0:44:90:100:0:0:balcon:trackme
+src:0:44:90:100:0:0:0:100:birds.ogg:1
+tile:60:100:5:5:0:10:wallbrick4:trackme
+tile:60:100:45:45:0:10:wallbrick4:trackme
+tile:45:100:100:100:0:10:wallbrick4:trackme
+tile:60:100:71:71:0:10:wallbrick4:trackme
+night:none.ogg
+tile:90:100:34:44:1:1:carpet9:trackme
+tile:90:100:34:44:0:1:wallcloth:trackme
+tile:90:100:34:44:1:1:carpet9:trackme
+zone:90:100:34:44:1:1:o canapea sexy:trackme
+zone:90:100:33:33:0:0:langa o canapea:trackme
+tile:90:95:25:30:0:1:walltable:trackme
+tile:90:95:25:30:1:1:wood19:trackme
+zone:90:95:25:30:1:1:o masa de cafea:trackme
+tile:100:100:6:32:0:2:wallfurniture:trackme
+zone:99:99:6:32:0:0:un dulap mare:trackme
+tile:61:66:6:11:0:1:wallsofa:trackme
+tile:61:66:6:11:1:1:carpet9:trackme
+zone:61:66:6:11:1:1:un fotoliu utulizat cam des in timpul meditatiilor:trackme
+zone:61:66:12:12:0:0:langa un fotoliu:trackme
+tile:0:44:49:49:0:5:wallbrick4:trackme
+tile:0:44:24:24:0:5:wallbrick4:trackme
+tile:0:44:5:5:0:5:wallbrick4:trackme
+tile:0:0:25:48:0:5:wallbrick4:trackme
+tile:44:44:90:100:0:5:wallbrick:trackme
+tile:0:43:100:100:0:5:wallglass:trackme
+tile:0:43:100:100:0:10:wallglass:trackme
+tile:0:0:90:100:0:10:wallbrick:trackme
+tile:100:100:72:99:0:10:wallbrick4:trackme
+clock:99:99:85:85:0:1:emptyeste timpul pentru meditatii
+zone:98:98:85:85:0:0:langa un ceas care mereu arata ora exacta:trackme
+tile:99:99:85:85:1:1:wood19:trackme
+zone:99:99:85:85:1:1:un ceas:trackme
+src:99:99:85:85:0:1:0:100:clock3.ogg:1
+tile:90:99:90:99:0:1:walldesk3:trackme
+tile:90:99:90:99:1:1:wood14:trackme
+zone:90:99:89:99:0:0:langa un birou:trackme
+zone:90:99:91:99:1:1:pe biroul plin de hartii al domnului profesor:trackme
+tile:95:99:95:99:1:1:paper:trackme
+owner:hankfrost
+owner:HankFrost
+tile:45:45:25:48:0:10:walltable:trackme
+door:44:44:28:28:0:0:46:28:0:Du-te sa mai faci pacate ca sa ai de ce sa te mai speli pe maini ca ai facutpacate:1200:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+door:46:46:28:28:0:0:44:28:0:Du-te sa te speli pe maini ca ai facut pacate:1200:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+zone:46:46:28:28:0:0:Usa catre intrarea in baie:trackme
+zone:44:44:28:28:0:0:Usa catre iesirea din baie:trackme
+tile:46:46:28:28:0:0:cloth:trackme
+tile:44:44:28:28:0:0:cloth:trackme
+toilet:1:3:45:48:1:1
+tile:1:3:45:48:0:1:walldiamond:trackme
+tile:1:3:45:48:1:1:diamond:trackme
+zone:1:3:45:48:1:1:toaleta:trackme
+zone:1:3:44:44:0:0:in fata toaletei:trackme
+washbasin:15:20:45:48:0:1
+tile:15:20:45:48:0:1:wallbrick:trackme
+tile:15:20:45:48:1:1:ceramic3:trackme
+rain:none.ogg
+wind:none.ogg
+tile:60:60:6:20:0:10:wallbrick4:trackme
+door:59:59:21:25:0:5:61:21:0:mergi in sufrageria domnului profesor:1200:silence.ogg:door3.ogg:silence.ogg:close4.ogg
+tile:60:60:21:24:0:10:wallglass6:trackme
+door:61:61:21:24:0:10:59:21:0:mergi pe holul casei:1200:silence.ogg:door1.ogg:silence.ogg:close4.ogg
+zone:59:61:21:24:0:10:usa:trackme
+tile:60:60:25:44:0:10:wallbrick4:trackme
+tile:60:60:72:83:0:10:wallbrick4:trackme
+tile:60:60:87:99:0:10:wallbrick4:trackme
+door:59:60:84:86:0:10:61:84:0:mergi in biroul domnului profesor, pentru meditatii:1500:silence.ogg:silence.ogg:door2open.ogg:door4close.ogg
+tile:60:60:84:86:0:10:wallgeneric2:trackme
+door:61:61:84:86:0:10:59:84:0:iesi din birou, inapoi pe hol:1500:silence.ogg:silence.ogg:door2open.ogg:door4close.ogg
+zone:61:61:84:86:0:10:usa inapoi pe hol:trackme
+zone:59:59:84:86:0:10:intrarea in biroul domnului profesor:trackme
+tile:95:100:46:70:0:2:wallcounter:trackme
+tile:95:100:46:70:2:2:marble2:trackme
+zone:94:94:46:70:0:0:langa un blat de bucatarie:trackme
+zone:95:100:46:70:2:2:pe blatul de bucatarie:trackme
+washbasin:95:100:68:70:0:2
+tile:95:100:68:70:2:2:glass:trackme
+zone:94:94:68:70:0:0:langa chiuveta
+zone:95:100:68:70:2:2:chiuveta:trackme
+oven:95:100:46:50:2:2
+tile:95:100:46:50:2:2:metal11:trackme
+zone:95:100:46:50:2:2:cuptor:trackme
+zone:94:94:46:50:0:0:in fata cuptorului:trackme
+tile:60:60:46:58:0:10:wallbrick4:trackme
+tile:60:60:65:70:0:10:wallbrick4:trackme
+door:59:59:59:64:0:10:61:59:0:intrii in bucatarie:1500:silence.ogg:silence.ogg:open4.ogg:close4.ogg
+door:61:61:59:64:0:10:59:59:0:iesi din bucatarie:1500:silence.ogg:silence.ogg:open4.ogg:close4.ogg
+tile:60:61:59:64:0:10:wallgeneric2
+
+zone:59:59:59:64:0:10:usa bucatariei:trackme
+zone:61:61:59:64:0:10:usa inapoi pe hol:trackme

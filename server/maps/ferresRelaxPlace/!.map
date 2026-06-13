@@ -1,0 +1,16 @@
+mapname:ferresRelaxPlace
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:100:0:0:0:0:concrete
+owner:ferre
+litem:0
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+night:none.ogg
+owner:landon205
+rain:none.ogg

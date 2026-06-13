@@ -1,0 +1,31 @@
+mapname:wheat_field
+minx:-1
+maxx:101
+miny:-1
+maxy:101
+minz:0
+maxz:100
+tile:-1:101:-1:101:0:0:grass4
+owner:owlinor
+litem:1
+starting_point:0:150:0:200:0:0
+deathpoint:0:150:0:200:0:0
+zone:0:100:0:100:0:100:wheat field
+src:0:100:0:100:0:100:0:100:birds7.ogg
+zone:0:0:0:200:0:200:Main forest. Press shift enter to continue.
+item:0:100:0:100:0:0:30000:20:corn:wheat
+item_usage_restriction:0:2000:0:200:0:200:conex:partner_house:beehive:small_conex:locker:fridge:microwave:air_conditioner:fan
+rain:rain3.ogg
+wind:wind7.ogg
+night:none.ogg
+enable:coordinates
+travelpoint:100:100:50:50:0:0:main:199:0:0: :silence.ogg:silence.ogg:silence.ogg
+zone:100:100:50:50:0:0:press shift enter to continue to main forest.:trackme
+travelpoint:0:0:50:50:0:0:country_road2:1:0:0:you came to country side area.:silence.ogg:silence.ogg:silence.ogg
+zone:0:0:50:50:0:0:country side area. press shift enter to continue.:trackme
+reinforcement:0:10000000
+tile:-1:101:-1:-1:0:100:wall
+tile:-1:-1:-1:101:0:100:wall
+tile:101:101:-1:101:0:100:wall
+tile:-1:101:101:101:0:100:wall
+music:-1:101:-1:101:0:100:-14:100:menumus40.ogg

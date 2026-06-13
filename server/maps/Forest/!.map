@@ -1,0 +1,21 @@
+mapname:Forest
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:50
+tile:0:100:0:100:0:0:grass5
+owner:Bess
+litem:1
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+zone:0:100:0:100:0:50:Padurea lui Sebicu:trackme
+src:0:100:0:100:0:50:0:107:a1.ogg:1
+tile:10:12:15:17:0:20:tree:trackme
+zone:10:12:15:17:0:20:Un copac mare, daca ai cazut de aici ai halit cabanusul:trackme
+
+sign:0:0:0:0:0:0:padurea linistita a lui Sebicu:sign.ogg
+zone:0:0:0:0:0:0:hai citeste nu fii naspa:trackme
+tile:5:7:5:7:0:7:tree
+zone:5:7:5:7:0:7:un copac cu flori:trackme

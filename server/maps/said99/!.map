@@ -1,0 +1,244 @@
+mapname:said99
+minx:0
+maxx:100000
+miny:0
+maxy:100000
+minz:-500
+maxz:500
+tile:0:10000:0:10000:0:0:grass3
+litem:1
+deathpoint:0:1000:0:1000:0:0
+src:0:1000:0:1000:0:20:0:131:birds15.ogg:1
+zone:0:10000:0:10000:0:500:anas99
+tile:5000:5500:5000:5500:0:0:shortgrass
+tile:5000:5500:5000:5500:0:0:shortgrass
+zone:5000:5500:5000:5500:0:20:the island
+music:5000:5500:5000:5500:0:0:0:90:music_level_5.ogg
+tile:5200:5250:5200:5250:0:0:water10
+tile:5200:5250:5200:5250:-20:-1:underwater
+src:5200:5250:5200:5250:-20:-1:0:100:underwaterair.ogg:1
+zone:5200:5250:5200:5250:-20:0:the pond
+tile:5495:5500:5000:5500:0:0:dirt9
+tile:5501:5501:5000:5500:0:19:walldirt
+tile:5500:5500:5000:5500:0:20:gravel8
+tile:5501:5506:5000:5500:20:20:gravel11
+tile:5507:5507:5000:5500:20:39:walldirt
+tile:5506:5506:5000:5500:20:40:stone2
+litem:1
+tile:5507:5507:5000:5500:40:40:stone4
+tile:5513:5514:5000:5500:40:40:gravel2
+tile:5515:5515:5000:5500:40:59:walldirt
+tile:5514:5514:5000:5500:40:60:sand
+tile:5515:5517:5000:5500:60:60:sand
+tile:5518:5518:5000:5500:60:89:walldirt
+tile:5517:5517:5000:5500:60:90:gravel5
+tile:5517:5519:5000:5500:90:90:gravel
+tile:5520:5520:5000:5500:90:119:walldirt
+tile:5519:5519:5000:5500:90:120:snow
+tile:5521:5550:5000:5500:120:120:snow5
+music:5490:5550:5000:5500:0:130:0:90:musicepic1.ogg
+src:5495:5550:5000:5500:0:130:0:90:highmountain.ogg
+tile:5200:5230:4400:4999:0:0:concrete6
+itdoor:5200:5230:4999:4999:0:0:5215:4997:0:ok:coins:1000:0:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+tile:5200:5230:4998:4998:0:20:wallboat
+tile:5200:5200:4800:4999:0:20:wallboat
+tile:5230:5230:4800:4999:0:20:wallboat
+tile:5000:5199:4999:4999:0:20:wallboat
+zone:5200:5230:4999:4999:0:20:Click Inter to open the road door and pay 1000
+zone:5200:5230:4400:4999:0:20:astreet
+automover:5200:5230:4990:4990:0:20:5215:4600:0:go:100:silence.ogg:doormove9.ogg:accelerate20.ogg:decelerate9.ogg
+tile:5190:5199:4600:4610:0:0:concrete3
+tile:5190:5199:4600:4600:0:20:wallwood19
+tile:5190:5199:4610:4610:0:20:wallwood19
+tile:5199:5199:4601:4609:0:20:wallwood19
+tile:5190:5190:4601:4610:0:20:wallwood19
+door:5200:5200:4605:4605:0:10:5198:4605:0: :0:silence.ogg:door1.ogg:door4open.ogg:door4close.ogg
+music:5191:5198:4601:4610:0:20:0:100:menumus43.ogg
+door:5198:5198:4605:4605:0:20:5200:4605:0: :0:silence.ogg:door7.ogg:door4open.ogg:door4close.ogg
+zone:5200:5200:4605:4605:0:20:Gift door
+automover:5199:5199:4599:4599:0:20:5215:4999:0:ok:100:silence.ogg:doormove9.ogg:accelerate1.ogg:decelerate1.ogg
+starting_point:5200:5200:5200:5200:0:0
+tile:5250:5300:4600:4650:0:0:carpet
+tile:5250:5250:4600:4650:0:60:wallwood19
+tile:5250:5300:4600:4600:0:60:wallwood19
+tile:5250:5300:4650:4650:0:60:wallwood19
+tile:5300:5300:4600:4650:0:60:wallwood19
+src:0:1000:0:1000:0:20:0:107:birds6.ogg:1
+automover:0:0:0:0:0:0:5200:5200:0:go:10:snowmobile.ogg:doormove9.ogg:accelerate2.ogg:decelerate2.ogg
+tile:5200:5250:5199:5199:-20:-1:walldirt
+tile:5251:5251:5200:5250:-20:-1:walldirt
+tile:5200:5250:5251:5251:-20:-1:walldirt
+src:5000:5500:5000:5500:0:20:0:111:birds2.ogg:1
+tile:5231:5249:4600:4650:0:0:concrete3
+zone:5231:5249:4600:4650:0:10:In front of the hotel
+tile:5249:5249:4625:4625:0:0:carpet5
+itdoor:5249:5249:4625:4625:0:10:5251:4625:0:go:coins:1000:0:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+door:5251:5251:4625:4625:0:10:5249:4625:3: :0:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:5251:5260:4615:4615:0:60:wallwood19
+tile:5251:5251:4625:4625:0:0:carpet5
+tile:5260:5260:4615:4630:0:60:wallwood19
+tile:5251:5259:4630:4630:0:60:wallwood19
+tile:5250:5250:4625:4625:0:30:wallwooddoor
+zone:5251:5259:4616:4629:0:10:Hotel reception room
+music:5251:5259:4616:4629:0:10:0:97:musiccalm9.ogg:1
+tile:5251:5259:4616:4616:0:2:cloth
+tile:5259:5259:4624:4626:0:0:carpet5
+door:5259:5259:4624:4626:0:0:5261:4625:3: :0:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:5260:5260:4624:4626:0:10:wallwooddoor
+door:5261:5261:4624:4626:0:10:5259:4625:3: :0:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:5261:5280:4622:4622:0:20:wallwood19
+tile:5261:5280:4627:4627:0:20:wallwood19
+tile:5281:5283:4649:4649:0:20:carpet3
+tile:5280:5280:4628:4649:0:20:wallwood19
+tile:5284:5284:4628:4649:0:20:wallwood19
+tile:5284:5284:4601:4621:0:20:wallwood19
+tile:5280:5280:4601:4621:0:20:wallwood19
+tile:5284:5299:4622:4622:0:20:wallwood19
+tile:5285:5299:4628:4628:0:20:wallwood19
+zone:5281:5283:4628:4649:0:19:Northern corridor
+zone:5281:5283:4601:4622:0:19:Southern Corridor
+tile:5283:5283:4635:4635:0:0:carpet5
+zone:5283:5283:4635:4635:0:19:Kitchen door
+door:5283:5283:4635:4635:0:19:5285:4635:2: :0:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+zone:5285:5299:4629:4649:0:19:the kitchen
+oven:5297:5299:4629:4631:0:0
+tile:5297:5299:4629:4631:0:0:metal6
+src:5297:5299:4629:4631:0:0:0:106:fire3.ogg
+washbasin:5297:5299:4647:4649:0:0
+tile:5297:5299:4647:4649:0:0:water
+zone:5297:5299:4647:4649:0:19:washbasin
+zone:5297:5299:4629:4631:0:19:the Oven
+tile:5285:5285:4635:4635:0:0:carpet5
+door:5285:5285:4635:4635:0:19:5283:4635:2: :0:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:5281:5283:4601:4601:0:20:carpet3
+tile:5251:5299:4601:4649:20:20:carpet2
+tile:5280:5280:4627:4649:20:40:wallwood19
+tile:5280:5280:4601:4623:20:40:wallwood19
+tile:5251:5279:4622:4623:20:40:wallwood19
+tile:5251:5279:4627:4627:20:40:wallwood19
+tile:5284:5284:4601:4623:20:40:wallwood19
+tile:5284:5284:4627:4649:20:40:wallwood19
+tile:5285:5299:4627:4627:20:40:wallwood19
+tile:5284:5299:4623:4623:20:40:wallwood19
+night:none.ogg
+night:none.ogg
+owner:kiwi-james
+owner:said99
+owner:anas99
+tile:4899:4999:5000:5500:0:0:swamp2
+zone:4899:4999:5000:5500:0:7:The mud swamp
+tile:4799:4898:5000:5500:0:0:clay
+src:4899:4999:5000:5500:0:7:0:110:musiccalm2.ogg:1
+zone:4799:4898:5000:5500:0:7: theLake
+tile:4780:4797:5000:8000:0:0:sand
+tile:4000:4779:5000:8000:0:0:swimming
+src:4000:4779:5000:8000:0:7:0:100:beach4.ogg
+src:4000:4798:5000:8000:0:7:0:100:birds20.ogg
+zone:4000:4798:5000:8000:0:8:The western ocean
+music:4000:4798:5000:8000:0:7:0:100:musiccalm8.ogg
+tile:4798:4899:5501:5701:0:0:grass4
+zone:4799:4899:5501:5701:0:7:Pine forest
+src:4799:4899:5501:5701:0:7:0:100:forest5.ogg:1
+tile:4799:4899:5702:5901:0:5:rocks2
+zone:4799:4899:5702:5901:0:10:High hills:trackme
+src:4799:4899:5702:6000:0:10:0:100:birds9.ogg:1
+music:4799:4899:5501:6000:0:10:0:90:musicmisc5.ogg:1
+tile:4799:4899:5902:6000:0:5:grass3
+zone:4799:4899:5902:6000:0:5:Rabbit hill
+tile:4799:4899:5703:5999:0:4:wallrocks
+rain:none.ogg
+tile:4799:4899:6001:6100:0:0:grass4
+tile:4900:4900:5501:6000:-20:30:wallstone
+src:4899:4999:5000:5500:0:7:0:100:swamp3.ogg:1
+tile:4901:5500:5501:5701:0:0:deepsand2
+src:4901:5500:5501:5701:0:7:0:100:desert.ogg:1
+zone:4900:5500:5501:5701:0:7:the desert
+tile:4901:5500:5702:5702:0:3:wallfence
+tile:4901:5500:5702:5702:3:3:fence
+tile:4901:5500:5703:5800:0:0:dirt9
+src:4901:5500:5703:5800:0:7:0:110:birds8.ogg:1
+zone:4901:5500:5703:5800:0:7:the Camp
+tile:4901:5000:5730:5750:-20:0:water10
+tile:5200:5250:5200:5250:200:200:carpet
+pdoor:5229:5229:4997:4997:0:0:5225:5225:200:ok good :123123456:100:silence.ogg:silence.ogg:workshopenter.ogg:workshopexit.ogg
+src:5225:5229:4997:5225:1:199:0:100:helecopter_voice.ogg:1
+disable:coordinates
+enable:coordinates
+enable:spy
+tile:5200:5250:5199:5199:200:220:wallboat
+tile:5199:5199:5200:5250:200:220:wallboat
+tile:5200:5250:5251:5251:200:220:wallboat
+tile:5251:5251:5200:5250:200:220:wallboat
+music:5200:5250:5200:5250:200:220:0:100:musica113.ogg
+owner:abo_victor
+tile:4799:4899:6000:6300:0:0:lawn
+zone:4799:4899:6000:6300:0:100:Northern heights
+tile:4799:4899:6050:6050:0:25:grass
+tile:4798:4798:6050:6300:0:100:wallbrush
+tile:4799:4899:6051:6051:0:24:wallbranch
+tile:4799:4899:6000:6100:25:25:grass7
+tile:4799:4899:6060:6060:25:50:branch
+tile:4799:4899:6061:6061:25:49:wallboat
+tile:4799:4899:6061:6070:50:50:branch
+tile:4799:4899:6071:6071:50:99:wallboat
+tile:4799:4899:6070:6070:50:100:large_rock
+tile:4799:4899:6070:6100:100:100:grass4
+zone:4799:4899:6070:6150:100:120:Rather, the proximity to the castle
+tile:4780:4805:6101:6107:100:100:bridge3
+zone:4780:4805:6101:6107:100:120: the Castle Road
+tile:4779:4779:6100:6107:100:120:wallmetalglass
+tile:4678:4778:6100:6200:100:100:stone2
+door:4780:4780:6101:6107:100:100:4778:6105:100:You enter the castle:3000:silence.ogg:silence.ogg:door35open.ogg:door35close.ogg
+door:4778:4778:601:6107:100:100:4780:6105:100:You come out of the castle:3000:silence.ogg:silence.ogg:door35open.ogg:door35close.ogg
+tile:4678:4778:6099:6099:100:200:wallstone
+tile:4779:4779:6108:6200:100:200:wallstone
+tile:4678:4778:6201:6201:100:200:wallstone
+tile:5510:5590:5713:5793:-10:-10:water5
+tile:5510:5590:5713:5793:0:0:air
+tile:5510:5590:5710:5712:-10:-10:stone2
+tile:5510:5590:5709:5709:-10:-1:wallstone
+tile:5509:5509:5710:5793:-10:-1:wallstone
+tile:5510:5590:5794:5794:-10:-2:wallstone
+tile:5591:5591:5710:5793:-10:-1:wallstone
+tile:5510:5510:5710:5710:-10:0:stone2
+tile:5510:5590:5711:5712:0:0:spring2
+tile:5510:5590:5711:5712:-10:0:stone2
+zone:5503:5600:5703:5803:0:10:near to the rocky fountain
+src:5510:5590:5711:5793:-10:-10:0:100:stream13.ogg
+zone:5511:5590:5703:5793:-10:-5:Inside the rocky fountain
+music:5511:5590:5703:5793:-10:-10:0:100:musiccalm3.ogg
+owner:kiwi-james
+tile:4677:4677:6100:6200:100:200:wallstone
+zone:4578:4778:6100:6200:100:300:King's Great Castle
+zone:4578:4778:6100:6200:100:120:The Great Smoking Hall
+music:4678:4778:6100:6200:100:120:0:95:musicepic8.ogg:1
+tile:4678:4778:6100:6200:100:100:concrete34
+tile:4678:4679:6100:6102:100:200:stone2
+tile:4680:4680:6100:6102:100:210:wallstone2
+tile:4678:4680:6103:6103:100:210:wallstone2
+door:4678:4678:6104:6104:100:100:4678:6102:100:You go into the tower:1000:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+door:4677:4678:6100:6102:100:100:4678:6104:100:You come out of the tower, to the smoking hall ,                 :1000:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+zone:4678:4679:6100:6102:100:200:Lord Tower
+tile:4640:4677:6100:6150:200:200:carpet
+tile:4640:4677:6099:6099:200:400:wallstone
+tile:4639:4639:6100:6150:200:400:wallstone
+tile:4640:4677:6151:6151:200:400:wallstone
+tile:4678:4678:6104:6150:200:400:wallstone
+music:4640:4677:6100:6150:200:220:0:100:menumus47.ogg:1
+zone:4640:4677:6100:6150:200:220:Here Lord ANAS receives you with every pleasure
+tile:4650:4660:6120:6130:200:202:wallstone2
+tile:4651:4659:6121:6129:202:202:water3
+src:4651:4659:6121:6129:202:202:0:100:waterfountain8.ogg
+tile:4678:4678:6100:6104:209:400:wallstone
+tile:4640:4640:6100:6100:200:230:stone2
+tile:4640:4677:6100:6150:230:230:carpet2
+music:4640:4677:6100:6150:230:250:0:100:updating1.ogg:1
+zone:4640:4677:6100:6150:230:250:Lord's dining room
+zone:4640:4640:6100:6100:200:230:stairs
+src:4640:4677:6100:6150:230:250:0:100:preparing dishes.ogg:1
+tile:4650:4660:6130:6140:230:234:walltable2
+
+tile:4650:4660:6130:6140:235:235:wood4
+tile:4650:4660:6129:6129:230:234:chair
+tile:4677:4677:6100:6150:230:234:chair
+description:0

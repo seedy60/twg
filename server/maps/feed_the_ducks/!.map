@@ -1,0 +1,116 @@
+mapname:feed_the_ducks
+minx:-1
+maxx:5
+miny:-1
+maxy:81
+minz:-1
+maxz:81
+tile:-1:5:-1:81:-1:81:wall
+tile:0:4:0:80:0:80:air
+tile:0:4:0:80:0:0:shortgrass
+owner:powermon
+litem:0
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+night:none
+wind:none
+zone:0:4:0:80:0:80:ducky garden!
+src:0:4:0:80:0:80:-5:100:birds10.ogg
+sign:0:4:0:0:0:50:welcome player. you gotta feed the ducks by taking the seed baskets and givving it to the duck baced on  which duck is hungry. yes note this carefully. their are 3 ducks in each roe. feeding the wrong duck will result  in you starting the entire map again. their are 2 different sounds for the hungry ducks and the full ducks. so you will need to here them carefully. good luck:silence.ogg
+zone:0:4:0:0:0:50:a small peace of paper, read what it says?
+src:0:4:0:0:0:50:-5:100:paper.ogg
+tile:0:4:0:80:30:30:shortgrass
+tile:0:4:6:6:0:50:wallwood10
+zone:0:0:2:4:0:10:seeds basket. press enter to pick up
+zone:0:0:5:5:0:40:a duck
+zone:2:2:5:5:0:40:a duck
+zone:4:4:5:5:0:40:a duck
+door:0:0:2:4:0:10:0:2:30:you pick the basket up:0:silence.ogg:silence.ogg:getframe.ogg:silence.ogg
+sign:0:4:5:5:0:29:you dont have the seeds basket:silence.ogg
+src:0:1:5:5:0:40:-5:50:duck.ogg:1
+src:2:3:5:5:0:40:-5:50:duck.ogg:1
+src:4:4:5:5:0:40:-5:100:duck.ogg:1
+door:0:0:5:5:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:2:2:5:5:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:4:4:5:5:30:40:4:10:0:you feed the duck and they let you pass:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:4:16:16:0:50:wallwood10
+zone:0:0:12:14:0:10:seeds basket. press enter to pick up
+zone:0:0:15:15:0:40:a duck
+zone:2:2:15:15:0:40:a duck
+zone:4:4:15:15:0:40:a duck
+door:0:0:12:14:0:10:0:12:30:you pick the basket up:0:silence.ogg:silence.ogg:getframe.ogg:silence.ogg
+sign:0:4:15:15:0:29:you dont have the seeds basket:silence.ogg
+src:0:1:15:15:0:40:-5:50:duck.ogg:1
+src:2:2:15:15:0:40:-5:100:duck.ogg:1
+src:3:4:15:15:0:40:-5:50:duck.ogg:1
+door:0:0:15:15:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:4:4:15:15:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:2:2:15:15:30:40:4:20:0:you feed the duck and they let you pass:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:4:26:26:0:50:wallwood10
+zone:0:0:22:24:0:10:seeds basket. press enter to pick up
+zone:0:0:25:25:0:40:a duck
+zone:2:2:25:25:0:40:a duck
+zone:4:4:25:25:0:40:a duck
+door:0:0:22:24:0:10:0:22:30:you pick the basket up:0:silence.ogg:silence.ogg:getframe.ogg:silence.ogg
+sign:0:4:25:25:0:29:you dont have the seeds basket:silence.ogg
+src:0:1:25:25:0:40:-5:50:duck.ogg:1
+src:4:4:25:25:0:40:-5:100:duck.ogg:1
+src:2:3:25:25:0:40:-5:50:duck.ogg:1
+door:0:0:25:25:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:2:2:25:25:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:4:4:25:25:30:40:4:30:0:you feed the duck and they let you pass:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:4:33:38:0:0:water10
+zone:0:4:33:38:0:10:a small pond. wont be better to get some cans of water?
+door:0:4:33:38:0:10:0:40:0:you fill some cans with the water in the pond and move on.:0:silence.ogg:silence.ogg:fill_cup.ogg:silence.ogg
+tile:0:4:39:39:0:50:wallwood10
+tile:0:4:46:46:0:50:wallwood10
+zone:0:0:42:44:0:10:watercan, press enter to pick up
+zone:0:0:45:45:0:40:a duck
+zone:2:2:45:45:0:40:a duck
+zone:4:4:45:45:0:40:a duck
+door:0:0:42:44:0:10:0:42:30:you pick the can up:0:silence.ogg:silence.ogg:getchair.ogg:silence.ogg
+sign:0:4:45:45:0:29:you dont have the water can:silence.ogg
+src:0:0:45:45:0:40:-5:100:duck.ogg:1
+src:1:2:45:45:0:40:-5:50:duck.ogg:1
+src:3:4:45:45:0:40:-5:50:duck.ogg:1
+door:4:4:45:45:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:2:2:45:45:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:0:0:45:45:30:40:0:50:0:you feed the duck and they let you pass:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:4:56:56:0:50:wallwood10
+zone:0:0:52:54:0:10:watercan, press enter to pick up
+zone:0:0:55:55:0:40:a duck
+zone:2:2:55:55:0:40:a duck
+zone:4:4:55:55:0:40:a duck
+door:0:0:52:54:0:10:0:52:30:you pick the can up:0:silence.ogg:silence.ogg:getchair.ogg:silence.ogg
+sign:0:4:55:55:0:29:you dont have the water can:silence.ogg
+src:4:4:55:55:0:40:-5:100:duck.ogg:1
+src:2:3:55:55:0:40:-5:50:duck.ogg:1
+src:0:1:55:55:0:40:-5:50:duck.ogg:1
+door:0:0:55:55:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:2:2:55:55:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:4:4:55:55:30:40:0:60:0:you feed the duck and they let you pass:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:4:66:66:0:50:wallwood10
+zone:0:0:62:64:0:10:watercan, press enter to pick up
+zone:0:0:65:65:0:40:a duck
+zone:2:2:65:65:0:40:a duck
+zone:4:4:65:65:0:40:a duck
+door:0:0:62:64:0:10:0:62:30:you pick the can up:0:silence.ogg:silence.ogg:getchair.ogg:silence.ogg
+sign:0:4:65:65:0:29:you dont have the water can:silence.ogg
+src:2:2:65:65:0:40:-5:100:duck.ogg:1
+src:3:4:65:65:0:40:-5:50:duck.ogg:1
+src:0:1:65:65:0:40:-5:50:duck.ogg:1
+door:0:0:65:65:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:4:4:65:65:30:40:0:0:0:sorry, you tryed to feed an already fed duck. the ducks arent happy with you and thro you back to the starting point!:0:silence.ogg:silence.ogg:kick.ogg:silence.ogg
+door:2:2:65:65:30:40:0:70:0:you feed the duck and they let you pass, but, something comes to your mind while you pass the ducks. this garden was suppose to have 10 ducks, not 9. you gave 9 ducks food and water, but what about the 10th one. you saw a ladder in front of you just before the exit of the place. what would you like to do:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:4:0:80:65:65:shortgrass
+zone:1:1:47:47:65:80:you saw the duck, starving
+src:1:1:47:47:65:80:-5:100:duck.ogg
+door:1:1:47:47:65:80:0:75:0:you feed him and walk away. happy from your job of feeding the ducks in the garden:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:4:74:74:0:80:wallwood10
+tile:2:2:73:73:0:65:ladder2
+zone:2:2:73:73:0:80:ladder leading up
+src:2:2:73:73:0:65:-5:100:doorloop13.ogg
+zone:0:4:80:80:0:20:garden exit
+travelpoint:0:4:80:80:0:20:main_map:5:1:0:thanks for feeding my ducks! see ya lator!:silence.ogg:duck.ogg:duck.ogg
+task_status:0:4:80:80:0:0:coins:25000
+tile:0:0:0:0:0:0:paper

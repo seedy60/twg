@@ -1,0 +1,15 @@
+mapname:tst
+minx:0
+maxx:50
+miny:0
+maxy:0
+minz:0
+maxz:50
+tile:0:50:0:0:0:0:tile
+owner:seedy
+litem:0
+starting_point:0:50:0:0:0:0
+deathpoint:0:50:0:0:0:0
+enable:2dsupport
+task_status:0:50:0:0:0:50:credit:500000
+ai:0:50:0:0:0:50:5000:256:lion

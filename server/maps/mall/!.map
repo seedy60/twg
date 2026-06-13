@@ -1,0 +1,146 @@
+mapname:mall
+minx:-1
+maxx:11
+miny:-1
+maxy:200
+minz:-50
+maxz:200
+litem:1
+starting_point:5:5:0:0:0:0
+deathpoint:0:100:0:200:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+ssafezone:-1:11:-1:200:-50:200
+owner:kannadiga
+tile:0:10:0:60:0:0:marble6
+zone:0:10:0:200:0:19:ground floor of the mall
+tile:0:10:0:60:20:20:marble6
+zone:0:10:0:200:20:39:first floor of the mall
+tile:0:10:0:60:-20:-20:marble6
+zone:0:10:0:200:-20:-1:basement of the mall
+tile:0:10:61:61:-20:200:wallbuilding3
+src:0:10:0:60:0:200:-8:100:walking_people.ogg
+music:0:10:0:60:0:200:-20:100:musica58.ogg
+tile:-1:11:-1:-1:0:200:wallglass8
+tile:-1:11:-1:-1:-50:-1:wallbuilding3
+tile:-1:-1:0:200:-50:200:wallbuilding3
+tile:11:11:0:200:-50:020:wallbuilding3
+zone:0:0:9:11:0:19:fast food door. Press shift enter to go in.:trackme
+tile:-1:-1:9:11:-20:39:wallglass11
+travelpoint:0:0:9:11:0:0:fast_food:20:10:0:The smell of food fills your nostrils as you enter the fast food:silence.ogg:door17open.ogg:door17close.ogg
+zone:10:10:9:11:0:19:fruit_store door. Press shift enter to go in.:trackme
+tile:11:11:9:11:-20:39:wallglass11
+travelpoint:10:10:9:11:0:0:fruit_store:0:10:0:you go in the fruit store:silence.ogg:door10open.ogg:door11close.ogg
+zone:10:10:19:21:0:19:grocery store door. Press shift enter to go in.:trackme
+tile:11:11:19:21:-20:39:wallglass11
+travelpoint:10:10:19:21:0:0:grocery_store:0:10:0:you go in the grocery_store:silence.ogg:door11open.ogg:door11close.ogg
+zone:0:0:19:21:0:19:medical store door. Press shift enter to go in.:trackme
+tile:-1:-1:19:21:-20:39:wallglass11
+travelpoint:0:0:19:21:0:0:medical_store:20:10:0:you go in the medical store:silence.ogg:door10open.ogg:door11close.ogg
+zone:10:10:29:31:0:19:tobacconist store door. Press shift enter to go in.:trackme
+tile:11:11:29:31:-20:39:wallglass11
+travelpoint:10:10:29:31:0:0:tobacconist_store:0:10:0:you go in the tabacconist store:silence.ogg:door10open.ogg:door11close.ogg
+zone:2:8:49:56:-20:10:near escalators
+src:3:7:49:55:-20:10:10:100:escalator.ogg
+tile:3:7:50:55:-20:-10:wallwoodcrate
+tile:3:7:50:55:0:10:wallwoodcrate
+zone:4:6:50:55:-20:10:on the escalator
+tile:4:4:50:54:0:0:metal5
+tile:4:4:50:54:1:10:air
+zone:4:4:50:50:0:10:end of the escalator that goes up to the ground floor
+automover:4:4:51:55:0:10:4:49:0:You cannot take the escalator in the opposite direction.:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:6:6:50:54:0:0:metal5
+tile:6:6:50:54:1:10:air
+zone:6:6:50:50:0:10:beginning of the escalator that goes down to the basement:trackme
+automover:6:6:51:54:0:10:6:55:-20: :450:silence.ogg:silence.ogg:silence.ogg:metal5step2.ogg
+tile:4:4:51:55:-20:-20:metal5
+tile:4:4:51:55:-19:-10:air
+zone:4:4:55:55:-20:-18:beginning of the escalator that goes up tothe ground floor:trackme
+automover:4:4:51:54:-20:-10:4:50:0: :450:silence.ogg:silence.ogg:silence.ogg:metal5step2.ogg
+tile:6:6:51:55:-20:-20:metal5
+tile:6:6:51:55:-19:-10:air
+zone:6:6:55:55:-20:-18:end of the escalator that goes down to the basement
+automover:6:6:50:54:-20:-10:6:56:-20:You cannot take the escalator in the opposite direction.:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+zone:2:8:34:41:0:30:near escalators
+src:3:7:35:41:0:30:30:100:escalator.ogg
+tile:3:7:35:40:0:10:wallwoodcrate
+tile:3:7:35:40:20:30:wallwoodcrate
+zone:4:6:35:40:0:30:on the escalator
+tile:4:4:35:39:20:20:metal5
+tile:4:4:35:39:21:30:air
+zone:4:4:35:35:20:30:end of the escalator that goes up to the first floor
+automover:4:4:36:40:20:30:4:34:20:You cannot take the escalator in the opposite direction.:20:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:6:6:35:39:20:20:metal5
+tile:6:6:35:39:21:39:air
+zone:6:6:35:35:20:30:beginning of the escalator that goes down to the ground floor:trackme
+automover:6:6:36:39:20:30:6:40:0: :435:silence.ogg:silence.ogg:silence.ogg:metal5step2.ogg
+tile:4:4:36:40:0:0:metal5
+tile:4:4:36:40:1:10:air
+zone:4:4:40:40:0:19:beginning of the escalator that goes up tothe first floor:trackme
+automover:4:4:36:39:0:10:4:35:20: :435:silence.ogg:silence.ogg:silence.ogg:metal5step2.ogg
+tile:6:6:36:40:0:0:metal5
+tile:6:6:36:40:1:10:air
+zone:6:6:40:40:0:1:end of the escalator that goes down to the ground floor
+automover:6:6:35:39:0:10:6:41:0:You cannot take the escalator in the opposite direction.:20:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+zone:0:0:9:11:20:39:jewelry store door. Press shift enter to go in.:trackme
+travelpoint:0:0:9:11:20:20:jewelry_store:20:10:0:you go in the jewelry store:silence.ogg:door12open.ogg:door12close.ogg
+zone:10:10:9:11:20:39:clothing store door. Press shift enter to go in.:trackme
+travelpoint:10:10:9:11:20:20:clothing_store:0:10:0:you go in the clothing store:silence.ogg:door10open.ogg:door11close.ogg
+zone:0:0:19:21:20:39:Kitchen store door. Press shift enter to go in.:trackme
+travelpoint:0:0:19:21:20:20:kitchen_store:20:10:0:you go in the kitchen store:silence.ogg:door12open.ogg:door12close.ogg
+zone:10:10:19:21:20:39:household store.:trackme
+travelpoint:10:10:19:21:20:20:household_store:0:10:0:you go in the household store:silence.ogg:door10open.ogg:door11close.ogg
+zone:10:10:29:31:20:39:misc store door. Press shift enter to go in.:trackme
+travelpoint:10:10:29:31:20:20:misc_store:0:10:0:you go in the misc store:silence.ogg:door10open.ogg:door11close.ogg
+tile:-1:-1:29:31:20:39:wallglass11
+zone:0:0:29:31:20:39:survival store door. Press shift enter to go in.:trackme
+travelpoint:0:0:29:31:20:20:survival_store:20:10:0:you go in the survival store:silence.ogg:door12open.ogg:door12close.ogg
+tile:-1:-1:29:31:-20:19:wallscreen
+tile:11:11:29:31:-20:-1:wallscreen
+zone:10:10:29:31:-20:-1:explosive store door. Press shift enter to go in.:trackme
+travelpoint:10:10:29:31:-20:-1:explosive_store:0:10:0:You go in the explosive store:silence.ogg:door67open.ogg:door67close.ogg:trackm
+zone:0:0:29:31:-20:-1:weapon store door. press shift enter to go in.:trackme
+travelpoint:0:0:29:31:-20:-1:weapon_store:20:10:0:You go in the weapon store:silence.ogg:door67open.ogg:door67close.ogg:trackm
+zone:0:0:19:21:-20:-1:diy store door. Press shift enter to go in.:trackme
+travelpoint:0:0:19:21:-20:-1:diy_store:20:10:0:you go in the diy store:silence.ogg:door10open.ogg:door10close.ogg
+zone:10:10:19:21:-20:-1:team store door. Press shift enter to go in.:trackme
+travelpoint:10:10:19:21:-20:-1:team_store:0:10:0:You go in the team store:silence.ogg:door10open.ogg:door11close.ogg
+zone:0:0:9:11:-20:-20:technology store door. Press shift enter to go in.:trackme
+travelpoint:0:0:9:11:-20:-1:technology_store:20:10:0:you go in the technology store:silence.ogg:door11open.ogg:door10close.ogg
+zone:0:0:29:31:0:19:toilet door. Press shift enter to go in.:trackme
+travelpoint:0:0:29:31:0:19:mall_toilet:16:10:0: :silence.ogg:door8.ogg:silence.ogg
+travelpoint:0:10:0:0:0:19:lindow_town:84:184:0: :silence.ogg:door104open.ogg:door104close.ogg
+zone:0:10:0:0:0:19:exit door. Press shift enter to go out.:trackme
+item_usage_restriction:-1:11:-1:200:-50:200:conex:partner_house:beehive:store:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+enable:coordinates
+tile:0:0:60:60:-20:0:cement
+zone:0:0:60:60:0:0:stairs to the basement.:trackme
+zone:0:0:60:60:-19:-1:stairs
+zone:0:0:60:60:-20:-20:stairs to the ground_flore.:trackme
+tile:10:10:60:60:0:20:cement3
+zone:10:10:60:60:20:20:stairs to go down ground flore.:trackme
+zone:10:10:60:60:1:19:stairs
+zone:10:10:60:60:0:0:stairs to go to the first flore.:trackme
+ttravelpoint:10:10:9:11:-20:-20:vehicle_store:1:1:0:welcome to vehicle_store.:silence.ogg:silence.ogg:silence.ogg
+zzone:10:10:9:11:-20:-20:vehicle_store.:trackme
+tile:5:6:5:5:20:50:wallglass5
+tile:6:6:0:5:20:50:wallglass5
+tile:4:4:0:5:20:50:wallglass5
+tile:5:5:0:0:20:50:wallglass5
+door:5:5:4:5:20:30:5:6:20:exiting the ATM, careful while going out. aware of the theevs.:10:silence.ogg:silence.ogg:door69open.ogg:silence.ogg
+door:4:6:6:6:20:30:5:4:20:entering the ATm.:10:silence.ogg:silence.ogg:door69open.ogg:silence.ogg
+zone:5:5:4:4:20:50:ATM exit.
+zone:7:7:0:6:20:50:near the ATm.
+zone:3:3:0:6:20:50:near the ATm.
+zone:5:5:1:1:20:50:cash_machine
+zone:5:5:2:3:20:50:in the ATM.
+teleporter:0:11:0:59:-2:-2
+teleporter:0:11:0:59:18:18
+automover:0:11:0:59:-3:-3:2:2:0:you escaped from trap.:10:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:0:11:0:59:17:17:5:5:20:you escaped from trap.:10:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+vending_machine:9:3:0
+tile:9:9:3:3:0:0:metal5
+zone:9:9:3:3:0:0:vending machine:trackme
+reinforcement:0:10000000
+zone:5:5:6:6:20:20:ATM Dorr:trackme

@@ -1,0 +1,30 @@
+mapname:grave_yard
+minx:0
+maxx:10
+miny:0
+maxy:50
+minz:0
+maxz:60
+tile:0:10:0:50:0:0:soil
+owner:kannadiga
+litem:0
+starting_point:0:0:0:0:0:0
+deathpoint:0:10:0:50:0:0
+wind:none.ogg
+night:none.ogg
+zone:0:10:0:50:0:40:grave yard. The cold seeps right now into your bones, a damp chill clinging to the crumbling stone beneath your feet. A whisper of wind just now sighed through the skeletal branches overhead, rustling like whispered secrets from the graves all around. you can almost feel their eyes on you, a prickling at the back of your neck, a weight pressing down, heavier than the damp earth itself.0
+tile:0:10:11:11:0:49:wallrocks
+zone:0:10:10:10:1:49:Jagged edges of broken stone stairs, treacherous underfoot, led down into the shadowed heart of the graveyard.
+tile:0:10:10:10:0:50:smallwood
+tile:0:10:11:50:50:50:concrete45
+tile:0:10:11:50:49:49:wall
+zone:0:10:11:50:50:60:the cemetery. Silent stones, each a forgotten story. The air itself felt heavy with unspoken grief.
+tile:0:0:4:6:0:20:wallsign
+zone:1:1:4:6:0:20:A gaping maw of rusted iron, the gate seemed less of a barrier and more of an invitation to the darkness beyond. shift enter lets you leave this horrible place.:trackme
+zone:0:10:10:10:0:0:a broken stairs, lets you climb up.:trackme
+zone:0:10:10:10:50:50:a broken stairs, lets you climb down.:trackme
+src:0:10:0:50:0:60:-5:100:chasm.ogg:1
+travelpoint:1:1:4:6:0:10:hidden_area:0:40:0:i am sure you will not come back to this creepy place.:silence.ogg:door48open.ogg:silence.ogg
+
+reinforcement:0:10000000
+reinforcement:0:10000000

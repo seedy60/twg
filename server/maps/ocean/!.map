@@ -1,0 +1,37 @@
+mapname:ocean
+minx:0
+maxx:300
+miny:0
+maxy:300
+minz:-50
+maxz:100
+tile:0:300:0:300:0:0:sand5
+litem:0
+starting_point:0:300:0:300:0:0
+deathpoint:0:300:0:300:0:0
+night:none.ogg
+zone:0:300:0:300:0:50:The Golden Sandy beatch
+tile:1:300:2:295:0:0:swimming
+zone:1:300:2:295:0:5:The Crystal Blue ocean
+ai:1:300:5:295:0:0:50000:2:shark
+tile:0:300:0:300:-1:-1:wall
+tile:1:300:5:298:-49:-1:underwater
+tile:1:300:5:295:-50:-50:wallunderwater2
+zone:1:300:5:295:-49:-1:Under the deep ocean
+reinforcement:0:10000000
+travelpoint:1:1:1:1:0:0:lindow_town:1:402:0: :silence.ogg:silence.ogg:silence.ogg
+zone:1:1:1:1:0:0:to return back to lindow town, hit shift enter:trackme
+travelpoint:1:1:299:299:0:0:Camping_area:36:99:0: :silence.ogg:silence.ogg:silence.ogg
+zone:1:1:299:299:0:7:to go to the campsite, press shift enter:trackme
+travelpoint:1:1:155:155:0:0:a_noisy_city:0:0:0: :silence.ogg:silence.ogg:silence.ogg
+zone:1:1:155:155:0:7:a noizey city, press shift enter to go:trackme
+tile:0:0:0:300:0:50:wall
+tile:1:300:300:300:0:50:wall
+tile:300:300:0:300:0:50:wall
+tile:0:300:0:0:0:50:wall
+src:0:300:0:300:-50:-1:0:100:underwater2.ogg:1
+owner:WillOspreay
+owner:JoshAlexander
+
+src:0:300:0:300:0:100:-3:100:oceano1.ogg:1
+fishingcoordinate:1:300:2:295:0:0

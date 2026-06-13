@@ -1,0 +1,125 @@
+mapname:climbTrees
+minx:0
+maxx:201
+miny:0
+maxy:201
+minz:0
+maxz:250
+tile:0:200:0:200:0:0:concrete6
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:200:0:200:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+tile:0:0:10:10:0:15:tree
+sign:0:0:0:0:0:0:Hello %name%, welcome to my challenge. It is not difficult to complete this challenge. You just need to climb to the top of the tree to complete this challenge. Do not forget to pay attention to the traps during climbing trees. Wish you success:sign.ogg
+zone:0:200:0:200:0:250:climb trees
+zone:0:0:0:0:0:10:a sign
+tile:0:0:10:20:15:15:tree
+zone:0:0:10:10:0:15:Start climb here
+tile:0:0:20:20:15:20:tree
+tile:0:15:20:20:20:20:tree
+tile:15:15:20:20:20:20:wood11
+tile:15:15:20:30:20:20:tree
+tile:15:15:30:30:24:30:wood11
+tile:15:30:30:30:30:30:tree
+tile:30:30:30:40:30:30:tree
+tile:30:30:40:40:30:40:tree
+tile:31:31:41:41:40:40:leaves
+tile:32:32:42:42:40:40:leaves
+tile:33:33:43:43:40:40:leaves
+tile:34:34:44:44:40:40:leaves
+tile:35:35:45:50:40:40:leaves
+tile:35:35:50:50:40:50:leaves
+tile:34:34:51:51:50:50:leaves
+tile:33:33:52:52:50:50:leaves
+tile:32:32:53:53:50:50:leaves
+tile:31:31:54:54:50:50:leaves
+tile:30:30:55:55:50:50:leaves
+tile:30:50:55:55:50:50:tree
+tile:50:50:55:65:50:50:tree
+enable:cameraautomover
+automover:50:50:56:60:50:50:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:50:60:65:65:50:50:tree
+teleporter:50:50:65:65:50:50
+tile:60:60:65:80:50:50:tree
+automover:55:59:65:65:50:50:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:60:60:75:79:50:50:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:60:70:80:80:50:50:tree
+teleporter:61:69:80:80:50:50
+tile:71:80:80:80:53:53:tree
+automover:72:79:80:80:53:53:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:80:80:81:100:57:57:tree
+automover:80:80:82:90:57:57:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:80:80:92:99:57:57:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:82:100:100:100:62:62:tree
+automover:83:90:100:100:62:62:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:92:99:100:100:62:62:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:100:100:100:100:65:100:wood11
+teleporter:100:100:100:100:100:100
+tile:101:101:101:101:99:99:leaves3
+tile:102:102:102:102:100:100:leaves3
+tile:103:103:103:103:101:101:leaves3
+tile:104:104:104:104:102:102:leaves3
+tile:105:105:105:105:103:103:leaves3
+tile:106:106:106:106:104:104:leaves3
+tile:107:107:107:107:105:105:leaves3
+tile:108:108:108:108:106:106:leaves3
+tile:109:109:109:109:107:107:leaves3
+tile:110:110:110:120:108:108:leaves3
+teleporter:110:110:111:119:108:108
+tile:110:110:121:135:113:113:tree
+automover:110:110:125:130:113:113:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:113:113:135:135:118:130:tree
+tile:117:135:135:135:135:135:tree
+automover:120:130:135:135:135:135:0:0:0:Hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:138:138:138:138:138:138:leaves5
+tile:141:141:141:141:141:141:leaves5
+tile:144:144:144:144:144:144:leaves5
+tile:147:147:147:147:147:147:leaves5
+tile:150:150:150:150:150:150:leaves5
+tile:150:200:150:200:200:200:concrete6
+door:150:150:150:150:150:150:150:150:200:Congratulations %name%, so you have completed 95 percent of this map already, only 5 percent you can receive the reward, try to up:100:silence.ogg:silence.ogg:open14.ogg:silence.ogg
+tile:150:200:149:149:200:250:wallwood19
+tile:149:149:149:200:200:250:wallwood19
+tile:201:201:149:201:200:250:wallwood19
+tile:149:201:201:201:200:250:wallwood19
+zone:150:200:150:200:200:210:A house on a tree is extremely dangerous
+sign:150:150:150:150:200:200:Congratulations %name%, so you have completed 95 percent of this map already, only 5 percent you can receive the reward, try to up:sign2.ogg
+zone:150:150:150:150:200:210:sign
+zone:200:200:200:200:200:210:Press shift enter to get the reward
+automover:15:15:25:29:20:20:0:0:0:Hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:16:20:30:30:30:30:0:0:0:Hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:23:29:30:30:30:30:0:0:0:Hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:30:30:32:39:30:30:0:0:0:hahaha, you fell into the trap, let's try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+owner:SmartThinh
+automover:35:35:46:49:40:40:0:0:0:hahaha, you fell into the trap, let's try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:32:49:55:55:50:50:0:0:0:hahaha, you fell into the trap, let's try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:150:200:150:199:201:201:wallwood19
+automover:150:159:151:170:200:200:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:161:200:150:159:200:200:0:0:0:Hahaha you went into my trap, try it again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:160:164:161:169:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:166:200:160:169:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:160:164:170:200:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:165:169:171:174:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:170:200:175:179:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:171:200:170:174:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:165:168:175:175:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:165:167:176:176:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:169:169:176:176:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:168:169:177:179:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:165:166:177:177:200:200:0:0:0:hahaha, you've been trapped, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:167:167:178:179:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:166:166:179:179:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:165:165:178:178:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:165:170:181:184:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:176:200:180:184:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:171:174:181:184:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:166:200:186:190:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:176:200:185:185:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:165:180:192:200:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:182:200:191:199:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+
+automover:182:189:200:200:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:191:199:200:200:200:200:0:0:0:hahaha, you went into the trap, try again:30:silence.ogg:silence.ogg:silence.ogg:silence.ogg

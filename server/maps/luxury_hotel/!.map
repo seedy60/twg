@@ -1,0 +1,323 @@
+mapname:luxury_hotel
+minx:-200
+maxx:200
+miny:-200
+maxy:200
+minz:-20
+maxz:200
+tile:-200:200:-200:200:0:0:cement3
+owner:troyanda
+litem:1
+starting_point:-200:200:-200:200:0:0
+deathpoint:-200:200:-200:200:0:0
+tile:-200:200:-200:-200:0:200:wallfence2
+tile:-200:-200:-200:200:0:200:wallfence2
+tile:200:200:-200:200:0:200:wallfence2
+tile:200:200:-200:200:0:200:wallfence2
+tile:-199:199:-199:199:0:0:cement3:trackme
+tile:0:100:0:100:0:100:wallbrick4
+tile:21:79:1:79:0:99:air
+tile:21:79:1:79:0:0:marble4
+tile:50:50:0:0:0:100:wallglass5
+zone:-199:199:-199:199:0:200:подвір'я будинку:trackme
+zone:1:99:1:99:0:100:теплий та затишний перший поверх будинку:trackme
+zone:50:50:-1:1:0:100:двері будинку:trackme
+tile:21:79:10:10:0:100:wallbrick4
+tile:1:79:1:9:0:0:carpet5
+tile:50:50:10:10:0:100:wallglass
+zone:50:50:9:11:0:100:двері котрі ведуть до коридору будинку:trackme
+tile:21:25:11:17:0:4:wallwood16
+tile:22:24:13:16:0:3:air
+tile:22:24:13:16:0:0:hardwood3
+tile:22:24:17:17:0:3:wallwood6
+src:-199:199:-199:0:0:200:0:100:birds15.ogg
+src:-199:-1:-199:199:0:200:0:100:birds15.ogg
+src:101:199:-199:199:0:200:0:100:birds15.ogg
+door:22:24:18:18:0:3:22:16:0:ви відкриваєте шафу для верхнього одягу:1000:silence.ogg:silence.ogg:tp37.ogg:tp36.ogg
+door:22:24:16:16:0:3:22:18:0:ви закриваєте шафу для одягу:1000:silence.ogg:silence.ogg:tp37.ogg:tp36.ogg
+zone:21:27:12:18:0:6:біля шафи для одягу
+zone:22:24:13:16:0:10:у шафі для одягу
+zone:22:24:16:18:0:10:дверцята шафи:trackme
+tile:81:99:11:30:0:20:air:trackme
+tile:81:99:11:30:0:0:carpet3
+tile:80:80:20:20:0:20:walldoor
+zone:81:99:11:30:0:20:спальня:trackme
+zone:79:81:20:20:0:20:двері спальні:trackme
+tile:100:100:11:30:3:19:wallglass5
+tile:99:99:11:30:0:2:wallbrick4
+tile:99:99:11:30:3:3:marble5
+zone:99:99:11:30:3:20:підвіконня
+tile:95:98:29:30:0:3:wallboard
+tile:95:97:29:30:1:3:wallcloth
+tile:95:97:29:30:3:3:cloth
+tile:98:98:29:30:4:4:synthetic
+zone:94:98:28:30:0:20:біля подружнього ліжка
+zone:95:97:29:30:0:20:затишне подружнє ліжко
+zone:98:98:29:30:0:20:спинка подружнього ліжка
+bed:95:98:29:30:3:20
+tile:96:98:25:27:0:1:walltable
+tile:96:98:25:27:1:1:hardwood2
+zone:95:98:24:27:0:20:біля столика котрий стоїть неподалік від ліжка
+zone:96:98:25:27:0:20:столик котрий стоїть біля ліжка
+tile:81:99:32:50:0:20:air:trackme
+tile:81:99:32:50:0:0:ceramic2
+tile:80:80:40:40:0:20:wallwood2
+tile:96:98:26:27:1:5:wallsign
+tile:97:97:26:26:1:3:wallglass4
+zone:96:98:25:27:1:10:позолочена рамка з сімейним фото
+zone:81:99:32:50:0:20:душова кімната
+zone:97:97:25:25:1:3:На фото зображена щаслива сімейна пара. Молода дівчина в одній руці тримає букет червоних троянд, іншою обіймає хлопця одягнутого у світлозелену футболку з нашивкою червоного місяця на плечі. в одній руці він тримає букет білих ромашок з пухнастими голівками, іншою обіймає дівчину.:trackme
+tile:81:86:11:14:0:10:wallwood16
+tile:82:85:12:13:0:9:air
+tile:82:85:12:13:0:0:hardwood3
+zone:81:87:11:15:0:10:біля шафок
+tile:83:83:11:13:0:10:wallwood16
+tile:82:82:14:14:0:8:wallwood6
+tile:85:85:14:14:0:8:wallwood6
+zone:81:83:11:13:0:10:шафа для білизни
+zone:84:86:11:13:0:10:шафа для одягу
+zone:82:82:13:15:0:8:дверцята шафи для білизни:trackme
+zone:85:85:13:15:0:8:дверцята шафи для одягу:trackme
+door:85:85:15:15:0:1:85:13:0:ви відкриваєте шафу для одягу:1000:silence.ogg:silence.ogg:tp37.ogg:tp36.ogg
+door:85:85:13:13:0:1:85:15:0:ви закриваєте шафу для одягу:1000:silence.ogg:silence.ogg:tp37.ogg:tp36.ogg
+src:81:99:32:50:0:20:0:100:vent4.ogg
+door:82:82:15:15:0:1:82:13:0:ви відкриваєте шафу для білизни:1000:silence.ogg:silence.ogg:tp37.ogg:tp38.ogg
+tile:83:83:49:50:0:2:walldiamond
+tile:83:83:50:50:3:3:diamond
+door:82:82:13:13:0:1:82:15:0:ви закриваєте шафу для білизни:1000:silence.ogg:silence.ogg:tp37.ogg:tp38.ogg
+tile:83:83:49:49:2:2:generic
+toilet:83:83:49:49:2:2
+zone:79:81:40:40:0:20:двері душової кімнати:trackme
+zone:82:84:48:50:0:20:біля діамантового унітазу
+zone:83:83:49:49:2:20:седіння діамантового унітазу
+zone:83:83:50:50:3:3:бачок діамантового унітазу
+sign:81:81:50:50:0:20:перед тим, як сідати на унітаз переконайтесь в тому, що ви маєте з собою туалетний папір:silence.ogg
+zone:81:81:50:50:0:20:важливо!!! прочитайте перед тим, як будете сідати на унітаз
+tile:81:81:50:50:0:0:balloon2
+tile:90:90:31:31:0:20:wallbuilding
+zone:90:90:30:32:0:20:двері, що ведуть зі спальні прямо в душову
+tile:96:99:46:50:0:3:wallbarrel
+tile:97:98:47:49:1:3:air
+tile:96:99:46:50:3:3:tile4
+tile:97:98:47:49:1:3:air
+tile:97:98:47:49:1:1:water2
+shower:97:98:47:49:1:3
+night:none.ogg
+tile:21:79:51:51:0:20:wallbrick4
+tile:50:50:51:51:0:20:wallglass5
+tile:0:100:0:100:20:20:wallbrick4
+Moren
+tile:1:19:11:50:0:19:air:trackme
+tile:1:19:11:50:0:0:carpet
+tile:20:20:30:40:0:20:air
+tile:20:20:30:40:0:1:wallstone2
+tile:21:21:30:40:0:1:cement4
+tile:20:20:30:40:1:1:cement4
+tile:19:19:30:40:0:1:cement4
+zone:1:19:11:50:0:19:прямокутна вітальня
+zone:19:21:30:40:0:19:прохід в вітальню
+tile:0:0:20:30:3:10:air
+tile:0:0:20:30:3:10:wallglass
+tile:1:1:20:30:0:3:wallbrick4
+tile:1:1:20:30:3:3:marble7
+zone:1:1:20:30:0:10:підвіконня
+zone:50:50:50:52:0:19:красиві двері, які ведуть до іншої частини будинку:trackme
+tile:4:11:11:13:0:5:wallcloth
+tile:4:11:11:11:5:5:mat
+tile:5:10:12:13:2:5:air
+tile:4:11:12:13:3:10:air
+tile:4:11:12:13:3:3:plexi
+tile:5:10:12:13:3:3:air
+tile:5:10:12:13:2:2:cloth
+zone:3:12:11:14:0:10:біля плюшевого дивану
+zone:5:10:12:13:2:10:плюшевий диван
+zone:4:4:12:13:3:10:ліве бильце
+zone:11:11:12:13:3:10:праве бильце
+zone:4:11:11:11:5:15:спинка
+bed:5:10:12:13:2:2
+tile:1:1:40:50:0:5:walldesk
+tile:1:1:40:50:5:5:glass7
+zone:1:2:40:50:0:20:великий старовинний годинник у формі хатинки:trackme
+src:1:1:40:50:0:5:-19:51:clock4.ogg
+tile:15:19:45:50:0:3:wallwood15
+zone:14:19:44:51:0:15:тумбочка з вазою з червоними трояндами:trackme
+tile:15:19:45:50:3:3:hardwood6
+tile:16:19:46:50:3:7:wallsign
+tile:16:19:46:50:7:7:glass3
+tile:17:18:47:48:3:7:air
+tile:17:18:47:48:3:3:spring2
+tile:17:18:47:48:3:10:wallbrushtangle
+tile:17:18:47:48:10:10:branch2
+zone:16:19:46:49:3:20:ваза з букетом червоних троянд у воді
+rain:none.ogg
+music:0:99:1:9:0:20:0:100:musical34.ogg:1
+music:1:79:11:79:0:20:0:100:musica113.ogg:1
+music:81:99:31:50:0:20:0:100:musica74.ogg:1
+music:81:99:11:30:0:20:0:100:musica42.ogg:1
+tile:1:19:53:79:0:20:air
+tile:1:20:71:71:0:19:wallbrick4
+tile:1:19:51:70:0:0:carpet
+tile:20:20:60:60:0:19:wallglass4
+door:19:19:60:60:0:19:21:60:0:ви виходете з їдальні з повним шлунком:1000:silence.ogg:silence.ogg:door33open.ogg:door33close.ogg
+tile:1:19:51:51:0:40:wallbrick4
+tile:1:19:72:79:0:0:tile3
+zone:0:19:51:70:0:40:гарна та затишна їдальня
+zone:19:21:60:60:0:10:двері їдальні:trackme
+zone:1:19:72:89:0:19:велика кухня
+tile:1:1:52:70:0:3:wallbrick4
+tile:1:1:52:70:4:4:marble5
+tile:0:0:52:70:4:19:wallglass2
+zone:1:1:52:70:4:19:підвіконня
+tile:20:20:75:75:0:19:wallwooddoor
+tile:5:15:55:65:0:0:carpet4
+tile:5:15:55:65:0:4:walltable
+tile:6:14:55:65:0:1:air
+door:19:19:75:75:0:19:21:75:0:ви відчуваєте полегшення і легеньку прохолоду коли виходете з кухні:1000:silence.ogg:silence.ogg:door14open.ogg:door14close.ogg
+tile:5:5:56:64:0:1:air
+tile:15:15:56:64:0:1:air
+tile:6:14:55:65:0:0:carpet4
+tile:5:5:56:64:0:0:carpet4
+tile:15:15:56:64:0:0:carpet4
+zone:4:16:54:66:0:20:біля столу
+zone:5:15:55:65:0:1:під столом
+tile:5:15:55:65:4:4:hardwood2
+zone:5:15:55:65:4:20:на столі
+tile:6:8:52:53:0:3:wallstand
+tile:6:8:53:53:3:5:air
+tile:7:7:53:53:2:4:air
+tile:7:7:53:53:2:2:mat
+tile:1:19:78:79:0:2:wallcounter
+tile:6:6:53:53:3:3:hardwood5
+tile:6:8:52:52:5:5:hardwood6
+tile:1:19:78:79:3:3:glass5
+tile:6:8:52:52:6:20:air
+zone:1:19:77:77:0:19:біля плети
+tile:8:8:53:53:3:3:hardwood5
+zone:1:19:78:79:3:19:на плеті, готові готувати?
+zone:5:9:52:54:0:30:біля стільця
+zone:7:7:53:53:2:20:стілець, вкритий тканиною
+src:1:19:78:79:3:10:-10:100:oven.ogg
+oven:1:19:78:79:3:19
+zone:6:8:52:52:5:20:спинка стільця
+zone:6:6:53:53:3:20:ліва дерев'яна ручка
+zone:8:8:53:53:3:20:права дерев'яна ручка
+zone:19:21:75:75:0:19:двері кухні:trackme
+tile:9:11:72:74:0:4:wallcar3
+tile:9:11:52:53:0:4:wallcloth
+tile:9:11:52:52:4:4:mat
+tile:9:11:52:52:5:20:air
+tile:9:11:53:53:3:5:air
+tile:10:10:53:53:2:2:cloth
+tile:9:9:53:53:3:3:carpet12
+tile:11:11:53:53:3:3:carpet12
+zone:9:12:52:54:0:20:біля плюшевого стільця
+zone:9:11:53:53:2:20:плюшевий стілець
+zone:9:11:52:52:4:20:спинка стільця
+tile:2:3:57:59:0:2:wallbuilding5
+tile:2:3:57:59:2:2:carpet10
+zone:1:4:56:60:0:20:біля стільця
+zone:2:3:57:59:2:20:стілець
+tile:6:8:67:69:0:2:wallbuilding5
+tile:6:8:67:69:2:2:carpet11
+zone:5:9:66:70:0:20:біля стільця
+zone:6:8:67:69:2:20:стілець
+tile:11:14:67:69:0:2:wallbuilding6
+tile:11:14:67:69:2:2:carpet10
+zone:10:15:66:70:0:20:біля стільця
+zone:11:13:67:69:2:20:стілець
+tile:10:11:73:73:0:20:air
+tile:10:11:73:73:0:0:metal18
+zone:8:12:72:75:0:10:біля холодильника
+tile:9:9:73:73:0:10:wallglass11
+zone:10:11:72:74:0:10:холодильник
+zone:8:10:73:73:0:10:дверцята холодильника:trackme
+door:8:8:73:73:0:10:10:73:0:ви відкриваєте холодильник:1000:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+door:10:10:73:73:0:10:8:73:0:ви закриваєте холодильник:1000:silence.ogg:silence.ogg:open_fridge.ogg:close_fridge.ogg
+automover:50:50:-1:-1:0:200:50:1:0:.:1000:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+automover:50:50:1:1:0:20:50:-1:0:.:1000:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+automover:50:50:9:9:0:20:50:11:0:.:1000:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+automover:50:50:11:11:0:20:50:9:0:.:1000:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+automover:79:79:20:20:0:20:81:20:0:.:1000:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+automover:81:81:20:20:0:20:79:20:0:.:1000:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+automover:90:90:30:30:0:10:90:32:0:Ви тихенько проходите в душову через подружню спальню:1000:silence.ogg:silence.ogg:door3.ogg:silence.ogg
+automover:90:90:32:32:0:10:90:30:0:Ви так само тихенько повертаєтесь в спальню:1000:silence.ogg:silence.ogg:door3.ogg:silence.ogg
+automover:81:81:40:40:0:10:79:40:0:10:1000:silence.ogg:silence.ogg:door50open.ogg:door50close.ogg
+automover:79:79:40:40:0:10:81:40:0:...:1000:silence.ogg:silence.ogg:door50open.ogg:door50close.ogg
+automover:50:50:50:50:0:10:50:52:0:ви проходите в іншу частину будинку, де розташовані їдальня, кухня, ще одна спальня та кімната для релаксації:1000:silence.ogg:silence.ogg:door45open.ogg:door45close.ogg
+automover:50:50:52:52:0:10:50:50:0:ви проходите в ту частину будинку, де розташовані спальня, душова та вітальня:1000:silence.ogg:silence.ogg:door45open.ogg:door45close.ogg
+automover:21:21:60:60:0:10:19:60:0:ви входите в їдальню, де пахне смачною їжею:1000:silence.ogg:silence.ogg:door33open.ogg:door33close.ogg
+automover:19:19:60:60:0:10:21:60:0:ви залишаєте їдальню з відчуттям комфорту:1000:silence.ogg:silence.ogg:door33open.ogg:door33close.ogg
+automover:21:21:75:75:0:10:19:75:0:ви входете до кухні і відчуваєте спеку, про те пахне щойно приготованою їжею:1000:silence.ogg:silence.ogg:door14open.ogg:door14close.ogg
+automover:19:19:75:75:0:10:21:75:0:ви відчуваєте полегшення і легеньку прохолоду коли виходете з кухні:1000:silence.ogg:silence.ogg:door14open.ogg:door14close.ogg
+tile:21:40:81:99:0:19:air:trackme
+tile:21:40:81:99:0:0:carpet2
+zone:21:40:81:99:0:19:дитяча кімната
+automover:30:30:79:79:0:19:30:81:0:ви заходите в дитячу кімнату:1000:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+automover:30:30:81:81:0:19:30:79:0:ви виходете з дитячої кімнати:1000:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+tile:30:30:80:80:0:19:walldoor
+zone:30:30:79:81:0:19:двері дитячої кімнати:trackme
+src:0:100:101:199:0:200:0:100:birds15.ogg
+tile:21:40:99:99:0:3:wallbrick4
+tile:21:40:99:99:4:4:marble5
+tile:21:40:100:100:4:19:wallglass2
+zone:21:40:99:99:4:19:підвіконня
+music:21:40:81:99:0:19:-10:100:musica80.ogg:1
+tile:38:40:96:98:0:1:wallboard
+tile:38:40:96:98:2:2:wallcloth
+tile:38:40:96:98:3:3:cloth
+zone:37:40:95:98:0:19:біля дитячого ліжечка
+zone:38:40:96:98:0:19:дитяче ліжечко в рожевих тонах
+bed:38:40:96:98:0:19
+tile:21:23:95:98:0:2:wallboard
+tile:21:23:95:98:2:3:wallcloth
+tile:39:39:98:98:3:3:mat
+zone:39:39:98:98:3:19:рожева подушка
+src:21:40:81:99:0:19:-10:100:kids.ogg:1
+tile:21:23:95:98:3:3:cloth
+zone:21:23:95:98:0:20:дитяче ліжечко в блакитних тонах
+zone:22:22:98:98:3:3:блакитна дитяча подушка
+tile:22:22:98:98:3:3:mat
+bed:21:23:95:98:3:3
+tile:-199:199:-199:199:-1:-1:wall
+tile:81:99:11:30:-20:-1:air:trackme
+tile:80:100:10:31:-20:-1:wallstone
+tile:81:99:11:30:-19:-1:air
+tile:81:99:11:30:-20:-20:cavegrounds
+tile:81:81:30:30:0:0:deck
+door:81:81:30:30:-20:-20:81:30:0:ви повертаєтесь в спальню подружжя:100:silence.ogg:silence.ogg:hidden.ogg:silence.ogg
+tile:81:81:30:30:-20:-20:deck
+door:81:81:30:30:0:0:81:30:-20:ви входете в замаскований штаб розвідки, прохід в який знаходиться в спальні подружжя:100:silence.ogg:silence.ogg:hidden.ogg:silence.ogg
+zone:81:99:11:30:-20:-2:Підвал
+tile:42:60:81:99:0:19:air
+tile:89:99:19:30:-20:-10:wallobject
+tile:42:60:81:99:0:0:carpet
+tile:90:98:20:30:-20:-11:air
+zone:41:60:81:99:0:19:офіс
+tile:90:98:20:30:-20:-20:metal14
+zone:50:50:79:81:0:19:двері в офіс:trackme
+zone:90:98:20:30:-20:-10:броньована кабінка
+tile:50:50:80:80:0:19:wallwooddoor
+tile:95:95:19:19:-20:-10:wallmedaldebris
+zone:95:95:18:20:-20:-10:броньовані двері
+automover:50:50:79:79:0:19:50:81:0:ви входете в робочий офіс:1000:silence.ogg:silence.ogg:door26open.ogg:door26close.ogg
+automover:50:50:81:81:0:19:50:79:0:ви виходите з офісу в коридор:1000:silence.ogg:silence.ogg:door26open.ogg:door26close.ogg
+pautomover:95:95:18:18:-20:-10:95:20:-20:Позивний?:джедай:1000:silence.ogg:silence.ogg:opendoor.ogg:closedoor.ogg
+automover:95:95:20:20:-20:-10:95:18:-20:ви залишили пост:1000:silence.ogg:silence.ogg:open15.ogg:close15.ogg
+tile:90:98:29:30:-20:-15:wallgeneric
+tile:90:98:29:30:-15:-15:pavement
+zone:90:98:28:30:-20:-5:велика броньована панель з радарами
+tile:92:97:29:29:-19:-16:wallglass11
+tile:94:96:26:27:-20:-5:wallbank
+tile:95:95:27:27:-17:-5:air
+tile:95:95:27:27:-17:-17:chair
+zone:93:97:25:28:-20:-10:біля великого крісла
+zone:95:95:27:27:-17:-10:велике крісло перед монітором
+tile:94:96:29:30:-15:-10:wallcomputer
+tile:94:96:29:30:-10:-10:generic
+zone:93:97:29:30:-15:-2:біля рації з антеною
+zone:94:96:29:30:-15:-2:рація з антеною
+src:90:98:29:30:-20:-10:-13:65:computer.ogg
+src:95:97:29:30:-20:-10:-10:70:computer_keabord.ogg
+src:94:96:29:30:-15:-5:-25:55:alarm17.ogg
+tile:12:19:52:52:1:20:air
+tile:1:5:52:52:1:20:air

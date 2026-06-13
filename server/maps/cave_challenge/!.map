@@ -1,0 +1,33 @@
+mapname:cave_challenge
+minx:0
+maxx:500
+miny:0
+maxy:0
+minz:-50
+maxz:500
+tile:0:500:0:0:0:0:cavegrounds
+owner:lihaha
+litem:0
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+enable:2dsupport
+litem:0
+tile:0:500:0:0:-50:-1:wall
+zone:0:500:0:0:-50:500:cave
+zone:0:0:0:0:0:10:a sign
+tile:0:0:0:0:0:0:paper
+sign:0:0:0:0:0:0:In this challenge, you need to get through the trap.:sign3.ogg
+src:0:500:0:0:0:500:0:100:cave.ogg
+reverb:0:500:-50:500:-50:500:1:1.0:1.0:1.0:0.5:1.0
+tile:50:150:0:0:0:0:swimming
+tile:50:150:0:0:-50:-1:underwater
+zone:50:150:0:0:0:50:Deadly river
+zone:50:150:0:0:-50:-1:The water here will kill you
+
+src:50:150:0:0:-50:-1:0:50:underwater.ogg:1
+src:50:150:0:0:0:20:-15:100:stream8.ogg
+src:50:150:0:0:0:20:0:100:waterflow9.ogg
+tile:49:49:0:0:0:30:smallwood
+zone:49:49:0:0:0:30:A ladder to the bridge
+zone:50:150:0:0:30:50:Damaged bridge
+tile:50:150:0:0:30:30:old_wood

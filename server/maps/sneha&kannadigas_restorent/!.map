@@ -1,0 +1,226 @@
+mapname:sneha&kannadigas_restorent
+minx:-1
+maxx:51
+miny:-1
+maxy:301
+minz:0
+maxz:50
+tile:-1:51:-1:301:0:0:marble6
+owner:kannadiga
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:170:50:0:50:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+starting_point:0:0:0:0:0:0
+tile:-1:51:-1:-1:0:50:wallstone
+tile:-1:-1:-1:301:0:50:wallstone
+tile:-1:51:301:301:0:50:wallstone
+tile:51:51:-1:301:0:50:wallstone
+zone:0:50:0:300:0:50:sneha and kannadigas restorent.
+tile:0:30:16:19:0:50:wallmetal20
+zone:0:30:15:20:0:50:row of delicious sweets.:trackme
+tile:0:30:31:34:0:50:wallmetal20
+zone:0:30:30:35:0:50:row of spicy crunchy snaks.:trackme
+tile:0:30:46:49:0:50:wallmetal20
+zone:0:30:45:50:0:50:row of hot spicy soup:trackme
+tile:0:30:61:64:0:50:wallmetal20
+zone:0:30:60:65:0:50:row of hot and delicious veg foods.:trackme
+tile:0:30:76:79:0:50:wallmetal20
+zone:0:30:75:80:0:50:row of hot, spicy, non veg foods.:trackme
+tile:0:30:91:94:0:50:wallmetal20
+zone:0:30:90:95:0:50:row of drinks and beverages.:trackme
+tile:0:30:106:109:0:50:wallmetal20
+zone:0:30:105:110:0:50:row of delicious cakes.:trackme
+tile:0:30:121:124:0:50:wallmetal20
+zone:0:30:120:125:0:50:row of sweet, cold icecreams.:trackme
+tile:0:50:140:300:0:0:carpet4
+zone:0:50:140:150:0:50:a soft carpet near dining chairs.
+zone:0:20:150:162:0:50:row of smooth dining chairs.:trackme
+tile:1:2:151:152:2:2:chair
+tile:1:2:151:151:0:1:wallwood16
+zone:1:2:151:152:2:2:a smooth dining chair.
+tile:1:1:152:152:0:1:wallwood16
+tile:2:2:152:152:0:1:wallwood16
+tile:6:7:151:152:2:2:chair
+tile:6:7:161:161:0:1:wallwood16
+tile:6:6:152:152:0:1:wallwood16
+tile:7:7:152:152:0:1:wallwood16
+tile:11:12:151:152:2:2:chair
+tile:11:12:151:151:0:1:wallwood16
+zone:6:7:151:152:2:2:a smooth dining chair.
+tile:15:16:151:152:2:2:chair
+zone:11:12:151:152:2:2:a smooth dining chair.
+zone:15:16:151:152:2:2:a smooth dining chair.
+tile:19:20:151:152:2:2:chair
+zone:19:20:151:152:2:2:a smooth dining chair.
+tile:12:12:152:152:0:1:wallwood16
+tile:15:16:151:151:0:1:wallwood16
+tile:15:15:152:152:0:1:wallwood16
+tile:16:16:152:152:0:1:wallwood16
+tile:19:20:151:151:0:1:wallwood16
+tile:20:20:152:152:0:1:wallwood16
+tile:19:19:152:152:0:1:wallwood16
+tile:1:20:153:153:0:2:wallcloth
+tile:1:20:153:159:3:3:carpet2
+zone:1:20:153:159:3:3:a creemy dining table with a yello cloth.:trackme
+tile:1:20:159:159:0:2:wallcloth
+tile:1:1:154:158:0:2:wallcloth
+tile:20:20:154:158:0:2:wallcloth
+tile:1:2:160:161:2:2:chair
+zone:1:2:160:161:2:2:a smooth dining chair
+tile:1:2:161:161:0:1:wallwood16
+tile:1:1:160:160:0:1:wallwood16
+tile:2:2:160:160:0:1:wallwood16
+tile:6:7:160:161:2:2:chair
+tile:6:7:151:151:0:1:wallwood16
+tile:6:6:160:160:0:1:wallwood16
+tile:7:7:160:160:0:1:wallwood16
+tile:11:12:160:161:2:2:chair
+tile:11:12:161:161:0:1:wallwood16
+tile:11:11:160:160:0:1:wallwood16
+tile:12:12:160:160:0:1:wallwood16
+tile:15:16:160:161:2:2:chair
+tile:15:16:161:161:0:1:wallwood16
+tile:15:15:160:160:0:1:wallwood16
+tile:16:16:160:160:0:1:wallwood16
+tile:19:20:160:161:2:2:chair
+tile:19:20:161:161:0:1:wallwood16
+tile:19:19:160:160:0:1:wallwood16
+tile:20:20:160:160:0:1:wallwood16
+zone:19:20:160:161:2:2:a smooth dining chair.
+zone:15:16:160:161:2:2:a smooth dining chair.
+zone:11:12:160:161:2:2:a smooth dining chair.
+zone:6:7:160:161:2:2:a smooth dining chair.
+zone:1:2:15:15:0:0:some delicious cotton candy sits hear. press enter to take it.:trackme
+zone:7:8:15:15:0:0:healthy mint candies are waighting for you to be entertain by their flavour. press enter to take it.:trackme
+zone:13:14:15:15:0:0:crunchy sweet little hearts are hear. press enter to take it.:trackme
+zone:19:20:15:15:0:0:sweet, crispy oreo_cookies are hear. press enter to take it.:trackme
+zone:25:26:15:15:0:0:mmm, crunchy, tasty, delicious, big chocolate bars are waighting with some dry fruits. press enter to take it.:trackme
+zone:29:30:15:15:0:0:yummy sweet doughnuts sit hear. press enter to take it.:trackme
+zone:1:2:30:30:0:0:some crunchy spicy potato chips are hear. press enter to take it.:trackme
+zone:8:9:30:30:0:0:tasty banana chips sit hear. press enter to take it.:trackme
+zone:15:16:30:30:0:0:some crispy, spicy fried_peanuts are hear. press enter to take it.:trackme
+zone:22:23:30:30:0:0:some crunchy spicy_fryums sits hear. press enter to take it.:trackme
+zone:29:30:30:30:0:0:cheese flavoured spicy pringle boxes are hear. press enter to take it.:trackme
+zone:1:2:45:45:0:0:cup of hot, healthy tomato soup is hear. press enter to take it.:trackme
+zone:8:9:45:45:0:0:cup of healthy delicious broccoly soup is waighting for you. press enter to take it.:trackme
+zone:15:16:45:45:0:0:cup of hot tasty sweet corn soup is hear. press enter to take it.:trackme
+zone:22:23:45:45:0:0:cup of sweet and spicy veg soup is hear. press enter to take it.:trackme
+zone:29:30:45:45:0:0:cup of hot and spicy chicken manchow soup is hear. press enter to take it.:trackme
+zone:1:2:60:60:0:0:some spicy crispy french_fries sits hear. press enter to take it.:trackme
+zone:8:9:60:60:0:0:tasty cheese birst pizza decorated with olives, and some delicious vegetables are hear. press enter to take it.:trackme
+zone:15:16:60:60:0:0:a cheesy hot white sos pasta packed in a box sits hear. press enter to take it.:trackme
+zone:22:23:60:60:0:0:crispy hot spicy cheesy veg burgers are hear. press enter to take it.:trackme
+zone:29:30:60:60:0:0:bowl of veg nudels sits hear. press enter to take it.:trackme
+zone:1:2:75:75:0:0:some crunchy spicy fried chicken is hear. press enter to take it.:trackme
+zone:8:9:75:75:0:0:some delicious, hot, spicy peri_peri_chicken_pizza sit hear. press enter to take it.:trackme
+zone:15:16:75:75:0:0:some cheesy chicken burgers are hear. press enter to take it.:trackme
+zone:22:23:75:75:0:0:some crunchy spicy chicken nuggets sit hear. press enter to take it.:trackme
+zone:29:30:75:75:0:0:hot, spicy cooked omelettes are hear. press enter to take it.:trackme
+zone:1:2:90:90:0:0:glass of cold Vibrant Strawberry juices are hear. press enter to take it:trackme
+zone:8:9:90:90:0:0:glass of cold Sweet Mango Nectars sits hear. press enter to take it.:trackme
+zone:15:16:90:90:0:0:glass of cold Refreshing Apple Symphonies sits hear. press enter to take it.:trackme
+zone:22:23:90:90:0:0:glass of cold Tropical Watermelon Infusions are hear. press enter to take it.:trackme
+zone:29:30:90:90:0:0:glass of cold Tangy fresh Lime juice sits hear. press enter to take it.:trackme
+igdoor:1:2:15:15:0:50:1:15:0:you took 1 cotton candy.:cotton_candy:1:10:silence.ogg:silence.ogg:getnapkin.ogg:silence.ogg
+igdoor:7:8:15:15:0:50:7:15:0:you took 1 mint_candy:mint_candy:1:10:silence.ogg:silence.ogg:getmint.ogg:silence.ogg
+zone:1:2:105:105:0:0:bowl of sweet delicious choco lava cakes are hear. press enter to take it.:trackme
+igdoor:13:14:15:15:0:50:13:15:0:you took 1 sweet_little_hearts :sweet_little_hearts:1:10:silence.ogg:silence.ogg:getchip.ogg:silence.ogg
+igdoor:19:20:15:15:0:50:19:15:0:you took 1 oreo_cookie:oreo_cookie:1:10:silence.ogg:silence.ogg:getchip.ogg:silence.ogg
+zone:8:9:105:105:0:0:tasty creemy black forest cake decorated by choco chips sits hear. press enter to take it.:trackme
+zone:15:16:105:105:0:0:some delecious rich chocolate cakes are hear. press enter to take it.:trackme
+igdoor:25:26:15:15:0:50:25:15:0:you took 1 big chocolate bar.:big_chocolate_bar:1:10:silence.ogg:silence.ogg:getvery_long_paper.ogg:silence.ogg
+zone:22:23:105:105:0:0:some creemy raspberry cake decorated with chocolate sos sits hear. press enter to take it.:trackme
+zone:29:30:105:105:0:0:some sweet honey cakes decorated by chocolate_sprinkels are hear. press enter to take it.:trackme
+igdoor:29:30:15:15:0:50:29:15:0:you took 1 sweet_doughnut.:sweet_doughnut:1:10:silence.ogg:silence.ogg:getbag.ogg:silence.ogg
+igdoor:1:2:30:30:0:50:1:30:0:you took 1 spicy potato chips.:spicy_potato_chips:1:10:silence.ogg:silence.ogg:drawchip.ogg:silence.ogg
+zone:1:2:120:120:0:0:some cool vanilla icecream with mixed fruit sits hear. press enter to take it.:trackme
+igdoor:8:9:30:30:0:50:8:30:0:you took 1 banana_chips:banana_chips:1:10:silence.ogg:silence.ogg:drawchip.ogg:silence.ogg
+igdoor:15:16:30:30:0:50:15:30:0:you took 1 fried_peanut:fried_peanut:1:10:silence.ogg:silence.ogg:getnut.ogg:silence.ogg
+zone:8:9:120:120:0:0:bowl of cool delecious chocolate icecreams sits hear. press enter to take it.:trackme
+zone:15:16:120:120:0:0:bowl of dark, tasty deth by chocolate icecreams are hear. press enter to take it.:trackme
+zone:22:23:120:120:0:0:bowl of strawberry icecreams are hear. press enter to take it.:trackme
+zone:29:30:120:120:0:0:bowl of sweet butter sckoch icecreams sits hear. press enter to take it.:trackme
+igdoor:22:23:30:30:0:50:22:30:0:you took 1 spicy_fryums:spicy_fryums:1:10:silence.ogg:silence.ogg:drawchips.ogg:silence.ogg
+igdoor:29:30:30:30:0:50:29:30:0:you took 1 pringle box.:pringle_box:1:10:silence.ogg:silence.ogg:getbox.ogg:silence.ogg
+igdoor:1:2:45:45:0:50:1:45:0:you took 1 cup_of_tomato_soop:cup_of_tomato_soop:1:10:silence.ogg:silence.ogg:getcup.ogg:silence.ogg
+igdoor:8:9:45:45:0:50:8:45:0:you took 1 cup_of_brocoly soop:cup_of_brocoly_soop:1:10:silence.ogg:silence.ogg:getcup.ogg:silence.ogg
+igdoor:15:16:45:45:0:50:15:45:0:you took 1 cup of sweet_corn_soop:cup_of_sweet_corn_soop:1:10:silence.ogg:silence.ogg:getcup.ogg:silence.ogg
+igdoor:22:23:45:45:0:50:22:45:0:you took 1 cup of soar and spicy veg soop:cup_of_soar_and_spicy_veg_soop:1:10:silence.ogg:silence.ogg:getcup.ogg:silence.ogg
+igdoor:29:30:45:45:0:50:29:45:0:you took 1 cup of chicken manchow soop.:cup_of_chicken_manchow_soop:1:10:silence.ogg:silence.ogg:getcup.ogg:silence.ogg
+igdoor:1:2:60:60:0:50:1:60:0:you took 1 french fries:french_fries:1:10:silence.ogg:silence.ogg:drawcigarrette.ogg:silence.ogg
+igdoor:8:9:60:60:0:50:8:60:0:you took 1 pizza:pizza:1:10:silence.ogg:silence.ogg:getmeat.ogg:silence.ogg
+igdoor:15:16:60:60:0:50:15:60:0:you took 1 box of white sos pasta:white_sos_pasta:1:10:silence.ogg:silence.ogg:drawgift.ogg:silence.ogg
+igdoor:22:23:60:60:0:50:22:60:0:you took 1 veg burger:veg_burger:1:10:silence.ogg:silence.ogg:getbag.ogg:silence.ogg
+igdoor:29:30:60:60:0:50:29:60:0:you took 1 bowl of veg nudels:bowl_of_veg_nudels:1:10:silence.ogg:silence.ogg:drawbowl.ogg:silence.ogg
+igdoor:1:2:75:75:0:50:1:75:0:you took 1 fried chicken:fried_chicken:1:10:silence.ogg:silence.ogg:getmeat.ogg:silence.ogg
+igdoor:8:9:75:75:0:50:8:75:0:you took 1 peri peri chicken pizza:peri_peri_chicken_pizza:1:10:silence.ogg:silence.ogg:getmeat.ogg:silence.ogg
+igdoor:15:16:75:75:0:50:15:75:0:you took 1 chicken burger:chicken_burger:1:10:silence.ogg:silence.ogg:getbag.ogg:silence.ogg
+igdoor:22:23:75:75:0:50:22:75:0:you took 1 chicken nugget:chicken_nugget:1:10:silence.ogg:silence.ogg:drawhighheel.ogg:silence.ogg
+igdoor:29:30:75:75:0:50:29:75:0:you took 1 cooked omelette:cooked_omelette:1:10:silence.ogg:silence.ogg:getmeat.ogg:silence.ogg
+igdoor:1:2:90:90:0:50:1:90:0:you took 1 glass of strawberry juice:glass_of_strawberry_juice:1:10:silence.ogg:silence.ogg:drawempty_glass.ogg:silence.ogg
+igdoor:8:9:90:90:0:50:8:90:0:you took 1 glassof mango juice:glass_of_mango_juice:1:10:silence.ogg:silence.ogg:drawempty_glass.ogg:silence.ogg
+igdoor:15:16:90:90:0:50:15:90:0:you took 1 glass of apple juice:glass_of_apple_juice:1:10:silence.ogg:silence.ogg:drawempty_glass.ogg:silence.ogg
+igdoor:22:23:90:90:0:50:22:90:0:you took 1 glass of watermelon juice:glass_of_watermelon_juice:1:10:silence.ogg:silence.ogg:drawempty_glass.ogg:silence.ogg
+igdoor:29:30:90:90:0:50:29:90:0:you took 1 glass of fresh lime juice:glass_of_fresh_lime_juice:1:10:silence.ogg:silence.ogg:drawempty_glass.ogg:silence.ogg
+igdoor:1:2:105:105:0:50:1:105:0:you took 1 bowl of choco lava cake:bowl_of_choco_lava_cake:1:10:silence.ogg:silence.ogg:drawbowl.ogg:silence.ogg
+igdoor:8:9:105:105:0:50:8:105:0:you took 1 blackforest cake decorated by choco chips:blackforest_cake_decorated_by_choco_chips:1:10:silence.ogg:silence.ogg:drawglue.ogg:silence.ogg
+igdoor:15:16:105:105:0:50:15:105:0:you took 1 rich_chocolate_cake:rich_chocolate_cake:1:10:silence.ogg:silence.ogg:drawglue.ogg:silence.ogg
+igdoor:22:23:105:105:0:50:22:105:0:you took 1 raspberry_cake_decorated_with_chocolate_sos:raspberry_cake_decorated_with_chocolate_sos:1:10:silence.ogg:silence.ogg:drawglue.ogg:silence.ogg
+igdoor:29:30:105:105:0:50:29:105:0:you took 1 honeycake decorated by chocolate sprinkles:honeycake_decorated_by_chocolate_sprinkles:1:10:silence.ogg:silence.ogg:drawglue.ogg:silence.ogg
+igdoor:1:2:120:120:0:50:1:120:0:you took 1 bowl_of_vannilla_icecream_with_mixed_fruits.:bowl_of_vannilla_icecream_with_mixed_fruits:1:10:silence.ogg:silence.ogg:drawbowl.ogg:silence.ogg
+igdoor:8:9:120:120:0:50:8:120:0:you took1  bowl_of_chocolate_icecream.:bowl_of_chocolate_icecream:1:10:silence.ogg:silence.ogg:drawbowl.ogg:silence.ogg
+igdoor:15:16:120:120:0:50:15:120:0:you took 1bowl of death_by_chocolate:bowl_of_death_by_chocolate:1:10:silence.ogg:silence.ogg:drawbowl.ogg:silence.ogg
+igdoor:22:23:120:120:0:50:22:120:0:you took 1 bowl_of_strawberry_icecream.:bowl_of_strawberry_icecream:1:10:silence.ogg:silence.ogg:drawbowl.ogg:silence.ogg
+igdoor:29:30:120:120:0:50:29:120:0:you took 1 bowl_of_butterskoch_icecream.:bowl_of_buttersckoch_icecream:1:10:silence.ogg:silence.ogg:drawbowl.ogg:silence.ogg
+owner:sneha
+tile:0:50:171:171:0:50:wallstone
+sign:0:0:0:0:0:0:welcome dear %n! delicious restorent of sneha and kannadiga pulled you to words it? you want to experience nue tasty delecious snaks and foods? you came to right place, then what are you waighting for. go some tiles north and make the payment of 100 credits to have unlimited foods and snaks, if you dont have credits, go little right and make your payment with 2000 coins. its a bit expencive because, coins are currency with less value:silence.ogg
+tile:0:50:5:5:0:50:wallglass5
+zone:0:50:0:4:0:50:a counter of sneha and kannadigas restorent
+zone:0:0:0:0:0:0:a sign:trackme
+src:0:50:0:4:0:50:-5:100:restaurant3.ogg:1
+zone:0:50:4:4:0:50:a smart touch pannel. that except credits and coins.
+zone:0:0:4:4:0:0:press enter to make your payments with credits:trackme
+zone:5:5:4:4:0:0:press enter to make your payment with coins:trackme
+itdoor:0:0:4:4:0:50:0:6:0:you payed 100 credits and entered into unlimited food area.:credit:100:15:silence.ogg:silence.ogg:vendingbutton.ogg:getstw_credit.ogg
+src:0:50:6:170:0:50:-5:100:restaurant7.ogg:1
+zone:25:30:6:6:0:50:a glossy door to the counter, press enter to exit:trackme
+door:25:30:6:6:0:50:25:4:0:hope you had nice foods and snaks. good bye.:5:silence.ogg:silence.ogg:door10open.ogg:silence.ogg
+tile:25:30:-1:-1:0:0:wallwooddoor
+itdoor:5:5:4:4:0:50:0:6:0:you payed 2000 coins and entered into unlimited food area.:coins:2000:15:silence.ogg:silence.ogg:vendinginsert.ogg:silence.ogg
+zone:25:30:0:0:0:50:press shift enter to exit the restorent.:trackme
+travelpoint:25:30:0:0:0:50:a_noisy_city:165:159:0:felt happy? sneha and kannadiga wish you come back again.:silence.ogg:silence.ogg:silence.ogg
+tile:45:45:151:161:0:20:wallglass5
+zone:44:44:151:161:0:50:near the juice blenders.:trackme
+tile:46:50:151:151:0:20:wallglass5
+tile:46:50:161:161:0:20:wallglass5
+tile:46:50:152:160:0:0:hardwood7
+tile:46:50:153:153:0:50:wallboat
+tile:46:50:155:155:0:50:wallboat
+tile:46:50:157:157:0:50:wallboat
+tile:46:50:159:159:0:50:wallboat
+zone:46:50:152:152:0:50:press enter to start the carrot juice blender.
+zone:46:50:154:154:0:50:press enter to start the blue_berry juice blender.
+zone:46:50:156:156:0:50:press enter to start the berry juice blender.
+zone:46:50:158:158:0:50:press enter to start the cherry juice blender.
+zone:46:50:160:160:0:50:press enter to start milk shake blunder.
+zone:44:44:152:152:0:50:Carrot Juice Blender, Press Enter to put the carrots into the blender
+zone:44:44:154:154:0:50:Blueberry Juice Blender, Press Enter to put the blueberries into the blender
+zone:44:44:156:156:0:50:berry Juice Blender, Press Enter to put the berries into the blender
+zone:44:44:158:158:0:50:Cherry Juice Blender, Press Enter to put the cherries into the blender
+zone:44:44:160:160:0:50:drifruit milkshake mixer. press enter to put all the nuts and ingredience in the blender
+itdoor:44:44:152:152:0:20:50:152:0:you put the carrots in the blender.:carrot:10:350:silence.ogg:silence.ogg:getberry.ogg:silence.ogg
+igdoor:46:50:152:152:0:20:44:152:0:wait until your juice is ready.:glass_of_carrot_juice:1:2000:silence.ogg:village_r17.ogg:silence.ogg:getempty_glass.ogg
+itdoor:44:44:154:154:0:20:50:154:0:you put blue_berries in the blender.:blueberry:10:350:silence.ogg:silence.ogg:getberry.ogg:silence.ogg
+igdoor:46:50:154:154:0:20:44:154:0:wait until your juice is ready:glass_of_blueberry_juice:1:2000:silence.ogg:village_r17.ogg:silence.ogg:getempty_glass.ogg
+itdoor:44:44:156:156:0:20:50:156:0:you put berries in the blender.:berry:10:350:silence.ogg:silence.ogg:getberry.ogg:silence.ogg
+igdoor:46:50:156:156:0:20:44:156:0:wait until your juice is ready:glass_of_berry_juice:1:2000:silence.ogg:village_r17.ogg:silence.ogg:getempty_glass.ogg
+itdoor:44:44:158:158:0:20:50:158:0:you put cherries in the blender.:cherry:10:350:silence.ogg:silence.ogg:getberry.ogg:silence.ogg
+igdoor:46:50:158:158:0:20:44:158:0:wait until your juice is ready.:glass_of_cherry_juice:1:2000:silence.ogg:village_r17.ogg:silence.ogg:getempty_glass.ogg
+itdoor:44:44:160:160:0:20:50:160:0:you pored the milk and mixed many dry nuts and other ingredience.:nut:10:350:silence.ogg:egg_beat4.ogg:silence4.ogg:silence.ogg
+igdoor:46:50:160:160:0:20:44:160:0:wait until your milkshake is ready:glass_of_dryfruit_milkshake:1:2000:silence.ogg:village_r17.ogg:silence.ogg:getempty_glass.ogg
+music:0:50:0:300:0:50:0:105:maxkomusic4.ogg:1
+reinforcement:0:10000000

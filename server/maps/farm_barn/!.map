@@ -1,0 +1,33 @@
+mapname:farm_barn
+minx:0
+maxx:30
+miny:0
+maxy:30
+minz:0
+maxz:20
+tile:0:30:0:30:0:20:wallbrick
+owner:owlinor
+litem:1
+starting_point:0:30:0:30:0:0
+deathpoint:0:30:0:30:0:0
+tile:1:29:1:29:1:19:air
+tile:1:29:1:29:0:0:cement2
+zone:1:29:1:29:0:19:barn
+src:1:29:0:0:0:19:-10:100:birds7.ogg
+tile:13:18:0:0:0:15:wallstand
+zone:13:18:1:1:0:15:barn door. Press shift enter to go out.:trackme
+travelpoint:13:18:1:1:0:15:farm:15:99:0: :silence.ogg:door19open.ogg:door19close.ogg
+tile:6:11:15:23:0:4:wallgrass3
+tile:6:11:15:23:5:5:grass
+zone:5:12:14:24:0:15:near a straw bale
+zone:6:11:15:23:5:7:on a straw bale
+tile:19:24:15:23:0:4:wallgrass3
+tile:19:24:15:23:5:5:grass
+zone:18:25:14:24:0:15:near a hay bale
+zone:19:24:15:23:5:7:on a hay bale
+music:1:29:1:29:0:19:-15:100:menumus52.ogg
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+item_usage_restriction:0:30:0:30:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+reinforcement:0:10000000

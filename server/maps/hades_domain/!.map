@@ -1,0 +1,29 @@
+mapname:hades_domain
+minx:-1
+maxx:101
+miny:-1
+maxy:101
+minz:0
+maxz:50
+owner:kannadiga
+litem:1
+starting_point:-1:101:-1:101:0:0
+deathpoint:-1:101:-1:101:0:0
+tile:-1:101:-1:101:0:0:marsh
+owner:sneha
+tile:-1:101:-1:-1:0:50:wallcorpse
+tile:-1:-1:-1:101:0:50:wallcorpse
+tile:-1:101:101:101:0:50:wallcorpse
+tile:101:101:-1:101:0:50:wallcorpse
+zone:0:100:0:100:0:50:hades domain. this place is made up of bones, flesh, heads and other unidentifiable pieces of human remanes are scattered all around, bones criss cross the floor making it into an amazing design. the walls are covered with blood and fleshy parts. the seeling is decorated with cleanly cut heads, blood dripping off the heads, and falling to the ground, some of the blood flows down the walls.
+zone:0:0:0:0:0:0:entrance to go back to hades garden. press shift enter.:trackme
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+travelpoint:0:0:0:0:0:50:a_treasure_palace:50:1:-100:you came  back to hades garden.:silence.ogg:silence.ogg:silence.ogg
+ai:0:100:0:100:0:0:100000:1:hades
+reinforcement:50:1410065408
+music:0:100:0:100:0:50:0:100:menumus26.ogg:1
+
+src:-1:101:-1:101:0:50:-10:100:cave5.ogg
+src:-1:101:-1:101:0:50:-11:100:fireroar1.ogg

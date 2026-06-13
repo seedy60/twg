@@ -1,0 +1,32 @@
+mapname:lindow_sewers
+minx:0
+maxx:205
+miny:0
+maxy:402
+minz:-50
+maxz:80
+litem:1
+starting_point:0:205:0:402:0:0
+deathpoint:0:205:0:402:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+owner:turando
+tile:0:205:0:402:0:0:sewer
+zone:0:205:0:402:0:80:sewers
+music:0:205:0:402:-50:80:-15:100:menumus17.ogg
+item_usage_restriction:0:205:0:402:-50:80:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+travelpoint:0:0:0:0:0:0:lindow_town:50:398:0:exiting sewers.:silence.ogg:silence.ogg:silence.ogg
+zone:0:0:0:0:0:20:go back entrence.:trackme
+tile:0:205:0:402:50:50:concrete13
+tile:150:150:0:0:5:50:metal16
+zone:150:150:0:0:5:5:ladder to go up.:trackme
+zone:150:150:0:0:15:51:ladder to go down.:trackme
+zone:150:150:0:0:6:49:ladder.
+tile:0:205:0:402:-1:-1:wallwood15
+reinforcement:0:10000000
+src:0:205:0:402:0:50:-5:100:sewer3.ogg
+ai:0:205:0:402:0:0:14000:2:insane_blaster
+ai:0:205:0:402:50:50:14000:2:demon
+
+tile:150:150:0:0:0:50:ladder

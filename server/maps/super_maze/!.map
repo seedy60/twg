@@ -1,0 +1,112 @@
+mapname:super_maze
+minx:0
+maxx:500
+miny:0
+maxy:500
+minz:0
+maxz:500
+tile:0:500:0:500:0:500:wallstone
+owner:hoanganh
+litem:1
+starting_point:0:500:0:500:0:0
+deathpoint:0:500:0:500:0:0
+night:none.ogg
+tile:0:0:0:35:0:0:concrete
+zone:0:500:0:500:0:500:master maze
+zone:0:0:0:0:0:0:reed before start
+tile:0:0:0:0:0:0:paper
+sign:0:0:0:0:0:0:hello %n. This is a super hard maze that will have levels to test your skills. Be careful because if you go the wrong way you will have to start over. Good luck!:sign.ogg
+zone:0:0:10:10:0:0:level 1
+tile:0:0:11:15:0:0:wallwooddoor
+door:0:0:10:10:0:0:0:16:0:Find your way to complete level one:100:silence.ogg:silence.ogg:open14.ogg:silence.ogg
+tile:1:500:35:35:0:0:concrete
+tile:30:30:36:50:0:0:concrete
+tile:50:50:36:60:0:0:concrete
+tile:51:80:60:60:0:0:concrete
+tile:70:70:61:81:0:0:concrete
+tile:71:90:81:81:0:0:concrete
+tile:90:90:81:90:0:0:concrete
+tile:91:91:91:91:0:0:concrete
+tile:92:92:92:92:0:0:concrete
+tile:93:93:93:93:0:0:concrete
+tile:94:94:94:94:0:0:concrete
+tile:95:95:95:95:0:0:concrete
+tile:96:96:96:96:0:0:concrete
+tile:97:97:97:97:0:0:concrete
+tile:98:98:98:98:0:0:concrete
+tile:99:99:99:99:0:0:concrete
+tile:100:100:100:150:0:0:concrete
+tile:100:100:110:120:0:20:wallwooddoor
+zone:100:100:109:109:0:0:level 2
+door:100:100:109:109:0:0:100:121:0:hmm, you dont let me down:200:silence.ogg:silence.ogg:open14.ogg:silence.ogg
+sign:100:100:121:121:0:0:looks like you're doing pretty good, ok, at level 2 you have to dodge traps that are placed everywhere, and if you go? congratulations you'll be reset to the beginning:sign.ogg
+starting_point:0:0:0:0:0:0
+tile:90:120:130:130:0:0:concrete
+automover:120:120:130:130:0:0:0:0:0:ahhahaha you fall in the traps:1:silence.ogg:silence.ogg:silence.ogg:decelerate9.ogg
+zone:100:100:130:130:0:0:intersection. 
+automover:90:90:130:130:0:0:0:0:0:hahahah traps faller:1:silence.ogg:silence.ogg:silence.ogg:decelerate9.ogg
+tile:101:120:140:140:0:0:concrete
+zone:100:100:140:140:0:0:intersection. 
+tile:120:120:135:150:0:0:concrete
+automover:120:120:135:135:0:0:0:0:0:traps said: ce you next time, my friend:1:silence.ogg:silence.ogg:tp2.ogg:tp41.ogg
+tile:121:130:150:150:0:0:concrete
+tile:131:131:149:149:0:0:concrete
+tile:132:132:148:148:0:0:concrete
+automover:132:132:148:148:0:0:0:0:0:ce you later, alygayter:1:silence.ogg:silence.ogg:silence.ogg:tp33.ogg
+tile:131:131:151:151:0:0:concrete
+tile:132:132:150:150:0:0:concrete
+tile:133:133:149:149:0:0:concrete
+tile:133:133:151:151:0:0:concrete
+tile:150:150:150:170:0:0:concrete
+zone:150:150:150:150:0:0:enter here
+pdoor:150:150:170:170:0:0:200:200:0:Which car company is Ferrari's arch rival?:Lamborghini:1:silence.ogg:aplause2.ogg:silence.ogg:aplause3.ogg
+zone:150:150:170:170:0:0:enter and input your encer
+tile:200:200:200:250:0:0:concrete
+tile:200:200:205:210:0:0:wallwooddoor
+zone:200:200:204:204:0:0:level 3
+door:200:200:204:204:0:0:200:211:0:Read the next sine carefully, you will be shocked to know the truth.:250:silence.ogg:silence.ogg:open14.ogg:silence.ogg
+sign:200:200:211:211:0:0:From now on you are in a military base. Yes you are not mistaken it is a military base, your mission is to find the spy's room to get the secret documents about the weapon manufacturing of the ultra army that are being held by ultimate. Be careful. first fine way to go to the office:sign.ogg
+tile:190:210:220:220:0:0:concrete
+automover:210:210:220:220:0:0:0:0:0:rong way bro:1:silence.ogg:silence.ogg:silence.ogg:m9pistol.ogg
+automover:190:190:220:220:0:0:0:0:0:good by:1:silence.ogg:silence.ogg:silence.ogg:pcs_handgun.ogg
+zone:200:200:220:220:0:0:tern
+automover:200:200:250:250:0:0:100:100:0:bro! bro! wek up! what are you doing:1:silence.ogg:silence.ogg:silence.ogg:fn2000pistol.ogg
+tile:201:220:230:230:0:0:concrete
+tile:221:221:229:229:0:0:concrete:trackme
+automover:221:221:229:229:0:0:0:0:0:Don't try to break into the ultimate military base anymore!:5:silence.ogg:ak48.ogg:silence.ogg:tp33.ogg
+enable:spy
+zone:100:100:121:121:0:0:sign
+tile:200:200:211:211:0:0:paper
+zone:200:200:211:211:0:0:a paper here, read what it says?
+automover:133:133:149:149:0:0:0:0:0:you falling the trap! try again!:10:silence.ogg:str_up.ogg:silence.ogg:silence.ogg
+tile:221:221:231:231:0:0:concrete
+tile:222:222:232:232:0:0:concrete
+tile:190:190:220:220:0:0:human
+zone:190:190:220:220:0:0:a soldier
+zone:210:210:220:220:0:0:soldier
+tile:210:210:220:220:0:0:human
+zone:200:200:250:250:0:0:a gun
+tile:223:223:229:229:0:0:concrete
+zone:200:200:230:230:0:0:intersection
+tile:223:223:233:233:0:0:concrete
+pdoor:223:223:233:233:0:0:250:250:0:What year was Pagani Automobili born?:1992:180:silence.ogg:aplause2.ogg:silence.ogg:aplause3.ogg
+tile:250:250:250:270:0:0:concrete
+tile:240:260:260:260:0:0:concrete
+automover:240:240:260:260:0:0:100:100:0:shit, this one is rong auso, good luck next time. %n!:1:silence.ogg:silence.ogg:silence.ogg:lr12pistol.ogg
+tile:261:261:261:261:0:0:concrete
+tile:262:262:262:262:0:0:concrete
+tile:263:263:263:263:0:0:concrete
+tile:264:264:264:264:0:0:concrete
+tile:265:265:263:264:0:0:concrete
+tile:265:265:265:265:0:0:concrete
+door:260:260:260:260:0:0:100:100:0:good by:1:silence.ogg:silence.ogg:silence.ogg:decelerate9.ogg
+zone:260:260:260:260:0:0:door
+zone:265:265:265:265:0:0:You look at the text, you see... entrance to military base,.
+door:265:265:265:265:0:0:300:300:0:ok %n be careful, read the signs carefully.:150:silence.ogg:mapswitchtimer.ogg:door80open.ogg:Close Chest.ogg
+tile:300:500:300:500:0:0:concrete
+zone:300:300:300:300:0:0:please read the sind
+dialog:300:300:300:300:0:0:oh! hi %n! welcome to ultimate military base,=I want to get the secret documents you have hidden=hmm, %n are you sure about that? that's ok, just enjoy what you want, please go to 305, 305, 0. good luck, %n. hahahahahhahaahahhahhahahhahahahahahhahhhhahahahaahahaahahahahahahhhahaha
+tile:306:306:300:500:0:0:wallstone
+door:305:305:305:305:0:0:307:307:0:Hello warrior, meet agent tom, he is a spy of ultra.:1:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+zone:307:307:307:307:0:0:agent tom is here, enter to talk to him
+dialog:307:307:307:307:0:0:hi tom, iam %n, I'm here to get the ultimate military secret=oh hi %n, As far as I know, these things are saved in General Robert Toni's computer. remember, what you need to do is find general toni's computer, next get the secret document there, finally, go to coordinates 500, 500,0 and give it to president patricus=oh? is just so yzy  right?=no, nothing is that easy, remember, if you access the wrong computer, you have to start all over again, or if you are unlucky, you will be imprisoned here, remember, everything is not as easy as you think, good luck.

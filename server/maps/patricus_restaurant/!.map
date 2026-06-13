@@ -1,0 +1,107 @@
+mapname:patricus_restaurant
+minx:0
+maxx:600
+miny:0
+maxy:600
+minz:0
+maxz:600
+tile:0:600:0:600:0:0:cement
+zone:0:600:0:600:0:600:Patricus's restaurant, the light changes color every minute due to chaos magic
+owner:lord_of_chaos
+litem:1
+starting_point:0:600:0:600:0:0
+deathpoint:0:600:0:600:0:0
+zone:0:600:0:0:0:0:door back to noisy city:trackme
+tile:0:0:6:6:10:10:carpet
+itdoor:0:0:6:6:0:0:0:6:10:you paid 5 coins, press enter to get your coffee:coins:5:0:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:0:0:6:6:10:10:0:6:0:you get your coffee and take a sip, it tastes godly.:cup_of_coffee:1:0:silence.ogg:silence.ogg:silence.ogg:getbeer_bottle.ogg
+zone:0:0:6:6:0:0:to buy coffee, press enter:trackme
+safezone:0:600:0:600:0:600
+src:0:600:0:600:0:600:0:100:restaurant3.ogg:1
+itdoor:3:3:6:6:0:0:3:6:10:you pay 30 credits, press enter to receive your cookie:credit:30:0:silence.ogg:silence.ogg:getstw_credit.ogg:silence.ogg
+tile:3:3:6:6:10:10:carpet
+tile:3:3:5:5:10:10:wallbank:trackme
+tile:2:2:6:6:10:15:wallbank
+tile:3:3:7:7:10:15:wallbank:trackme
+tile:4:4:6:6:10:15:wallbank
+tile:0:0:6:6:11:15:wallbank
+tile:1:1:6:6:10:15:wallbank
+tile:0:0:7:7:10:15:wallbank
+tile:0:0:5:5:10:15:wallbank
+tile:3:3:6:6:11:11:wallbank
+zone:14:14:5:5:0:0:to get kitty drinks, 10 coins, press enter:trackme
+itdoor:14:14:5:5:0:0:14:5:10:you pay 10 coins for your kitty drink:coins:10:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+tile:14:14:5:5:10:10:carpet
+igdoor:14:14:5:5:10:10:14:5:0:you get your kitty drink, it smells like a cat:kittie_drink:1:0:silence.ogg:silence.ogg:getenergy_drug.ogg:silence.ogg
+tile:13:13:5:5:10:15:wallbank
+tile:15:15:5:5:10:15:wallbank
+tile:14:14:4:4:10:15:wallbank
+tile:14:14:6:6:10:10:wallbank
+tile:14:14:5:14:11:15:wallbank
+zone:35:35:6:6:0:0:to get borbon, 10 coins, press enter:trackme
+itdoor:35:35:6:6:0:0:35:6:10:you paid 10 coins for your borbon, press enter to take it:coins:10:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+tile:35:35:6:6:10:10:carpet
+igdoor:35:35:6:6:10:10:35:6:0:you took your borbon:borbon:1:0:silence.ogg:silence.ogg:getprotein_bar.ogg:silence.ogg
+tile:35:35:7:7:10:15:wallbrick
+tile:34:34:6:6:10:15:wallbrick
+tile:35:35:5:5:10:15:wallbrick
+tile:36:36:6:6:10:15:wallbrick
+tile:35:35:6:6:11:13:wallbrick
+zone:44:44:12:12:0:0:press enter to pay for your french fries, 5 coins:trackme
+itdoor:44:44:12:12:0:0:44:12:10:you paid 5 coins to get french fries:coins:5:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+tile:44:44:12:12:10:10:carpet
+igdoor:44:44:12:12:10:10:44:12:0:you take your french fries:french_fries:1:0:silence.ogg:silence.ogg:getcigarrette.ogg:silence.ogg
+zone:44:44:12:12:10:10:press enter to get your french fries
+tile:43:43:12:12:10:15:wallbrick
+tile:44:44:12:12:11:11:wallbrick
+tile:45:45:12:12:10:15:wallbrick
+tile:44:44:13:13:10:15:wallbrick
+tile:44:44:11:11:10:15:wallbrick
+dialog:44:44:2:2:0:0:hi %n=you can get a lot of food here=take a look around
+zone:44:44:2:2:0:0:Patricus stands there, smiling:trackme
+travelpoint:0:600:0:0:0:0:a_noisy_city:0:20:0:you leave the restaurant, full and happy:silence.ogg:door11open.ogg:door11close.ogg
+owner:patricus
+zone:31:31:9:9:0:0:to buy musical candies, press enter:trackme
+tile:31:31:9:9:10:10:carpet
+igdoor:31:31:9:9:10:10:31:9:0:you take the musical candy, it looks like a small piano:musical_candy:1:0:silence.ogg:silence.ogg:getnut.ogg:silence.ogg
+itdoor:31:31:9:9:0:0:31:9:10:you pay 5 coins for the musical candy:coins:5:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+tile:30:30:9:9:10:15:wallbrick
+tile:31:31:8:8:10:15:wallbrick
+tile:32:32:9:9:10:15:wallbrick
+tile:31:31:10:10:10:15:wallbrick
+tile:31:31:9:9:11:15:wallbrick
+night:none.ogg
+rain:none.ogg
+wind:none.ogg
+zone:25:25:9:9:0:0:to buy Patricus's frozen coffee, press enter:trackme
+tile:25:25:9:9:10:10:carpet
+itdoor:25:25:9:9:0:0:25:9:10:you paid 10 coins for the frozen coffee, press enter to take it:coins:10:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+igdoor:25:25:9:9:10:10:25:9:0:you take the frozen coffee, it's cold and refreshing:frozen_coffee:1:0:silence.ogg:silence.ogg:getice.ogg:silence.ogg
+tile:24:24:9:9:10:15:wallbrick
+tile:26:26:9:9:10:15:wallbrick
+tile:25:25:10:10:10:15:wallbrick
+tile:25:25:8:8:10:15:wallbrick
+tile:25:25:9:9:11:15:wallbrick
+zone:56:56:6:6:0:0:to buy insanity burgers, 2000 coins, press enter:trackme
+tile:56:56:6:6:10:10:carpet
+igdoor:56:56:6:6:0:0:56:6:10:you paid 2000 coins for an insanity burger, press enter to take it:coins:200:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+igdoor:56:56:6:6:10:10:56:6:0:you take the insanity burger, it smells like madness:insanity_burger:1:0:silence.ogg:silence.ogg:drawpackage.ogg:silence.ogg
+tile:55:55:6:6:10:15:wallbrick
+tile:57:57:6:6:10:15:wallbrick
+tile:56:56:5:5:10:15:wallbrick
+tile:56:56:7:7:10:15:wallbrick
+tile:56:56:6:6:11:11:wallbrick
+reinforcement:0:10000000
+zone:0:0:43:43:0:0:to buy a pack of cigarettes, press enter:trackme
+itdoor:0:0:43:43:0:0:0:43:10:you pay 6 coins for the cigarette pack, we hope you have enough gas:coins:6:0:silence.ogg:silence.ogg:getcoins.ogg:silence.ogg
+tile:0:0:43:43:10:10:carpet
+tile:0:0:44:44:10:15:wallbrick
+tile:0:0:42:42:10:15:wallbrick
+tile:1:1:43:43:10:15:wallbrick
+tile:0:0:43:43:11:11:wallbrick
+igdoor:0:0:43:43:10:10:0:43:0:you take the cigarette pack:cigarette_pack:1:0:silence.ogg:silence.ogg:cigarrette_pack.ogg:silence.ogg
+tile:0:0:57:57:10:10:carpet
+tile:0:0:58:58:10:15:wallbrick
+tile:0:0:56:56:10:15:wallbrick
+tile:1:1:57:57:10:15:wallbrick
+tile:0:0:57:57:11:11:wallbrick

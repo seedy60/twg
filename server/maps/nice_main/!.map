@@ -1,0 +1,138 @@
+mapname:nice_main
+minx:0
+maxx:30
+miny:0
+maxy:30
+minz:0
+maxz:10000
+tile:0:30:0:30:0:0:concrete45
+litem:1
+deathpoint:0:30:0:30:0:0
+reverb:0:30:0:30:0:10000:1:1.0:1.0:0.8:0.5:1.0
+tile:0:0:0:30:0:10000:wallwood19
+tile:0:30:0:0:0:10000:wallwood19
+tile:30:30:0:30:0:10000:wallwood19
+tile:0:30:30:30:0:10000:wallwood19
+src:0:30:0:30:0:10000:-4:100:room3.ogg:1
+zone:0:50:0:50:0:10000:main map
+owner:la_brea
+owner:BarryAllen
+tile:1:10:1:10:0:2:wallsofa
+tile:1:10:1:10:4:4:cloth
+safezone:0:30:0:30:0:10000
+starting_point:2:2:2:2:4:4
+zone:1:10:1:10:4:11:A bed that is comfortable, cozy, peaceful, and most importantly, gives you energy.:trackme
+bed:1:10:1:10:4:4
+tile:20:25:1:1:0:0:concrete7
+night:none.ogg
+wind:none.ogg
+oven:1:1:29:29:0:0
+tile:1:1:29:29:0:0:metal6
+src:1:1:29:29:0:5:-5:100:oven.ogg
+tile:15:25:15:15:0:10:wallwood18
+tile:15:25:16:24:0:0:marble2
+zone:15:25:15:24:0:10:A nice smelling toilet, yes, the people in this game must really be very clean.:trackme
+tile:14:14:15:25:0:10:wallwood18
+tile:15:25:25:25:0:10:wallwood18
+tile:26:26:15:25:0:10:wallwood18
+door:20:20:16:16:0:10:20:14:0:see you later:800:silence.ogg:door10.ogg:silence.ogg:silence.ogg
+door:20:20:14:14:0:10:20:16:0:welcome:800:silence.ogg:door10.ogg:silence.ogg:silence.ogg
+toilet:15:15:24:24:0:0
+washbasin:20:20:24:24:0:0
+shower:25:25:24:24:0:0
+tile:15:15:24:24:0:0:marsh
+tile:20:20:24:24:0:0:spring2
+tile:25:25:24:24:0:0:bathtub2
+tile:20:20:15:15:0:10:wallwood14
+zone:15:15:24:24:0:10:toilet:trackme
+zone:20:20:24:24:0:10:Wash your hands, you jerk!:trackme
+zone:25:25:24:24:0:10:Wow, here's a shower, come in and freshen up.:trackme
+zone:1:1:29:29:0:10:oven:trackme
+tile:1:29:1:29:20:20:wood3
+zone:0:30:0:30:20:30:2nd floor of the main map
+zone:11:11:11:11:20:20:stairs going down:trackme
+zone:11:11:11:11:0:19:stairs leading up:trackme
+zone:20:20:14:14:0:10:Press enter to enter clean toilet:trackme
+zone:20:20:16:16:0:10:Your work is done, now go out.:trackme
+tile:15:25:15:25:10:10:wallwood18
+tile:1:29:1:29:19:19:wallwood19
+tile:11:11:11:11:0:20:carpet4
+automover:1:10:1:10:0:2:2:2:4:I think you got stuck in the wall, I saved you.:1:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:15:25:15:25:20:20:marble3
+tile:15:25:14:14:20:30:wallwood16
+tile:26:26:14:26:20:30:wallwood16
+tile:15:26:26:26:20:30:wallwood16
+tile:14:14:14:26:20:30:wallwood16
+tile:14:26:14:26:30:30:wallwood19
+zone:15:25:15:25:20:30:a kitchen where great meals are made:trackme
+tile:20:20:14:14:20:30:wallwooddoor
+door:20:20:15:15:0:30:20:13:20:you left the kitchen:800:silence.ogg:door2.ogg:door2open.ogg:silence.ogg
+door:20:20:13:13:20:30:20:15:20:You entered a nice smelling kitchen:800:silence.ogg:door2.ogg:door2open.ogg:silence.ogg
+zone:20:20:13:13:20:30:A fragrant kitchen, press enter to enter:trackme
+zone:20:20:15:15:20:30:Press enter to exit the kitchen:trackme
+tile:15:25:25:25:20:22:wallstone
+tile:15:25:25:25:23:23:concrete8
+zone:15:25:25:25:23:30:counter:trackme
+oven:15:15:24:24:20:20
+tile:15:15:24:24:20:20:metal18
+zone:15:15:24:24:20:30:a oven:trackme
+src:15:15:24:24:20:25:-3:100:fire4.ogg
+src:18:18:25:25:20:22:0:100:fridge3.ogg
+tile:18:18:25:25:20:22:wallchain
+zone:18:18:24:25:20:22:a very loud fridge:trackme
+clock:5:5:29:29:0:10:here is the time:
+calendar:7:7:29:29:0:10:today's date:
+tile:1:29:1:29:35:35:wallwood19
+tile:1:10:1:10:3:3:wood7
+zone:1:10:1:10:3:3:bed base
+rain:none.ogg
+wind:none.ogg
+zone:5:5:29:29:0:10:clock:trackme
+tile:5:5:30:30:0:10:wallclothing
+zone:7:7:29:29:0:10:calendar:trackme
+tile:7:7:30:30:0:10:wallwoodpile
+zone:5:5:29:29:20:30:clock, 2:trackme
+tile:5:5:30:30:20:30:wallclothing
+zone:7:7:29:29:20:30:calendar, 2:trackme
+tile:7:7:30:30:20:30:wallwoodpile
+calendar:7:7:29:29:20:30:today's date:
+clock:5:5:29:29:20:30:here is the time:
+src:5:5:29:30:0:10:0:100:clock.ogg
+src:5:5:29:30:20:30:0:100:clock.ogg
+src:7:7:29:30:0:10:0:100:paper.ogg
+src:7:7:29:30:20:30:0:100:paper.ogg
+tile:1:1:1:1:4:9:wallcloth
+tile:10:10:1:1:4:9:wallcloth
+tile:1:1:10:10:4:9:wallcloth
+tile:10:10:10:10:4:9:wallcloth
+tile:1:10:1:10:9:9:wallcloth
+tile:1:10:1:10:10:10:cloth
+automover:1:10:1:10:9:9:1:1:10:you got stuck in the wall, I saved you.:1:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+bed:1:10:1:10:10:10
+zone:1:10:1:10:10:15:2nd floor of bunk bed
+tile:11:11:5:5:0:10:ladder2
+zone:11:11:5:5:0:10:bunk bed stairs
+automover:14:26:14:26:10:10:20:14:0:The man stuck in the toilet, come on, be free:1:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+//url:https://oguzhanproductions.com:/hamsi.mp3
+//url:https://oguzhanproductions.com/napiyosun-mesela.mp3
+music:0:30:0:30:0:10000:0:100:updating6.ogg
+tile:22:25:5:10:0:5:wallstone
+tile:22:25:5:10:5:5:water10
+tile:21:21:5:10:5:7:wallstone
+tile:21:26:4:4:5:7:wallstone
+tile:26:26:4:10:5:7:wallstone
+tile:21:26:11:11:5:7:wallstone
+tile:23:23:3:3:0:7:ladder2
+src:22:25:5:10:4:7:0:100:water10.ogg
+automover:22:25:5:10:0:4:22:5:5:you got stuck in the wall, I saved you.:1:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+zone:23:23:3:3:0:7:aquarium stairs:trackme
+zone:22:25:5:10:5:7:A small aquarium, would you like to eat the fish here?:trackme
+tile:21:21:4:11:8:8:fence
+tile:21:26:11:11:8:8:fence
+tile:26:26:4:11:8:8:fence
+tile:21:26:4:4:8:8:fence
+zone:21:26:4:4:8:8:aquarium fence
+zone:26:26:4:10:8:8:aquarium fence
+zone:21:26:11:11:8:8:aquarium fence
+zone:21:21:4:10:8:8:aquarium fence
+zone:20:25:1:1:0:10:ultra world's_menu:trackme

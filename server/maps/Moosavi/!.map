@@ -1,0 +1,14 @@
+mapname:Moosavi
+minx:0
+maxx:10
+miny:0
+maxy:10
+minz:0
+maxz:10
+tile:0:10:0:10:0:0:carpet2
+owner:Moosavi
+litem:0
+starting_point:0:10:0:10:0:0
+deathpoint:0:10:0:10:0:0
+night:none.ogg
+tile:0:0:0:0:0:0:ice

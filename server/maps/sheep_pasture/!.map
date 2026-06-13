@@ -1,0 +1,29 @@
+mapname:sheep_pasture
+minx:-1
+maxx:101
+miny:-1
+maxy:151
+minz:0
+maxz:150
+litem:1
+starting_point:-1:101:-1:151:0:0
+deathpoint:-1:101:-1:151:0:0
+night:none.ogg
+owner:turando
+tile:0:100:0:150:0:0:grass3
+zone:0:100:0:150:0:150:sheep pasture
+src:0:100:0:150:0:150:-5:100:birds.ogg
+music:0:100:0:150:0:150:-15:100:musica93.ogg
+ai:0:100:0:150:0:0:30000:2:sheep:lamb
+tile:-1:101:-1:-1:0:20:wallfence7
+tile:-1:-1:0:150:0:150:wallfence3
+tile:-1:101:151:151:0:150:wallfence3
+tile:101:101:0:150:0:150:wallfence3
+tile:101:101:73:77:0:20:wallfence6
+zone:100:100:73:77:0:20:country road gate. Press shift enter to go back.:trackme
+travelpoint:100:100:73:77:0:15:country_road2:1:455:0: :silence.ogg:silence.ogg:doorclose43.ogg
+rain:rain3.ogg
+wind:wind7.ogg
+item_usage_restriction:-1:101:-1:151:0:150:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+
+reinforcement:0:10000000

@@ -1,0 +1,121 @@
+mapname:climbing_ladders
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:110
+tile:0:100:0:100:0:0:sand
+owner:tuanthanh
+litem:1
+deathpoint:0:100:0:100:0:0
+tile:0:100:0:100:0:0:concrete15
+starting_point:0:0:0:0:0:0
+zone:0:100:0:100:0:100:climbing ladders
+sign:0:0:0:0:0:0:welcome challenger! Here, i have a ladder for you climbing, go 0 5 0 and climb, and careful with the trap. Happy climbing!:sign.ogg
+tile:0:0:5:5:0:10:ladder2
+zone:0:0:5:5:0:0:a ladder
+tile:0:0:10:10:10:10:ladder2
+tile:0:0:15:16:10:10:ladder2
+automover:0:0:16:16:10:10:0:0:0:oh, see you soon:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:0:0:20:20:10:15:ladder2
+tile:1:5:20:20:15:15:ladder2
+tile:2:3:20:20:15:15:hazard
+automover:5:5:20:20:15:15:0:0:0:try again!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:7:8:20:20:15:15:hazard
+tile:10:10:20:20:15:15:ladder2
+tile:11:11:21:21:15:15:ladder2
+teleporter:11:11:21:21:15:15
+tile:12:12:22:22:15:15:ladder2
+tile:13:20:23:23:15:15:ladder2
+teleporter:14:16:23:23:15:15
+tile:17:17:23:23:15:15:hazard
+tile:20:20:23:23:16:25:ladder2
+tile:21:21:24:24:25:25:ladder2
+tile:20:20:24:24:25:25:ladder2
+tile:21:22:25:25:25:25:ladder2
+tile:23:25:25:25:25:25:ladder2
+tile:23:23:25:25:25:25:air
+tile:24:24:25:25:25:25:hazard
+tile:25:25:25:25:26:30:ladder2
+tile:26:26:26:26:30:30:ladder2
+tile:26:26:27:30:30:30:ladder2
+tile:27:30:30:30:30:30:ladder2
+teleporter:27:29:30:30:30:30
+zone:0:0:0:0:0:0:sign
+tile:30:30:30:30:31:40:ladder2
+tile:30:30:31:40:40:40:ladder2
+tile:30:30:31:35:40:40:air
+automover:30:30:37:39:40:40:0:0:0:game... over:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:31:40:40:40:40:40:ladder2
+tile:31:38:40:40:40:40:air
+tile:40:40:40:40:41:45:ladder2
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+src:0:100:0:100:0:100:0:100:wind_in_trees_light_1.ogg:1
+tile:40:40:40:40:40:40:ladder2
+automover:40:40:40:40:45:45:0:0:0:oh bro, good luck next time:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:39:39:41:41:44:45:ladder2
+tile:39:39:42:45:45:45:ladder2
+automover:39:39:42:44:45:45:0:0:0:oh, try again, you will lucky after!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:40:44:45:45:45:45:hazard
+tile:45:45:45:45:45:45:ladder2
+tile:46:46:46:46:46:46:ladder2
+tile:47:47:47:47:47:47:ladder2
+tile:48:48:48:48:48:48:ladder2
+tile:49:49:49:49:49:49:ladder2
+tile:50:50:50:50:50:50:ladder2
+tile:50:50:61:61:50:50:ladder2
+tile:61:62:61:62:50:50:ladder2
+tile:63:63:63:63:50:50:ladder2
+tile:63:63:64:68:50:50:ladder2
+automover:63:63:64:67:50:50:0:0:0:maybe you don't lucky:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:63:63:68:68:51:68:ladder2
+automover:63:63:68:68:68:68:0:0:0:oh... try... again!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:62:62:67:67:67:67:ladder2
+tile:62:62:67:67:68:68:ladder2
+tile:63:69:67:67:68:68:ladder2
+teleporter:63:67:67:67:68:68
+tile:68:68:68:68:68:68:ladder2
+tile:69:69:69:69:70:70:ladder2
+tile:70:70:70:70:70:70:ladder2
+tile:80:80:80:80:70:70:ladder2
+tile:80:80:80:80:71:80:ladder2
+automover:80:80:80:80:80:80:0:0:0:sorry, but you must start all over:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:81:81:81:81:79:79:ladder2
+tile:81:81:81:81:81:81:ladder2
+tile:90:90:90:90:81:81:ladder2
+automover:90:90:90:90:81:81:0:0:0:no!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:81:81:82:90:81:81:ladder2
+tile:81:81:82:84:81:81:air
+teleporter:81:81:85:86:81:81
+automover:81:81:87:89:81:81:0:0:0:oh, today, sky don't nice:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:81:81:90:90:82:100:ladder2
+teleporter:81:81:90:90:100:100
+tile:90:90:90:90:90:90:ladder2
+tile:82:82:90:90:90:90:ladder2
+tile:90:90:90:90:95:100:ladder2
+automover:90:90:90:90:100:100:0:0:0:oh...no!:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:91:91:91:91:90:90:ladder2
+tile:100:100:100:100:90:100:ladder2
+automover:100:100:100:100:90:99:0:0:0:emty:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:91:91:91:91:95:100:ladder2
+automover:91:91:91:91:100:100:0:0:0:oh, you can go back and try again:50:silence.ogg:fbstart.ogg:silence.ogg:silence.ogg
+tile:91:91:92:92:90:90:ladder2
+tile:91:91:100:100:90:90:ladder2
+tile:92:92:99:99:90:90:ladder2
+tile:93:93:100:100:90:90:ladder2
+tile:94:94:99:99:90:90:ladder2
+tile:94:94:99:99:90:90:ladder2
+tile:95:95:100:100:90:90:ladder2
+tile:95:95:100:100:91:100:ladder2
+teleporter:95:95:100:100:100:100
+tile:94:94:99:99:99:99:ladder2
+tile:95:99:99:99:99:99:ladder2
+tile:100:100:100:100:105:105:ladder
+zone:100:100:100:100:105:105:congrats! you reached the end. jump up and collect your reward.
+tile:100:100:100:100:110:110:beam
+zone:100:100:100:100:110:110:hit shift enter to be rewareded.
+travelpoint:100:100:100:100:110:110:main_map:5:1:0:tuanthanhfeels happy that you completed this. he welcomes you to try this hard challenge again.:silence.ogg:silence.ogg:applause3.ogg
+task_status:100:100:100:100:110:110:coins:2000000

@@ -1,0 +1,34 @@
+mapname:farm_fodder_silo
+minx:0
+maxx:30
+miny:0
+maxy:30
+minz:0
+maxz:20
+tile:0:30:0:30:0:20:wallbrick
+owner:owlinor
+litem:1
+starting_point:0:30:0:30:0:0
+deathpoint:0:30:0:30:0:0
+tile:1:29:1:29:1:19:air
+tile:1:29:1:29:0:0:cement2
+zone:1:29:1:29:0:19:fodder_silo
+src:1:29:0:0:0:19:-10:100:birds7.ogg
+tile:13:17:0:0:0:15:wallstand
+zone:13:18:1:1:0:15:fodder_silo door. Press shift enter to go out.:trackme
+travelpoint:13:17:1:1:0:15:farm:45:99:0: :silence.ogg:door19open.ogg:door19close.ogg
+music:1:29:1:29:0:19:-10:100:musica68.ogg
+tile:1:5:27:29:0:7:wallhard
+zone:1:6:26:29:0:15:a pile of alfalfa bags
+tile:25:29:27:29:0:15:wallwoodcrate
+zone:24:29:26:29:0:15:near stacked crates of vegetables
+tile:13:17:27:29:0:2:wallbuilding7
+tile:13:17:27:29:3:3:vent
+zone:12:18:26:29:0:15:near a chest full of seeds:trackme
+zone:13:17:27:29:3:5:on the chest full of seeds
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+item_usage_restriction:0:30:0:30:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+
+reinforcement:0:10000000

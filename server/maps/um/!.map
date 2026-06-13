@@ -1,0 +1,12 @@
+mapname:um
+minx:10
+maxx:1000000
+miny:100
+maxy:-2147483648
+minz:1000
+maxz:-2147483648
+tile:10:1000000:100:-2147483648:0:0:hardwood
+owner:averlice
+litem:0
+starting_point:10:1000000:100:-2147483648:0:0
+deathpoint:10:1000000:100:-2147483648:0:0

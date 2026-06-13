@@ -1,0 +1,195 @@
+mapname:iraq
+minx:0
+maxx:10000
+miny:0
+maxy:10000
+minz:-1000
+maxz:400
+tile:0:1000:0:1000:0:0:concrete12
+litem:1
+starting_point:0:1000:0:1000:0:0
+deathpoint:0:1000:0:1000:0:0
+owner:hasan
+litem:0
+tile:90:95:0:200:0:0:sand
+tile:96:99:0:200:0:0:clay
+owner:hady
+night:none.ogg
+tile:100:200:0:200:-1000:0:swimming
+tile:201:205:0:200:0:0:clay
+tile:206:210:0:200:0:0:sand
+src:90:210:0:200:0:7:0:100:water9.ogg:1
+src:90:210:0:200:0:7:0:100:lake3.ogg:1
+tile:99:99:0:200:-1000:-1:wallunderwater2
+tile:201:201:0:200:-1000:-1:wallunderwater2
+tile:99:201:201:201:-1000:-1:wallunderwater2
+tile:99:200:0:200:-1000:-1000:wallunderwater2
+tile:211:1000:0:1000:0:0:concrete3
+tile:211:211:0:200:0:10:wallwood18
+door:212:212:0:0:0:0:210:0:0:-:0:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+door:210:210:0:0:0:0:212:0:0:\:0:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:0:89:2:200:0:0:grass3
+zone:90:99:0:200:0:7:Rather, it is close to the river:trackme
+zone:100:200:0:200:0:7:River:trackme
+zone:201:209:0:200:0:7:Rather, it is close to the river:trackme
+zone:210:210:0:0:0:6:The door to go out to the house area:trackme
+zone:212:212:0:0:0:6:The door to return to the river:trackme
+zone:213:1000:1:1000:0:5:Home area:trackme
+zone:0:99:2:100:0:0:garden:trackme
+tile:213:300:0:100:10:10:carpet2
+zone:0:9:0:0:0:0:iraq:trackme
+zone:16:89:0:0:0:0:iraq:trackme
+zone:0:0:1:1:0:0:iraq:trackme
+tile:212:212:0:100:10:20:wallwooddoor
+tile:212:301:100:100:10:20:wallwooddoor
+door:213:213:0:0:0:0:213:0:10:0:0:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+door:213:213:0:0:10:10:213:0:0:0:0:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+zone:302:302:0:0:0:0:ahmed adeeb s house:trackme
+tile:213:217:12:14:10:10:carpet3
+tile:213:216:11:11:10:20:wallstone
+tile:216:216:11:13:10:20:wallstone2
+tile:213:216:14:14:10:20:walltile
+bed:213:215:12:13:10:10
+door:213:213:10:10:10:10:213:12:10:0:5:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+src:330:370:0:30:15:10:0:100:water9.ogg:1
+door:213:213:12:12:10:10:213:10:10:0:300:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+tile:302:600:101:101:10:20:wallwooddoor:trackme
+tile:301:301:101:601:10:20:wallwooddoor:trackme
+src:100:200:0:200:-1000:-1:0:100:underwater4.ogg:1
+zone:0:0:0:0:0:0:sign:trackme
+tile:0:0:0:0:0:0:cement3:trackme
+tile:217:219:12:16:10:10:ceramic2
+tile:217:220:11:11:10:20:wallwooddoor
+tile:220:220:11:13:10:20:wallwoodcrate
+tile:217:220:14:20:10:20:wallmetal2
+toilet:217:217:12:12:10:10
+shower:219:219:12:12:10:10
+owner:ahmedadeeb313
+zone:213:213:0:0:0:0:hasan s house:trackme
+zone:213:1000:0:1000:0:0:houses area:trackme
+zone:213:213:0:0:0:0:hasan s house:trackme
+zone:302:302:0:0:0:0:ahmed adeeb s house:trackme
+src:213:215:12:13:10:20:0:100:fan2.ogg:1
+automover:302:302:100:100:10:10:302:102:10:0:1000:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+automover:302:302:102:102:10:10:302:100:10:0:1000:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+washbasin:218:218:12:12:10:10
+zone:0:89:0:1:0:0:iraq:trackme
+zone:10:10:0:0:0:0:toilet door:trackme
+tile:89:90:0:212:0:0:wallwood18:trackme
+door:91:91:0:0:0:0:88:0:0:iraq:100:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+door:88:88:0:0:0:0:91:0:0:Rather, it is close to the river:100:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:302:402:0:100:20:20:wood6:trackme
+door:302:302:0:0:20:20:302:0:0:ahmed adeeb s house door:100:silence.ogg:silence.ogg:door67open.ogg:door67close.ogg
+pdoor:302:302:0:0:0:0:302:0:20:password:adeeb:100:silence.ogg:silence.ogg:door67open.ogg:door67close.ogg
+tile:301:301:0:100:20:30:wallwooddoor:trackme
+src:0:10000:0:10000:0:10:0:100:birds.ogg:1
+tile:0:0:0:100:20:100:wallwooddoor:trackme
+tile:10:10:0:0:0:0:ceramic2:trackme
+tile:11:21:0:21:20:20:ceramic2:trackme
+door:10:10:0:0:0:0:11:0:20:toilet door:100:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:10:10:0:21:20:30:wallwooddoor:trackme
+tile:21:21:0:21:20:30:wallwooddoor:trackme
+tile:11:21:21:21:20:100:wallwooddoor
+door:11:11:0:0:20:20:10:0:0:toilet door:100:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+zone:11:21:0:20:10:30:toilet
+zone:11:11:0:0:20:20:To get out of the toilet, press Inter:trackme
+toilet:12:15:0:15:20:20
+src:11:21:0:21:10:31:0:100:toilet.ogg:1
+shower:15:21:0:21:10:20
+tile:302:402:100:100:20:30:wallwooddoor:trackme
+zone:15:21:0:21:20:20:shower:trackme
+tile:402:402:0:100:20:30:wallwooddoor:trackme
+tile:1000:10000:0:10000:0:0:concrete12:trackme
+tile:1000:1000:0:0:0:0:concrete3:trackme
+tile:1001:2001:0:2001:20:20:dirt14:trackme
+door:1001:1001:0:0:0:0:1001:0:20:battlefield:100:silence.ogg:silence.ogg:door67open.ogg:door67close.ogg
+tile:0:0:2:3:0:12:tree:trackme
+tile:1000:1000:0:2001:20:40:wallwooddoor:trackme
+tile:1001:2001:2001:2001:20:40:wallwooddoor:trackme
+tile:2001:2001:0:2001:20:40:wallwooddoor:trackme
+zone:1001:1001:0:0:0:10:To go to the battlefield, press Inter
+door:1001:1001:0:0:20:20:1001:0:0:battlfield door:100:silence.ogg:silence.ogg:door67open.ogg:door67close.ogg
+src:1001:2001:0:2001:20:40:0:100:birds30.ogg:1
+src:1001:2001:0:2001:20:40:0:100:a9.ogg:1
+src:1001:2001:0:2001:20:40:0:100:fire3.ogg:1
+zone:1001:2001:0:2001:20:20:battlefield:trackme
+zone:1001:1001:0:0:20:20:battlefield door:trackme
+tile:995:995:0:10000:0:0:wallwooddoor:trackme
+tile:996:1000:0:10000:0:0:concrete12:trackme
+zone:996:1000:0:10000:0:0:iraq:trackme
+door:996:996:0:0:0:0:994:0:0:houses area:1000:silence.ogg:silence.ogg:door10open.ogg:door10close.ogg
+door:994:994:0:0:0:0:996:0:0:iraq:1000:silence.ogg:silence.ogg:door10open.ogg:door10close.ogg
+tile:1001:1001:0:0:0:0:dirt14:trackme
+zone:1002:10000:0:10000:0:0:iraq:trackme
+src:1001:2001:0:2001:20:20:0:100:ambientbattle.ogg:1
+src:1001:2001:0:2001:20:20:0:100:higharea.ogg:1
+tile:1010:1500:0:500:60:60:gravel2:trackme
+door:1010:1010:0:0:20:20:1010:0:60: :50:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+owner:said99
+tile:1009:1009:0:1500:60:80:wallwood18:trackme
+tile:1010:1500:1501:1501:60:80:wallwood18:trackme
+door:1010:1010:0:0:60:60:1010:0:20: :50:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+tile:1500:1500:0:500:60:80:wallwood18:trackme
+rain:raininterior.ogg
+rain:telha1.ogg
+tile:5:9:0:9:40:40:cement4:trackme
+trashcan:5:9:0:9:40:40
+door:5:5:0:0:0:0:5:0:40:trashcan door:50:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:5:5:0:0:0:0:cement4:trackme
+tile:4:4:0:9:40:60:wallwood18:trackme
+tile:5:9:10:10:40:60:wallwood18:trackme
+tile:10:10:0:10:40:60:wallwood18:trackme
+door:5:5:0:0:40:40:5:0:0:trashkin:50:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+zone:0:0:0:0:0:0:siand, press Inter:trackme
+zone:5:5:0:0:0:0:trashcan door:trackme
+tile:3:503:0:503:80:80:concrete:trackme
+door:3:3:0:0:0:0:3:0:80:police:0:silence.ogg:silence.ogg:door7open.ogg:door4close.ogg
+tile:2:2:0:503:80:100:wallwooddoor:trackme
+tile:3:503:504:504:80:100:wallwooddoor:trackme
+tile:504:504:0:504:80:100:wallwooddoor:trackme
+door:3:3:0:0:80:80:3:0:0:police station door:0:silence.ogg:silence.ogg:door7open.ogg:door4close.ogg
+src:3:503:0:503:80:100:-18:124:alarm5.ogg:1
+src:0:504:0:504:80:100:-17:95:alarm12.ogg:1
+src:3:504:0:504:80:100:-15:100:alarm32.ogg:1
+src:3:504:0:504:80:100:-15:100:alarm31.ogg:1
+tile:3:3:0:0:0:0:concrete:trackme
+zone:3:3:0:0:0:7:police station door:trackme
+door:219:219:13:13:10:10:221:13:10:Go home:1000:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+door:221:221:13:13:10:10:219:13:10:Go to the bathroom:1000:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:89:89:0:20:0:100:wallwood18
+tile:91:210:201:201:0:100:wallwood18
+tile:90:90:0:201:0:100:wallwood18
+enable:camerawall
+enable:mfwc
+zone:0:0:0:0:0:10:Sign Click Inter to read:trackme
+tile:402:502:0:500:20:20:concrete25:trackme
+door:402:402:0:0:0:0:402:0:20:hawse s hady:100:silence.ogg:silence.ogg:door22open.ogg:door32close.ogg
+tile:401:401:0:500:20:40:wallwooddoor:trackme
+door:402:402:0:0:20:20:402:0:0:hawse s hady door:100:silence.ogg:silence.ogg:door22open.ogg:door32close.ogg
+zone:402:402:0:0:0:0:hawse s hady door:trackme
+zone:402:402:0:0:20:20:hawse s hady door:trackme
+tile:503:503:0:500:20:40:wallwooddoor:trackme
+tile:402:502:501:501:20:40:wallwooddoor:trackme
+sign:0:0:0:0:0:0:Welcome to the Iraq map. We named this map after the country of Iraq. The map developers are Hassan, and Ahmed Adeeb 313, and hady, and sad99, and ssd, . To build houses or do anything for you on this map, contact the map developers:silence.ogg
+tile:310:320:0:20:30:30:concrete9:trackme
+door:310:310:0:0:20:20:310:0:30:kitchen door:150:silence.ogg:silence.ogg:door48open.ogg:door47close.ogg
+door:310:310:0:0:30:30:310:0:20:kitchen door:150:silence.ogg:silence.ogg:door48open.ogg:door47close.ogg
+tile:309:309:0:21:30:50:wallwood4:trackme
+tile:310:321:21:21:30:50:wallwood4:trackme
+tile:321:321:0:21:30:50:wallwood4:trackme
+src:310:320:0:20:30:50:0:100:water_boiling_in_pot.ogg:1
+zone:310:310:0:0:20:20:kitchen door
+tile:402:500:0:40:20:20:shortgrass:trackme
+src:402:500:0:40:20:30:0:100:birds7.ogg:1
+tile:407:408:38:40:20:40:concrete34:trackme
+tile:407:500:41:41:20:60:wallcone:trackme
+tile:402:406:41:41:20:60:wallcone:trackme
+tile:402:500:42:200:20:20:wood19:trackme
+door:407:408:42:42:20:20:407:40:40:0:0:silence.ogg:silence.ogg:door198open.ogg:silence.ogg
+door:407:408:40:40:40:40:407:42:20:-:0:silence.ogg:silence.ogg:door198open.ogg:silence.ogg
+src:0:0:0:0:0:0:0:100:silence.ogg
+src:0:0:0:0:0:6:0:100:paper.ogg:1
+tile:501:502:40:40:20:60:wallcone
+starting_point:0:0:0:0:0:0
+
+music:0:0:0:0:0:6:0:100:music_finish_world.ogg:1

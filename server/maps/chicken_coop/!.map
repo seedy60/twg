@@ -1,0 +1,31 @@
+mapname:chicken_coop
+minx:-1
+maxx:29
+miny:-1
+maxy:21
+minz:0
+maxz:20
+litem:1
+starting_point:-1:21:-1:21:0:0
+deathpoint:-1:21:-1:21:0:0
+night:none.ogg
+owner:turando
+tile:0:28:0:20:0:0:packed_leaves
+zone:0:28:0:20:0:20:chicken coop
+src:0:28:0:20:0:20:-5:100:farm3.ogg
+music:0:28:0:20:0:20:-20:100:musica4.ogg
+item:0:28:0:20:0:0:60000:4:egg
+ai:0:28:0:20:0:0:30000:4:hen
+tile:-1:-1:-1:21:0:20:wallfence3
+tile:0:29:-1:-1:0:20:wallfence3
+tile:29:29:0:20:0:20:wallfence3
+tile:-1:29:21:21:0:20:wallbrick
+tile:12:16:-1:-1:0:20:wallfence
+zone:12:16:0:0:0:20:chicken coop gate. press shift enter to go out.:trackme
+travelpoint:12:16:0:0:0:20:farm:138:107:0: :silence.ogg:dooropen56.ogg:doorclose59.ogg
+src:0:28:0:20:0:20:-5:100:birds7.ogg
+item_usage_restriction:-1:29:-1:21:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+rain:rain3.ogg
+wind:wind7.ogg
+
+reinforcement:0:10000000

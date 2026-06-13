@@ -1,0 +1,18 @@
+mapname:Garden
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:-10
+maxz:100
+tile:0:100:0:100:0:0:grass
+owner:harry
+litem:1
+tile:40:60:40:60:-3:1:wallstone
+tile:40:60:40:60:1:1:stone2
+tile:41:59:41:59:-2:1:air
+tile:41:59:41:59:-2:-2:water
+src:41:59:41:59:-2:-2:-3:100:pond3.ogg:0
+src:0:100:0:100:-10:100:-3:100:birds5.ogg:1
+
+zone:0:100:0:100:-10:100:A lush, beautiful garden

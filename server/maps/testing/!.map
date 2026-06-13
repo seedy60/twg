@@ -1,0 +1,13 @@
+mapname:testing
+minx:250
+maxx:280
+miny:10
+maxy:100
+minz:2
+maxz:1000
+tile:250:280:10:100:0:0:steel
+owner:averlice
+litem:0
+starting_point:250:280:10:100:0:0
+deathpoint:250:280:10:100:0:0
+url:https://files.blindsoft.net/cod.mp3

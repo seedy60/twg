@@ -1,0 +1,17 @@
+mapname:saida
+minx:0
+maxx:50000
+miny:0
+maxy:50000
+minz:-50000
+maxz:50000
+tile:0:50000:0:50000:0:0:swimming
+owner:said99
+litem:1
+starting_point:0:50000:0:50000:0:0
+deathpoint:0:50000:0:50000:0:0
+
+tile:25000:25500:25000:25500:0:0:grass
+zone:25000:25500:25000:25500:0:7:island:trackme
+music:25000:25500:25000:25500:0:7:0:90:musichotel.ogg:1
+src:25000:25500:25000:25500:0:7:0:100:birds.ogg:1

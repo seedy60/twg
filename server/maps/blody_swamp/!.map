@@ -1,0 +1,27 @@
+mapname:blody_swamp
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:100
+litem:1
+starting_point:0:50:0:50:0:0
+deathpoint:0:100:0:100:0:0
+night:none.ogg
+disable:coordinates
+owner:turando
+tile:0:100:0:100:0:0:marsh2
+zone:0:100:0:100:0:100:A dirty marsh. But under your feet, it's not mud as you might imagine, but big pools of blood
+src:0:100:0:100:0:100:0:100:swamp2.ogg
+music:0:100:0:100:0:100:-20:100:musicepic13.ogg
+item_usage_restriction:0:100:0:100:0:100:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+ai:0:100:0:100:0:0:120000:1:monster
+zone:0:100:0:0:0:100:press shift enter to go in the deep forest:trackme
+travelpoint:0:100:0:0:0:0:ghost_forest:75:150:0:you go back in the forest:silence.ogg:silence.ogg:silence.ogg
+enable:coordinates
+reinforcement:0:10000000
+
+src:0:100:0:100:0:100:-5:100:swamp.ogg
+src:0:100:0:100:0:100:-5:100:swamp3.ogg
+src:0:100:0:100:0:100:-2:100:water_loop.ogg

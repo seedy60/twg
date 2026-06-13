@@ -1,0 +1,76 @@
+mapname:vantion_city
+minx:0
+maxx:500
+miny:0
+maxy:500
+minz:0
+maxz:500
+tile:0:500:0:500:0:0:concrete3
+owner:hoanganh
+litem:1
+deathpoint:0:1000:0:1000:0:0
+tile:0:500:0:200:0:0:swimming
+zone:0:500:0:200:0:1000:a beautiful  otion:trackme
+src:0:500:0:200:0:1000:0:100:ocean_3.ogg
+zone:0:500:200:1000:0:1000:a large city
+zone:0:500:200:220:0:20:a long and beautiful beach:trackme
+src:0:500:0:500:0:500:0:100:birds7.ogg:1
+tile:0:500:200:219:0:0:sand
+tile:0:500:220:221:0:3:walldiamond
+zone:0:500:222:225:0:50:sidewalk
+zone:0:500:226:250:0:500:west, east first street
+zone:0:500:251:1000:0:10:sidewalk
+zone:50:75:251:500:0:1000:first, south to north street
+tile:0:45:256:300:0:0:cement3
+zone:0:45:256:300:0:20:a large parking lot:trackme
+zone:80:150:256:270:0:100:mfb hotel parking lot:trackme
+tile:80:150:271:350:0:100:wallbrick4
+zone:115:130:270:270:0:10:mfb hotel glass gate, press shif enter to get in:trackme
+tile:115:130:271:271:0:100:wallglass7
+tile:80:150:256:270:0:0:concrete9
+tile:0:47:301:304:0:100:wallbrick4
+zone:38:48:305:315:0:100:7-11 entrance:trackme
+tile:38:48:305:315:0:0:cement4
+tile:0:47:316:329:0:100:wallbrick4
+tile:37:37:305:315:0:100:wallglass11
+zone:38:38:305:315:0:15:7-11 door
+zone:0:48:330:350:0:100:the gass station :trackme
+tile:0:46:330:350:0:0:concrete4
+zone:30:30:330:330:0:0:vending_machine
+vending_machine:30:330:0
+zone:80:150:351:355:0:100:a parking lot
+zone:0:500:360:385:0:230:second west east street:trackme
+tile:0:46:400:420:0:50:wallbrick4
+tile:25:30:400:400:0:10:wallglass
+zone:25:30:399:399:0:10:pizza restaurant door:trackme
+starting_point:0:0:222:222:0:0
+night:none.ogg
+zone:38:38:399:399:0:0:vending_machine
+zone:0:46:390:398:0:10:pizza restaurant parking lot:trackme
+zone:156:181:251:500:0:50:street second going from south to north:trackme
+zone:186:300:256:300:0:100:a large parking lot of the large mall:trackme
+tile:186:300:256:300:0:0:concrete9
+tile:186:300:280:350:0:50:wallbrick4
+tile:80:150:395:500:0:0:grass3
+zone:80:150:395:500:0:50:a park with alot of tree:trackme
+tile:186:186:256:290:0:10:wallrail
+tile:187:300:256:256:0:10:wallrail
+tile:300:300:257:290:0:10:wallrail
+automover:240:250:257:257:0:0:245:254:0:fun with shopping? we holp you will back again:200:silence.ogg:silence.ogg:silence.ogg:close3.ogg
+itautomover:240:250:255:255:0:0:245:257:0:thanks for pay us:coins:5:200:silence.ogg:silence.ogg:opend3.ogg:silence.ogg
+zone:239:251:254:258:0:10:mall audo gate:trackme
+src:0:500:222:500:0:500:0:100:city_a3.ogg
+vending_machine:38:399:0
+src:0:500:223:500:0:500:0:100:street4.ogg:1
+tile:187:230:390:450:0:200:wallbrick4
+zone:205:210:389:389:0:10:staff office billding gait, shift enter to get in, note, this is for staff only:trackme
+zone:306:331:251:500:0:50:firt street going from south to north:trackme
+tile:336:380:255:300:0:50:wallbrick4
+zone:335:335:270:280:0:10:police station door:trackme
+src:335:335:270:280:0:10:0:100:police_station.ogg
+zone:336:360:301:356:0:10:a large parking lot of kanadiga restaurant:trackme
+tile:336:350:301:357:0:0:concrete9
+tile:231:250:390:430:0:50:wallbrick4
+zone:238:240:389:389:0:10:CIA office billding:trackme
+tile:251:301:390:430:0:50:wallbrick4
+zone:280:285:389:389:0:20:to enter car shop, shift enter:trackme

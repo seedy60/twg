@@ -1,0 +1,16 @@
+mapname:ai_testing_lab
+minx:0
+maxx:20
+miny:0
+maxy:20
+minz:0
+maxz:100
+tile:0:20:0:20:0:0:concrete5
+owner:kannadiga
+litem:0
+starting_point:0:0:0:0:0:0
+deathpoint:0:20:0:20:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+zone:0:20:0:20:0:100:testing area.

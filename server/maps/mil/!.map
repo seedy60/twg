@@ -1,0 +1,12 @@
+mapname:mil
+minx:-500
+maxx:500
+miny:-300
+maxy:300
+minz:-50
+maxz:100
+tile:-500:500:-300:300:0:0:steel3
+owner:averlice
+litem:0
+starting_point:-500:500:-300:300:0:0
+deathpoint:-500:500:-300:300:0:0

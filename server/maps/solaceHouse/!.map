@@ -1,0 +1,18 @@
+mapname:solaceHouse
+minx:0
+maxx:50
+miny:0
+maxy:0
+minz:0
+maxz:50
+tile:0:50:0:0:0:0:cavegrounds2
+owner:solace
+litem:0
+starting_point:0:50:0:0:0:0
+deathpoint:0:50:0:0:0:0
+enable:2dsupport
+owner:seedy
+ai:0:50:0:0:0:0:15000:5:helecopter
+ai:0:50:0:0:0:0:15000:3:tank
+ai:0:50:0:0:0:0:15000:5:minitank
+zone:0:50:0:0:0:50:Solace House

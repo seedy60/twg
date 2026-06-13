@@ -1,0 +1,61 @@
+mapname:imperial_city
+minx:0
+maxx:400
+miny:0
+maxy:800
+minz:0
+maxz:1000
+tile:0:400:0:800:0:0:marble3
+owner:powermon
+litem:0
+starting_point:0:0:0:0:0:0
+deathpoint:0:400:0:800:0:0
+night:none.ogg
+zone:0:400:0:800:0:1000:Imperial City
+src:0:400:0:800:0:200:0:100:birds10.ogg
+tile:40:60:0:100:0:0:concrete10
+tile:39:39:0:100:0:2:wallstone2
+tile:61:61:0:100:0:2:wallstone2
+tile:39:39:0:100:3:3:cement4
+tile:61:61:0:100:3:3:cement4
+zone:39:39:0:100:0:20:divider
+zone:61:61:0:100:0:20:divider
+zone:40:60:0:100:0:60:northwest first avanue:trackme
+src:40:60:0:100:0:20:-8:100:city_a3.ogg
+tile:35:38:0:100:0:0:cement3
+tile:62:65:0:100:0:0:cement3
+zone:35:38:0:100:0:20:sidewalk
+zone:62:65:0:100:0:20:sidewalk
+src:39:44:0:100:0:20:0:100:driveway.ogg:1
+src:56:61:0:100:0:20:0:100:driveway.ogg:1
+zone:48:52:0:0:0:10:warning sign. required to read before driving:trackme
+sign:48:52:0:0:0:10:warning. following things are illegal and will get you in trubble if you are caught doing this. **driving on the sidewalks. this is pretty self explanatory, but I will still elaborate. do not drive on the sidewalks. its strictly for people to walk, and not to drive. any accidents will be helled responsible to the driver and not the walker. **on purpous crashing. do not do this. property damage of dividers and roads is strictly punishable. do not crash your car on the dividers. :sign3.ogg
+tile:0:31:19:19:0:10:wallgrass3
+tile:0:30:20:90:0:0:gravel2
+zone:0:30:20:90:0:50:rosen_park:trackme
+tile:31:200:100:120:0:0:concrete10
+tile:31:39:99:99:0:2:wallstone2
+tile:31:200:121:121:0:2:wallstone2
+tile:31:200:121:121:3:3:cement4
+tile:31:39:99:99:3:3:cement4
+tile:61:140:99:99:0:2:wallstone2
+tile:61:140:99:99:3:3:cement4
+tile:31:39:121:121:3:3:cement4
+zone:31:39:99:99:3:20:divider
+zone:31:200:121:121:3:20:divider
+zone:61:140:99:99:3:20:divider
+src:32:200:100:120:0:20:-8:100:city_a3.ogg
+zone:31:39:100:120:0:20:street corner
+zone:40:60:100:120:0:30:intersection between first avanue, south,  second avanue, east,  and rosen park entrypoint, west:trackme
+zone:61:200:100:120:0:20:rosen westway point second avanue:trackme
+src:31:200:116:121:0:20:0:100:driveway.ogg:1
+src:61:140:99:104:0:20:0:100:driveway.ogg:1
+tile:31:38:95:98:0:0:cement3
+zone:31:38:95:98:0:20:sidewalk
+tile:61:140:95:98:0:0:cement3
+zone:61:140:95:98:0:20:sidewalk
+tile:31:200:122:125:0:0:cement3
+zone:31:200:122:125:0:20:sidewalk
+src:40:60:100:120:0:20:0:100:isrtime.ogg
+tile:0:25:91:130:0:0:stone2
+zone:0:25:91:130:0:20:rosenpark parking lot:trackme

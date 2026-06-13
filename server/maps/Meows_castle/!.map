@@ -1,0 +1,23 @@
+mapname:Meows_castle
+minx:0
+maxx:250
+miny:0
+maxy:500
+minz:0
+maxz:1000
+tile:0:250:0:500:0:0:grass4
+owner:Ilija
+litem:0
+starting_point:0:250:0:500:0:0
+deathpoint:0:250:0:500:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+zone:0:250:0:500:0:1000:Meow's castle
+owner:prinse
+owner:officer_jonson
+owner:HarryMK
+zone:0:250:0:250:0:50:a garden with alot of trees
+src:0:250:0:50:0:100:0:100:birds7.ogg:1
+starting_point:0:0:0:0:0:0
+zone:100:200:100:400:0:400:a big building of meow teem:trackme

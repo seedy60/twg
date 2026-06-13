@@ -1,0 +1,44 @@
+mapname:the_casm
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:-5
+maxz:10
+tile:0:100:0:0:0:0:concrete6
+owner:hoanganh
+owner:kannadiga
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+sign:0:0:0:0:0:0:hello player! you arived in a map that surrounded by the gaps and the fire. your task is to reach the end of this map by using camera. can you finish it?:sign.ogg
+tile:0:0:0:0:0:0:paper
+zone:0:0:0:0:0:0:read the sign here.
+zone:1:100:0:100:0:7:"Leap across the chasm, brave the flames. Can you survive the test?" 
+tile:20:23:0:0:0:0:air
+tile:30:35:0:0:0:0:air
+tile:45:50:0:0:0:0:fire
+fire:45:50:0:0:0:0:10000:80
+tile:60:70:0:0:0:0:fire
+fire:60:70:0:0:0:0:5000:250
+tile:76:80:0:0:0:0:air
+tile:85:92:0:0:0:0:fire
+fire:85:92:0:0:0:0:8000:350
+zone:100:100:0:0:0:0:congrats! pressing shift enter lets you finish this casm.
+tile:10:17:0:0:0:0:air
+src:85:92:0:0:0:0:-3:100:fire4.ogg
+src:60:70:0:0:0:0:-5:100:fire5.ogg
+automover:10:17:0:100:-5:-5:9:0:0:oopsy! you felled in a gap. lets try again.:50:hole_loop.ogg:silence.ogg:silence.ogg:silence.ogg
+night:none.ogg
+automover:20:23:0:100:-5:-5:19:0:0:oopsy. felled again? lets try one more time.:25:hole_loop.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:30:35:0:100:-5:-5:29:0:0:again? no. lets try try try.:25:hole_loop.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:76:80:0:100:-5:-5:75:0:0:ouch! ouch! ouch.:25:hole_loop.ogg:silence.ogg:silence.ogg:silence.ogg
+task_status:100:100:0:0:0:10:coins:150000
+travelpoint:100:100:0:0:0:10:main_map:5:1:0:great work! you are done with this.:silence.ogg:silence.ogg:applause3.ogg
+reinforcement:0:10000000
+tile:9:9:0:0:-5:-1:wall:trackme
+tile:18:19:0:0:-5:-1:wall:trackme
+tile:24:29:0:0:-5:-1:wallboat:trackme
+tile:36:36:0:0:-5:-1:wallboat
+tile:75:75:0:0:-5:-1:wallboat:trackme

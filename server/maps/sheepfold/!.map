@@ -1,0 +1,30 @@
+mapname:sheepfold
+minx:-1
+maxx:21
+miny:-1
+maxy:21
+minz:0
+maxz:20
+litem:1
+starting_point:0:20:0:20:0:0
+deathpoint:0:20:0:20:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+owner:turando
+tile:0:20:0:20:0:0:grass8
+zone:0:20:0:20:0:20:sheepfold
+music:0:20:0:20:0:20:-20:100:musica92.ogg
+tile:-1:21:-1:-1:0:20:wallbrick
+tile:-1:-1:0:20:0:20:wallbrick
+tile:-1:21:21:21:0:20:wallbrick
+tile:21:21:0:20:0:20:wallbrick
+tile:-1:21:-1:21:20:20:wallbrick
+tile:8:13:-1:-1:0:15:wallwood2
+zone:8:13:0:0:0:20:sheepfold door. press shift enter to go out:trackme
+travelpoint:8:13:0:0:0:15:farm:91:175:0: :silence.ogg:dooropen55.ogg:doorclose58.ogg
+ai:0:20:0:20:0:0:30000:4:sheep:lamb
+
+src:0:20:-1:-1:0:20:-10:100:birds7.ogg
+item_usage_restriction:-1:21:-1:21:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+reinforcement:0:10000000

@@ -1,0 +1,41 @@
+mapname:jumping
+minx:0
+maxx:2000
+miny:0
+maxy:2000
+minz:0
+maxz:2000
+tile:0:2000:0:2000:0:0:gravel8
+owner:butter-bear
+litem:0
+starting_point:0:0:0:0:0:0
+deathpoint:0:2000:0:2000:0:0
+tile:0:0:5:5:0:50:hardwood3
+tile:7:7:5:5:50:50:hardwood3
+tile:7:7:11:11:50:100:hardwood3
+tile:15:15:11:11:100:100:hardwood3
+tile:15:15:15:16:100:150:ladder2
+tile:12:12:16:16:150:150:hardwood3
+tile:12:12:21:21:150:200:ladder2
+tile:22:22:21:21:200:250:bridge
+tile:22:22:25:30:250:350:stone3
+tile:32:32:28:28:350:350:hardwood
+tile:32:32:32:35:350:400:wood12
+tile:40:40:35:35:400:400:hardwood3
+tile:32:32:40:40:400:400:hardwood3
+tile:27:27:35:35:400:400:hardwood3
+automover:27:27:35:35:400:400:0:0:0:HaHaHa:100:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:40:40:35:35:400:400:0:0:0:HaHaha:10000:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:0:0:0:0:0:0:paper
+src:0:2000:0:2000:0:2000:0:100:a2.ogg:1
+zone:0:2000:0:2000:0:2000:friendly-challenge
+sign:0:0:0:0:0:0:Welcome travelers who love challenges. Your job is to jump across the gaps. And keep climbing up. Be careful. Standing space is very limited. Just move one step. You may fall and be seriously injured. And I want to tell you that at 32 35 400 there are three paths you can jump across. You have to make good choices. You have to make good choices. If you choose wrongly You may have to start over from the beginning. One of three routes you choose It's the path that will lead you to your prize. When you jump onto your chosen tile, don't forget to press enter. Good luck!:sign2.ogg
+zone:0:0:0:0:0:0:a sign
+automover:32:32:40:40:400:400:2000:2000:0:good luck:_10:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+zone:2000:2000:2000:2000:0:0:Press Shift Enter to receive your prize. Selected
+tile:27:30:30:30:350:350:hardwood
+tile:32:32:30:30:350:350:hardwood
+night:none.ogg
+rain:none.ogg
+task_status:2000:2000:2000:2000:0:0:credit:20000
+travelpoint:2000:2000:2000:2000:0:0:main_map:5:0:0:congratulations on completing this challange. hope you come back:silence.ogg:silence.ogg:aplause3.ogg

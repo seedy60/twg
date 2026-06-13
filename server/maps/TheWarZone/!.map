@@ -1,0 +1,19 @@
+mapname:TheWarZone
+minx:0
+maxx:50
+miny:0
+maxy:50
+minz:0
+maxz:200
+tile:0:50:0:50:0:0:concrete3
+owner:vodinhhung
+deathpoint:0:50:0:50:0:0
+src:0:50:0:50:0:200:0:100:city2.ogg
+starting_point:0:0:0:0:0:0
+night:none.ogg
+zone:0:50:0:50:0:200:TheWarZone
+litem:0
+
+rain:none.ogg
+sign:0:0:0:0:0:0:welcome to the war zone. This map to fight. Thanks for visit the map.:sign3.ogg
+zone:0:0:0:0:0:0:sign:trackme

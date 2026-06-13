@@ -1,0 +1,35 @@
+mapname:weapon_store_of_Frankenstein
+minx:0
+maxx:25
+miny:0
+maxy:25
+minz:0
+maxz:10
+tile:0:25:0:25:0:0:hardwood
+owner:Frankenstein
+litem:1
+zone:0:25:0:25:0:10:weapon_store
+src:0:25:0:25:0:10:0:100:calm.ogg
+zone:0:0:0:0:0:10:exit door:trackme
+ain:raininterior.ogg
+wind:silence.ogg
+night:silence.ogg
+item_usage_restriction:0:25:0:25:0:10:conex:partner_house:beehive:store:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+src:0:25:0:15:0:7:-12:100:ambientbattle.ogg:1
+safezone:0:25:0:15:0:7
+disable:jump
+wind:none.ogg
+sign:1:1:1:1:0:7:dear Customer, feel free to brows our selection of weapons and ammow. There's a shooting range behind the counter. Once you're  done shopping, you can test your purchases in the shooting range. thanks in advance for your patronage:sign.ogg
+automatic_dialog:1:1:1:1:0:7:dear Customer, feel free to brows our selection of weapons and ammow. There's a shooting range behind the counter. Once you're  done shopping, you can test your purchases in the shooting range. Thanks in advance for your patronage
+tile:3:25:12:15:4:4:glass:trackme
+enable:jump
+tile:3:25:12:15:0:3:wallcounter:trackme
+zone:3:25:11:11:0:5:near the counter. Feel free to ask your questions and You can also pay for your purchases here
+zone:0:2:11:11:0:7:door to  the shooting range:trackme
+itdoor:0:2:11:15:0:10:0:16:0:You paid 10 coins as entrance fee and entered the shooting range:coins:10:-01:door2s.ogg:tp9.ogg:door81open.ogg:doorclose53.ogg
+tile:0:2:12:15:0:10:wallfence2
+door:0:2:16:16:0:10:0:11:0:you go back to the store:0:silence.ogg:tp9.ogg:door81open.ogg:door104close.ogg
+tile:3:25:15:15:4:10:wallglass6
+starting_point:1:1:1:1:0:0
+reverb:0:25:16:25:0:10:reverb1:1.0:1.0:0.8:0.5:1.0
+zone:3:25:14:14:4:10:A large glass window Showing the inside of the shooting range

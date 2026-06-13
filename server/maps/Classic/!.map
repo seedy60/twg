@@ -1,0 +1,37 @@
+mapname:Classic
+minx:0
+maxx:50
+miny:0
+maxy:50
+minz:0
+maxz:20
+litem:1
+starting_point:0:50:50:0:0:0
+deathpoint:0:50:50:0:0:0
+tile:0:0:0:0:0:0:8bit
+tile:0:50:0:50:0:0:deepsand
+tile:0:0:0:50:0:20:wallglass5
+tile:2:50:0:0:0:20:wallglass5
+zone:1:1:0:0:0:0:The red point
+tile:1:49:50:50:0:20:wallglass5
+enable:camera
+enable:camera
+tile:50:50:1:48:0:20:wallglass5
+zone:0:50:0:50:0:19:Classic massacre
+disable:coordinates
+night:none.ogg
+item_usage_restriction:0:50:0:50:0:0:nak_nk1000_decimater
+owner:said99
+enable:coordinates
+tile:0:50:0:50:20:20:marble2
+zone:0:50:0:50:20:20:Safe area:trackme
+door:25:27:25:27:0:0:25:25:20:ok:10:silence.ogg:door5.ogg:door3open.ogg:close3.ogg
+zone:25:27:25:27:0:0:The door of the performer is only a safe area:trackme
+item_usage_restriction:0:50:0:50:0:20:m152minigun
+safezone:0:50:0:50:20:20
+disable:coordinates
+disable:jump
+door:25:27:25:27:20:20:25:25:0:ok:10:silence.ogg:door5.ogg:door3open.ogg:close3.ogg
+zone:25:27:25:27:20:20:The portal of the performer is the classic massacre:trackme
+
+rain:none.ogg

@@ -1,0 +1,63 @@
+mapname:FishingVillageSTW
+minx:0
+maxx:500
+miny:0
+maxy:500
+minz:0
+maxz:500
+tile:0:500:0:500:0:0:sand
+owner:thinh
+litem:1
+deathpoint:0:500:0:500:0:0
+night:none.ogg
+tile:10:490:20:490:0:0:lawn
+tile:10:490:200:205:0:0:concrete6
+tile:150:200:148:199:0:0:concrete9
+zone:10:490:20:480:0:10:a small fishing village:trackme
+zone:10:490:200:205:0:10:the main road of a small fishing village:trackme
+tile:151:199:184:184:0:20:wallwood19
+wind:none.ogg
+tile:151:199:149:149:0:20:wallwood19
+tile:151:151:149:184:0:20:wallwood19
+tile:199:199:149:184:0:20:wallwood19
+zone:150:200:148:199:0:10:gift shop parking lot:trackme
+tile:171:175:185:185:0:0:concrete8
+tile:171:175:184:184:0:10:wallwooddoor
+door:171:175:185:185:0:0:173:183:0:you have entered the gift shop:0:silence.ogg:silence.ogg:door4open.ogg:silence.ogg
+tile:152:198:150:183:0:0:hardwood3
+tile:171:175:183:183:0:0:carpet5
+door:171:175:183:183:0:0:173:185:0:You have exited the gift shop:0:silence.ogg:silence.ogg:silence.ogg:door4close.ogg
+tile:220:302:100:199:0:0:concrete9
+starting_point:0:0:0:0:0:0
+tile:221:300:189:189:0:30:wallfence
+tile:155:157:185:187:0:0:diamond
+tile:175:175:148:148:0:21:metal5
+tile:151:199:149:184:21:21:bleacher
+zone:155:157:185:187:0:10:vending machine:trackme
+zone:171:175:185:185:0:10:entrance to the gift shop:trackme
+tile:160:190:154:154:0:20:wallglass5
+tile:160:160:150:153:0:20:wallglass5
+tile:190:190:150:153:0:20:wallglass5
+tile:173:173:155:155:0:0:diamond
+tile:172:172:155:156:0:20:wallglass5
+tile:174:174:155:156:0:20:wallglass5
+zone:175:175:148:148:0:0:stairs to the roof of the gift shop:trackme
+zone:175:175:148:148:1:20:stair
+zone:175:175:148:148:21:21:stairs down from the top of the gift shop:trackme
+zone:151:199:149:184:21:30:on the roof of the gift shop:trackme
+tile:150:200:206:252:0:0:concrete9
+zone:150:200:206:220:0:10:gas station parking lot:trackme
+tile:151:199:221:221:0:20:wallwood19
+tile:199:199:222:250:0:20:wallwood19
+tile:151:151:221:250:0:20:wallwood19
+tile:151:199:251:251:0:20:wallwood19
+tile:171:175:220:220:0:0:concrete8
+tile:171:175:221:221:0:10:wallwooddoor
+door:171:175:220:220:0:0:173:222:0:You have entered the pub:0:silence.ogg:silence.ogg:door1open.ogg:silence.ogg
+door:171:175:222:222:0:0:173:220:0:You were out of the pub:0:silence.ogg:silence.ogg:silence.ogg:door2close.ogg
+tile:152:198:222:250:0:0:concrete7
+tile:221:221:101:188:0:30:wallfence
+tile:222:301:101:101:0:30:wallfence
+tile:301:301:101:189:0:30:wallfence
+
+owner:SmartThinh

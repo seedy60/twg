@@ -1,0 +1,17 @@
+mapname:blazy_enterprises(test)
+minx:0
+maxx:500
+miny:0
+maxy:500
+minz:0
+maxz:50
+tile:0:500:0:500:0:0:steel4
+owner:jethrotull
+litem:0
+starting_point:0:500:0:500:0:0
+deathpoint:0:500:0:500:0:0
+owner:Mckensie
+owner:alexoloopios
+owner:seedy
+url:https://blazyenterprises.duckdns.org/files/blazy%20map%20bgm.mp3
+enable:2dsupport

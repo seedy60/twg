@@ -1,0 +1,14 @@
+mapname:darkcastle
+minx:0
+maxx:1000
+miny:0
+maxy:0
+minz:0
+maxz:1000
+tile:0:1000:0:0:0:0:concrete3
+owner:deathbringer
+litem:0
+starting_point:0:1000:0:0:0:0
+deathpoint:0:1000:0:0:0:0
+enable:2dsupport
+night:none.ogg

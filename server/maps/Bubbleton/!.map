@@ -1,0 +1,16 @@
+mapname:Bubbleton
+minx:-50
+maxx:50
+miny:-50
+maxy:50
+minz:0
+maxz:50
+tile:-50:50:-50:50:0:0:concrete37
+owner:deathdogg
+litem:0
+starting_point:-50:50:-50:50:0:0
+deathpoint:-50:50:-50:50:0:0
+zone:-50:50:25:50:0:50:Back Yard:trackme
+
+zone:-50:50:-50:-25:0:50:Front Yard:trackme
+zone:-50:50:-24:24:0:50:Bubbleton

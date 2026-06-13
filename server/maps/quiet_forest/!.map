@@ -1,0 +1,75 @@
+mapname:quiet_forest
+minx:0
+maxx:150
+miny:0
+maxy:150
+minz:0
+maxz:150
+litem:1
+starting_point:0:150:0:150:0:0
+deathpoint:0:150:0:150:0:0
+night:none.ogg
+rain:rain9.ogg
+wind:wind7.ogg
+owner:turando
+tile:0:150:0:150:0:0:grass6
+zone:0:150:0:150:0:150:a quiet forest
+src:0:150:0:150:0:150:0:100:forest5.ogg
+music:0:150:0:150:0:150:-10:100:staffmus3.ogg
+item_usage_restriction:0:150:0:150:0:150:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+zone:35:35:40:40:0:150:tree
+tile:35:35:40:40:0:20:tree:trackme
+zone:41:41:45:45:0:150:tree
+tile:41:41:45:45:0:20:tree:trackme
+zone:29:29:55:55:0:150:tree
+tile:29:29:55:55:0:20:tree:trackme
+zone:36:36:66:66:0:150:tree
+tile:36:36:66:66:0:20:tree:trackme
+zone:28:28:77:77:0:150:tree
+tile:28:28:77:77:0:20:tree:trackme
+zone:30:70:99:150:0:150:a clearing wrapped in leaves
+tile:29:71:99:150:0:150:wallbrush
+tile:30:70:100:149:0:0:shortgrass:trackme
+tile:30:70:100:149:1:150:air
+tile:45:55:99:99:0:0:shortgrass
+tile:45:55:99:99:1:150:air
+tile:40:60:115:135:0:19:wallbrick4
+zone:49:51:114:114:0:15:press shift enter to go inside a little house.:trackme
+travelpoint:49:51:114:114:0:0:little_house:10:0:0:you go inside in a simple house:silence.ogg:door39open.ogg:door39close.ogg
+tile:49:51:115:115:0:15:wallwooddoor
+zone:61:61:125:125:0:16:a string ladder to go on the roof:trackme
+tile:61:61:125:125:0:20:rope:trackme
+zone:40:60:115:135:20:150:on the roof
+tile:40:60:115:135:20:20:roof2
+zone:46:54:141:149:0:150:near the well:trackme
+tile:47:53:142:148:0:2:wallstone2
+zone:47:53:142:148:3:150:on the well
+tile:47:53:142:148:3:3:concrete43
+zone:48:52:143:147:0:150:in the well
+tile:48:52:143:147:0:150:air
+tile:48:52:143:147:0:0:water7:trackme
+zone:0:0:0:150:0:150:lindow town.  Press shift enter to continue.:trackme
+travelpoint:0:0:0:150:0:150:lindow_town:205:276:0: :silence.ogg:silence.ogg:silence.ogg
+reinforcement:0:10000000
+tile:50:50:15:15:0:20:tree:trackme
+zone:50:50:15:15:0:20:Pine Tree:trackme
+tile:45:55:10:20:20:21:branch2:trackme
+zone:45:55:10:20:20:21:Observation Platform:trackme
+tile:40:49:15:15:17:17:branch2:trackme
+tile:50:50:16:21:18:18:branch2:trackme
+tile:51:58:15:15:15:15:branch2:trackme
+tile:40:50:15:15:13:13:branch2:trackme
+tile:50:50:16:22:11:11:branch2:trackme
+tile:50:50:11:14:8:8:branch2:trackme
+tile:50:50:10:14:18:18:branch2:trackme
+tile:110:130:80:100:0:0:water3:trackme
+zone:110:130:80:100:0:0:Pond':trackme
+src:110:130:80:100:0:0:-4:100:pond2.ogg
+src:110:130:80:100:0:0:-5:100:pond3.ogg
+fishingcoordinate:110:130:80:100:0:0
+tile:115:120:78:78:0:1:tree:trackme
+zone:115:120:78:78:0:1:Log:trackme
+tile:131:131:89:92:0:20:stone4:trackme
+zone:131:131:89:92:0:20:large stone:trackme
+tile:114:119:102:102:0:1:tree:trackme
+zone:114:119:102:102:0:1:log:trackme

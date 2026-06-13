@@ -1,0 +1,111 @@
+mapname:StwMainland
+minx:0
+maxx:500
+miny:0
+maxy:500
+minz:-11
+maxz:100
+tile:0:500:0:500:0:0:shortgrass
+owner:gabriel
+litem:0
+starting_point:0:500:0:500:0:0
+deathpoint:0:500:0:500:0:0
+night:none.ogg
+tile:0:500:0:500:0:0:sand
+zone:0:500:21:500:0:50:island mainland
+zone:0:500:0:25:0:50:shore line:trackme
+tile:0:250:36:250:0:0:clay
+tile:0:500:26:35:0:0:dirt9
+zone:0:500:26:35:0:50:dert near the beach
+src:0:500:0:20:0:50:0:100:ocean.ogg
+tile:251:255:0:250:0:0:mud4
+tile:256:264:0:250:0:0:swimming
+zone:256:264:0:250:0:50:shallow stream:trackme
+tile:265:269:0:250:0:0:mud4
+src:256:264:0:250:0:30:0:100:stream8.ogg
+tile:270:500:36:239:0:0:shortgrass
+tile:300:400:100:200:0:0:sand
+zone:300:400:100:200:0:50:sandy area near the pond:trackme
+tile:325:375:125:175:0:0:mud4
+zone:325:375:125:175:0:50:muddy edge of the pond
+tile:330:370:130:170:0:0:water2
+zone:330:370:130:170:0:50:pond:trackme
+src:330:370:130:170:0:30:-15:100:water10.ogg
+zone:265:269:0:250:0:50:muddy edge of the stream
+zone:251:255:0:250:0:50:muddy edge of the stream
+tile:477:500:25:476:0:0:soil
+zone:477:500:25:476:0:50:base of the tall mountain:trackme
+tile:467:476:25:476:0:0:dirt9
+zone:467:476:25:476:0:50:near the base of the tall mountain
+tile:0:500:477:500:0:0:deepsand
+zone:0:500:477:500:0:50:hot desert:trackme
+tile:35:248:467:476:0:0:gravel7
+zone:35:248:467:476:0:50:gravel near the desert
+tile:249:349:467:476:0:0:stone2
+zone:249:349:467:476:0:50:stone and rock near the desert
+tile:350:466:467:476:0:0:rocks2
+tile:350:466:467:476:0:0:rocks2
+zone:256:264:10:250:-1:-1:under the shallow stream
+tile:255:265:0:250:-2:-1:wallmud
+tile:256:264:10:250:-1:-1:underwater
+tile:330:370:130:170:-11:-11:wallunderwater
+zone:330:370:130:170:-10:-10:bottom of the pond
+tile:329:371:129:129:-10:-1:wallunderwater
+tile:329:371:171:171:-10:-1:wallunderwater
+tile:329:329:129:171:-10:-1:wallunderwater
+tile:371:371:129:171:-10:-1:wallunderwater
+zone:330:370:130:170:-9:-1:under the pond
+zone:350:466:467:476:0:50:rocks near the desert
+src:0:500:250:500:0:50:-10:100:birds15.ogg
+src:30:250:30:250:0:50:-5:100:jungle4.ogg
+tile:0:466:251:466:0:0:leaves
+tile:265:269:251:466:0:0:soil
+tile:270:466:240:250:0:0:weed
+tile:0:264:251:466:0:0:grass4
+src:469:500:35:468:0:50:-5:100:wind8.ogg
+tile:330:370:131:170:-10:-1:underwater
+src:330:370:130:170:-10:-1:-5:100:underwater4.ogg:1
+src:270:466:36:339:0:50:-5:100:southeast1.ogg
+tile:0:30:0:450:0:0:mud4
+src:0:30:0:450:0:30:-10:100:swamp3.ogg
+music:0:500:0:500:0:100:-10:100:musiccalm4.ogg
+tile:238:238:203:203:0:10:tree:trackme
+tile:215:215:165:165:0:15:tree:trackme
+wind:none.ogg
+fishingcoordinate:330:370:131:170:0:0
+fishingcoordinate:256:264:0:250:0:0
+zone:215:215:165:165:0:15:Apple tree:trackme
+owner:WhiteDove
+tile:208:214:165:165:5:5:branch2
+tile:215:215:166:170:7:7:branch2
+tile:216:221:165:165:9:9:branch2
+tile:215:215:158:164:11:11:branch2
+tile:215:215:166:172:14:14:branch2
+tile:210:225:155:177:15:15:branch2
+item:210:222:155:172:0:15:60000:1:apple
+item:330:370:130:170:-10:-10:60000:1:oyster
+tile:320:340:105:105:0:15:wallbuilding2
+tile:320:320:106:120:0:15:wallbuilding2
+tile:321:340:120:120:0:15:wallbuilding2
+tile:340:340:106:119:0:15:wallbuilding2
+tile:321:339:106:119:0:0:wood12
+zone:320:340:105:120:0:16:wooden shelter:trackme
+tile:320:340:105:120:16:16:roof4
+door:330:330:106:106:0:10:330:104:0: :500:silence.ogg:silence.ogg:door13open.ogg:door13close.ogg
+door:330:330:104:104:0:10:330:106:0: :500:silence.ogg:silence.ogg:door5open.ogg:door2close.ogg
+zone:330:330:104:106:0:10:exit and entrance door:trackme
+tile:325:330:120:120:3:5:wallglass8
+door:325:330:119:119:3:5:326:120:3:press enter to open:500:silence.ogg:silence.ogg:door3open.ogg:door5close.ogg
+tile:319:319:110:110:0:16:ladder3:trackme
+tile:325:330:118:119:3:3:wood4
+zone:319:319:110:110:0:0:ladder to the roof of the shelter:trackme
+zone:319:319:110:110:1:15:climbing the ladder:trackme
+zone:319:319:110:110:16:16:top of the ladder. walk right to go on to the roof of the shelter.:trackme
+zone:325:330:118:119:3:3:Windowsill:trackme
+zone:325:330:120:120:3:5:Window:trackme
+description:Survive the wild mainland. Good memories, good time. Enjoy your stay!
+owner:Darkness
+tile:330:370:130:130:-10:-1:underwater
+tile:330:330:105:105:0:8:walldoor
+zone:325:330:119:119:0:2:under the window sill:trackme
+tile:338:338:106:109:0:15:wallbuilding2

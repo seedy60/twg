@@ -1,0 +1,28 @@
+mapname:test
+minx:0
+maxx:20
+miny:0
+maxy:20
+minz:0
+maxz:20
+tile:0:20:0:20:0:0:carpet2
+owner:powermon
+litem:1
+starting_point:0:20:0:20:0:0
+deathpoint:0:20:0:20:0:0
+zone:0:20:0:20:0:20:developer_test
+zone:0:20:15:20:0:10:bank_service_desk
+tile:0:20:15:20:0:0:marble2
+tile:0:2:4:6:0:0:tile4
+zone:0:2:4:6:0:10:cash_machine
+zone:0:5:16:16:0:10:divorce_place
+zone:0:0:0:0:0:9:ultra world's_menu
+zone:5:5:0:0:0:0:HarryMK's weapon store:trackme
+tile:10:10:10:10:0:0:metalpipe
+zone:10:10:10:10:0:10:nutrition machine
+ntm:10:10:10:10:0:0
+zone:10:10:10:10:0:10:number1
+zone:15:15:10:10:0:10:house_of_Nico
+zone:20:20:10:10:0:10:number3
+zone:7:7:7:7:0:10:exit_spot for players
+travelpoint:7:7:7:7:0:10:main_map:5:0:0:goodbye:silence.ogg:silence.ogg:door2close.ogg

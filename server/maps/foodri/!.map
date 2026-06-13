@@ -1,0 +1,116 @@
+mapname:foodri
+minx:0
+maxx:70
+miny:0
+maxy:0
+minz:0
+maxz:0
+tile:0:70:0:0:0:0:marble5
+litem:1
+starting_point:0:20:0:0:0:0
+deathpoint:0:20:0:0:0:0
+enable:2dsupport
+igdoor:0:0:0:0:0:0:0:0:0: :cream_filled_doughnut:1:1:silence.ogg:silence.ogg:silence.ogg:close4.ogg
+igdoor:1:1:0:0:0:0:1:0:0: :fried-chicken-rap:1:1:silence.ogg:silence.ogg:silence.ogg:getdeath_free_card.ogg
+igdoor:2:2:0:0:0:0:2:0:0: :bowl_of_spaghetti_bolognese:1:1:silence.ogg:silence.ogg:silence.ogg:getbowl.ogg
+igdoor:3:3:0:0:0:0:3:0:0: :gum_drops:1:0:silence.ogg:silence.ogg:silence.ogg:drawgift.ogg
+igdoor:4:4:0:0:0:0:4:0:0: :chocolate_rose:40:0:silence.ogg:silence.ogg:silence.ogg:getcard.ogg
+igdoor:5:5:0:0:0:0:5:0:0: :large_bag_of_popcorn_with_extra_butter:9:0:silence.ogg:silence.ogg:silence.ogg:getcard.ogg
+igdoor:6:6:0:0:0:0:6:0:0: :jelly_belly:9:0:silence.ogg:silence.ogg:silence.ogg:getcard.ogg
+igdoor:7:7:0:0:0:0:7:0:0: :spicy_chicken_sandwich:5:0:silence.ogg:silence.ogg:silence.ogg:getcard.ogg
+igdoor:8:8:0:0:0:0:8:0:0: :strawberry_cream_weed_smoothie:10:0:silence.ogg:silence.ogg:silence.ogg:getcard.ogg
+igdoor:9:9:0:0:0:0:9:0:0: :speculoos:10:0:silence.ogg:silence.ogg:silence.ogg:getcard.ogg
+igdoor:10:10:0:0:0:0:10:0:0: :eggnog:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:11:11:0:0:0:0:11:0:0: :fish_taco:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:12:12:0:0:0:0:12:0:0: :crêpe_nutella:9:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:13:13:0:0:0:0:13:0:0: :chocolateOrangeSlice:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:14:14:0:0:0:0:14:0:0: :bowl_of_potatos_with_choriso:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:15:15:0:0:0:0:15:0:0: :can_of_redbull:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:16:16:0:0:0:0:16:0:0: :mexican_coke:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:17:17:0:0:0:0:17:0:0: :lokum:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:18:18:0:0:0:0:18:0:0: :nova:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:19:19:0:0:0:0:19:0:0: :juice_box:10:0:silence.ogg:silence.ogg:silence.ogg:getjuce_box.ogg
+igdoor:20:20:0:0:0:0:20:0:0: :spiced_coke:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:21:21:0:0:0:0:21:0:0: :pelon:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:22:22:0:0:0:0:22:0:0: :kunafa:10:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:23:23:0:0:0:0:23:0:0: :plate_of_tacos:10:0:silence.ogg:silence.ogg:silence.ogg:getbowl.ogg
+zone:0:0:0:0:0:0:cream_filled_doughnut
+zone:1:1:0:0:0:0:fried-chicken-rap
+zone:2:2:0:0:0:0:bowl_of_spaghetti_bolognese
+zone:3:3:0:0:0:0:gum_drops
+igdoor:24:24:0:0:0:0:24:0:0: :bottle_of_lychee_juice:10:0:silence.ogg:silence.ogg:silence.ogg:close_fridge.ogg
+igdoor:25:25:0:0:0:0:25:0:0: :italian_soda:10:0:silence.ogg:silence.ogg:silence.ogg:close_fridge.ogg
+zone:4:4:0:0:0:0:chocolate_rose
+zone:5:5:0:0:0:0:large_bag_of_popcorn_with_extra_butter
+zone:6:6:0:0:0:0:jelly_belly
+igdoor:26:26:0:0:0:0:26:0:0: :ultimate_box_of_chocolate:1:0:silence.ogg:silence.ogg:silence.ogg:getbox.ogg
+igdoor:27:27:0:0:0:0:27:0:0: :twiglets:3:0:silence.ogg:silence.ogg:silence.ogg:getbag.ogg
+zone:7:7:0:0:0:0:spicy_chicken_sandwich
+zone:8:8:0:0:0:0:strawberry_cream_weed_smoothie
+zone:9:9:0:0:0:0:speculoos
+zone:10:10:0:0:0:0:eggnog
+zone:11:11:0:0:0:0:fish_taco
+zone:12:12:0:0:0:0:crêpe_nutella
+zone:13:13:0:0:0:0:chocolateOrangeSlice
+zone:14:14:0:0:0:0:bowl_of_potatos_with_choriso
+zone:15:15:0:0:0:0:can_of_redbull
+igdoor:28:28:0:0:0:0:28:0:0: :bubble_gum:5:0:silence.ogg:silence.ogg:silence.ogg:getmint.ogg
+igdoor:29:29:0:0:0:0:29:0:0: :bowl_of_eggs_with_choriso:5:0:silence.ogg:silence.ogg:silence.ogg:getbowl.ogg
+igdoor:30:30:0:0:0:0:30:0:0: :mug_of_citrus_tea:1:0:silence.ogg:silence.ogg:silence.ogg:getbowl.ogg
+zone:16:16:0:0:0:0:mexican_coke
+zone:17:17:0:0:0:0:lokum
+zone:18:18:0:0:0:0:nova
+zone:19:19:0:0:0:0:juice_box
+zone:20:20:0:0:0:0:spiced_coke
+zone:21:21:0:0:0:0:pelon
+zone:22:22:0:0:0:0:kunafa
+zone:23:23:0:0:0:0:plate_of_tacos
+zone:24:24:0:0:0:0:bottle_of_lychee_juice
+zone:25:25:0:0:0:0:italian_soda
+zone:26:26:0:0:0:0:ultimate_box_of_chocolate
+zone:27:27:0:0:0:0:twiglets
+zone:28:28:0:0:0:0:bubble_gum
+zone:29:29:0:0:0:0:bowl_of_eggs_with_choriso
+zone:30:30:0:0:0:0:mug_of_citrus_tea
+igdoor:31:31:0:0:0:0:31:0:0: :Baloni_Sandwich:1:0:silence.ogg:silence.ogg:silence.ogg:getbag.ogg
+igdoor:32:32:0:0:0:0:32:0:0: :snowcone:1:0:silence.ogg:silence.ogg:silence.ogg:getsnow.ogg
+zone:31:31:0:0:0:0:Baloni_Sandwich
+zone:32:32:0:0:0:0:snowcone
+igdoor:33:33:0:0:0:0:33:0:0: :yellowish_brown__catkin:1:0:silence.ogg:silence.ogg:silence.ogg:getmeat.ogg
+zone:33:33:0:0:0:0:yellowish_brown__catkin
+igdoor:34:34:0:0:0:0:34:0:0: :glass-of-fizzy-red-lemonade:1:0:silence.ogg:silence.ogg:silence.ogg:getempty_glass.ogg
+zone:34:34:0:0:0:0:glass-of-fizzy-red-lemonade
+igdoor:35:35:0:0:0:0:35:0:0: :marshmallow_peep:1:2:silence.ogg:silence.ogg:getbox.ogg:silence.ogg
+zone:35:35:0:0:0:0:marshmallow_peep
+igdoor:36:36:0:0:0:0:36:0:0: :Khaliat_Nahal:2:0:silence.ogg:silence.ogg:silence.ogg:getmeat.ogg
+zone:36:36:0:0:0:0:Khaliat_Nahal
+igdoor:37:37:0:0:0:0:37:0:0: :bowl_of_fruit_salad:2:0:silence.ogg:silence.ogg:silence.ogg:getbowl.ogg
+zone:37:37:0:0:0:0:bowl_of_fruit_salad
+igdoor:38:38:0:0:0:0:38:0:0: :glass_of_apple_cider:2:0:silence.ogg:silence.ogg:silence.ogg:getempty_glass.ogg
+zone:38:38:0:0:0:0:glass_of_apple_cider
+igdoor:39:39:0:0:0:0:39:0:0: :pizza_bites:2:0:silence.ogg:silence.ogg:silence.ogg:getmeat.ogg
+zone:39:39:0:0:0:0:pizza_bites
+igdoor:40:40:0:0:0:0:40:0:0: :pizza_roll:2:0:silence.ogg:silence.ogg:silence.ogg:getmeat.ogg
+zone:40:40:0:0:0:0:pizza_roll
+igdoor:41:41:0:0:0:0:41:0:0: :biryani_meat:2:0:silence.ogg:silence.ogg:silence.ogg:getmeat.ogg
+zone:41:41:0:0:0:0:biryani_meat
+igdoor:42:42:0:0:0:0:42:0:0: :bowl_of_menudo:3:0:silence.ogg:silence.ogg:silence.ogg:getbowl.ogg
+zone:42:42:0:0:0:0:bowl_of_menudo
+igdoor:43:43:0:0:0:0:43:0:0: :corn_chip:5:0:silence.ogg:silence.ogg:silence.ogg:getchip.ogg
+zone:43:43:0:0:0:0:corn_chip
+igdoor:44:44:0:0:0:0:44:0:0: :stuffed_crust_pizza:2:0:silence.ogg:silence.ogg:silence.ogg:getsnake_skin.ogg
+zone:44:44:0:0:0:0:stuffed_crust_pizza
+igdoor:45:45:0:0:0:0:45:0:0: :cheeseballs:3:0:silence.ogg:silence.ogg:silence.ogg:getmeat.ogg
+zone:45:45:0:0:0:0:cheseballs
+igdoor:46:46:0:0:0:0:46:0:0: :sault-and-vinegar-chips:3:0:silence.ogg:silence.ogg:silence.ogg:getchip.ogg
+zone:46:46:0:0:0:0:sault-and-vinegar-chips
+igdoor:47:47:0:0:0:0:47:0:0: :chicken_soup:2:0:silence.ogg:silence.ogg:silence.ogg:getbowl.ogg
+zone:47:47:0:0:0:0:chicken_soup
+igdoor:48:48:0:0:0:0:48:0:0: :scoobie_snacks:5:0:silence.ogg:silence.ogg:silence.ogg:getchip.ogg
+zone:48:48:0:0:0:0:scoobie_snacks
+igdoor:49:49:0:0:0:0:49:0:0: :nieve:2:0:silence.ogg:silence.ogg:silence.ogg:getmeat.ogg
+zone:49:49:0:0:0:0:nieve
+igdoor:50:50:0:0:0:0:50:0:0: :ramadan_candy:2:0:silence.ogg:silence.ogg:silence.ogg:getwrapped_protein_bar.ogg
+zone:50:50:0:0:0:0:ramadan_candy
+night:none.ogg
+owner:powermon

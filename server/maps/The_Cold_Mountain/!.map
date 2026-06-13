@@ -1,0 +1,331 @@
+mapname:The_Cold_Mountain
+minx:-100
+maxx:100
+miny:0
+maxy:200
+minz:0
+maxz:300
+tile:-100:100:0:200:0:0:gravel
+owner:Beloved
+litem:1
+starting_point:0:100:0:200:0:0
+deathpoint:0:0:10:10:0:0
+owner:WhiteDove
+zone:-100:100:0:200:0:300:Grounds To The Cold Mountain:trackme
+txt:0:100:10:10:0:3:the climb starts here. Welcome to Cold Mountain. Use your camera.
+tile:0:100:11:11:0:10:stone5:trackme
+tile:0:100:12:12:0:9:wall:trackme
+tile:0:100:12:15:11:11:rocks:trackme
+tile:0:100:16:16:11:20:soil:trackme
+tile:0:100:17:17:11:19:wall:trackme
+tile:0:100:17:20:20:20:stone4:trackme
+tile:0:100:26:30:20:20:stone4:trackme
+tile:0:100:31:31:20:25:sand:trackme
+tile:0:100:32:32:21:24:wall:trackme
+tile:0:100:32:40:25:25:rocks2:trackme
+tile:0:100:41:41:25:29:soil:trackme
+tile:0:100:42:42:21:28:wall:trackme
+tile:0:100:46:48:29:29:stone2:trackme
+tile:0:30:31:31:20:50:stone5:trackme
+tile:0:100:32:32:20:49:wall:trackme
+tile:31:46:31:31:20:50:rocks2:trackme
+tile:47:80:31:31:20:50:wetconcrete:trackme
+tile:81:100:31:31:20:50:large_rock:trackme
+tile:47:80:31:50:50:50:wetconcrete2:trackme
+zone:47:80:31:50:50:120:Waterfall Area:trackme
+tile:47:80:51:51:50:100:wallrocks:trackme
+zone:47:80:51:51:50:100:Rockwall:trackme
+tile:48:48:50:50:50:60:brush3:trackme
+zone:47:80:50:50:50:115:Sprawling, Climbable brush:trackme
+tile:48:55:50:50:60:60:brush3:trackme
+tile:55:55:50:50:51:70:brush3:trackme
+tile:56:58:50:50:67:69:brush3:trackme
+tile:48:53:50:50:70:75:brush3:trackme
+tile:53:53:49:50:60:60:leaves3:trackme
+zone:53:53:49:50:60:60:Ledge:trackme
+night:none.ogg
+tile:57:70:50:50:70:71:brush3:trackme
+tile:53:53:50:50:62:62:brush:trackme
+tile:65:65:50:50:72:80:brush4:trackme
+tile:55:62:49:50:80:89:brush:trackme
+zone:55:62:49:50:80:89:Ledge:trackme
+tile:62:70:50:50:91:91:brush3:trackme
+tile:66:66:49:50:92:100:brush:trackme
+tile:47:80:50:60:101:101:stone5:trackme
+zone:47:80:50:60:101:101:Ledge:trackme
+tile:55:70:48:48:50:100:water5:trackme
+zone:55:70:48:48:50:100:Waterfall:trackme
+src:55:70:48:48:50:100:0:100:water_fall.ogg
+tile:47:80:61:61:101:104:wallrocks3:trackme
+tile:47:80:64:65:104:104:stone2:trackme
+tile:47:80:65:65:104:120:rocks4:trackme
+tile:47:80:66:66:104:140:wall:trackme
+tile:47:80:65:65:120:145:stone4:trackme
+tile:47:80:66:80:145:145:mud2:trackme
+tile:47:80:81:81:145:200:snow2:trackme
+tile:47:80:82:82:145:199:wall
+tile:47:80:81:90:200:200:snow5:trackme
+tile:47:80:90:90:201:230:ice3:trackme
+tile:47:80:91:91:200:229:wall:trackme
+tile:47:80:90:130:230:230:ice3:trackme
+tile:50:60:105:105:230:270:wallcouch:trackme
+tile:50:50:95:104:230:270:wallcouch:trackme
+tile:51:60:95:95:230:270:wallcouch:trackme
+tile:60:60:96:104:230:270:wallcouch:trackme
+tile:51:59:96:104:270:270:wallcouch:trackme
+tile:56:56:100:100:230:230:fire:trackme
+zone:56:56:100:100:230:230:Fireplace:trackme
+oven:56:56:100:100:230:230
+src:56:56:100:100:230:230:-5:100:fireplace.ogg
+tile:53:53:101:101:230:235:wallbrick2:trackme
+tile:58:58:101:101:230:235:wallbrick2:trackme
+tile:54:57:101:101:231:231:cloth:trackme
+zone:53:58:101:101:230:235:Hammock:trackme
+tile:55:56:94:94:230:235:snow4:trackme
+door:55:56:94:94:235:240:55:96:235:Greetings:7:silence.ogg:silence.ogg:door112open.ogg:silence.ogg
+tile:55:56:96:96:230:235:snow4:trackme
+door:55:56:96:96:235:240:55:94:235:Farewell:7:silence.ogg:silence.ogg:silence.ogg:door112close.ogg
+zone:49:61:93:107:230:275:Igloo:trackme
+zone:55:56:94:94:230:235:Climb these snowblocks to enter the Igloo:trackme
+zone:55:56:96:96:230:235:Climbable snowblocks:trackme
+zone:65:65:115:115:230:256:Dormant Tree adorned with icicled Branches:trackme
+tile:65:65:115:115:230:256:ice4:trackme
+tile:60:64:115:115:235:235:ice2:trackme
+tile:65:65:116:119:240:240:ice2:trackme
+tile:66:69:115:115:246:246:ice2:trackme
+tile:65:65:110:114:251:251:ice2:trackme
+tile:66:67:115:115:256:256:ice2:trackme
+tile:20:46:113:115:220:230:ice:trackme
+zone:20:46:113:115:220:230:descending ice ledge:trackme
+tile:20:20:118:200:220:220:snow:trackme
+zone:20:20:118:200:220:220:Snow Ledge Leading to Waterfall:trackme
+tile:-100:19:198:200:0:220:swimming:trackme
+src:-95:19:98:200:0:220:-10:100:water4.ogg
+src:47:80:80:120:200:270:-18:100:higharea.ogg
+src:-100:100:0:200:0:25:0:100:birds54.ogg
+tile:81:100:32:32:50:65:rocks5:trackme
+tile:81:100:33:33:50:64:wall:trackme
+tile:81:100:30:30:65:66:wallrocks:trackme
+zone:81:100:30:30:66:67:Ledge':trackme
+tile:81:100:33:51:68:68:stone4:trackme
+txt:81:81:51:51:68:50:use the climbable brush to go to waterfall
+tile:81:81:50:50:51:68:brush3:trackme
+deathpoint:0:0:0:0:0:0
+tile:0:100:13:13:0:10:rocks:trackme
+zone:0:100:13:13:0:10:Climb here and go south to get back to the otherside of the mountain:trackme
+tile:81:100:31:80:65:65:grass:trackme
+zone:81:100:31:80:65:65:Field:trackme
+tile:85:88:55:59:65:95:tree:trackme
+zone:85:89:55:59:65:95:Apple Tree:trackme
+tile:86:86:59:65:70:70:branch:trackme
+tile:89:92:59:59:72:72:branch:trackme
+tile:88:88:49:54:73:73:branch:trackme
+tile:80:84:56:56:76:76:branch:trackme
+tile:89:94:56:56:78:78:branch:trackme
+tile:88:88:59:65:81:81:branch:trackme
+tile:79:84:59:59:84:84:branch:trackme
+tile:87:87:60:68:84:84:branch:trackme
+tile:85:85:54:54:86:86:branch:trackme
+tile:89:89:56:56:88:88:branch:trackme
+tile:89:94:57:57:88:88:branch:trackme
+tile:86:86:60:67:88:88:branch:trackme
+tile:75:84:58:58:88:88:branch:trackme
+tile:86:86:42:54:91:91:branch:trackme
+tile:89:94:55:55:91:91:branch:trackme
+tile:89:94:58:58:94:94:branch:trackme
+tile:85:85:60:70:94:94:branch:trackme
+tile:78:84:57:57:94:94:branch:trackme
+tile:85:85:59:65:95:98:branch:trackme
+tile:78:85:59:59:95:98:branch:trackme
+tile:77:85:58:58:95:96:branch:trackme
+tile:85:88:56:56:95:100:branch:trackme
+tile:85:89:55:55:95:96:branch:trackme
+tile:85:89:57:57:95:100:branch:trackme
+tile:86:89:58:58:95:99:branch:trackme
+tile:86:90:59:59:95:98:branch:trackme
+tile:85:91:60:68:95:96:branch:trackme
+item:77:92:48:64:0:99:60000:3:apple
+src:84:90:54:60:65:85:0:100:birds7.ogg
+src:84:90:54:60:65:85:0:100:birds11.ogg
+src:84:90:54:60:65:85:0:100:birds35.ogg
+tile:81:85:81:200:65:100:thickforest:trackme
+tile:81:85:101:101:65:99:wallbrushtangle:trackme
+tile:86:96:81:200:65:100:pine:trackme
+tile:86:96:101:101:65:99:wallbrushtangle
+tile:97:100:81:200:65:100:thickforest:trackme
+tile:97:100:101:101:65:99:wallbrushtangle:trackme
+zone:81:85:81:200:65:100:Forest:trackme
+zone:86:96:81:200:65:100:Path Threw Forest:trackme
+zone:97:100:81:200:65:100:Forest:trackme
+src:81:100:81:200:65:100:-5:100:birds91.ogg:1
+item:86:96:90:199:65:90:20000:3:nut
+item:81:85:90:200:65:100:20000:2:berry
+zone:19:20:198:200:0:220:Descending Waterfall:trackme
+automover:-99:20:198:200:0:220:-99:98:0: :200:silence.ogg:fishswim1.ogg:silence.ogg:silence.ogg
+txt:20:20:197:197:220:220:Enter the Waterfall and you will swim down
+src:81:100:31:55:65:75:0:100:light_airy_leaves.ogg
+src:81:100:55:80:65:75:-10:100:light_airy_leaves.ogg
+src:81:100:50:80:65:75:-10:100:wind_and_leaves.ogg
+tile:50:80:190:200:65:100:stone:trackme
+zone:50:80:190:200:65:100:Tunnel:trackme
+src:50:80:190:200:65:100:0:100:a2.ogg:1
+tile:20:49:190:200:65:65:deepwater:trackme
+zone:20:49:190:200:65:65:Small Stream:trackme
+src:20:49:190:200:65:70:-15:100:duck4.ogg
+src:20:49:190:200:65:70:-15:100:duck2.ogg
+src:20:49:190:200:65:70:0:100:stream11.ogg
+tile:-80:48:196:196:100:100:bridge:trackme
+zone:49:49:196:196:66:100:Stairs leading down to the Stream:trackme
+src:-79:49:196:196:66:100:0:100:Bridge.ogg
+tile:-79:19:196:196:99:99:wallrail:trackme
+tile:-80:-80:196:196:0:65:stairs2:trackme
+zone:-79:48:196:196:100:100:Rickety Bridge leading to and from Stairs:trackme
+zone:-80:-80:196:196:0:100:Stairs to and from ground Level:trackme
+door:86:86:85:195:100:100:86:195:100:Welcome Aboard Partner:350:silence.ogg:horse_step1.ogg:silence.ogg:silence.ogg
+txt:86:86:85:85:100:100:press enter to ride the horse
+door:-79:86:196:196:100:100:-79:196:100:happy trails:350:silence.ogg:horse_step1.ogg:silence.ogg:horse_voice.ogg
+txt:86:86:196:196:100:100:press enter here to continue the ride
+zone:-78:-78:196:196:100:100:Take care to watch your step come again
+src:86:86:85:85:100:100:-10:100:horses2.ogg
+zone:86:86:195:195:100:100:step one tile north to continue the ride
+src:25:30:199:199:65:100:0:100:birds10.ogg
+src:30:34:199:199:65:100:0:100:birds26.ogg
+src:20:25:199:199:65:100:0:100:birds42.ogg
+src:5:10:199:199:65:100:0:100:birds63.ogg
+src:-10:-5:199:199:65:100:0:100:birds75.ogg
+src:-20:-10:199:199:65:100:0:100:birds98.ogg
+src:-30:-20:199:199:65:100:0:100:ducks.ogg
+src:-40:0:199:199:65:100:0:100:sa9.ogg
+src:-60:-55:199:199:100:100:0:100:sa11.ogg
+src:-55:-50:199:199:100:100:0:100:sa19.ogg
+src:82:100:89:90:100:100:0:100:sa30.ogg
+src:82:100:100:105:100:100:0:100:birds50.ogg
+src:82:100:110:105:100:100:0:100:birds87.ogg
+src:82:100:120:125:100:100:0:100:birds93.ogg
+src:82:100:130:135:100:100:0:100:sa17.ogg
+src:82:100:140:145:100:100:0:100:sa27.ogg
+src:82:100:155:160:100:100:0:100:sa30.ogg
+src:82:100:170:175:100:100:0:100:sa32.ogg
+src:82:100:190:195:100:100:0:100:sa36.ogg:1
+src:-25:0:199:199:65:100:0:100:sa10.ogg
+tile:20:49:187:189:65:65:mud2:trackme
+zone:20:49:187:189:65:65:Mud:trackme
+tile:20:28:180:186:65:65:grass:trackme
+tile:26:49:180:186:65:65:dirt6:trackme
+zone:20:25:180:186:65:65:Long Grass:trackme
+zone:26:49:180:186:65:65:Dirt:trackme
+src:-20:49:199:199:65:100:-1:100:ducks.ogg
+tile:20:49:160:179:65:65:large_rock:trackme
+zone:20:49:160:179:65:65:large rock area:trackme
+tile:30:30:150:150:65:100:wallrocks:trackme
+tile:45:45:150:150:65:100:wallrocks:trackme
+tile:30:30:151:151:65:101:stone2:trackme
+tile:45:45:151:151:65:101:stone2:trackme
+src:47:80:80:195:200:230:0:100:mountain top.ogg
+src:47:80:80:195:200:295:0:100:wind4.ogg
+tile:-100:30:32:41:50:50:grass4:trackme
+tile:-100:30:41:41:50:54:walldirt:trackme
+tile:-100:30:41:41:55:55:dirt4:trackme
+tile:-100:30:42:50:56:56:grass4:trackme
+tile:-100:30:51:51:51:57:walldirt:trackme
+tile:-100:30:51:51:58:58:dirt3:trackme
+tile:-100:30:52:60:58:58:grass4:trackme
+tile:-100:30:61:61:58:61:walldirt:trackme
+tile:-100:30:61:61:62:62:dirt4:trackme
+tile:-100:30:62:80:62:62:grass4:trackme
+tile:-100:30:81:81:62:65:walldirt:trackme
+tile:-100:30:81:81:66:66:dirt4:trackme
+tile:-100:30:82:100:66:66:grass4:trackme
+tile:-100:30:101:101:66:70:walldirt:trackme
+tile:-100:30:101:101:70:70:dirt4:trackme
+tile:-100:30:102:150:70:70:grass4:trackme
+tile:-100:30:151:151:70:74:walldirt:trackme
+tile:-100:30:151:151:75:75:dirt:trackme
+tile:-100:30:152:197:75:75:grass4:trackme
+zone:-100:30:32:197:50:60:Windy Plains:trackme
+src:-100:25:32:195:50:75:0:65:wind8.ogg
+zone:-100:30:61:80:62:62:Windy Plains:trackme
+zone:-100:30:81:100:66:66:Windy Plains:trackme
+zone:-100:30:101:150:70:70:Windy Plains:trackme
+zone:-100:30:151:195:75:75:Windy Plains:trackme
+zone:55:56:94:94:235:237:door :trackme
+tile:49:49:196:196:66:100:rocks5:trackme
+tile:-100:30:42:42:55:56:brush:trackme
+tile:-100:30:43:43:55:55:wallbank:trackme
+tile:47:80:130:145:150:229:wall:trackme
+tile:47:80:131:145:150:230:ice3:trackme
+tile:50:53:117:118:225:230:air:trackme
+tile:65:75:99:99:225:230:air:trackme
+tile:61:61:109:109:225:230:air:trackme
+tile:62:62:112:116:225:230:air:trackme
+tile:47:80:135:138:225:230:air:trackme
+tile:47:80:147:147:230:249:wall:trackme
+tile:47:80:146:146:230:250:ice4:trackme
+tile:47:80:147:150:250:250:ice4:trackme
+tile:47:80:151:151:230:250:ice:trackme
+tile:47:80:149:149:230:250:wallcouch:trackme
+tile:47:80:153:153:200:245:ice4:trackme
+tile:47:80:152:152:200:244:wallcouch:trackme
+tile:47:80:152:152:130:199:wallstone:trackme
+tile:47:80:153:153:130:199:stone2:trackme
+tile:47:80:154:165:100:130:soil:trackme
+tile:47:80:166:166:130:150:wallrocks:trackme
+tile:46:46:153:162:130:152:wallrocks:trackme
+tile:46:46:158:158:130:132:grass4:trackme
+zone:46:46:158:158:130:132:a crack in the wall:trackme
+tile:46:46:158:158:100:129:wallrocks:trackme
+tile:45:45:158:158:100:129:stone4:trackme
+tile:20:45:159:197:100:100:rocks:trackme
+tile:20:45:159:197:99:99:wall
+tile:25:42:195:195:100:120:wallrocks3:trackme
+tile:24:24:170:195:100:120:wallrocks3:trackme
+tile:25:41:170:170:100:120:wallrocks3:trackme
+tile:42:42:170:195:100:120:wallrocks3:trackme
+door:29:29:169:169:100:115:29:172:100:welcome:500:silence.ogg:silence.ogg:door44open.ogg:door33close.ogg
+door:29:29:171:171:100:115:29:168:100:Come back again:500:silence.ogg:silence.ogg:door47open.ogg:door39close.ogg
+tile:29:29:169:169:100:115:tile4:trackme
+zone:25:43:169:196:100:121:Little Stone Hut:trackme
+tile:25:41:171:194:100:100:stone3:trackme
+tile:29:29:171:171:100:115:stone4:trackme
+zone:29:29:169:171:100:115:Entrance and Exit Door:trackme
+tile:24:42:170:195:121:121:roof2:trackme
+tile:26:28:194:194:102:102:wood4:trackme
+zone:26:28:194:194:102:102:Window Sill
+door:26:28:194:194:103:108:27:199:65:down you go:50:silence.ogg:water7fall.ogg:door1open.ogg:silence.ogg
+tile:26:28:194:194:103:108:glass2:trackme
+zone:26:28:194:194:103:108:Window:trackme
+tile:35:35:171:184:100:120:wallwood17:trackme
+tile:35:41:185:185:100:120:wallwood17:trackme
+tile:38:41:186:186:100:120:wallwood17:trackme
+tile:34:34:181:181:100:115:wood3:trackme
+door:34:34:181:181:100:115:36:181:100: :500:silence.ogg:silence.ogg:door2open.ogg:close8.ogg
+door:36:36:181:181:100:115:34:181:100: :500:silence.ogg:silence.ogg:door32open.ogg:door2close.ogg
+zone:34:41:171:185:100:120:Bathroom:trackme
+zone:34:36:181:181:100:115:Bathroom door:trackme
+toilet:41:41:172:172:100:103
+tile:41:41:172:172:100:102 diamond:trackme
+tile:41:41:172:172:100:103:tile4:trackme
+igdoor:40:40:171:171:100:100:40:171:100: :toilet_paper:1:500:silence.ogg:silence.ogg:silence.ogg:toilet_paper.ogg
+washbasin:41:41:174:174:100:101
+tile:41:41:174:174:100:101:tile2:trackme
+zone:41:41:174:174:100:101:wash basin:trackme
+zone:41:41:172:172:100:103:toilet:trackme
+tile:39:41:180:184:100:102:wetconcrete2
+tile:38:38:180:184:100:110:cloth:trackme
+tile:39:41:180:184:99:99:wallbarrel:trackme
+zone:38:41:180:184:100:103:shower:trackme
+door:37:39:182:182:100:110:39:182:100: :500:silence.ogg:silence.ogg:maploadstart.ogg:slidestop.ogg
+door:38:39:182:182:100:110:37:182:100: :500:silence.ogg:silence.ogg:maploadstart.ogg:maploadend.ogg
+zone:37:39:182:182:100:115:shower curtain enterance:trackme
+tile:38:41:179:179:100:120:wallcloth:trackme
+shower:41:41:183:183:100:100
+zone:41:41:183:183:100:100:showerhead:trackme
+tile:38:41:191:194:100:102:cloth:trackme
+tile:37:37:191:194:100:101:wallwood9:trackme
+tile:37:37:191:194:102:102:wobbly_wood:trackme
+tile:38:41:190:190:100:101:wallwood9:trackme
+tile:38:41:190:190:102:102:wobbly_wood:trackme
+tile:38:41:192:194:103:103:cloth:trackme
+zone:36:41:189:194:100:103:Bed with wooden frame and thick blankets:trackme
+bed:38:41:191:194:100:103
+tile:39:39:180:184:100:110:wallcloth:trackme

@@ -1,0 +1,24 @@
+mapname:cats_nest
+minx:-1
+maxx:51
+miny:-1
+maxy:51
+minz:0
+maxz:50
+tile:-1:51:-1:51:0:0:grass3
+owner:kannadiga
+litem:1
+starting_point:-1:51:-1:51:0:0
+deathpoint:-1:51:-1:51:0:0
+tile:-1:-1:-1:51:0:50:wallbrick2
+tile:0:51:51:51:0:50:wallbrick2
+tile:0:51:-1:-1:0:50:wallbrick2
+zone:0:50:0:50:0:50:a long tile of grass of the cats nest.
+ai:0:50:0:50:0:0:50000:1:cat
+zone:10:10:0:0:0:50:press shift enter to go back.:trackme
+travelpoint:10:10:0:0:0:50:farm:61:106:0:coming back to farm.:silence.ogg:silence.ogg:silence.ogg
+night:none.ogg
+wind:none.ogg
+
+tile:51:51:0:50:0:50:wallbrick2
+reinforcement:0:10000000

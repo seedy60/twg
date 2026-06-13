@@ -1,0 +1,28 @@
+mapname:dog_kennel
+minx:-1
+maxx:8
+miny:-1
+maxy:8
+minz:0
+maxz:5
+litem:1
+starting_point:-1:8:-1:8:0:0
+deathpoint:-1:8:-1:8:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+owner:turando
+tile:0:7:0:7:0:0:woodshelter
+zone:0:7:0:7:0:5:dog kennel:trackme
+music:0:7:0:7:0:5:-20:100:musica19.ogg
+ai:0:7:0:7:0:0:60000:1:dog
+tile:-1:8:-1:-1:0:5:wallgeneric2
+tile:-1:-1:0:7:0:5:wallgeneric2
+tile:-1:8:8:8:0:5:wallgeneric2
+tile:8:8:0:7:0:5:wallgeneric2
+tile:0:7:0:7:5:5:walltile
+zone:7:7:3:5:0:5:exit door. Press shift enter to go oute
+tile:8:8:3:5:0:5:wallwood2
+travelpoint:7:7:3:5:0:0:farm:61:133:0:you go back in the farm:silence.ogg:door28open.ogg:door28close.ogg
+reinforcement:0:10000000
+src:-1:8:-1:8:0:5:-4:100:dogs.ogg

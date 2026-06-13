@@ -1,0 +1,57 @@
+mapname:ftoilets
+minx:-1
+maxx:5
+miny:-1
+maxy:11
+minz:-1
+maxz:11
+tile:-1:5:-1:11:0:0:stone3
+owner:NicoDiAngelo
+night:none.ogg
+wind:none.ogg
+rain:telha2.ogg
+litem:0
+starting_point:2:2:0:0:0:0
+deathpoint:2:2:0:0:0:0
+tile:-1:5:-1:11:-1:-1:wall
+tile:-1:-1:-1:11:-1:11:wallbuilding4
+tile:-1:5:-1:-1:-1:11:wallbuilding4
+tile:5:5:-1:11:-1:11:wallbuilding4
+tile:-1:5:11:11:-1:11:wallbuilding4
+tile:-1:5:-1:11:11:11:wallbuilding4
+reverb:0:4:0:10:0:10:1:1.0:0.5:0.1:0.5:0.4
+zone:0:4:0:10:0:10:Female washroom
+tile:2:2:0:0:0:0:cement4
+zone:2:2:0:0:0:10:Exit door:trackme
+travelpoint:2:2:0:0:0:10:main_map:9:0:20:You exit the female washroom:silence.ogg:door25open.ogg:door25close.ogg
+tile:-1:5:6:6:-1:11:wallbuilding
+tile:2:2:6:11:-1:11:wallbuilding
+zone:0:1:7:10:0:10:Stall 1
+zone:3:4:7:10:0:10:Stall 2
+zone:0:0:5:7:0:10:Doors of stall 1:trackme
+zone:4:4:5:7:0:10:Doors of stall 2:trackme
+tile:0:0:5:5:0:0:cement3
+tile:0:0:7:7:0:0:cement3
+door:0:0:5:5:0:10:0:7:0:you open the stall 1 door and enter:1000:silence.ogg:silence.ogg:open_blind.ogg:close_blind.ogg
+door:0:0:7:7:0:10:0:5:0:you open the stall 1 door and step out:1000:silence.ogg:silence.ogg:open_blind.ogg:close_blind.ogg
+tile:0:0:10:10:0:0:synthetic
+toilet:0:0:10:10:0:10
+tile:1:1:8:8:0:0:tile4
+washbasin:1:1:8:8:0:10
+zone:0:0:10:10:0:10:Toilet of stall 1:trackme
+zone:1:1:8:8:0:10:Washbasin of stall 1:trackme
+tile:4:4:5:5:0:0:cement3
+tile:4:4:7:7:0:0:cement3
+door:4:4:5:5:0:10:4:7:0:you open the stall 2 door and enter:1000:silence.ogg:silence.ogg:open_blind.ogg:close_blind.ogg
+door:4:4:7:7:0:10:4:5:0:you open the stall 2 door and step out:1000:silence.ogg:silence.ogg:open_blind.ogg:close_blind.ogg
+tile:4:4:10:10:0:0:synthetic
+toilet:4:4:10:10:0:10
+tile:3:3:8:8:0:0:tile4
+washbasin:3:3:8:8:0:10
+zone:4:4:10:10:0:10:Toilet of stall 2:trackme
+zone:3:3:8:8:0:10:Washbasin of stall 2:trackme
+igdoor:1:1:10:10:0:0:1:10:0: :toilet_paper:1:500:silent.ogg:silence.ogg:silence.ogg:toilet_paper.ogg
+
+igdoor:3:3:10:10:0:0:3:10:0: :toilet_paper:1:500:silence.ogg:silence.ogg:silence.ogg:toilet_paper.ogg
+zone:3:3:10:10:0:0:toilet paper dispenser:trackme
+zone:1:1:10:10:0:0:toilet paper dispenser:trackme

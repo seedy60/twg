@@ -1,0 +1,30 @@
+mapname:vehicle_store
+minx:-1
+maxx:21
+miny:-1
+maxy:21
+minz:0
+maxz:20
+litem:1
+starting_point:-1:21:-1:21:0:0
+deathpoint:-1:21:-1:21:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+safezone:-1:21:-1:21:0:20
+owner:turando
+tile:0:20:0:20:0:0:concrete25
+zone:0:20:0:20:0:20:vehicle_store
+tile:-1:-1:0:20:0:20:wallbuilding3
+tile:-1:21:-1:-1:0:20:wallbuilding3
+tile:21:21:0:20:0:20:wallbuilding3
+tile:-1:21:21:21:0:20:wallbuilding3
+src:0:20:0:20:0:20:-15:100:calm.ogg
+music:0:20:0:20:0:20:-15:100:menumus53.ogg
+tile:-1:-1:9:11:0:20:wallglass11
+opening_hours:7:30
+reinforcement:0:10000000
+travelpoint:20:20:0:0:0:0:garage:50:100:0:you go back to the parking lot:silence.ogg:silence.ogg:close15.ogg
+zone:20:20:0:0:0:7:to go back to the parking lot, press shift enter:trackme
+
+src:0:21:0:21:0:20:-9:100:Crowd Of People.ogg:1

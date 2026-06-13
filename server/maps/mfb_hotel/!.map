@@ -1,0 +1,524 @@
+mapname:mfb_hotel
+minx:0
+maxx:150
+miny:0
+maxy:150
+minz:0
+maxz:300
+tile:0:150:0:150:0:0:marble2
+owner:hoanganh
+litem:1
+deathpoint:0:150:0:150:0:0
+night:none.ogg
+zone:0:150:0:150:0:20:The hotel reception area is decorated with flowers and pictures of vintage cars and planes on the walls and the air conditioning is cool. You would think this would be a good place to relax.
+owner:tuanthanh
+zone:100:110:100:110:0:10:reception desk:trackme
+tile:101:109:101:109:0:4:walltable
+zone:100:100:102:102:0:2:standard room card, 200 coins
+zone:100:100:105:105:0:2:VIP room card, 1000 coins
+zone:100:100:108:108:0:2:medium room for a family, 500 coins
+zone:0:0:25:25:0:0:an important sign. please read this.:trackme
+itdoor:100:100:102:102:0:5:102:102:0:you have paid 200 coins.:coins:200:10:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+tile:101:109:101:109:5:5:hardwood
+zone:102:102:102:102:0:0:press enter to get card.
+igdoor:102:102:102:102:0:0:100:102:0:standard room card:standard_room_card:1:10:silence.ogg:silence.ogg:letter.ogg:silence.ogg
+itdoor:100:100:105:105:0:5:102:105:0:you have paid 1000 coins:coins:1000:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+src:0:150:0:150:0:20:0:100:people2.ogg
+zone:102:102:105:105:0:0:enter to get card.
+igdoor:102:102:105:105:0:0:100:105:0:VIP room card.:VIP_room_card:1:10:silence.ogg:silence.ogg:letter.ogg:silence.ogg
+itdoor:100:100:108:108:0:5:102:108:0:you have paid 500 coins.:coins:500:10:silence.ogg:silence.ogg:drawcoins.ogg:silence.ogg
+zone:102:102:108:108:0:0:enter to get card.
+igdoor:102:102:108:108:0:0:100:108:0:medium_room_card:medium_room_card:1:10:silence.ogg:silence.ogg:letter.ogg:silence.ogg
+tile:0:150:0:20:0:250:wallglass7
+zone:0:40:21:21:0:20:A series of pictures of the world's first car and first plane with captions about it.
+zone:53:55:19:21:0:250:elevator door
+tile:50:60:0:19:0:0:glass6
+door:53:55:21:21:0:1:54:19:0:you go in:1200:silence.ogg:elev2.ogg:silence.ogg:silence.ogg
+zone:50:60:0:19:0:250:inside the elevator
+zone:53:55:19:19:0:0:elevator door
+zone:60:60:15:15:0:0:2nd floor button
+door:60:60:15:15:0:0:60:15:50:going up... please wait.:300:silence.ogg:elev.ogg:elevator_start2.ogg:elevator_stop2.ogg
+tile:50:60:0:19:50:50:glass6
+zone:60:60:15:15:50:50:first flors button
+tile:0:150:21:150:50:50:marble2
+door:53:55:19:19:50:50:54:21:50:you going out:1200:silence.ogg:elev2.ogg:silence.ogg:silence.ogg
+zone:0:150:21:150:50:70:hotel dining area
+src:0:150:21:150:50:70:0:100:airport hotel break fast.ogg:1
+tile:101:109:51:59:50:52:walltable2
+tile:101:109:51:59:53:53:hardwood
+zone:100:110:50:60:50:60:hotel food counter
+zone:53:55:19:21:50:53:elevator door:trackme
+door:53:55:21:21:50:50:54:19:50:After enjoying your meal, you go back to your room or go out somewhere.:1500:silence.ogg:silence.ogg:elevadorabre.ogg:silence.ogg
+zone:60:60:10:10:0:50:3rd floor button
+door:60:60:10:10:0:50:60:10:100:You are going up to the floor with the standard rooms.:300:silence.ogg:elev2.ogg:elevator_start2.ogg:elevator_stop.ogg
+tile:50:60:0:19:100:100:glass6
+tile:0:150:21:150:100:100:carpet4
+zone:0:150:21:150:100:130:3rd floor of the hotel, where there are standard rooms for one or two people per room
+zone:53:55:19:21:100:100:elevator door
+door:53:55:19:19:100:100:54:21:100:you enter the hallway:250:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+door:53:55:19:19:0:5:54:21:0:you going out:1200:silence.ogg:elev2.ogg:silence.ogg:silence.ogg
+tile:50:50:21:30:100:149:wallbuilding3
+tile:50:50:31:35:100:150:wallwooddoor
+tile:0:49:21:21:100:150:wallbuilding3
+zone:49:51:31:35:100:105:door to standard_room1:trackme
+tile:50:50:36:60:100:149:wallbuilding3
+tile:0:49:60:60:100:149:wallbuilding3
+door:49:49:31:35:100:100:51:33:100:you go out the room:200:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+zone:100:100:52:52:50:50:get eel sushi.
+zone:100:100:54:54:50:50:Get a nutritious sandwich for breakfast.
+zone:100:100:56:56:50:50:a hot dog here, enter to get them.
+zone:100:100:58:58:50:50:a delicious fried rice is here, enter to get them.
+zone:101:101:60:60:50:50:a portion of dragon fruit salad is here, enter to get a plate
+zone:0:49:21:59:100:120:Standard room 1
+zone:49:49:31:35:100:120:door go out the room
+tile:50:50:61:70:100:149:wallbuilding3
+tile:50:50:71:75:100:149:wallwooddoor
+zone:35:49:21:28:100:120:The bathroom with a minimalist and cozy white color.
+tile:35:49:29:29:100:120:wallbuilding3
+tile:35:49:22:28:100:100:marble7
+tile:34:34:21:29:100:120:wallbuilding3
+door:49:49:71:75:100:105:51:73:100:see you soon, thank for enjoy:500:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+zone:44:46:28:30:100:106:bathroom door
+tile:50:50:76:100:100:149:wallbuilding3
+tile:0:49:100:100:100:149:wallbuilding3
+zone:51:51:71:75:100:149:door to standard_room2:trackme
+zone:0:49:61:99:100:149:standard_room2
+zone:49:49:71:75:100:149:exit door
+door:44:46:30:30:100:100:45:28:100:go:1200:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:35:49:61:69:100:100:tile2
+zone:35:49:61:69:100:100:a comfortable badroom
+tile:35:39:69:69:100:149:wallbuilding3
+tile:40:44:69:69:100:149:wallglass
+door:44:46:28:28:100:100:45:30:100:you go out:1200:silence.ogg:silence.ogg:door37open.ogg:door37close.ogg
+tile:45:49:69:69:100:149:wallbuilding3
+zone:40:44:70:70:100:149:a glass door leading to badroom
+door:40:44:70:70:100:105:42:68:100:you go to the badroom:500:silence.ogg:silence.ogg:door24open.ogg:door24close.ogg
+zone:40:44:68:68:100:149:standard_room door
+door:40:44:68:68:100:105:42:70:100:i'm sure you will very comfortable when shower in the badroom:500:silence.ogg:silence.ogg:door24open.ogg:door24close.ogg
+tile:34:34:61:69:100:149:wallbuilding3
+tile:49:49:22:22:100:100:walldiamond
+zone:49:49:22:22:101:105:on the toylet
+tile:47:49:61:63:100:103:walldiamond
+tile:47:49:61:63:104:104:metal
+tile:49:49:22:22:101:101:diamond
+toilet:49:49:22:22:101:101
+zone:47:49:61:63:104:104:on the wite toylet
+tile:35:40:21:28:100:102:wallbuilding
+toilet:47:49:61:63:104:104
+tile:45:49:65:68:100:103:wallbeaulon
+tile:45:49:65:68:104:104:wallstone2
+zone:35:40:21:28:100:110:a comfortable bath
+tile:46:47:66:67:104:104:water
+tile:40:40:22:28:103:103:ceramic4
+zone:46:48:66:67:104:104:a grean washbasin
+tile:36:39:22:28:102:102:water4
+washbasin:46:48:66:67:104:104
+shower:36:39:22:28:102:102
+tile:35:39:61:68:100:104:wallbuilding
+tile:14:17:22:35:100:103:wallcloth
+tile:14:17:22:35:104:104:cloth
+icdoor:51:51:31:35:100:100:49:33:100:you scan your card:standard_room_card:1:200:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+tile:35:39:61:68:104:104:wallbuilding
+tile:36:38:62:67:104:104:water4
+tile:23:26:22:35:100:103:wallcloth
+tile:35:35:61:68:105:105:marble5
+tile:36:39:68:68:105:105:marble5
+tile:23:26:22:35:104:104:cloth
+tile:39:39:61:68:105:105:marble5
+icdoor:51:51:71:75:100:105:49:73:100:welcome to the room2, hope you enjoy the services:standard_room_card:1:500:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+tile:35:39:61:61:105:105:marble5
+bed:23:26:22:35:104:104
+zone:35:39:61:68:104:105:a small red bath
+shower:36:38:62:67:104:104
+tile:1:1:2:59:100:103:wallbuilding3
+tile:0:0:61:99:100:149:wallglass5
+tile:1:1:22:59:104:104:marble5
+zone:1:1:61:99:100:149:a large window look down a large street
+zone:1:1:22:59:104:110:a large window
+tile:0:0:22:59:100:200:wallglass5
+tile:5:10:61:73:100:103:wallboard
+tile:5:10:61:73:104:104:carpet8
+bed:5:10:61:73:104:104
+zone:5:10:61:73:104:104:a long comfortable bed
+zone:23:26:22:35:104:110:a small and cozy bed
+zone:14:17:22:35:104:110:a small and cozy bed
+bed:14:17:22:35:104:104
+tile:16:26:99:99:100:107:wallglass2
+zone:16:26:98:98:100:107:a large glass clock
+clock:16:26:98:98:100:107:empty
+tile:45:45:65:68:105:105:marble5
+tile:45:49:68:68:105:105:marble5
+tile:49:49:65:68:105:105:marble5
+tile:45:49:65:65:105:105:marble5
+tile:16:26:59:59:100:107:wallglass2
+zone:16:26:58:58:100:107:a large glass clock
+clock:16:26:58:58:100:107:the time is
+tile:60:60:21:150:100:120:wallbuilding3
+door:53:55:21:21:100:100:54:19:100:you go in:800:silence.ogg:silence.ogg:elevadorabre.ogg:silence.ogg
+tile:50:50:101:110:100:149:wallbuilding3
+tile:50:50:111:115:100:149:wallwooddoor
+tile:50:50:116:140:100:149:wallbuilding3
+tile:0:50:141:150:100:149:wallbuilding3
+zone:51:51:111:115:100:149:standard_room3 door:trackme
+icdoor:51:51:111:115:100:105:49:113:100:you scan your card and get in:standard_room_card:1:200:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+zone:0:49:101:140:100:149:standard_room3
+door:49:49:111:115:100:105:51:113:100:you leave the room:500:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+zone:49:49:111:115:100:149:door get out from the room
+tile:35:49:101:109:100:100:tile2
+tile:35:49:109:109:100:149:wallbuilding3
+tile:34:34:101:109:100:149:wallbuilding3
+tile:39:44:109:109:100:149:wallwooddoor
+zone:39:44:110:110:100:149:badroom door
+door:39:44:110:110:100:105:42:108:100:you step to the badroom:500:silence.ogg:silence.ogg:open_microwave.ogg:close_microwave.ogg
+zone:35:49:101:108:100:149:badroom
+zone:39:44:108:108:100:149:door get out from the badroom
+door:39:44:108:108:100:105:42:110:100:you going out:500:silence.ogg:silence.ogg:open_microwave.ogg:close_microwave.ogg
+tile:47:49:101:103:100:103:walldiamond
+tile:47:49:101:103:104:104:metal
+toilet:47:49:101:103:104:104
+zone:47:49:101:103:104:104:on the toylet
+tile:44:44:101:101:100:103:wallbucket
+tile:44:44:101:101:104:104:paper
+trashcan:44:44:101:101:104:104
+zone:44:44:101:101:104:104:a trashcan
+tile:44:44:61:61:100:103:wallbucket
+tile:44:44:61:61:104:104:paper
+trashcan:44:44:61:61:104:104
+zone:44:44:61:61:104:104:a trashcan
+tile:44:44:22:22:100:103:wallbucket
+tile:44:44:22:22:104:104:paper
+trashcan:44:44:22:22:104:104
+zone:44:44:22:22:104:104:a trashcan
+tile:45:49:105:108:100:103:wallbeaulon
+tile:45:49:105:108:104:104:wallstone
+tile:46:47:106:107:104:104:water
+washbasin:46:48:106:107:104:104
+zone:45:49:105:108:104:105:a washbasin
+tile:45:45:105:108:105:105:marble5
+tile:45:49:108:108:105:105:marble5
+tile:49:49:105:108:105:105:marble5
+tile:45:49:105:105:105:105:marble5
+tile:48:48:106:107:104:104:water
+tile:48:48:66:67:104:104:water
+tile:35:39:101:108:100:103:wallbuilding
+tile:35:39:101:109:104:104:wallbuilding
+tile:36:38:102:107:104:104:water4
+tile:35:35:101:108:105:105:marble5
+tile:35:39:108:108:105:105:marble5
+tile:39:39:101:108:105:105:marble5
+tile:35:39:101:101:105:105:marble5
+zone:35:39:101:108:104:105:a small bathfor shower, when you shower you feel very comfortable
+shower:36:38:102:107:104:104
+tile:20:29:100:120:100:102:wallcloth
+tile:20:29:101:120:103:103:cloth
+zone:20:29:101:120:103:103:a double bed
+bed:20:29:101:120:103:103
+clock:24:24:139:139:100:100:empty
+zone:24:24:139:139:100:105:a white wall clock
+tile:24:24:140:140:100:105:wallglass
+zone:59:61:31:35:100:102:door of standard room 4:track
+tile:60:60:31:35:100:120:wallwooddoor
+icdoor:59:59:31:35:100:105:61:33:100:you go in the room:standard_room_card:1:200:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+tile:61:100:21:29:100:120:wallbuilding3
+zone:61:100:30:60:100:120:standard room 4
+tile:61:70:37:37:100:120:wallbuilding3
+tile:61:100:60:60:100:120:wallbuilding3
+tile:71:71:37:60:100:120:wallbuilding3
+zone:65:67:36:36:100:100:bathroom door
+door:65:67:36:36:100:100:65:38:100:you go in the bathroom:1200:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:61:70:38:50:100:100:ceramic3
+tile:61:70:51:60:100:120:wallbuilding3
+tile:61:70:44:49:100:103:wallbuilding
+tile:61:70:44:44:104:104:marble5
+tile:61:70:45:49:102:103:water4
+tile:61:61:44:44:104:104:marble5
+zone:61:70:38:50:100:120:small and cozy bathroom
+tile:61:61:41:41:100:101:walldiamond
+tile:61:61:41:41:103:103:diamond
+toilet:61:61:41:41:103:103
+zone:61:70:44:50:100:108:a comfortable bath
+tile:61:61:38:38:100:100:paper
+zone:61:61:38:38:100:100:a small blue trash bag
+trashcan:61:61:38:38:100:100
+door:64:67:38:38:100:100:65:36:100:you go out the bathroom:1200:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:100:100:21:60:100:120:wallbuilding3
+tile:85:90:45:59:100:102:wallcloth
+tile:85:90:45:59:103:103:cloth
+zone:61:61:31:36:100:105:door go out the room
+door:61:61:31:36:100:100:59:33:100:you go out:1200:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+zone:60:60:5:5:100:100:4th floor button
+tile:0:0:101:139:100:149:wallglass5
+zone:0:0:101:139:100:149:a large window, you see a large street, and lots of people working in the morning
+tile:50:60:0:19:150:150:glass6
+tile:65:67:37:37:100:149:wallwooddoor
+zone:85:90:45:59:103:103:a wite bed
+bed:85:90:45:59:103:103
+door:60:60:5:5:100:100:60:5:150:;:300:silence.ogg:elevador.ogg:elevator_start2.ogg:elevator_stop.ogg
+tile:0:150:21:150:150:150:carpet9
+zone:65:67:38:38:100:149:door go out the badroom
+tile:60:60:71:75:100:149:wallwooddoor
+zone:0:150:22:150:150:170:The 4th floor of the hotel has spacious rooms suitable for a family.
+zone:59:59:71:75:100:149:to get in the standard_room_5, press enter here:trackme
+tile:0:52:21:21:150:170:wallbuilding3
+tile:56:150:21:21:150:170:wallbuilding3
+icdoor:59:59:71:75:100:105:61:73:100:welcome:standard_room_card:1:500:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+door:61:61:71:75:100:105:59:73:100:i hope to see you again soon:500:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+tile:100:100:61:100:100:149:wallbuilding3
+tile:61:99:100:100:100:149:wallbuilding3
+tile:85:99:90:99:100:100:tile2
+tile:85:99:89:89:100:149:wallbuilding3
+tile:50:50:22:150:150:170:wallbuilding3
+src:51:59:21:150:100:149:0:100:people3.ogg:1
+tile:84:84:89:99:100:149:wallbuilding3
+tile:60:60:22:150:150:170:wallbuilding3
+tile:89:94:89:89:100:149:wallwooddoor
+tile:50:50:31:36:150:170:wallwooddoor
+tile:60:60:31:36:150:170:wallwooddoor
+door:89:94:88:88:100:105:92:90:100:let comfortable with shower:500:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+door:53:55:21:21:150:150:54:19:150:come in:800:silence.ogg:silence.ogg:elevadorabre.ogg:silence.ogg
+door:91:94:90:90:100:105:92:88:100:ok:500:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+zone:61:99:61:99:100:149:standard_room5
+zone:61:61:71:75:100:149:hallway door
+zone:89:94:88:88:100:149:badroom door
+zone:85:99:90:99:100:149:a small badroom
+zone:89:94:90:90:100:149:door exit from the badroom
+tile:97:99:97:99:100:103:walldiamond
+tile:97:99:97:99:104:104:metal
+toilet:97:99:97:99:104:104
+zone:97:99:97:99:104:104:on the grean toylet
+tile:92:92:99:99:100:103:wallbucket
+tile:92:92:99:99:104:104:paper
+trashcan:92:92:99:99:104:104
+zone:92:92:99:99:104:104:trashcan
+tile:85:89:90:99:100:100:wetconcrete
+tile:90:90:90:99:100:149:wallbuilding3
+tile:90:90:94:95:100:149:wallbuilding
+zone:91:91:94:95:100:149:shower door
+door:91:91:94:95:100:105:89:95:100:ok:1200:silence.ogg:silence.ogg:tp45.ogg:tp46.ogg
+zone:85:89:90:99:100:149:shower
+zone:89:89:94:95:100:149:exit door
+door:89:89:94:95:100:105:91:95:100:you exit the shower:1200:silence.ogg:silence.ogg:tp45.ogg:tp46.ogg
+shower:85:88:90:99:100:100
+tile:85:90:61:72:100:103:wallboard
+tile:85:90:61:72:104:104:cloth
+zone:85:90:61:72:104:104:a long double bed
+bed:85:90:61:72:104:104
+tile:95:95:61:61:100:100:wood8
+zone:95:95:61:61:100:100:a clock
+clock:95:95:61:61:100:100:empty
+door:60:60:15:15:50:50:60:15:0:going down, please wait:300:silence.ogg:elev.ogg:elevator_start.ogg:elevator_stop.ogg
+wind:none.ogg
+night:none.ogg
+rain:none.ogg
+door:53:55:19:19:150:150:54:21:150:you step through the door:200:silence.ogg:silence.ogg:elevadorabre.ogg:silence.ogg
+icdoor:51:51:31:36:150:150:49:33:150:you unloc the door by your card:medium_room_card:1:200:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+zone:60:60:15:15:100:100:first floor button
+tile:40:49:38:38:150:170:wallbuilding3
+zone:0:49:22:60:150:170:family room 201
+zone:60:60:5:5:0:0:4th floor button
+door:60:60:5:5:0:0:60:5:150:_:200:silence.ogg:elevator_running.ogg:elevator_start2.ogg:elevator_stop2.ogg
+door:60:60:15:15:100:100:60:15:0:_:200:silence.ogg:elevator_running.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:60:60:0:0:0:199:5th floor button
+zone:60:60:5:5:50:50:4th floor button
+door:60:60:5:5:50:50:60:5:150:_:200:silence.ogg:elevator_running.ogg:elevator_start2.ogg:elevator_stop2.ogg
+zone:60:60:10:10:100:100:second floor button
+door:60:60:10:10:100:100:60:10:50:_:200:silence.ogg:Doormove20.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:60:60:15:15:150:150:first floor button
+zone:60:60:10:10:150:150:second floor button
+door:60:60:15:15:150:150:60:15:0:_:200:silence.ogg:elevator_inside.ogg:elevator_start.ogg:elevator_stop2.ogg
+door:60:60:10:10:150:150:60:10:50:_:200:silence.ogg:doormove12.ogg:silence.ogg:silence.ogg
+zone:60:60:5:5:150:150:3rd floor button
+door:60:60:5:5:150:150:60:5:100:_:200:silence.ogg:elevador.ogg:elevator_start.ogg:elevator_stop.ogg
+zone:53:55:19:19:150:199:door exit from the elevator
+tile:60:60:111:115:100:149:wallwooddoor
+zone:59:59:111:115:100:149:standard_room6 door:trackme
+door:59:59:111:115:100:105:61:113:100:_:500:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+door:61:61:111:115:100:105:59:113:100:_:500:silence.ogg:silence.ogg:opendoor.ogg:closedoor.ogg
+tile:39:39:38:50:150:170:wallbuilding3
+tile:40:49:39:50:150:150:ceramic3
+tile:0:49:61:61:150:170:wallbuilding3
+tile:39:49:51:60:150:170:wallbuilding3
+zone:38:38:51:59:150:170:a clothes hanger
+zone:44:46:37:39:150:160:bathroom door
+zone:40:49:39:50:150:170:a spacious and comfortable bathroom
+door:44:46:37:37:150:150:45:39:150:you come in the bathroom:1200:silence.ogg:silence.ogg:door13open.ogg:door13close.ogg
+tile:40:49:45:50:150:153:wallbuilding
+tile:49:49:42:42:150:150:paper
+trashcan:49:49:42:42:150:150
+zone:49:49:42:42:150:150:a payper trashcan
+tile:49:49:43:44:150:152:wallstone2
+zone:48:48:43:44:150:152:a marble sink
+washbasin:48:48:43:44:150:150
+tile:40:49:45:45:154:154:marble5
+zone:51:51:31:35:150:160:family room 201:trackme
+tile:25:34:45:60:150:152:wallcloth
+tile:25:34:45:60:153:153:cloth
+tile:10:20:45:60:150:152:wallcloth
+tile:10:20:45:60:153:153:cloth
+tile:0:0:22:150:150:220:wallglass5
+zone:1:1:22:150:150:220:A large window with a harmonious view of the city and a beautiful beach stretching in the distance
+bed:10:34:45:60:153:153
+zone:0:20:45:60:153:160:a large bed with cute cat patterns on the blanket
+zone:25:34:45:60:153:160:A soft, comfortable and cozy double bed.
+tile:40:49:46:49:152:153:water4
+door:44:46:39:39:150:150:45:37:150:I bet you are very comfortable in this bathroom.:1200:silence.ogg:silence.ogg:door37open.ogg:door37close.ogg
+tile:15:45:22:25:150:152:walltable
+tile:15:45:22:25:153:153:wood4
+zone:15:45:22:25:153:160:on a luxurious beige wooden table.
+zone:39:39:26:26:150:150:a small refrigerator under the table
+door:49:49:31:35:150:150:51:33:150:Thank you for trusting and choosing mfb hotel.:1200:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+icdoor:60:60:0:0:150:150:60:0:200:You scan your card the recognition system and the elevator starts moving.:VIP_room_card:1:200:silence.ogg:Doormove20.ogg:elevator_start2.ogg:elevator_stop.ogg
+tile:50:60:0:19:200:200:glass6
+tile:100:100:101:140:100:149:wallbuilding3
+tile:60:100:140:150:100:149:wallbuilding3
+zone:61:99:101:140:100:149:standard_room6
+zone:61:61:111:115:100:149:to exit, press enter
+tile:85:99:131:139:100:100:tile2
+tile:85:99:131:131:100:149:wallbuilding3
+tile:84:84:131:140:100:149:wallbuilding3
+tile:89:94:131:131:100:149:wallbuilding
+zone:85:99:132:140:100:149:badroom
+zone:89:94:130:130:100:149:to go the badroom, press enter
+tile:101:150:0:150:100:149:wallbuilding3
+door:89:94:130:130:100:105:92:132:100:_:1200:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+zone:89:94:132:132:100:149:exit door
+door:91:94:132:132:100:105:92:130:100:_:1200:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:97:99:137:139:100:103:walldiamond
+tile:97:99:137:139:104:104:metal
+toilet:97:99:137:139:104:104
+zone:97:99:137:139:104:104:the toylet
+tile:92:92:139:139:100:103:wallbucket
+tile:92:92:139:139:104:104:paper
+zone:92:92:139:139:104:104:a small pink trashcan
+trashcan:92:92:139:139:104:104
+tile:85:89:132:139:100:100:wetconcrete
+tile:90:90:132:139:100:149:wallbuilding3
+zone:59:59:31:36:150:160:mfb hotel electronic entertainment center entrance:trackme
+zone:85:89:132:139:100:149:shower
+tile:90:90:135:136:100:149:wallglass
+zone:89:91:135:136:100:149:a glass door
+door:59:59:31:36:150:150:61:33:150:come in:900:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+zone:61:150:22:150:150:170:hotel electronic entertainment center.
+tile:71:120:70:80:150:160:wallcar2
+door:70:70:70:80:150:150:121:73:150:race!:1220:silence.ogg:doormove9.ogg:accelerate21.ogg:decelerate11.ogg
+src:71:73:70:80:150:150:0:100:highway_r5.ogg:1
+tile:70:80:100:105:150:160:wallcar
+itdoor:69:69:100:105:150:152:81:103:150:thanks and play!:coins:50:1500:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+src:70:80:100:105:150:150:0:107:war.ogg:1
+tile:50:50:70:75:150:160:wallwooddoor
+zone:51:51:70:75:150:160:family room 202:track
+door:91:91:135:136:100:105:89:136:100: :1200:silence.ogg:silence.ogg:tp45.ogg:tp46.ogg
+door:89:89:135:136:100:105:91:136:100: :1200:silence.ogg:silence.ogg:tp45.ogg:tp46.ogg
+shower:85:88:132:139:100:100
+tile:85:90:101:112:100:103:wallboard
+tile:85:90:101:112:104:104:cloth
+zone:85:90:101:112:104:104:a long bed
+bed:85:90:101:112:104:104
+tile:99:99:101:101:100:100:wood6
+zone:99:99:101:101:100:100:a clock, press enter to check time
+clock:99:99:101:101:100:100:empty
+zone:49:49:31:36:150:199:exit door
+icdoor:51:51:70:75:150:150:49:73:150:you get in your room:medium_room_card:1:200:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+zone:49:49:71:75:150:150:if you want to exit, press enter
+tile:1:15:75:75:150:170:wallbuilding3
+door:49:49:70:75:150:150:51:73:150:Thank you for using our service.:1200:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+door:7:9:76:76:150:150:8:74:150:you go to the bathroom:1200:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+zone:2:49:62:100:150:160:family room 202
+tile:1:15:62:74:150:150:ceramic3
+zone:2:15:62:74:150:160:inside a spacious bathroom where you can soak in a hot tub while enjoying the beautiful view through a window
+tile:15:15:62:74:150:170:wallbuilding3
+tile:10:14:62:74:150:153:wallbuilding
+tile:11:14:62:74:152:153:water4
+tile:9:9:62:62:150:150:paper
+trashcan:9:9:62:62:150:150
+zone:9:9:62:62:150:150:payper trashcan
+tile:7:7:62:62:150:152:walldiamond
+tile:7:7:62:62:153:153:diamond
+toilet:7:7:62:62:153:153
+tile:2:5:62:63:150:153:wallstone2
+washbasin:2:5:64:64:150:150
+door:7:9:74:74:150:150:8:76:150:ok go out:1200:silence.ogg:silence.ogg:door37open.ogg:door37close.ogg
+tile:1:49:101:101:150:170:wallbuilding3
+tile:20:25:62:75:150:153:wallcloth
+tile:20:25:62:75:154:154:cloth
+zone:20:25:62:75:150:160:a small bed
+tile:30:40:62:75:150:153:wallcloth
+tile:30:40:62:75:154:154:cloth
+bed:20:40:62:75:154:154
+zone:49:49:70:75:150:160:door go out
+tile:1:150:21:150:200:200:carpet10
+icdoor:53:55:19:19:200:200:54:21:200:checking your card, please wit:VIP_room_card:1:500:silence.ogg:silence.ogg:elevadorabre.ogg:silence.ogg
+tile:0:52:21:21:200:220:wallbuilding3
+tile:56:150:21:21:200:220:wallbuilding3
+zone:2:150:22:150:200:230:The 5th floor of the hotel is decorated simply but still exudes an unusual luxury.
+tile:51:51:22:150:200:250:wallbuilding3
+tile:59:59:22:150:200:220:wallbuilding3
+icdoor:60:60:0:0:0:0:60:0:200:checking your VIP card:VIP_room_card:1:200:silence.ogg:elevator_running.ogg:elevator_start2.ogg:elevator_stop.ogg
+tile:51:51:50:55:200:205:wallwooddoor
+zone:2:50:22:80:200:220:A VIP ROOM AS BIG AS A LUXURIOUS APARTMENT AND CREATES TIMELESS ELEGANCE
+safezone:0:150:0:150:0:300
+zone:7:9:74:76:150:152:bathroom door
+zone:70:70:70:80:150:150:race car game:trackme
+zone:52:52:50:55:200:210:VIP room 301 door:trackme
+icdoor:52:52:50:55:200:200:50:53:200:thanks:VIP_room_card:1:200:silence.ogg:tp53.ogg:silence.ogg:silence.ogg
+tile:1:50:40:40:200:220:wallbuilding3
+zone:35:40:41:41:200:210:super bathroom door
+tile:1:50:22:39:200:200:ceramic2
+zone:1:50:22:39:200:210:a large bathroom wif everything you need.
+door:35:40:41:41:200:200:37:39:200:you go in the bathroom:1000:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:15:15:22:39:200:204:wallbuilding
+zone:2:14:22:39:200:210:A large and comfortable bathtub, you can soak and enjoy the beautiful scenery through the window
+tile:2:14:23:38:200:200:water4
+tile:1:14:39:39:200:210:wallbuilding
+door:61:61:31:35:150:150:59:33:150:go out after play:1200:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+calendar:32:32:22:22:153:153:Dear guests, have a wonderful day, today is:
+music:0:150:0:150:0:300:0:100:updating5.ogg:1
+zone:35:40:39:39:200:249:the door to exit super badroom
+tile:45:50:22:27:200:203:walldiamond
+tile:45:50:22:27:204:204:diamond
+zone:54:56:19:19:200:200:door go out
+tile:1:1:22:38:200:203:wallbuilding
+door:35:40:39:39:200:200:37:41:200:you moving out:1200:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:20:25:22:24:200:202:wallstone2
+zone:45:50:22:27:204:204:the toylet
+toilet:45:50:22:27:204:204
+zone:20:25:25:25:200:210:a a sink that is gold and stylish
+tile:34:40:22:27:200:200:wetconcrete
+zone:34:40:22:27:200:200:shower
+tile:1:5:50:60:204:204:wood4
+tile:34:40:27:27:200:249:wallbuilding3
+tile:37:38:27:27:200:249:wallglass
+tile:6:6:55:55:203:203:chair
+tile:33:33:22:27:200:249:wallbuilding3
+tile:41:41:22:27:200:249:wallbuilding3
+zone:37:38:26:28:200:200:shower door
+door:37:38:26:26:200:200:38:28:200:you exit from the shower:500:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+tile:0:50:80:80:200:210:wallbrick4
+door:37:38:28:28:200:200:38:26:200:you enter the shower:500:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+shower:34:40:22:25:200:200
+shower:34:36:26:26:200:200
+shower:39:40:26:26:200:200
+tile:41:41:21:150:0:30:wallglass8
+zone:102:102:50:50:50:52:you can get sum pizza here
+sign:0:0:25:25:0:0:hi and welcome to mfb hotel, here you can relax just choose a room type you want and enjoy this trip! what's more, you can get unlimited breakfast at the hotel dining room. we also have a small garden where you can relax, swim and chat. oh yeah, note, you can only choose one room, if you want to change, contact the player, if you are disturbed, contact the staff for help, have a great day, %n, now? go to fine the aumatic gate and? enjoy!!:sign2.ogg
+zone:38:40:32:34:0:10:audo door go to main playss of hotel
+automover:40:40:32:34:0:10:42:33:0:welcome:200:silence.ogg:silence.ogg:silence.ogg:close3.ogg
+starting_point:0:0:25:25:0:0
+tile:50:50:39:39:200:200:paper
+trashcan:50:50:39:39:200:200
+zone:50:50:39:39:200:205:a payper trashcan
+zone:2:2:41:41:200:200:a mini frich
+zone:104:104:50:50:50:50:you can teck some sausiges here.
+zone:106:106:50:50:50:50:you can teck some playt of spaghetti here.
+zone:108:108:50:50:50:50:some chicken sandwich is here, enter to get some
+zone:103:103:60:60:50:50:to get a glass_of_mango_juice, press enter
+zone:105:105:60:60:50:50:press enter to get a glass_of_watermelon_juice
+zone:107:107:60:60:50:50:press enter to get some glass_of_apple_juice
+tile:27:28:22:23:100:101:walltable
+tile:27:28:22:23:102:102:wood4
+zone:28:28:22:22:102:105:hotel phone
+tile:18:40:93:100:150:153:walltable
+tile:18:40:93:100:153:153:wood4
+
+tile:1:16:70:79:200:203:wallcloth
+tile:1:16:50:67:200:203:wallcloth

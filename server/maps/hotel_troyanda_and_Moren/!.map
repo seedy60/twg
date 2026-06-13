@@ -1,0 +1,1052 @@
+mapname:hotel_troyanda_and_Moren
+owner:troyanda
+minx:-200
+maxx:200
+miny:-200
+maxy:200
+minz:-200
+maxz:200
+owner:Justin
+starting_point:100:100:-199:-199:0:0
+zone:-200:200:-200:200:-200:200:yard
+tile:-200:200:-200:-200:-200:200:wallfence2
+tile:200:200:-200:200:-200:200:wallfence2
+tile:-200:200:200:200:-200:200:wallfence2
+tile:-200:-200:-200:200:-200:200:wallfence2
+tile:100:100:-200:-200:-200:200:wallfence
+night:none.ogg
+tile:-199:199:-199:199:0:0:cement3:trackme
+tile:-11:110:-11:110:0:0:concrete9:trackme
+tile:-11:110:-11:110:0:200:wallfence2:trackme
+tile:-10:109:-10:109:0:200:air:trackme
+tile:-10:109:-10:109:0:0:concrete9:trackme
+door:0:5:-12:-12:0:5:0:-10:0:welcome to the home of troyanda and moren:10:f.ogg:f.ogg:tp45.ogg:tp46.ogg
+door:0:5:-10:-10:0:5:0:-12:0:Have a nice day and goodbye.:10:f.ogg:f.ogg:tp45.ogg:tp46.ogg
+tile:-1:101:-1:101:-1:200:wallbuilding3:trackme
+tile:0:100:0:100:0:199:air:trackme
+tile:0:100:0:100:0:0:marble6:trackme
+zone:-11:-110:-11:-110:0:200:hotel territory:trackme
+door:10:15:0:0:0:5:10:-2:3:have a nice day and goodbye:1000:c.ogg:c.ogg:door55open.ogg:door55close.ogg
+door:10:15:-2:-2:0:5:10:0:0:welcome to hotel troyanda and moren:100:c.ogg:c.ogg:door55open.ogg:door55close.ogg
+tile:-1:101:-1:101:200:200:bleacher4:trackme
+tile:-1:101:-1:101:199:199:wallbuilding3:trackme
+tile:10:15:-2:-2:0:2:wallstone:trackme
+tile:10:15:-3:-3:0:3:marble7:trackme
+tile:10:15:-2:-2:3:3:carpet5:trackme
+tile:10:15:-1:-1:0:5:wallglass7:trackme
+tile:0:0:-11:-11:0:200:wallglass13:trackme
+zone:-10:110:-10:110:0:200:hotel territory:trackme
+zone:10:15:-3:-3:0:3:stairs to the hotel:trackme
+zone:10:15:-2:-2:3:9:entrance to the hotel:trackme
+zone:0:100:0:100:0:19:ground floor of the hotel:trackme
+zone:10:15:0:0:0:6:doors leading to the outside:trackme
+src:0:100:0:10:0:19:0:100:hum.ogg:1
+tile:0:100:11:11:0:19:wallbuilding3:trackme
+zone:0:100:11:11:0:19:reception:trackme
+zone:0:9:0:10:0:19:reception:trackme
+zone:16:100:0:10:0:19:reception:trackme
+zone:10:15:1:9:0:19:reception:trackme
+tile:10:15:1:9:0:0:carpet5:trackme
+zone:10:15:1:9:0:0:red carpet leading to the doors outside and inside the hotel:trackme
+zone:0:0:-12:-10:0:200:hotel gate:trackme
+tile:16:99:0:1:0:3:wallsofa:trackme
+tile:17:98:1:1:3:3:chair:trackme
+zone:17:98:1:1:3:9:bench:trackme
+tile:16:99:0:0:4:4:cloth:trackme
+tile:16:16:0:2:4:4:cloth:trackme
+tile:99:99:0:1:4:4:cloth:trackme
+zone:16:99:0:0:4:10:Back of the bench:trackme
+zone:99:99:1:1:4:10:right bench handle:trackme
+zone:16:16:1:1:4:10:left bench handle:trackme
+src:-10:110:-10:-1:0:200:-20:100:village_r2.ogg:1
+src:102:110:0:110:0:200:-20:100:village_r2.ogg:1
+src:-10:101:101:110:0:200:-20:100:village_r2.ogg:1
+src:-10:-2:-10:100:0:200:-20:100:village_r2.ogg:1
+tile:10:15:11:11:0:6:air:trackme
+tile:10:15:11:11:0:0:marble7:trackme
+zone:10:15:11:11:0:6:entrance to the middle of the hotel:trackme
+zone:10:15:10:10:0:19:reception:trackme
+tile:80:90:12:23:0:19:wallbuilding3:trackme
+tile:81:99:13:22:0:18:air:trackme
+tile:81:99:13:22:0:0:ceramic2:trackme
+door:79:79:15:15:0:5:81:15:0:you enter a women's toilet:1000:c.ogg:c.ogg:door1open.ogg:door1close.ogg
+zone:81:99:13:22:0:18:women's toilet:trackme
+zone:81:81:15:15:0:5:door leading back to the hotel corridor:trackme
+door:81:81:15:15:0:5:79:15:0:you leave the women's toilet:1000:c.ogg:c.ogg:door1open.ogg:door1close.ogg
+zone:79:79:15:15:0:5:The door leading to the women's toilet:trackme
+tile:80:80:15:15:0:5:wallwooddoor:trackme
+tile:91:100:23:23:0:19:wallbuilding3:trackme
+tile:91:100:12:12:0:19:wallbuilding3:trackme
+tile:100:100:12:23:0:19:wallbuilding3:trackme
+src:81:99:13:22:0:19:-10:100:toilet.ogg:1
+tile:90:90:21:22:0:3:wallrail:trackme
+tile:90:90:21:21:2:4:air:trackme
+tile:90:90:21:21:2:2:generic:trackme
+zone:89:91:20:22:0:6:near the toilet:trackme
+zone:90:90:21:21:2:8:on the  toilet:trackme
+toilet:90:90:21:21:2:8
+tile:90:90:22:22:4:4:metal5:trackme
+zone:90:90:22:22:4:10:toilet cistern:trackme
+tile:81:86:20:22:0:3:wallsign:trackme
+tile:82:85:21:21:2:4:air:trackme
+tile:82:85:21:21:2:2:puddle:trackme
+zone:81:87:19:22:0:6:mir the washbasin:trackme
+zone:82:85:21:21:2:8:washbasin:trackme
+tile:81:86:20:20:4:4:metal5:trackme
+tile:81:81:21:22:4:4:metal5:trackme
+tile:81:86:22:22:4:4:metal5:trackme
+tile:86:86:21:22:4:4:metal5:trackme
+zone:81:86:20:20:4:10:on the washbasin:trackme
+zone:81:81:21:22:4:10:on the washbasin:trackme
+zone:86:86:21:22:4:10:on the washbasin:trackme
+zone:81:86:22:22:4:10:on the washbasin:trackme
+washbasin:81:86:19:19:0:6
+zone:81:86:19:19:0:6:here you can wash your hands:trackme
+tile:92:99:17:22:0:19:wallbuilding:trackme
+door:95:95:16:16:0:5:95:18:0:you enter the shower stall:100:c.ogg:c.ogg:door109open.ogg:door109close.ogg
+tile:93:98:18:21:0:17:air:trackme
+tile:93:98:18:21:0:0:bathtub2:trackme
+door:95:95:18:18:0:5:95:16:0:you come out of the shower room:100:c.ogg:c.ogg:door109open.ogg:door109close.ogg
+zone:93:98:18:21:0:17:shower:trackme
+zone:95:95:18:18:0:6:door leading to the toilet:trackme
+tile:95:95:17:17:0:5:wallwood2:trackme
+shower:93:98:18:21:0:17
+zone:-199:199:-199:-12:0:200:territory troyanda and moren:trackme
+zone:102:199:-1:199:0:200:territory troyanda and moren:trackme
+zone:-199:111:101:199:0:200:territory troyanda and moren:trackme
+zone:-199:-12:-199:100:0:200:territory troyanda and moren:trackme
+tile:0:5:-11:-11:0:200:wallglass13:trackme
+zone:0:5:-12:-10:0:200:hotel gate:trackme
+zone:111:199:-199:199:0:200:territory troyanda and moren:trackme
+tile:0:100:49:100:0:19:wallbuilding3:trackme
+tile:1:99:50:99:0:18:air:trackme
+tile:1:99:50:99:0:0:hardwood:trackme
+music:0:100:40:45:0:19:-10:100:music outside.ogg:1
+music:0:100:46:49:0:19:-5:100:music outside.ogg:1
+music:1:99:50:99:0:18:-5:100:music inside.ogg:1
+tile:50:50:49:49:0:10:wallglass7
+door:50:50:50:50:0:10:50:48:0:you leave the club in a great mood:1000:silence.ogg:silence.ogg:door54open.ogg:door54close.ogg
+door:50:50:48:48:0:10:50:50:0:you go to the club with plans to have a lot of fun and more:1000:silence.ogg:silence.ogg:door54open.ogg:door54close.ogg
+tile:45:55:35:48:0:0:carpet5
+zone:45:55:35:48:0:6:the path leading to the club:trackme
+tile:0:44:35:48:0:0:carpet11
+zone:1:99:50:100:0:19:hotel club:trackme
+zone:50:50:48:50:0:6:doors that lead to the club:trackme
+tile:80:100:24:40:0:20:wallgeneric3
+tile:81:99:25:39:0:19:air
+tile:81:99:25:39:0:0:ceramic
+tile:80:80:30:30:0:10:walldoor
+zone:80:100:25:39:0:20:Men's toilet:trackme
+zone:79:79:30:30:0:10:Door leading to the men's toilet
+zone:81:81:30:30:0:10:Doors leading to the corridor:trackme
+tile:0:100:0:100:20:20:wallbuilding3:trackme
+tile:0:10:14:24:20:20:air:trackme
+tile:1:9:15:23:0:189:air:trackme
+tile:1:9:15:23:0:0:glass6:trackme
+door:79:79:30:30:0:10:81:30:0:you enterthemenns toilet:1000:silence.ogg:silence.ogg:door45open.ogg:door45close.ogg
+door:81:81:30:30:0:10:79:30:0:You returned to the corridor.:1000:silence.ogg:silence.ogg:door45open.ogg:door45close.ogg
+src:81:100:25:39:0:15:0:100:toilet.ogg:1
+tile:89:93:36:39:0:10:wallcardboard
+tile:90:92:37:38:0:9:air
+tile:90:92:37:38:0:0:bathtub3
+zone:88:94:35:39:0:10:Near the shower cabin:trackme
+zone:90:92:37:39:0:10:in the shower
+tile:91:91:36:36:0:10:wallcontainer
+zone:91:91:35:37:0:10:shower door:trackme
+door:91:91:35:35:0:10:91:37:0:...:1000:silence.ogg:silence.ogg:dooropen8.ogg:doorclose8.ogg
+door:91:91:37:37:0:10:91:35:0:...:1000:silence.ogg:silence.ogg:dooropen8.ogg:doorclose8.ogg
+zone:90:92:38:38:0:10:Click here to take a shower:trackme
+shower:90:92:38:38:0:10
+tile:81:83:25:26:0:1:wallsign
+sign:51:51:48:48:0:0:Respect, the entrance for persons under 18 is blocked:sign3.ogg
+tile:51:51:48:48:0:0:balloon2:trackme
+tile:81:83:25:26:1:1:generic
+zone:51:51:48:48:0:6:Respect, know before you enter:trackme
+zone:81:84:25:27:0:10:Near the toilet:trackme
+zone:81:83:25:26:1:10:On the toilet:trackme
+tile:81:83:25:25:0:3:wallsign:trackme
+tile:81:83:25:25:3:3:glass5
+zone:81:83:25:25:0:10:Toilet cistern:trackme
+zone:82:82:25:25:3:17:Click here to drain the water:trackme
+tile:82:82:25:25:3:3:glass3
+door:82:82:25:25:3:3:82:25:3:Why waste water?:4000:silence.ogg:silence.ogg:dooropen23.ogg:doorclose26.ogg
+toilet:81:83:26:26:1:1
+tile:81:85:36:39:0:2:wallrail
+zone:81:86:35:39:0:10:mir the washbasin:trackme
+zone:81:85:36:39:1:10:on the washbasin:trackme
+tile:81:85:36:39:3:3:metal15
+tile:82:83:37:38:1:3:air
+tile:82:83:37:38:1:1:water7
+zone:82:83:37:38:1:10:washbasin:trackme
+zone:82:83:35:35:0:10:here you can wash your hands:trackme
+washbasin:82:83:35:35:0:10
+src:1:99:50:99:0:19:0:99:bar.ogg:1
+tile:0:9:0:10:0:190:wallglass8:trackme
+tile:1:8:1:9:0:189:air:trackme
+tile:1:8:1:9:0:0:wallglass8:trackme
+tile:1:8:1:9:0:0:glass6:trackme
+tile:0:100:0:100:21:21:marble2:trackme
+tile:10:90:75:79:0:3:wallcounter
+tile:10:90:75:79:3:3:wood5
+zone:10:90:74:74:0:10:near the bar counter:trackme
+zone:10:90:80:100:0:10:at the counter:trackme
+zone:10:90:75:79:3:10:on the counter:trackme
+zone:1:9:75:79:0:10:entrance behind the counter:trackme
+zone:91:100:75:79:0:10:entrance behind the counter:trackme
+tile:10:90:80:99:0:0:carpet10
+door:10:10:5:5:0:5:8:5:0:you enter the elevator to go to another one on top:100:c.ogg:c.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:8:8:5:5:0:5:10:5:0:you exit the elevator:100:с.ogg:с.ogg:elevadorabre.ogg:elevadorfecha.ogg
+tile:50:50:81:81:0:10:wallbody
+zone:1:8:1:9:0:190:In the elevator:trackme
+zone:8:10:5:5:0:5:Elevator doors:trackme
+zone:49:51:80:82:0:10:Bartender:trackme
+sign:49:51:80:82:0:10:The bartender is addressing you. Please leave the counter!:silence.ogg
+zone:50:50:74:74:0:10:sign:trackme
+sign:50:50:74:74:0:10:Hello. Welcome to the club! Make yourself at home!:silence.ogg
+tile:51:99:51:52:0:2:wallsofa:trackme
+tile:52:98:52:52:2:2:air:trackme
+tile:52:98:52:52:2:2:cloth:trackme
+tile:99:99:52:52:3:3:cloth:trackme
+zone:0:100:0:100:21:40:second floor:trackme
+tile:52:98:53:56:0:3:walltable:trackme
+tile:0:9:0:10:21:40:wallglass8
+tile:52:98:53:56:4:4:hardwood2:trackme
+tile:1:8:1:9:21:39:air
+tile:1:8:1:9:21:21:glass7
+tile:52:98:51:51:3:3:cloth:trackme
+zone:1:1:1:1:0:10:first floor button:trackme
+tile:51:51:52:52:3:3:cloth:trackme
+tile:1:1:1:1:0:0:generic
+tile:99:99:51:52:3:3:cloth:trackme
+zone:51:99:50:50:0:6:behind the benches:trackme
+zone:51:99:51:51:3:9:at the back of the bench:trackme
+door:1:1:1:1:0:10:1:1:0:roflflfl! Not working!:1000:silence.ogg:silence.ogg:silence.ogg:doorclose42.ogg
+zone:51:51:51:52:3:9:on the left side of the banch:trackme
+tile:1:1:2:2:0:0:plastic
+zone:1:1:2:2:0:10:Second floor button:trackme
+door:1:1:2:2:0:10:1:2:21:The elevator went up to the second floor.:300:silence.ogg:elev2.ogg:dooropen22.ogg:doorclose25.ogg
+tile:1:1:1:1:21:21:generic
+tile:1:1:2:2:21:21:plastic
+door:1:1:1:1:21:30:1:1:0:The elevator went down to the first floor.:300:silence.ogg:elev2.ogg:dooropen22.ogg:doorclose25.ogg
+door:1:1:2:2:21:30:1:2:21:roflflflfl! Not working!:1000:silence.ogg:silence.ogg:silence.ogg:doorclose42.ogg
+zone:1:9:1:9:21:30:In the elevator:trackme
+zone:1:1:2:2:21:30:Second floor button:trackme
+zone:1:1:1:1:21:30:first floor button:trackme
+zone:8:10:5:5:21:30:Elevator doors:trackme
+tile:9:9:5:5:21:30:wallglass6
+door:10:10:5:5:21:30:8:5:21:You entered the elevator.:100:c.ogg:c.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:8:8:5:5:21:30:10:5:21:you exit the elevator:100:с.ogg:с.ogg:elevadorabre.ogg:elevadorfecha.ogg
+tile:9:9:5:5:0:10:wallglass6
+tile:0:11:14:40:0:20:walltile
+tile:1:10:15:39:0:19:air
+tile:1:10:15:39:0:0:tile3
+zone:1:10:15:39:0:19:Dining room:trackme
+tile:5:5:14:14:0:10:wallwood19
+zone:5:5:13:14:0:10:Doors leading to the dining room:trackme
+door:5:5:13:13:0:10:5:15:0:You have entered the dining room. Bon appetit!:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+zone:5:5:15:15:0:10:Door leading from the dining room:trackme
+door:5:5:15:15:0:10:5:13:0:You returned to the corridor.:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:1:10:15:29:0:0:carpet3
+src:1:10:15:29:0:10:0:100:bar1.ogg
+tile:1:10:30:30:0:19:wallgeneric2
+zone:1:10:31:39:0:19:kitchen:trackme
+tile:5:5:30:30:0:10:wallwooddoor
+zone:5:5:29:29:0:10:Doors leading to the kitchen:trackme
+zone:5:5:31:31:0:10:Door leading back to the dining room:trackme
+door:5:5:29:29:0:10:5:31:0:You entered the kitchen. There is a delicious smell of food.:2000:silence.ogg:silence.ogg:dooropen6.ogg:doorclose6.ogg
+door:5:5:31:31:0:10:5:29:0:You returned to the dining room.:2000:silence.ogg:silence.ogg:dooropen6.ogg:doorclose6.ogg
+src:1:10:31:39:0:19:-5:100:restaurant7.ogg:1
+tile:1:4:35:39:0:2:wallscreen
+tile:1:4:35:39:2:2:metal20
+zone:1:5:34:39:0:19:near the stove:trackme
+zone:1:4:35:39:2:15:On the stove:trackme
+src:1:4:35:39:0:10:-10:100:oven.ogg
+oven:1:4:35:39:2:2
+tile:5:10:35:39:0:2:wallbuilding
+tile:5:10:35:39:2:2:wood5
+zone:5:10:34:39:0:10:near the kitchen counter:trackme
+zone:5:10:35:39:2:10:on the kitchen counter:trackme
+tile:4:6:20:22:0:2:walltable
+tile:4:6:20:22:2:2:wood5
+zone:3:7:19:23:0:10:near the table:trackme
+zone:4:6:20:22:2:10:On the table:trackme
+tile:4:6:17:18:0:4:wallcloth
+tile:5:5:18:18:1:10:air
+tile:5:5:18:18:1:1:cloth
+tile:4:6:17:17:4:4:mat
+tile:4:6:18:18:2:10:air
+tile:4:4:18:18:2:2:carpet9
+tile:6:6:18:18:2:2:carpet9
+zone:3:7:16:19:0:10:Near the chair:trackme
+zone:5:5:18:18:1:10:Plush chair:trackme
+zone:4:6:17:17:4:10:Chair back:trackme
+zone:4:4:18:18:2:10:Left handle:trackme
+zone:6:6:18:18:0:10:Right handle:trackme
+tile:1:2:20:22:0:4:wallcloth
+tile:2:2:20:22:2:2:carpet11
+tile:2:2:21:21:2:10:air
+tile:2:2:21:21:1:1:air
+tile:1:1:20:22:4:4:mat
+tile:2:2:21:21:1:1:cloth
+tile:2:2:20:22:3:10:air
+zone:1:3:19:23:0:10:Near the chair:trackme
+zone:2:2:21:21:1:10:Plush chair:trackme
+zone:1:1:20:22:4:10:Chair back:trackme
+zone:2:2:22:22:2:10:Left handle:trackme
+zone:2:2:20:20:2:10:Right handle:trackme
+tile:8:9:20:22:0:4:wallcloth
+tile:9:9:20:22:4:4:mat
+tile:8:8:20:22:2:4:air
+tile:8:8:20:22:2:2:carpet11
+tile:8:8:21:21:1:4:air
+tile:8:8:21:21:1:1:cloth
+zone:7:10:19:23:0:10:Near the chair:trackme
+zone:8:8:21:21:1:10:Plush chair:trackme
+zone:9:9:20:22:4:10:Chair back:trackme
+zone:8:8:20:20:2:10:Left handle:trackme
+zone:8:8:22:22:2:10:Right handle:trackme
+tile:7:10:31:33:0:10:wallmetal19
+zone:6:10:31:34:0:10:near the refrigerator:trackme
+tile:8:9:32:32:0:9:air
+zone:8:10:32:32:0:9:In the refrigerator:trackme
+tile:8:9:32:32:0:0:metal18
+zone:6:8:32:32:0:10:refrigerator door:trackme
+door:6:6:32:32:0:5:8:32:0:...:1000:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+door:8:8:32:32:0:5:6:32:0:...:1000:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+tile:50:60:60:70:0:1:wallwoodcrate
+tile:50:60:60:70:1:1:deck
+zone:50:60:60:70:1:10:dance floor:trackme
+tile:51:51:51:51:2:2:cloth
+tile:51:51:51:51:0:3:wallsofa
+tile:51:51:51:51:3:3:cloth
+zone:51:99:50:50:0:5:Behind the sofa:trackme
+zone:51:51:51:52:3:10:on the left side of the sofa:trackme
+zone:52:98:51:51:3:10:Back of the sofa:trackme
+zone:99:99:51:52:0:10:on the right side of the sofa:trackme
+zone:52:98:52:52:2:10:Sofa:trackme
+zone:51:99:53:57:0:10:near the table:trackme
+zone:52:98:53:56:4:10:on the table:trackme
+tile:19:26:60:70:0:10:wallglass11
+tile:20:25:61:69:1:10:air
+tile:20:25:61:69:1:1:glass7
+zone:20:25:61:69:1:10:Dance floor for lovers:trackme
+tile:23:23:59:59:1:1:glass5
+zone:23:23:59:59:0:10:Getting on the dance floor:trackme
+zone:23:23:59:61:1:10:door:trackme
+tile:23:23:60:60:1:10:wallglass7
+door:23:23:59:59:1:1:23:61:1:You are on a transparent dance floor for lovers. You are surrounded by walls of glass.:2000:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+src:23:23:60:60:0:10:-12:115:doorloop4.ogg
+door:23:23:61:61:1:10:23:59:1:Happy love!!:2000:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+tile:0:100:49:61:21:40:wallgeneric3
+tile:1:99:50:60:21:39:air
+tile:1:99:50:60:21:21:carpet2
+tile:11:11:50:60:21:39:wallgeneric3
+tile:21:21:50:60:21:39:wallbuilding3
+tile:31:31:50:60:21:39:wallgeneric3
+tile:41:41:50:60:21:39:wallbuilding
+tile:51:51:50:60:21:39:wallbuilding4
+tile:52:60:50:60:21:21:tile5
+zone:52:60:50:60:21:39:passage between rooms:trackme
+tile:55:55:49:49:21:30:wallglass7
+zone:55:55:48:50:21:30:door:trackme
+fdoor:55:55:48:48:21:21:55:50:21:You entered a small corridor that runs between rooms.:1000:door2s.ogg:silence.ogg:door54open.ogg:door54close.ogg
+door:55:55:50:50:21:30:55:48:21:.:1000:silence.ogg:silence.ogg:door54open.ogg:door54close.ogg
+tile:55:55:61:61:21:30:wallglass7
+zone:55:55:60:62:21:30:door:trackme
+door:55:55:60:60:21:21:55:62:21:you have entered the private part of the hotel:1000:silence.ogg:silence.ogg:door54open.ogg:door54close.ogg
+door:55:55:62:62:21:30:55:60:21:.:1000:silence.ogg:silence.ogg:door54open.ogg:door54close.ogg
+tile:61:61:50:60:21:39:wallwoodcrate
+zone:1:10:50:60:21:40:room1:trackme
+zone:12:20:50:60:21:39:room2:trackme
+zone:22:30:50:60:21:40:room3:trackme
+zone:32:40:50:60:21:40:room4:trackme
+zone:42:50:50:60:21:40:room5:trackme
+tile:71:71:50:60:21:39:wallwood15
+zone:62:70:50:60:21:40:room6:trackme
+tile:81:81:50:60:21:40:walltile
+tile:91:91:50:60:21:40:wallwood16
+zone:72:80:50:60:21:40:room7:trackme
+zone:82:90:50:60:21:40:room8:trackme
+zone:92:100:50:60:21:40:room9:trackme
+tile:5:5:49:49:21:30:wallwood19
+zone:5:5:48:50:21:40:door1:trackme
+tile:15:15:49:49:21:40:wallwood19
+tile:25:25:49:49:21:30:wallwood19
+zone:15:15:48:50:21:30:door2:trackme
+zone:25:25:48:50:21:30:door3:trackme
+tile:35:35:49:49:21:30:wallwood19
+zone:35:35:48:50:21:30:door4:trackme
+tile:45:45:49:49:21:30:wallwood19
+zone:45:45:48:50:21:30:door5:trackme
+tile:65:65:49:49:21:30:wallwood19
+zone:65:65:48:50:21:30:door6:trackme
+tile:75:75:49:49:21:30:wallwood19
+zone:75:75:48:50:21:30:door7:trackme
+tile:85:85:49:49:21:30:wallwood19
+zone:85:85:48:50:21:30:door8:trackme
+tile:95:95:49:49:21:30:wallwood19
+zone:95:95:48:50:21:30:door9:trackme
+rain:none.ogg
+tile:0:21:69:81:21:40:wallgeneric2
+tile:1:20:70:80:21:40:air
+tile:1:20:70:80:21:21:hardwood3
+zone:1:20:70:80:21:40:in the sauna:trackme
+tile:10:10:69:69:21:30:walldoor
+zone:10:10:68:69:21:30:door leading to private sauna
+door:10:10:68:68:21:30:10:70:21:You have entered the locker room of a private sauna. Please hide all metal objects.:1000:door2s.ogg:silence.ogg:door56open.ogg:door57close.ogg
+zone:8:14:70:80:21:30:locker room:trackme
+zone:10:10:70:70:21:30:door leading to the corridor:trackme
+door:10:10:70:70:21:30:10:68:21:Come again!:1000:silence.ogg:silence.ogg:door56open.ogg:door57close.ogg
+tile:8:8:70:80:21:40:wallwood16
+tile:14:14:70:80:21:40:wallwood16
+zone:1:7:70:80:21:40:bathroom:trackme
+tile:8:8:75:75:21:30:wallwood19
+zone:9:9:75:75:21:30:door leading to the bathroom:trackme
+door:9:9:75:75:21:30:7:75:21:.:1000:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+zone:7:7:75:75:21:30:door leading back to the locker room:trackme
+door:7:7:75:75:21:30:9:75:21:.:1000:silence.ogg:silence.ogg:door6open.ogg:door6close.ogg
+tile:1:4:70:80:21:30:wallbarrel
+tile:2:4:70:80:21:30:air
+tile:2:4:70:80:21:21:bathtub2
+tile:1:4:75:75:21:30:wallcontainer
+zone:2:4:70:80:21:40:open shower cubicles:trackme
+shower:2:4:71:74:21:21
+shower:2:4:76:80:21:21
+tile:5:7:70:80:21:21:carpet9
+tile:9:13:78:80:21:25:walltable
+tile:9:13:78:79:23:30:air
+tile:9:13:78:79:23:23:wood13
+tile:9:13:80:80:25:25:wobbly_wood
+zone:9:13:77:80:21:30:near the bench:trackme
+zone:9:13:78:79:23:40:on the bench:trackme
+zone:9:13:80:80:21:40:back of the bench:trackme
+tile:14:14:75:75:21:30:wallwooddoor
+zone:13:13:75:75:21:30:Doors leading to the steam room:trackme
+door:13:13:75:75:21:30:15:75:21:.:2000:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+door:15:15:75:75:21:30:13:75:21:.:2000:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+tile:15:18:70:73:21:25:wallstone
+zone:15:19:70:74:21:30:by the fireplace:trackme
+tile:15:18:70:73:25:25:stone2
+zone:15:18:70:73:25:40:on the fireplace:trackme
+tile:19:19:70:72:21:25:ladder3
+zone:19:19:70:72:21:40:ladder leading up:trackme
+tile:15:17:70:72:25:25:cloth
+zone:15:17:70:72:25:40:fireplace bed:trackme
+bed:15:17:70:72:25:25
+src:15:19:70:73:21:30:0:100:fireplace1.ogg
+tile:15:20:76:80:21:25:wallrail
+tile:15:20:76:80:25:25:metal15
+tile:16:19:77:79:22:25:air
+tile:16:19:77:79:22:23:water7
+zone:15:20:75:80:21:40:near the cold water tank:trackme
+zone:16:19:77:79:21:40:in the tank:trackme
+tile:16:19:77:79:25:25:glass5
+zone:15:20:76:80:25:40:on the tank:trackme
+tile:17:18:75:75:23:23:metal6
+zone:17:18:75:75:21:23:under the lever:trackme
+zone:17:18:75:75:23:40:lever that lifts the tank lid:trackme
+door:17:18:75:75:23:30:18:77:23:You climbed into the cold water.:2000:silence.ogg:silence.ogg:dooropen10.ogg:door8close.ogg
+zone:17:18:77:77:23:24:you can lift the lid here:trackme
+tile:16:19:77:79:24:24:wallglass3
+door:17:18:77:77:23:23:18:74:22:you jump out of the cold water!:900:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+tile:17:18:75:75:22:22:wallsign
+src:16:19:77:79:21:23:-12:70:sewer3.ogg:1
+src:16:19:77:79:21:23:-13:150:underwaterair.ogg:1
+zone:15:15:75:75:21:30:door leading back to the locker room:trackme
+tile:49:71:79:101:21:40:wallsofa
+tile:50:70:80:100:21:39:air
+tile:50:70:80:100:21:21:carpet4
+zone:50:70:80:100:21:40:Private bedroom:trackme
+tile:60:60:79:79:21:30:walldoor
+zone:60:60:78:78:21:30:door leading to private bedroom:trackme
+door:60:60:78:78:21:21:60:80:21:Welcome to our cozy bedroom!:1000:silence.ogg:silence.ogg:door32open.ogg:door32close.ogg
+zone:60:60:80:80:21:30:door leading to the corridor:trackme
+door:60:60:80:80:21:30:60:78:21:.:1000:silence.ogg:silence.ogg:door32open.ogg:door32close.ogg
+tile:50:53:97:100:21:23:wallcloth:trackme
+tile:50:53:97:100:24:24:cloth:trackme
+zone:50:53:97:100:24:30:soft, comfortable and cozy bed:trackme
+tile:50:53:100:100:24:24:mat:trackme
+zone:50:53:100:100:24:30:soft, comfortable and cozy pillow:trackme
+bed:50:53:97:100:24:30
+src:50:70:80:100:21:40:0:100:bathroom.ogg:1
+tile:65:70:80:82:21:25:wallsofa
+tile:65:70:80:82:25:25:mat
+tile:65:70:81:82:23:25:air
+tile:66:69:82:82:22:25:air
+tile:66:69:82:82:22:22:cloth
+tile:65:70:81:81:23:25:wallsofa
+tile:65:70:81:81:25:25:mat
+tile:65:70:82:82:23:23:plexi
+tile:66:69:82:82:23:23:air
+zone:64:70:80:83:21:40:near the sofa:trackme
+zone:66:69:82:82:22:40:on the sofa:trackme
+zone:65:70:80:81:24:40:back of the sofa:trackme
+zone:65:65:82:82:23:40:Left handle:trackme
+zone:70:70:82:82:23:40:Right handle:trackme
+tile:67:67:80:80:25:30:wallcouch
+tile:67:67:81:81:25:25:cloth
+zone:66:68:80:81:25:30:teddy bear
+tile:67:67:80:80:30:30:cloth
+zone:67:67:80:80:30:40:teddy bear head
+tile:59:62:97:100:21:30:wallbuilding
+tile:60:61:98:100:22:28:air
+tile:60:61:98:100:22:22:hardwood6
+tile:61:61:97:97:21:28:wallwood6
+door:61:61:96:96:21:25:61:98:22:.:2000:silence.ogg:silence.ogg:dooropen62.ogg:doorclose58.ogg
+door:61:61:98:98:22:25:61:96:21:...:2000:silence.ogg:silence.ogg:dooropen62.ogg:doorclose58.ogg
+tile:59:61:101:101:21:30:wallslam
+zone:58:63:96:100:21:40:near the closet:trackme
+zone:60:61:97:100:21:28:in the closet:trackme
+zone:61:61:96:98:21:28:closet door:trackme
+tile:59:62:97:100:30:30:deck
+zone:59:62:97:100:30:40:on the closet:trackme
+tile:50:56:80:82:21:25:wallsofa
+tile:50:56:80:80:25:25:plexi
+tile:50:56:81:82:23:25:air
+tile:51:55:81:82:22:25:air
+tile:50:56:81:82:23:23:mat
+tile:51:55:81:82:23:23:air
+tile:51:55:81:82:22:22:cloth
+zone:50:57:80:83:21:40:near the sofa:trackme
+zone:50:50:81:82:23:40:Left handle:trackme
+zone:56:56:81:82:23:40:Right handle
+zone:51:55:81:82:22:40:on the sofa:trackme
+zone:50:56:80:80:25:40:back of the sofa:trackme
+bed:51:55:81:82:22:22
+bed:66:69:82:82:22:22
+tile:29:41:79:101:21:40:wallgeneric2
+tile:30:40:80:100:21:39:air
+tile:30:40:80:100:21:21:carpet9
+zone:30:40:80:100:21:40:bathroom:trackme
+tile:35:35:79:79:21:30:walldoor
+zone:35:35:78:78:21:30:door to private bathroom:trackme
+zone:35:35:80:80:21:30:door leading to the corridor:trackme
+door:35:35:78:78:21:30:35:80:21:...:2000:silence.ogg:door3.ogg:door3.ogg:doorclose67.ogg
+door:35:35:80:80:21:30:35:78:21:...:2000:silence.ogg:silence.ogg:doorclose67.ogg:door3.ogg
+src:30:40:79:100:21:40:0:100:base_ambience.ogg:1
+tile:34:40:90:100:21:24:wallcar2
+tile:34:40:90:100:24:24:bathtub
+tile:35:39:91:99:22:24:air
+tile:35:39:91:99:22:23:water7
+tile:35:39:91:93:21:23:wallcardboard
+tile:35:39:91:93:23:23:bathtub3
+zone:33:40:89:100:21:40:near the bathtub:trackme
+zone:34:40:90:100:24:40:bathtub sides:trackme
+zone:35:39:91:99:21:40:in the bath:trackme
+shower:35:39:91:99:21:23
+tile:31:33:80:81:21:22:wallsign
+tile:31:33:80:81:22:22:generic
+tile:31:33:80:80:21:25:wallsign
+tile:31:33:80:80:25:25:glass:trackme
+zone:30:34:80:83:21:40:near the toilet:trackme
+zone:31:33:81:81:22:40:on the toilet:trackme
+zone:31:33:80:80:25:40:toilet cistern:trackme
+zone:32:32:80:80:25:40:button to flush the water:trackme
+door:32:32:80:80:25:25:34:80:21:You washed away the water. Why?:900:silence.ogg:silence.ogg:dooropen23.ogg:doorclose26.ogg
+toilet:31:33:81:81:22:22
+tile:0:8:0:9:10:20:wallmetal19
+tile:1:8:1:9:10:20:air
+zone:1:8:1:9:10:20: Elevator mine:trackme
+tile:64:70:102:106:21:25:wallglass11
+tile:64:70:102:106:25:25:metal
+tile:65:69:102:105:21:25:air
+tile:65:69:102:105:21:21:concrete16
+zone:64:70:102:106:25:40:balcony railings:trackme
+zone:65:69:102:105:21:40:on the balcony:trackme
+tile:67:67:101:101:21:30:wallglass7
+zone:67:67:100:100:21:30:door leading to the balcony:trackme
+zone:67:67:102:102:21:30:door leading to the bedroom:trackme
+door:67:67:100:100:21:30:67:102:21:...:1000:silence.ogg:silence.ogg:door55open.ogg:door55close.ogg
+door:67:67:102:102:21:30:67:100:21:...:1000:silence.ogg:silence.ogg:door55open.ogg:door55close.ogg
+tile:40:90:-80:-50:0:0:grass3
+zone:40:90:-80:-50:0:100:small cozy camp:trackme
+src:-200:200:-200:-2:0:100:-3:100:birds22.ogg
+tile:52:53:-78:-70:0:0:fire
+zone:51:54:-79:-69:0:50:near the fire.:trackme
+zone:52:53:-78:-70:0:50:on the fire:trackme
+tile:52:52:-78:-70:0:0:wood11
+oven:52:53:-78:-70:0:0
+tile:77:78:-78:-70:0:0:fire
+tile:78:78:-78:-70:0:0:wood11
+zone:76:79:-79:-69:0:50:near the fire.:trackme
+zone:77:78:-78:-70:0:50:on the fire:trackme
+src:77:78:-78:-70:0:50:15:80:firemisc5.ogg
+tile:60:70:-55:-50:0:0:wood11
+tile:61:69:-55:-52:0:0:fire
+zone:60:70:-56:-51:0:50:near a big fire:trackme
+zone:61:69:-55:-52:0:50:on a big fire:trackme
+src:51:53:-78:-70:0:5:20:80:firemisc5.ogg
+oven:61:69:-55:-52:0:0
+tile:44:51:-61:-49:0:10:wallcloth
+tile:45:50:-60:-50:0:9:air
+tile:45:50:-60:-50:0:0:mat
+zone:43:51:-62:-49:0:10:near the tent:trackme
+zone:45:50:-60:-50:0:10:in the tent:trackme
+tile:47:47:-61:-61:0:9:wallcouch
+zone:47:47:-62:-62:0:10:entrance to the tent:trackme
+zone:47:47:-60:-60:0:10:exit from the tent:trackme
+door:47:47:-60:-60:0:10:47:-62:0:...:3000:silence.ogg:flag.ogg:silence.ogg:silence.ogg
+door:47:47:-62:-62:0:10:47:-60:0:...:3000:silence.ogg:flag.ogg:silence.ogg:silence.ogg
+tile:45:50:-52:-50:0:0:cloth
+zone:45:50:-52:-50:0:10:sleeping bag:trackme
+bed:45:50:-52:-50:0:0
+tile:74:81:-61:-49:0:10:wallcloth
+tile:75:80:-60:-50:0:9:air
+tile:75:80:-60:-50:0:0:mat
+zone:73:82:-62:-49:0:10:near the tent:trackme
+zone:75:80:-60:-50:0:10:in the tent:trackme
+tile:77:77:-61:-61:0:9:wallcouch
+zone:77:77:-62:-61:0:10:entrance to the tent:trackme
+zone:77:77:-60:-60:0:10:exit from the tent:trackme
+door:77:77:-62:-62:0:10:77:-60:0:...:3000:silence.ogg:flag.ogg:silence.ogg:silence.ogg
+door:77:77:-60:-60:0:10:77:-62:0:...:3000:silence.ogg:flag.ogg:silence.ogg:silence.ogg
+zone:75:80:-52:-50:0:10:sleeping bag:trackme
+tile:75:80:-52:-50:0:0:cloth
+bed:75:80:-52:-50:0:0
+src:60:70:-55:-50:0:50:-5:80:fire5.ogg
+tile:64:67:-53:-50:0:3:wallmetal20
+tile:65:66:-52:-51:1:1:water6
+tile:65:66:-52:-51:2:3:air
+tile:64:67:-53:-50:3:3:metal19
+zone:63:68:-54:-50:0:10:near the cauldron:trackme
+zone:64:67:-53:-50:3:10:on the cauldron :trackme
+src:64:67:-53:-50:0:5:-15:70:waterflow8.ogg
+tile:100:150:-190:-150:0:0:concrete4
+zone:100:150:-190:-150:0:20:parking lot:trackme
+zone:100:110:-199:-191:0:20:path to the parking lot:trackme
+tile:100:110:-199:-191:0:0:cement2
+src:40:90:-80:-50:0:200:-3:100:a1.ogg:1
+pdoor:55:55:48:48:21:30:55:50:21:access denied:2006_2010:1000:silence.ogg:mapswitchtimer.ogg:door54open.ogg:door54close.ogg
+tile:54:54:99:100:22:24:stairs2:trackme
+zone:54:54:99:100:22:30:sters to the bed:trackme
+door:5:5:48:48:21:30:5:50:21:...:1000:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+door:5:5:50:50:21:30:5:48:21:...:1000:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+tile:1:4:57:60:21:23:wallcloth:trackme
+tile:1:4:57:60:24:24:areia:trackme
+bed:1:4:57:60:23:30
+tile:1:4:60:60:24:24:mat:trackme
+zone:1:5:56:60:21:30:near the bed:trackme
+zone:1:4:57:60:23:30:on the bed:trackme
+zone:1:4:60:60:24:30:on the pilo:trackme
+tile:1:1:50:50:21:21:wallcontainer:trackme
+zone:1:2:50:52:21:27:near the trash can:trackme
+tile:1:1:50:50:22:22:debris:trackme
+trashcan:1:1:50:50:22:28
+zone:1:1:50:50:22:28:trash can:trackme
+door:15:15:48:48:21:30:15:50:21:...:1000:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+door:15:15:50:50:21:30:15:48:21:...:1000:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+door:25:25:48:48:21:30:25:50:21:...:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+door:25:25:50:50:21:30:25:48:21:...:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+door:35:35:48:48:21:30:35:50:21:...:1000:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+door:35:35:50:50:21:30:35:48:21:...:1000:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+door:45:45:48:48:21:30:45:50:21:...:1000:silence.ogg:silence.ogg:door13open.ogg:door13close.ogg
+door:45:45:50:50:21:30:45:48:21:...:1000:silence.ogg:silence.ogg:door13open.ogg:door13close.ogg
+door:65:65:48:48:21:30:65:50:21:...:1000:silence.ogg:silence.ogg:door14open.ogg:door14close.ogg
+door:65:65:50:50:21:21:65:48:21:...:1000:silence.ogg:silence.ogg:door14open.ogg:door14close.ogg
+door:75:75:48:48:21:30:75:50:21:...:1000:silence.ogg:silence.ogg:door33open.ogg:door33close.ogg
+door:75:75:50:50:21:30:75:48:21:...:1000:silence.ogg:silence.ogg:door33open.ogg:door33close.ogg
+door:85:85:48:48:21:30:85:50:21:...:1000:silence.ogg:silence.ogg:door50open.ogg:door50close.ogg
+door:85:85:50:50:21:30:85:48:21:...:1000:silence.ogg:silence.ogg:door50open.ogg:door50close.ogg
+door:95:95:48:48:21:26:95:50:21:///:1000:c.ogg:c.ogg:door26open.ogg:door26close.ogg
+door:95:95:50:50:21:26:95:48:21:///:1000:c.ogg:c.ogg:door26open.ogg:door26close.ogg
+tile:12:14:57:60:24:24:areia:trackme
+tile:12:14:60:60:24:24:mat:trackme
+tile:12:14:57:60:21:23:wallcloth:trackme
+zone:12:15:56:60:21:27:MEAR THE BED:trackme
+zone:12:14:57:60:24:30:ON THE BED:trackme
+zone:12:14:60:60:24:30:ON THE PILO:trackme
+bed:12:14:57:60:24:30
+tile:12:12:50:50:21:21:wallcontainer:trackme
+tile:12:12:50:50:22:22:debris:trackme
+trashcan:12:12:50:50:22:22
+zone:12:13:50:51:21:27:mear the trashcan:trackme
+zone:12:12:50:50:22:28:in the trashcan:trackme
+tile:21:21:50:60:21:39:wallgeneric3:trackme
+tile:22:25:57:60:21:23:wallcloth:trackme
+tile:22:25:57:60:24:24:air
+tile:22:25:57:60:24:24:areia:trackme
+tile:22:25:60:60:24:24:mat:trackme
+zone:22:26:56:60:21:27:mear the bed:trackme
+zone:22:25:57:60:24:30:on the bed:trackme
+zone:22:25:60:60:24:30:on the pilo:trackme
+bed:22:25:57:60:24:30
+tile:22:22:50:50:21:21:wallcontainer:trackme
+zone:22:23:50:51:21:27:mear the trashcan:trackme
+tile:22:22:50:50:22:22:debris:trackme
+zone:22:22:50:50:22:28:on the trashcan:trackme
+trashcan:22:22:50:50:22:28
+tile:41:41:50:60:21:39:wallgeneric3:trackme
+tile:51:51:50:60:21:39:wallgeneric3:trackme
+tile:71:71:50:60:21:39:wallgeneric3:trackme
+tile:81:81:50:60:21:39:wallgeneric3:trackme
+tile:91:91:50:60:21:39:wallgeneric3:trackme
+tile:32:35:57:60:21:23:wallcloth:trackme
+tile:32:35:57:60:24:24:areia:trackme
+tile:32:35:60:60:24:24:mat:trackme
+bed:32:35:57:60:24:30
+zone:32:36:56:60:21:27:mear the bed:trackme
+zone:32:35:57:60:24:30:on the bed:trackme
+zone:32:35:60:60:24:24:on the pilo:trackme
+tile:32:32:50:50:21:21:wallcontainer:trackme
+tile:32:32:50:50:22:22:debris:trackme
+zone:32:33:50:51:21:27:mear the trashcan:trakme
+zone:32:32:50:50:22:28:in the trashcan:trackme
+trashcan:32:32:50:50:22:22
+tile:42:45:57:60:21:23:wallcloth:trackme
+tile:42:45:57:60:24:24:areia:trackme
+tile:42:45:60:60:24:24:mat:trackme
+bed:42:42:57:60:24:30
+tile:42:42:50:50:21:21:wallcontainer:trackme
+tile:42:42:50:50:22:22:debris:trackme
+zone:42:43:50:51:21:27:mear the trashcan:trackme
+zone:42:42:50:50:22:28:on the trashcan:trackme
+trashcan:42:42:50:50:22:22
+tile:61:61:50:60:21:39:wallgeneric3:trackme
+tile:62:65:57:60:21:23:wallcloth:trackme
+tile:62:65:57:60:24:24:areia:trackme
+tile:62:65:60:60:24:24:mat:trackme
+zone:62:66:56:57:21:27:mear the bed:trackme
+zone:62:65:57:60:24:30:on the bed:trackme
+zone:62:65:60:60:24:30:on the pilo:trackme
+zone:42:46:56:60:21:27:mear the bed:trackme
+zone:42:45:57:60:24:30:on the bed:trackme
+zone:42:45:60:60:24:30:on the pilo:trackme
+bed:42:45:57:60:24:30
+bed:62:65:57:60:24:30
+tile:62:62:50:50:21:21:wallcontainer:trackme
+tile:62:62:50:50:22:22:debris:trackme
+zone:62:63:50:51:21:27:mear the trashcan:trackme
+zone:62:62:50:50:22:28:in the trashcan:trackme
+trashcan:62:62:50:50:22:22
+tile:72:75:57:60:21:23:wallcloth:trackme
+tile:72:75:57:60:24:24:areia:trackme
+tile:72:75:60:60:24:24:mat:trackme
+zone:72:76:56:60:21:27:mear the bed:trackme
+zone:72:75:57:60:24:30:on the bed:trackme
+zone:72:75:60:60:24:30:on the pilo:trackme
+bed:72:75:57:60:24:30
+tile:72:72:50:50:21:21:wallcontainer:trackme
+tile:72:72:50:50:22:22:debris:trackme
+zone:72:73:50:51:21:27:mear the trashcan:trackme
+zone:72:72:50:50:22:28:on the trashcan:trackme
+trashcan:72:72:50:50:22:22
+tile:82:85:57:60:21:23:wallcloth:trackme
+tile:82:85:57:60:24:24:areia:trackme
+tile:82:85:60:60:24:24:mat:trackme
+zone:82:86:56:60:21:27:mear the bed:trackme
+zone:82:85:57:60:24:30:on the bed:trackme
+zone:82:85:60:60:24:24:on the pilo:trackme
+tile:82:82:50:50:21:21:wallcontainer:trackme
+tile:82:82:50:50:22:22:debris:trackme
+zone:82:83:50:50:21:27:mear the trashcan:trackme
+zone:82:82:50:50:22:28:in the trashcan:trackme
+trashcan:82:82:50:50:22:22
+tile:92:95:57:60:21:23:wallcloth:trackme
+tile:92:95:57:60:24:24:areia:trackme
+tile:92:95:60:60:24:24:mat:trackme
+zone:92:95:56:60:21:27:mear the bed:trackme
+zone:92:95:57:60:24:30:on the bed:trackme
+zone:92:95:60:60:24:30:on the pilo:trackme
+tile:92:92:50:50:21:21:wallcontainer:trackme
+tile:92:92:50:50:22:22:debris:trackme
+zone:92:93:50:51:21:27:mear the trashcan:trackme
+zone:92:92:50:50:22:28:in the trashcan:trackme
+trashcan:92:92:50:50:22:22
+tile:60:100:0:40:21:39:wallbuilding3:trackme
+tile:61:99:1:39:21:38:air:trackme
+tile:61:99:1:39:21:21:hardwood3:trackme
+tile:60:60:10:30:21:38:air:trackme
+tile:60:60:10:30:21:21:carpet5:trackme
+zone:60:60:10:30:21:28:entrance to the guest living room:trackme
+zone:61:99:1:39:21:39:guest living room:trackme
+tile:62:98:1:2:25:35:air:trackme
+owner:Faust
+music:15:20:70:80:21:39:0:100:updating8.ogg
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+tile:52:60:50:60:21:21:concrete24
+tile:69:91:35:39:21:30:wallwood16
+tile:70:90:36:38:22:29:air
+tile:70:90:36:38:22:22:hardwood5
+zone:68:92:34:39:21:40:near a large cabinet:trackme
+tile:74:74:36:39:21:30:wallwood16
+tile:78:78:36:39:21:30:wallwood16
+tile:82:82:36:39:21:30:wallwood16
+tile:86:86:36:39:21:30:wallwood16
+zone:70:73:36:39:21:40:Cell1:trackme
+zone:75:77:35:39:21:30:Cell2
+zone:79:81:36:39:21:30:Cell3:trackme
+zone:83:87:35:39:21:30:Cell4
+zone:87:91:35:39:21:30:Cell5
+tile:72:72:35:35:21:30:wallwood6
+zone:72:72:34:36:21:30:Cell Door 1:trackme
+tile:76:76:35:35:21:30:wallwood
+zone:76:76:34:36:21:30:Cell Door 2
+tile:80:80:35:35:21:30:wallwood7
+zone:80:80:34:36:21:30:Cell Door 3:trackme
+tile:84:84:35:35:21:30:wallwood9
+zone:84:84:34:36:21:30:Cell Door 4:trackme
+tile:88:88:35:35:21:30:wallwood13
+zone:88:88:34:36:21:30:Cell Door 5:trackme
+pdoor:72:72:34:34:21:30:72:36:22:Click the number:1:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:72:72:36:36:22:30:72:34:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+pdoor:76:76:34:34:21:30:76:36:22:Click the number:2:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:76:76:36:36:22:30:76:34:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+pdoor:80:80:34:34:21:30:80:36:22:Click the number:3:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:80:80:36:36:22:30:80:34:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+pdoor:84:84:34:34:21:30:84:36:22:Click the number:4:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:84:84:36:36:22:30:84:34:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+pdoor:88:88:34:34:21:30:88:36:22:Click the number:5:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:88:88:36:36:22:30:88:34:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+tile:61:99:-1:0:25:30:air:trackme
+tile:61:99:-1:-1:25:30:wallglass:trackme
+tile:61:99:0:0:25:25:plastic:trackme
+tile:61:99:-2:-2:25:25:diamond:trackme
+zone:61:99:1:1:21:30:Near the panoramic window:trackme
+zone:61:99:-2:0:21:35:windowsill:trackme
+tile:79:91:1:2:21:24:wallsofa
+tile:79:91:2:2:23:25:air
+tile:79:91:2:2:23:23:mat
+tile:80:90:2:2:22:23:air
+tile:79:91:1:1:24:24:carpet8
+tile:80:90:2:2:22:22:cloth
+zone:78:92:1:3:21:40:Near the sofa:trackme
+zone:79:79:2:2:22:40:left handle:trackme
+zone:91:91:2:2:22:40:Right handle:trackme
+zone:79:91:1:1:24:40:back sofa:trackme
+zone:80:90:2:2:22:40:on the sofa:trackme
+tile:80:90:5:8:21:23:walltable
+zone:79:91:4:9:21:40:near a long table:trackme
+zone:80:90:5:8:23:40:on the table:trackme
+tile:92:96:14:39:21:30:wallwood16
+tile:93:95:15:35:22:29:air
+tile:93:95:15:34:22:22:hardwood5
+zone:91:97:13:35:21:30:near a large cabinet
+tile:92:95:30:30:21:30:wallwood16
+tile:92:95:26:26:21:30:wallwood16
+tile:92:95:22:22:21:30:wallwood16
+tile:92:95:18:18:21:30:wallwood16
+tile:92:92:32:32:21:30:wallwood10
+tile:92:92:28:28:21:30:wallwood11
+tile:92:92:24:24:21:30:wallwood13
+tile:92:92:20:20:21:30:wallwood12
+zone:92:95:31:34:21:30:Cell6
+zone:92:95:27:29:21:30:Cell7:trackme
+zone:92:95:23:26:21:30:Cell8:trackme
+zone:92:95:19:21:21:30:Cell9:trackme
+zone:91:93:32:32:21:30:Cell Door 6:trackme
+zone:91:93:28:28:21:30:Cell Door 7:trackme
+zone:91:93:24:24:21:30:Cell Door 8:trackme
+zone:91:93:20:20:21:30:Cell Door 9:trackme
+pdoor:91:91:32:32:21:30:93:32:22:Click the number:6:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:93:93:32:32:22:30:91:32:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+pdoor:91:91:28:28:21:30:93:28:22:Click the number:7:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:93:93:28:28:22:30:91:28:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+pdoor:91:91:24:24:21:30:93:24:22:Click the number:8:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:93:93:24:24:22:30:91:24:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+pdoor:91:91:20:20:21:30:93:20:22:Click the number:9:1000:silence.ogg:mapswitchtimer.ogg:door40open.ogg:door40close.ogg
+door:93:93:20:20:22:30:91:20:21:...:1000:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+tile:80:90:5:8:23:23:wood14:trackme
+tile:1:1:3:3:21:21:balloon2:trackme
+zone:1:1:3:3:21:27:third floor button:trackme
+tile:-1:101:-1:101:50:50:wallbuilding3:trackme
+tile:0:100:0:100:51:51:tile5:trackme
+zone:0:100:0:100:50:69:third floor:trackme
+tile:0:100:0:100:51:51:concrete18:trackme
+tile:0:9:0:10:51:60:wallglass8
+tile:1:8:1:9:51:59:air
+tile:1:8:1:9:51:51:glass7
+tile:9:9:5:5:51:59:wallglass6
+tile:1:1:3:3:0:0:balloon2
+zone:1:1:3:3:0:19:third floor button:trackme
+door:1:1:3:3:0:10:1:3:51:...:100:silence.ogg:elevator_running.ogg:elevator_start2.ogg:elevator_stop2.ogg
+zone:1:9:0:9:51:70:In the elevator:trackme
+tile:1:1:1:1:51:51:generic
+zone:1:1:1:1:51:70:first floor button:trackme
+zone:1:1:2:2:51:70:Second floor button:trackme
+zone:1:1:3:3:51:70:third floor button:trackme
+door:1:1:3:3:21:30:1:3:51:...:200:silence.ogg:elevator_running.ogg:elevator_start2.ogg:elevator_stop2.ogg
+zone:8:10:5:5:51:60:Elevator doors:trackme
+door:8:8:5:5:51:60:10:5:51:...:1000:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+door:10:10:5:5:51:60:8:5:51:...:1000:silence.ogg:silence.ogg:elevadorabre.ogg:elevadorfecha.ogg
+tile:1:1:2:2:51:51:plastic
+tile:1:1:3:3:51:51:balloon2
+door:1:1:3:3:51:51:1:3:51:roflflflfl:1000:silence.ogg:silence.ogg:silence.ogg:doorclose42.ogg
+door:1:1:1:1:51:51:1:1:0:...:100:silence.ogg:elevator_running.ogg:elevator_start2.ogg:elevator_stop2.ogg
+door:1:1:2:2:51:51:1:2:21:...:200:silence.ogg:elevator_running.ogg:elevator_start2.ogg:elevator_stop2.ogg
+tile:0:50:20:40:51:69:wallbuilding3:trackme
+tile:1:49:21:39:51:68:air:trackme
+tile:1:49:21:39:51:51:carpet:trackme
+tile:25:26:20:20:51:57:air:trackme
+tile:24:26:20:20:51:51:concrete5:trackme
+zone:24:26:20:20:51:57:entrance to the spa area:trackme
+tile:24:26:21:39:51:51:concrete18:trackme
+zone:24:26:21:39:51:68:passage between the massage room and the sauna:trackme
+tile:27:49:21:39:51:69:wallbuilding3:trackme
+tile:28:48:21:39:51:68:air:trackme
+tile:28:48:21:39:51:51:carpet:trackme
+tile:27:27:30:35:51:57:wallglass5:trackme
+door:26:26:30:35:51:57:28:30:51:...:1000:c.ogg:c.ogg:door3open.ogg:door3close.ogg
+zone:28:48:21:39:51:68:sauna:trackme
+zone:28:28:30:35:51:57:door leading back to the hallway:trackme
+door:28:28:30:35:51:57:26:30:51:...:1000:c.ogg:c.ogg:door3open.ogg:door3close.ogg
+zone:26:26:30:35:51:57:door leading to the sauna:trackme
+tile:1:23:21:39:51:69:wallbuilding3:trackme
+tile:2:22:21:39:51:68:air:trackme
+tile:2:22:21:39:51:51:carpet:trackme
+tile:23:23:30:35:51:57:wallglass5:trackme
+door:24:24:30:35:51:57:22:30:51:...:1000:c.ogg:c.ogg:door26open.ogg:door26close.ogg
+door:22:22:30:35:51:57:24:30:51:...:1000:c.ogg:c.ogg:door26open.ogg:door26close.ogg
+zone:2:22:21:39:51:68:massage room:trackme
+zone:22:22:30:35:51:57:door leading back to the hallway:trackme:trackme
+zone:24:24:30:35:51:57:door leading to the massage room:trackme
+src:2:22:21:39:51:68:-15:100:a1.ogg:1
+music:2:22:21:39:51:68:-20:100:musiccalm3.ogg:1
+tile:2:4:21:23:51:53:wallsofa:trackme
+tile:2:4:21:23:54:54:areia:trackme
+tile:2:22:36:39:51:53:wallsofa:trackme
+tile:2:22:36:39:54:54:areia:trackme
+bed:2:22:36:39:54:60
+zone:2:22:36:39:54:60:massage bed for couples:trackme
+zone:2:22:35:35:51:57:mear the massage bed for couples:trackme
+zone:2:5:21:24:51:57:mear the massage bed:trackme
+bed:2:4:21:23:54:60
+zone:2:4:21:23:54:60:massage bed:trackme
+tile:2:4:27:30:51:53:wallsofa:trackme
+tile:2:4:27:30:54:54:areia:trackme
+zone:2:5:26:31:51:57:mear the massage bed:trackme
+zone:2:4:27:30:54:60:on the massage bed:trackme
+bed:2:4:27:30:54:60
+tile:8:10:27:30:51:53:wallsofa:trackme
+tile:8:10:27:30:54:54:areia:trackme
+bed:8:10:27:30:54:60
+zone:7:11:26:31:51:57:mear the massage bed:trackme
+zone:8:10:27:30:54:60:on the massage bed:trackme
+tile:8:10:21:23:51:53:wallsofa:trackme
+tile:8:10:21:23:54:54:areia:trackme
+bed:8:10:21:23:54:60
+zone:7:11:21:24:51:57:mear the massage bed:trackme
+zone:8:10:21:23:54:60:on the massage bed:trackme
+tile:14:16:27:29:51:53:wallsofa:trackme
+tile:14:16:21:23:54:54:areia:trackme
+zone:14:16:21:23:54:60:on the massage bed:trackme
+zone:13:17:21:24:51:57:mear the massage bed:trackme
+bed:14:16:21:23:54:60
+tile:14:16:21:23:51:53:wallsofa:trackme
+tile:14:16:27:29:54:54:areia:trackme
+zone:13:17:26:30:51:57:mear the massage bed:trackme
+zone:14:16:27:29:54:60:on the massage bed:trackme
+bed:14:16:27:29:54:60
+tile:30:48:36:39:51:60:wallstone:trackme
+tile:30:48:36:39:60:60:hardwood:trackme
+tile:30:48:37:39:60:60:cloth:trackme
+tile:35:40:35:35:51:60:stairs:trackme
+tile:30:30:36:39:60:69:wallbuilding3:trackme
+zone:31:48:36:39:60:66:on the fireplace with a bed:trackme
+zone:35:40:35:35:51:60:sters:trackme
+zone:30:34:35:39:51:68:mear the fireplace with a bed:trackme
+zone:41:48:35:35:51:68:mear the fireplace with a bed:trackme
+zone:31:48:37:39:60:66:bed on the fireplace :trackme
+bed:31:48:37:39:60:66
+tile:24:26:40:40:51:57:air:trackme
+tile:24:26:40:40:51:51:concrete5:trackme
+tile:27:49:41:60:51:69:wallbuilding3:trackme
+tile:1:23:41:60:51:69:wallbuilding3:trackme
+zone:24:26:41:60:51:69:passage between  showers and the swimming pool:trackme
+tile:28:48:41:59:51:68:air:trackme
+tile:28:48:41:59:51:51:concrete14:trackme
+tile:2:22:41:59:51:68:air:trackme
+tile:2:22:41:59:51:51:concrete14:trackme
+zone:24:26:40:40:51:57:entrance to the showers and the pool:trackme
+zone:28:48:41:59:51:68:in the swimming pool area:trackme
+src:28:48:41:59:51:68:-5:100:people3.ogg:1
+tile:27:27:45:50:51:57:walldoor:trackme
+door:26:26:45:50:51:57:28:45:51:...:1000:c.ogg:c.ogg:door2open.ogg:door2close.ogg
+door:28:28:45:50:51:57:26:45:51:...:1000:c.ogg:c.ogg:door2open.ogg:door2close.ogg
+zone:26:26:45:50:51:57:door leading to the pool area:trackme
+zone:28:28:45:50:51:57:door leading back to the hallway:trackme
+tile:34:46:49:59:51:60:wallbounce
+tile:34:46:49:59:60:60:balloon2
+tile:35:45:50:58:60:60:air
+tile:35:45:50:58:52:58:underwater
+tile:35:45:50:58:59:59:deepwater
+zone:33:47:48:59:51:70:Near the pool:trackme
+zone:34:46:49:59:60:80:The sides of the pool:trackme
+zone:35:45:50:59:51:70:in the pool:trackme
+tile:38:47:41:44:51:60:wallwood15:trackme
+tile:38:47:41:44:61:61:deck:trackme
+tile:38:47:45:45:51:61:wobbly_wood:trackme
+zone:38:47:45:45:51:61:stairs leading to the diving board:trackme
+zone:38:47:41:44:61:67:diving board:trackme
+tile:48:48:41:41:51:68:wallwoodcrate:trackme
+tile:38:38:41:44:51:68:wallwoodcrate:trackme
+tile:23:23:45:50:51:57:wallwood2:trackme
+door:24:24:45:50:51:57:22:45:51:...:1000:c.ogg:c.ogg:door1open.ogg:door1close.ogg
+zone:2:22:41:59:51:68:large shower room:trackme
+tile:2:22:55:59:51:69:wallglass11:trackme
+tile:2:22:56:58:51:68:air:trackme
+tile:2:22:56:58:51:51:bathtub2:trackme
+shower:2:22:57:58:51:57
+tile:3:3:56:58:51:69:wallwood17:trackme
+tile:5:5:56:58:51:69:wallwood17:trackme
+tile:7:7:56:58:51:69:wallwood17:trackme
+tile:9:9:56:58:51:69:wallwood17:trackme
+tile:11:11:56:58:51:69:wallwood17:trackme
+tile:13:13:56:58:51:69:wallwood17:trackme
+tile:15:15:56:58:51:69:wallwood17:trackme
+tile:17:17:56:58:51:69:wallwood17:trackme
+tile:19:19:56:58:51:69:wallwood17:trackme
+tile:21:21:56:58:51:69:wallwood17:trackme
+zone:2:2:57:58:51:68:shower 1:trackme
+zone:4:4:55:55:51:68:shower 1:trackme
+zone:6:6:55:55:51:68:shower 3:trackme
+zone:8:8:55:55:51:68:shower 4:trackme
+door:22:22:45:50:51:51:24:45:51:...:1000:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+zone:22:22:45:50:51:60:Doors leading to the hallway:trackme
+zone:24:24:45:50:51:60:Doors leading into a large shower room:trackme
+src:35:45:50:58:51:58:0:100:underwater.ogg:1
+src:35:45:50:58:59:59:0:100:water_loop.ogg:1
+src:50:70:80:100:21:39:-15:100:hum4.ogg:1
+src:31:48:36:39:50:60:0:100:fire3.ogg
+zone:4:4:57:58:51:60:shower2:trackme
+zone:6:6:57:58:51:60:shower3:trackme
+zone:8:8:57:58:51:60:shower4:trackme
+zone:10:10:57:58:51:60:shower5:trackme
+zone:12:12:57:58:51:60:shower6:trackme
+zone:14:14:57:58:51:60:shower7:trackme
+zone:16:16:57:58:51:60:shower8:trackme
+zone:18:18:57:58:51:60:shower9:trackme
+zone:20:20:57:58:51:60:shower10:trackme
+zone:2:22:55:56:51:60:entrance to the shower:trackme
+tile:2:22:55:56:51:60:air
+tile:2:22:55:56:51:51:ceramic4
+tile:-1:101:-1:101:99:99:wallbuilding3:trackme
+tile:0:100:0:100:100:100:roof:trackme
+tile:-1:101:-1:101:101:200:air:trackme
+tile:-1:101:-1:-1:100:103:wallfence:trackme
+tile:-1:101:-1:101:103:103:fence
+tile:0:100:0:100:100:103:air
+tile:0:100:0:100:100:100:roof2
+tile:20:30:-2:-2:0:100:wood6
+tile:20:30:-1:-1:100:100:roof3
+zone:-1:101:-1:101:103:110:on the fence:trackme
+zone:0:100:0:100:100:150:the roof from which romantic landscapes are visible to the camp and the whole territory:trackme
+zone:20:30:-2:-2:0:120:Rough wooden ladder:trackme
+zone:20:30:-1:-1:100:102:Narrow passage:trackme
+src:0:100:0:100:100:150:0:100:wind9.ogg
+tile:49:51:49:51:100:100:glass5
+tile:50:50:50:50:100:110:wallsign
+zone:49:51:49:51:100:110:Flag of Ukraine:trackme
+tile:50:50:45:49:108:110:wallcouch
+src:49:51:49:51:100:110:0:70:flag.ogg
+tile:30:40:40:50:100:102:wallbranch
+tile:30:40:40:50:102:102:unstableplank
+
+tile:30:40:39:39:100:101:wallbranch
+tile:30:40:39:39:101:101:chair
+tile:30:40:51:51:100:101:wallbranch
+tile:30:40:51:51:101:101:chair
+zone:29:41:38:52:100:120:near an old table with benches:trackme
+zone:30:40:39:51:101:120:On an old bench:trackme
+zone:30:40:40:50:102:120:on the table:trackme

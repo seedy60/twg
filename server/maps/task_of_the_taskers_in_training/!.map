@@ -1,0 +1,51 @@
+mapname:task_of_the_taskers_in_training
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:100
+owner:powermon
+litem:0
+death_point:0:0:0:0:0:0
+starting_point:0:0:0:0:0:0
+night:none.ogg
+wind:none.ogg
+tile:0:100:0:100:0:0:concrete2
+tile:0:0:0:0:0:3:concrete2
+safezone:0:100:0:100:0:100
+zone:0:100:0:100:0:100:task of the taskers_in_training
+zone:0:0:0:0:0:20:press enter to read a sign:trackme
+teleporter:0:100:1:100:0:0
+teleporter:1:100:0:0:0:0
+tile:5:5:0:0:3:3:concrete
+tile:5:5:5:5:3:3:carpet
+tile:12:15:5:5:3:3:concrete13
+tile:12:15:13:15:3:3:bleacher
+tile:20:20:20:20:3:4:tile
+tile:27:30:20:20:4:4:carpet
+tile:35:35:25:25:4:4:bleacher
+tile:40:40:25:25:4:5:concrete
+tile:40:40:31:32:5:5:cement
+tile:40:40:39:40:5:5:carpet
+tile:42:42:45:45:5:5:carpet
+tile:42:42:50:50:5:5:tile2
+tile:50:50:50:50:5:5:concrete4
+tile:55:55:55:55:5:7:carpet
+tile:60:65:55:55:7:7:concrete
+tile:70:70:60:60:7:7:cave
+tile:70:70:67:70:7:8:concrete
+tile:78:80:70:70:8:8:concrete
+tile:85:85:70:70:8:8:cement
+tile:97:100:70:70:8:8:concrete11
+tile:100:100:83:100:8:8:concrete
+zone:100:100:100:100:8:14:you're done now. just climb up and take your reward!
+tile:100:100:100:100:8:14:stairs
+tile:100:100:100:100:15:15:marble2
+zone:100:100:100:100:15:25:congratulations! press shift enter to end, and get your gift!:trackme
+src:0:100:0:100:0:100:-8:100:wind2.ogg
+sign:0:0:0:0:0:10:hi %n. If you are a tasker in training, this map is for you. you have to cross the teleport area, by jumping on the platform and avoid falling down, otherwise you will return to square 0,  your gole is to reach 100, 100, 15, after that, you will get reward! go and check If you can, or also you can request help to any of players to help you.:sign.ogg
+travelpoint:100:100:100:100:15:20:main_map:5:1:1:congratulations!:silence.ogg:silence.ogg:win.ogg
+task_status:100:100:100:100:15:25:coins:100000
+
+checkpoint:50:50:5

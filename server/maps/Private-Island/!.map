@@ -1,0 +1,237 @@
+mapname:Private-Island
+minx:-250
+maxx:1000
+miny:-250
+maxy:1000
+minz:0
+maxz:500
+tile:-250:1000:-250:1000:0:0:sand
+owner:Snowman
+litem:1
+starting_point:20:20:15:15:0:0
+deathpoint:-250:1000:-250:1000:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+zone:-250:1000:-250:1000:0:500:Small private island in the middle of nowhere
+#beach around the island
+zone:0:750:0:50:0:50:A pristened white sand beach
+tile:0:750:0:10:0:0:sand8
+tile:0:10:11:750:0:0:sand8
+zone:0:750:0:10:0:50:wet sand near the ocean
+zone:0:10:11:750:0:50:wet sand near the ocean
+zone:11:50:51:750:0:50:A pristened white sand beach
+tile:740:750:11:750:0:0:sand8
+zone:740:750:11:750:0:50:wet sand near the ocean
+zone:700:739:50:750:0:50:A pristened white sand beach
+zone:51:738:700:750:0:50:A pristened white sand beach
+tile:0:739:740:750:0:0:sand8
+zone:0:739:740:750:0:50:Wet sand near the ocean
+src:0:750:0:50:0:50:-9:100:south.ogg
+src:0:50:51:699:0:20:-9:100:south.ogg
+src:700:750:51:699:0:20:-9:100:south.ogg
+src:0:750:700:750:0:20:-9:100:south.ogg
+music:0:750:0:50:0:25:-27:100:musiccalm8.ogg:1
+music:0:50:51:699:0:25:-27:100:musiccalm8.ogg:1
+music:700:750:51:699:0:25:-27:100:musiccalm8.ogg:1
+music:0:750:700:750:0:25:-27:100:musiccalm8.ogg:1
+#ocean
+tile:-30:780:-30:-1:0:0:swimming
+zone:-30:780:-30:-1:0:250:Shallow water near the island
+fishingcoordinate:-30:780:-30:-1:0:0
+src:-30:780:-30:0:0:150:0:100:ocean_3.ogg
+tile:-30:-1:0:750:0:0:swimming
+zone:-30:-1:0:750:0:150:Shallow water near the island
+src:-30:-1:10:740:0:150:0:100:ocean_3.ogg
+tile:751:780:0:750:0:0:swimming
+zone:751:780:0:750:0:150:Shallow water near the island
+src:751:780:10:700:0:150:0:100:ocean_3.ogg
+src:751:780:710:750:0:150:0:100:ocean_3.ogg
+tile:-30:780:751:780:0:0:swimming
+zone:-30:780:751:780:0:150:Shallow water near the island
+src:-30:780:760:780:0:150:0:100:ocean_3.ogg
+fishingcoordinate:-30:780:751:780:0:0
+tile:-250:1000:-250:-31:0:0:wallboat
+zone:-250:1000:-250:-31:0:150:The deep deep ocean
+txt:-250:1000:-250:-31:0:0:You can't continue without a boat
+src:-250:1000:-250:-31:0:150:0:100:deepocean.ogg
+tile:-250:-31:-30:780:0:0:wallboat
+zone:-250:-31:-30:780:0:150:The deep deep ocean
+txt:-250:-31:-30:780:0:0:You can't continue without a boat
+src:-250:-31:-20:780:0:150:0:100:deepocean.ogg
+tile:781:1000:-30:780:0:0:wallboat
+zone:781:1000:-30:780:0:150:The deep deep ocean
+txt:781:1000:-30:780:0:0:You can't continue without a boat
+src:781:1000:-20:780:0:150:0:100:deepocean.ogg
+tile:-250:1000:781:1000:0:0:wallboat
+zone:-250:1000:781:1000:0:150:The deep deep ocean
+txt:-250:1000:781:1000:0:0:You can't continue without a boat
+src:-250:1000:791:1000:0:150:0:100:deepocean.ogg
+#climbing to island from southern side of the island
+tile:51:699:41:41:0:0:walldirt
+tile:51:699:40:40:0:1:sand
+tile:51:699:41:41:1:2:sand
+tile:51:699:42:42:0:1:walldirt
+tile:51:699:42:42:2:3:sand
+tile:51:699:43:43:0:2:walldirt
+tile:51:699:42:43:3:4:sand
+tile:51:699:44:44:0:3:walldirt
+tile:51:699:44:44:4:5:sand
+tile:51:699:45:45:0:4:walldirt
+tile:51:699:45:45:5:6:sand
+tile:51:699:46:46:0:5:walldirt
+tile:51:699:46:46:6:7:sand
+tile:51:699:47:47:0:6:walldirt
+tile:51:699:47:47:7:8:sand
+tile:51:699:48:48:0:7:walldirt
+tile:51:699:48:48:8:9:sand
+tile:51:699:49:49:0:8:walldirt
+tile:51:699:49:49:9:10:sand
+tile:51:699:50:50:0:9:walldirt
+tile:51:699:50:50:10:11:sand
+tile:51:699:51:51:0:10:walldirt
+tile:51:699:51:51:11:12:sand
+tile:51:699:52:52:0:11:walldirt
+tile:51:699:52:52:12:13:sand
+tile:51:699:53:53:0:12:walldirt
+tile:51:699:53:53:13:14:sand
+tile:51:699:54:54:0:13:walldirt
+tile:51:699:54:54:14:15:sand
+tile:51:699:55:55:0:14:walldirt
+tile:51:699:55:55:15:16:sand
+tile:51:699:56:56:0:15:walldirt
+tile:51:699:56:56:16:17:sand
+tile:51:699:57:57:0:16:walldirt
+tile:51:699:57:57:17:18:sand
+tile:51:699:58:58:0:17:walldirt
+tile:51:699:58:58:18:19:sand
+tile:51:699:59:59:0:18:walldirt
+tile:51:699:59:59:19:20:sand
+tile:51:699:60:60:0:19:walldirt
+tile:51:699:60:60:20:21:sand
+tile:51:699:61:61:0:20:walldirt
+tile:51:699:61:61:21:22:sand
+tile:51:699:62:62:0:21:walldirt
+tile:51:699:62:62:22:23:sand
+tile:51:699:63:63:0:22:walldirt
+tile:51:699:63:63:23:24:sand
+tile:51:699:64:64:0:23:walldirt
+tile:51:699:64:64:24:25:sand
+tile:51:699:65:65:0:24:walldirt
+tile:51:699:65:65:25:25:sand
+tile:51:699:65:65:26:26:lawn
+tile:51:699:66:66:0:25:walldirt
+tile:51:699:66:66:26:27:lawn
+tile:51:699:67:67:0:26:walldirt
+tile:51:699:67:67:27:28:lawn
+tile:51:699:68:68:0:27:walldirt
+tile:51:699:68:68:28:29:lawn
+tile:51:699:69:69:0:28:walldirt
+tile:51:699:69:69:29:30:lawn
+tile:51:699:70:70:0:29:walldirt
+tile:51:699:70:70:30:31:lawn
+tile:51:699:71:71:0:30:walldirt
+tile:51:699:71:71:31:32:lawn
+tile:51:699:72:72:0:31:walldirt
+tile:51:699:72:72:32:33:lawn
+tile:51:699:73:73:0:32:walldirt
+tile:51:699:73:73:33:34:lawn
+tile:51:699:74:74:0:33:walldirt
+tile:51:699:74:74:34:35:lawn
+tile:51:699:75:75:0:34:walldirt
+tile:51:699:75:75:35:36:lawn
+tile:51:699:76:76:0:35:walldirt
+tile:51:699:76:76:36:37:lawn
+tile:51:699:77:77:0:36:walldirt
+tile:51:699:77:77:37:38:lawn
+tile:51:699:78:78:0:37:walldirt
+tile:51:699:78:78:38:39:lawn
+tile:51:699:79:79:0:38:walldirt
+tile:51:699:79:79:39:40:lawn
+tile:51:699:80:680:40:40:lawn
+tile:51:699:80:680:0:39:wall
+zone:51:699:40:79:0:40:southern steps:trackme
+tile:50:50:40:720:0:80:walldirt
+tile:700:700:40:720:0:80:walldirt
+#Northern climbing steps
+tile:51:699:720:720:0:1:sand
+tile:51:699:719:719:0:0:walldirt
+tile:51:699:719:719:1:2:sand
+tile:51:699:718:718:0:1:walldirt
+tile:51:699:718:718:2:3:sand
+tile:51:699:717:717:0:2:walldirt
+tile:51:699:717:717:3:4:sand
+tile:51:699:716:716:0:3:walldirt
+tile:51:699:716:716:4:5:sand
+tile:51:699:715:715:0:4:walldirt
+tile:51:699:715:715:5:6:sand
+tile:51:699:714:714:0:5:walldirt
+tile:51:699:714:714:6:7:sand
+tile:51:699:713:713:0:6:walldirt
+tile:51:699:713:713:7:8:sand
+tile:51:699:712:712:0:7:walldirt
+tile:51:699:712:712:8:9:sand
+tile:51:699:711:711:0:8:walldirt
+tile:51:699:711:711:9:10:sand
+tile:51:699:710:710:0:9:walldirt
+tile:51:699:710:710:10:11:sand
+tile:51:699:709:709:0:10:walldirt
+tile:51:699:709:709:11:12:sand
+tile:51:699:708:708:0:11:walldirt
+tile:51:699:708:708:12:13:sand
+tile:51:699:707:707:0:12:walldirt
+tile:51:699:707:707:13:14:sand
+tile:51:699:706:706:0:13:walldirt
+tile:51:699:706:706:14:15:sand
+tile:51:699:705:705:0:14:walldirt
+tile:51:699:705:705:15:16:sand
+tile:51:699:704:704:0:15:walldirt
+tile:51:699:704:704:16:17:sand
+tile:51:699:703:703:0:16:walldirt
+tile:51:699:703:703:17:18:sand
+tile:51:699:702:702:0:17:walldirt
+tile:51:699:702:702:18:19:sand
+tile:51:699:701:701:0:18:walldirt
+tile:51:699:701:701:19:20:sand
+tile:51:699:700:700:0:19:walldirt
+tile:51:699:700:700:20:21:sand
+tile:51:699:699:699:0:20:walldirt
+tile:51:699:699:699:21:22:sand
+tile:51:699:698:698:0:21:walldirt
+tile:51:699:698:698:22:23:sand
+tile:51:699:697:697:0:22:walldirt
+tile:51:699:697:697:23:24:sand
+tile:51:699:696:696:0:23:walldirt
+tile:51:699:696:696:24:25:sand
+tile:51:699:695:695:0:24:walldirt
+tile:51:699:695:695:25:26:lawn
+tile:51:699:694:694:0:25:walldirt
+tile:51:699:694:694:26:27:lawn
+tile:51:699:693:693:0:26:walldirt
+tile:51:699:693:693:27:28:lawn
+tile:51:699:692:692:0:27:walldirt
+tile:51:699:692:692:28:29:lawn
+tile:51:699:691:691:0:28:walldirt
+tile:51:699:691:691:29:30:lawn
+tile:51:699:690:690:0:29:walldirt
+tile:51:699:690:690:30:31:lawn
+tile:51:699:689:689:0:30:walldirt
+tile:51:699:689:689:31:32:lawn
+tile:51:699:688:688:0:31:walldirt
+tile:51:699:688:688:32:33:lawn
+tile:51:699:687:687:0:32:walldirt
+tile:51:699:687:687:33:34:lawn
+tile:51:699:686:686:0:33:walldirt
+tile:51:699:686:686:34:35:lawn
+tile:51:699:685:685:0:34:walldirt
+tile:51:699:685:685:35:36:lawn
+tile:51:699:684:684:0:35:walldirt
+tile:51:699:684:684:36:37:lawn
+tile:51:699:683:683:0:36:walldirt
+tile:51:699:683:683:37:38:lawn
+tile:51:699:682:682:0:37:walldirt
+tile:51:699:682:682:38:39:lawn
+tile:51:699:681:681:0:38:walldirt
+tile:51:699:681:681:39:40:lawn
+zone:51:699:681:720:0:40:Northern steps:trackme
+#Inside island

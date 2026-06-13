@@ -1,0 +1,42 @@
+mapname:myth-o-test
+minx:0
+maxx:0
+miny:0
+maxy:100
+minz:0
+maxz:10
+tile:0:0:0:100:0:0:tile4
+owner:powermon
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+zone:0:0:0:100:0:10:myth-o-test
+music:0:0:0:100:0:10:-5:100:musica82.ogg:1
+tile:0:0:6:6:0:10:wall
+zone:0:0:5:5:0:10:question 1.:trackme
+tile:0:0:5:5:0:0:marble2
+pdoor:0:0:5:5:0:10:0:7:0:how did perseus, the son of Zeus, and Danaë, died in the myths? dont type by, just the reason. E.G. of an accident:old age:0:silence.ogg:silence.ogg:win2.ogg:silence.ogg
+tile:0:0:13:13:0:10:wall
+tile:0:0:12:12:0:0:marble2
+pdoor:0:0:12:12:0:10:0:14:0:What is the name of the goddess who threw Hephaestus off Mount Olympus for being ugly? the goddess who cursed Lamia to devour her own children after Zeus loved her? the goddess who sent giant snakes to kill baby Heracles (Hercules)? the goddess who tormented Io by turning her into a cow and sending a gadfly to sting her endlessly? the goddess who cursed Echo to only repeat others’ words after she distracted her from Zeus’ affairs? the goddess who made Leto’s childbirth agonizing by forbidding land to shelter her? the goddess who drove Ino and Athamas mad, making them kill their own children? the goddess who cursed Semele to die after Zeus impregnated her? the goddess who prolonged the Trojan War out of spite for Paris rejecting her? the goddess who turned Queen Gerana into a crane for claiming to be more beautiful than her?:hera:0:silence.ogg:silence.ogg:win2.ogg:silence.ogg
+zone:0:0:12:12:0:10:question 2.:trackme
+tile:0:0:20:20:0:10:wall
+tile:0:0:19:19:0:0:marble2
+zone:0:0:19:19:0:10:question 3.:trackme
+pdoor:0:0:19:19:0:10:0:21:0:What is the name of the goddess who gave up her throne on Olympus to avoid conflict? the goddess who was offered the first sacrifice in every home and temple? the goddess who swore eternal virginity to remain neutral and focus on her duties? the goddess who protected orphans, refugees, and supplicants? the goddess who saved Poseidon’s son, Halirrhothios, from blasphemy? the goddess who maintained the “eternal flame” of Greek cities? the goddess who was so beloved that she never had myths of vengeance or cruelty? the goddess who shared her portion of offerings with the needy? the goddess who was worshipped alongside Hermes in doorways? the goddess who Rome adopted as Vesta, with priestesses (Vestals) guarding her flame?:hestia:0:silence.ogg:silence.ogg:win2.ogg:silence.ogg
+tile:0:0:27:27:0:10:wall
+tile:0:0:26:26:0:0:marble2
+zone:0:0:26:26:0:10:question 4.:trackme
+pdoor:0:0:26:26:0:10:0:28:0:What is the name of the legendary she-wolf who nursed the abandoned twins Romulus and Remus? the creature whose wolf-den (the Lupercal) became a sacred site in Rome? the wolf associated with Mars, the god of war? the she-wolf who was later honored with a statue in the Roman Forum? the wolf whose story was used to justify Rome’s brutal conquests? the wolf whose nurturing was seen as both miraculous and bestial? the wolf whose legacy lives on in modern Rome’s coat of arms and sports teams?:lupa:0:silence.ogg:silence.ogg:win2.ogg:silence.ogg
+tile:0:0:34:34:0:10:wall
+tile:0:0:33:33:0:0:marble2
+zone:0:0:33:33:0:10:question 5.:trackme
+pdoor:0:0:33:33:0:10:0:35:0:Who was the legendary founder and first king of Rome? the hero who survived abandonment as a baby and was nursed by a she-wolf (Lupa)? the ruler who established Rome on April 21, 753 BCE (according to legend)? the king who created the Roman Senate (Council of Elders)? the leader who introduced Rome’s first military and political systems? the ruler who established the Asylum, inviting outcasts and refugees to grow Rome’s population? the ruler who celebrated Rome’s first triumph after conquering the neighboring city of Veii? the king who vanished in a storm, later deified as the god Quirinus? :romulus:0:silence.ogg:silence.ogg:win2.ogg:silence.ogg
+tile:0:0:41:41:0:10:wall
+tile:0:0:40:40:0:0:marble2
+zone:0:0:40:40:0:10:question 6.:trackme
+pdoor:0:0:40:40:0:10:0:42:0:who is the emperor who defeated Mark Antony and Cleopatra at the Battle of Actium (31 BCE)? the ruler who established the Pax Romana (Roman Peace), a 200-year era of stability? the emperor who reformed Rome’s tax system, built roads, and created a professional army? the leader who famously said, "I found Rome a city of bricks and left it a city of marble"? What is the name of Julius Caesar’s heir who avenged his death by defeating Caesar’s assassins (Brutus/Cassius)? the ruler whose death sparked the cult of the Divus Augustus (deified emperor)?:augustus:0:silence.ogg:silence.ogg:win2.ogg:silence.ogg
+night:none.ogg
+tile:0:0:48:48:0:10:wall
+tile:0:0:47:47:0:0:marble2
+zone:0:0:47:47:0:10:question 7.:trackme

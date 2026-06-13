@@ -1,0 +1,96 @@
+mapname:ourhouse
+minx:0
+maxx:10000
+miny:0
+maxy:0
+minz:0
+maxz:10000
+tile:0:10000:0:0:0:0:carpet3
+litem:1
+starting_point:0:10000:0:0:0:0
+deathpoint:0:10000:0:0:0:0
+enable:2dsupport
+starting_point:0:0:0:0:0:0
+owner:Shrek
+music:0:10000:0:0:0:10000:0:100:music_level_5.ogg:1
+zone:0:19:0:0:0:10000:living room
+tile:5:10:0:0:0:2:wallsofa
+tile:5:10:0:0:3:3:cloth
+zone:5:10:0:0:3:10000:On the bed:trackme
+bed:5:10:0:0:3:3
+src:7:7:0:0:3:3:0:100:clock6.ogg
+clock:7:7:0:0:3:3:So, you wanna know the time. Then I will tell you. So, Shreck and Dobby, we, made this clock for you. Oh now I am talking so much again, the time is 
+zone:7:7:0:0:3:10000:A clock:trackme
+tile:20:20:0:0:0:50:walldoor
+zone:19:19:0:0:0:50:Door to the bathroom
+door:19:19:0:0:0:0:21:0:0:moving:1000:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+zone:21:21:0:0:0:50:Door back to living room
+door:21:21:0:0:0:0:19:0:0:moving:1000:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+night:none.ogg
+tile:21:79:0:0:0:0:marble3
+zone:22:79:0:0:0:50:a nice looking bathroom.
+tile:28:34:0:0:0:4:wallpole
+tile:28:34:0:0:4:4:metal19
+toilet:28:34:0:0:4:4
+zone:28:34:0:0:4:4:on a toilet, you can sit and do your thing, dont forget to flush the water.
+tile:41:41:0:0:0:50:wallglass5
+zone:40:40:0:0:0:50:a sliding door to a shower
+door:40:40:0:0:0:0:42:0:0:moving:2000:silence.ogg:silence.ogg:door9open.ogg:door9close.ogg
+door:42:42:0:0:0:0:40:0:0:moving:2000:silence.ogg:silence.ogg:door9open.ogg:door9close.ogg
+zone:42:42:0:0:0:50:Door back
+tile:51:51:0:0:0:50:wallglass5
+tile:42:50:0:0:0:0:bathtub2
+zone:43:49:0:0:0:50:a shower, you can wash your self here.
+zone:50:50:0:0:0:50:door from the other side
+shower:43:49:0:0:0:0
+door:50:50:0:0:0:0:52:0:0:moving:2000:silence.ogg:silence.ogg:door9open.ogg:door9close.ogg
+zone:52:52:0:0:0:50:door to enter the shower from the other side.
+door:52:52:0:0:0:0:50:0:0:moving:2000:silence.ogg:silence.ogg:door9open.ogg:door9close.ogg
+tile:59:70:0:0:0:3:wallboard
+tile:59:70:0:0:4:4:wood13
+zone:59:70:0:0:4:50:on the counter where sink is builded in.
+tile:65:67:0:0:4:4:water7
+zone:65:67:0:0:4:50:a sink, you can wash your hands here.
+washbasin:65:67:0:0:4:4
+tile:80:80:0:0:0:50:walldoor
+zone:79:79:0:0:0:50:Door to the kitchen
+tile:81:150:0:0:0:0:carpet
+zone:82:150:0:0:0:50:the kitchen, you can feel the smell of fresh meat and other food.
+door:81:81:0:0:0:0:79:0:0:moving:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+door:79:79:0:0:0:0:81:0:0:moving:1000:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+zone:81:81:0:0:0:50:door back to the bathroom
+tile:92:92:0:0:0:2:wallbars
+tile:92:92:0:0:3:3:chair
+zone:92:92:0:0:3:50:on a chair, you can sit and relax.
+tile:94:100:0:0:0:3:walltable
+tile:94:100:0:0:4:4:wood5
+zone:94:100:0:0:4:50:on a table
+tile:102:102:0:0:0:2:wallbars
+tile:102:102:0:0:3:3:chair
+zone:102:102:0:0:3:50:on a nother chair, you can sit and relax
+tile:120:135:0:0:0:3:wallcounter
+tile:120:135:0:0:4:4:wood
+zone:120:135:0:0:4:4:the counter, where all the things are stored for cooking.
+tile:125:129:0:0:4:4:metal2
+zone:125:129:0:0:4:50:the oven where you can cook your food.
+oven:125:129:0:0:4:4
+tile:132:132:0:0:4:4:water6
+washbasin:132:132:0:0:4:4
+zone:132:132:0:0:4:4:the sink, you can wash hands here before or after cooking.
+tile:140:140:0:0:0:0:paper
+trashcan:140:140:0:0:0:0
+zone:140:140:0:0:0:50:trash bag, you can throw unwanted things away.
+tile:151:151:0:0:0:50:wallwood4
+rain:none.ogg
+src:21:40:0:0:0:10000:0:100:bathroom.ogg:1
+src:42:50:0:0:0:10000:-5:100:shower4.ogg:1
+src:52:79:0:0:0:10000:0:100:bathroom.ogg:1
+src:81:150:0:0:0:10000:0:100:kitchen.ogg:1
+src:125:129:0:0:4:10000:-5:100:oven.ogg
+src:65:67:0:0:4:10000:0:100:sink4.ogg
+src:132:132:0:0:4:10000:0:100:sink2.ogg
+owner:Dobby
+reverb:21:79:0:10000:0:10000:1:1.0:1.0:0.8:1.0:1.0
+reverb:81:150:0:0:0:10000:2:1.0:0.0:0.8:0.5:1.0
+
+litem:0

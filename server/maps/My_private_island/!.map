@@ -1,0 +1,13 @@
+mapname:My_private_island
+minx:-250
+maxx:1000
+miny:-250
+maxy:1000
+minz:0
+maxz:500
+tile:-250:1000:-250:1000:0:0:sand
+owner:Snowman
+litem:1
+starting_point:-250:1000:-250:1000:0:0
+deathpoint:-250:1000:-250:1000:0:0
+description:1

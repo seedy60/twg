@@ -1,0 +1,76 @@
+mapname:mountain_to_go_dragon_cave
+minx:0
+maxx:50
+miny:0
+maxy:150
+minz:0
+maxz:200
+tile:0:50:0:500:0:0:soil
+owner:kannadiga
+litem:1
+starting_point:0:50:0:500:0:0
+deathpoint:0:50:0:500:0:0
+zone:0:50:0:150:0:200:a large mountain
+tile:0:50:16:25:0:19:walldirt
+tile:0:50:15:15:0:20:gravel8
+tile:0:50:15:35:20:20:rocks2
+tile:0:50:36:36:20:39:walldirt
+tile:0:50:35:35:20:40:stone2
+tile:0:50:35:60:40:40:gravel8
+tile:0:50:60:60:40:60:gravel8
+tile:0:50:61:61:40:59:walldirt
+tile:0:50:61:80:60:60:snow5
+tile:0:50:60:60:60:60:snow5
+tile:0:50:81:90:60:100:ice:trackme
+tile:0:50:82:82:60:99:wallstone
+tile:0:50:82:89:0:99:walldirt
+tile:0:50:90:90:61:79:air
+tile:0:50:91:100:80:80:gravel8
+tile:0:50:101:101:60:80:gravel7
+tile:0:50:100:100:60:79:walldirt
+tile:0:50:101:110:60:60:soil
+tile:0:50:110:110:40:60:stone2
+tile:0:50:109:109:0:59:walldirt
+tile:0:50:111:130:40:40:sand
+tile:0:50:130:130:20:40:sand
+tile:0:50:130:130:20:40:gravel2
+tile:0:50:129:129:20:39:walldirt
+tile:0:50:140:150:0:0:spring
+tile:0:50:130:140:20:20:soil
+tile:0:50:140:140:0:20:soil
+tile:0:50:139:139:0:19:walldirt
+tile:0:50:140:150:0:0:soil
+tile:0:50:0:15:0:0:soil
+zone:0:50:0:15:0:0:base of the mountain.
+tile:0:50:81:81:100:100:snow13
+zone:0:50:15:15:1:20:a natural steps leeding to words large mountain
+tile:0:50:90:90:100:100:snow13
+src:0:50:15:130:20:60:0:100:wind10.ogg:1
+src:0:50:61:101:61:110:0:100:mountain top.ogg:
+travelpoint:0:5:0:0:0:0:hidden_cave:49:49:49:you came back to hidden_cave.:silence.ogg:silence.ogg:silence.ogg
+zone:0:5:0:0:0:0:press shift enter to go back to hidden cave:trackme
+zone:0:50:82:89:100:100:top of the mountain:trackme
+tile:0:50:90:90:100:100:ice
+zone:0:50:90:90:80:100:a steps to climb down the hill:trackme
+src:0:50:0:15:0:19:0:100:wind7.ogg:1
+ai:0:50:82:89:100:100:200000:1:polar_bear
+music:0:50:0:150:0:150:-10:100:memorial.ogg:1
+music:0:0:0:0:0:0:0:100:game2.ogg
+itdoor:20:25:10:15:1:5:20:85:100:press enter to pay 10000 coins and start ride:coins:10000:500:silence.ogg:elevator_running.ogg:tp51.ogg:tp41.ogg
+travelpoint:0:50:150:150:0:0:dragone_cave:0:0:0:you have fallen into an unknone cave. who knos what is in there.:silence.ogg:silence.ogg:silence.ogg
+zone:0:50:150:150:0:10:press shift enter to continue.:trackme
+tile:20:25:9:9:0:10:wallmetal23
+tile:20:20:10:10:0:1:metal5
+tile:20:25:10:15:2:2:metal9
+tile:25:25:10:15:1:10:wallmetal23
+tile:20:25:15:15:0:10:wallmetal23
+tile:19:19:11:15:0:10:wallmetal23
+zone:20:25:10:15:1:10:inside cabin
+src:20:25:10:15:1:10:0:100:silence.ogg:1
+checkpoint:22:12:2
+zone:22:22:12:12:1:3:press enter and pay 10000 to start ride to go top of the mountain:trackme
+night:none.ogg
+src:0:50:131:150:0:26:0:100:jungle_a4.ogg:1
+reinforcement:0:10000000
+
+item_usage_restriction:0:50:0:150:0:200:conex:partner_house:small_conex:beehive:microwave:locker:fridge:fan:air_conditioner

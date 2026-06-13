@@ -1,0 +1,19 @@
+mapname:my_little_AFK_room
+minx:0
+maxx:10
+miny:0
+maxy:10
+minz:0
+maxz:10
+tile:0:10:0:10:0:0:mat
+owner:NicoDiAngelo
+litem:1
+starting_point:0:10:0:10:0:0
+deathpoint:0:10:0:10:0:0
+zone:0:10:0:10:0:10:relaxation area
+tile:3:10:3:10:0:1:wallsofa
+tile:3:10:3:10:2:2:cloth
+zone:2:10:2:10:0:10:near the comfortable bed
+zone:3:10:3:10:2:10:the comfortable bed:trackme
+url:https://file.garden/aOOJelWhxGExb9I6/Maroon%205%20-%20Memories%20(Official%20Video).mp3
+wind:none.ogg

@@ -1,0 +1,65 @@
+mapname:Camping_area
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:-5
+maxz:1000
+tile:0:100:0:100:0:0:weed
+owner:oguzhanaktas
+litem:1
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+tile:0:0:0:100:0:200:wallstone
+tile:100:100:0:100:0:100:wallstone
+zone:0:100:0:100:0:1000:abandoned campsite
+tile:1:99:63:66:0:0:water10
+zone:1:99:63:66:0:0:a long pond:trackme
+item:1:99:1:100:0:0:300000:6:bike:water_bottle:folding_bed:skillet:shield:pot:fishing_pole:cracker:metal:cup:sword:ball
+:folding_bed
+:fishing_pole
+:cracker
+:metal
+:cup
+:pot
+:shield
+:sword
+:ball
+fishingcoordinate:1:99:63:66:0:0
+src:1:99:63:66:0:0:0:100:water9.ogg
+travelpoint:1:1:0:0:0:0:main:1:170:0:you're back to the main map:silence.ogg:silence.ogg:silence.ogg
+zone:1:1:0:0:0:0:press shift enter to go back to the main map:trackme
+tile:1:99:61:62:0:0:mud4
+zone:1:99:61:62:0:0:mud next to the pond:trackme
+tile:1:99:67:68:0:0:mud4
+zone:1:99:67:68:0:0:mud next to the pond
+tile:60:65:94:94:0:0:fire
+oven:60:65:94:94:0:0
+src:60:65:94:94:0:0:-12:100:fire5.ogg
+zone:60:65:94:94:0:10:a long row of fire.:trackme
+tile:99:99:100:100:0:100:stone2
+door:98:98:100:100:0:0:99:100:100:You take the elevator up, oh so high:500:silence.ogg:elevator_running.ogg:silence.ogg:silence.ogg
+zone:98:98:100:100:0:0:an elevator going up, press enter to start:trackme
+tile:98:98:100:100:0:0:metal2
+zone:99:99:100:100:0:100:stairs leading up:trackme
+zone:98:98:99:99:100:100:observation hut, press shift enter to go in:trackme
+src:98:98:100:100:0:0:-6:100:escalator.ogg
+zone:36:36:99:99:0:0:an ocean, press shift enter to continue:trackme
+night:none.ogg
+reinforcement:0:10000000
+teleporter:0:100:0:100:-5:-1
+tile:1:97:100:100:0:100:wallstone
+item_usage_restriction:0:100:0:100:-5:100:conex:small_conex:partner_house:locker:fridge:microwave:air_conditioner:fan:beehive
+travelpoint:36:36:99:99:0:0:ocean:1:299:0: :silence.ogg:silence.ogg:silence.ogg
+tile:60:65:89:89:0:2:chair
+zone:60:65:89:89:0:9:a bench next to the camp fire.:trackme
+tile:98:98:99:100:100:100:concrete
+travelpoint:98:98:99:99:100:100:observation_hut:1:1:0: :silence.ogg:silence.ogg:silence.ogg
+src:0:100:0:100:-5:1000:-8:94:birds20.ogg:1
+src:0:100:0:100:-5:1000:-5:94:birds3.ogg:1
+music:0:100:0:100:0:1000:-5:99:musiccalm3.ogg:1
+src:0:100:0:100:-5:1000:-6:100:birds74.ogg:1
+tile:74:78:47:47:0:2:chair
+zone:74:78:47:47:0:5:a bench next to the pond:trackme
+tile:74:78:74:74:0:2:chair
+zone:74:78:74:74:0:5:a bench on the other side of the pond:trackme

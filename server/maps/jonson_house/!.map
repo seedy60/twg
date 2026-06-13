@@ -1,0 +1,161 @@
+mapname:jonson_house
+minx:0
+maxx:81
+miny:0
+maxy:50
+minz:0
+maxz:50
+tile:0:50:0:50:0:0:grass3
+owner:officer_jonson
+litem:1
+deathpoint:0:50:0:50:0:0
+night:none.ogg
+zone:0:40:0:50:0:50:front garden:trackme
+src:0:40:0:50:0:50:0:100:birds5.ogg:1
+tile:41:41:0:50:0:50:wallbuilding3
+tile:37:80:0:50:0:0:wallstone
+zone:36:40:0:50:0:10:steps to the house
+tile:36:40:0:50:1:1:marble3
+tile:41:41:20:30:1:50:wallglass
+tile:42:80:0:50:1:1:marble2
+zone:40:40:20:30:1:20:door go to the house:trackme
+door:40:40:20:30:1:5:42:25:1:go in the house:1000:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+zone:42:80:0:50:1:20:hallway
+tile:42:80:18:18:0:20:wallbuilding3
+zone:42:70:0:18:1:10:in the kitchen
+tile:71:71:0:17:1:20:wallbuilding3
+rain:none.ogg
+tile:42:70:1:6:0:2:wallcounter
+tile:42:70:0:0:1:20:wallbuilding3
+tile:42:70:1:6:3:3:ceramic4
+zone:42:70:1:6:3:10:a ceramic kitchen counter
+oven:55:60:1:6:3:3
+zone:55:60:1:6:3:5:cooking area
+zone:50:55:19:19:1:10:kitchen door:trackme
+door:50:55:19:19:1:1:53:17:1:you open the door and get in the kitchen:50:silence.ogg:silence.ogg:door9open.ogg:silence.ogg
+door:50:55:17:17:1:1:53:19:1:you go out the kitchen:50:silence.ogg:silence.ogg:silence.ogg:door17close.ogg
+zone:50:55:17:17:1:1:door go out the kitchen
+tile:50:55:18:18:1:7:wallglass2
+tile:81:81:0:50:0:50:wallbrick4
+zone:75:75:19:19:1:10:storage room door:trackme
+door:75:75:19:19:1:1:75:17:1:you enter the storage room:1200:silence.ogg:silence.ogg:dooropen42.ogg:door41close.ogg
+tile:72:80:0:17:1:1:wood4
+door:75:75:17:17:1:1:75:19:1:go out:1200:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+zone:72:80:0:17:1:10:storage room
+tile:42:70:32:50:1:1:carpet3
+zone:42:70:32:50:1:10:living room:trackme
+tile:42:42:40:45:1:5:wallglass
+tile:71:80:33:50:1:50:wallbuilding3
+zone:71:80:32:32:1:30:stair
+tile:70:80:1:31:20:20:marble2
+tile:71:80:32:32:1:20:wood4
+tile:42:70:0:50:20:20:marble2
+zone:42:80:0:50:20:50:second flor
+tile:42:70:32:32:20:50:wallbuilding3
+zone:48:50:31:31:20:30:office door:trackme
+zone:42:70:33:50:20:50:an office
+door:48:50:31:31:20:20:49:33:20:you get in the office:1000:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:42:45:35:45:20:22:walltable
+tile:46:46:40:40:20:21:wallwood18
+tile:42:45:35:45:23:23:hardwood
+tile:46:46:40:40:22:22:chair
+zone:42:45:35:45:23:30:office desk
+zone:46:46:40:40:21:25:office chair
+tile:60:70:45:50:20:30:walldiamond
+zone:59:70:44:50:20:24:near an electronic safe
+zone:63:67:44:44:20:24:electronic safe door
+pdoor:63:67:44:44:20:22:65:46:25:enter the password:1975:2:silence.ogg:silence.ogg:door37open.ogg:silence.ogg
+tile:63:67:46:49:25:25:diamond
+door:63:67:46:49:25:25:65:44:20:close:2:silence.ogg:silence.ogg:silence.ogg:door41close.ogg
+tile:57:63:40:45:1:2:walltable
+tile:67:70:33:50:1:3:wallsofa
+zone:48:50:33:33:20:20:door go out the office
+door:48:50:33:33:20:20:49:31:20:you go out the office:1200:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:36:40:20:30:20:20:marble3
+zone:36:40:20:30:20:50:balcony, where you can relax after work:trackme
+door:42:42:20:30:20:20:40:25:20:you go to the balcony:200:silence.ogg:silence.ogg:door17open.ogg:silence.ogg
+tile:57:63:40:45:3:3:wood4
+tile:42:80:18:18:20:50:wallbuilding3
+zone:51:53:19:19:20:20:bedroom dor:trackme
+zone:42:70:0:17:20:50:small bedroom
+door:51:53:19:19:20:20:51:17:20:go in and sleep:1200:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:51:53:18:18:20:50:wallglass5
+tile:71:71:0:17:20:50:wallbuilding3
+tile:60:70:0:17:20:23:wallcloth
+tile:60:70:0:17:24:24:cloth
+tile:42:80:0:0:0:50:wallbuilding3
+wind:none.ogg
+starting_point:1:1:1:1:0:0
+tile:67:69:34:48:3:3:cloth
+tile:0:80:50:50:0:50:wallbuilding3
+zone:42:42:20:30:1:5:door go out the house
+door:42:42:20:30:1:1:40:25:1:you go out the house:1000:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+tile:0:0:0:50:0:50:wallbuilding3
+tile:1:40:0:0:0:50:wallbuilding3
+zone:67:69:33:48:3:10:on a comfortable sofa
+zone:57:63:40:45:3:10:On a coffee table, you can sip a cup of hot chocolate and watch TV.
+zone:75:75:19:19:20:30:bathroom door:trackme
+tile:72:80:0:17:20:20:cement4
+zone:72:80:0:17:20:50:a small and comfortable bathroom
+door:75:75:19:19:20:20:75:17:20:you come in the bathroom:1000:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:72:80:0:0:0:50:wallbuilding3
+shower:80:80:3:3:20:20
+zone:80:80:3:3:20:20:shower
+tile:80:80:6:6:20:21:wallpole
+tile:80:80:6:6:22:22:diamond
+zone:80:80:6:6:20:50:on the toylet
+toilet:80:80:6:6:22:22
+tile:72:74:8:10:20:21:wallstone2
+washbasin:75:75:8:10:20:20
+zone:75:75:8:10:20:20:sink, press enter to open the faucet.
+door:75:75:17:17:20:20:75:19:20:you move out:1000:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+zone:75:75:17:17:20:20:dor go out
+door:51:53:17:17:20:20:52:19:20:you move out, welcome back after have a good sleip:1000:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:35:35:20:30:20:23:wallrail
+tile:35:40:19:19:20:23:wallrail
+tile:35:40:31:31:20:23:wallrail
+zone:40:40:20:30:20:20:door get in back
+door:40:40:20:30:20:20:42:25:20:you come in back:1:silence.ogg:silence.ogg:silence.ogg:door17close.ogg
+tile:57:59:1:3:20:21:walltable
+tile:57:59:1:3:22:22:hardwood
+zone:60:70:0:17:24:30:king sise bed
+bed:60:70:0:17:24:24
+tile:58:58:1:1:22:22:paper
+calendar:58:58:1:1:22:22:have a nice day. today is:
+zone:58:58:1:1:22:22:calendar
+clock:57:57:1:1:22:22:let's ce. the time is:
+zone:57:57:1:1:22:22:clock
+tile:57:57:1:1:22:22:metal8
+zone:43:43:40:45:1:1:a small, smart tv
+tile:48:51:1:5:2:2:water
+zone:48:51:1:5:1:5:sink
+tile:48:51:1:5:3:3:air
+washbasin:48:51:1:5:2:2
+tile:52:52:5:5:1:1:glass5
+zone:52:52:5:7:1:1:microwave 
+door:52:52:7:7:1:1:52:5:1:you open the microwave :1:silence.ogg:silence.ogg:open_microwave.ogg:silence.ogg
+door:52:52:5:5:1:1:52:7:1:you close the microwave :1:silence.ogg:silence.ogg:silence.ogg:close_microwave.ogg
+zone:60:69:10:16:3:10:dining tayble
+tile:60:69:10:16:1:2:walltable
+tile:60:69:10:16:3:3:hardwood
+zone:75:75:17:17:1:5:door go out
+zone:42:42:6:10:20:25:a chain of clothes hangers
+tile:60:70:17:17:1:1:chair
+tile:70:70:10:16:1:1:chair
+tile:60:70:9:9:1:1:chair
+zone:60:70:9:17:1:2:a row of chairs around the table
+zone:42:42:20:30:20:25:door go to the balcony:trackme
+zone:51:53:17:17:20:23:door go out the bedroom
+tile:70:70:33:49:4:4:cloth
+tile:30:33:30:33:0:15:wallbranch
+zone:29:34:29:34:0:25:a big and tall tree in the middle of the garden
+tile:29:34:29:33:1:15:tree
+tile:34:34:30:34:1:15:tree
+tile:29:29:30:34:1:15:tree
+tile:31:33:34:34:1:15:tree
+safezone:0:81:0:50:0:50
+zone:71:80:32:32:20:25:stair down to first floor:trackme
+owner:officer_jonson
+reverb:72:80:0:18:0:19:31672:1.0:1.0:0.8:0.5:1.0
+
+url:http://listen.livestreamingservice.com:8002

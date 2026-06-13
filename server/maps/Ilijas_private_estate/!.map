@@ -1,0 +1,71 @@
+mapname:Ilijas_private_estate
+minx:0
+maxx:250
+miny:0
+maxy:500
+minz:0
+maxz:250
+tile:0:250:0:500:0:0:grass4
+owner:Ilija
+litem:1
+starting_point:50:0:0:0:0:0
+deathpoint:0:250:0:500:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+zone:0:250:0:500:0:250:Ilija's private area
+tile:45:55:0:35:0:0:stone4
+zone:45:55:0:35:0:250:Stone road that leads to the villa
+tile:45:57:36:55:0:0:concrete
+zone:45:57:36:55:0:50:A concrete path leading to the steps
+tile:58:58:50:55:0:1:concrete17
+tile:59:59:50:55:1:2:concrete17
+tile:59:59:50:55:0:0:wall
+tile:60:60:50:55:2:3:concrete17
+tile:61:61:50:55:3:4:concrete17
+tile:62:62:50:55:4:5:concrete17
+tile:63:63:50:55:5:6:concrete17
+tile:64:64:50:55:6:7:concrete17
+tile:65:65:50:55:7:8:concrete17
+tile:66:70:50:55:8:8:concrete18
+tile:66:70:56:58:8:8:concrete18
+tile:66:70:59:59:8:9:concrete17
+tile:66:70:60:60:9:10:concrete17
+tile:66:70:61:65:10:10:cement3
+tile:56:65:61:65:10:10:concrete7
+tile:45:55:61:65:10:10:concrete6
+tile:60:60:50:55:0:1:wall
+tile:61:61:50:55:0:2:wall
+tile:62:62:50:55:0:3:wall
+tile:63:63:50:55:0:4:wall
+tile:64:64:50:55:0:5:wall
+tile:65:65:50:55:0:6:wall
+tile:66:70:50:59:0:7:wall
+tile:66:70:60:60:0:8:wall
+tile:45:70:61:65:0:9:wall
+tile:45:55:66:80:10:10:concrete
+tile:45:56:81:81:10:20:wallwooddoor
+tile:58:70:49:49:0:100:wallrail
+tile:71:71:49:66:0:100:wallrail
+tile:56:70:66:66:0:100:wallrail
+tile:56:56:67:80:0:100:wallrail
+tile:58:65:56:56:0:100:wallrail
+tile:65:65:57:60:0:100:wallrail
+tile:45:67:60:60:0:100:wallrail
+tile:44:44:60:80:0:100:wallrail
+zone:58:65:50:55:0:8:Luxurious concrete steps that leads to villa's outer hall entrance:trackme
+zone:66:70:50:55:8:50:northwest turn on the luxurious steps
+tile:60:65:10:10:0:2:wallstone2
+tile:60:60:11:15:0:2:wallstone2
+tile:61:65:15:15:0:2:wallstone2
+tile:65:65:11:14:0:2:wallstone2
+zone:66:70:56:60:8:50:the steps continues to lead here
+tile:61:64:11:14:1:1:water7
+tile:61:64:11:14:0:0:wallstone2
+tile:60:65:10:10:3:3:stone4
+tile:60:60:11:15:3:3:stone4
+tile:60:65:15:15:3:3:stone4
+tile:65:65:11:14:3:3:stone4
+zone:66:70:61:65:10:50:southwest turn  leads you to a concrete bridge
+zone:59:66:9:16:0:10:A small stone crystal fountain
+src:61:64:11:14:0:10:0:100:waterfountain8.ogg

@@ -1,0 +1,15 @@
+mapname:Avoid_the_Lava
+minx:0
+maxx:2000
+miny:0
+maxy:2000
+minz:0
+maxz:-1000
+tile:0:2000:0:2000:0:0:bridge3
+owner:Sango
+litem:0
+starting_point:0:2000:0:2000:0:0
+deathpoint:0:2000:0:2000:0:0
+starting_point:0:0:0:0:0:0
+
+owner:deathdogg

@@ -1,0 +1,89 @@
+mapname:kiwi_house
+minx:0
+maxx:40
+miny:0
+maxy:40
+minz:-5
+maxz:50
+tile:0:40:0:40:0:0:cement4
+owner:kiwi-james
+litem:1
+starting_point:0:40:0:40:0:0
+deathpoint:0:40:0:40:0:0
+tile:0:40:0:40:-5:-5:cavegrounds
+tile:0:40:0:40:0:0:carpet7
+night:none.ogg
+rain:telha2.ogg
+tile:0:40:0:40:-1:-1:wallbuilding3
+tile:40:40:0:0:-5:0:stairs4
+zone:40:40:0:0:0:0:stairs to the basement:trackme
+zone:40:40:0:0:-5:-5:stairs to the first floor:trackme
+tile:0:6:10:20:0:0:tile
+zone:0:6:10:20:0:0:kitchen:trackme
+tile:0:0:10:20:0:1:wallcounter
+tile:3:3:10:20:0:1:wallcounter
+tile:0:3:10:20:2:2:tile4
+tile:0:0:10:20:2:3:wallbank
+tile:1:2:12:14:1:2:spring2
+tile:0:0:21:21:0:0:metal5
+zone:0:0:21:21:0:0:fridge:trackme
+tile:1:1:16:16:2:2:metal5
+zone:1:1:16:16:2:2:microwave:trackme
+tile:1:1:18:18:2:2:metal5
+oven:1:1:18:18:2:2
+src:1:1:18:18:2:2:-12:101:fry4.ogg
+tile:0:40:24:24:0:49:wallbrick4
+door:10:10:23:23:0:10:10:25:0: :1000:silence.ogg:silence.ogg:tp4.ogg:tp38.ogg
+door:10:10:25:25:0:10:10:23:0: :1000:silence.ogg:silence.ogg:tp4.ogg:tp38.ogg
+zone:10:10:22:23:0:0:bedroom door entrance:trackme
+zone:10:10:25:25:0:0:bedroom exit:trackme
+zone:0:40:1:40:-5:-5:basement:trackme
+tile:36:40:10:10:0:2:chair
+tile:36:40:10:10:0:2:cloth
+tile:36:40:9:9:0:3:wallcloth
+tile:0:40:0:40:50:50:wallbuilding4
+tile:1:2:10:20:0:0:wallcounter
+zone:1:3:10:20:2:2:the bench
+zone:1:2:12:14:2:2:inside the sink
+zone:1:1:16:16:2:2:microwave
+zone:1:1:18:18:2:2:stove top
+src:1:1:18:18:2:2:-12:94:fry4.ogg
+tile:20:40:25:40:0:0:tile3
+tile:19:19:25:40:0:49:wallbrick4
+door:18:18:30:30:0:10:22:30:0: :1000:silence.ogg:silence.ogg:open5.ogg:close5.ogg
+door:20:20:30:30:0:10:18:30:0: :1000:silence.ogg:silence.ogg:open5.ogg:close5.ogg
+tile:22:22:40:40:0:0:stone2
+zone:22:22:40:40:0:10:a wash basin is here
+tile:30:40:36:40:0:0:wetconcrete
+shower:30:40:36:40:0:0
+washbasin:22:22:40:40:0:0
+safezone:0:40:0:40:-5:50
+zone:30:40:36:40:0:10:shower
+zone:18:18:29:30:0:10:bathroom door
+zone:20:20:30:30:0:10:door to leave the bathroom
+tile:40:40:25:25:0:2:chair
+toilet:40:40:25:25:2:2
+zone:40:40:25:25:0:10:toilet
+tile:14:18:34:34:0:3:wallcloth
+tile:14:18:38:38:0:3:wallcloth
+tile:13:13:34:38:0:3:wallcloth
+tile:14:18:34:38:4:4:cloth
+bed:14:18:34:38:4:4
+tile:13:18:34:38:0:3:wallcloth
+zone:0:18:26:40:0:10:bedroom
+zone:18:18:30:30:0:10:door to go in to the bathroom
+zone:7:39:0:23:0:0:lounge
+zone:21:40:25:35:0:0:bathroom
+zone:36:40:10:10:0:5:couch
+zone:12:12:34:38:0:5:the front of the bed
+zone:13:18:33:33:0:5:side of the bed
+zone:13:18:39:39:0:5:the side of the bed
+zone:14:18:34:38:4:10:on the bed.
+igdoor:39:39:25:25:0:0:39:25:0:here's your toilet paper:toilet_paper:1:500:silence.ogg:silence.ogg:toilet_paper_dispenser.ogg:silence.ogg
+zone:39:39:25:25:0:0:toilet paper
+zone:40:40:25:25:0:5:toilet
+tile:0:0:9:9:0:0:paper
+trashcan:0:0:9:9:0:0
+zone:0:0:9:9:0:0:rubbish bin
+wind:none.ogg
+starting_point:0:0:0:0:0:0

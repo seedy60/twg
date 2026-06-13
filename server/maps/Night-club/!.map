@@ -1,0 +1,150 @@
+mapname:Night-club
+minx:0
+maxx:300
+miny:0
+maxy:300
+minz:0
+maxz:200
+tile:0:300:0:300:0:0:carpet8
+owner:kannadiga
+litem:1
+starting_point:0:300:0:300:0:0
+deathpoint:0:300:0:300:0:0
+night:none.ogg
+tile:51:151:100:100:0:10:carpet5
+tile:51:151:101:151:10:10:hardwood
+tile:51:151:101:151:0:9:wallmetal19
+zone:51:151:100:100:0:9:stage stairs:trackme
+zone:51:151:100:100:10:120:In front of you is the stage:trackme
+zone:51:151:101:151:10:120:The stage for singing and dancing:trackme
+music:51:151:101:151:10:30:0:100:musica9.ogg
+tile:80:85:145:150:15:15:concrete23
+zone:80:85:145:150:15:25:the DJ's table:trackme
+tile:80:85:145:150:10:14:wallbarrel
+tile:82:82:144:144:10:13:chair
+tile:82:82:144:144:13:13:carpet12
+zone:82:82:144:144:10:20:The DJ's chair:trackme
+zone:0:50:0:99:0:200:Night Club
+zone:0:50:100:300:0:200:Night Club
+zone:51:300:0:99:0:200:Night Club
+zone:152:300:100:300:0:200:Night Club
+src:0:300:0:300:0:9:-10:100:party.ogg:1
+zone:0:0:50:50:0:0:Press shift enter to get to the bathroom:trackme
+travelpoint:0:0:50:50:0:0:bathroom:0:0:0:0:silence.ogg:dooropen14.ogg:close4.ogg
+tile:51:51:159:160:0:50:wallwood18
+tile:51:80:160:160:0:50:walltable2
+tile:80:80:159:160:0:60:wallwood18
+zone:52:80:159:160:0:50:The drink stand:trackme
+zone:54:54:159:159:0:0:Press enter to pay  for  cola, for 30 coins:trackme
+zone:56:56:159:159:0:0:press enter to pay for  lemonade, for 50 coins:trackme
+zone:58:58:159:159:0:0:Press enter to pay for  coffee, for 25 coins:trackme
+zone:60:60:159:159:0:0:press enter to pay for  an energy_drink, for 70 coins:trackme
+zone:62:62:159:159:0:0:press enter to buy a cup_of_coffee, for 45 coins:trackme
+zone:64:64:159:159:0:0:press enter to pay for a glass_of_fresh_lime_juice, for 60 coins:trackme
+zone:66:66:159:159:0:0:press enter to buy a glass_of_watermelon_juice, for 90 coins:trackme
+zone:68:68:159:159:0:0:press enter to buy a cup_of_beer, for 65 coins:trackme
+zone:70:70:159:159:0:0:press enter to buy a beer_bottle, for 90 coins:trackme
+zone:72:72:159:159:0:0:press enter to buy a black_coffee, for 30 coins:trackme
+zone:74:74:159:159:0:0:press enter to pay for a frozen_coffee, for 50 coins:trackme
+zone:76:76:159:159:0:0:press enter to pay for  a hot_chocolate, for 39 coins:trackme
+zone:78:78:159:159:0:0:press enter to buy a glass_of_strawberry_juice, for 60 coins:trackme
+tile:35:35:130:131:0:50:wallwoodcrate
+tile:45:45:130:131:0:50:wallwoodcrate
+tile:36:44:131:131:0:50:wallglass11
+zone:36:44:130:130:0:50:tobacco stand, lighter, and (others):trackme
+zone:37:37:130:130:0:0:press enter to buy a cigarette_pack, for 135 coins:trackme
+zone:39:39:130:130:0:0:press enter to buy a lighter, for 30 coins:trackme
+zone:36:36:130:130:0:0:press enter to buy a gas_bottle, for 25 coins:trackme
+zone:41:41:130:130:0:0:press enter to buy a ganja, for 85 coins:trackme
+zone:42:42:130:130:0:0:press enter to buy a cherry_cigar, for 60 coins:trackme
+zone:44:44:130:130:0:0:press enter to buy a weed_vape, for 70 coins:trackme
+tile:0:300:180:180:0:200:wallmetal19
+tile:200:200:0:180:0:200:wallmetal19
+zone:82:82:146:146:15:15:The DJ's laptop:trackme
+tile:82:82:146:146:15:15:metal5
+safezone:0:300:0:300:0:200
+reinforcement:5:1000000000
+description:0
+zone:0:0:0:0:0:0:If you want to exit, press shift enter:trackme
+sign:1:1:0:0:0:10:Hello and, welcome to my club. Explore, buy something, and enjoy!:sign3.ogg
+zone:1:1:0:0:0:0:Press enter to read!:trackme
+itdoor:54:54:159:159:0:0:54:160:0:you have payd 30 coins press enter to take cola:coins:30:500:silence.ogg:silence.ogg:silence.ogg:getcoins.ogg
+igdoor:54:54:159:161:0:0:54:159:0:you get a cola:cola:1:500:silence.ogg:silence.ogg:silence.ogg:getcan.ogg
+zone:54:54:160:160:0:0:press enter to take cola:trackme
+tile:51:79:161:161:0:100:walltable2
+igdoor:56:56:160:160:0:0:56:159:0:you get lemonade:lemonade:1:1:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+zone:56:56:160:160:0:0:press enter to take lemonade
+itdoor:56:56:159:159:0:0:56:160:0:you have payd 50 coins press enter to take lemonade:coins:30:500:silence.ogg:silence.ogg:silence.ogg:getcoins.ogg
+itdoor:58:58:159:159:0:0:58:160:0:you have payd 25 coins press enter to take coffee:coins:30:500:silence.ogg:silence.ogg:silence.ogg:getcoins.ogg
+zone:58:58:160:160:0:0:press enter to take coffee
+itdoor:62:62:159:159:0:0:62:160:0:you payd 45 coins press enter to take coffee:coins:40:1:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:62:62:160:160:0:0:62:159:0:you get cup of coffee:coffee:1:1:silence.ogg:silence.ogg:silence.ogg:drawcup.ogg
+zone:62:62:160:160:0:0:press enter to take cup of coffee
+igdoor:58:58:160:160:0:0:58:159:0:you get coffee:coffee:1:1:silence.ogg:silence.ogg:silence.ogg:getbeer_bottle.ogg
+itdoor:60:60:159:159:0:0:60:160:0:you payd 70 coins press enter to take drink:coins:1:1:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:60:60:160:160:0:0:60:159:0:you get energy_drink :energy_drink:1:1:silence.ogg:silence.ogg:silence.ogg:getbeer_bottle.ogg
+itdoor:64:64:159:159:0:0:64:160:0:you payd 60 coins press enter to take :coins:60:1:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+zone:64:64:160:160:0:0:press enter, to get  a glass_of_fresh_lime_juice, 
+igdoor:64:64:160:160:0:0:64:159:0:you took 1 glass of fresh lime juice:glass_of_fresh_lime_juice:1:10:silence.ogg:silence.ogg:drawempty_glass.ogg:silence.ogg
+igdoor:66:66:160:160:0:0:66:159:0:you took 1 glass of watermelon juice:glass_of_watermelon_juice:1:10:silence.ogg:silence.ogg:drawempty_glass.ogg:silence.ogg
+itdoor:66:66:159:159:0:0:66:160:0:you payd 90 coinspress enter to take a glass of watermellen juice :coins:90:1:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:78:78:160:160:0:0:78:159:0:you took 1 glassof strawberry  juice:glass_of_strawberry_juice:1:10:silence.ogg:silence.ogg:drawempty_glass.ogg:silence.ogg
+itdoor:78:78:159:159:0:0:78:160:0:you payd 60 coins press enter to take juice:coins:60:1:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+itdoor:76:76:159:159:0:0:76:160:0:you payd 39 coins press enter to take hot_chocolate:coins:39:1:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:76:76:160:160:0:0:76:159:0:you get cup of hot_chocolate:hot_chocolate:1:1:silence.ogg:silence.ogg:silence.ogg:drawcup.ogg
+itdoor:74:74:159:159:0:0:74:160:0:you pay 50 coins for frozen_coffee:coins:50:1:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:74:74:160:160:0:0:74:159:0:you get frozen_coffee:frozen_coffee:1:1:silence.ogg:silence.ogg:silence.ogg:drawempty_glass.ogg
+itdoor:72:72:159:159:0:0:72:160:0:you payd 30 coins for cup_of_black_coffee:coins:30:1:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:72:72:160:160:0:0:72:159:0:you get cup_of_black_coffee:cup_of_black_coffee:1:1:silence.ogg:silence.ogg:silence.ogg:drawempty_glass.ogg
+itdoor:68:68:159:159:0:5:68:160:0:you have paid 65 coins.:coins:65:10:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+zone:68:68:160:160:0:0:press enter to take the cup_of_beer
+igdoor:68:68:160:160:0:5:68:159:0:you took 1 cup_of_beer:cup_of_beer:1:10:silence.ogg:silence.ogg:silence.ogg:drawcup.ogg
+itdoor:70:70:159:159:0:10:70:160:0:you paid 90 coins:coins:90:10:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:70:70:160:160:0:5:70:159:0:you get 1 beer_bottle:beer_bottle:1:10:silence.ogg:silence.ogg:silence.ogg:drawbeer_bottle.ogg
+zone:70:70:160:160:0:5:press enter to take the beer bottle
+tile:35:45:132:132:0:20:wallwoodcrate
+itdoor:36:36:130:130:0:5:36:132:0:you paid 20 coins.:coins:20:10:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+tile:35:45:133:133:0:20:wallwoodcrate
+zone:36:36:132:132:0:5:press enter to take the gas_bottle
+igdoor:36:36:132:132:0:5:36:130:0:you take 1gas bottle:gas_bottle:1:5:silence.ogg:silence.ogg:silence.ogg:drawcan_of_nectar.ogg
+itdoor:37:37:130:130:0:5:37:132:0:you paid 135 coins:coins:135:5:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+zone:37:37:132:132:0:0:press enter to get the cigarette pack
+igdoor:37:37:132:132:0:0:37:130:0:you take 1 cigarette pack:cigarette_pack:1:5:silence.ogg:silence.ogg:silence.ogg:getcigarrette_pack.ogg
+itdoor:39:39:130:130:0:5:39:132:0:you paid 30 coins:coins:30:6:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+zone:39:39:132:132:0:0:press enter to get lighter
+igdoor:39:39:132:132:0:0:39:130:0:you take 1 lighter:lighter:1:5:silence.ogg:silence.ogg:silence.ogg:getlighter.ogg
+itdoor:41:41:130:130:0:5:41:132:0:you paid 85 coins.:coins:85:5:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+zone:41:41:132:132:0:0:press enter to get ganja
+igdoor:41:41:132:132:0:0:41:130:0:you take 1 ganja:ganja:1:5:silence.ogg:silence.ogg:silence.ogg:getcigarrette.ogg
+itdoor:42:42:130:130:0:5:42:132:0:you paid 60 coins:coins:60:5:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+zone:42:42:132:132:0:0:hit enter to get cherry cigar
+igdoor:42:42:132:132:0:0:42:130:0:you get 1 cherry cigar:cherry_cigar:1:5:silence.ogg:silence.ogg:silence.ogg:getcigarrette.ogg
+itdoor:44:44:130:130:0:5:44:132:0:you paid 70 coins.:coins:70:5:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+zone:44:44:132:132:0:0:press enter to get weed_vape
+igdoor:44:44:132:132:0:0:44:130:0:you get 1 weed_vape.:weed_vape:1:5:silence.ogg:silence.ogg:silence.ogg:getlighter.ogg
+tile:60:68:90:90:4:4:wood4
+tile:60:68:90:90:0:3:wallcounter
+tile:59:69:91:91:0:50:walltable
+tile:59:59:90:90:0:50:wallwood17
+tile:69:69:90:90:0:50:wallwood17
+zone:60:68:90:90:4:50:table with hot drinks:trackme
+zone:60:68:89:89:0:4:in front of the table with hot drinks:trackme
+zone:61:61:90:90:4:4:Press enter to buy a shot of tequila, for 50 coins:trackme
+zone:63:63:90:90:4:4:Press enter to buy a shampain bottle, for 90 coins:trackme
+zone:65:65:90:90:4:4:Press enter to buy a Vodka bottle, for 75 coins:trackme
+zone:67:67:90:90:4:4:Press enter to buy a whiskey bottle, for 150 coins:trackme
+itdoor:61:61:90:90:4:4:61:90:2:you paid 50 coins:coins:50:5:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+zone:61:67:90:90:2:2:press enter to get the drink
+igdoor:61:61:90:90:2:2:61:90:4:you get 1 shot of tequila:shot_of_tequila:1:5:silence.ogg:silence.ogg:silence.ogg:getbeer.ogg
+zone:69:69:89:89:0:10:A vending machine:trackme
+itdoor:63:63:90:90:4:4:63:90:2:you paid 90 coins:coins:90:5:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:63:63:90:90:2:2:63:90:4:you take 1 shampain bottle:shampain_bottle:1:5:silence.ogg:silence.ogg:silence.ogg:getlighter_fluid.ogg
+itdoor:65:65:90:90:4:4:65:90:2:you paid 70 coins:coins:70:5:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:65:65:90:90:2:2:65:90:4:you get 1 vodka bottle:vodka_bottle:1:5:silence.ogg:silence.ogg:silence.ogg:drawbeer_bottle.ogg
+itdoor:67:67:90:90:4:4:67:90:2:you paid 150 coins:coins:150:5:silence.ogg:silence.ogg:silence.ogg:drawcoins.ogg
+igdoor:67:67:90:90:2:2:67:90:4:you take 1 wisky bottle:wisky_bottle:1:5:silence.ogg:silence.ogg:silence.ogg:getbeer_bottle.ogg
+tile:69:69:89:89:0:0:beam
+vending_machine:69:89:0
+travelpoint:0:0:0:0:0:20:a_noisy_city:38:144:0:hope you enjoyed.:silence.ogg:silence.ogg:silence.ogg
+
+rain:none.ogg

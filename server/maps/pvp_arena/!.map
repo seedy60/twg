@@ -1,0 +1,24 @@
+mapname:pvp_arena
+minx:0
+maxx:40
+miny:0
+maxy:40
+minz:0
+maxz:40
+tile:0:40:0:40:0:0:sand
+owner:kiwi-james
+litem:1
+starting_point:0:40:0:40:0:0
+deathpoint:0:40:0:40:0:0
+src:0:40:0:40:0:40:-10:100:ambientbattle.ogg:1
+zone:0:40:0:40:0:40:pvp_arena
+night:none.ogg
+tile:0:40:0:40:20:20:concrete4
+door:0:0:0:0:0:0:0:0:20:you go to the  spectators platform:0:silence.ogg:notify_swoosh.ogg:silence.ogg:silence.ogg
+zone:0:40:0:40:20:20:spectators platform, sit back and enjoy
+zone:0:0:0:0:0:7:to spectate, press enter
+door:0:0:0:0:20:20:0:0:0:you go back down:5:silence.ogg:notify_swoosh.ogg:silence.ogg:silence.ogg
+zone:0:0:0:0:20:27:to go back, press enter
+
+reinforcement:0:10000000
+zone:0:0:0:0:0:0:spectating area:trackme

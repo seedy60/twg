@@ -1,0 +1,92 @@
+mapname:directional_cave
+minx:0
+maxx:200
+miny:0
+maxy:200
+minz:0
+maxz:200
+starting_point:0:0:0:0:3:3
+death_point:0:0:0:0:3:3
+owner:powermon
+litem:1
+tile:0:200:0:200:0:0:hazard
+automover:0:49:0:49:0:0:0:0:3:woops?:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:50:99:0:99:0:0:50:50:3:woops?:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:0:99:50:99:0:0:50:50:3:woops?:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:100:149:0:149:0:0:100:100:3:woops?:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:0:149:100:149:0:0:100:100:3:woops?:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:0:200:150:200:0:0:150:150:3:woops?:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+automover:150:200:0:200:0:0:150:150:3:woops?:0:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+zone:0:200:0:200:0:200:direction cave 
+tile:0:0:0:25:3:3:deck
+sign:0:0:0:0:3:10:welcome to my cave! your job is fairly simple. you have to memorise the tile for each direction. when you get on that tile, you have to move to that direction. be careful. if you go over the platform, you are done for! muhahahahahah!:sign.ogg
+tile:0:25:25:25:3:3:tile
+sign:0:0:25:25:3:10:this tile marks the east direction. run along in the east direction to find the other tiles. and %n? so good so far.:sign.ogg
+tile:25:25:0:25:3:3:bathtub
+sign:25:25:25:25:3:10:this is the south tile. now go in the south direction to find the last one.:sign.ogg
+zone:0:0:0:0:3:10:first sign
+zone:0:0:25:25:3:10:second sign
+zone:25:25:25:25:3:10:thurd sign
+tile:15:25:0:0:3:3:marble2
+zone:25:25:0:0:3:10:last sign
+sign:25:25:0:0:3:10:welcome. the last tile. this one points to west. good luck, hero. because once you decide to continue this dangerous adventure, you may not come back alive, if you come back at all... that is.:sign.ogg
+zone:15:15:0:0:3:10:press enter to start the task.
+door:15:15:0:0:3:10:50:50:3:good luck. may the gods be with you, hero:0:silence.ogg:silence.ogg:door69open.ogg:silence.ogg
+sign:50:50:50:50:3:10:remember all the tiles you memorised for each direction? no? well too bad! hahahahahahahah! yes? good luck then!:sign.ogg
+zone:50:50:50:50:3:10:start your adventure! go north
+tile:50:50:50:58:3:3:deck
+tile:41:50:59:59:3:3:marble2
+tile:40:40:59:80:3:3:deck
+tile:40:60:80:80:3:3:tile
+tile:60:60:75:80:3:3:bathtub
+tile:60:75:75:75:3:3:tile
+tile:75:75:75:100:3:3:deck
+tile:75:100:100:100:3:3:tile
+tile:100:100:85:100:3:3:bathtub
+tile:100:125:85:85:3:3:tile
+tile:125:125:85:90:3:3:deck
+tile:125:130:90:90:3:3:tile
+tile:130:130:90:95:3:3:deck
+tile:125:130:95:95:3:3:marble2
+tile:125:125:95:125:3:3:deck
+tile:125:145:125:125:3:3:tile
+tile:145:145:125:150:3:3:deck
+tile:145:160:150:150:3:3:tile
+tile:160:160:150:160:3:3:deck
+sign:160:160:160:160:3:10:welp, why wont you trust me and go east now? try it. promise I'll give you a cookie:silence.ogg
+zone:160:160:160:160:3:10:sign
+tile:160:170:160:160:3:3:dirt10
+sign:170:170:160:160:3:3:yeah, that's your new east tile. did I promise a cookie? oh well, just wait for it.:silence.ogg
+zone:170:170:160:160:3:10:sign
+tile:170:180:160:160:3:3:dirt10
+tile:180:180:160:170:3:3:deepsand
+sign:180:180:170:170:3:10:yeah, tile for the north. dont worry, the cookie is near!:silence.ogg
+zone:180:180:170:170:3:10:sign
+tile:180:180:170:180:3:3:deepsand
+tile:180:200:180:180:3:3:dirt10
+tile:200:200:180:200:3:3:deepsand
+tile:200:200:200:200:3:50:carpet9
+sign:200:200:200:200:3:3:did I forget something? oh yeah, go up, hidden tile. no? welp. there is your muffin. on the carpet stairs. oh. did I promise a cookie? sorry, I dont have any. but muffins are more good. so heheheheehehehehe.:sign.ogg
+zone:200:200:200:200:50:50:congratulations. press shift enter to finish.
+tile:200:200:200:200:50:50:cloth
+sign:180:180:160:160:3:10:go north! for the sake of the cookie!:silence.ogg
+safezone:0:200:0:200:0:200
+checkpoint:0:0:3
+checkpoint:50:50:3
+checkpoint:100:100:3
+music:0:200:0:200:0:200:-10:100:musica92.ogg:1
+disable:coordinates
+disable:spy
+disable:camera
+disable:jump
+fire:0:200:0:200:0:0:100:200
+zone:180:180:160:160:3:10:sign
+tile:199:199:195:200:3:100:wall
+tile:195:200:199:199:4:100:wall
+tile:200:200:200:200:39:39:wall
+igdoor:200:200:200:200:38:38:200:200:40:muffin!:lol_muffin:1:0:silence.ogg:silence.ogg:silence.ogg:getpopcorn.ogg
+zone:200:200:200:200:38:40:muffin!
+src:0:200:0:200:0:200:-5:100:cave2.ogg:1
+automatic_travelpoint:200:200:200:200:50:50:main_map:5:1:1:yay! congrats!:silence.ogg:win2.ogg:silence.ogg
+task_status:200:200:200:200:50:50:credit:200000
+night:none

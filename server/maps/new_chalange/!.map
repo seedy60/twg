@@ -1,0 +1,106 @@
+mapname:new_chalange
+owner:sanjay
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:0:0:0:0:0
+enable:2dsupport
+maxx:1000
+miny:-50
+maxy:0
+minz:-80
+maxz:1000
+tile:11:15:0:0:0:0:hazard
+tile:31:37:0:0:0:0:hazard
+tile:42:44:0:0:1:30:rope
+tile:46:51:0:0:0:30:ladder3
+tile:46:46:0:0:0:28:wallwoodcrate
+tile:61:66:0:0:0:0:air
+automover:60:79:0:0:-10:-10:60:0:0:oopsy doopsy! you fell down. go back:500:silence.ogg:elev.ogg:silence.ogg:silence.ogg
+tile:71:72:0:0:1:100:vent
+tile:74:75:0:0:0:99:wallwood16
+tile:76:80:0:0:0:100:branch2
+tile:80:500:0:0:0:0:dirt5
+tile:161:162:0:0:0:50:deepsand
+tile:165:165:0:0:0:49:wallstone
+tile:163:250:0:0:50:50:grass
+tile:251:251:1:0:0:55:walltree
+tile:250:250:0:0:0:50:leaves2
+tile:160:160:0:0:1:55:walltree
+tile:251:251:0:0:1:60:walltree
+tile:249:249:0:0:0:49:walltree
+tile:280:330:0:0:0:0:deepwater
+tile:270:280:0:0:0:0:water3
+fishingcoordinate:281:320:0:0:0:0
+tile:331:350:0:0:0:0:carpet5
+tile:351:351:0:0:0:10:wallwood13
+starting_point:0:0:0:0:0:0
+tile:335:335:0:0:0:100:wallglass5
+night:none
+wind:none
+rain:none
+task_status:350:350:0:0:0:0:coins:1000000
+travelpoint:350:350:0:0:0:0:main_map:5:1:0:sanjay and kannadiga welcomes you to try again.:silence.ogg:silence.ogg:aplause3.ogg
+icdoor:334:334:0:0:0:0:336:0:0:hi chalanger thanks for great help with fishes:fish:100:2:silence.ogg:fishswim2.ogg:silence.ogg:silence.ogg
+tile:0:10:0:0:0:0:grass
+tile:16:30:0:0:0:0:grass
+tile:38:45:0:0:0:0:grass
+tile:47:60:0:0:0:0:dirt5
+tile:67:73:0:0:0:0:dirt5
+zone:0:45:0:0:0:100:path to crosse some obsticles.
+zone:42:44:0:0:1:100:a rope. climb here also careful:trackme
+zone:46:73:0:0:0:100:durt road 
+zone:71:80:0:0:1:110:a small stair. careful here
+zone:81:164:0:0:0:100:more tricky way
+vanishing_platform:131:139:0:0:0:0:3000:metal2:conveyer.ogg
+tile:130:130:0:0:0:0:ledge
+tile:140:140:0:0:0:0:ledge:trackme
+zone:47:51:0:0:1:100:staires
+zone:161:162:0:0:1:100:ssand stairs 
+zone:165:249:0:0:0:100:A SMALL JUNGLE 
+zone:250:250:0:0:0:100:LEEVS STAIRE
+tile:261:269:0:0:0:0:clay
+tile:251:260:0:0:0:0:mud4
+zone:251:260:0:0:0:100:mudd near small pond 
+zone:261:269:0:0:0:100:clay near small pond 
+zone:270:280:0:0:0:100:shallow water 
+tile:320:330:0:0:0:0:water3
+zone:320:330:0:0:0:10:shallow water
+zone:281:320:0:0:0:100:a small pond. you can fish here
+zone:331:333:0:0:0:10:near fish marcket 
+zone:334:334:0:0:0:10:fish seller marcket press enter to sell your fish and go inside
+zone:336:349:0:0:0:100:path to complete chalange 
+zone:350:350:0:0:0:100: press shift enter to clame your reward.
+src:0:45:0:0:0:100:0:100:jungle4.ogg:1
+zone:46:46:0:0:50:100:staires
+zone:46:46:0:0:0:100:staires
+src:45:162:0:0:0:50:0:100:factory.ogg:1
+src:163:250:0:0:50:100:0:100:jungle_r2.ogg:1
+src:270:330:0:0:0:100:0:100:oceano3.ogg:1
+src:250:270:0:0:0:100:0:100:lake.ogg
+sign:0:0:0:0:0:0:welcome chalanger! this chalange is little different. in order to complete this chalange, you have to find way with camera. also, you have to catch sum fishs to go end of this map. happy playing!:sign.ogg
+vanishing_platform:90:99:0:0:0:0:3000:metal2:conveyer.ogg
+tile:89:89:0:0:0:0:ledge:trackme
+tile:89:100:0:0:-50:-50:ledge2:trackme
+tile:130:130:0:0:-50:-1:wall
+tile:100:100:0:0:-50:-1:wall
+src:89:100:0:0:-50:-50:0:100:lava.ogg
+door:89:100:0:0:-50:-50:89:0:0:lets go back:100:silence.ogg:lift.ogg:silence.ogg:silence.ogg
+zone:89:100:0:0:-50:-50:press enter to go back 
+tile:89:89:0:0:-50:-1:wall
+tile:131:139:0:0:-50:-50:ledge2:trackme
+tile:140:140:0:0:-50:-1:wall
+src:130:140:0:0:-50:-50:0:100:lava.ogg
+door:130:140:0:0:-50:-50:130:0:0:lets go back:100:silence.ogg:lift.ogg:silence.ogg:silence.ogg
+zone:130:140:0:0:-50:-50:press enter to go back 
+checkpoint:10:0:0
+tile:-1:-1:0:0:0:10:wallwood6
+tile:81:81:0:0:1:100:wallfoliage
+tile:163:163:0:0:1:50:wallstone2
+src:11:40:0:0:0:10:0:100:chasm.ogg
+src:336:360:0:0:0:100:-5:90:people2.ogg:1
+src:60:67:0:0:0:10:0:100:madlab1.ogg
+tile:73:73:0:0:1:99:wallwood17
+tile:45:45:0:0:1:29:wallgeneric2
+ai:168:240:0:0:50:100:50000:1:tiger
+reinforcement:0:10000000
+item_usage_restriction:0:1000:0:0:0:1000:friendship_sphere:marriage_ring

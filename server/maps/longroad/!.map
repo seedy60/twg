@@ -1,0 +1,26 @@
+mapname:longroad
+minx:0
+maxx:200
+miny:0
+maxy:200
+minz:0
+maxz:100
+owner:kannadiga
+litem:1
+deathpoint:0:200:0:200:0:0
+zone:0:200:0:200:0:10:a long road.
+night:none.ogg
+tile:0:200:0:200:0:0:concrete8
+starting_point:1:0:0:0:0:0
+travelpoint:0:0:10:10:0:0:lindow_town:1:83:0: :silence.ogg:silence.ogg:silence.ogg
+zone:0:0:10:10:0:0:press shift enter to go to lindow town.:trackme
+wind:none.ogg
+item_usage_restriction:0:200:0:100:0:100:conex:partner_house:fridge:microwave:beehive:fan:air_conditioner
+ai:0:200:0:200:0:0:35000:4:bicycle:car:moter_bike
+ai:0:200:0:200:0:0:40000:2:moter_cycle:minitruck:skate_board
+travelpoint:0:200:200:200:0:100:kiwi-james_evil_garage:0:0:0:you enter the garage, hearing evil laughter!:silence.ogg:silence.ogg:silence.ogg
+zone:0:200:200:200:0:0:to enter Kiwi james's evil garage, press shift+enter:trackme
+reinforcement:0:10000000
+src:0:200:0:200:0:100:-10:100:birds20.ogg:1
+tile:0:200:0:200:0:0:gravel7
+src:0:200:0:200:0:100:-12:91:sky_indica.ogg:1

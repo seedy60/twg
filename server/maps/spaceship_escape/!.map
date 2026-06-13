@@ -1,0 +1,21 @@
+mapname:spaceship_escape
+minx:0
+maxx:200
+miny:0
+maxy:0
+minz:0
+maxz:1000
+tile:0:200:0:0:0:0:metal5
+owner:spaceman
+litem:1
+starting_point:0:200:0:0:0:0
+deathpoint:0:200:0:0:0:0
+enable:2dsupport
+checkpoint:0:0:0
+automatic_dialog:0:0:0:0:0:0:you are trapped in your rapidly falling apart  spaceship. you need to get out of here.
+tile:10:11:0:0:0:1000:wall
+door:9:9:0:0:0:0:12:0:0:in you go:1000:silence.ogg:silence.ogg:door24open.ogg:door30close.ogg
+zone:0:9:0:0:0:1000:the airlock of  your ship. you need to get to the docking bay:trackme
+zone:9:9:0:0:0:1000:the airlock door. note: once you go through, there is no turning back
+
+safezone:0:9:0:0:0:1000

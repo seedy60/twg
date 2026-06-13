@@ -1,0 +1,13 @@
+mapname:vectoristan
+minx:0
+maxx:10
+miny:0
+maxy:0
+minz:0
+maxz:10
+tile:0:10:0:0:0:0:wood11
+owner:hayalet
+litem:0
+starting_point:0:10:0:0:0:0
+deathpoint:0:10:0:0:0:0
+enable:2dsupport

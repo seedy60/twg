@@ -1,0 +1,31 @@
+mapname:survival_store
+minx:-1
+maxx:21
+miny:-1
+maxy:21
+minz:0
+maxz:20
+litem:1
+starting_point:-1:21:-1:21:0:0
+deathpoint:-1:21:-1:21:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+owner:turando
+tile:0:20:0:20:0:0:wood14
+zone:0:20:0:20:0:20:survival_store
+src:0:20:0:20:0:20:0:100:people3.ogg
+music:0:20:0:20:0:20:-15:100:menumus37.ogg
+tile:-1:-1:0:20:0:20:wallbuilding3
+tile:-1:21:-1:-1:0:20:wallbuilding3
+tile:21:21:0:20:0:20:wallbuilding3
+tile:-1:21:21:21:0:20:wallbuilding3
+opening_hours:7:30
+safezone:-1:21:-1:21:0:20
+zone:20:20:9:11:0:20:exit door. Press shift enter to go out.
+tile:21:21:9:11:0:20:wallglass11
+travelpoint:20:20:9:11:0:0:mall:0:30:20:you go back in the mall:silence.ogg:door12open.ogg:door12close.ogg
+item_usage_restriction:-1:21:-1:21:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+zone:20:20:9:11:0:10:exit door. Press shift enter to go out. :trackme
+
+reinforcement:0:10000000

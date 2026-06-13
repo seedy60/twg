@@ -1,0 +1,26 @@
+mapname:torgone's_temple
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:100
+litem:1
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+night:none.ogg
+owner:turando
+tile:0:100:0:100:0:0:concrete14
+zone:0:100:0:100:0:100:an old temple
+music:0:100:0:100:0:100:-10:100:musica75.ogg
+item_usage_restriction:0:100:0:100:0:100:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+ai:0:100:0:100:0:0:50000:3:torgone1:torgone2:torgone3
+ai:0:100:0:100:0:0:70000:3:torgone4:torgone5:torgone6
+ai:0:100:0:100:0:0:100000:3:torgone7:torgone_leader
+zone:0:0:0:100:0:100:press shift enter to go in the ghost city:trackme
+travelpoint:0:0:0:100:0:0:ghost_continent:200:100:0:you go in the ghost city:silence.ogg:silence.ogg:silence.ogg
+rain:none.ogg
+night:none.ogg
+src:0:100:0:100:0:100:-15:100:torgones.ogg:1
+src:0:100:0:100:0:100:-10:100:eerie1.ogg:1
+reinforcement:0:10000000

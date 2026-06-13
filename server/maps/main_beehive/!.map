@@ -1,0 +1,28 @@
+mapname:main_beehive
+minx:0
+maxx:15
+miny:0
+maxy:16
+minz:0
+maxz:10
+owner:kannadiga
+litem:1
+starting_point:0:10:0:10:0:0
+deathpoint:0:10:0:10:0:0
+tile:0:0:0:15:0:10:wallwood15
+tile:15:15:0:15:0:10:wallwood15
+tile:0:15:0:0:0:10:wallwood15
+tile:0:15:15:15:0:10:wallwood15
+tile:0:15:0:15:10:10:wallwood15
+zone:0:15:0:15:0:10:in the beehive 
+zone:1:14:14:14:0:9:press shift enter to exit beehive:trackme
+travelpoint:1:14:14:14:0:10:main:27:0:15: :silence.ogg:open chest.ogg:close chest.ogg
+item_usage_restriction:0:15:0:15:0:10:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+enable:coordinates
+ai:0:15:0:15:0:0:20000:1:honey_bee
+src:0:15:0:15:0:10:-7:100:beehive.ogg:1
+tile:0:14:0:14:0:0:leaves4
+reinforcement:0:10000000

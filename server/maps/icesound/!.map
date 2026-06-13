@@ -1,0 +1,95 @@
+mapname:icesound
+minx:0
+maxx:30
+miny:0
+maxy:30
+minz:0
+maxz:30
+owner:icesound
+litem:1
+tile:0:30:0:30:0:0:marble5
+src:0:30:0:30:0:30:0:100:amb9.ogg:1
+tile:5:10:10:15:0:2:wallsofa
+night:none.ogg
+wind:none.ogg
+rain:telha2.ogg
+tile:5:10:10:15:3:3:cloth
+tile:5:10:16:16:0:5:wallsofa
+tile:5:10:16:16:5:5:smallwood
+tile:18:26:21:26:0:1:wallwood16
+tile:18:26:21:26:2:2:wood4
+tile:20:20:20:20:0:1:chair
+tile:22:22:20:20:0:1:chair
+tile:25:25:20:20:0:1:chair
+tile:0:0:25:30:0:20:wallbuilding6
+tile:5:5:25:30:0:20:wallbuilding6
+tile:0:5:25:25:0:20:wallbuilding6
+door:3:3:24:24:0:0:3:26:0: :1500:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+door:3:3:26:26:0:0:3:24:0: :1500:silence.ogg:silence.ogg:door5open.ogg:door5close.ogg
+tile:3:3:25:25:0:20:wallbuilding
+tile:0:30:0:30:30:30:wallwoodcrate
+tile:1:4:26:30:0:0:marble3
+tile:4:4:30:30:0:0:wetconcrete
+shower:4:4:30:30:0:0
+tile:1:1:30:30:0:0:diamond
+toilet:1:1:30:30:0:0
+bed:5:10:10:15:3:3
+zone:0:30:0:30:0:30:A small room decorated with eye-catching patterns, the floor is paved with marble, has soft colors, helps you fall asleep easily, and work more focused.
+zone:5:10:10:15:3:10:a white bed with green patterns:trackme
+zone:5:10:16:16:0:10:The bed head is painted in a glossy wood color.
+zone:0:4:26:30:0:30:a small bathroom:trackme
+zone:3:3:24:26:0:10:bathroom door:trackme
+zone:1:1:30:30:0:10:a wite toylet
+zone:4:4:30:30:0:10:shower
+zone:20:20:20:20:0:1:icesounds chair:trackme
+zone:18:26:21:26:2:10:office desk:trackme
+zone:22:22:20:20:0:10:hoanganhs chair:trackme
+litem:0
+specified_air_temperature:0:30:0:30:0:30:23
+tile:19:20:21:23:2:2:generic
+tile:19:20:24:24:2:3:wallglass5
+zone:19:20:21:24:2:10:icesound laptop
+tile:22:22:21:23:2:2:ceramic4
+zone:22:23:21:23:2:3:hoanganh laptop
+tile:22:23:21:23:2:2:generic
+tile:22:23:24:24:2:3:wallglass5
+tile:21:21:24:25:2:2:glass2
+zone:21:21:24:25:2:2:icesound IPhone
+zone:24:24:24:24:2:2:hoanganh telephone
+tile:24:24:24:24:2:2:glass
+music:0:30:0:30:0:30:0:100:musica68.ogg:1
+tile:20:20:19:19:0:2:wallsofa
+tile:22:22:19:19:0:2:wallsofa
+tile:25:25:19:19:0:2:wallsofa
+zone:0:0:0:0:0:0:vending_machine
+vending_machine:0:0:0
+tile:0:0:0:0:0:0:metal12
+washbasin:4:4:26:26:0:0
+tile:4:4:26:26:0:0:ceramic2
+zone:4:4:26:26:0:5:A washbasin:trackme
+tile:10:15:28:30:0:3:wallcounter
+tile:10:15:28:30:4:4:hardwood7
+zone:10:15:28:30:4:10:a small counter:trackme
+tile:13:13:29:29:4:4:metal5
+zone:13:13:29:29:4:10:Hot steel sheet for frying:trackme
+oven:13:13:29:29:4:4
+starting_point:5:5:5:5:0:0
+src:19:23:21:23:2:2:0:100:keabord.ogg
+tile:26:26:24:26:2:2:glass
+zone:26:26:24:26:2:10:CIA teams Phone:trackme
+src:26:26:24:26:2:2:-20:100:telefone.ogg:1
+tile:25:26:21:23:2:2:generic
+zone:25:26:21:23:2:2:tuanthanh laptop
+tile:25:26:23:23:2:3:wallglass5
+src:19:20:21:23:2:2:-10:100:laptop.ogg
+src:25:26:21:22:2:2:-10:100:laptop.ogg
+src:22:23:21:23:2:2:-10:100:laptop.ogg
+owner:Mongkol
+enable:voicechat
+safezone:0:30:0:30:0:30
+url:https://streaming.flexconnect.net/voiceflex/voiceflex/playlist.m3u8
+reverb:0:30:0:30:0:30:1:1.0:1.0:0.1:0.5:1.0
+zone:25:25:20:20:0:10:Mongkol's chair:trackme
+
+tile:5:5:5:5:0:0:ice
+owner:dark-night

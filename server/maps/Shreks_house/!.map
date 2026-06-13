@@ -1,0 +1,82 @@
+mapname:Shreks_house
+minx:0
+maxx:150
+miny:0
+maxy:0
+minz:0
+maxz:1000
+tile:0:200:0:0:0:0:carpet3
+owner:Shrek
+starting_point:0:200:0:0:0:0
+deathpoint:0:200:0:0:0:0
+enable:2dsupport
+night:none.ogg
+zone:0:30:0:0:0:100:Living room.
+tile:31:31:0:0:0:100:walldoor
+src:0:30:0:0:0:100:0:100:room3.ogg:1
+tile:10:16:0:0:0:3:wallcloth
+tile:10:16:0:0:4:4:cloth
+bed:10:16:0:0:4:4
+zone:9:17:0:0:0:20:A really comfortable bed.
+tile:21:26:0:0:0:3:walltable
+tile:21:26:0:0:4:4:wood13
+zone:20:27:0:0:0:20:A little nightstand.
+tile:28:28:0:0:0:0:paper
+trashcan:28:28:0:0:0:0
+zone:28:28:0:0:0:20:Trash can, you can throw unwanted things here.
+door:30:30:0:0:0:0:32:0:0:Moving.:1000:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+door:32:32:0:0:0:0:30:0:0:Moving.:1000:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+zone:22:22:0:0:4:20:A clock, press enter to check the time.
+clock:22:22:0:0:4:4:The time is
+zone:24:24:0:0:4:20:A calendar, press enter to check the date
+calendar:24:24:0:0:4:4:The date is
+tile:32:80:0:0:0:0:ceramic2
+zone:30:30:0:0:0:20:Door to the kitchen.
+zone:32:32:0:0:0:20:Door back to the living room.
+tile:81:81:0:0:0:30:walldoor
+wind:none.ogg
+zone:33:79:0:0:0:20:Kitchen.
+zone:80:80:0:0:0:20:Door to the bathroom.
+tile:40:50:0:0:0:3:wallcounter
+tile:40:50:0:0:4:4:wood14
+zone:39:51:0:0:0:20:A counter with a stove and more things.
+tile:45:46:0:0:4:4:metal4
+zone:45:46:0:0:4:20:A stove, you can cook on it any meat
+oven:45:46:0:0:4:4
+tile:41:42:0:0:4:4:water7
+zone:41:42:0:0:4:20:A sink, you can wash hands here.
+washbasin:41:42:0:0:4:4
+litem:0
+tile:24:24:0:0:4:4:paper
+tile:22:22:0:0:4:4:metal5
+src:32:80:0:0:0:100:0:100:base_ambience.ogg:1
+tile:55:65:0:0:0:0:chair
+zone:55:65:0:0:0:20:A set of chairs to sit on and relax.
+tile:69:74:0:0:0:3:walltable
+zone:68:75:0:0:0:20:A table next to the set of chairs.
+tile:69:74:0:0:4:4:wood4
+door:80:80:0:0:0:0:82:0:0:Moving.:1000:silence.ogg:silence.ogg:open4.ogg:close4.ogg
+tile:82:150:0:0:0:0:carpet
+door:82:82:0:0:0:0:80:0:0:Moving.:1000:silence.ogg:silence.ogg:open4.ogg:close4.ogg
+zone:82:82:0:0:0:20:Door back to the kitchen.
+zone:83:150:0:0:0:20:A bathroom, you can sit on the toilet or wash your self in the bathtub.
+src:82:150:0:0:0:20:0:100:bathroom.ogg:1
+tile:90:100:0:0:0:3:wallpole
+tile:90:100:0:0:4:4:metal15
+zone:89:101:0:0:0:20:A toilet, you can sit and make... you know what.
+toilet:90:100:0:0:4:4
+tile:110:110:0:0:0:3:wallbuilding
+tile:110:110:0:0:4:4:metal5
+tile:120:120:0:0:0:3:wallbuilding
+tile:111:119:0:0:0:0:water10
+tile:120:120:0:0:4:4:metal5
+shower:111:119:0:0:0:0
+zone:109:110:0:0:0:20:edge of the bathtub.
+zone:111:119:0:0:0:20:In side the bathtub, you can wash your self here.
+zone:120:121:0:0:0:20:A nother edge of the bathtub.
+tile:78:78:0:0:0:0:paper
+zone:78:78:0:0:0:20:A second trash can.
+trashcan:78:78:0:0:0:0
+owner:Dobby
+rain:none.ogg
+enable:ttschat

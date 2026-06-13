@@ -1,0 +1,39 @@
+mapname:observation_hut
+minx:0
+maxx:20
+miny:0
+maxy:20
+minz:0
+maxz:10
+tile:0:20:0:20:0:0:wobbly_wood
+owner:oguzhanaktas
+litem:1
+starting_point:0:20:0:20:0:0
+deathpoint:0:20:0:20:0:0
+zone:0:20:0:20:0:10:observation hut
+tile:5:8:9:11:3:3:deck
+zone:5:8:9:11:3:3:on the table.
+tile:5:8:8:8:0:3:walltable
+zone:5:8:7:7:0:3:near the table.:trackme
+tile:5:8:12:12:0:3:walltable
+zone:5:8:13:13:0:3:near the table.
+tile:5:8:14:14:0:1:chair
+zone:5:8:14:14:0:1:a long row of chairs. to sit and relax.
+tile:5:8:6:6:0:1:chair
+zone:5:8:6:6:0:1:a long row of chairs. to sit and relax.:trackme
+rain:none.ogg
+tile:6:6:20:20:0:5:wallglass5
+zone:6:6:19:19:0:5:viewing glass:trackme
+tile:6:6:20:20:5:5:glass2
+zone:6:6:20:20:5:5:top of viewing glass
+tile:15:20:0:0:0:0:cloth
+zone:15:20:0:0:0:0:a soft animalskin blanket. you can sleep if you wish.:trackme
+bed:15:20:0:0:0:0
+travelpoint:0:0:0:0:0:0:Camping_area:99:100:100:you're back at the campsite:silence.ogg:silence.ogg:silence.ogg
+zone:0:0:0:0:0:0:press shift enter to return:trackme
+wind:none.ogg
+night:none.ogg
+music:0:20:0:20:0:10:-10:100:menumus31.ogg
+safezone:0:20:0:20:0:10
+
+reinforcement:0:10000000

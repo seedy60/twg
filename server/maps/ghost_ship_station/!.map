@@ -1,0 +1,45 @@
+mapname:ghost_ship_station
+minx:-1
+maxx:21
+miny:-1
+maxy:21
+minz:0
+maxz:20
+litem:1
+starting_point:0:20:0:20:0:0
+deathpoint:0:20:0:20:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+disable:coordinates
+owner:turando
+tile:0:20:0:20:0:0:concrete3
+zone:0:20:0:20:0:20:ghost ship station
+src:0:20:0:20:0:20:0:100:people2.ogg
+music:0:20:0:20:0:20:-15:100:musica65.ogg
+item_usage_restriction:0:20:0:20:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+tile:-1:-1:0:20:0:20:wallbuilding3
+tile:-1:21:-1:-1:0:20:wallbuilding3
+tile:21:21:0:20:0:20:wallbuilding3
+tile:0:21:21:21:0:20:wallbuilding3
+tile:0:20:11:11:0:20:wallbuilding3
+zone:0:0:4:6:0:20:toilets door:trackme
+travelpoint:0:0:4:6:0:0:ghost_ship_station_toilets:20:5:0:you go in the toilets:silence.ogg:door28open.ogg:door28close.ogg
+tile:-1:-1:4:6:0:20:wallwood19
+zone:19:20:4:6:0:0:ghosttiketmachine_store:trackme
+tile:19:20:4:6:0:0:wood12
+zone:8:12:10:10:0:20:boarding gate:trackme
+tile:8:12:11:11:0:20:wallcone
+itdoor:8:12:10:10:0:0:10:12:0:you pass the boarding gate:tiket_for_main_continent:1:1000:silence.ogg:silence.ogg:catraca.ogg:silence.ogg
+zone:0:20:12:20:0:20:boarding pacerelle
+tile:0:20:12:20:0:20:grate
+zone:8:12:20:20:0:20:ship door. Press shift enter to go in
+travelpoint:8:12:20:20:0:0:ghost_ship:3:0:20: :silence.ogg:silence.ogg:silence.ogg
+tile:8:12:21:21:0:20:wallmedal3
+zone:8:12:0:0:0:20:exit door, press shift enter to go houte:trackme
+travelpoint:8:12:0:0:0:0:ghost_continent:60:40:0:you arrive in a strange city:silence.ogg:door79open.ogg:door79close.ogg
+tile:8:12:-1:-1:0:20:wallglass13
+
+enable:coordinates
+reinforcement:0:10000000
+zone:0:0:0:0:0:8:lihaha's medical_store:trackme

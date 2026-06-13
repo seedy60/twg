@@ -1,0 +1,2177 @@
+mapname:pet-cafe
+minx:0
+maxx:500
+miny:0
+maxy:500
+minz:0
+maxz:500
+tile:0:500:0:500:0:0:concrete6
+owner:Dinomind
+litem:1
+starting_point:0:500:0:500:0:0
+deathpoint:0:500:0:500:0:0
+owner:aghony
+zone:0:500:0:500:0:500:pet-cafe
+safezone:0:500:0:500:0:500
+tile:0:60:60:100:0:0:grass3:trackme
+tile:60:60:60:100:0:20:wallfoliage:trackme
+tile:0:0:60:100:0:20:wallfoliage:trackme
+src:0:100:0:55:0:20:0:100:street2.ogg:1
+zone:0:60:60:100:0:20:Beautiful garden, shady atmosphere and can walk through:trackme
+zone:101:160:0:55:0:20:car park:trackme
+tile:1:3:64:66:0:10:tree:trackme
+src:101:160:0:55:0:20:-10:100:street4.ogg:1
+zone:1:4:63:67:0:20:ornamental fence:trackme
+tile:101:160:0:55:0:0:cave
+src:0:60:60:100:0:20:0:100:G_AMB_FORET_S_1.ogg:1
+tile:1:3:74:76:0:10:tree:trackme
+zone:1:4:73:77:0:20:tall palm tree beside the fence:trackme
+tile:1:3:84:86:0:10:tree:trackme
+zone:1:4:83:87:0:20:coconut tree:trackme
+tile:1:4:93:95:0:10:tree:trackme
+zone:1:4:92:96:0:20:orange tree:trackme
+zone:0:100:0:55:0:20:bus station:trackme
+zone:161:200:0:55:0:20:market:trackme
+tile:57:59:64:66:0:10:tree:trackme
+zone:56:59:63:67:0:20:lemon tree:trackme
+src:161:200:0:55:0:20:-5:100:5_MARCHE_VILLE_BF_1_WX.ogg:1
+tile:0:500:57:57:0:20:wallfence8
+zone:0:500:56:58:0:20:Pink fence carved images of various pets:trackme
+tile:201:245:0:55:0:0:grass3
+zone:201:245:0:55:0:20:A park, here you can take your pet for a walk.:trackme
+door:246:256:56:56:0:0:250:58:0:Welcome. There are many pets here. Have fun with my cafe:3:silence.ogg:silence.ogg:entering_factory.ogg:skclose2.ogg
+zone:246:256:56:57:0:20:cafe entrance door:trackme
+zone:246:256:58:58:0:20:The exit door from the cafe:trackme
+door:246:256:58:58:0:0:250:56:0:If you feel fun and happy with my cafe. Please come back again. See you.:3:silence.ogg:silence.ogg:entering_factory.ogg:skclose2.ogg
+src:201:245:0:55:0:20:-10:100:kids2.ogg:1
+zone:10:10:0:0:0:20:This motorcycle will take you to the cafe door.:trackme
+tile:246:256:57:57:0:20:wallfence
+zone:246:256:0:55:0:20:cafe entrance road:trackme
+tile:105:106:5:9:0:1:wallwoodcrate
+zone:104:107:4:10:0:9:red honda car
+tile:105:106:15:19:0:1:wallwood16
+zone:104:107:14:20:0:9:black MITSUBISHI car
+tile:105:106:25:29:0:1:wallwood8
+zone:104:107:24:30:0:9:white NISSAN car
+tile:105:106:35:39:0:1:wallwood7
+zone:104:107:34:40:0:9:Green CHEVROLET car
+tile:105:106:45:49:0:1:wallwood6
+zone:104:107:44:50:0:9:blue Toyota car
+tile:115:116:5:9:0:1:wallmetal20
+zone:114:117:4:10:0:9:pink Tesla car
+tile:115:116:15:19:0:1:wallcar
+zone:114:117:14:20:0:9:Yellow BYD car
+tile:115:116:25:29:0:1:wallmedal3
+zone:114:117:24:30:0:9:Bronze BMW car.
+tile:115:116:35:39:0:1:walldiamond
+zone:114:117:34:40:0:9:Gold Isuzu car
+tile:115:116:45:49:0:1:walldesk2
+zone:114:117:44:50:0:9:cream MG cars
+tile:125:126:5:9:0:1:wallglass
+zone:124:127:4:10:0:9:Brown Ford car
+tile:125:126:15:19:0:1:wallsign
+zone:124:127:14:20:0:9:Orange Mazda car
+tile:125:126:25:29:0:1:wallglass2
+zone:124:127:24:30:0:9:gray Audi car
+tile:125:126:35:39:0:1:wallcar
+zone:124:127:34:40:0:9:Silver Bentley car
+tile:125:126:45:49:0:1:wallglass11
+zone:124:127:44:50:0:9:purple cadillac car
+tile:140:150:0:10:0:0:bleacher9
+tile:101:160:0:56:10:10:cavegrounds
+tile:140:150:0:0:0:20:wallcardboard
+tile:140:140:0:10:0:20:wallcardboard
+tile:150:150:0:10:0:20:wallcardboard
+tile:0:60:59:59:0:0:bridge:trackme
+zone:0:60:59:59:0:20:bridge leading to the garden only go straight:trackme
+rain:none.ogg
+src:0:60:59:59:0:20:-10:100:waterflow6.ogg:1
+tile:57:59:74:76:0:10:tree:trackme
+zone:56:59:73:77:0:20:strawberry tree:trackme
+tile:57:59:84:86:0:10:tree:trackme
+door:141:149:1:8:10:10:145:5:0:the elevator is going down:5:silence.ogg:elev2.ogg:dooropen57.ogg:elevator_stop2.ogg
+zone:56:59:83:87:0:20:lychee tree:trackme
+door:141:149:1:8:0:0:145:5:10:the elevator is going up:5:silence.ogg:silence.ogg:dooropen57.ogg:elevator_stop2.ogg
+tile:57:59:93:95:0:10:tree:trackme
+zone:56:59:92:96:0:20:cherry tree:trackme
+door:141:149:11:11:0:0:145:9:0:elevator door open:3:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:141:149:11:11:10:10:145:9:10:elevator door open:3:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:141:149:9:9:0:0:145:11:0:elevator door open:3:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+tile:16:20:65:67:3:3:stone3:trackme
+door:141:149:9:9:10:10:145:11:10:elevator door open:3:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+tile:20:20:65:67:0:2:wallstone2:trackme
+tile:16:16:65:67:0:2:wallstone2:trackme
+tile:141:149:10:10:0:20:wallconcrete
+zone:15:21:64:68:0:20:marble chair:trackme
+zone:139:139:0:10:0:20:near the elevator
+zone:151:151:0:10:0:20:near the elevator
+tile:16:20:70:73:4:4:marble4:trackme
+zone:141:150:10:11:0:20:elevator door:trackme
+zone:141:149:9:9:0:20:Exit from the elevator
+zone:141:149:1:8:0:20:elevator
+tile:16:20:70:73:0:3:wallgeneric3:trackme
+zone:15:21:69:74:0:20:marble tabletop:trackme
+zone:139:140:11:11:0:20:near the elevator
+rain:none.ogg
+tile:141:149:1:9:10:10:bleacher9
+tile:160:160:0:55:10:20:wallfence3
+tile:101:101:0:55:10:20:wallfence3
+tile:31:39:66:73:0:5:water2:trackme
+tile:31:39:66:73:0:2:underwater:trackme
+sign:101:101:0:0:0:0:If you drive You can park your car here. If there is no room here for your car Please take your car upstairs to park. The elevator door is 141, 11, 0.:sign.ogg
+tile:31:39:66:66:0:7:wallstone:trackme
+zone:101:101:0:0:0:0:sign car park:trackme
+tile:39:39:67:73:0:7:wallstone:trackme
+tile:31:38:73:73:0:7:wallstone:trackme
+tile:31:31:67:72:0:7:wallstone:trackme
+tile:161:200:0:55:0:0:gravel10
+tile:31:39:65:65:0:7:wetconcrete2:trackme
+zone:31:39:65:65:0:20:Long stairs leading up to the pool:trackme
+zone:31:39:65:65:7:20:Just a little more jump:trackme
+zone:30:40:66:74:0:20: the pool:trackme
+sign:161:161:0:0:0:0:Will you come and sleep over at my cafe? So have you prepared anything? Oh, shopping at my market first? in case there is something that you are wanting:sign.ogg
+zone:161:161:0:0:0:0:sign market:trackme
+zone:31:39:67:72:0:20:in the pool:trackme
+src:30:40:65:74:0:10:-10:100:lake2.ogg:1
+src:31:39:67:72:0:2:-10:100:lava.ogg:1
+src:31:39:67:72:3:6:-10:100:fishswim3.ogg:1
+tile:170:190:20:40:0:1:walltable2
+zone:169:191:19:41:0:10:counter
+starting_point:1:1:0:0:0:0
+zone:173:176:19:19:0:0:kitchenware store
+tile:1:3:60:60:0:20:ladder2:trackme
+zone:1:3:60:60:0:20:Stairs to the view point:trackme
+sign:173:176:19:19:0:0:I sell everything I have in my kitchen. knives, glasses, plates, bowls, spoons, forks, chopsticks. Do you have these for a small party this evening:silence.ogg
+zone:183:186:19:19:0:0:clothing store shoes and accessories
+sign:183:186:19:19:0:0:If you need new clothes or accessories My shop has many options for you to choose from.:silence.ogg
+zone:191:191:23:26:0:0:water and food shop
+sign:191:191:23:26:0:0:Are you hungry, eat or drink first?:silence.ogg
+zone:191:191:33:36:0:0:toy store
+sign:191:191:33:36:0:0:You should buy toys for your child. before they cry:silence.ogg
+zone:183:186:41:41:0:0:candy shop
+sign:183:186:41:41:0:0:Delicious candy  are in this shop.:silence.ogg
+zone:173:176:41:41:0:0:butcher shop
+sign:173:176:41:41:0:0:In addition to my shop selling meat for cooking. I also sell vermicelli and various sauces. when you see my shop You must definitely think of a special meal that is delicious.:silence.ogg
+zone:169:169:23:26:0:0:tech store
+sign:169:169:23:26:0:0:power bank, three-prong plug, phone charger cable, Are you looking for any of these things?:silence.ogg
+zone:169:169:33:36:0:0:gift shop
+sign:169:169:33:36:0:0:The best gift are here.:silence.ogg
+tile:257:300:0:55:0:0:water3
+zone:257:300:0:55:0:10:stream:trackme
+src:257:300:0:55:0:20:-5:200:stream5.ogg:1
+src:257:350:0:56:0:20:0:100:birds2.ogg:1
+tile:257:257:20:30:0:4:bridge3
+tile:300:300:20:30:0:4:bridge3
+tile:257:300:20:30:4:4:bridge3
+zone:257:257:20:30:0:4:bridge stairs:trackme
+zone:258:299:20:30:4:20:bridge:trackme
+zone:300:300:20:30:0:4:bridge stairs
+tile:299:299:20:30:0:3:wallwoodpile
+tile:258:258:20:30:0:3:wallwoodpile
+zone:259:298:20:30:0:3:under the bridge
+tile:257:300:19:19:4:20:wallfence5
+tile:257:300:31:31:4:20:wallfence5
+tile:301:350:20:30:0:0:cement
+zone:301:350:20:30:0:20:footpath:trackme
+tile:301:350:0:19:0:0:grass3
+zone:301:350:31:55:0:20:flower garden:trackme
+tile:301:350:31:55:0:0:grass4
+zone:301:350:0:19:0:20:playground:trackme
+src:301:350:0:19:0:20:-10:115:kids3.ogg:1
+src:301:350:31:55:0:20:0:100:birds.ogg:1
+night:none.ogg
+wind:none.ogg
+door:100:100:0:0:0:10:2:60:0:Beautiful viewpoints are waiting for you. I'll take you there.:400:snowmobile.ogg:snowmobilego.ogg:snowmobilestart.ogg:snowmobilestop.ogg
+tile:1:59:101:101:0:20:wallfence2:trackme
+tile:0:60:60:100:20:20:wood19:trackme
+zone:0:60:60:100:20:40:A view point overlooking the surrounding nature. shiny wooden floor:trackme
+tile:0:0:60:100:20:40:walltree:trackme
+tile:1:60:100:100:20:40:walltree:trackme
+tile:60:60:60:99:20:40:walltree:trackme
+tile:4:60:60:60:20:40:walltree:trackme
+tile:1:3:59:59:20:30:walltree:trackme
+tile:351:400:0:55:0:0:grasspacked
+zone:351:400:0:55:0:20:patio for events:trackme
+tile:401:430:0:55:0:20:cement
+zone:401:430:0:55:0:20:Corridor to the banquet hall:trackme
+zone:431:500:0:55:0:20:banquet hall
+tile:431:500:0:55:0:0:carpet8
+src:431:500:0:55:0:20:-10:100:city_r18.ogg:1
+tile:500:500:0:56:0:20:wallbank
+tile:431:500:0:0:0:20:wallbank
+tile:431:500:56:56:0:20:wallbank
+tile:431:431:0:55:0:20:wallbank
+door:432:432:20:35:0:0:430:30:0:Hope you enjoy this party. See you again:3:silence.ogg:silence.ogg:door9open.ogg:door9close.ogg
+zone:431:432:20:35:0:20:exit door
+zone:430:430:20:35:0:20:banquet hall door:trackme
+door:430:430:20:35:0:0:432:30:0:The party is about to start, let's go.:3:silence.ogg:silence.ogg:door9open.ogg:door9close.ogg
+tile:431:431:20:35:0:20:wallblind
+tile:351:400:56:56:0:20:wallbody
+tile:360:360:30:55:0:20:wallbarrel
+tile:390:390:30:55:0:20:wallbarrel
+zone:361:389:30:40:0:20:stairs
+tile:361:389:31:31:0:4:wallbuilding2
+tile:361:389:30:30:0:4:carpet2
+tile:361:389:30:35:4:4:carpet2
+tile:361:389:35:35:4:8:carpet2
+tile:361:389:36:36:4:8:wallbuilding2
+tile:361:389:36:55:8:8:carpet2
+zone:361:389:36:55:8:20:on stage
+zone:359:359:30:55:0:20:near the stage
+zone:391:391:30:55:0:20:near the stage
+tile:305:309:41:45:0:2:tree
+zone:305:309:41:45:0:2:rose tree
+tile:315:319:41:45:0:2:tree
+zone:315:319:41:45:0:2:jasmine
+tile:325:329:41:45:0:2:tree
+zone:325:329:41:45:0:2:needle flower
+tile:335:339:41:45:0:2:tree
+zone:335:339:41:45:0:2:daisy
+tile:301:301:0:19:0:20:wallcontainer
+zone:302:302:0:19:0:20:The pink soft wall features a picture of a big bird flying in the night sky with the moon and stars. This wall is soft and safe. Children will definitely not fall into the water.
+tile:305:309:0:4:0:0:balloon2
+zone:305:309:0:4:0:20:trampoline
+zone:314:314:0:9:0:20:near the tunnel
+tile:315:315:1:8:0:1:wallcloth
+zone:314:319:0:0:0:20:near the tunnel
+zone:319:319:0:9:0:20:near the tunnel
+zone:314:319:9:9:0:20:near the tunnel
+tile:318:318:1:8:0:1:wallcloth
+zone:316:317:1:8:0:0:in the tunnel
+tile:315:318:1:8:1:1:carpet5
+zone:315:319:1:8:1:20:on the tunnel
+tile:316:317:1:8:0:0:bleacher2
+tile:325:330:0:5:0:5:wallcar2
+zone:324:324:0:5:0:5:stairs
+tile:324:324:0:5:0:5:carpet
+tile:325:330:0:5:5:5:carpet
+zone:325:330:0:5:5:20:on the slider
+zone:324:330:6:6:0:20:near the slider
+zone:331:331:0:6:0:20:near the slider
+tile:323:323:0:6:5:20:wallwood15
+tile:324:330:6:6:5:20:wallwood15
+tile:331:331:0:6:5:20:wallwood15
+tile:324:330:0:0:5:20:wallwood15
+door:330:330:1:5:5:5:333:3:0:let's go:100:silence.ogg:warp2.ogg:silence.ogg:aplause3.ogg
+zone:330:330:1:5:5:20:If you want to play slider please press enter.
+zone:335:345:0:3:0:20:near the swing
+tile:336:336:0:2:0:20:wallwood19
+tile:344:344:0:2:0:20:wallwood19
+zone:337:343:0:2:0:20:on the swing
+tile:337:343:0:2:0:1:8bit
+door:337:343:0:2:0:0:340:0:1:-:100:silence.ogg:silence.ogg:entering_house5.ogg:silence.ogg
+door:337:343:0:2:1:1:340:1:0:-:100:silence.ogg:silence.ogg:entering_house5.ogg:silence.ogg
+zone:304:307:10:14:0:20:Near a big hen tied with a red bow.
+tile:305:306:11:13:0:1:wallwood
+tile:305:306:11:13:1:1:carpet6
+zone:305:306:11:13:1:20:On a big hen tied with a red bow.
+door:305:306:11:13:1:1:305:12:1:-:1:silence.ogg:silence.ogg:hen4.ogg:silence.ogg
+zone:320:324:10:15:0:20:Near a large rocket piloted by aliens.
+tile:321:323:11:14:0:1:wallspaceship
+tile:321:323:11:14:1:1:carpet5
+zone:321:323:11:14:1:20:On a large rocket piloted by aliens.
+zone:321:323:13:14:1:20:alien
+tile:322:322:14:14:1:2:wallbody
+door:321:323:11:14:1:1:322:12:1:-:1:silence.ogg:silence.ogg:scunlock.ogg:silence.ogg
+zone:100:100:0:0:0:10:You can ride a motorcycle to the view point.:trackme
+tile:207:208:0:0:0:2:wallmetalbox:trackme
+zone:206:209:0:2:0:20:Waste disposal service for animals:trackme
+tile:207:208:0:0:3:3:large_rock:trackme
+trashcan:207:208:0:0:3:3
+zone:354:358:54:55:0:20:near the speaker
+tile:355:357:55:55:0:20:wallmetal18
+zone:392:396:54:55:0:20:near the speaker
+tile:393:395:55:55:0:20:wallmetal18
+zone:432:434:1:3:0:20:near the trashcan
+tile:432:433:1:2:0:1:wallwood18
+tile:432:433:1:2:1:1:branch
+zone:432:433:1:2:1:20:On the trashcan.
+trashcan:432:433:1:2:1:1
+zone:440:450:0:9:0:20:near the toilet
+tile:441:441:1:8:0:20:wallwood10
+tile:449:449:1:8:0:20:wallwood10
+zone:442:448:1:6:0:20:in the toilet
+tile:442:448:1:8:0:0:bleacher9
+door:442:448:9:9:0:0:445:7:0:You walk into the toilet:500:silence.ogg:silence.ogg:door2open.ogg:close2.ogg
+tile:442:448:8:8:0:20:wallwood7
+door:442:448:7:7:0:0:445:9:0:Don't forget to wash your hands. The  wash basin is a little further to the right from here. Try walking a little to the right.:500:silence.ogg:silence.ogg:door3open.ogg:close2.ogg
+zone:442:448:7:8:0:20:exit door
+zone:442:448:9:9:0:20:toilet door
+zone:442:444:1:3:0:20:near the toilet bowl
+tile:442:443:1:2:0:1:wallrail
+tile:442:443:1:2:1:1:bleacher6
+toilet:442:443:1:2:1:1
+zone:442:443:1:2:1:20:on the toilet bowl
+src:442:448:1:7:0:20:-5:100:shower3.ogg:1
+zone:446:448:1:3:0:20:near the trashcan
+tile:447:448:1:2:0:1:wallwood17
+tile:447:448:1:2:1:1:branch
+trashcan:447:448:1:2:1:1
+zone:447:448:1:2:1:20:on the trashcan
+zone:454:460:1:3:0:20:near the wash basin
+tile:455:459:1:2:0:1:walldiamond
+tile:455:459:1:2:1:1:bathtub2
+washbasin:455:459:1:2:1:1
+zone:455:459:1:2:1:20:on the wash basin
+zone:470:500:1:2:0:20:near the clear glass window that can look out to see the view outside
+tile:471:500:1:1:0:20:wallglass8
+zone:497:499:10:55:0:20:Near the buffet food counter
+zone:498:499:11:55:1:20:On the buffet food counter
+tile:498:499:11:55:0:1:wallwood19
+tile:498:499:11:55:1:1:concrete48
+zone:497:497:13:15:0:20:Thai food
+zone:497:497:18:20:0:20:chinese food
+zone:497:497:23:25:0:20:Japanese food
+zone:497:497:28:30:0:20:korean food
+zone:497:497:33:35:0:20:italian food
+zone:497:497:38:40:0:20:breakfast
+zone:497:497:43:45:0:20:fast food
+zone:497:497:48:50:0:20:salad
+zone:497:497:53:55:0:20:Cheese Fondue
+zone:490:493:10:55:0:20:Near the water counter and snack buffet
+tile:491:492:11:55:0:1:wallspaceship
+tile:491:492:11:55:1:1:concrete48
+zone:491:492:11:55:1:20:On the water counter and snack buffet
+zone:493:493:13:15:0:20:bakery
+zone:493:493:18:20:0:20:Bread, Jam and Butter
+zone:493:493:23:25:0:20:Cereal Cornflakes and Milk
+zone:493:493:28:30:0:20:Cookies, Crackers and pretzel
+zone:493:493:33:35:0:20:ice cream
+zone:493:493:38:40:0:20:yoghurt and fruit
+zone:493:493:43:45:0:20:Chocolate and Jelly
+zone:493:493:48:50:0:20:french pastry
+zone:493:493:53:55:0:20:Chocolate Fondue
+zone:490:490:13:15:0:20:cola
+zone:490:490:18:20:0:20:wine
+zone:490:490:23:25:0:20:fruit juice
+zone:490:490:28:30:0:20:tea, coffee and cocoa
+zone:490:490:33:35:0:20:smoothies
+zone:490:490:38:40:0:20:herbal juice
+zone:490:490:43:45:0:20:mineral water
+zone:490:490:48:50:0:20:topping
+zone:490:490:53:55:0:20:ice
+zone:484:487:10:55:0:20:near the Counter for sauces and utensils
+tile:485:486:11:55:0:1:wallscreen
+tile:485:486:11:55:1:1:concrete48
+zone:485:486:11:55:1:20:on the counter for sauces and utensils
+zone:487:487:13:15:0:20:Tomato Sauce
+zone:487:487:18:20:0:20:Mayonnaise
+zone:487:487:23:25:0:20:salt
+zone:487:487:28:30:0:20:black pepper
+zone:487:487:33:35:0:20:mustard
+zone:487:487:38:40:0:20:sugar
+zone:487:487:43:45:0:20:creamer
+zone:487:487:48:50:0:20:Vinegar
+zone:487:487:53:55:0:20:plum sauce
+zone:484:484:13:15:0:20:spoon fork and chopsticks
+zone:484:484:18:20:0:20:food tray
+zone:484:484:23:25:0:20:Plates, bowls and cups
+zone:484:484:28:30:0:20:knife
+zone:484:484:33:35:0:20:glass and tube
+zone:484:484:38:40:0:20:paper towel
+zone:450:470:49:55:0:20:near the stage
+tile:451:469:50:55:0:4:wallpunch
+tile:450:469:50:55:4:4:carpet8
+zone:450:470:50:55:4:20:on the stage
+zone:450:450:50:55:0:20:stairs
+tile:450:450:50:55:0:4:carpet8
+tile:450:470:49:49:4:20:wallstone2
+tile:449:449:50:55:4:20:wallstone2
+tile:470:470:50:55:4:20:wallstone2
+zone:440:443:54:55:0:20:Near a large dog doll with blue fur and a pink heart that says I love you.
+tile:441:442:55:55:0:10:wallbody
+tile:432:435:52:55:0:1:balloon
+zone:432:435:52:55:0:20:Balloon arch in the shape of colorful animals
+zone:432:433:40:43:0:20:Near two fluffy cat dolls holding a welcome sign
+tile:432:432:41:42:0:10:wallbody
+tile:450:470:36:38:2:2:hardwood3
+zone:449:471:35:39:0:20:Near a long table with a tablecloth depicting a smiling dog.
+zone:450:470:36:38:2:20:On a long table with a tablecloth depicting a smiling dog.
+zone:450:470:36:38:0:1:Under a long table with a tablecloth depicting a smiling dog.
+zone:451:451:35:35:0:20:chair
+tile:451:451:35:35:0:1:chair
+tile:453:453:35:35:0:1:chair
+zone:453:453:35:35:0:20:chair
+tile:455:455:35:35:0:1:chair
+zone:455:455:35:35:0:20:chair
+tile:457:457:35:35:0:1:chair
+zone:457:457:35:35:0:1:chair
+tile:459:459:35:35:0:1:chair
+zone:459:459:35:35:0:20:chair
+tile:461:461:35:35:0:1:chair
+zone:461:461:35:35:0:20:chair
+tile:463:463:35:35:0:1:chair
+zone:463:463:35:35:0:20:chair
+tile:465:465:35:35:0:1:chair
+zone:465:465:35:35:0:20:chair
+tile:467:467:35:35:0:1:chair
+zone:467:467:35:35:0:20:chair
+tile:469:469:35:35:0:1:chair
+zone:469:469:35:35:0:20:chair
+zone:449:471:25:29:0:20:Near the long table was a tablecloth depicting several cats cuddling together.
+tile:450:470:26:28:2:2:hardwood3
+zone:450:470:26:28:1:20:On the long table was a tablecloth depicting several cats cuddling together.
+tile:451:451:25:25:0:1:chair
+zone:451:451:25:25:0:20:chair
+tile:453:453:25:25:0:1:chair
+zone:453:453:25:25:0:20:chair
+tile:455:455:25:25:0:1:chair
+zone:457:457:25:25:0:20:chair
+tile:457:457:25:25:0:1:chair
+zone:455:455:25:25:0:20:chair
+tile:459:459:25:25:0:1:chair
+zone:459:459:25:25:0:20:chair
+tile:461:461:25:25:0:1:chair
+zone:463:463:25:25:0:20:chair
+tile:463:463:25:25:0:1:chair
+zone:461:461:25:25:0:20:chair
+tile:465:465:25:25:0:1:chair
+zone:465:465:25:25:0:20:chair
+tile:467:467:25:25:0:1:chair
+zone:467:467:25:25:0:20:chair
+tile:469:469:25:25:0:1:chair
+zone:469:469:25:25:0:20:chair
+zone:450:470:26:28:0:1:Under the long table was a tablecloth depicting several cats cuddling together.
+zone:449:471:15:19:0:20:Near a long table with a tablecloth depicting a rabbit eating carrots.
+tile:450:470:16:18:2:2:hardwood3
+zone:450:470:16:18:2:20:On a long table with a tablecloth depicting a rabbit eating carrots.
+zone:450:470:16:18:0:1:Under a long table with a tablecloth depicting a rabbit eating carrots.
+tile:451:451:15:15:0:1:chair
+zone:451:451:15:15:0:20:chair
+tile:453:453:15:15:0:1:chair
+zone:453:453:15:15:0:20:chair
+tile:455:455:15:15:0:1:chair
+zone:455:455:15:15:0:20:chair
+tile:457:457:15:15:0:1:chair
+zone:457:457:15:15:0:20:chair
+tile:459:459:15:15:0:1:chair
+zone:459:459:15:15:0:20:chair
+tile:461:461:15:15:0:1:chair
+zone:461:461:15:15:0:20:chair
+tile:463:463:15:15:0:1:chair
+zone:463:463:15:15:0:20:chair
+tile:465:465:15:15:0:1:chair
+zone:465:465:15:15:0:20:chair
+tile:467:467:15:15:0:1:chair
+zone:467:467:15:15:0:20:chair
+tile:469:469:15:15:0:1:chair
+zone:469:469:15:15:0:20:chair
+zone:432:433:10:14:0:20:Near the big vase had many roses in it. And there is a ceramic bird figurine decorated on the flower.
+tile:432:432:11:13:0:10:wallcar
+zone:330:334:10:14:0:20:near the carousel
+tile:331:333:11:13:0:1:wallbuilding6
+tile:331:333:11:13:1:1:hardwood
+zone:331:333:11:13:1:20:on the carousel
+door:332:332:11:11:1:1:331:12:1:-:1:silence.ogg:silence.ogg:door_passage.ogg:silence.ogg
+door:331:331:12:12:1:1:332:13:1:-:1:silence.ogg:silence.ogg:door_passage.ogg:silence.ogg
+door:332:332:13:13:1:1:333:12:1:-:1:silence.ogg:silence.ogg:door_passage.ogg:silence.ogg
+door:333:333:12:12:1:1:332:11:1:-:1:silence.ogg:silence.ogg:door_passage.ogg:silence.ogg
+zone:340:346:10:16:0:20:near the small house
+zone:341:345:11:15:0:1:in the small house
+tile:341:345:11:15:0:0:hardwood7
+tile:341:341:11:15:0:2:wallwood16
+tile:341:345:15:15:0:2:wallwood16
+tile:345:345:11:15:0:2:wallwood16
+tile:341:345:11:15:2:2:hardwood2
+zone:341:345:11:15:2:20:on the roof of a small house
+zone:220:225:0:1:0:20:Water and food store for your pet.
+tile:221:224:0:0:0:10:wallbrick3
+tile:246:256:58:120:0:0:concrete20
+zone:246:256:59:120:0:20:entrance to the cafe
+zone:246:256:120:120:0:20:cafe door:trackme
+door:246:256:120:120:0:0:250:122:0:welcome:100:silence.ogg:silence.ogg:door11open.ogg:door11close.ogg
+door:246:256:122:122:0:0:250:120:0:see you next time:100:silence.ogg:silence.ogg:door11open.ogg:door11close.ogg
+tile:100:400:121:121:0:499:wallwood18
+tile:246:256:121:121:0:20:wallwooddoor
+zone:246:256:121:122:0:20:exit door
+tile:100:100:120:300:0:499:wallwood18
+tile:400:400:120:300:0:499:wallwood18
+tile:100:400:300:300:0:499:wallwood18
+zone:200:300:123:189:0:20:reception
+tile:200:300:122:189:0:0:carpet9
+zone:200:245:122:122:0:20:reception
+zone:257:300:122:122:0:20:reception
+tile:100:400:189:189:0:20:wallglass11
+tile:199:199:122:189:0:20:wallglass11
+tile:301:301:122:189:0:20:wallglass11
+sign:201:201:0:0:0:0:An open space for you and your pet to do activities together. There is also a Waste disposal service for animals and a Water and food store for your pet.:sign.ogg
+zone:201:201:0:0:0:0:sign park:trackme
+tile:246:256:189:189:0:20:wallglass7
+door:246:256:190:190:0:0:250:188:0:Thank you for being part of my cafe. i hope you like it:100:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+door:246:256:188:188:0:0:250:190:0:You walk into the cafe and marvel at the huge food court.:100:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+zone:246:256:188:188:0:20:food court door:trackme
+zone:100:400:190:420:0:20:Food court with pink and blue floors The walls are full of images of various pets.
+zone:246:256:189:190:0:20:exit door
+sign:302:302:19:19:0:0:welcome to the playground There are many toys here. Some toys you can play by pressing enter. Let's play together?:sign.ogg
+zone:302:302:19:19:0:20:sign playground:trackme
+tile:199:199:150:160:0:20:wallmetal15
+door:198:198:150:160:0:0:200:155:0:Don't forget to get back to work.:100:silence.ogg:silence.ogg:door5open.ogg:door3close.ogg
+door:200:200:150:160:0:0:198:155:0:Hello, it's time to work.:100:silence.ogg:silence.ogg:door5open.ogg:door3close.ogg
+zone:200:200:150:160:0:20:office door:trackme
+zone:100:199:122:189:0:20:office
+tile:101:198:122:188:0:0:concrete26
+zone:198:199:150:160:0:20:exit door
+src:100:198:122:189:0:20:-5:130:room6.ogg:1
+tile:301:301:150:160:0:20:wallwood19:trackme
+door:300:300:150:160:0:0:302:155:0:Hi, would you like to entrust your pet with me? Yes, I'm asking you to believe that your pet will be happy.:100:silence.ogg:silence.ogg:door4open.ogg:door2close.ogg
+zone:300:300:150:160:0:20:pet care room door:trackme
+door:302:302:150:160:0:0:300:155:0:Don't forget to pick up your pet home.:100:silence.ogg:silence.ogg:door4open.ogg:door2close.ogg
+zone:301:400:122:189:0:20:pet care room
+zone:301:302:150:160:0:20:exit door
+tile:302:399:122:188:0:0:wood2
+src:302:400:122:189:0:20:0:120:labrador1.ogg:1
+tile:238:240:122:124:0:0:wood9
+zone:238:240:122:124:0:20:A big blue clock depicting three kittens running on a lush meadow.
+clock:238:240:122:124:0:0:empty
+zone:260:262:122:124:0:20:A calendar with pictures of aquatic animals swimming in an aquarium with colorful rocks and corals.
+tile:260:262:122:124:0:0:wood15
+calendar:260:262:122:124:0:0:empty
+zone:200:202:122:124:0:20:near the trashcan
+tile:200:201:122:123:0:1:wallcone
+tile:200:201:122:123:1:1:branch
+zone:200:201:122:123:1:20:in the trashcan
+zone:229:235:125:189:0:20:near the counter
+tile:230:234:126:188:0:3:walldesk2
+tile:230:234:126:188:3:3:hardwood7
+zone:230:234:126:188:3:20:on the counter
+zone:235:235:140:145:0:20:Counter for those who visit the cafe
+zone:235:235:150:155:0:20:Counter for people to deposit pets temporarily
+zone:235:235:160:165:0:20:Counter for people applying for jobs at my cafe.
+zone:235:235:130:135:0:20:Counter for those who come to dine in the cafe.
+zone:235:235:170:175:0:20:Counter for people who will use my cafe space for organizing parties or banquets.
+zone:135:135:280:285:0:20:Counter for people who will come to rent a hotel
+src:100:400:190:420:0:20:-5:100:restaurant4.ogg:1
+zone:270:275:135:175:0:20:near the sofa
+tile:271:274:136:174:0:1:wallcloth
+tile:271:274:136:174:1:1:carpet3
+zone:271:274:136:174:0:20:on the sofa
+zone:280:285:135:175:0:20:near the sofa
+tile:281:284:136:174:0:1:wallcloth
+tile:281:284:136:174:1:1:carpet4
+zone:281:284:136:174:1:20:on the sofa
+zone:290:295:135:175:0:20:near the sofa
+tile:291:294:136:174:0:1:wallcloth
+tile:291:294:136:174:1:1:carpet4
+zone:291:294:136:174:1:20:on the sofa
+src:302:400:122:189:0:20:-10:70:village_r22.ogg:1
+zone:196:198:122:124:0:20:near the trashcan
+tile:197:198:122:123:0:1:wallcone
+tile:197:198:122:123:1:1:branch
+zone:197:198:122:123:1:20:in the trashcan
+trashcan:197:198:122:123:1:1
+trashcan:200:201:122:123:1:1
+zone:110:120:122:124:0:20:near the bookshelf
+tile:111:119:122:123:0:20:wallcar2
+zone:130:140:122:124:0:10:near the document storage
+tile:131:139:122:123:0:10:wallcar3
+zone:150:160:122:124:0:20:near the storage cabinet
+tile:151:159:122:123:0:10:wallconcrete
+zone:170:180:122:124:0:20:near the office equipment rack
+tile:171:179:122:123:0:10:walldesk2
+zone:101:105:130:140:0:20:near the sofa
+tile:101:104:131:139:0:1:wallcloth
+tile:101:104:131:139:1:1:carpet9
+zone:101:104:131:139:1:20:on the sofa
+tile:100:100:150:160:0:20:wallglass8
+zone:101:101:150:160:0:20:near the window
+zone:101:103:170:180:0:20:technology storage cabinet
+tile:101:102:171:179:0:10:wallcelle3
+tile:131:169:185:188:2:2:wood18
+zone:131:169:185:188:2:20:on the  computer desk
+zone:131:169:185:188:0:1:under computer desk
+zone:130:130:185:188:0:20:near the computer desk
+zone:170:170:185:188:0:20:near the computer desk
+tile:131:169:183:184:0:1:wallbuilding7
+tile:131:169:183:184:1:1:chair
+zone:130:170:182:182:0:20:near the chair
+zone:130:130:183:184:0:20:near the chair
+zone:170:170:183:184:0:20:near the chair
+zone:131:169:183:184:1:20:on the chair
+tile:141:159:141:159:2:2:hardwood
+zone:141:159:141:159:2:20:on the table
+zone:141:159:141:159:0:1:under the table
+tile:140:160:140:140:0:1:chair
+zone:140:160:140:140:0:20:chair
+tile:140:140:140:160:0:1:chair
+zone:140:140:140:160:0:20:chair
+tile:140:160:160:160:0:1:chair
+zone:140:160:160:160:0:20:chair
+tile:160:160:140:160:0:1:chair
+zone:160:160:140:160:0:20:chair
+tile:302:322:122:142:0:0:mat
+zone:302:322:122:142:0:20:dog bed
+bed:302:322:122:142:0:0
+zone:302:322:168:188:0:20:cat bed
+tile:302:322:168:188:0:0:mat
+bed:302:322:168:188:0:0
+tile:330:340:178:188:0:0:hardwood5
+tile:332:338:180:186:0:0:sand3
+zone:330:340:178:188:0:20:cat litter tray
+tile:330:340:122:132:0:0:hardwood5
+tile:332:338:124:130:0:0:sand3
+zone:330:340:122:132:0:20:dog litter tray
+zone:350:360:122:125:0:20:dog feeding area
+zone:351:351:122:122:0:20:dog food bowl
+zone:353:353:122:122:0:20:dog food bowl
+zone:355:355:122:122:0:20:dog food bowl
+zone:357:357:122:122:0:20:dog food bowl
+zone:359:359:122:122:0:20:dog food bowl
+zone:359:359:124:124:0:20:dog water bowl
+zone:357:357:124:124:0:20:dog water bowl
+zone:355:355:124:124:0:20:dog water bowl
+zone:353:353:124:124:0:20:dog water bowl
+zone:351:351:124:124:0:20:dog water bowl
+zone:350:360:185:188:0:20:cat feeding area
+zone:351:351:186:186:0:20:cat water bowl
+zone:353:353:186:186:0:20:cat water bowl
+zone:355:355:186:186:0:20:cat water bowl
+zone:357:357:186:186:0:20:cat water bowl
+zone:359:359:186:186:0:20:cat water bowl
+zone:359:359:188:188:0:20:cat food bowl
+zone:357:357:188:188:0:20:cat food bowl
+zone:355:355:188:188:0:20:cat food bowl
+zone:353:353:188:188:0:20:cat food bowl
+zone:351:351:188:188:0:20:cat food bowl
+tile:389:399:178:188:0:0:debris
+zone:389:399:178:188:0:20:cat toy
+tile:389:399:122:132:0:0:debris
+zone:389:399:122:132:0:20:dog toy
+zone:396:399:140:146:0:20:near the toy storage cabinet
+tile:397:399:141:145:0:10:wallcar2
+zone:396:399:150:156:0:20:Near the shelf for wet food and milk.
+tile:397:399:151:155:0:10:wallconcrete
+zone:396:399:160:166:0:20:near the food sack
+tile:397:399:161:165:0:20:wallbushleaves3
+tile:230:260:122:200:21:21:marble
+tile:229:229:122:200:21:40:walldishes2
+tile:261:261:122:200:21:40:walldishes2
+tile:230:260:201:201:21:40:walldishes2
+tile:230:230:122:122:0:21:stairs
+zone:230:230:122:122:0:0:The stairs go up to the elevator and the bathroom.:trackme
+zone:230:230:122:122:1:20:stairs
+zone:230:260:122:200:21:40:The elevator and toilet are here.:trackme
+zone:230:230:122:122:21:21:Stairs leading down to the reception:trackme
+tile:240:250:122:130:21:21:bleacher9
+tile:240:240:122:130:21:499:wallcar2
+tile:250:250:122:130:21:499:wallcar2
+tile:245:245:122:130:21:499:wallcar2
+tile:241:249:122:122:21:499:wallcar2
+src:246:256:56:58:0:20:0:200:windchimes.ogg
+src:238:240:122:124:0:10:-15:120:clock_chime4.ogg
+zone:241:249:123:130:21:499:in the elevator
+zone:240:245:132:132:21:499:Elevator door upstairs:trackme
+zone:246:250:132:132:21:499:Elevator door downstairs:trackme
+door:246:249:130:130:21:21:247:132:21:You walk out of the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:246:249:132:132:21:21:247:130:21:You walk into the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:241:244:132:132:21:21:243:130:21:You walk into the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:241:244:130:130:21:21:243:132:21:You walk out of the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+tile:240:250:131:131:21:499:wallcar3
+sign:246:249:123:129:21:21:You are now on the bottom floor.:silence.ogg
+zone:240:250:145:155:21:30:Near a large sofa with a white Scottish Fold cat portrait.
+tile:241:249:146:154:21:22:wallcloth
+tile:241:249:146:154:22:22:carpet8
+zone:241:249:146:154:22:30:On a large sofa with a white Scottish Fold cat portrait.
+door:230:235:169:169:21:21:230:171:21:You open the door and find a beautiful corridor.:1000:silence.ogg:silence.ogg:door13open.ogg:door24close.ogg
+door:230:235:171:171:21:21:230:169:21:You open the door and walk out.:1000:silence.ogg:silence.ogg:door13open.ogg:door24close.ogg
+tile:230:260:170:170:21:40:wallwood18
+tile:230:235:170:170:21:40:wallwood15
+zone:230:235:169:169:21:40:entrance door to toilet:trackme
+zone:230:235:170:171:21:40:exit door
+zone:230:240:172:200:21:40:The hallway is paved with alternating white and gray marble. On the walls were pictures of Golden Retriever dogs.
+zone:230:232:180:190:21:40:near the bench
+tile:230:231:181:189:21:22:wallbranch
+tile:230:231:181:189:22:22:chair
+zone:230:231:181:189:22:40:on the bench
+tile:241:260:171:200:21:21:bleacher6
+src:241:260:171:200:21:40:0:100:sink4.ogg:1
+tile:241:260:171:171:21:40:wallbuilding7
+tile:241:260:200:200:21:40:wallbuilding7
+tile:241:260:185:186:21:40:wallbuilding7
+tile:260:260:171:200:21:40:wallbuilding7
+zone:236:240:171:171:21:40:The hallway is paved with alternating white and gray marble. On the walls were pictures of Golden Retriever dogs.
+door:240:240:172:184:21:21:242:178:21:Hello, this is a women's toilet.:300:silence.ogg:silence.ogg:door1open.ogg:door24close.ogg
+door:242:242:172:184:21:21:240:178:21:Let's go out and have some fun.:300:silence.ogg:silence.ogg:door1open.ogg:door24close.ogg
+door:242:242:187:199:21:21:240:193:21:Let's go out and have some fun.:300:silence.ogg:silence.ogg:door1open.ogg:door24close.ogg
+door:240:240:187:199:21:21:242:193:21:Hello, this is a man's toilet.:300:silence.ogg:silence.ogg:door1open.ogg:door24close.ogg
+tile:241:241:172:199:21:40:wallwood3
+zone:241:242:171:199:21:40:exit door
+zone:240:240:172:184:21:40:toilet door for women
+zone:240:240:187:199:21:40:toilet door for man
+zone:243:260:187:199:21:40:In a man's toilet.
+zone:243:260:172:184:21:40:In a women's toilet.
+zone:257:259:172:174:21:40:Near the toilet bowl
+zone:257:259:187:189:21:40:Near the toilet bowl
+tile:258:259:172:173:21:22:walldiamond
+tile:258:259:187:188:21:22:walldiamond
+tile:258:259:172:173:22:22:bathtub
+tile:258:259:187:188:22:22:bathtub
+zone:258:259:172:173:22:40:On the toilet bowl
+zone:258:259:187:188:22:40:On the toilet bowl
+toilet:258:259:172:173:22:22
+toilet:258:259:187:188:22:22
+zone:247:250:172:174:21:40:near the trashcan
+zone:247:250:187:189:21:40:near the trashcan
+tile:248:249:172:173:21:22:wallbucket
+tile:248:249:187:188:21:22:wallbucket
+tile:248:249:172:173:22:22:debris
+tile:248:249:187:188:22:22:debris
+zone:248:249:172:173:22:40:in the trashcan
+zone:248:249:187:188:22:40:in the trashcan
+zone:250:255:182:184:21:40:near the washbasin
+zone:250:255:197:199:21:40:near the washbasin
+tile:251:254:183:184:21:22:walldiamond
+tile:251:254:198:199:21:22:walldiamond
+tile:251:254:183:184:22:22:bathtub2
+tile:251:254:198:199:22:22:bathtub2
+washbasin:251:254:183:184:22:22
+washbasin:251:254:198:199:22:22
+zone:251:254:183:184:22:40:on the washbasin
+zone:251:254:198:199:22:40:on the washbasin
+door:10:10:0:0:0:0:250:120:0:Are you going to the cafe door? Alright, I'll take you there.:200:preview2.ogg:doormove10.ogg:silence.ogg:silence.ogg
+zone:20:20:0:0:0:0:This car will take you to the banquet hall.:trackme
+door:20:20:0:0:0:0:430:25:0:Let's go to the banquet hall.:100:preview11.ogg:doormove11.ogg:silence.ogg:silence.ogg
+zone:110:230:190:193:0:20:Near the counter. You can see the food menu from the counter page by just pressing Enter.
+zone:111:229:190:192:1:20:on the counter
+tile:111:229:190:192:0:1:wallconcrete
+tile:111:229:190:192:1:1:hardwood7
+zone:223:227:193:193:0:20:coffee
+sign:223:227:193:193:0:0:Here is the menu. Americano, cappuccinos, latte, Caramel Macchiato, Almond Coffee, honey coffee, extra dark coffee, Decaffeinated Coffee, mocha, espresso:silence.ogg
+zone:213:217:193:193:0:20:cocoa
+sign:213:217:193:193:0:0:Here is the menu. Fresh Milk Cocoa, Dark Cocoa, Strawberry Cocoa,  Crunchy Cocoa, Jelly Fruity Cocoa, Chocolate, Boba Cocoa, Yuzu Cocoa, Mint Cocoa, Chocolate Chip Cocoa.:silence.ogg
+zone:203:207:193:193:0:20:tea
+sign:203:207:193:193:0:0:Here is the menu. Matcha green tea, Hojicha green tea, Genmaicha tea, Kombucha tea, Milk tea, Bubble tea, Black tea, Oolong tea, Assam tea, White tea.:silence.ogg
+zone:193:197:193:193:0:20:smoothies
+sign:193:197:193:193:0:0:Here is the menu. strawberry smoothies, blueberry smoothies, Mixberry smoothies, orange smoothies, lychee smoothies, pineapple smoothies, grape smoothies, dragon fruit smoothies, watermelon smoothies, apple smoothies:silence.ogg
+zone:183:187:193:193:0:20:fresh milk
+sign:183:187:193:193:0:0:Here is the menu. 100% Fresh Milk, Honey Fresh Milk, Oat Fresh Milk, Hazelnut Fresh Milk, Berry Fresh Milk, Caramel Fresh Milk, Cookies & Cream Fresh Milk, Red Bean Fresh Milk, Brown Sugar Fresh Milk, white chocolate fresh milk:silence.ogg
+zone:173:177:193:193:0:20:Italian Soda
+sign:173:177:193:193:0:0:Here is the menu. green cream soda, lime honey soda, melon soda, plum soda, passion fruit soda, mixed berry soda, kiwi soda, blue hawaii soda, mango soda, lemon tea soda:silence.ogg
+zone:163:167:193:193:0:20:pudding
+sign:163:167:193:193:0:0:Here's the menu. Egg Pudding, Fresh Milk Pudding, Custard Pudding, Chocolate Pudding, Matcha Red Bean Pudding. Chestnut Pudding, Orange Pudding with Passion Fruit Earl Gray Tea Latte Pudding, Coffee Pudding, Vanilla Caramel Pudding:silence.ogg
+zone:153:157:193:193:0:20:ice cream
+sign:153:157:193:193:0:0:Here's the menu. Vanilla Ice Cream with Chocolate Covered, Dark Chocolate Ice Cream with Cocoa Powder, Blueberry Ice Cream with Blueberries, Coconut Milk Ice Cream with Coconut Powder, Lime Ice Cream. with lemon sauce, mixed fruit ice cream with  fruit jelly, cookies and cream ice cream with  caramel biscuits, matcha red bean ice cream, English tea ice cream with bread sticks, coffee ice cream and brownies.:silence.ogg
+zone:143:147:193:193:0:20:cookie
+sign:143:147:193:193:0:0:Here is the menu. Butter Cookies, Dark Chocolate Cookies, Multigrain Cookies, Coffee Cookies, Orange Cookies, Cheese Cookies, Oatmeal Cookies, White Chocolate Brownie Cookies, Sugar Cookies, Green Pea Cookies.:silence.ogg
+zone:133:137:193:193:0:20:cake
+sign:133:137:193:193:0:0:Here's the menu. Chocolate Cake with Berry Sauce, Orange Cake with Chocolate Balls, Blueberry Cheesecake, Molten Chocolate Cake, Banana Cake, Custard Cake with Biscuits, Apple Cake  with caramel sauce, soft cake, fresh milk cake decorated with almonds, vanilla  cake with cocoa powder:silence.ogg
+zone:123:127:193:193:0:20:jelly
+sign:123:127:193:193:0:0:Here's the menu. Butterfly Pea Jelly with Lime Sauce, Jasmine Jelly with Orange Sauce, Apple Jelly with Strawberry Sauce, Passion Fruit Jelly with Melon sauce, Mango Jelly with Tamarind Sauce,  Cherry Jelly  with Peach Sauce, Watermelon Jelly with Mulberry Sauce, Jackfruit Jelly with Gooseberry Sauce, Grape Jelly with Lasberry Sauce, Cantaloupe Jelly with Kiwi Sauce:silence.ogg
+zone:113:117:193:193:0:20:other bakery
+sign:113:117:193:193:0:0:Here's the menu. Lasberry Cream Cheese Macarons, Milk Chocolate Eclairs, Vanilla Hazelnut Croissant, Caramel Egg Tart, Cereal Bars, Blueberry Crumble  Muffin, Lava Fresh Milk Bread, Young Coconut Chiffon, Brown Sugar Waffle, Tiramisu:silence.ogg
+zone:270:390:190:193:0:20:Near the counter. You can see the food menu from the counter page by just pressing Enter.
+zone:271:389:190:192:1:20:on the counter
+tile:271:389:190:192:0:1:wallconcrete
+tile:271:389:190:192:1:1:hardwood7
+zone:273:277:193:193:0:20:Appetizers
+sign:273:277:193:193:0:0:Here's the menu. Cheese Balls, Crispy Cheese Sticks, French Fries, Chicken Nuggets, Grilled Pork Meatballs, Fish Sticks with Mayo Sauce, Kiwi Potatoes, Sausage Ketchup, Grilled Garlic Butter Buns, Baked Spinach. cheese:silence.ogg
+zone:283:287:193:193:0:20:pizza
+sign:283:287:193:193:0:0:Here is the menu. Cheese Pizza, Vegetable Pizza, Ham Bacon Pizza, Minced Chicken Pizza with Tomato Sauce, Seafood Pizza, Tom Yum Sausage Pizza, Truffle Saw Pizza, Pepperoni Pizza, BBQ Chicken Pizza,, Spicy Crab Stick Pizza:silence.ogg
+zone:293:297:193:193:0:20:soup
+sign:293:297:193:193:0:0:Here's the menu. Mushroom Soup, Corn Soup, Pumpkin Soup. Tomato Soup, Spinach Soup, Miso Soup, Seaweed Soup, Stewed Beef Soup, Egg Soup, Tofu Soup.:silence.ogg
+zone:303:307:193:193:0:20:salad
+sign:303:307:193:193:0:0:Here's the menu. Vegetable Salad, Salmon Salad, Bacon Salad, Minced Beef Salad, Chicken Breast Salad, Cereal Salad, Crab Stick and Ebiko Salad, Ham and Sausage Salad, Lobster Salad, Fruit Salad.:silence.ogg
+tile:49:59:61:63:20:23:walltable:trackme
+tile:49:59:61:63:23:23:hardwood:trackme
+zone:48:59:61:64:20:40:A bench with shady atmosphere, beautiful view, where you can sit and take pictures.:trackme
+src:58:59:65:97:20:40:-15:100:city_a2.ogg:1
+zone:58:59:65:97:20:40:city ??view point:trackme
+src:1:45:61:62:20:40:-15:100:background2.ogg:1
+zone:1:45:61:62:20:40:natural view point:trackme
+zone:1:3:60:60:20:40:stairs leading to the garden:trackme
+src:1:45:98:99:20:40:-0:100:background3.ogg:1
+zone:1:45:98:99:20:40:river view point At this corner, you can stand and take pictures.:trackme
+tile:195:198:164:164:0:40:wallmetal2:trackme
+tile:194:194:164:168:0:40:wallmetal5:trackme
+tile:198:198:165:168:0:40:wallmetal2:trackme
+tile:195:197:168:168:0:40:wallmetal2:trackme
+tile:195:197:165:167:0:40:metal4:trackme
+zone:193:193:165:167:0:40:staff elevator door:trackme
+zone:195:197:165:167:0:40:Inside the staff elevator:trackme
+zone:194:195:165:167:0:40:Exit door from the staff elevator:trackme
+door:197:197:165:166:0:10:197:165:21:-:400:silence.ogg:silence.ogg:opendoor.ogg:elevator_stop2.ogg
+tile:101:193:122:188:21:21:carpet3:trackme
+zone:197:197:165:166:21:40:down to the office:trackme
+door:197:197:165:166:0:21:197:165:0:-:400:silence.ogg:silence.ogg:opendoor.ogg:elevadorfecha.ogg
+door:195:195:165:167:21:30:193:166:21:-:300:silence.ogg:silence.ogg:opendoor.ogg:close5.ogg
+zone:197:197:165:166:0:20:up to the staff room:trackme
+zone:313:317:193:193:0:20:sandwich
+sign:313:317:193:193:0:0:Here's the menu. Tuna Sandwich, Egg and Cheese Sandwich, Ham Sandwich, Bacon Sandwich, Sausage Sandwich, Shredded Pork Sandwich, Crab Stick Sandwich, Boiled Egg Sandwich, Chicken Breast Sandwich, Green Salad Sandwich.:silence.ogg
+zone:323:327:193:193:0:20:Burger
+sign:323:327:193:193:0:0:Here's menu. Chicken Burger, Pork Burger, Beef Burger, Fish Burger, Veggie Burger, Shrimp Burger, Cheese Burger, Mushroom Burger, Teriyaki Chicken Burger, Spicy Pork Burger.:silence.ogg
+zone:333:337:193:193:0:20:spaghetti
+sign:333:337:193:193:0:0:Here's the menu. Chicken Spaghetti with Tomato Sauce, Minced Beef Spaghetti with Truffle Sauce, Spaghetti Salmon with Ebiko Sauce, Spaghetti with Minced Chicken Breast in Spicy Sauce, Spaghetti. Carbonara, Spaghetti with Sausage and Garlic Sauce, Spaghetti with Bacon and Dried Chili, Spaghetti with Minced Pork and Cheese Sauce, Spaghetti with Ham and Mushroom White Sauce, Tom Yum Spaghetti shrimp:silence.ogg
+zone:343:347:193:193:0:20:Sashimi
+sign:343:347:193:193:0:0:Here's the menu. Crab Stick, Sweet Roe, Salmon, Akami, Chutoro, Maguro, Saba, Japanese Sea Bass, Salmon Roe, Lobster,:silence.ogg
+tile:194:199:169:183:1:21:carpet3:trackme
+tile:194:198:101:163:21:21:carpet3:trackme
+zone:353:357:193:193:0:20:rice
+sign:353:357:193:193:0:0:Here's the menu. Teriyaki Chicken Rice, Spicy Roast Beef Rice, Minced Pork Omelette Rice, Seafood Creamy Omelette Rice, Sweet Sauce Pork Rice, Salt Grilled Salmon Rice, Garlic Shrimp Fried Rice, Butter Fried Rice, Fried Fish Rice. Spicy Seafood Sauce, Minced Wagyu Beef Rice:silence.ogg
+door:193:193:165:167:0:10:195:166:0:-:300:silence.ogg:silence.ogg:opendoor.ogg:close5.ogg
+door:195:195:165:167:0:10:193:166:0:-:300:silence.ogg:silence.ogg:opendoor.ogg:close5.ogg
+door:193:193:165:167:21:30:195:166:21:-:300:silence.ogg:silence.ogg:opendoor.ogg:close5.ogg
+zone:363:367:193:193:0:20:Thai food
+sign:363:367:193:193:0:0:Here's the menu. Papaya Salad, Pork Fried Rice, Beef Panaeng, Sour Curry with Snakehead Fish, Tom Yum Kung, Red Curry with Roasted Duck, Pad Kra Pao Chicken, Green Curry with Meatballs, Kanom Jeen in Coconut Milk, Stir Fried Squid with Salted Egg.:silence.ogg
+zone:373:377:193:193:0:20:chinese food
+sign:373:377:193:193:0:0:Here's the menu. Mantou, Pork Dumpling, Shrimp Dumpling, Red Fish Maw, Shrimp Wonton, Xiao Long Bao, Peking Duck, Zongzi, Minced Pork Bun with Salted Egg, Cream Bun.:silence.ogg
+zone:383:387:193:193:0:20:korean food
+sign:383:387:193:193:0:0:Here's the menu. Kimchi, Bibimbap, Samgyeopsal, Bulgogi, Tteokbokki, Korean Fried Chicken, Samgyetang, Porkgalbi, shabu, Jimdak:silence.ogg
+zone:380:390:200:205:0:20:near the table
+zone:381:389:200:200:0:20:chair
+zone:381:389:205:205:0:20:chair
+zone:381:389:201:204:0:2:under the table
+zone:381:389:201:204:2:20:on the table
+tile:381:389:200:200:0:1:chair
+tile:381:389:205:205:0:1:chair
+tile:381:389:201:204:2:2:hardwood3
+zone:380:390:210:215:0:20:near the table
+zone:381:389:215:215:0:20:chair
+zone:381:389:210:210:0:20:chair
+zone:381:389:211:214:0:2:under the table
+zone:381:389:211:214:2:20:on the table
+tile:381:389:210:210:0:1:chair
+tile:381:389:215:215:0:1:chair
+tile:381:389:211:214:2:2:hardwood3
+zone:380:390:220:225:0:20:near the table
+zone:381:389:220:220:0:20:chair
+zone:381:389:225:225:0:20:chair
+zone:381:389:221:224:0:2:under the table
+zone:381:389:221:224:2:20:on the table
+tile:381:389:220:220:0:1:chair
+tile:381:389:225:225:0:1:chair
+tile:381:389:221:224:2:2:hardwood3
+zone:380:390:230:235:0:20:near the table
+zone:381:389:230:230:0:20:chair
+zone:381:389:235:235:0:20:chair
+zone:381:389:231:234:0:2:under the table
+zone:381:389:231:234:2:20:on the table
+tile:381:389:230:230:0:1:chair
+tile:381:389:235:235:0:1:chair
+tile:381:389:231:234:2:2:hardwood3
+zone:380:390:240:245:0:20:near the table
+zone:381:389:240:240:0:20:chair
+zone:381:389:245:245:0:20:chair
+zone:381:389:241:244:0:2:under the table
+zone:381:389:241:244:2:20:on the table
+tile:381:389:240:240:0:1:chair
+tile:381:389:245:245:0:1:chair
+tile:381:389:241:244:2:2:hardwood3
+zone:380:390:250:255:0:20:near the table
+zone:381:389:250:250:0:20:chair
+zone:381:389:255:255:0:20:chair
+zone:381:389:251:254:0:2:under the table
+zone:381:389:251:254:2:20:on the table
+tile:381:389:250:250:0:1:chair
+tile:381:389:255:255:0:1:chair
+tile:381:389:251:254:2:2:hardwood3
+zone:380:390:260:265:0:20:near the table
+zone:381:389:260:260:0:20:chair
+zone:381:389:265:265:0:20:chair
+zone:381:389:261:264:0:2:under the table
+zone:381:389:261:264:2:20:on the table
+tile:381:389:260:260:0:1:chair
+tile:381:389:265:265:0:1:chair
+tile:381:389:261:264:2:2:hardwood3
+zone:380:390:270:275:0:20:near the table
+zone:381:389:270:270:0:20:chair
+zone:381:389:275:275:0:20:chair
+zone:381:389:271:274:0:2:under the table
+zone:381:389:271:274:2:20:on the table
+tile:381:389:270:270:0:1:chair
+tile:381:389:275:275:0:1:chair
+tile:381:389:271:274:2:2:hardwood3
+zone:380:390:280:285:0:20:near the table
+zone:381:389:280:280:0:20:chair
+zone:381:389:285:285:0:20:chair
+zone:381:389:281:284:0:2:under the table
+zone:381:389:281:284:2:20:on the table
+tile:381:389:280:280:0:1:chair
+tile:381:389:285:285:0:1:chair
+tile:381:389:281:284:2:2:hardwood3
+zone:360:370:200:205:0:20:near the table
+zone:361:369:200:200:0:20:chair
+zone:361:369:201:204:0:1:under the table
+zone:361:369:201:204:2:20:on the table
+tile:361:369:200:200:0:1:chair
+tile:361:369:201:204:2:2:hardwood3
+zone:360:370:210:215:0:20:near the table
+zone:361:369:210:210:0:20:chair
+zone:361:369:211:214:0:1:under the table
+zone:361:369:211:214:2:20:on the table
+tile:361:369:210:210:0:1:chair
+tile:361:369:211:214:2:2:hardwood3
+zone:360:370:220:225:0:20:near the table
+zone:361:369:220:220:0:20:chair
+zone:361:369:221:224:0:1:under the table
+zone:361:369:221:224:2:20:on the table
+tile:361:369:220:220:0:1:chair
+tile:361:369:221:224:2:2:hardwood3
+zone:360:370:230:235:0:20:near the table
+zone:361:369:230:230:0:20:chair
+zone:361:369:231:234:0:1:under the table
+zone:361:369:231:234:2:20:on the table
+tile:361:369:230:230:0:1:chair
+tile:361:369:231:234:2:2:hardwood3
+zone:360:370:240:245:0:20:near the table
+zone:361:369:240:240:0:20:chair
+zone:361:369:241:244:0:1:under the table
+zone:361:369:241:244:2:20:on the table
+tile:361:369:240:240:0:1:chair
+tile:361:369:241:244:2:2:hardwood3
+zone:360:370:250:255:0:20:near the table
+zone:361:369:250:250:0:20:chair
+zone:361:369:251:254:0:1:under the table
+zone:361:369:251:254:2:20:on the table
+tile:361:369:250:250:0:1:chair
+tile:361:369:251:254:2:2:hardwood3
+zone:360:370:260:265:0:20:near the table
+zone:361:369:260:260:0:20:chair
+zone:361:369:261:264:0:1:under the table
+zone:361:369:261:264:2:20:on the table
+tile:361:369:260:260:0:1:chair
+tile:361:369:261:264:2:2:hardwood3
+zone:360:370:270:275:0:20:near the table
+zone:361:369:270:270:0:20:chair
+zone:361:369:271:274:0:1:under the table
+zone:361:369:271:274:2:20:on the table
+tile:361:369:270:270:0:1:chair
+tile:361:369:271:274:2:2:hardwood3
+zone:360:370:280:285:0:20:near the table
+zone:361:369:280:280:0:20:chair
+zone:361:369:281:284:0:1:under the table
+zone:361:369:281:284:2:20:on the table
+tile:361:369:280:280:0:1:chair
+tile:361:369:281:284:2:2:hardwood3
+zone:340:350:200:204:0:20:near the table
+zone:342:344:200:200:0:20:chair
+zone:346:348:200:200:0:20:chair
+zone:341:349:201:203:0:1:under the table
+zone:341:349:201:203:2:20:on the table
+tile:342:344:200:200:0:1:chair
+tile:346:348:200:200:0:1:chair
+tile:341:349:201:203:2:2:hardwood3
+zone:340:350:210:214:0:20:near the table
+zone:342:344:210:210:0:20:chair
+zone:346:348:210:210:0:20:chair
+zone:341:349:211:213:0:1:under the table
+zone:341:349:211:213:2:20:on the table
+tile:342:344:210:210:0:1:chair
+tile:346:348:210:210:0:1:chair
+tile:341:349:211:213:2:2:hardwood3
+zone:340:350:220:224:0:20:near the table
+zone:342:344:220:220:0:20:chair
+zone:346:348:220:220:0:20:chair
+zone:341:349:221:223:0:1:under the table
+zone:341:349:221:223:2:20:on the table
+tile:342:344:220:220:0:1:chair
+tile:346:348:220:220:0:1:chair
+tile:341:349:221:223:2:2:hardwood3
+zone:340:350:230:234:0:20:near the table
+zone:342:344:230:230:0:20:chair
+zone:346:348:230:230:0:20:chair
+zone:341:349:231:233:0:1:under the table
+zone:341:349:231:233:2:20:on the table
+tile:342:344:230:230:0:1:chair
+tile:346:348:230:230:0:1:chair
+tile:341:349:231:233:2:2:hardwood3
+zone:340:350:240:244:0:20:near the table
+zone:342:344:240:240:0:20:chair
+zone:346:348:240:240:0:20:chair
+zone:341:349:241:243:0:1:under the table
+zone:341:349:241:243:2:20:on the table
+tile:342:344:240:240:0:1:chair
+tile:346:348:240:240:0:1:chair
+tile:341:349:241:243:2:2:hardwood3
+zone:340:350:250:254:0:20:near the table
+zone:342:344:250:250:0:20:chair
+zone:346:348:250:250:0:20:chair
+zone:341:349:251:253:0:1:under the table
+zone:341:349:251:253:2:20:on the table
+tile:342:344:250:250:0:1:chair
+tile:346:348:250:250:0:1:chair
+tile:341:349:251:253:2:2:hardwood3
+zone:340:350:260:264:0:20:near the table
+zone:342:344:260:260:0:20:chair
+zone:346:348:260:260:0:20:chair
+zone:341:349:261:263:0:1:under the table
+zone:341:349:261:263:2:20:on the table
+tile:342:344:260:260:0:1:chair
+tile:346:348:260:260:0:1:chair
+tile:341:349:261:263:2:2:hardwood3
+zone:340:350:270:274:0:20:near the table
+zone:342:344:270:270:0:20:chair
+zone:346:348:270:270:0:20:chair
+zone:341:349:271:273:0:1:under the table
+zone:341:349:271:273:2:20:on the table
+tile:342:344:270:270:0:1:chair
+tile:346:348:270:270:0:1:chair
+tile:341:349:271:273:2:2:hardwood3
+zone:340:350:280:284:0:20:near the table
+zone:342:344:280:280:0:20:chair
+zone:346:348:280:280:0:20:chair
+zone:341:349:281:283:0:1:under the table
+zone:341:349:281:283:2:20:on the table
+tile:342:344:280:280:0:1:chair
+tile:346:348:280:280:0:1:chair
+tile:341:349:281:283:2:2:hardwood3
+zone:323:327:200:204:0:20:near the table
+zone:324:326:201:203:0:1:under the table
+zone:324:326:201:203:2:20:on the table
+zone:325:325:200:200:0:20:chair
+tile:325:325:200:200:0:1:chair
+tile:323:323:202:202:0:1:chair
+zone:323:323:202:202:0:20:chair
+tile:325:325:204:204:0:1:chair
+zone:325:325:204:204:0:20:chair
+tile:327:327:202:202:0:1:chair
+zone:327:327:202:202:0:20:chair
+tile:324:326:201:203:2:2:hardwood3
+zone:323:327:210:214:0:20:near the table
+zone:324:326:211:213:0:1:under the table
+zone:324:326:211:213:2:20:on the table
+zone:325:325:210:210:0:20:chair
+tile:323:323:212:212:0:1:chair
+zone:323:323:212:212:0:20:chair
+tile:325:325:214:214:0:1:chair
+zone:325:325:214:214:0:20:chair
+tile:327:327:212:212:0:1:chair
+zone:327:327:212:212:0:20:chair
+tile:324:326:211:213:2:2:hardwood3
+tile:325:325:210:210:0:1:chair
+zone:323:327:220:224:0:20:near the table
+zone:324:326:221:223:0:1:under the table
+zone:324:326:221:223:2:20:on the table
+zone:325:325:220:220:0:20:chair
+tile:323:323:222:222:0:1:chair
+zone:323:323:222:222:0:20:chair
+tile:325:325:224:224:0:1:chair
+zone:325:325:224:224:0:20:chair
+tile:327:327:222:222:0:1:chair
+zone:327:327:222:222:0:20:chair
+tile:324:326:221:223:2:2:hardwood3
+tile:325:325:220:220:0:1:chair
+zone:323:327:230:234:0:20:near the table
+zone:324:326:231:233:0:1:under the table
+zone:324:326:231:233:2:20:on the table
+zone:325:325:230:230:0:20:chair
+tile:323:323:232:232:0:1:chair
+zone:323:323:232:232:0:20:chair
+tile:325:325:234:234:0:1:chair
+zone:325:325:234:234:0:20:chair
+tile:327:327:232:232:0:1:chair
+zone:327:327:232:232:0:20:chair
+tile:324:326:231:233:2:2:hardwood3
+tile:325:325:230:230:0:1:chair
+zone:323:327:240:244:0:20:near the table
+zone:324:326:241:243:0:1:under the table
+zone:324:326:241:243:2:20:on the table
+zone:325:325:240:240:0:20:chair
+tile:323:323:242:242:0:1:chair
+zone:323:323:242:242:0:20:chair
+tile:325:325:244:244:0:1:chair
+zone:325:325:244:244:0:20:chair
+tile:327:327:242:242:0:1:chair
+zone:327:327:242:242:0:20:chair
+tile:324:326:241:243:2:2:hardwood3
+tile:325:325:240:240:0:1:chair
+zone:323:327:250:254:0:20:near the table
+zone:324:326:251:253:0:1:under the table
+zone:324:326:251:253:2:20:on the table
+zone:325:325:250:250:0:20:chair
+tile:323:323:252:252:0:1:chair
+zone:323:323:252:252:0:20:chair
+tile:325:325:254:254:0:1:chair
+zone:325:325:254:254:0:20:chair
+tile:327:327:252:252:0:1:chair
+zone:327:327:252:252:0:20:chair
+tile:324:326:251:253:2:2:hardwood3
+tile:325:325:250:250:0:1:chair
+zone:323:327:260:264:0:20:near the table
+zone:324:326:261:263:0:1:under the table
+zone:324:326:261:263:2:20:on the table
+zone:325:325:260:260:0:20:chair
+tile:323:323:262:262:0:1:chair
+zone:323:323:262:262:0:20:chair
+tile:325:325:264:264:0:1:chair
+zone:325:325:264:264:0:20:chair
+tile:327:327:262:262:0:1:chair
+zone:327:327:262:262:0:20:chair
+tile:324:326:261:263:2:2:hardwood3
+tile:325:325:260:260:0:1:chair
+zone:323:327:270:274:0:20:near the table
+zone:324:326:271:273:0:1:under the table
+zone:324:326:271:273:2:20:on the table
+zone:325:325:270:270:0:20:chair
+tile:323:323:272:272:0:1:chair
+zone:323:323:272:272:0:20:chair
+tile:325:325:274:274:0:1:chair
+zone:325:325:274:274:0:20:chair
+tile:327:327:272:272:0:1:chair
+zone:327:327:272:272:0:20:chair
+tile:324:326:271:273:2:2:hardwood3
+tile:325:325:270:270:0:1:chair
+zone:323:327:280:284:0:20:near the table
+zone:324:326:281:283:0:1:under the table
+zone:324:326:281:283:2:20:on the table
+zone:325:325:280:280:0:20:chair
+tile:323:323:282:282:0:1:chair
+zone:323:323:282:282:0:20:chair
+tile:325:325:284:284:0:1:chair
+zone:325:325:284:284:0:20:chair
+tile:327:327:282:282:0:1:chair
+zone:327:327:282:282:0:20:chair
+tile:324:326:281:283:2:2:hardwood3
+tile:325:325:280:280:0:1:chair
+zone:300:310:200:210:0:20:near the chair
+zone:301:308:202:208:0:1:under the table
+zone:301:308:202:208:2:20:on the table
+zone:300:300:202:208:0:20:near the table
+tile:301:308:202:208:2:2:hardwood3
+tile:301:308:201:201:0:1:wallcloth
+tile:309:309:201:209:0:1:wallcloth
+tile:301:308:209:209:0:1:wallcloth
+tile:301:308:201:201:1:1:carpet5
+tile:309:309:201:209:1:1:carpet5
+tile:301:308:209:209:1:1:carpet5
+zone:301:308:201:201:1:20:on the chair
+zone:309:309:201:209:1:20:on the chair
+zone:301:308:209:209:1:20:on the chair
+zone:300:310:220:230:0:20:near the chair
+zone:301:308:222:228:0:1:under the table
+zone:301:308:222:228:2:20:on the table
+zone:300:300:222:228:0:20:near the table
+tile:301:308:222:228:2:2:hardwood3
+tile:301:308:221:221:0:1:wallcloth
+tile:309:309:221:229:0:1:wallcloth
+tile:301:308:229:229:0:1:wallcloth
+tile:301:308:221:221:1:1:carpet5
+tile:309:309:221:229:1:1:carpet5
+tile:301:308:229:229:1:1:carpet5
+zone:301:308:221:221:1:20:on the chair
+zone:309:309:221:229:1:20:on the chair
+zone:301:308:229:229:1:20:on the chair
+zone:300:310:240:250:0:20:near the chair
+zone:301:308:242:248:0:1:under the table
+zone:301:308:242:248:2:20:on the table
+zone:300:300:242:248:0:20:near the table
+tile:301:308:242:248:2:2:hardwood3
+tile:301:308:241:241:0:1:wallcloth
+tile:309:309:241:249:0:1:wallcloth
+tile:301:308:249:249:0:1:wallcloth
+tile:301:308:241:241:1:1:carpet5
+tile:309:309:241:249:1:1:carpet5
+tile:301:308:249:249:1:1:carpet5
+zone:301:308:241:241:1:20:on the chair
+zone:309:309:241:249:1:20:on the chair
+zone:301:308:249:249:1:20:on the chair
+zone:300:310:260:270:0:20:near the chair
+zone:301:308:262:268:0:1:under the table
+zone:301:308:262:268:2:20:on the table
+zone:300:300:262:268:0:20:near the table
+tile:301:308:262:268:2:2:hardwood3
+tile:301:308:261:261:0:1:wallcloth
+tile:309:309:261:269:0:1:wallcloth
+tile:301:308:269:269:0:1:wallcloth
+tile:301:308:261:261:1:1:carpet5
+tile:309:309:261:269:1:1:carpet5
+tile:301:308:269:269:1:1:carpet5
+zone:301:308:261:261:1:20:on the chair
+zone:309:309:261:269:1:20:on the chair
+zone:301:308:269:269:1:20:on the chair
+zone:300:310:280:290:0:20:near the chair
+zone:301:308:282:288:0:1:under the table
+zone:301:308:282:288:2:20:on the table
+zone:300:300:282:288:0:20:near the table
+tile:301:308:282:288:2:2:hardwood3
+tile:301:308:281:281:0:1:wallcloth
+tile:309:309:281:289:0:1:wallcloth
+tile:301:308:289:289:0:1:wallcloth
+tile:301:308:281:281:1:1:carpet5
+tile:309:309:281:289:1:1:carpet5
+tile:301:308:289:289:1:1:carpet5
+zone:301:308:281:281:1:20:on the chair
+zone:309:309:281:289:1:20:on the chair
+zone:301:308:289:289:1:20:on the chair
+zone:280:290:280:290:0:20:near the chair
+zone:282:289:282:288:0:1:under the table
+zone:282:289:282:288:2:20:on the table
+zone:290:290:282:288:0:20:near the table
+tile:282:289:282:288:2:2:hardwood3
+tile:282:289:281:281:0:1:wallcloth
+tile:281:281:281:289:0:1:wallcloth
+tile:282:289:289:289:0:1:wallcloth
+tile:282:289:281:281:1:1:carpet5
+tile:281:281:281:289:1:1:carpet5
+tile:282:289:289:289:1:1:carpet5
+zone:282:289:281:281:1:20:on the chair
+zone:281:281:281:289:1:20:on the chair
+zone:282:289:289:289:1:20:on the chair
+zone:280:290:260:270:0:20:near the chair
+zone:282:289:262:268:0:1:under the table
+zone:282:289:262:268:2:20:on the table
+zone:290:290:262:268:0:20:near the table
+tile:282:289:262:268:2:2:hardwood3
+tile:282:289:261:261:0:1:wallcloth
+tile:281:281:261:269:0:1:wallcloth
+tile:282:289:269:269:0:1:wallcloth
+tile:282:289:261:261:1:1:carpet5
+tile:281:281:261:269:1:1:carpet5
+tile:282:289:269:269:1:1:carpet5
+zone:282:289:261:261:1:20:on the chair
+zone:281:281:261:269:1:20:on the chair
+zone:282:289:269:269:1:20:on the chair
+zone:280:290:240:250:0:20:near the chair
+zone:282:289:242:248:0:1:under the table
+zone:282:289:242:248:2:20:on the table
+zone:290:290:242:248:0:20:near the table
+tile:282:289:242:248:2:2:hardwood3
+tile:282:289:241:241:0:1:wallcloth
+tile:281:281:241:249:0:1:wallcloth
+tile:282:289:249:249:0:1:wallcloth
+tile:282:289:241:241:1:1:carpet5
+tile:281:281:241:249:1:1:carpet5
+tile:282:289:249:249:1:1:carpet5
+zone:282:289:241:241:1:20:on the chair
+zone:281:281:241:249:1:20:on the chair
+zone:282:289:249:249:1:20:on the chair
+zone:280:290:220:230:0:20:near the chair
+zone:282:289:222:228:0:1:under the table
+zone:282:289:222:228:2:20:on the table
+zone:290:290:222:228:0:20:near the table
+tile:282:289:222:228:2:2:hardwood3
+tile:282:289:221:221:0:1:wallcloth
+tile:281:281:221:229:0:1:wallcloth
+tile:282:289:229:229:0:1:wallcloth
+tile:282:289:221:221:1:1:carpet5
+tile:281:281:221:229:1:1:carpet5
+tile:282:289:229:229:1:1:carpet5
+zone:282:289:221:221:1:20:on the chair
+zone:281:281:221:229:1:20:on the chair
+zone:282:289:229:229:1:20:on the chair
+zone:280:290:200:210:0:20:near the chair
+zone:282:289:202:208:0:1:under the table
+zone:282:289:202:208:2:20:on the table
+zone:290:290:202:208:0:20:near the table
+tile:282:289:202:208:2:2:hardwood3
+tile:282:289:201:201:0:1:wallcloth
+tile:281:281:201:209:0:1:wallcloth
+tile:282:289:209:209:0:1:wallcloth
+tile:282:289:201:201:1:1:carpet5
+tile:281:281:201:209:1:1:carpet5
+tile:282:289:209:209:1:1:carpet5
+zone:282:289:201:201:1:20:on the chair
+zone:281:281:201:209:1:20:on the chair
+zone:282:289:209:209:1:20:on the chair
+zone:260:270:200:201:0:20:near the chair
+zone:260:270:209:210:0:20:near the chair
+zone:260:270:202:208:0:20:near the table
+zone:261:269:202:208:0:1:under the table
+zone:261:269:202:208:2:20:on the table
+tile:261:269:202:208:2:2:hardwood3
+tile:261:269:201:201:0:1:wallcloth
+tile:261:269:201:201:1:1:carpet5
+tile:261:269:209:209:0:1:wallcloth
+tile:261:269:209:209:1:1:carpet5
+zone:261:269:201:201:1:20:on the chair
+zone:261:269:209:209:1:20:on the chair
+zone:260:270:220:221:0:20:near the chair
+zone:260:270:229:230:0:20:near the chair
+zone:260:270:222:228:0:20:near the table
+zone:261:269:222:228:0:1:under the table
+zone:261:269:222:228:2:20:on the table
+tile:261:269:222:228:2:2:hardwood3
+tile:261:269:221:221:0:1:wallcloth
+tile:261:269:221:221:1:1:carpet5
+tile:261:269:229:229:0:1:wallcloth
+tile:261:269:229:229:1:1:carpet5
+zone:261:269:221:221:1:20:on the chair
+zone:261:269:229:229:1:20:on the chair
+zone:260:270:240:241:0:20:near the chair
+zone:260:270:249:250:0:20:near the chair
+zone:260:270:242:248:0:20:near the table
+zone:261:269:242:248:0:1:under the table
+zone:261:269:242:248:2:20:on the table
+tile:261:269:242:248:2:2:hardwood3
+tile:261:269:241:241:0:1:wallcloth
+tile:261:269:249:249:0:1:wallcloth
+zone:261:269:241:241:1:20:on the chair
+tile:261:269:249:249:1:1:carpet5
+zone:261:269:249:249:1:20:on the chair
+tile:261:269:241:241:1:1:carpet5
+zone:260:270:269:270:0:20:near the chair
+zone:260:270:260:261:0:20:near the chair
+zone:260:270:262:268:0:20:near the table
+zone:261:269:262:268:0:1:under the table
+zone:261:269:262:268:2:20:on the table
+tile:261:269:262:268:2:2:hardwood3
+tile:261:269:261:261:0:1:wallcloth
+tile:261:269:261:261:1:1:carpet5
+tile:261:269:269:269:0:1:wallcloth
+tile:261:269:269:269:1:1:carpet5
+zone:261:269:261:261:1:20:on the chair
+zone:261:269:269:269:1:20:on the chair
+zone:260:270:280:281:0:20:near the chair
+zone:260:270:289:290:0:20:near the chair
+zone:260:270:282:288:0:20:near the table
+zone:261:269:282:288:0:1:under the table
+zone:261:269:282:288:2:20:on the table
+tile:261:269:282:288:2:2:hardwood3
+tile:261:269:281:281:0:1:wallcloth
+tile:261:269:281:281:1:1:carpet5
+tile:261:269:289:289:0:1:wallcloth
+tile:261:269:289:289:1:1:carpet5
+zone:261:269:281:281:1:20:on the chair
+zone:261:269:289:289:1:20:on the chair
+zone:101:104:210:270:0:20:Near the counter. You can see the food menu from the counter page by just pressing Enter.
+tile:101:103:211:269:0:1:wallconcrete
+zone:104:104:213:217:0:20:chicken meat
+tile:101:103:211:269:1:1:hardwood7
+sign:104:104:213:217:0:0:Here's the menu. Seasoned Chicken Roll, Thin Sliced Chicken, Skinless Chicken, Wine Chicken, Seaweed Chicken, Garlic Marinated Chicken, Spicy Chicken, Black Pepper Chicken, Honey Chicken, Chicken. stick to the bone:silence.ogg
+zone:104:104:223:227:0:20:pork
+sign:104:104:223:227:0:0:Here's the menu. Seaweed Pork, Honey Marinated Pork, Salted Egg Pork, Spicy Pork, Fresh Milk Marinated Pork, Soy Sauce Marinated Pork, Korean Marinated Pork, Thick and Tender Pork, Pork Loin. outside, pork tenderloin:silence.ogg
+zone:104:104:233:237:0:20:beef
+sign:104:104:233:237:0:0:Here's the menu. Lean Beef, Beef Thigh, Beef Leg, Beef Brisket, Curry Marinated Beef, Sweet Marinated Beef, Beef Neck, Spicy Beef, Thick Beef Tender, thin slices of beef:silence.ogg
+zone:104:104:243:247:0:20:seafood
+sign:104:104:243:247:0:0:Here's the menu. Plum Marinated Fish, Lobster, Fluffy Tuna, Vinegared Oyster, Crab Balls with Salted Egg Sauce, Crab with Crab Roe, snow fish fillet, sea bass fillet, salmon fillet, saba fillet:silence.ogg
+zone:104:104:253:257:0:20:broth
+sign:104:104:253:257:0:0:Here's the menu. Mala soup, shabu soup, sweet soup, spicy soup, stewed pork soup, herbal soup, vegetable soup, shiitake soup, carrot soup, sesame soup.:silence.ogg
+zone:104:104:263:267:0:20:cheese
+sign:104:104:263:267:0:0:Here's menu. Cheddar cheese, Parmesan cheese, Swiss cheese, blue cheese, Gouda cheese, Mozzarella cheese, Cottage cheese, Brie Cheese, Camembert Cheese, Feta Cheese:silence.ogg
+zone:101:103:211:269:1:20:on the counter
+tile:120:132:200:212:0:0:carpet6
+zone:120:132:200:212:0:20:soft mat
+tile:122:130:202:210:0:0:hardwood
+zone:122:130:202:210:0:20:table
+tile:124:126:205:207:0:0:fire
+zone:124:126:205:207:0:20:grill
+tile:127:128:205:207:0:0:metal7
+zone:127:128:205:207:0:20:soup pot
+oven:124:126:205:207:0:0
+src:124:126:205:207:0:0:0:100:fire5.ogg
+src:127:128:205:207:0:0:0:100:quicksand3.ogg
+tile:120:132:230:242:0:0:carpet6
+zone:120:132:230:242:0:20:soft mat
+tile:122:130:232:240:0:0:hardwood
+zone:122:130:232:240:0:20:table
+tile:124:126:235:237:0:0:fire
+zone:124:126:235:237:0:20:grill
+tile:127:128:235:237:0:0:metal7
+zone:127:128:235:237:0:20:soup pot
+oven:124:126:235:237:0:0
+src:124:126:235:237:0:0:0:100:fire5.ogg
+src:127:128:235:237:0:0:0:100:quicksand3.ogg
+tile:120:132:260:272:0:0:carpet6
+zone:120:132:260:272:0:20:soft mat
+tile:122:130:262:270:0:0:hardwood
+zone:122:130:262:270:0:20:table
+tile:124:126:265:267:0:0:fire
+zone:124:126:265:267:0:20:grill
+tile:127:128:265:267:0:0:metal7
+zone:127:128:265:267:0:20:soup pot
+oven:124:126:265:267:0:0
+src:124:126:265:267:0:0:0:100:fire5.ogg
+src:127:128:265:267:0:0:0:100:quicksand3.ogg
+tile:150:162:260:272:0:0:carpet6
+zone:150:162:260:272:0:20:soft mat
+tile:152:160:262:270:0:0:hardwood
+zone:152:160:262:270:0:20:table
+tile:154:156:265:267:0:0:fire
+zone:154:156:265:267:0:20:grill
+tile:157:158:265:267:0:0:metal7
+zone:157:158:265:267:0:20:soup pot
+oven:154:156:265:267:0:0
+src:154:156:265:267:0:0:0:100:fire5.ogg
+src:157:158:265:267:0:0:0:100:quicksand3.ogg
+tile:150:162:230:242:0:0:carpet6
+zone:150:162:230:242:0:20:soft mat
+tile:152:160:232:240:0:0:hardwood
+zone:152:160:232:240:0:20:table
+tile:154:156:235:237:0:0:fire
+zone:154:156:235:237:0:20:grill
+tile:157:158:235:237:0:0:metal7
+zone:157:158:235:237:0:20:soup pot
+oven:154:156:235:237:0:0
+src:154:156:235:237:0:0:0:100:fire5.ogg
+src:157:158:235:237:0:0:0:100:quicksand3.ogg
+tile:150:162:200:212:0:0:carpet6
+zone:150:162:200:212:0:20:soft mat
+tile:152:160:202:210:0:0:hardwood
+zone:152:160:202:210:0:20:table
+tile:154:156:205:207:0:0:fire
+zone:154:156:205:207:0:20:grill
+tile:157:158:205:207:0:0:metal7
+zone:157:158:205:207:0:20:soup pot
+oven:154:156:205:207:0:0
+src:154:156:205:207:0:0:0:100:fire5.ogg
+src:157:158:205:207:0:0:0:100:quicksand3.ogg
+tile:180:192:200:212:0:0:carpet6
+zone:180:192:200:212:0:20:soft mat
+tile:182:190:202:210:0:0:hardwood
+zone:182:190:202:210:0:20:table
+tile:184:186:205:207:0:0:fire
+zone:184:186:205:207:0:20:grill
+tile:187:188:205:207:0:0:metal7
+zone:187:188:205:207:0:20:soup pot
+oven:184:186:205:207:0:0
+src:184:186:205:207:0:0:0:100:fire5.ogg
+src:187:188:205:207:0:0:0:100:quicksand3.ogg
+tile:180:192:230:242:0:0:carpet6
+zone:180:192:230:242:0:20:soft mat
+tile:182:190:232:240:0:0:hardwood
+zone:182:190:232:240:0:20:table
+tile:184:186:235:237:0:0:fire
+zone:184:186:235:237:0:20:grill
+tile:187:188:235:237:0:0:metal7
+zone:187:188:235:237:0:20:soup pot
+oven:184:186:235:237:0:0
+src:184:186:235:237:0:0:0:100:fire5.ogg
+src:187:188:235:237:0:0:0:100:quicksand3.ogg
+tile:180:192:260:272:0:0:carpet6
+zone:180:192:260:272:0:20:soft mat
+tile:182:190:262:270:0:0:hardwood
+zone:182:190:262:270:0:20:table
+tile:184:186:265:267:0:0:fire
+zone:184:186:265:267:0:20:grill
+tile:187:188:265:267:0:0:metal7
+zone:187:188:265:267:0:20:soup pot
+oven:184:186:265:267:0:0
+src:184:186:265:267:0:0:0:100:fire5.ogg
+src:187:188:265:267:0:0:0:100:quicksand3.ogg
+tile:210:222:260:272:0:0:carpet6
+zone:210:222:260:272:0:20:soft mat
+tile:212:220:262:270:0:0:hardwood
+zone:212:220:262:270:0:20:table
+tile:214:216:265:267:0:0:fire
+zone:214:216:265:267:0:20:grill
+tile:217:218:265:267:0:0:metal7
+zone:217:218:265:267:0:20:soup pot
+oven:214:216:265:267:0:0
+src:214:216:265:267:0:0:0:100:fire5.ogg
+src:217:218:265:267:0:0:0:100:quicksand3.ogg
+tile:210:222:230:242:0:0:carpet6
+zone:210:222:230:242:0:20:soft mat
+tile:212:220:232:240:0:0:hardwood
+zone:212:220:232:240:0:20:table
+tile:214:216:235:237:0:0:fire
+zone:214:216:235:237:0:20:grill
+tile:217:218:235:237:0:0:metal7
+zone:217:218:235:237:0:20:soup pot
+oven:214:216:235:237:0:0
+src:214:216:235:237:0:0:0:100:fire5.ogg
+src:217:218:235:237:0:0:0:100:quicksand3.ogg
+tile:210:222:200:212:0:0:carpet6
+zone:210:222:200:212:0:20:soft mat
+tile:212:220:202:210:0:0:hardwood
+zone:212:220:202:210:0:20:table
+tile:214:216:205:207:0:0:fire
+zone:214:216:205:207:0:20:grill
+tile:217:218:205:207:0:0:metal7
+zone:217:218:205:207:0:20:soup pot
+oven:214:216:205:207:0:0
+src:214:216:205:207:0:0:0:100:fire5.ogg
+src:217:218:205:207:0:0:0:100:quicksand3.ogg
+tile:241:244:123:130:50:50:bleacher9
+tile:246:249:123:130:50:50:bleacher9
+door:246:249:123:129:50:50:247:126:21:the elevator is going down:200:silence.ogg:elev2.ogg:silence.ogg:silence.ogg
+tile:194:194:169:188:21:40:wallglass11:trackme
+tile:101:399:132:299:50:50:concrete6
+tile:101:239:122:131:50:50:concrete6
+tile:251:399:122:131:50:50:concrete6
+tile:194:194:122:163:21:40:wallglass11:trackme
+door:246:249:130:130:50:50:247:132:50:You walk out of the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:246:249:132:132:50:50:247:130:50:You walk into the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:241:244:130:130:50:50:242:132:50:You walk out of the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:241:244:132:132:50:50:242:130:50:You walk into the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+tile:101:193:122:122:21:40:wallglass11:trackme
+zone:101:239:122:132:50:70:second floor
+zone:251:399:122:132:50:70:second floor
+tile:101:193:188:188:21:40:wallglass11:trackme
+tile:101:101:123:188:21:40:wallglass11:trackme
+zone:101:399:133:299:50:70:second floor
+zone:102:193:123:187:21:40:staff room:trackme
+zone:193:193:165:167:21:40:staff elevator door:trackme
+door:241:244:123:129:21:21:242:126:50:the elevator is going up:200:silence.ogg:elev2.ogg:silence.ogg:silence.ogg
+tile:101:149:122:149:50:50:grass4
+zone:101:149:122:149:50:70:courtyard:trackme
+zone:110:120:122:125:50:70:near the bench
+zone:111:119:122:124:51:70:on the bench
+tile:111:119:122:124:50:51:wallcontainer
+tile:111:119:122:124:51:51:chair
+zone:130:140:122:125:50:70:near the bench
+zone:131:139:122:124:51:70:on the bench
+tile:131:139:122:124:50:51:wallcontainer
+tile:131:139:122:124:51:51:chair
+zone:120:130:130:140:50:70:near the fountain
+tile:121:129:131:139:50:60:wallstone2
+src:121:129:131:139:50:60:-5:100:stream11.ogg
+tile:101:399:150:150:50:70:wallwood18
+tile:245:255:150:150:50:70:wallmetal
+zone:240:250:131:131:50:70:second floor
+door:245:255:149:149:50:50:250:151:50:You walk into the hallway.:100:silence.ogg:silence.ogg:door69open.ogg:close5.ogg
+door:245:255:151:151:50:50:250:149:50:You walk out of the hallway.:100:silence.ogg:silence.ogg:door69open.ogg:close5.ogg
+zone:245:255:149:150:50:70:hallway door:trackme
+tile:180:200:122:132:50:50:metal16
+tile:179:179:122:132:50:70:wallwood18
+tile:201:201:122:132:50:70:wallwood18
+tile:180:200:132:132:50:70:wallwood18
+tile:188:192:132:132:50:70:wallstand
+door:188:192:131:131:50:50:190:133:50:You walk out of the toilet.:400:silence.ogg:silence.ogg:door147open.ogg:door38close.ogg
+door:188:192:133:133:50:50:190:131:50:You walk into the toilet.:400:silence.ogg:silence.ogg:door147open.ogg:door38close.ogg
+src:180:200:122:131:50:70:0:100:sewer3.ogg:1
+zone:188:192:133:133:50:70:blue toilet door:trackme
+zone:180:200:122:131:50:70:in the blue toilet
+zone:188:192:131:132:50:70:exit door
+zone:180:182:122:124:50:70:near the blue toilet bowl
+tile:180:181:122:123:50:51:walldiamond
+tile:180:181:122:123:51:51:diamond
+zone:180:181:122:123:51:70:on the blue toilet bowl
+toilet:180:181:122:123:51:51
+zone:180:182:129:131:50:70:near the blue trash can
+zone:180:181:130:131:51:70:on the blue trash can
+tile:180:181:130:131:50:51:wallfurniture
+tile:180:181:130:131:51:51:debris
+trashcan:180:181:130:131:51:51
+zone:183:185:122:123:50:70:Near the blue toilet paper holder
+tile:184:184:122:122:50:60:wallrail
+zone:190:193:122:126:50:70:near the blue table for placing things
+tile:191:192:122:125:50:51:wallwood16
+tile:191:192:122:125:51:51:hardwood5
+zone:191:192:122:125:51:70:on the blue table for placing things
+zone:198:200:122:126:50:70:near the blue washbasin
+tile:199:200:122:125:50:51:walldesk2
+tile:199:200:122:125:51:51:bathtub2
+zone:199:200:122:125:51:70:on the blue washbasin
+washbasin:199:200:122:125:51:51
+zone:199:200:130:131:50:70:near the blue electric hand dryers
+tile:200:200:131:131:50:60:wallmetal17
+src:199:200:130:131:50:60:0:100:fan_running.ogg:1
+zone:193:196:130:131:50:70:near blue glass
+tile:194:195:131:131:50:60:wallglass
+zone:300:399:122:149:50:70:relaxing place:trackme
+tile:300:399:122:149:50:50:wood2
+zone:320:325:122:124:50:70:near the big radio
+tile:321:324:122:123:50:70:wallmetal18
+zone:350:355:122:124:50:70:near the big TV
+tile:351:354:122:123:50:60:walldiamond
+src:351:354:122:123:50:55:0:80:kids3.ogg
+zone:380:385:122:124:50:70:near the game machine
+tile:381:384:122:123:50:60:wallmetal19
+src:381:384:122:123:50:55:0:100:city_r27.ogg
+zone:315:330:130:135:50:70:near the big sofa
+zone:316:329:131:134:51:70:on the big sofa
+tile:316:329:131:134:50:51:wallbeaulon
+tile:316:329:131:134:51:51:carpet10
+zone:345:360:130:135:50:70:near the big sofa
+zone:346:359:131:134:51:70:on the big sofa
+tile:346:359:131:134:50:51:wallbeaulon
+tile:346:359:131:134:51:51:carpet10
+zone:375:390:130:135:50:70:near the big sofa
+zone:376:389:131:134:51:70:on the big sofa
+tile:376:389:131:134:50:51:wallbeaulon
+tile:376:389:131:134:51:51:carpet10
+zone:200:300:151:299:50:70:wide hallway
+zone:245:255:151:151:50:70:exit door
+tile:200:300:151:199:50:50:concrete13
+tile:199:199:151:199:50:70:wallwood18
+tile:301:301:151:199:50:70:wallwood18
+tile:199:199:175:180:50:70:wallwood11
+door:200:200:175:180:50:50:198:177:50:You walk into a pet shop.:300:silence.ogg:silence.ogg:door18open.ogg:door12close.ogg
+door:198:198:175:180:50:50:200:177:50:You walked out of the pet shop.:300:silence.ogg:silence.ogg:door18open.ogg:door12close.ogg
+zone:200:200:175:180:50:70:pet shop door:trackme
+zone:101:199:151:199:50:70:pet shop
+tile:101:399:200:200:50:70:wallwood18
+zone:198:199:175:180:50:70:exit door
+tile:101:198:151:199:50:50:wood3
+tile:301:301:175:180:50:70:wallwood3
+door:300:300:175:180:50:50:302:177:50:Good buy, lots of cute things.:100:silence.ogg:silence.ogg:door40open.ogg:door28close.ogg
+door:302:302:175:180:50:50:300:177:50:You walked out with your hands full.:100:silence.ogg:silence.ogg:door40open.ogg:door28close.ogg
+zone:301:399:151:199:50:70:gift shop
+tile:302:399:151:199:50:50:concrete19
+zone:300:301:175:180:50:70:gift shop door:trackme
+tile:245:255:200:200:50:70:wallglass6
+door:245:255:199:199:50:50:250:201:50:You open the door with the hope that your pet will recover from his illness.:2000:silence.ogg:silence.ogg:door65open.ogg:door51close.ogg
+door:245:255:201:201:50:50:250:199:50:You walk out with a smile because your pet is in good health.:2000:silence.ogg:silence.ogg:door65open.ogg:door51close.ogg
+zone:245:255:199:199:50:70:pet hospital door:trackme
+zone:101:399:200:299:50:70:pet hospital
+zone:245:255:200:201:50:70:exit door
+src:240:300:201:299:50:70:0:50:doorbell.ogg:1
+tile:239:239:200:239:50:70:wallwood18
+tile:101:239:239:239:50:70:wallwood18
+tile:239:239:260:299:50:70:wallwood18
+tile:101:239:260:260:50:70:wallwood18
+tile:301:301:201:239:50:70:wallwood18
+tile:301:399:239:239:50:70:wallwood18
+zone:301:399:239:260:50:70:Hallway in front of the recovery room
+tile:301:399:260:260:50:70:wallwood18
+tile:301:301:260:299:50:70:wallwood18
+tile:301:399:240:259:50:70:tile6
+tile:345:355:260:260:50:70:wallwood9
+tile:345:355:239:239:50:70:walldoor
+door:345:355:259:259:50:50:350:261:50:You open the door and find that your dog is very happy to see you. It barked, wagged its tail and jumped around.:500:silence.ogg:silence.ogg:door24open.ogg:door35close.ogg
+door:345:355:261:261:50:50:350:259:50:You walked out with your dog.:500:silence.ogg:silence.ogg:door24open.ogg:door35close.ogg
+zone:345:355:259:259:50:70:dog recovery room door:trackme
+zone:301:399:261:299:50:70:dog recovery room
+zone:345:355:260:261:50:70:exit door
+tile:302:399:261:299:50:50:wood2
+src:301:399:261:299:50:70:0:150:labrador1.ogg:1
+tile:102:110:123:125:21:23:wallsofa:trackme
+tile:102:110:123:125:23:23:carpet5:trackme
+zone:102:111:123:126:21:40:near the first sofa:trackme
+zone:102:110:123:125:23:40:on the first sofa:trackme
+door:345:355:240:240:50:50:350:238:50:You open the door and hear your cat's voice.:100:silence.ogg:silence.ogg:door24open.ogg:door26close.ogg
+door:345:355:238:238:50:50:350:240:50:You walked out with your cat.:100:silence.ogg:silence.ogg:door24open.ogg:door26close.ogg
+zone:345:355:240:240:50:70:cat recovery room door:trackme
+zone:301:399:201:238:50:70:cat recovery room
+zone:345:355:238:239:50:70:exit door
+tile:302:399:201:238:50:50:ceramic3
+src:301:399:201:238:50:70:0:150:cat1.ogg:1
+zone:101:239:239:260:50:70:Hallway
+tile:101:239:240:259:50:50:cave
+tile:116:126:123:125:21:23:wallsofa:trackme
+tile:116:126:123:125:23:23:carpet5:trackme
+zone:115:127:123:126:21:40:near the second sofa:trackme
+zone:116:126:123:125:23:40:on the second sofa:trackme
+tile:133:143:123:125:21:23:wallsofa:trackme
+tile:133:143:123:125:23:23:carpet5:trackme
+zone:132:144:123:126:21:40:near the third sofa:trackme
+zone:302:399:278:279:50:70:near the kennel
+zone:302:399:280:299:50:70:in the kennel
+tile:302:399:279:279:50:51:wallfence6
+tile:302:399:290:299:50:50:mat
+zone:302:399:290:299:50:70:dog bed
+bed:302:399:290:299:50:50
+tile:320:320:280:299:50:51:wallfence6
+tile:340:340:280:299:50:51:wallfence6
+tile:360:360:280:299:50:51:wallfence6
+tile:380:380:280:299:50:51:wallfence6
+zone:320:320:280:299:50:70:near the kennel
+zone:340:340:280:299:50:70:near the kennel
+zone:360:360:280:299:50:70:near the kennel
+zone:380:380:280:299:50:70:near the kennel
+tile:302:304:280:282:50:50:sand6
+zone:302:304:280:282:50:70:dog litter tray
+zone:308:312:280:282:50:70:food and water bowls
+tile:308:312:280:282:50:50:fire
+zone:317:319:280:282:50:70:toy basket
+tile:317:319:280:282:50:50:brokenglass
+tile:322:324:280:282:50:50:sand6
+zone:322:324:280:282:50:70:dog litter tray
+zone:328:332:280:282:50:70:food and water bowls
+tile:328:332:280:282:50:50:fire
+zone:337:339:280:282:50:70:toy basket
+tile:337:339:280:282:50:50:brokenglass
+tile:342:344:280:282:50:50:sand6
+zone:342:344:280:282:50:70:dog litter tray
+zone:348:352:280:282:50:70:food and water bowls
+tile:348:352:280:282:50:50:fire
+zone:357:359:280:282:50:70:toy basket
+tile:357:359:280:282:50:50:brokenglass
+tile:362:364:280:282:50:50:sand6
+zone:362:364:280:282:50:70:dog litter tray
+zone:368:372:280:282:50:70:food and water bowls
+tile:368:372:280:282:50:50:fire
+zone:377:379:280:282:50:70:toy basket
+tile:377:379:280:282:50:50:brokenglass
+tile:382:384:280:282:50:50:sand6
+zone:382:384:280:282:50:70:dog litter tray
+zone:388:392:280:282:50:70:food and water bowls
+tile:388:392:280:282:50:50:fire
+zone:397:399:280:282:50:70:toy basket
+tile:397:399:280:282:50:50:brokenglass
+zone:301:399:221:222:50:70:near the cat cage
+tile:302:399:221:221:50:51:wallfence6
+zone:302:399:201:220:50:70:in the cat cage
+tile:302:399:201:210:50:50:mat
+bed:302:399:201:210:50:50
+tile:320:320:201:220:50:51:wallfence6
+tile:340:340:201:220:50:51:wallfence6
+tile:360:360:201:220:50:51:wallfence6
+tile:380:380:201:220:50:51:wallfence6
+zone:302:399:201:210:50:70:cat bed
+zone:320:320:201:220:50:70:near the cat cage
+zone:340:340:201:220:50:70:near the cat cage
+zone:360:360:201:220:50:70:near the cat cage
+zone:380:380:201:220:50:70:near the cat cage
+tile:302:304:218:220:50:50:sand6
+zone:302:304:218:220:50:70:cat litter tray
+tile:308:312:218:220:50:50:fire
+zone:308:312:218:220:50:70:food and water bowls
+tile:317:319:218:220:50:50:snow12
+zone:317:319:218:220:50:70:cat scratcher
+tile:322:324:218:220:50:50:sand6
+zone:322:324:218:220:50:70:cat litter tray
+tile:328:332:218:220:50:50:fire
+zone:328:332:218:220:50:70:food and water bowls
+tile:337:339:218:220:50:50:snow12
+zone:337:339:218:220:50:70:cat scratcher
+tile:342:344:218:220:50:50:sand6
+zone:342:344:218:220:50:70:cat litter tray
+tile:348:352:218:220:50:50:fire
+zone:348:352:218:220:50:70:food and water bowls
+tile:357:359:218:220:50:50:snow12
+zone:357:359:218:220:50:70:cat scratcher
+tile:362:364:218:220:50:50:sand6
+zone:362:364:218:220:50:70:cat litter tray
+tile:368:372:218:220:50:50:fire
+zone:368:372:218:220:50:70:food and water bowls
+tile:377:379:218:220:50:50:snow12
+zone:377:379:218:220:50:70:cat scratcher
+tile:382:384:218:220:50:50:sand6
+zone:382:384:218:220:50:70:cat litter tray
+tile:388:392:218:220:50:50:fire
+zone:388:392:218:220:50:70:food and water bowls
+tile:397:399:218:220:50:50:snow12
+zone:397:399:218:220:50:70:cat scratcher
+zone:240:244:219:231:50:70:Near the counter informing the history of pets
+zone:240:243:220:230:51:70:On the counter informing the history of pets
+tile:240:243:220:230:50:51:wallbounce
+tile:240:243:220:230:51:51:wood
+src:240:243:220:230:50:55:0:140:keabord2.ogg
+zone:240:244:269:281:50:70:near the drug dispensing counter
+zone:240:243:270:280:51:70:on the drug dispensing counter
+tile:240:243:270:280:50:51:wallboard
+tile:240:243:270:280:51:51:wood5
+src:240:243:270:280:50:55:0:80:your clue.ogg
+zone:260:264:219:231:50:70:near the shiny wooden chair
+zone:261:263:220:230:51:70:on the shiny wooden chair
+tile:261:263:220:230:50:51:wallwood16
+tile:261:263:220:230:51:51:wood12
+zone:270:274:219:231:50:70:near the shiny wooden chair
+zone:271:273:220:230:51:70:on the shiny wooden chair
+tile:271:273:220:230:50:51:wallwood16
+tile:271:273:220:230:51:51:wood12
+zone:280:284:219:231:50:70:near the shiny wooden chair
+zone:281:283:220:230:51:70:on the shiny wooden chair
+tile:281:283:220:230:50:51:wallwood16
+tile:281:283:220:230:51:51:wood12
+zone:280:284:269:281:50:70:near the shiny wooden chair
+zone:281:283:270:280:51:70:on the shiny wooden chair
+tile:281:283:270:280:50:51:wallwood16
+tile:281:283:270:280:51:51:wood12
+zone:270:274:269:281:50:70:near the shiny wooden chair
+zone:271:273:270:280:51:70:on the shiny wooden chair
+tile:271:273:270:280:50:51:wallwood16
+tile:271:273:270:280:51:51:wood12
+zone:260:264:269:281:50:70:near the shiny wooden chair
+zone:261:263:270:280:51:70:on the shiny wooden chair
+tile:261:263:270:280:50:51:wallwood16
+tile:261:263:270:280:51:51:wood12
+tile:200:200:201:239:50:70:wallwood18
+tile:218:222:239:239:50:70:wallcelle3
+door:218:222:240:240:50:50:220:238:50:Hello all doctors and nurses.:1000:silence.ogg:silence.ogg:door3open.ogg:door40close.ogg
+door:218:222:238:238:50:50:220:240:50:Let's go out and work.:1000:silence.ogg:silence.ogg:door3open.ogg:door40close.ogg
+zone:218:222:240:240:50:70:Office of doctors and nurses door:trackme
+zone:201:238:201:238:50:70:Office of doctors and nurses
+tile:201:238:201:238:50:50:carpet
+zone:218:222:238:239:50:70:exit door
+zone:236:238:219:231:50:70:near the computer
+tile:237:238:220:230:50:60:wallbuilding
+zone:215:225:201:204:50:70:near the sofa
+zone:216:224:201:203:51:70:on the sofa
+tile:216:224:201:203:50:51:wallcloth
+tile:216:224:201:203:51:51:carpet4
+zone:201:204:219:231:50:70:near the filing cabinet
+tile:201:203:220:230:50:60:wallcelle2
+tile:160:160:201:239:50:70:wallwood18
+tile:178:182:239:239:50:70:wallcomputer
+door:178:182:240:240:50:50:180:238:50:enter this room Guarantee that your pet will be okay.:100:silence.ogg:silence.ogg:door27open.ogg:door38close.ogg
+door:178:182:238:238:50:50:180:240:50:Your pet is now safe.:100:silence.ogg:silence.ogg:door27open.ogg:door38close.ogg
+src:161:199:201:238:50:70:-10:70:alarms.ogg:1
+zone:161:199:201:238:50:70:emergency room
+zone:178:182:239:240:50:70:emergency room door:trackme
+zone:163:167:201:206:50:70:near the bed
+zone:164:166:201:205:51:70:on the bed
+tile:164:166:201:205:50:51:wallcrate
+tile:164:166:201:205:51:51:mat
+bed:164:166:201:205:51:51
+zone:173:177:201:206:50:70:near the bed
+zone:174:176:201:205:51:70:on the bed
+tile:174:176:201:205:50:51:wallcrate
+tile:174:176:201:205:51:51:mat
+bed:174:176:201:205:51:51
+zone:183:187:201:206:50:70:near the bed
+zone:184:186:201:205:51:70:on the bed
+tile:184:186:201:205:50:51:wallcrate
+tile:184:186:201:205:51:51:mat
+bed:184:186:201:205:51:51
+zone:193:197:201:206:50:70:near the bed
+zone:194:196:201:205:51:70:on the bed
+tile:194:196:201:205:50:51:wallcrate
+tile:194:196:201:205:51:51:mat
+bed:194:196:201:205:51:51
+zone:178:182:238:238:50:70:exit door
+tile:140:140:201:239:50:70:wallwood18
+tile:148:152:239:239:50:70:wallcar
+door:148:152:240:240:50:50:150:238:50:Your pet is ready for surgery.:100:silence.ogg:silence.ogg:door6open.ogg:door2close.ogg
+door:148:152:238:238:50:50:150:240:50:Your pet is safe I'll take him to the recovery room.:100:silence.ogg:silence.ogg:door6open.ogg:door2close.ogg
+zone:133:143:123:125:23:40:on the third sofa:trackme
+zone:148:152:240:240:50:70:operating room door:trackme
+src:141:159:201:238:50:70:-15:30:clock alarm.ogg:1
+zone:141:159:201:238:50:70:operating room
+zone:148:152:238:239:50:70:exit door
+tile:150:160:123:125:21:23:wallsofa:trackme
+tile:150:160:123:125:23:23:carpet5:trackme
+zone:149:161:123:126:21:40:near the fourth sofa:trackme
+zone:150:160:123:125:21:40:on the fourth sofa:trackme
+tile:102:160:129:132:21:24:wallwood16:trackme
+tile:102:160:129:132:24:24:glass5:trackme
+zone:102:161:128:133:21:40:near a long glass table:trackme
+zone:102:160:129:132:24:40:on a long glass table:trackme
+tile:102:104:145:150:21:23:wallcloth:trackme
+tile:102:104:145:150:23:23:cloth:trackme
+zone:101:105:144:151:21:40:near the first bed:trackme
+zone:102:104:145:150:23:40:on the first bed:trackme
+bed:102:104:145:150:23:23
+zone:147:153:201:210:50:70:near the bed
+tile:148:152:201:209:50:51:wallobject
+tile:148:152:201:209:51:51:mat
+zone:148:152:201:209:51:70:on the bed
+door:118:122:240:240:50:50:120:238:50:This room is safe. Absolutely no germs:100:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+door:118:122:238:238:50:50:120:240:50:Congratulations, your pet can leave this room.:100:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:118:122:239:239:50:70:wallbuilding
+zone:118:122:239:240:50:70:sterile room door:trackme
+zone:101:139:201:238:50:70:sterile room
+zone:118:122:238:238:50:70:exit door
+zone:108:112:201:210:50:70:near the bed
+zone:109:111:201:209:51:70:on the bed
+tile:109:111:201:209:50:51:wallcomputer
+tile:109:111:201:209:51:51:mat
+bed:109:111:201:209:51:51
+zone:118:122:201:210:50:70:near the bed
+zone:119:121:201:209:51:70:on the bed
+tile:119:121:201:209:50:51:wallcomputer
+tile:119:121:201:209:51:51:mat
+bed:119:121:201:209:51:51
+zone:128:132:201:210:50:70:near the bed
+zone:129:131:201:209:51:70:on the bed
+tile:129:131:201:209:50:51:wallcomputer
+tile:129:131:201:209:51:51:mat
+bed:129:131:201:209:51:51
+tile:200:200:260:299:50:70:wallwood18
+tile:218:222:260:260:50:70:wallgate
+door:218:222:259:259:50:50:220:261:50:You walk into a pharmacy.:200:silence.ogg:silence.ogg:door10open.ogg:door10close.ogg
+door:218:222:261:261:50:50:220:259:50:You walk out of the pharmacy:200:silence.ogg:silence.ogg:door10open.ogg:door10close.ogg
+zone:201:238:261:299:50:70:pharmacy
+zone:218:222:260:261:50:70:exit door
+zone:218:222:259:259:50:70:pharmacy door:trackme
+zone:235:238:269:281:50:70:near the counter
+tile:236:238:270:280:50:60:wallbuilding
+zone:210:220:296:299:50:70:near the refrigerator for storing liquid medicine
+tile:211:219:297:299:50:60:walldesk2
+zone:201:204:285:295:50:70:near the pill shelf
+tile:201:203:286:294:50:60:wallchain
+zone:201:204:265:275:50:70:near the medical equipment rack
+tile:201:203:266:274:50:60:wallbarrel
+tile:150:150:260:299:50:70:wallwood18
+tile:175:180:260:260:50:70:wallglass12
+door:175:180:259:259:50:50:177:261:50:You walk into the general examination room with your pet.:200:silence.ogg:silence.ogg:door16open.ogg:door16close.ogg
+door:175:180:261:261:50:50:177:259:50:You walked out with your pet.:200:silence.ogg:silence.ogg:door16open.ogg:door16close.ogg
+zone:175:180:259:259:50:70:general examination room door:trackme
+zone:151:199:261:299:50:70:general examination room
+zone:175:180:260:261:50:70:exit door
+zone:158:162:290:299:50:70:near the bed
+zone:159:161:291:299:51:70:on the bed
+tile:159:161:291:299:50:51:wallcomputer
+tile:159:161:291:299:51:51:mat
+bed:159:161:291:299:51:51
+zone:168:172:290:299:50:70:near the bed
+zone:169:171:291:299:51:70:on the bed
+tile:169:171:291:299:50:51:wallcomputer
+tile:169:171:291:299:51:51:mat
+bed:169:171:291:299:51:51
+zone:180:190:295:299:50:70:Near a clear glass cabinet for storing medical equipment
+tile:181:189:296:299:50:60:wallglass5
+tile:120:125:260:260:50:70:wallgrass2reverb
+door:120:125:259:259:50:50:123:261:50:You walk into the pet shower room and smell the scent of body wash.:1000:silence.ogg:silence.ogg:door22open.ogg:door40close.ogg
+door:120:125:261:261:50:50:123:259:50:Your pet is clean and beautiful.:1000:silence.ogg:silence.ogg:door22open.ogg:door40close.ogg
+zone:120:125:259:259:50:70:pet shower room door:trackme
+zone:101:149:261:299:50:70:pet shower room
+zone:120:125:260:261:50:70:exit door
+tile:101:149:261:299:50:50:pipe3
+tile:101:110:299:299:50:51:wallbarrel
+tile:101:110:289:289:50:51:wallbarrel
+tile:101:101:289:299:50:51:wallbarrel
+tile:110:110:289:299:50:51:wallbarrel
+tile:102:109:290:298:50:50:bathtub2
+shower:102:109:290:298:50:50
+zone:101:111:288:299:50:70:near the pet bath
+zone:102:109:290:298:50:70:in the pet bath
+zone:112:115:296:299:50:70:near the shower cream shelf
+tile:113:114:297:299:50:60:wallblind2
+zone:120:125:296:299:50:70:near the pet hair dryer
+tile:121:124:297:299:50:60:wallmedal3
+tile:130:135:295:299:50:50:mat
+zone:130:135:295:299:50:70:soft towel
+src:121:124:297:299:50:55:0:100:fan.ogg
+zone:195:199:185:195:50:70:near the payment counter
+tile:196:198:186:194:50:60:wallbuilding
+tile:101:198:151:151:50:60:walldesk2
+zone:101:198:152:152:50:60:near the shelf for pet products
+zone:105:110:152:152:50:60:pet food
+zone:115:120:152:152:50:60:Milk for puppies and kittens
+zone:125:130:152:152:50:60:Pet clothing and accessories
+zone:135:140:152:152:50:60:Leash and muzzle
+zone:145:150:152:152:50:60:Dog collars and cat collars
+zone:155:160:152:152:50:60:Pet baskets and pet bags
+zone:165:170:152:152:50:60:pet toys
+zone:175:180:152:152:50:60:pet house
+zone:185:195:152:152:50:60:Pet shower cream and perfume for pets.
+zone:302:306:185:195:50:60:near the payment counter
+tile:302:305:186:194:50:60:wallbuilding
+tile:302:399:151:151:50:60:wallglass2
+zone:302:399:152:152:50:60:Near the clear glass cabinets put many cute things.
+zone:305:310:152:152:50:60:An orange tote bag with a picture of a Maine Coon cat and the words "Love me, love my cat."
+zone:315:320:152:152:50:60:Keychain in the shape of a white Samoyed dog with a pink collar.
+zone:325:330:152:152:50:60:St. Bernard puppy doll holding a red heart
+zone:335:340:152:152:50:60:A bouquet of red roses with a white lovebird perched on it.
+zone:345:350:152:152:50:60:Green t-shirt with three rabbits screen-printed with welcome to the pet cafe message.
+zone:355:360:152:152:50:60:Big blue sphynx cat doll with pink hat
+zone:365:370:152:152:50:60:A box in the shape of a goldfish swimming in an aquarium.
+zone:375:380:152:152:50:60:A heart-shaped box has a white rabbit doll tied with a red bow sitting on the lid.
+zone:385:395:152:152:50:60:A cream-coloured blanket with a picture of a Blue Terrier puppy snuggling together.
+zone:241:249:130:131:21:499:exit door
+tile:241:244:123:130:100:100:bleacher9
+tile:246:249:123:130:100:100:bleacher9
+door:241:244:130:130:100:100:242:132:100:You walk out of the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:241:244:132:132:100:100:242:130:100:You walk into the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:241:244:123:129:50:50:242:126:100:the elevator is going up:200:silence.ogg:elev2.ogg:silence.ogg:silence.ogg
+door:246:249:123:129:100:100:247:126:50:the elevator is going down:200:silence.ogg:elev2.ogg:silence.ogg:silence.ogg
+tile:101:399:132:299:100:100:marble5
+tile:230:239:132:132:100:120:wallglass8
+tile:251:260:132:132:100:120:wallglass8
+door:246:249:130:130:100:100:247:132:100:You walk out of the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+door:246:249:132:132:100:100:247:130:100:You walk into the elevator:100:silence.ogg:silence.ogg:elevator_start.ogg:elevadorfecha.ogg
+zone:101:399:133:299:100:120:Third floor, zone for pet lovers
+tile:230:230:122:299:100:120:wallwood18
+tile:260:260:122:299:100:120:wallwood18
+tile:101:229:122:199:100:100:marble4
+tile:101:229:200:200:100:120:wallwood18
+door:231:231:150:155:100:100:229:152:100:You open the door and see a variety of dogs come running out to greet you, jumping, barking, and wagging their tails happily.:100:silence.ogg:silence.ogg:door76open.ogg:door58close.ogg
+door:229:229:150:155:100:100:231:152:100:You walk out with a smile:100:silence.ogg:silence.ogg:door76open.ogg:door58close.ogg
+tile:230:230:150:155:100:120:wallgeneric
+zone:231:231:150:155:100:120:dog room door:trackme
+zone:101:229:122:199:100:120:dog room
+src:101:229:122:199:100:120:-10:150:dogs.ogg:1
+zone:229:230:150:155:100:120:exit door
+zone:226:229:130:140:100:110:Near the dog food counter You can buy food for the dogs.
+tile:227:229:131:139:100:110:wallbuilding
+zone:200:220:122:125:100:120:near the long sofa There were several small dogs sitting on it.
+tile:201:219:122:124:100:101:walldesk3
+tile:201:219:122:124:101:101:carpet9
+zone:201:219:122:124:101:110:on the long sofa
+zone:170:190:122:140:100:110:near the big orange bed You can sleep with  dog.
+music:241:249:123:130:21:499:-10:100:musica122.ogg:1
+music:321:324:122:123:50:55:0:100:city_r11.ogg
+zone:301:302:175:180:50:70:exit door
+src:101:229:122:199:100:120:-10:100:village_r12.ogg:1
+zone:171:189:122:139:100:100:under the big orange bed There was a black Labrador puppy lying.
+zone:171:189:122:139:101:110:on the big orange bed There were many dogs rolling around.
+tile:171:189:122:139:101:101:mat
+bed:171:189:122:139:101:101
+zone:150:160:122:125:100:110:Near the dog toy shelf. You can give the dog a toy.
+tile:151:159:122:124:100:110:wallbuilding6
+zone:130:140:122:130:100:110:Dog food and water tray There was a gray and white Siberian Husky dog eating food.
+tile:130:140:122:130:100:110:fire
+zone:110:120:122:132:100:110:dog litter tray
+tile:110:120:122:132:100:100:hardwood5
+tile:112:118:124:130:100:100:sand
+zone:101:120:140:160:100:110:near the pink dog house
+zone:101:119:141:159:100:110:in the pink dog house There was a white and brown St. Bernard wagging its tail.
+tile:101:119:141:159:100:100:hardwood2
+tile:101:119:141:141:100:110:wallbank
+tile:101:119:159:159:100:110:wallbank
+tile:101:101:141:159:100:110:wallbank
+zone:101:120:170:190:100:110:artificial turf Many dogs run and jump around happily.
+tile:101:120:170:190:100:100:grass2
+zone:130:150:180:199:100:110:near dog pool Several dogs stared and ready to jump into the water.
+zone:131:149:181:199:100:110:in the dog pool Three Golden Retrievers were swimming.
+tile:131:149:199:199:100:101:wallbounce
+tile:131:149:181:181:100:101:wallbounce
+tile:131:131:181:199:100:101:wallbounce
+tile:149:149:181:199:100:101:wallbounce
+tile:132:148:182:198:100:100:swimming
+zone:160:170:190:199:100:110:The towel is very soft. When the dogs are done playing in the water, they come here to wipe themselves. There is an electric hair dryer on top to dry the dog's hair faster.
+tile:160:170:190:199:100:100:cloth
+src:160:170:190:199:100:110:0:100:fan.ogg:1
+zone:180:200:180:199:100:110:Blue mat for sitting with dogs
+tile:180:200:180:199:100:100:carpet5
+zone:210:229:180:199:100:110:near the big brown sofa There were several large dogs sitting on it.
+zone:211:229:181:199:101:110:on the big brown sofa There were several large dogs sitting on it.
+tile:211:229:181:199:100:101:wallbody
+tile:211:229:181:199:101:101:carpet3
+tile:260:260:150:155:100:120:wallbuilding
+door:259:259:150:155:100:100:261:152:100:You open the door and hear the sounds of various breeds of cute cats.:300:silence.ogg:silence.ogg:dooropen63.ogg:Close Chest.ogg
+door:261:261:150:155:100:100:259:152:100:You walk out with a smile and cat fur.:300:silence.ogg:silence.ogg:dooropen63.ogg:Close Chest.ogg
+src:261:399:122:199:100:120:0:60:village_r22.ogg:1
+tile:261:399:122:199:100:100:carpet2
+zone:259:259:150:155:100:120:cat room door:trackme
+zone:261:399:122:199:100:120:cat room
+zone:260:261:150:155:100:120:exit door
+zone:261:265:170:190:100:120:near the long cream sofa Many cats are climbing
+zone:261:264:171:189:101:110:on a long cream sofa A large Maine Coon cat was sitting.
+tile:261:264:171:189:100:101:wallbuilding2
+tile:261:264:171:189:101:101:carpet4
+tile:261:399:200:200:100:120:wallwood18
+zone:270:280:190:199:100:110:cat food and water tray An orange Scottish Fold cat is eating.
+tile:270:280:190:199:100:100:fire
+zone:290:300:195:199:100:110:Near the cat food shelf. You can pick up food from here and feed it to the cat.
+tile:291:299:196:199:100:110:walldesk2
+zone:310:320:195:199:100:110:Near the cat toy shelf. You can pick up a toy to play with the cat.
+zone:330:340:190:199:100:110:cat scratcher There was a white cat with two colored eyes standing here.
+tile:330:340:190:199:100:100:snow12
+music:101:198:122:188:0:40:-15:80:musiccalm6.ogg:1
+music:302:399:122:188:0:20:-10:70:music_bonus.ogg:1
+music:246:256:58:120:0:20:-10:95:musica109.ogg:1
+music:200:300:122:188:0:20:-10:90:musica111.ogg:1
+music:101:399:190:299:0:20:0:100:musica112.ogg:1
+music:230:260:132:169:21:30:-10:90:musichappy5.ogg:1
+src:251:260:122:131:21:30:0:90:people3.ogg:1
+src:230:239:122:131:21:30:0:90:people3.ogg:1
+music:230:240:171:200:21:30:-10:110:music_finish_level.ogg:1
+music:242:259:172:199:21:30:-10:105:maxkomusic40.ogg:1
+music:200:300:151:199:50:70:-10:110:music_menu.ogg:1
+zone:350:370:180:199:100:110:Near the cat condo, an orange American Shorthair cat was jumping up.
+tile:351:369:181:199:100:101:wallbuilding5
+tile:351:369:181:199:101:101:woodshelter
+zone:351:369:181:199:101:110:On the cat condo, many cats lounge here.
+music:101:198:152:199:50:70:-10:105:maxkomusic55.ogg:1
+zone:380:399:180:199:100:110:cat litter tray
+tile:380:399:180:199:100:100:wood13
+tile:382:397:182:197:100:100:sand5
+music:302:399:152:199:50:70:-10:100:maxkomusic66.ogg:1
+music:240:300:201:299:50:70:-10:100:musica117.ogg:1
+music:101:239:240:259:50:70:0:100:musica102.ogg:1
+music:201:238:261:299:50:70:-10:105:musica54.ogg:1
+zone:395:399:140:170:100:101:Under the long wooden table There was an exotic shorthair cat lying down and playing with toys.
+zone:395:399:140:170:102:110:On a long wooden table, several cats sat staring excitedly out of the window.
+tile:395:399:140:170:102:102:wood
+tile:400:400:145:165:102:110:wallglass11
+zone:399:399:145:165:102:110:Near the large clear glass window Look out and see the beautiful atmosphere outside.
+zone:380:386:122:150:100:110:Near the blue tunnel
+zone:381:385:122:149:100:101:in the blue tunnel There is a mother gray Sphynx cat with five kittens here.
+tile:381:385:122:149:100:100:metalpipe
+tile:381:381:122:149:100:102:wallcardboardbox
+tile:385:385:122:149:100:102:wallcardboardbox
+tile:381:385:122:122:100:102:wallcardboardbox
+tile:381:385:122:149:102:102:wood8
+zone:381:385:122:149:102:110:on the blue tunnel There was an American Curl cat playing with a Munchkin cat.
+zone:350:370:122:142:100:110:near the pink cat house
+zone:351:369:122:141:100:101:In the pink cat house There was an all-white Turkish Angora cat lying on it.
+zone:351:369:122:141:102:110:On the roof of the pink cat house There was a furry Siberian cat sitting.
+tile:351:369:122:141:100:100:wood12
+tile:351:351:122:141:100:101:wallbuilding7
+tile:369:369:122:141:100:101:wallbuilding7
+tile:351:369:122:122:100:101:wallbuilding7
+tile:351:369:122:141:102:102:roof4
+zone:352:368:142:142:100:110:Entrance to the pink cat house There was a large, soft-haired Ragdoll cat standing here.
+zone:320:340:122:142:100:110:Soft mat for sitting with cats
+tile:320:340:122:142:100:100:carpet5
+zone:270:310:122:152:100:110:near the big green sofa Many cats are climbing up.
+zone:271:309:122:151:101:110:On the big green sofa, some cats slept, some cats sat. Some cats jump around
+tile:271:309:122:151:100:101:wallcloth
+tile:271:309:122:151:101:101:carpet9
+tile:260:260:201:205:100:120:wallbushleaves4
+door:259:259:201:205:100:100:261:203:100:You open the door and find yourself in a beautiful garden with lots of birds.:300:silence.ogg:silence.ogg:door25open.ogg:drawerc1.ogg
+door:261:261:201:205:100:100:259:203:100:You walk away with the thought of coming back here again.:300:silence.ogg:silence.ogg:door25open.ogg:drawerc1.ogg
+zone:259:259:201:205:100:120:bird watching garden gate:trackme
+src:261:399:201:299:100:120:0:100:birds7.ogg:1
+zone:261:399:201:299:100:120:bird watching garden
+zone:260:261:201:205:100:120:Exit gate
+tile:261:399:201:220:100:100:shortgrass
+zone:280:290:201:206:100:110:Near the bird food counter You can bring food from here to the birds.
+tile:281:289:201:205:100:110:wallboard
+zone:300:310:201:221:100:120:Entrance to the aviary You can walk in and play with the birds.
+tile:300:310:201:221:100:100:wood6
+zone:320:340:201:205:100:110:near a long white bench If you just want to sit and watch birds from outside. You can come sit here.
+zone:321:339:201:204:101:110:on a long white bench If you just want to sit and watch birds from outside. You can come sit here.
+tile:321:339:201:204:100:101:wallbranch
+tile:321:339:201:204:101:101:chair
+zone:360:380:201:205:100:110:near a long white bench If you just want to sit and watch birds from outside. You can come sit here.
+zone:361:379:201:204:101:110:on a long white bench If you just want to sit and watch birds from outside. You can come sit here.
+tile:361:379:201:204:100:101:wallbranch
+tile:361:379:201:204:101:101:chair
+tile:261:299:221:221:100:120:wallbrush
+tile:311:399:221:221:100:120:wallbrush
+tile:261:261:221:299:100:120:wallbrush
+tile:261:399:299:299:100:120:wallbrush
+tile:399:399:221:299:100:120:wallbrush
+zone:262:398:222:298:100:120:in the aviary There are many different species of birds flying around.
+tile:262:398:222:298:100:100:grass3
+zone:300:350:240:260:100:120:A stream with very clear water
+tile:300:350:240:260:100:100:water10
+src:300:350:240:260:100:110:-10:100:waterflow26.ogg
+tile:325:335:240:260:100:100:wood13
+zone:325:335:240:260:100:110:brown wooden bridge
+
+zone:270:280:240:242:100:110:A large log with a brightly colored Lovebird perched on it.
+
+tile:271:279:241:241:100:101:wallwood17
+
+zone:262:282:250:270:100:109:under the big tree
+
+zone:272:272:260:260:100:109:big tree trunk
+
+tile:272:272:260:260:100:110:tree
+
+tile:262:282:250:270:110:110:thickforest
+
+zone:262:282:250:270:110:120:On a big tree, there are Sun Conures and Parakeets perched here.
+
+zone:272:272:260:260:110:120:big tree trunk
+
+zone:300:330:294:299:100:110:near a long white marble chair come sit here And the birds will fly to play with you.
+
+tile:301:329:295:299:100:101:wallstone2
+
+tile:301:329:295:298:101:101:marble7
+
+zone:301:329:295:298:101:110:on a long white marble chair come sit here And the birds will fly to play with you.
+
+zone:370:398:240:260:100:109:under the tree house
+
+zone:398:398:250:250:100:109:Tree trunk. Climb up to find a tree house.
+
+tile:398:398:250:250:100:110:tree
+
+tile:370:398:240:260:110:110:tree
+
+tile:370:398:239:239:110:120:wallbrush
+
+tile:370:398:261:261:110:120:wallbrush
+
+tile:369:369:239:261:110:120:wallbrush
+
+zone:370:398:240:260:110:120:On the tree house, there were many birds in it.
+
+zone:398:398:250:250:110:120:The way down from the tree house
+
+zone:370:375:255:260:110:120:near the green bed
+
+tile:370:374:256:260:110:111:wallcloth
+
+tile:370:374:256:260:111:111:mat
+
+bed:370:374:256:260:111:111
+
+zone:370:374:256:260:111:120:on the green bed You enjoy watching the birds before falling asleep.
+
+zone:390:398:240:244:110:120:Near the blue sofa, a cockatiel perches.
+
+zone:391:398:240:243:111:120:On the blue sofa, a cockatiel perches.
+
+tile:391:398:240:243:110:111:walldesk3
+
+tile:391:398:240:243:111:111:cloth
+
+tile:230:230:200:205:100:120:wallcrate
+
+zone:231:231:200:205:100:120:aquarium door:trackme
+
+door:231:231:200:205:100:100:229:203:100:You open the door and see a clear glass fish tank.:300:silence.ogg:silence.ogg:door8open.ogg:doorclose7.ogg
+
+door:229:229:200:205:100:100:231:203:100:You walked out with a smile and lots of photos.:300:silence.ogg:silence.ogg:door8open.ogg:doorclose7.ogg
+
+zone:101:229:200:299:100:120:aquarium
+
+zone:229:230:200:205:100:120:exit door
+
+tile:101:229:201:299:100:100:roof

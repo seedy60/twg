@@ -1,0 +1,12 @@
+mapname:alireza.m
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:10
+tile:0:100:0:100:0:0:carpet2
+owner:alireza.m
+litem:0
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0

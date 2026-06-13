@@ -1,0 +1,17 @@
+mapname:areprod
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:10000
+tile:0:100:0:0:0:0:tile4
+owner:nguyen_hoang_anh
+litem:1
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+sign:0:0:0:0:0:0:hello, tri to play this map :sign.ogg
+tile:0:50:0:0:0:8:concrete25
+zone:0:0:0:0:0:0:read
+night:none.ogg

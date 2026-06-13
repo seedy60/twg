@@ -1,0 +1,22 @@
+mapname:desert_swamp
+minx:0
+maxx:60
+miny:0
+maxy:60
+minz:0
+maxz:60
+tile:0:60:0:60:0:0:marsh2
+owner:kiwi-james
+litem:1
+starting_point:0:60:0:60:0:0
+deathpoint:0:60:0:60:0:0
+night:none.ogg
+src:0:60:0:60:0:60:-12:100:marsh2.ogg
+src:0:60:0:60:0:60:-12:100:swamp3.ogg
+src:0:60:0:60:0:60:-12:100:water11.ogg
+src:0:60:0:60:0:60:-14:100:marsh3.ogg
+ai:0:60:0:60:0:0:60000:1:snake
+ai:0:60:0:60:0:0:30000:1:frog
+travelpoint:6:6:0:0:0:0:desert:0:100:0:going to the desert:silence.ogg:silence.ogg:silence.ogg
+zone:0:60:0:60:0:60:desert swamp
+zone:6:6:0:0:0:0:Press shift enter to go back to the swamp.:trackme

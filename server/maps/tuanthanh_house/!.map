@@ -1,0 +1,213 @@
+mapname:tuanthanh_house
+minx:-1
+maxx:100
+miny:-1
+maxy:101
+minz:0
+maxz:100
+owner:tuanthanh
+litem:1
+starting_point:30:30:0:0:0:0
+deathpoint:0:0:100:0:0:0
+tile:0:100:0:100:0:0:sand 
+tile:0:100:0:50:0:0:shortgrass
+zone:0:100:0:50:0:29:the beautyful yard 
+tile:50:50:0:50:0:29:wallbuilding3
+tile:0:49:51:51:0:29:wallbuilding3
+tile:50:50:25:26:0:29:wallgate
+zone:49:49:25:26:0:29:gate to enter the garden:trackme
+door:49:49:25:26:0:5:51:25:0: :1200:silence.ogg:silence.ogg:tp51.ogg:tp50.ogg
+zone:51:100:0:100:0:29:a large garden with plenty of trees.
+tile:51:100:0:100:0:0:grass4
+zone:51:51:25:26:0:29:door back to the yard:trackme
+door:51:51:25:26:0:5:49:25:0: :1200:silence.ogg:silence.ogg:tp51.ogg:tp50.ogg
+tile:69:71:24:26:1:20:tree:tracmke
+tile:70:70:25:25:0:19:wallbranch
+zone:69:71:24:26:0:20:a tall tree
+zone:69:71:24:26:20:20:top of the tree
+src:0:100:0:50:0:29:0:100:birds8.ogg
+tile:0:49:45:45:0:0:wallstone
+tile:0:49:44:44:1:1:concrete9
+tile:0:49:45:50:1:1:concrete9
+tile:25:26:51:51:1:29:wallglass5
+zone:25:26:50:50:1:29:a glass door leading to the house:trackme
+tile:0:49:46:50:0:0:wallstone
+door:25:26:50:50:0:5:25:52:1:you go to the hallway:500:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:0:49:52:100:1:1:marble2
+tile:0:49:52:100:0:0:wallstone
+zone:0:49:52:100:1:29:the hallway
+zone:25:26:52:52:1:29:exit door:trackme
+door:25:26:52:52:1:5:25:50:1:you came back from the hallway.:500:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:0:20:52:70:1:1:carpet2
+tile:0:20:71:71:1:29:wallbuilding3
+zone:0:20:52:70:1:29:a small living room:trackme
+tile:0:10:52:55:1:4:wallsofa
+tile:0:10:52:55:5:5:cloth
+zone:0:10:52:55:5:7:a large comfortable sofa
+tile:0:10:52:52:5:7:wallsofa
+tile:0:0:52:55:5:7:wallsofa
+tile:10:10:52:55:5:7:wallsofa
+tile:0:10:52:52:7:7:cloth
+tile:0:0:52:55:7:7:cloth
+tile:10:10:52:55:7:7:cloth
+bed:1:9:53:55:5:5
+tile:10:10:65:65:1:2:chair
+zone:10:10:65:65:1:2:the chair to relax and have coffee.
+tile:8:12:66:70:1:3:walltable
+tile:8:12:66:70:4:4:hardwood2
+zone:8:12:66:70:3:4:a grean coffee table. on the table, you can see a cup of coffee, that can make you chill and, make your morning comfortable.
+tile:4:6:70:70:1:3:wallglass
+zone:4:6:69:69:1:1:a smart tv
+tile:4:6:70:70:4:4:beam
+zone:4:6:70:70:4:4:on top of the smart tv
+tile:0:20:72:100:1:1:hardwood
+tile:20:20:72:100:1:29:wallbuilding3
+tile:20:20:85:90:1:29:wallwooddoor
+wind:none
+night:none
+tile:-1:-1:-1:101:0:29:wallbuilding3
+tile:-1:100:-1:-1:0:29:wallbuilding3
+tile:-1:100:101:101:0:29:wallbuilding3
+zone:21:21:85:90:0:29:kitchen door:trackme
+door:21:21:85:90:0:5:19:88:1:you go to the kitchen:1200:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+zone:0:19:71:100:1:29:kitchen
+zone:19:19:85:90:1:29:hallway door:tracme
+door:19:19:85:90:1:5:21:88:1:you get out from the kitchen:1200:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+tile:10:12:97:100:1:1:marble5
+tile:9:9:96:100:1:10:wallobject
+tile:10:12:96:96:1:10:wallobject
+tile:10:12:100:100:1:10:wallobject
+tile:12:12:96:100:1:10:wallobject
+tile:11:11:96:96:1:10:wallmetal21
+zone:10:12:97:100:1:10:a small fridge
+door:11:11:95:95:1:6:11:97:1:you open the fridge:500:silence.ogg:silence.ogg:open_fridge.ogg:silence.ogg
+zone:11:11:95:97:1:10:fridge door
+door:11:11:97:97:1:6:11:95:1:you closed the fridge:500:silence.ogg:silence.ogg:silence.ogg:close_fridge.ogg
+tile:0:3:90:100:1:3:wallcounter
+tile:0:3:90:100:4:4:marble5
+zone:0:3:90:100:4:4:on the counter
+src:0:19:71:100:1:29:0:100:kitchen.ogg
+src:0:50:52:100:1:100:0:100:hum.ogg
+tile:0:3:95:95:4:4:metal2
+zone:0:3:95:95:4:4:the glausy stove, cook your food and chil
+oven:0:3:95:95:4:4
+tile:0:5:72:72:1:2:chair
+zone:0:5:72:72:1:2:a comfortable dining chair
+tile:0:5:73:78:1:2:walltable2
+tile:0:5:73:78:3:3:hardwood3
+zone:0:5:73:78:3:3:a dining table
+tile:50:50:52:100:0:29:wallbuilding3
+tile:30:49:52:70:1:1:carpet9
+tile:29:29:52:70:1:29:wallbuilding3
+tile:29:49:71:71:1:29:wallbuilding3
+tile:29:29:62:63:1:29:wallwooddoor
+zone:28:28:62:63:1:29:bedroom door:trackme
+zone:30:49:52:70:1:29:a small bedroom
+door:28:28:62:63:1:29:30:63:1:go:1200:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+zone:30:30:62:63:1:29:door back to the hallway:trackme
+door:30:30:62:63:1:29:28:63:1:you get up and go out the room, good morning:1200:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:44:49:60:70:1:3:wallcloth
+tile:44:49:60:70:4:4:cloth
+zone:44:49:60:70:4:4:a long wite comfortable bed
+bed:44:49:60:70:4:4
+tile:40:43:67:70:4:4:wood4
+zone:40:43:67:70:4:4:the nicestand
+tile:49:49:55:55:1:1:paper
+zone:49:49:55:55:1:1:calendar
+calendar:49:49:55:55:1:1:i hope you will have a good day, the day is
+tile:49:49:52:52:1:1:wood6
+zone:49:49:52:52:1:1:the clock
+clock:49:49:52:52:1:1:empty
+tile:40:43:67:70:1:3:walltable
+safezone:0:100:0:100:0:100
+tile:30:36:52:57:1:4:wallwood8
+tile:31:35:53:56:1:1:wood3
+tile:31:35:53:56:2:3:air
+zone:31:35:53:56:1:3:the cabinet
+tile:33:33:57:57:1:3:wallwood2
+zone:33:33:56:58:1:3:cabinet door
+door:33:33:56:56:1:1:33:58:1:you exit from the cabinet:500:silence.ogg:silence.ogg:Open Chest.ogg:Close Chest.ogg
+door:33:33:58:58:1:1:33:56:1:you go to the cabinet:500:silence.ogg:silence.ogg:Open Chest.ogg:Close Chest.ogg
+tile:30:49:72:91:1:1:carpet
+tile:29:29:72:91:1:29:wallbuilding3
+tile:30:49:91:91:1:29:wallbuilding3
+tile:29:29:81:82:1:29:wallbuilding
+zone:30:49:72:90:1:29:office:
+door:28:28:81:82:1:5:30:82:1:you get in the room:1200:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+zone:28:30:81:82:1:29:office and entertainment room door:trackme
+door:30:30:81:82:1:5:28:81:1:you get out from the room:1200:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+tile:30:40:84:90:1:1:carpet2
+tile:45:49:87:90:1:3:walltable
+tile:46:48:88:89:1:1:wood14
+tile:47:47:87:87:1:3:wallwood2
+tile:45:49:87:90:4:4:hardwood3
+zone:46:48:88:89:1:3:drawer
+door:47:47:88:88:1:1:47:86:1:you closed the drawer:1200:silence.ogg:silence.ogg:silence.ogg:door9close.ogg
+door:47:47:86:86:1:1:47:88:1:you open the drawer:1200:silence.ogg:silence.ogg:door9open.ogg:silence.ogg
+zone:47:47:86:88:1:1:drawer door
+zone:45:49:87:90:4:4:the desk table with a computer for working
+zone:48:48:86:86:1:2:desk chair
+tile:48:48:86:86:1:2:chair
+zone:30:40:84:90:1:1:entertainment_center
+tile:40:49:92:100:1:1:tile2
+zone:28:38:92:100:1:29:toylet corridor:trackme
+tile:40:40:92:100:1:29:wallbuilding3
+tile:40:40:96:96:1:1:wallbuilding
+zone:41:49:92:100:1:29:a small toylet with a comfortable shower
+zone:39:41:96:96:1:29:toylet door:trackme
+tile:0:50:45:100:30:30:wallbrick4
+door:39:39:96:96:1:5:41:96:1:let comfortable with shower:1200:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+door:41:41:96:96:1:5:39:96:1:i'm sure you will feel very comfortable when you shower:1200:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+tile:47:49:98:100:1:3:walldiamond
+tile:47:49:98:100:4:4:metal
+toilet:47:49:98:100:1:1
+tile:30:40:83:83:1:29:wallbuilding3
+tile:40:40:83:90:1:29:wallbuilding3
+tile:34:35:83:83:1:29:wallwooddoor
+zone:34:35:82:84:1:29:entertainment center door
+door:34:35:82:82:1:5:35:84:1:have fun:1200:silence.ogg:silence.ogg:door14open.ogg:door14close.ogg
+door:34:35:84:84:1:5:35:82:1:you going out:1200:silence.ogg:silence.ogg:door14open.ogg:door14close.ogg
+zone:47:49:98:100:4:4:on the toylet bowl
+tile:42:42:100:100:1:1:metal2
+zone:42:42:100:100:1:1:a wite shower
+shower:42:42:100:100:1:1
+zone:28:28:92:100:1:29:step between to the hallway and toylet corridor
+tile:43:46:92:94:1:3:wallbeaulon
+tile:0:0:99:99:4:4:metal8
+zone:0:0:99:99:4:4:the microwave
+tile:43:46:92:94:4:4:wallstone2
+tile:44:45:93:93:4:4:water
+washbasin:44:45:93:93:4:4
+zone:44:45:93:93:4:4:a grean washbasin
+tile:0:3:25:30:0:3:wallstone
+tile:0:3:25:30:4:4:stone3
+zone:0:3:25:30:4:4:a chair make by stone, sit here, enjoy the comfortable air of the yard
+tile:69:71:24:26:20:20:leaves4
+tile:78:80:24:26:1:20:tree
+tile:79:79:25:25:0:19:wallbranch
+tile:78:80:24:26:20:20:leaves4
+zone:78:80:24:26:0:19:the tall tree
+zone:78:80:24:26:20:20:top of the tree
+src:51:100:51:100:0:29:0:100:birds8.ogg
+tile:74:76:49:51:1:20:tree
+tile:75:75:50:50:0:19:wallbranch
+zone:74:76:49:51:0:19:a tree at the center of the gtarden
+tile:1:2:91:93:4:4:air
+tile:1:2:91:93:3:3:water3
+zone:0:2:91:93:3:3:the sink, do the dishes here
+washbasin:0:2:91:93:3:3
+tile:90:100:90:100:0:0:cement2
+tile:90:100:89:89:0:29:wallbuilding3
+tile:89:89:89:100:0:29:wallbuilding3
+tile:89:89:94:95:0:29:walldoor
+zone:90:100:90:100:0:29:storage room
+zone:88:88:94:95:0:29:press enter to go to storage:trackme
+zone:90:90:94:95:0:29:exit door:trackme
+door:88:88:94:95:0:5:90:95:0: :1200:silence.ogg:silence.ogg:open7.ogg:silence.ogg
+door:90:90:94:95:0:5:88:95:0: :1200:silence.ogg:silence.ogg:open7.ogg:silence.ogg
+tile:30:30:-1:-1:0:29:wallwooddoor
+zone:30:30:0:0:0:0:house exit door:trackme
+src:9:13:96:100:1:29:0:100:fridge.ogg
+tile:50:50:76:86:1:29:wallglass5
+zone:49:49:76:86:1:29:a large window, you see a large garden and lots of bird flying, it is very beautyful
+toilet:47:49:98:100:4:4

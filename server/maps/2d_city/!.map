@@ -1,0 +1,272 @@
+mapname:2d_city
+minx:0
+maxx:500
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:500:0:0:0:0:sand
+owner:tuanthanh
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:500:0:0:0:0
+enable:2dsupport
+zone:0:500:0:0:0:10:city
+sign:0:0:0:0:0:0:hey, and welcome to my city, in here, you can explorer the city and buy something you need, enjoy!:sign.ogg
+tile:0:130:0:0:0:0:concrete6
+tile:0:0:0:0:0:0:glass
+zone:0:130:0:0:0:10:main street of the city
+zone:0:0:0:0:0:0:a glass sign
+src:0:130:0:0:0:10:0:100:city2.ogg:1
+zone:20:20:0:0:0:0:press enter to go to the coffee shop:trackme
+tile:20:30:0:0:50:50:shortgrass
+tile:19:19:0:0:50:60:wallwooddoor
+zone:20:30:0:0:50:50:the yard
+zone:20:20:0:0:50:50:exit door
+door:20:20:0:0:0:0:20:0:50:you go to the coffee shop and buy some coffee:50:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+door:20:20:0:0:50:50:20:0:0:you exit after drink coffee:50:silence.ogg:silence.ogg:door40open.ogg:door40close.ogg
+src:20:30:0:0:50:60:0:100:birds8.ogg
+tile:31:31:0:0:50:60:wallglass2
+zone:30:30:0:0:50:60:coffee shop door
+tile:25:25:0:0:50:60:tree
+zone:25:25:0:0:50:60:the banana tree
+tile:32:60:0:0:50:50:concrete2
+door:30:30:0:0:50:50:32:0:50:you go to the hallway of the store:500:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+zone:32:60:0:0:50:60:main area
+door:32:32:0:0:50:50:30:0:50:come again in your free time!:500:silence.ogg:silence.ogg:door1open.ogg:door1close.ogg
+zone:32:32:0:0:50:60:the door back to the yard
+src:32:50:0:0:50:60:0:100:cafe.ogg
+tile:37:37:0:0:50:50:chair
+zone:37:37:0:0:50:50:the chair
+tile:38:41:0:0:50:50:hardwood2
+zone:38:41:0:0:50:50:the coffee table
+tile:42:42:0:0:50:50:chair
+zone:42:42:0:0:50:50:chair
+tile:44:44:0:0:50:50:chair
+tile:45:48:0:0:50:50:hardwood2
+zone:44:44:0:0:50:50:chair
+zone:45:48:0:0:50:50:the coffee table
+tile:49:49:0:0:50:50:chair
+zone:49:49:0:0:50:50:chair
+wind:none.ogg
+tile:51:51:0:0:50:50:chair
+zone:51:51:0:0:50:50:chair
+tile:52:55:0:0:50:50:hardwood2
+zone:52:55:0:0:50:50:coffee table
+tile:56:56:0:0:50:50:chair
+zone:56:56:0:0:50:50:chair
+tile:61:61:0:0:50:50:tile3
+zone:58:58:0:0:50:50:badroom door
+door:58:58:0:0:50:50:58:0:60:you go to the badroom:100:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:58:64:0:0:60:60:tile2
+tile:57:57:0:0:60:70:wallwood2
+zone:58:64:0:0:60:70:badroom
+zone:58:58:0:0:60:70:door exit from the badroom
+door:58:58:0:0:60:70:58:0:50:you came back from the badroom:200:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:65:65:0:0:60:70:wallwood19
+tile:60:60:0:0:60:60:water
+washbasin:60:60:0:0:60:70
+zone:60:60:0:0:60:70:the washbasin, you can wash your hand here
+tile:62:62:0:0:60:60:metal2
+zone:62:62:0:0:60:70:the wite shower
+tile:64:64:0:0:60:60:diamond
+zone:64:64:0:0:60:70:the toylet bol
+shower:62:62:0:0:60:60
+toilet:64:64:0:0:60:60
+tile:61:70:0:0:50:50:tile3
+zone:61:70:0:0:50:59:kitchen
+tile:71:71:0:0:50:60:wallwood19
+tile:67:70:0:0:50:50:glass5
+zone:67:70:0:0:50:60:the coffee counter, press enter to paid 100 coins and get 1 cup of coffee
+zone:73:73:0:0:0:0:bank door:trackme
+tile:72:72:0:0:50:60:wallbuilding3
+tile:73:80:0:0:50:50:carpet
+door:73:73:0:0:0:0:73:0:50:go:50:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+tile:81:81:0:0:50:60:wallbuilding3
+zone:73:80:0:0:50:60:the bank
+zone:73:73:0:0:50:60:bank exit door
+door:73:73:0:0:50:50:73:0:0:you exit from the bank:50:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+zone:80:80:0:0:50:60:ATM DOOR
+door:80:80:0:0:50:50:80:0:60:you open the ATM:100:silence.ogg:silence.ogg:door17open.ogg:door17close.ogg
+tile:80:85:0:0:60:60:marble5
+zone:80:85:0:0:60:70:ATM
+tile:79:79:0:0:60:70:wallglass2
+door:80:80:0:0:60:60:80:0:50:you going back:50:silence.ogg:silence.ogg:door17open.ogg:door17close.ogg
+tile:86:86:0:0:60:70:wallbuilding3
+zone:80:80:0:0:60:70:ATM EXIT
+itdoor:67:70:0:0:50:50:68:0:60:you paid 100 coins:coins:100:200:silence.ogg:silence.ogg:coins.ogg:silence.ogg
+tile:67:70:0:0:60:70:wall
+tile:68:68:0:0:60:60:8bit2
+zone:68:68:0:0:60:70:press enter to get your cup
+vending_machine:75:0:0
+tile:75:75:0:0:0:0:diamond
+zone:75:75:0:0:0:0:you can buy some drink and food, in the vending_machine
+tile:87:90:0:0:0:0:cement3
+zone:87:90:0:0:0:10:the parking lot of the hospital:trackme
+zone:91:91:0:0:0:0:hospital door:trackme
+tile:91:100:0:0:50:50:concrete4
+tile:90:90:0:0:50:60:wallsign
+door:91:91:0:0:0:0:91:0:50:you travel in the hospital:50:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+zone:91:100:0:0:50:60:hospital yard
+zone:91:91:0:0:50:60:exit gate
+door:91:91:0:0:50:50:91:0:0:you exit from the hospital:50:silence.ogg:silence.ogg:door8open.ogg:door8close.ogg
+tile:101:101:0:0:50:55:concrete9
+tile:102:102:0:0:50:60:wallfence3
+zone:101:101:0:0:50:55:step to the hallway
+tile:100:100:0:0:51:60:wallfence2
+src:91:102:0:0:50:60:0:100:people2.ogg
+tile:102:102:0:0:55:55:wallglass5
+zone:101:101:0:0:55:55:hallway door
+door:101:101:0:0:55:55:103:0:55:you going to the main hallway of the hospital:500:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+tile:103:130:0:0:55:55:marble2
+zone:103:130:0:0:55:65:first floor hallway of the hospital
+zone:103:103:0:0:55:55:yard door
+door:103:103:0:0:55:55:101:0:55:you going out:500:silence.ogg:silence.ogg:door3open.ogg:door3close.ogg
+tile:131:131:0:0:55:100:wallbuilding3
+tile:110:115:0:0:55:55:hardwood2
+zone:110:115:0:0:55:55:waiting table
+tile:120:120:0:0:55:70:stairs2
+tile:119:119:0:0:56:69:wallbuilding4
+tile:121:121:0:0:56:69:wallbuilding4
+zone:120:120:0:0:55:69:second floor stair
+tile:103:119:0:0:70:70:hardwood3
+tile:121:130:0:0:70:70:hardwood3
+tile:102:102:0:0:66:80:wallbuilding3
+zone:103:130:0:0:70:79:second floor hallway of hospital
+zone:120:120:0:0:70:70:first floor stair
+src:103:130:0:0:55:79:0:100:hospital.ogg:1
+tile:104:118:0:0:80:80:carpet2
+tile:103:103:0:0:80:89:wallbuilding3
+tile:19:130:0:0:49:49:wall
+tile:80:80:0:0:59:59:wall
+tile:58:64:0:0:59:59:wall
+tile:104:130:0:0:79:79:wall
+zone:109:109:0:0:55:55:chair
+tile:109:109:0:0:55:55:chair
+tile:116:116:0:0:55:55:chair
+zone:116:116:0:0:55:55:chair
+tile:122:122:0:0:55:55:wallglass
+tile:123:130:0:0:55:55:carpet2
+zone:121:121:0:0:55:65:doctor room door
+door:121:121:0:0:55:55:123:0:55:you go to the doctor room door and fix your sick:500:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+door:123:123:0:0:55:55:121:0:55:you go out because you feel very fine:500:silence.ogg:silence.ogg:door49open.ogg:door49close.ogg
+src:87:90:0:0:0:10:0:100:parking_lot.ogg
+zone:123:130:0:0:55:65:doctor room
+zone:123:123:0:0:55:65:exit door
+tile:125:125:0:0:55:55:chair
+zone:125:125:0:0:55:55:chair
+tile:126:129:0:0:55:55:hardwood
+zone:126:129:0:0:55:55:doctor desk
+tile:130:130:0:0:55:55:chair
+zone:130:130:0:0:55:55:doctor chair
+src:126:129:0:0:55:55:0:100:keabord2.ogg
+zone:104:104:0:0:70:70:room sicker door
+door:104:104:0:0:70:70:104:0:80:you go to the room and rest,:10:silence.ogg:silence.ogg:door18open.ogg:door18close.ogg
+tile:119:119:0:0:80:90:wallbuilding3
+zone:104:118:0:0:80:90:sicker room
+zone:104:104:0:0:80:89:sicker room exit
+tile:103:103:0:0:80:90:wallwooddoor
+door:104:104:0:0:80:80:104:0:70:you exit from the sicker room after doctor says your health is very good:10:silence.ogg:silence.ogg:door18open.ogg:door18close.ogg
+tile:106:110:0:0:80:80:cloth
+zone:106:110:0:0:80:80:large bed
+bed:106:110:0:0:80:80
+zone:115:115:0:0:80:80:cabinet door
+door:115:115:0:0:80:80:115:0:90:you open the door:50:silence.ogg:silence.ogg:door50open.ogg:silence.ogg
+tile:115:120:0:0:90:90:wood3
+tile:114:114:0:0:90:100:wallwoodpile
+tile:121:121:0:0:90:100:wallwoodpile
+tile:121:130:0:0:70:79:wallbuilding3
+zone:115:120:0:0:90:100:in sign the cabinet
+zone:115:115:0:0:90:90:cabinet exit
+door:115:115:0:0:90:90:115:0:80:you closed the door:50:silence.ogg:silence.ogg:silence.ogg:door50close.ogg
+tile:119:119:0:0:80:89:wallwood2
+zone:118:118:0:0:80:80:badroom door
+tile:120:130:0:0:80:80:ceramic2
+door:118:118:0:0:80:80:120:0:80: :500:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+zone:120:130:0:0:80:89:in sign the badroom
+zone:120:120:0:0:80:80:door get out to the room
+door:120:120:0:0:80:80:118:0:80: :500:silence.ogg:silence.ogg:door2open.ogg:door2close.ogg
+tile:122:122:0:0:80:80:water3
+zone:122:122:0:0:80:80:sink
+washbasin:122:122:0:0:80:80
+tile:123:123:0:0:80:80:diamond
+zone:123:123:0:0:80:80:toylet
+toilet:123:123:0:0:80:80
+tile:125:125:0:0:80:80:wallwood2
+door:124:124:0:0:80:80:126:0:80: :500:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+zone:126:130:0:0:80:90:shower
+zone:124:126:0:0:80:80:shower door
+door:126:126:0:0:80:80:124:0:80: :500:silence.ogg:silence.ogg:door16open.ogg:silence.ogg
+tile:126:130:0:0:80:80:wetconcrete
+shower:127:130:0:0:80:80
+zone:111:115:0:0:0:0:the paper counter:trackme
+tile:131:131:0:0:0:10:wall
+zone:130:130:0:0:0:10:to enter the different street of the city, press enter:trackme
+door:130:130:0:0:0:0:132:0:0:you go to the second street of the city:500:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:132:260:0:0:0:0:concrete3
+zone:132:260:0:0:0:10:a beautiful street of the city
+zone:132:132:0:0:0:0:to return to the main street, press enter:trackme
+door:132:132:0:0:0:0:130:0:0:you return to the main street:500:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+src:132:260:0:0:0:10:0:100:birds5.ogg:1
+src:132:260:0:0:0:10:0:100:people3.ogg:1
+zone:140:140:0:0:0:0:the bar, press enter to get in:trackme
+tile:140:180:0:0:50:50:wood4
+tile:139:139:0:0:50:60:wallwooddoor
+door:140:140:0:0:0:0:140:0:50:you get in the bard:50:silence.ogg:silence.ogg:door10open.ogg:door11close.ogg
+zone:140:180:0:0:50:60:in the bar, lots of people come here to eat the good food of the bar, you can see the table with lots of food
+zone:140:140:0:0:50:50:to exit from the bar, press enter
+src:140:180:0:0:50:59:0:100:people4.ogg
+tile:142:142:0:0:50:50:chair
+door:140:140:0:0:50:50:140:0:0:have fun? you came back from the bard:50:silence.ogg:silence.ogg:door10open.ogg:door11close.ogg
+zone:142:142:0:0:50:50:a comfortable chair
+tile:143:144:0:0:50:50:hardwood
+zone:143:144:0:0:50:50:the table with lots of food
+tile:145:145:0:0:50:50:chair
+zone:145:145:0:0:50:50:chair
+tile:147:147:0:0:50:50:chair
+tile:148:149:0:0:50:50:hardwood
+zone:147:147:0:0:50:50:chair
+zone:148:149:0:0:50:50:table
+tile:150:150:0:0:50:50:chair
+zone:150:150:0:0:50:50:chair
+tile:152:152:0:0:50:50:chair
+zone:152:152:0:0:50:50:chair
+night:none.ogg
+tile:153:154:0:0:50:50:hardwood
+zone:153:154:0:0:50:50:the table
+tile:155:155:0:0:50:50:chair
+zone:155:155:0:0:50:50:chair
+tile:157:157:0:0:50:50:chair
+zone:157:157:0:0:50:50:chair
+tile:158:159:0:0:50:50:hardwood
+tile:160:160:0:0:50:50:chair
+zone:157:157:0:0:50:50:chair
+zone:158:159:0:0:50:50:table
+zone:160:160:0:0:50:50:chair
+tile:180:180:0:0:50:60:wallwood19
+zone:163:163:0:0:50:50:press enter to go in the badroom
+tile:162:167:0:0:60:60:ceramic2
+door:163:163:0:0:50:50:163:0:60: :100:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+tile:162:162:0:0:60:70:wallwood19
+zone:163:167:0:0:60:70:in sign the badroom
+zone:163:163:0:0:60:70:badroom exit
+door:163:163:0:0:60:70:163:0:50: :100:silence.ogg:silence.ogg:door12open.ogg:door12close.ogg
+tile:167:167:0:0:60:60:metal
+tile:168:168:0:0:60:70:wallwood19
+zone:167:167:0:0:60:70:the toylet
+toilet:167:167:0:0:60:60
+tile:166:166:0:0:60:60:metal2
+zone:166:166:0:0:60:70:shower
+tile:165:165:0:0:60:60:water
+zone:165:165:0:0:60:70:sink
+washbasin:165:165:0:0:60:60
+shower:166:166:0:0:60:60
+tile:171:179:0:0:50:50:glass
+zone:171:179:0:0:50:50:drink counter
+zone:172:172:0:0:50:50:press enter to take a beer_bottle
+zone:173:173:0:0:50:50:press enter to take a wisky_bottle
+zone:174:174:0:0:50:50:press enter to buy cola
+zone:175:175:0:0:50:50:press enter to buy a lemonade
+
+tile:170:170:0:0:50:60:wood4
+zone:170:170:0:0:50:60:step to food counter

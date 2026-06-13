@@ -1,0 +1,20 @@
+mapname:SeedyFightingArina
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:100:0:0:0:0:metal
+owner:seedy
+litem:0
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+zone:0:100:0:0:0:100:The Seedy Fighting Arina
+ai:0:100:0:0:0:0:10000:3:helecopter
+ai:0:100:0:0:0:0:10000:3:tank
+ai:0:100:0:0:0:0:10000:3:minitank
+ai:0:100:0:0:0:0:10000:3:car
+ai:0:100:0:0:0:0:10000:3:moter_bike
+ai:0:100:0:0:0:0:10000:5:developers_xp_chest

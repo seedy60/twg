@@ -1,0 +1,125 @@
+mapname:ayu
+minx:-11
+maxx:111
+miny:0
+maxy:111
+minz:0
+maxz:15
+tile:-11:111:0:111:0:0:concrete7
+owner:ayu_fajar_lestari
+litem:1
+starting_point:-11:111:0:111:0:0
+deathpoint:-11:111:0:111:0:0
+tile:-11:-11:0:111:0:15:wallstone:trackme
+tile:-11:111:0:0:0:15:wallstone:trackme
+tile:111:111:0:111:0:15:wallstone:trackme
+tile:-11:111:111:111:0:15:wallstone:trackme
+tile:0:0:0:111:0:15:wallstone:trackme
+tile:100:100:0:111:0:15:wallstone:trackme
+tile:0:0:1:1:0:15:wallwooddoor:trackme
+door:1:1:1:1:0:15:-1:1:0:kamar 1:0:silence.ogg:door1.ogg:door3open.ogg:door3close.ogg
+zone:-10:111:0:111:0:15:Ruang Utama:trackme
+door:-1:-1:1:1:0:15:1:1:0:kembali ke ruang utama:0:silence.ogg:door1.ogg:door3open.ogg:door3close.ogg
+tile:-10:-1:10:10:0:15:wallwood15:trackme
+zone:-10:0:0:10:0:15:Kamar 1:trackme
+zone:-1:-1:1:1:0:15:Pintu:trackme
+zone:1:1:1:1:0:15:Pintu ke kamar 1:trackme
+bed:-10:-8:6:9:3:3
+tile:-10:-8:6:9:0:2:wallcloth:trackme
+tile:-10:-8:6:9:3:3:cloth:trackme
+tile:-11:-11:4:8:4:8:wallglass5:trackme
+tile:-3:-1:6:9:0:2:wallcloth:trackme
+tile:-3:-1:6:9:3:3:cloth:trackme
+bed:-3:-1:6:9:3:3
+tile:-7:-4:8:9:0:2:walltable:trackme
+tile:-7:-4:8:9:3:3:wood4:trackme
+tile:-10:-1:20:20:0:15:wallwood15:trackme
+tile:0:0:11:11:0:15:wallwooddoor:trackme
+door:-1:-1:11:11:0:15:1:11:0:kembali ke ruang utama:0:silence.ogg:door1.ogg:door3open.ogg:door3close.ogg
+zone:-11:0:11:20:0:15:Kamar 2:trackme
+zone:-1:-1:11:11:0:15:pintu:trackme
+door:1:1:11:11:0:15:-1:11:0:masuk ke kamar 2:0:silence.ogg:door1.ogg:door3open.ogg:door3close.ogg
+zone:1:1:11:11:0:15:pintu ke kamar 2:trackme
+tile:-10:-8:16:19:0:2:wallcloth:trackme
+tile:-10:-8:16:19:3:3:cloth:trackme
+bed:-10:-8:16:19:3:3
+tile:-11:-11:14:18:4:8:wallglass5:trackme
+tile:-3:-1:16:19:0:2:wallcloth:trackme
+tile:-3:-1:16:19:3:3:cloth:trackme
+bed:-3:-1:16:19:3:3
+tile:-7:-4:18:19:0:2:walltable:trackme
+tile:-7:-4:18:19:3:3:wood5:trackme
+tile:100:100:1:1:0:15:wallwooddoor:trackme
+door:99:99:1:1:0:15:101:1:0:masuk ke ruang belajar:0:silence.ogg:door3.ogg:door3open.ogg:door3close.ogg
+zone:99:99:1:1:0:15:pintu ke ruang belajar:trackme
+tile:101:110:30:30:0:15:wallwood15:trackme
+zone:100:111:0:30:0:15:ruang belajar:trackme
+door:101:101:1:1:0:15:99:1:0:pintu:0:silence.ogg:door3.ogg:door3open.ogg:door3close.ogg
+tile:101:110:1:29:0:0:carpet5:trackme
+zone:101:101:1:1:0:15:pintu:trackme
+tile:-11:111:100:100:0:15:wallstone:trackme
+tile:1:1:100:100:0:15:walldoor:trackme
+door:1:1:99:99:0:15:1:101:0:kamar mandi 1:0:silence.ogg:door6.ogg:door6open.ogg:door6close.ogg
+tile:10:10:101:110:0:15:wallstone:trackme
+tile:1:9:101:110:0:0:ceramic3:trackme
+toilet:9:9:110:110:1:1
+tile:9:9:110:110:0:0:wallpole:trackme
+tile:9:9:110:110:1:1:pipe4:trackme
+tile:9:9:101:101:0:1:sewer:trackme
+shower:9:9:101:101:0:0
+zone:0:10:100:111:0:15:Kamar Mandi 1:trackme
+door:1:1:101:101:0:15:1:99:0:keluar kamar mandi:0:silence.ogg:door6.ogg:door6open.ogg:door6close.ogg
+zone:1:1:101:101:0:15:pintu:trackme
+zone:1:1:99:99:0:15:pintu ke kamar mandi 1:trackme
+tile:0:0:21:21:0:15:wallwooddoor:trackme
+door:1:1:21:21:0:15:-1:21:0:kamar 3:0:silence.ogg:door3.ogg:door3open.ogg:door3close.ogg
+zone:1:1:21:21:0:15:pintu masuk ke kamar 3:trackme
+tile:-10:-1:30:30:0:15:wallwood15:trackme
+zone:-11:0:21:30:0:15:kamar 3:trackme
+door:-1:-1:21:21:0:15:1:21:0:kembali ke ruang utama:0:silence.ogg:door3.ogg:door3open.ogg:door3close.ogg
+tile:-10:-8:26:29:0:2:wallcloth:trackme
+tile:-10:-8:26:29:3:3:cloth:trackme
+bed:-10:-8:26:29:3:3
+tile:-11:-11:24:28:4:8:wallglass5:trackme
+zone:-1:-1:21:21:0:15:pintu:trackme
+tile:-3:-1:26:29:0:2:wallcloth:trackme
+tile:-3:-1:26:29:3:3:cloth:trackme
+bed:-3:-1:26:29:3:3
+tile:-7:-4:28:29:0:2:walltable:trackme
+tile:-7:-4:28:29:3:3:wood4:trackme
+zone:8:9:109:110:0:15:toilet:trackme
+zone:9:9:101:101:0:15:shower:trackme
+tile:100:100:4:28:4:8:wallglass5:trackme
+tile:100:100:31:31:0:15:wallwooddoor:trackme
+door:99:99:31:31:0:15:101:31:0:ruang makan:0:silence.ogg:door3.ogg:door3open.ogg:door3close.ogg
+tile:101:110:60:60:0:15:wallwood15:trackme
+zone:100:111:31:60:0:15:ruang makan:trackme
+door:101:101:31:31:0:15:99:31:0:kembali ke ruang utama:0:silence.ogg:door3.ogg:door3open.ogg:door3close.ogg
+zone:101:101:31:31:0:15:pintu:trackme
+zone:99:99:31:31:0:15:pintu ke ruang makan:trackme
+tile:110:110:31:59:0:0:chair:trackme
+tile:100:100:34:58:4:8:wallglass5:trackme
+tile:104:108:60:60:4:8:air:trackme
+tile:100:100:61:61:0:15:wallwooddoor:trackme
+tile:101:110:80:80:0:15:wallwood15:trackme
+zone:100:111:61:80:0:15:dapur umum:trackme
+tile:100:100:64:78:4:8:wallglass5:trackme
+tile:110:110:79:79:0:1:wallstone2:trackme
+zone:109:110:78:79:0:15:kompor:trackme
+tile:110:110:79:79:2:2:fire:trackme
+oven:110:110:79:79:2:2
+door:101:101:61:61:0:15:99:61:0:kembali ke ruang utama:0:silence.ogg:door3.ogg:door3open.ogg:door3close.ogg
+door:99:99:61:61:0:15:101:61:0:dapur umum:0:silence.ogg:door3.ogg:door3open.ogg:door3close.ogg
+zone:101:101:61:61:0:15:pintu:trackme
+zone:99:99:61:61:0:15:pintu ke dapur umum:trackme
+trashcan:110:110:61:61:0:0
+tile:110:110:61:61:0:0:paper
+zone:110:110:61:61:0:15:tempat sampah:trackme
+tile:110:110:76:76:0:0:wallmetalbox:trackme
+tile:110:110:76:76:1:1:ice:trackme
+zone:109:110:75:77:0:15:tempat penyimpanan ice:trackme
+
+tile:110:110:73:73:0:0:wallmetalbox:trackme
+tile:110:110:73:73:1:1:water:trackme
+zone:109:110:72:74:0:15:tempat air:trackme
+washbasin:110:110:73:73:1:1

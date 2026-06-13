@@ -1,0 +1,26 @@
+mapname:ghost_forest
+minx:0
+maxx:150
+miny:0
+maxy:150
+minz:0
+maxz:150
+litem:1
+starting_point:0:150:0:150:0:0
+deathpoint:0:150:0:150:0:0
+night:none.ogg
+owner:turando
+tile:0:150:0:150:0:0:thickforrest
+zone:0:150:0:150:0:150:a very deep forest. No trees, no greenery. Just weed just waiting to slow you down or crunch under your feet
+src:0:150:0:150:0:150:0:100:eerie.ogg
+music:0:150:0:150:0:150:-10:100:musica2.ogg
+ai:0:150:0:150:0:0:50000:3:zombie
+item_usage_restriction:0:150:0:150:0:150:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+zone:0:150:0:0:0:150:ghost city. Press shift enter to go in:trackme
+travelpoint:0:150:0:0:0:150:ghost_continent:100:200:0:you go back in the city:silence.ogg:silence.ogg:silence.ogg
+src:0:150:0:0:0:150:-10:100:birds30.ogg
+zone:0:150:150:150:0:150:press shift enter to go in a swamp:trackme
+travelpoint:0:150:150:150:0:0:blody_swamp:50:0:0:you arrive in a dirty swamp:silence.ogg:silence.ogg:silence.ogg
+src:0:150:150:150:0:150:-5:100:swamp2.ogg
+
+reinforcement:0:10000000

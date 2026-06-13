@@ -1,0 +1,17 @@
+mapname:quietspace
+minx:0
+maxx:5
+miny:0
+maxy:0
+minz:0
+maxz:10
+tile:0:5:0:0:0:0:carpet7
+owner:aiden
+litem:1
+starting_point:0:5:0:0:0:0
+deathpoint:0:5:0:0:0:0
+enable:2dsupport
+night:none.ogg
+
+owner:sugarnspice
+rain:none.ogg

@@ -1,0 +1,61 @@
+mapname:militarybase
+minx:0
+maxx:1000
+miny:0
+maxy:1000
+minz:0
+maxz:150
+tile:0:1000:0:1000:0:0:concrete4
+owner:hoanganh
+litem:1
+starting_point:0:1000:0:1000:0:0
+deathpoint:0:1000:0:1000:0:0
+zone:0:50:0:1000:0:50:fenced area
+zone:0:50:0:1000:0:50:Electronically protected area with machine guns missiles and cameras:trackme
+src:0:100:0:1000:0:100:-3:100:war3.ogg
+tile:51:51:0:60:0:100:wallstone
+zone:52:500:0:1000:0:120:the yard of the military base where planes, defense systems and a few tanks are kept. you feel scared when you enter here:trackme
+zone:50:53:60:180:0:100:military base gate. be careful:trackme
+tile:51:51:61:180:0:100:wallmetal2:trackme
+door:50:50:60:180:0:100:53:61:0:gogogogooggogog:250:silence.ogg:doormove12.ogg:door51open.ogg:close3.ogg
+door:52:53:61:180:0:100:50:61:0:hahhaa you dont di :250:silence.ogg:doormove5.ogg:door51open.ogg:close3.ogg
+tile:60:73:60:80:0:2:wallmetal23
+zone:59:71:60:80:0:2:near a tank, of course you can't go in there
+zone:60:70:60:80:3:5:on the tank. tri a way to come there!:trackme
+tile:60:70:60:80:3:3:metal
+door:60:60:60:60:3:3:60:60:0:asdfasf:200:silence.ogg:doormove17.ogg:door111open.ogg:door33close.ogg
+zone:60:72:60:80:0:2:in the tank :trackme
+tile:61:72:61:80:0:0:metal5
+src:0:500:0:1000:0:100:-4:100:war.ogg
+tile:81:100:80:100:0:6:wallmetal23
+zone:80:100:80:100:0:6:near jet fighter:trackme
+zone:501:520:0:1000:0:100:back yard:trackme
+zone:522:1000:0:250:0:50:fighter jet control room:trackme
+src:522:1000:0:250:0:100:-30:100:alarm4.ogg:1
+tile:521:521:0:250:0:100:wallgeneric
+zone:520:523:50:80:0:100:dor 1  :trackme
+tile:51:51:181:1000:0:100:wallstone
+zone:209:220:20:50:0:0:a modern and powerful missile defense system. you see radar and some missiles in combat readiness:trackme
+tile:208:220:19:19:0:50:wallmetal21
+tile:209:220:20:50:0:0:metal3
+tile:208:208:20:50:0:50:wallmetal22
+tile:221:221:19:50:0:50:wallmetal23
+zone:520:520:0:10:0:50:dor go to plane control room:trackme
+door:520:520:0:10:0:50:521:5:0:}{:250:silence.ogg:doormove17.ogg:door20open.ogg:close3.ogg
+tile:521:1000:251:251:0:100:wallstreet
+zone:522:1000:252:720:0:50:military equipment repair area:trackme
+src:522:1000:252:720:0:50:-1:100:a19.ogg
+tile:521:1000:721:721:0:50:wallmetal2
+zone:521:1000:722:1000:0:100:military base control room:trackme
+starting_point:0:0:0:0:0:0
+pvp:0:1000:0:500:0:100:1
+src:0:500:0:500:0:100:-2:100:ambientbattle.ogg
+pvp:0:1000:0:500:0:100:1
+pvp:0:1000:0:500:0:100:2
+pvp:0:1000:0:500:0:100:1
+
+tile:521:1000:721:721:0:50:wallbrick
+reinforcement:0:10000000
+night:none.ogg
+pvp:0:1000:0:500:0:50:1
+src:0:1000:0:500:0:50:0:100:war2.ogg

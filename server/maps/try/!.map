@@ -1,0 +1,12 @@
+mapname:try
+minx:1000
+maxx:10000000
+miny:1000
+maxy:1000000
+minz:500
+maxz:1000
+tile:1000:10000000:1000:1000000:0:0:grass6
+owner:Dinac
+litem:0
+starting_point:1000:10000000:1000:1000000:0:0
+deathpoint:1000:10000000:1000:1000000:0:0

@@ -1,0 +1,13 @@
+mapname:Nelson'sMansion
+minx:-1
+maxx:201
+miny:0
+maxy:201
+minz:-100
+maxz:200
+tile:-1:201:0:201:0:0:marble2
+owner:nelson
+owner:Crystal
+litem:0
+starting_point:25:25:0:0:0:3
+deathpoint:25:25:0:0:0:3

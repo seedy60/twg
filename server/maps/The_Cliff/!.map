@@ -1,0 +1,195 @@
+mapname:The_Cliff
+minx:0
+maxx:200
+miny:0
+maxy:300
+minz:-100
+maxz:100
+tile:0:200:0:300:0:0:sand
+owner:WhiteDove
+litem:1
+starting_point:0:200:0:300:0:0
+deathpoint:20:20:20:69:-0:0
+src:0:100:0:50:0:50:0:100:birds21.ogg_1
+src:0:100:0:50:0:20:-4:100:birds101.ogg:1
+src:50:80:20:50:0:20:0:100:beach2.ogg
+tile:40:100:20:50:-2:0:water2:trackme
+zone:40:100:20:50:-2:0:Shallow Ocean:trackme
+tile:40:100:51:100:-2:0:deepwater:trackme
+src:40:100:20:30:0:40:-5:100:ocean5.ogg
+src:40:100:35:50:0:20:0:100:ocean_1.ogg
+src:40:100:51:80:0:20:-4:100:ocean.ogg
+src:54:59:75:85:0:10:-11:100:beach_r3.ogg
+src:70:75:60:65:0:10:-16:100:beach_r2.ogg
+zone:40:100:51:100:-2:0:Deep Ocean:trackme
+src:47:47:3:3:0:20:0:100:flag.ogg
+src:47:47:3:3:0:20:0:100:flagpole.ogg
+tile:80:87:11:14:0:2:tree:trackme
+fishingcoordinate:40:100:20:50:-2:0
+tile:130:133:30:32:0:6:tree:trackme
+zone:130:133:30:33:0:100:tree:trackme
+tile:131:132:31:31:7:12:tree:trackme
+tile:131:131:31:31:13:14:tree:trackme
+tile:131:135:31:31:15:15:tree:trackme
+tile:128:130:31:31:14:14:tree:trackme
+tile:130:130:32:36:14:14:wood11:trackme
+tile:125:129:35:35:14:14:branch:trackme
+tile:20:39:30:50:0:0:water3:trackme
+zone:20:39:30:50:0:0:Lazy River:trackme
+src:20:39:30:50:0:0:0:100:waterflow7.ogg
+tile:20:30:29:29:0:5:large_rock:trackme
+src:20:25:48:48:0:10:0:100:river3.ogg
+tile:19:21:45:48:0:7:stone5:trackme
+zone:19:21:45:48:0:6:A Large Stone:trackme
+tile:130:130:32:32:7:100:tree:trackme
+tile:50:129:32:32:70:70:wood11:trackme
+tile:40:49:32:33:70:70:bridge:trackme
+tile:35:38:32:33:70:70:bridge:trackme
+tile:31:34:32:33:70:70:bridge:trackme
+tile:20:25:32:33:70:70:bridge:trackme
+tile:15:17:32:33:0:70:swimming:trackme
+zone:20:49:32:33:70:70:The Rickety Bridge:trackme
+zone:150:129:32:32:70:70:Walkway:trackme
+tile:18:19:31:33:70:79:stone4:trackme
+txt:18:19:31:33:70:70:Climb up these stones to drop into the waterfall
+src:15:19:31:33:0:80:0:100:waterflow39.ogg
+zone:15:17:32:33:0:70:Waterfall:trackme
+tile:10:14:30:35:-2:0:water4:trackme
+zone:10:14:30:35:-2:0:Pool at the bottom of the waterfall:trackme
+tile:7:9:30:35:0:3:large_rock:trackme
+night:none.ogg
+zone:0:200:0:19:0:0:beach:trackme
+tile:47:47:3:3:0:20:wallbrick:trackme
+zone:47:48:2:3:0:20:American Flag:trackme
+zone:47:47:3:3:0:20:American Flag:trackme
+owner:Beloved
+zone:39:39:22:22:0:0:WhiteDove's favorite place to sit:trackme
+zone:50:129:32:32:70:70:Walkway:trackme
+tile:87:87:14:50:2:2:tree:trackme
+tile:87:87:51:100:2:3:tree:trackme
+tile:88:129:100:100:0:30:stone5:trackme
+zone:88:129:100:100:0:30:Climbable Rock Path:trackme
+tile:129:129:30:99:0:30:stone5:trackme
+zone:129:129:30:99:0:30:Climbable Rock Path:trackme
+tile:128:128:30:99:0:30:wallfoliage:trackme
+zone:128:128:30:99:0:30:Foliage Wall:trackme
+tile:130:130:33:99:0:33:wallbushleaves:trackme
+zone:130:130:33:99:0:33:Wall Of Bushes:trackme
+tile:88:128:99:99:0:40:wallrocks3:trackme
+tile:88:128:101:101:0:30:wallrocks:trackme
+tile:20:30:68:68:0:14:wallbushleaves:trackme
+tile:20:20:57:68:0:14:wallbushleaves:trackme
+tile:21:30:57:57:0:14:wallbushleaves:trackme
+tile:30:30:58:67:0:14:wallbushleaves:trackme
+zone:19:31:56:68:0:14:Little 'Grass Shack:trackme
+door:24:24:56:56:0:14:24:57:0:Welcome:8:silence.ogg:silence.ogg:door42open.ogg:silence.ogg
+door:24:24:58:58:0:14:24:56:0:Come back again:8:silence.ogg:silence.ogg:silence.ogg:door42close.ogg
+zone:24:24:56:56:0:14:Door to the Little Grass Shack:trackme
+zone:24:24:58:58:0:14:Exit door:trackme
+tile:19:31:56:68:14:14:roof3:trackme
+tile:30:30:56:56:0:14:rope2:trackme
+zone:30:30:56:56:0:14:Rope to and from the roof:trackme
+tile:21:29:58:67:0:0:leaves4:trackme
+tile:22:22:66:66:0:3:wallbrick:trackme
+tile:26:26:66:66:0:3:wallbrick:trackme
+tile:23:25:66:66:1:1:cloth:trackme
+zone:22:26:66:66:0:3:Hammock:trackme
+zone:80:87:11:13:0:10:Driftwood you can walk along:trackme
+zone:130:130:32:32:70:70:near the walkway:trackme
+tile:88:88:100:100:30:45:rocks2:trackme
+zone:88:88:100:100:30:45:Stairs to cliff path:trackme
+tile:88:88:100:151:45:45:rocks5:trackme
+zone:88:88:100:151:45:45:Path to and from the cliff:trackme
+tile:30:140:152:152:0:60:rocks3:trackme
+tile:30:140:153:153:0:59:wall:trackme
+zone:30:140:152:200:0:100:Climbable Cliff:trackme
+tile:30:140:151:151:61:62:wallrocks3:trackme
+zone:30:140:151:151:61:62:Ledge:trackme
+tile:30:140:154:154:63:66:stone5:trackme
+tile:30:140:155:155:63:65:wall:trackme
+tile:30:140:156:170:66:66:stone2:trackme
+tile:30:140:166:166:66:70:large_rock:trackme
+tile:30:140:171:176:70:70:stone3:trackme
+tile:30:140:169:169:0:69:stone:trackme
+zone:30:140:168:200:0:69:Cave:trackme
+zone:30:140:169:169:0:69:Stairs into the cave:trackme
+tile:30:30:169:100:0:69:wallpot:trackme
+tile:131:140:166:166:0:69:wallpot:trackme
+tile:30:30:168:200:0:68:wallpot:trackme
+tile:31:140:167:167:0:68:wallpot:trackme
+tile:141:141:167:200:0:68:wallpot:trackme
+tile:31:140:200:200:0:68:wallpot:trackme
+src:30:140:168:200:0:69:-6:100:cave3.ogg:1
+tile:30:140:176:176:72:72:wallpot:trackme
+tile:31:140:168:199:0:0:stone:trackme
+tile:87:90:190:192:0:0:fire:trackme
+zone:87:90:190:192:0:0:cookfire:trackme
+oven:87:90:190:192:0:0
+src:87:90:190:192:0:0:-5:100:fire.ogg
+zone:30:140:176:176:72:72:Ledge:trackme
+tile:30:140:179:185:72:72:soil:trackme
+tile:30:140:186:190:72:80:stone5:trackme
+tile:30:140:191:191:72:79:wall:trackme
+tile:30:140:190:190:83:88:stone5:trackme
+tile:30:140:191:191:83:87:wall:trackme
+tile:88:88:192:192:4:82:rope2:trackme
+zone:88:88:192:192:0:82:Rope descending and assending the cave:trackme
+tile:30:140:191:200:88:88:thickforrest:trackme
+zone:30:140:191:200:88:88:Thick Forest:trackme
+tile:50:55:192:194:82:88:air:trackme
+tile:50:55:192:194:81:81:wallbrush:trackme
+tile:50:55:192:194:82:82:brush:trackme
+tile:50:55:194:194:81:88:brush3:trackme
+zone:50:55:192:194:81:88:Pit:trackme
+txt:50:55:194:194:81:81:Climbable Brush
+tile:96:101:192:195:1:88:air:trackme
+zone:94:103:191:197:88:88:Near the death-pit:trackme
+zone:96:101:192:194:88:88:Death-pit:trackme
+tile:91:91:200:230:88:88:wood11:trackme
+automover:100:100:245:245:90:90:56:56:5:Happy landing, enjoy this parachute ride:500:flag.ogg:flag.ogg:flag.ogg:water.ogg
+zone:100:100:245:245:90:90:The traveling parachute:trackme
+zone:91:91:230:230:88:88:Walkway to Thick Forest:trackme
+zone:91:91:200:200:88:88:Walkway to Banyan Tree:trackme
+txt:90:92:225:229:0:3:tree root
+txt:117:119:223:229:0:4:tree root
+txt:121:129:247:247:0:4:tree root
+txt:121:124:260:260:0:4:tree root
+tile:0:200:201:300:0:0:leaves:trackme
+zone:0:200:201:300:0:0:Leaves:trackme
+zone:31:39:51:100:0:0:Beach:trackme
+zone:0:87:101:101:0:0:beach
+tile:142:200:70:200:0:0:gravel:trackme
+tile:131:145:20:69:0:0:leaves4:trackme
+zone:131:145:20:69:0:0:Leaves on Beach:trackme
+tile:146:200:20:69:0:0:mud4:trackme
+src:46:200:20:69:-99:0:0:100:quicksand4.ogg
+tile:146:200:20:69:-100:-100:hazard
+zone:146:200:20:69:-100:0:Quicksand:trackme
+txt:146:200:18:19:0:0:Watch out, near quicksand
+txt:144:145:20:69:0:0:Watch out, near quicksand
+txt:146:200:67:68:0:0:Watch out, near quicksand
+automover:146:200:20:69:0:0:146:20:-99:down you go.:100:silence.ogg:slide.ogg:silence.ogg:silence.ogg
+zone:0:130:101:151:0:0:Beachbe:trackme
+tile:0:29:152:200:0:0:spring2:trackme
+zone:0:29:152:200:0:0:Spring:trackme
+src:0:29:152:200:0:0:-7:100:waterflow15.ogg
+tile:131:141:70:151:0:0:weed:trackme
+zone:131:141:70:151:0:0:Weeds:trackme
+tile:141:141:152:166:0:3:brush3:trackme
+zone:141:141:152:156:0:4:Brush:trackme
+zone:142:200:70:200:0:0:Gravel:trackme
+zone:101:127:19:98:0:0:beach:trackme
+zone:128:130:20:29:0:0:leaves:trackme
+zone:90:120:230:260:0:90:Banyan Tree:trackme
+tile:90:120:230:260:0:90:tree:trackme
+tile:121:124:260:260:0:4:wood11:trackme
+tile:121:129:237:237:0:4:wood11:trackme
+txt:121:129:237:237:0:4:tree root
+tile:104:104:261:270:0:2:wood11:trackme
+zone:104:104:261:270:0:2:tree root
+tile:120:120:261:273:0:2:wood11:trackme
+zone:120:120:261:273:0:2:tree root
+tile:98:98:220:229:0:2:wood11:trackme
+zone:98:98:220:229:0:2:tree root
+
+src:90:120:230:260:15:40:0:100:birds16.ogg

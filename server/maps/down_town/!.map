@@ -1,0 +1,88 @@
+mapname:down_town
+minx:0
+maxx:100
+miny:0
+maxy:20
+minz:0
+maxz:100
+tile:0:100:0:20:0:0:marble2
+owner:Remu
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:100:100:0:20:0:0
+night:none.ogg
+src:0:100:0:20:0:100:-2:100:people3.ogg:1
+tile:0:100:0:20:50:50:marble2
+item_usage_restriction:0:100:0:20:0:100:conex:partner_house:microwave:fridge:fan:air_conditioner:steem:beehive:locker
+tile:96:96:10:10:0:0:steel2
+vending_machine:96:10:0
+tile:96:96:10:10:50:50:steel3
+vending_machine:96:10:50
+tile:100:100:10:10:0:50:stairs2
+music:0:100:0:20:0:100:-5:100:musiccity.ogg:1
+src:0:100:0:20:0:100:-5:100:mall2.ogg:1
+wind:none.ogg
+rain:telha2.ogg
+zone:0:100:0:20:0:49:first floor of down town shopping centre.
+zone:0:100:0:20:50:100:second floor of down town shopping centre
+zone:96:96:10:10:0:0:first floor vending machine:trackme
+zone:96:96:10:10:50:50:second floor vending machine:trackme
+zone:100:100:10:10:0:50:stairs between the first and second floor of down town:trackme
+tile:99:99:10:10:0:50:wallrail
+sign:0:0:0:0:0:10:Hi %name%. Welcome to down town shopping centre. Here you can place your store and go shopping in other stores.:sign3.ogg
+zone:0:0:0:0:0:0:a sign,
+tile:99:100:11:11:0:50:wallstone
+zone:5:5:0:0:0:10:press shift enter to exit the down town.:trackme
+travelpoint:5:5:0:0:0:10:garage:45:99:0:you are back from the shopping center.:silence.ogg:silence.ogg:silence.ogg
+pvp:0:100:0:20:0:100:2
+desafezone:0:100:0:20:0:100
+src:0:100:0:20:0:100:-4:101:bar2.ogg:1
+src:0:100:0:20:0:100:-5:101:departmentstore.ogg:1
+desafezone:0:100:0:20:0:100
+safezone:0:100:0:20:0:100
+zone:7:7:0:0:0:8:vehicle_store of patricus:trackme
+zone:5:5:20:20:0:8:fastfood_store of catalin:trackme
+zone:10:10:0:0:0:8:weapon_store of dlv:trackme
+zone:5:5:1:1:0:8:weapon_store of Frankenstein:trackme
+zone:0:0:2:2:0:8:weapon_store of prinse:trackme
+zone:9:9:0:0:0:8:explosive_store of Archangel:trackme
+zone:0:0:4:4:0:8:misc_store of prinse:trackme
+zone:0:0:4:4:0:8:prinse's misc_store:trackme
+zone:0:0:2:2:0:8:prinse's weapon_store:trackme
+zone:9:9:0:0:0:8:Archangel's explosive_store:trackme
+zone:7:7:0:0:0:8:patricus's vehicle_store:trackme
+zone:10:10:0:0:0:8:dlv's weapon_store:trackme
+zone:5:5:1:1:0:8:Frankenstein's weapon_store:trackme
+zone:5:5:20:20:0:8:catalin's fastfood_store:trackme
+zone:0:0:1:1:0:8:Archangel's clothing_store:trackme
+zone:1:1:1:1:0:8:Archangel's weapon_store:trackme
+zone:2:2:1:1:0:8:Archangel's vehicle_store:trackme
+zone:3:3:1:1:0:8:Archangel's fastfood_store:trackme
+zone:4:4:1:1:0:8:Archangel's explosive_store:trackme
+zone:1:1:0:0:0:8:Archangel's misc_store:trackme
+zone:2:2:0:0:0:8:Archangel's medical_store:trackme
+zone:3:3:0:0:0:8:Archangel's fruit_store:trackme
+zone:4:4:0:0:0:8:Archangel's household_store:trackme
+zone:6:6:0:0:0:8:Archangel's team_store:trackme
+zone:0:0:7:7:0:8:amber's weapon_store:trackme
+zone:0:0:5:5:0:8:mafia's vehicle_store:trackme
+zone:0:0:8:8:0:8:crazydog's vehicle_store:trackme
+zone:0:0:9:9:0:8:crazydog's household_store:trackme
+zone:0:0:10:10:0:8:crazydog's fruit_store:trackme
+zone:0:0:11:11:0:8:crazydog's fastfood_store:trackme
+zone:5:5:9:9:0:8:apollo's household_store:trackme
+zone:0:0:20:20:0:8:devil's clothing_store:trackme
+zone:2:2:20:20:0:8:devil's weapon_store:trackme
+zone:4:4:20:20:0:8:devil's vehicle_store:trackme
+zone:3:3:20:20:0:8:devil's fastfood_store:trackme
+zone:1:1:20:20:0:8:devil's explosive_store:trackme
+zone:0:0:19:19:0:8:devil's misc_store:trackme
+zone:0:0:18:18:0:8:devil's medical_store:trackme
+zone:0:0:17:17:0:8:devil's fruit_store:trackme
+zone:0:0:16:16:0:8:devil's household_store:trackme
+zone:0:0:15:15:0:8:devil's team_store:trackme
+zone:72:72:0:0:0:8:bigbee's weapon_store:trackme
+zone:5:5:6:6:0:8:rizky's weapon_store:trackme
+zone:0:0:14:14:0:8:devil's jewelry:trackme
+zone:8:8:0:0:0:8:artov's weapon_store:trackme
+zone:11:11:0:0:0:8:artov's vehicle_store:trackme

@@ -1,0 +1,24 @@
+mapname:ShreksSwamp
+minx:0
+maxx:30
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:30:0:0:0:0:swamp2
+owner:Shrek
+litem:0
+starting_point:0:80:0:0:0:0
+deathpoint:0:80:0:0:0:0
+enable:2dsupport
+src:0:30:0:0:0:100:0:100:swamp3.ogg:1
+music:0:30:0:0:0:100:0:100:musicsuspense4.ogg:1
+safezone:0:80:0:0:0:20
+zone:0:30:0:0:0:20:A swamp, its dirty but at the same time its really peaceful here.
+sign:0:0:0:0:0:0:Beware, ogre lives here.:silence.ogg
+zone:0:0:0:0:0:20:A sign, its rusty but still is scaring people away.
+tile:0:0:0:0:0:0:ladder3
+
+tile:10:20:0:0:0:0:water3
+zone:10:20:0:0:0:20:Little stream, I can wash my self in this stream.
+src:10:20:0:0:0:20:0:100:stream2.ogg

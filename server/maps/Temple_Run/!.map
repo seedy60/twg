@@ -1,0 +1,54 @@
+mapname:Temple_Run
+minx:0
+maxx:2000
+miny:0
+maxy:2000
+minz:0
+maxz:1000
+tile:0:2000:0:2000:0:0:marble6
+owner:Sango
+litem:0
+starting_point:0:2000:0:2000:0:0
+deathpoint:0:2000:0:2000:0:0
+tile:0:2000:0:2000:0:0:marble
+night:none.ogg
+tile:0:10:0:10:1000:1000:bridge
+tile:0:2000:11:2000:1000:1000:air
+tile:11:2000:0:2000:1000:1000:air
+tile:11:11:0:11:1000:1000:wallbuilding3
+tile:0:11:11:11:1000:1000:wallbuilding3
+owner:deathdogg
+owner:aiden
+starting_point:0:0:0:0:1000:1000
+sign:0:0:0:0:1000:1000:Welcome! You're probably wondering why you're here. Well, you see, 1000 feet below is the temple of the Infinite Spirit. We have no idea how we found the temple, but we need people like you to help us in identifying just what this entity is. North of you is an Elevator. Take it down to the temple and let us know what you find!:sign3.ogg
+door:0:0:10:10:1000:1000:0:0:0:Alright, good luck with your research, We'll wait for you back here!:5:doorsnd6.ogg:elev2.ogg:elevator_start2.ogg:close15.ogg
+checkpoint:0:0:0
+tile:10:10:0:0:0:20:ladder2
+enable:jump
+tile:5:20:0:20:0:10:hazard
+tile:4:4:0:0:0:0:ladder2:trackme
+src:5:20:0:20:0:0:-9:100:lava.ogg
+vanishing_platform:5:21:0:20:20:20:10000:brokenglass:conveyer.ogg
+enable:jump
+tile:4:4:0:0:0:20:ladder2
+tile:22:32:0:20:20:20:bridge
+automover:5:20:0:20:0:10:0:0:0:Yeah... Step in that lava and well... you know!:5:silence.ogg:maquinadotempo.ogg:silence.ogg:silence.ogg
+tile:33:33:0:20:0:200:wallbrick
+tile:22:22:24:24:20:25:stairs4
+automover:0:2000:21:2000:0:0:0:0:0:You've been consumed by the infinite spirit for tresspassing! You have been warned!:100:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+tile:36:40:24:24:25:25:broken_glass
+automover:29:29:24:24:25:25:36:24:25:Allow the Infinite sprit to flow through you and aid you!:500:starloop.ogg:warp2.ogg:silence.ogg:silence.ogg
+rain:none.ogg
+automover:21:2000:0:2000:0:0:0:0:0:You've been consumed by the infinite spirit for tresspassing! You have been warned!:100:silence.ogg:silence.ogg:silence.ogg:silence.ogg
+sign:0:0:0:0:0:0:This is the beginning of the temple. Be careful, the Infinite spirit is all around you. Step in the wrong area and you'll feel its wrath. Do not fret, the Infinite spirit will help you... somewhat. The keyword is, somewhat. Use your camera and spire that you're equipped with to your advantage. You'll surely need it for your research.:sign3.ogg
+zone:0:0:0:0:1000:1000:A sign. You may want to read it for your peace of mind.:trackme
+zone:0:0:10:10:1000:1000:The elevator down to the temple:trackme
+zone:1:10:0:10:1000:1000:Platform area
+zone:0:0:1:9:1000:1000:Platform Area
+zone:0:0:0:0:0:0:A sign. Read it for your survival.:trackme
+zone:4:4:0:0:0:20:A ladder. Perhaps you should climb it!:trackme
+zone:1:3:0:0:0:0:The temple of the Infinite Spirit
+zone:0:0:1:20:0:0:The Temple of the Infinite Spirit
+zone:5:21:0:0:20:20:A platform. Don't hurt yourself with the glass!
+zone:22:32:0:20:20:20:A very neglected bridge. Don't worry, it will still hold up... for now.
+zone:22:22:24:24:20:25:A tiny little wall you have to climb

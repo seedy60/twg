@@ -1,0 +1,84 @@
+mapname:farm
+minx:0
+maxx:200
+miny:0
+maxy:200
+minz:0
+maxz:200
+litem:1
+starting_point:2:2:40:40:0:0
+deathpoint:0:200:0:200:0:0
+night:none.ogg
+owner:turando
+tile:0:200:0:200:0:0:shortgrass
+zone:0:200:0:200:0:200:farm
+music:0:200:0:200:0:200:-20:100:farm_music.ogg
+tile:61:170:0:0:0:20:wallbrick
+tile:13:18:100:100:0:15:wallstand
+zone:13:18:99:99:0:20:barn door. Press shift enter to go in.:trackme
+tile:13:18:20:20:0:15:wallstand
+zone:13:18:21:21:0:20:shed door. press shift enter to go in.:trackme
+tile:43:48:100:100:0:15:wallstand
+zone:43:48:99:99:0:20:fodder silo door. press shift enter to go in.:trackme
+tile:43:48:20:20:0:15:wallstand
+zone:43:48:21:21:0:20:workshop door. press shift enter to go in.:trackme
+tile:58:85:21:99:0:0:cement3
+tile:58:60:21:23:0:20:wallbrick
+tile:58:60:97:99:0:20:wallbrick
+tile:83:85:21:23:0:20:wallbrick
+tile:83:85:97:99:0:20:wallbrick
+tile:58:85:21:99:21:21:roof
+tile:58:85:21:99:20:20:wallmetal23
+zone:58:85:21:99:0:20:under the carport
+tile:86:170:1:42:0:0:shortgrass
+tile:86:170:77:99:0:0:shortgrass
+tile:86:100:44:76:0:0:stone4
+tile:60:60:148:158:0:15:wallmetal10
+travelpoint:61:61:148:158:0:15:stables:59:23:0: :silence.ogg:workshopenter.ogg:workshopexit.ogg
+zone:61:61:148:158:0:20:stables door. press shift enter to go in.:trackme
+tile:60:123:176*4:200:0:20:wallbrick
+tile:68:73:176:176:0:15:wallwood2
+zone:68:73:175:175:0:20:pig_sty door. press shift enter to go in.:trackme
+travelpoint:68:73:175:175:0:15:pig_sty:10:0:0: :silence.ogg:dooropen55.ogg:doorclose58.ogg
+tile:89:94:176:176:0:15:wallwood2
+zone:89:94:175:175:0:20:sheepfold door:trackme
+travelpoint:89:94:175:175:0:15:sheepfold:10:0:0: :silence.ogg:dooropen55.ogg:doorclose58.ogg
+tile:110:115:176:176:0:15:wallwood2
+zone:110:115:175:175:0:20:goat barn door:trackme
+travelpoint:110:115:175:175:0:15:goat_barn:10:0:0: :silence.ogg:dooropen55.ogg:doorclose58.ogg
+tile:123:153:130:200:0:20:wallbrick
+tile:123:123:148:158:0:15:wallstand
+tile:123:123:108:129:0:20:wallfence3
+tile:153:153:108:129:0:20:wallfence3
+tile:123:153:108:108:0:20:wallfence3
+tile:136:140:108:108:0:20:wallfence
+zone:136:140:107:107:0:20:chicken coop gate. Press shift enter to go in.:trackme
+travelpoint:136:140:107:107:0:20:chicken_coop:10:0:0: :silence.ogg:dooropen56.ogg:doorclose59.ogg
+src:124:152:109:129:0:20:-3:100:farm3.ogg
+tile:154:170:200:200:0:20:wallmetal6
+zone:1:1:21:99:0:15:large gate. Press shift enter to go through.:trackme
+travelpoint:1:1:21:99:0:20:country_road2:15:54:0: :silence.ogg:door122open.ogg:door122close.ogg
+zone:154:170:199:199:0:20:gate. Press shift enter to go through.:trackme
+travelpoint:154:170:199:199:0:20:country_road2:177:216:0: :silence.ogg:door48open.ogg:door48close.ogg
+tile:123:148:43:76:0:41:wallbrick4
+tile:123:123:57:62:0:15:wallwooddoor
+zone:122:122:57:62:0:20:Farm house door:trackme
+travelpoint:122:122:57:62:0:15:farm_house:1:17:0: :silence.ogg:entering_house4.ogg:exiting_house4.ogg
+tile:123:123:49:52:4:6:wallglass
+tile:123:123:67:70:4:6:wallglass
+tile:149:169:43:76:0:0:shortgrass
+travelpoint:13:18:21:21:0:15:farm_shed:15:19:0: :silence.ogg:entering_dungeon_door.ogg:exiting_dungeon_door.ogg
+travelpoint:43:48:21:21:0:15:farm_workshop:15:19:0: :silence.ogg:entering_dungeon_door.ogg:exiting_dungeon_door.ogg
+travelpoint:13:18:99:99:0:15:farm_barn:15:1:0: :silence.ogg:door19open.ogg:door19close.ogg
+travelpoint:43:48:99:99:0:15:farm_fodder_silo:15:1:0: :silence.ogg:door19open.ogg:door19close.ogg
+rain:rain2.ogg
+wind:wind7.ogg
+item_usage_restriction:0:171:0:200:0:150:conex:partner_house:beehive:small_conex:locker:fridge:microwave
+zone:61:61:132:134:0:10:dog_kennel door. Press shift enter to go in:trackme
+tile:60:60:132:134:0:10:wallwood2
+travelpoint:61:61:132:134:0:0:dog_kennel:7:4:0:you go in the dog kennel:silence.ogg:door28open.ogg:door28close.ogg
+zone:61:61:105:105:0:50:a cats_nest. press shift enter to walk in.:trackme
+travelpoint:61:61:105:105:0:50:cats_nest:1:0:0:you came to the wild cats nest.:silence.ogg:silence.ogg:silence.ogg
+reinforcement:0:10000000
+src:0:200:0:200:0:200:-5:97:farm2.ogg:1
+src:0:200:0:200:0:200:-5:97:farm.ogg:1

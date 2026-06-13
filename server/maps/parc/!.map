@@ -1,0 +1,14 @@
+mapname:parc
+minx:0
+maxx:150
+miny:0
+maxy:150
+minz:0
+maxz:15
+tile:0:150:0:150:0:0:concrete2
+owner:Bess
+litem:1
+starting_point:0:150:0:150:0:0
+deathpoint:0:150:0:150:0:0
+night:none.ogg
+automover:0:0:5:5:0:10:0:25:0:mergi pe o tiroliana cu o viteza incredibila:1000:silence.ogg:tp35.ogg:dooropen30.ogg:aplause3.ogg

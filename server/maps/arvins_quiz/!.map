@@ -1,0 +1,26 @@
+mapname:arvins_quiz
+minx:0
+maxx:200
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:200:0:0:0:0:generic
+owner:arvin
+litem:1
+starting_point:0:200:0:0:0:0
+deathpoint:0:200:0:0:0:0
+enable:2dsupport
+sign:0:0:0:0:0:0:hi. welcome to my quiz! here you have to anser questions to get to the next level. press enter on a wall to know the question then wright the anser then press enter. enjoy!:sign.ogg
+tile:10:10:0:0:0:100:wallbeaulon:trackme
+pdoor:9:9:0:0:0:0:11:0:0:what is the fullfrom of JAWS:job access with speech:1000:door1s.ogg:silence.ogg:door4open.ogg:door4close.ogg
+pdoor:19:19:0:0:0:0:21:0:0:what is the sistem Screen reader of android.:talk back:100:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:20:20:0:0:0:100:wallwooddoor:trackme
+tile:30:30:0:0:0:100:wallwood6:trackme
+pdoor:29:29:0:0:0:0:31:0:0:what is the fullfrom of uw:ultra world:321:door.ogg:silence.ogg:door_passage.ogg:door1close.ogg
+
+night:none.ogg
+tile:40:40:0:0:0:100:wallwood9
+pdoor:39:39:0:0:0:0:41:0:0:which language is uw coded now:nvgt:41:doorloop4.ogg:silence.ogg:door6open.ogg:door6close.ogg
+tile:50:50:0:0:0:100:wallwood10
+pdoor:49:49:0:0:0:100:51:0:0:what is the fullfrom of nvgt:nonvisual gaming toolkit:21:doorloop8.ogg:door1.ogg:door_passage.ogg:tp50.ogg

@@ -1,0 +1,15 @@
+mapname:cave_system
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:100
+tile:0:100:0:100:0:0:concrete10
+owner:god_of_world
+litem:1
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+zone:0:0:0:0:0:0:go forward and climb up. use your camera:trackme
+tile:0:13:13:17:0:10:soil:trackme
+zone:0:0:13:13:10:10:go on right edge. don't fall.:trackme

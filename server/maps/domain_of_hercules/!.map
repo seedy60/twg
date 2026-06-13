@@ -1,0 +1,26 @@
+mapname:domain_of_hercules
+minx:-1
+maxx:101
+miny:-1
+maxy:101
+minz:0
+maxz:50
+tile:-1:101:-1:101:0:0:concrete6
+owner:kannadiga
+litem:1
+starting_point:-1:101:-1:101:0:0
+deathpoint:-1:101:-1:101:0:0
+night:none.ogg
+zone:-1:101:-1:101:0:50:The domain of Hercules is a sentinel of terror, a monument to the unknown, and a place where the line between the living and the dead blurs into an indistinguishable nightmare. Enter at your own peril, for once within, escape may be a fate worse than death.
+tile:-1:101:-1:-1:0:50:wallrocks3
+tile:-1:-1:-1:101:0:50:wallrocks3
+tile:101:101:-1:101:0:50:wallrocks3
+tile:-1:101:101:101:0:50:wallrocks3
+src:0:100:0:100:0:50:-5:100:house.ogg:1
+zone:0:0:0:0:0:0:to go out from hercules domain, press shift enter.:trackme
+travelpoint:0:0:0:0:0:0:a_treasure_palace:40:100:100:emerging from herculis domain, empowered by legendary strength.:silence.ogg:silence.ogg:silence.ogg
+owner:kannadiga
+owner:sneha
+ai:0:100:0:100:0:0:300000:1:hercules
+pvp:0:100:0:100:0:50:0
+reinforcement:50:10000000

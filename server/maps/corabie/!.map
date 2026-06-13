@@ -1,0 +1,34 @@
+mapname:corabie
+minx:0
+maxx:300
+miny:0
+maxy:300
+minz:-40
+maxz:20
+tile:0:300:0:300:0:0:hardwood
+owner:Bess
+litem:1
+starting_point:0:300:0:300:0:0
+deathpoint:0:300:0:300:0:0
+night:none.ogg
+src:0:300:0:300:0:20:0:100:oceano3.ogg:1
+zone:0:300:0:200:0:0:puntea principala:trackme
+zone:0:200:201:300:0:0:ocean:trackme
+tile:95:105:95:100:0:10:stairs2:trackme
+zone:95:105:95:100:0:0:catargul principal:trackme
+zone:95:105:95:100:10:10:cuibul corbului:trackme
+night:none.ogg
+src:0:300:0:300:0:20:0:100:ocean3.ogg:1
+tile:0:300:201:300:-5:0:swimming:trackme
+tile:0:300:200:200:0:10:wallbrick4:trackme
+zone:0:300:199:200:0:10:balustrada:trackme
+tile:199:201:199:200:0:10:stairs:trackme
+zone:199:201:199:200:0:10:de aici arunca Alosa oameni peste bord:trackme
+tile:0:0:20:40:0:0:chair:trackme
+zone:0:0:20:40:0:0:niste scaune pe care sta echipajul:trackme
+tile:20:50:0:30:0:0:marble2:trackme
+zone:20:50:0:30:0:0:cabina capitanului:trackme
+tile:52:70:0:30:0:0:ceramic2:trackme
+zone:52:70:0:30:0:0:baia privata a capitanului:trackme
+tile:51:51:0:30:0:10:wallbrick4:trackme
+tile:71:71:0:30:0:10:wallbrick4:trackme

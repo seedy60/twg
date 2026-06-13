@@ -1,0 +1,31 @@
+mapname:farm_shed
+minx:0
+maxx:30
+miny:0
+maxy:20
+minz:0
+maxz:20
+tile:0:30:0:20:0:20:wallbrick
+owner:owlinor
+litem:1
+starting_point:0:20:0:30:0:0
+deathpoint:0:20:0:30:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+zone:0:30:0:20:0:20:shed
+tile:1:29:1:19:0:0:cement4
+tile:1:29:1:19:1:19:air
+src:1:29:1:19:0:19:0:100:rumble2.ogg
+src:0:30:20:20:0:20:-10:100:birds7.ogg
+music:1:29:1:19:0:19:-20:100:musicwoodshelter.ogg
+tile:13:18:20:20:0:15:wallstand
+zone:13:18:19:19:0:20:shed door. Press shift enter to go out.:trackme
+travelpoint:13:18:19:19:0:15:farm:15:21:0: :silence.ogg:entering_dungeon_door.ogg:exiting_dungeon_door.ogg
+item:1:19:1:19:0:0:300000:1:iron_shovel
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+item_usage_restriction:0:30:0:20:0:20:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+
+reinforcement:0:10000000

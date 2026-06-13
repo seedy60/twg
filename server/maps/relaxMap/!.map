@@ -1,0 +1,27 @@
+mapname:relaxMap
+minx:0
+maxx:500
+miny:0
+maxy:500
+minz:0
+maxz:500
+tile:0:500:0:500:0:0:grass
+owner:littleArcher
+litem:0
+starting_point:0:500:0:500:0:0
+deathpoint:0:500:0:500:0:0
+owner:kitkat
+zone:0:500:0:500:0:500:forest
+music:0:500:0:500:0:500:0:100:menumus42.ogg:1
+tile:40:60:40:60:0:0:gravel7
+tile:48:52:48:52:0:0:fire
+src:48:52:48:52:0:0:0:100:fire5.ogg
+src:0:100:100:120:0:0:0:100:water.ogg
+tile:0:100:90:130:0:0:mud4
+tile:0:100:100:120:0:0:water10
+litem:0
+starting_point:0:0:0:0:0:0
+
+opening_hours:24:24
+sign:0:0:0:0:0:0:Welcome to my campsite map! You can head to 50 50 0 to begin your camping trip." ... good luck:sign3.ogg
+zone:0:0:0:0:0:0:A sign:trackme

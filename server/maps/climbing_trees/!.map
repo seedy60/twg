@@ -1,0 +1,63 @@
+mapname:climbing_trees
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:100
+tile:0:100:0:100:0:0:stone3
+owner:kannadiga
+litem:1
+starting_point:0:0:0:0:0:0
+deathpoint:0:100:0:0:0:0
+night:none.ogg
+wind:none.ogg
+rain:none.ogg
+zone:0:100:0:100:0:100:climbing trees
+zone:0:0:0:0:0:0:Shiny glass sign You can read it.:trackme
+tile:0:0:0:0:0:0:glass7
+sign:0:0:0:0:0:0:hello! welcome to my challenge. its not difficult to climb tree here. just try. start climbing tree at 0 10 0. dont forget to see the camera.:sign.ogg
+zone:0:0:10:10:0:10:start climbing here.
+tile:0:0:10:10:0:10:tree
+tile:0:0:10:15:10:10:tree
+tile:1:9:15:15:10:10:tree
+tile:10:10:15:15:10:20:wood11
+tile:10:10:16:30:20:20:tree
+tile:10:10:30:30:25:30:wood11
+tile:11:20:30:30:30:30:tree
+tile:20:20:30:35:30:30:tree
+tile:21:30:35:35:30:30:tree
+tile:30:30:36:39:30:30:tree
+tile:30:30:40:40:30:40:wood11
+tile:31:39:40:40:40:40:tree
+tile:40:40:40:40:40:50:wood11
+tile:40:40:41:45:50:50:tree
+tile:41:45:45:45:50:50:tree
+tile:45:45:46:50:50:50:tree
+tile:46:50:50:50:50:50:tree
+tile:50:50:50:50:55:60:wood11
+tile:51:55:50:50:60:60:tree
+tile:55:55:51:55:60:60:tree
+tile:56:70:55:55:60:60:tree
+tile:70:70:56:70:60:60:tree
+tile:70:70:70:70:65:70:wood11
+tile:70:70:71:75:70:70:tree
+tile:71:75:75:75:70:70:tree
+tile:75:75:75:75:75:75:branch2
+tile:75:75:76:79:75:75:tree
+tile:75:75:80:80:75:80:wood11
+tile:76:80:80:80:80:80:tree
+tile:80:80:80:80:81:85:wood11
+tile:81:90:80:80:85:85:tree
+tile:90:90:81:90:85:85:tree
+tile:90:90:90:90:85:90:tree
+tile:90:90:90:90:95:100:wood11
+zone:90:90:90:90:100:100:congratulations.
+sign:90:90:90:90:100:100:congratulations! you have reached the final stage. now go right to clame your reward.:sign3.ogg
+tile:91:100:90:90:100:100:wood2
+zone:91:100:90:90:100:100:final stage.
+tile:0:100:91:100:100:100:wallboat
+zone:100:100:90:90:100:100:press shift enter to clame your reward
+travelpoint:100:100:90:90:100:100:main_map:5:1:0:it is not hard right? kannadiga is congratulating you. you are welcome to try again.:silence.ogg:silence.ogg:aplause3.ogg
+task_status:100:100:90:90:100:100:coins:350000
+reinforcement:0:10000000

@@ -1,0 +1,12 @@
+vmapname:Ariella'sNewHouse
+minx:-1
+maxx:101
+miny:-1
+maxy:121
+minz:-1
+maxz:115
+tile:-1:101:-1:121:-1:115:wall
+owner:Ariella
+litem:0
+starting_point:50:50:0:0:0:0
+deathpoint:50:50:0:0:0:0

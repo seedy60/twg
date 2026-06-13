@@ -1,0 +1,118 @@
+mapname:composite_challenge_map
+minx:0
+maxx:1000
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:1000:0:0:0:0:concrete6
+owner:hoanganh
+litem:1
+deathpoint:0:1000:0:0:0:0
+enable:2dsupport
+minx:0
+maxx:1000
+miny:0
+maxy:0
+minz:-1
+maxz:50
+tile:0:1000:0:0:0:0:concrete6
+owner:hoanganh
+litem:1
+starting_point:0:1000:0:0:0:0
+deathpoint:0:1000:0:0:0:0
+enable:2dsupport
+night:none.ogg
+litem:1
+starting_point:0:1000:0:0:0:0
+deathpoint:0:1000:0:0:0:0
+enable:2dsupport
+tile:0:0:0:0:0:0:paper
+sign:0:0:0:0:0:0: welcome %n! This is a pretty challenging map, you need to pass gaps, fires, tricky puzzles and get rewards. But if you fall into a gap, you will have to start over. Good luck.:sign.ogg
+zone:0:0:0:0:0:0:read? then...! start!!
+zone:1:999:0:0:0:50:super challenge 
+tile:20:25:0:0:0:0:air
+tile:30:35:0:0:0:0:fire
+fire:30:35:0:0:0:1:750:750
+tile:60:69:0:0:0:50:wallglass6
+pdoor:59:59:0:0:0:0:70:0:0:c Realizing the truth, there is only one, in the body of a child with the mind of an adult, that is the famous detective.:conan:100:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+tile:90:97:0:0:0:0:metal4
+teleporter:0:1000:0:0:-1:-1
+night:none.ogg
+tile:90:97:0:0:0:0:air
+vanishing_platform:90:97:0:0:0:0:6000:metal5:alarm5.ogg
+starting_point:0:0:0:0:0:0
+tile:130:136:0:0:0:0:hazard
+tile:150:159:0:0:0:15:wallglass7
+pdoor:149:149:0:0:0:0:160:0:0:is something that can wipe out everything in the world with just one button, many countries crave to own them, is the best deterrent of the world's superpowers. what is it?:nuclear weapons:115:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+tile:180:185:0:0:0:0:air
+tile:210:216:0:0:0:0:air
+tile:250:259:0:0:0:50:wallglass7
+pdoor:249:249:0:0:0:0:260:0:0:What is a weapon that can sweep the battlefield with terrifying firepower, support infantry in campaigns, with a large cannon and advanced missile defense systems and machine guns?:main battle tank:30:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+rain:none.ogg
+tile:350:359:0:0:0:25:wallglass7
+teleporter:0:1000:0:0:-1:-1
+zone:59:59:0:0:0:0:first
+tile:280:285:0:0:0:0:air:trackme
+zone:149:149:0:0:0:0:seconde:trackme
+tile:230:240:0:0:0:0:hazard
+litem:1
+pdoor:349:349:0:0:0:0:360:0:0:Which plane was dubbed the impregnable flying fortress that was shot down by the Vietnamese air defense?:b-52:52:silence.ogg:silence.ogg:opend3.ogg:close3.ogg
+zone:370:370:0:0:0:20:go up at here
+tile:370:370:0:0:0:20:ladder3
+tile:371:399:0:0:0:19:wallwood18
+checkpoint:365:0:0
+tile:371:375:0:0:20:20:bridge
+tile:380:383:0:0:20:20:bridge
+teleporter:371:399:0:0:0:19
+tile:385:385:0:0:20:20:bridge
+tile:390:390:0:0:20:20:bridge
+tile:393:395:0:0:20:20:bridge
+tile:399:399:0:0:20:20:bridge
+tile:400:400:0:0:0:20:ladder3
+zone:400:400:0:0:0:20:good! come down
+tile:416:429:0:0:0:50:wallglass7
+tile:450:460:0:0:0:0:metal2
+pdoor:415:415:0:0:0:0:430:0:0:Which aircraft is nicknamed the lightning of the US Navy?:f35:200:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:450:460:0:0:0:0:hazard
+tile:480:485:0:0:0:0:hazard
+tile:520:530:0:0:0:0:air
+vanishing_platform:520:530:0:0:0:0:6000:metal:alarm5.ogg
+tile:570:575:0:0:0:0:hazard
+tile:600:620:0:0:0:30:wallglass8
+zone:599:599:0:0:0:0:6
+pdoor:599:599:0:0:0:0:621:0:0:In the Vietnam battlefield, which gun made American soldiers willing to throw away a thousand dollar gun just to get a simpler and easier to use gun?:ak47:100:silence.ogg:silence.ogg:door13open.ogg:door13close.ogg
+tile:690:695:0:0:0:0:air
+vanishing_platform:690:700:0:0:0:0:6000:plank:alarm11.ogg
+tile:750:759:0:0:0:20:wallglass5
+pdoor:749:749:0:0:0:0:760:0:0:Which company produced the world's first powerful electric car?:tesla:180:silence.ogg:silence.ogg:open14.ogg:close15.ogg
+tile:780:788:0:0:0:0:hazard
+tile:815:830:0:0:0:50:wallglass8
+pdoor:814:814:0:0:0:0:831:0:0:Which car is the best-selling model of Mercedes-Benz?:glc:100:silence.ogg:silence.ogg:open14.ogg:close15.ogg
+tile:850:880:0:0:0:0:air
+tile:840:845:0:0:0:0:hazard
+tile:900:910:0:0:0:50:wallglass5
+vanishing_platform:850:880:0:0:0:0:8500:metal5:isrtime.ogg
+pdoor:899:899:0:0:0:0:911:0:0:amidst the tension and ferocity of the battlefield, when hopes of victory were so distant. but then, amidst the black smoke of the battlefield, a powerful, unexpected roar rang out, from above, a giant object was rushing towards, with powerful firepower that could change the situation of the battlefield. what was that?:strategic bomber:100:silence.ogg:silence.ogg:open14.ogg:ff.ogg
+tile:930:940:0:0:0:0:hazard
+tile:970:975:0:0:0:0:air
+zone:979:979:0:0:0:0:the end.
+tile:980:995:0:0:0:50:wallglass5
+pdoor:979:979:0:0:0:0:996:0:0:What was the Porsche 911 called before it came out?:Porsche 901:100:silence.ogg:aplause2.ogg:silence.ogg:silence.ogg
+zone:1000:1000:0:0:0:0:good jop, i think you will be back. 
+wind:none
+travelpoint:1000:1000:0:0:0:0:main_map:5:1:0:Congratulations! You have won 700000 coins:silence.ogg:silence.ogg:applause3.ogg
+task_status:1000:1000:0:0:0:0:coins:700000
+zone:249:249:0:0:0:0:third
+zone:349:349:0:0:0:0:fourth
+forcefield:280:285:0:0:0:2:1000:500:electricity3.ogg:electricityhit.ogg
+rain:none.ogg
+vanishing_platform:320:330:0:0:0:0:10000:beam:sleigh.ogg
+vanishing_platform:630:640:0:0:0:2:4500:beam:alarm5.ogg
+zone:365:365:0:0:0:0:checkpoint
+tile:280:285:0:0:0:0:hay
+zone:415:415:0:0:0:0:fifth
+zone:749:749:0:0:0:0:7
+zone:814:814:0:0:0:0:8
+zone:814:814:0:0:0:0:8th
+zone:899:899:0:0:0:0:9

@@ -1,0 +1,19 @@
+mapname:test-map
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:100:0:0:0:0:shortgrass
+owner:mattcurtis1912
+litem:0
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+shower:20:25:0:0:0:20
+zone:20:25:0:0:0:20:a random shower sits here for some reason:trackme
+tile:20:25:0:0:0:20:bathtub2:trackme
+toilet:30:33:0:0:0:10
+tile:30:33:0:0:0:10:steel:trackme
+zone:30:33:0:0:0:10:why'd someone put a toilet here?:trackme

@@ -1,0 +1,28 @@
+mapname:dark_lord_domain
+minx:-1
+maxx:101
+miny:-1
+maxy:101
+minz:0
+maxz:50
+tile:-1:101:-1:101:0:0:concrete6
+owner:kannadiga
+litem:1
+tile:-1:-1:-1:101:0:50:wallrocks3
+tile:101:101:-1:101:0:50:wallrocks3
+tile:0:101:101:101:0:50:wallrocks3
+tile:0:101:-1:-1:0:50:wallmedal4
+zone:0:100:0:100:0:50:You dare to wander into the shadows of my domain %name%? you have crossed a threshold from which there is no return. fear is the first step towards eternal servitude. Welcome to your darkest hour, for here, in the presence of the Dark Lord you are nothing but a mere mortal toy.
+zone:0:0:0:0:0:50:press shift enter to exit the dark-lord domain.:trackme
+rain:none.ogg
+night:none.ogg
+wind:none.ogg
+pvp:0:100:0:100:0:50:0
+starting_point:0:0:0:0:0:0
+deathpoint:100:100:100:100:0:0
+travelpoint:0:0:0:0:0:50:a_treasure_palace:50:85:100:Flee, dear %name%, flee. as fast as your mortal legs will carry you, for the darkness you seek to evade shall forever be a part of you. Your escape is but a secrets, no darkness shall find you, and I shall be waiting, patiently, to welcome you back into the fold of my endless night.:silence.ogg:door73open.ogg:silence.ogg
+ai:0:100:0:100:0:0:100000:1:dark_lord
+reinforcement:50:10000000
+reinforcement:0:10000000
+music:-1:101:-1:101:0:50:-5:99:musica110.ogg:1
+src:-1:101:-1:101:0:50:-8:99:eerie2.ogg

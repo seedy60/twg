@@ -1,0 +1,15 @@
+mapname:BeatFusionListeningArea
+minx:0
+maxx:25
+miny:0
+maxy:0
+minz:0
+maxz:25
+tile:0:25:0:0:0:0:metalpipe
+owner:seedy
+litem:0
+starting_point:0:25:0:0:0:0
+deathpoint:0:25:0:0:0:0
+enable:2dsupport
+url:https://beats.seedy.cc:8005/live.mp3
+zone:0:25:0:25:0:25:BeatFusionListeningArea

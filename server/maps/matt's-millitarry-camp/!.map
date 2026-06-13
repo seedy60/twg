@@ -1,0 +1,25 @@
+mapname:matt's-millitarry-camp
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:100:0:0:0:0:marble6
+owner:mattcurtis1912
+litem:0
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+zone:0:100:0:0:0:100:matt's millitarry camp, enjoy
+automatic_dialog:0:0:0:0:0:100:welcome to my millitarry base==I'm not going into how I happen to have owned this place, but all you need to know is that your ass needs to be armed to the teeth==if you have any last words, say them now
+owner:seedy
+owner:averlice
+ai:0:100:0:0:0:0:10000:3:bicycle
+ai:0:100:0:0:0:0:10000:3:minitank
+ai:0:100:0:0:0:0:10000:3:soldier
+ai:0:100:0:0:0:0:10000:8:skate_board
+ai:0:100:0:0:0:0:10000:7:tank
+ai:0:100:0:0:0:0:10000:10:moter_bike
+ai:0:100:0:0:0:0:10000:9:car
+ai:0:100:0:0:0:0:10000:11:helecopter

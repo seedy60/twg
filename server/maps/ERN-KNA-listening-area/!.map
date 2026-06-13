@@ -1,0 +1,22 @@
+mapname:ERN-KNA-listening-area
+minx:0
+maxx:10
+miny:0
+maxy:0
+minz:0
+maxz:40
+tile:0:10:0:0:0:0:beam
+owner:mattcurtis1912
+litem:0
+starting_point:0:10:0:0:0:0
+deathpoint:0:10:0:0:0:0
+enable:2dsupport
+zone:0:10:0:0:0:40:listening room
+src:0:10:0:0:0:40:0:100:room3.ogg:1
+url:http://icecast.gwes-eas.network:80/ERN-KNA
+ntm:0:0:0:1234
+tile:0:0:0:0:0:100:metalpipe:trackme
+zone:0:0:0:0:0:100:nutrission machine, yes we have 1 here:trackme
+vending_machine:10:0:0
+tile:10:10:0:0:0:100:diamond:trackme
+zone:10:10:0:0:0:100:vending machine, yes, get your snacks here:trackme

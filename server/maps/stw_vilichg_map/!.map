@@ -1,0 +1,138 @@
+mapname:stw_vilichg_map
+minx:-4
+maxx:1000
+miny:-4
+maxy:1000
+minz:0
+maxz:60
+tile:0:1000:0:1000:0:0:lawn
+owner:hoanganh
+litem:1
+deathpoint:0:1000:0:1000:0:0
+night:none.ogg
+zone:0:1000:0:1000:0:60:a small fishing village
+zone:300:310:0:1000:0:10:main street of fishing village:trackme
+tile:300:310:0:1000:0:0:concrete6:trackme
+zone:311:320:250:300:0:0:the parking lot of the gift shop:trackme
+tile:311:362:249:301:0:0:concrete9
+tile:321:321:250:270:0:20:wallwood19
+tile:321:321:271:276:0:20:wallwooddoor
+zone:320:323:271:275:0:10:gift shop DOOR:trackme
+tile:321:321:276:300:0:20:wallwood19:trackme
+door:320:320:271:275:0:10:322:271:0:np:250:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:322:360:251:299:0:0:hardwood3
+zone:322:360:251:299:0:15:in the gift shop.:trackme
+zone:322:322:271:275:0:5:gift shop dore
+door:322:322:271:275:0:5:320:272:0:exiting the gift shop.,:280:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:321:360:300:300:0:20:wallwood19:trackme
+tile:317:320:253:256:0:0:diamond:trackme
+zone:317:320:253:256:0:0:a vending machine:trackme
+zone:289:299:249:301:0:0:parking lot of the gas  station:trackme
+tile:289:299:249:300:0:0:concrete9
+src:317:320:253:256:0:10:0:119:vending.ogg
+tile:288:288:250:299:0:20:wallwood19
+tile:361:361:250:300:0:20:wallwood19
+tile:322:360:250:250:0:20:wallwood19:trackme
+tile:355:355:251:299:0:18:wallglass5
+tile:354:354:273:273:0:0:diamond
+zone:354:354:273:273:0:5:a dashboard, scan card to get gift. note due to some restrictions, it can not work at the moment.
+tile:353:354:272:272:0:15:wallglass5
+tile:353:354:274:274:0:15:wallglass5
+tile:321:361:250:299:21:21:roof4
+tile:250:287:249:299:0:0:tile8
+owner:kiwi-james
+tile:130:160:280:290:0:0:concrete6
+zone:130:160:280:290:0:5:the drive way to the hotel:trackme
+src:0:1000:0:1000:0:60:-7:100:village_a3.ogg:1
+src:0:1000:0:1000:0:60:-8:100:village_a1.ogg:1
+tile:129:129:280:290:0:0:concrete34
+tile:320:320:271:275:0:0:concrete8
+tile:322:322:271:275:0:0:carpet5
+starting_point:310:310:230:230:0:0
+music:0:1000:0:1000:0:60:0:100:musicsuspense4.ogg:1
+tile:362:362:265:265:0:21:metal5
+door:289:289:275:275:0:10:287:287:0:gas station door:1:silence.ogg:door3.ogg:door2open.ogg:door13close.ogg
+tile:100:160:291:360:0:50:wallstone
+tile:129:129:291:291:0:5:concrete34
+zone:129:129:291:291:5:5:hotel  side entrance, :trackme
+tile:129:129:292:292:5:5:wallfence
+zone:101:159:293:345:5:20:near outdoor pool area
+door:129:129:291:291:5:5:129:293:5:go in:300:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:101:159:293:315:5:5:stone2
+tile:101:159:293:330:6:50:air
+tile:118:138:316:360:1:50:air
+tile:118:138:316:360:1:1:swimming
+zone:118:138:316:345:1:12:outdoor pool area
+tile:101:159:316:360:6:50:air
+tile:101:159:316:360:5:5:stone2
+tile:118:138:316:360:5:50:air
+itdoor:129:129:293:293:5:5:129:291:5:thank you, have a nice day!:coins:50:350:silence.ogg:silence.ogg:door36open.ogg:door36close.ogg
+tile:130:138:346:350:0:10:wallwood19
+tile:118:128:345:350:0:10:wallwood19
+zone:129:129:344:351:0:5:the way to the in
+tile:100:100:361:395:0:50:wallwood19
+tile:100:100:396:400:0:20:wallwooddoor
+tile:65:99:370:405:0:0:concrete9
+zone:65:99:370:405:0:10:parking lot of hotel:trackme
+tile:101:200:395:405:0:0:carpet
+tile:101:120:380:394:0:0:concrete6
+tile:101:120:379:379:0:19:wallglass5
+zone:101:120:395:405:0:15:entrance to the motel:trackme
+tile:101:105:390:394:0:10:wallwood19
+tile:115:150:370:394:0:15:wallwood19
+zone:101:115:380:394:0:10:hotel registration area:trackme
+sign:114:114:380:380:0:0:welcome to stw fishing village hotel, this is a simulated hotel that is 99% similar to the real one, enjoy staying here, maybe you will remember the times you played stw. you just need to pay 50 cents and enter the hotel, thank you and hope you will have a good experience here.:sign2.ogg
+tile:121:121:395:405:0:19:wallwooddoor
+zone:120:122:395:405:0:15:Smart door leading to the main lobby of the hotel:trackme
+itdoor:120:120:395:405:0:10:122:400:0:thank you:coins:50:325:silence.ogg:tp53.ogg:door40open.ogg:door40close.ogg
+door:122:122:395:405:0:10:120:400:0:thank you, have a nice day!:400:silence.ogg:silence.ogg:door4open.ogg:door4close.ogg
+tile:100:100:401:405:0:10:wallwood19
+tile:100:149:406:445:0:15:wallwood19
+zone:123:200:395:405:0:15:a long hallway going from west to east:trackme
+zone:150:170:322:450:0:15:a hallway running from south to north
+tile:150:170:355:450:0:0:carpet
+tile:150:170:448:448:1:19:wallglass5
+tile:150:170:449:449:0:20:carpet3
+owner:Hoangphong
+tile:250:287:249:249:0:10:wallbuilding
+rain:none.ogg
+tile:250:250:249:299:0:10:wallbuilding
+tile:250:287:299:299:0:10:wallbuilding
+tile:287:287:282:282:0:5:wallwooddoor
+zone:118:138:350:360:0:6:indoor pool area
+tile:321:361:250:299:21:21:bleacher
+door:286:286:282:282:0:5:289:289:0:gas station door:20:silence.ogg:silence.ogg:door2open.ogg:door11close.ogg
+tile:139:139:351:365:5:5:wetconcrete
+tile:139:140:350:350:0:12:wallrail
+tile:289:289:282:282:0:5:wallwooddoor
+zone:321:361:251:299:20:30:roof of gift shop
+tile:102:140:361:369:0:4:wallstone
+door:290:290:282:282:0:5:286:282:0:entering the gas station:20:silence.ogg:silence.ogg:door2open.ogg:door11close.ogg
+tile:102:140:366:369:5:5:wetconcrete
+zone:362:362:265:265:0:0:stairs to the roof of the gift shop
+tile:250:287:250:298:0:0:hardwood3
+tile:118:140:361:367:5:5:wetconcrete
+tile:140:141:350:353:5:10:wallrail
+tile:140:142:354:355:0:5:carpet
+tile:140:141:356:360:5:15:wallrail
+tile:140:149:357:367:0:19:wallwood19
+tile:143:149:345:355:1:15:air
+tile:142:149:354:355:0:0:carpet
+tile:150:170:350:353:1:18:air
+zone:114:114:380:380:0:0:sign:trackme
+tile:114:114:380:380:0:0:diamond
+tile:114:114:379:379:0:10:walldiamond
+owner:thinh
+vending_machine:317:254:0
+tile:289:289:280:280:0:0:diamond
+zone:289:289:280:280:0:0:vending machine:trackme
+vending_machine:289:280:0
+zone:317:317:254:254:0:0:buy things here
+tile:117:117:345:369:5:15:wallwood19
+zone:118:139:351:369:5:10:near  pool area
+zone:140:142:354:355:0:5:lather go to the pull 
+zone:143:149:354:355:0:5:a small hallway go to the pull
+tile:150:170:320:354:0:0:carpet
+tile:150:170:320:354:1:10:air
+
+zone:150:170:321:321:0:20:south stare

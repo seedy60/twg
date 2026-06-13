@@ -1,0 +1,36 @@
+mapname:ghost_ship
+minx:-1
+maxx:6
+miny:-1
+maxy:6
+minz:0
+maxz:101
+litem:1
+starting_point:0:5:0:5:0:0
+deathpoint:0:5:0:5:0:0
+rain:none.ogg
+wind:none.ogg
+night:none.ogg
+enable:coordinates
+owner:turando
+tile:0:5:0:5:0:0:metal5
+src:0:5:0:5:0:100:-5:101:spaceship.ogg
+tile:-1:-1:0:5:0:101:wallmedal3
+tile:-1:6:-1:-1:0:101:wallmedal3
+tile:6:6:0:5:0:101:wallmedal3
+tile:-1:6:6:6:0:101:wallmedal3
+zone:0:5:0:5:0:9:a old ship. Press enter to start it. Warning, Please wait until the end of the ride, you will not be able to move during this time
+door:0:5:0:5:0:0:3:5:30: :1000:silence.ogg:doormove13.ogg:silence.ogg:silence.ogg
+zone:0:5:0:5:30:39:exit platform
+tile:0:5:0:5:30:30:metal5
+zone:0:5:0:0:30:39:exit door, press shift enter to go houte
+travelpoint:0:5:0:0:30:30:ghost_ship_station:10:10:0: :silence.ogg:silence.ogg:silence.ogg
+zone:0:5:0:5:20:29:a old ship. Press enter to start it. Warning, Please wait until the end of the ride, you will not be able to move during this time
+tile:0:5:0:5:20:20:metal5
+door:0:5:0:5:20:20:3:5:10: :2000:silence.ogg:doormove13.ogg:silence.ogg:silence.ogg
+zone:0:5:0:5:10:19:exit platform
+tile:0:5:0:5:10:10:metal5
+zone:0:5:0:0:10:19:exit door, press shift enter to go houte
+travelpoint:0:5:0:0:10:10:ship_station:10:29:0: :silence.ogg:silence.ogg:silence.ogg
+
+reinforcement:0:10000000

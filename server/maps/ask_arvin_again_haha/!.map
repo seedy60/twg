@@ -1,0 +1,26 @@
+mapname:ask_arvin_again_haha
+minx:0
+maxx:100
+miny:0
+maxy:0
+minz:0
+maxz:100
+tile:0:100:0:0:0:0:carpet
+owner:arvin
+litem:1
+starting_point:0:100:0:0:0:0
+deathpoint:0:100:0:0:0:0
+enable:2dsupport
+night:none.ogg
+dialog:0:0:0:0:0:0:hi=welcome back to ask_arvin=here you can ask question about me=in the pm=you can also send offline pms=enjoy
+zone:0:0:0:0:0:0:read this:trackme
+music:0:0:0:0:0:100:0:100:musiccalm3.ogg:1
+
+src:0:0:0:0:0:100:0:100:writing.ogg:1
+dialog:1:1:0:0:0:0:hi=here are some normal information about me=my name is soham mondal=13 years old=leav in india,kolkata
+zone:1:1:0:0:0:11:here are some information!:trackme
+music:1:1:0:0:0:100:0:100:musical27.ogg:1
+tile:0:0:0:0:0:0:steel:trackme
+tile:1:1:0:0:0:0:glass
+zone:2:100:0:0:0:100:blank space wating for your questions. please send questions to me and get this space filled!:trackme
+music:2:100:0:0:0:0:0:100:musical7.ogg:1

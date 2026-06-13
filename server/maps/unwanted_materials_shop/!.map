@@ -1,0 +1,14 @@
+mapname:unwanted_materials_shop
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:50
+tile:0:100:0:100:0:0:debris
+owner:kiwi-james
+litem:1
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+night:none.ogg
+src:0:100:0:100:0:50:-19:115:highway_r9.ogg

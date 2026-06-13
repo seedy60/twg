@@ -1,0 +1,96 @@
+mapname:wild_forest
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:-5
+maxz:100
+owner:kannadiga
+litem:1
+starting_point:1:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+tile:0:100:0:100:0:0:thickforest
+zone:0:100:0:100:0:100:a wild forest.
+tile:50:60:48:50:0:0:clay
+tile:48:50:51:60:0:0:clay
+tile:51:60:50:52:0:0:clay
+tile:51:60:60:62:0:0:clay
+tile:51:60:50:51:0:0:grass5
+tile:51:60:50:50:0:0:clay
+tile:51:60:52:52:0:0:clay
+tile:51:60:52:52:0:0:grass5
+tile:58:60:51:60:0:0:clay
+tile:50:60:50:50:-5:0:clay
+tile:51:57:51:59:-4:0:air
+tile:51:57:51:59:-5:-5:swimming
+tile:50:60:49:49:-5:-1:wallboat
+tile:49:49:50:60:-5:-1:wallboat
+tile:51:58:60:60:-5:-1:wallboat
+tile:58:58:50:57:-5:-1:wallboat
+tile:50:50:51:59:-5:-1:wallboat
+tile:58:58:59:59:-5:-1:wallboat
+tile:58:58:58:58:-5:-1:wallboat
+zone:51:57:48:50:0:0:a clay river bank:trackme
+zone:50:50:50:50:0:0:a clay river bank
+zone:48:50:51:59:0:0:a clay river bank
+zone:50:50:60:60:0:0:a clay river bank
+zone:51:57:60:62:0:0:a clay river bank
+zone:58:60:60:60:0:0:a clay river bank
+zone:58:60:51:59:0:0:a clay river bank
+zone:58:60:48:50:0:0:a clay river bank
+tile:50:50:50:50:-5:-5:wallboat
+zone:51:57:50:50:-5:-1:a clay river bank
+zone:51:57:51:59:-5:-1:a shallo river:trackme.
+zone:1:1:0:5:0:0:press shift enter to go back to rabbit forest:trackme
+travelpoint:1:1:1:5:0:100:rabbit:99:50:0:you came back to rabbit meadow.:silence.ogg:silence.ogg:silence.ogg
+night:none.ogg
+travelpoint:99:99:99:99:0:50:sea_twords_mountain:9:0:0:entering the elysian sea:silence.ogg:silence.ogg:silence.ogg
+zone:99:99:99:99:0:50:press shift enter to enter to elysian sea.:trackme
+src:50:60:48:60:0:0:-10:100:river.ogg
+reinforcement:0:10000000
+tile:0:0:0:100:0:100:wallbrushtangle
+tile:1:100:100:100:0:100:wallbrushtangle
+tile:100:100:0:100:0:100:wallbrushtangle
+tile:1:100:0:0:0:100:wallbrushtangle
+src:0:100:0:100:0:100:-12:100:forest5.ogg:
+src:0:100:0:100:0:20:-12:100:birds13.ogg
+src:0:100:0:100:0:20:-12:100:birds10.ogg
+src:0:100:0:100:0:20:-12:100:birds46.ogg
+src:0:100:0:100:0:20:-2:100:birds64.ogg
+tile:64:67:55:57:0:16:tree:trackme
+zone:64:67:55:57:0:17:Tree with Fragrant Yellow Flowers:trackme
+tile:58:64:56:56:5:5:branch:trackme
+tile:65:65:58:63:5:5:branch:trackme
+tile:66:66:58:66:6:6:branch2:trackme
+tile:67:67:58:65:7:7:branch2:trackme
+tile:68:78:56:56:8:8:branch2:trackme
+tile:66:66:45:54:8:8:branch2:trackme
+tile:64:64:43:54:9:9:branch2:trackme
+tile:55:63:55:55:10:10:branch2:trackme
+fishingcoordinate:51:57:51:59:-5:-5
+tile:58:63:56:56:11:11:branch2:trackme
+tile:65:65:58:61:11:11:branch2:trackme
+tile:66:66:58:66:12:12:branch2:trackme
+tile:67:67:58:64:13:13:branch2:trackme
+tile:68:79:56:56:14:14:branch2:trackme
+tile:68:80:55:55:14:14:branch2:trackme
+tile:67:67:40:54:15:15:branch2:trackme
+tile:66:66:45:54:16:16:branch2:trackme
+tile:65:65:45:55:15:15:branch2:trackme
+tile:64:67:55:57:16:20:branch2:trackme
+music:0:100:0:100:0:100:-10:102:musicwolf.ogg:1
+tile:84:94:14:34:0:0:swimming
+tile:84:94:14:34:-5:-1:underwater
+tile:83:83:14:34:-5:-1:wallstone
+tile:94:94:14:34:-5:-1:wallstone
+tile:84:94:13:13:-5:-1:wallstone
+tile:84:94:35:35:-5:-1:wallstone
+zone:84:94:14:34:0:0:oyster pond:trackme
+src:84:94:14:34:-5:-1:-10:100:underwater.ogg:1
+src:84:94:14:34:0:0:-10:100:pond1.ogg
+item:84:94:14:34:-5:-1:60000:1:oyster
+zone:84:94:14:34:-5:-1:under the oyster pond:trackme
+ai:1:99:1:99:0:0:50000:1:bear:boar:lion
+ai:1:99:1:99:0:0:55000:1:coyote:wolf:wild_cat
+ai:1:99:1:99:0:0:60000:1:tiger:leopard:gorilla
+ai:1:99:1:99:0:0:65000:1:elephant:chimpanzee

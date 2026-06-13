@@ -1,0 +1,78 @@
+mapname:SugarsQuietSpace
+minx:0
+maxx:50
+miny:0
+maxy:50
+minz:0
+maxz:100
+tile:0:100:0:100:0:0:wood19
+owner:sugarnspice
+litem:1
+starting_point:1:0:1:1:0:0
+deathpoint:0:100:0:100:0:0
+src:0:100:0:100:0:20:0:100:silence.ogg:1
+tile:0:100:0:0:0:100:wallbuilding3
+tile:0:100:100:100:0:100:wallbuilding3
+tile:0:0:0:100:0:20:wallbuilding3
+src:0:50:0:50:0:100:-4:100:room3.ogg:1
+tile:0:50:0:50:100:100:wallbuilding
+night:none.ogg
+tile:15:18:6:8:0:75:stairs4
+bed:5:10:1:4:0:4
+tile:5:10:1:5:4:4:cloth
+tile:4:4:1:4:0:5:wallsofa
+tile:5:10:1:1:0:4:wallsofa
+tile:11:11:1:4:0:4:wallsofa
+tile:5:10:2:5:0:3:wallcloth
+tile:0:100:0:100:25:25:hardwood
+zone:2:12:1:5:0:3:Near a sofa:trackme
+owner:aiden
+owner:harbinger
+trashcan:1:1:0:2:0:0
+tile:1:1:0:2:0:0:catwalk
+owner:Harbinger
+owner:Harbinger
+tile:50:50:1:50:0:20:wallbuilding3
+tile:0:50:50:50:0:20:wallbuilding3
+tile:14:16:1:3:0:1:walltable
+tile:14:16:1:3:3:3:hardwood3
+tile:10:30:20:25:4:4:linoleum
+zone:10:30:20:25:4:4:Kitchen Island:trackme
+tile:10:30:20:25:0:3:wallcounter
+tile:10:30:45:49:0:2:wallcounter
+tile:10:30:45:49:4:4:wood4
+tile:12:15:46:48:3:3:water
+tile:11:16:48:48:3:3:wallmetal20
+tile:11:11:46:48:3:3:wallmetal20
+tile:16:16:46:48:3:3:wallmetal20
+tile:12:15:45:45:3:3:wallmetal20
+tile:12:15:46:48:4:4:air
+washbasin:12:15:46:48:3:3
+owner:aiden
+tile:22:25:46:48:4:4:metal6
+oven:22:25:46:48:4:4
+tile:39:39:1:10:0:20:wallbuilding3
+tile:39:49:10:10:0:20:wallbuilding3
+door:38:38:5:6:0:0:40:5:0:Entering the bathroom:4:silence.ogg:silence.ogg:door7open.ogg:door7close.ogg
+door:40:40:5:6:0:0:38:5:0:Exiting the bathroom:-1:silence.ogg:door3.ogg:silence.ogg:silence.ogg
+tile:42:42:2:2:2:2:metal18
+toilet:42:42:2:2:2:2
+tile:42:42:2:2:0:1:wallpole
+tile:48:49:3:5:2:2:bathtub2
+tile:48:48:3:5:0:1:walltable2
+washbasin:48:48:3:5:2:2
+tile:43:45:7:9:0:0:wetconcrete
+shower:43:45:7:9:0:0
+owner:TubshterBratBird
+zone:38:38:5:6:0:0:Bathroom door:trackme
+zone:40:40:5:6:0:0:Bathroom exit:trackme
+zone:0:1:0:2:0:0:Waste Basket:trackme
+zone:9:31:19:26:0:3:Near kitchen island:trackme
+rain:none.ogg
+zone:43:45:7:9:0:0:shower
+zone:40:42:1:3:0:0:Near the toilet:trackme
+zone:42:42:2:2:2:2:On the toilet:trackme
+zone:48:49:3:5:2:2:Sink
+owner:luis
+zone:1:38:6:18:0:20:A living room with a plush sofa provides a tranquil atmosphere.:trackme
+zone:15:17:6:8:0:24:First Floor Stairs:trackme

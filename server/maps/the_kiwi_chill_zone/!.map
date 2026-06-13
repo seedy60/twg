@@ -1,0 +1,54 @@
+mapname:the_kiwi_chill_zone
+minx:0
+maxx:20
+miny:0
+maxy:20
+minz:0
+maxz:20
+tile:0:20:0:20:0:0:grass4
+owner:kiwi-james
+litem:1
+starting_point:0:20:0:20:0:0
+deathpoint:0:20:0:20:0:0
+tile:0:2:16:18:0:0:fire
+oven:0:2:16:18:0:0
+src:0:2:12:18:0:4:0:100:fire3.ogg
+src:0:2:12:18:0:4:0:100:firemisc3.ogg
+zone:0:2:16:18:0:0:campfire:trackme
+tile:18:19:16:17:0:5:cloth
+tile:12:13:16:17:0:5:cloth
+tile:12:19:15:17:6:6:cloth
+zone:13:19:16:17:0:0:tent:trackme
+tile:13:18:18:19:0:5:cloth
+tile:2:6:0:6:0:0:swimming
+src:2:6:0:6:0:5:0:100:lake3.ogg
+src:2:6:0:6:0:5:0:100:lake4.ogg
+tile:1:3:13:14:0:0:chair
+zone:1:3:13:14:0:0:seating near the campfire.:trackme
+night:none.ogg
+zone:2:6:0:6:0:0:the lake:trackme
+fishingcoordinate:2:6:0:6:0:0
+tile:13:18:14:15:0:5:cloth
+zone:0:20:0:20:0:20:welcome to the kiwi_chill_zone. Camp, cook, chill.
+zone:0:2:16:18:0:0:campfire:trackme
+zone:1:3:13:14:0:0:campfire seating:trackme
+toilet:18:19:0:1:0:0
+zone:18:19:0:1:0:0:long drop.:trackme
+washbasin:14:15:0:1:0:0
+zone:14:15:0:1:0:0:hand washing station:trackme
+litem:0
+reinforcement:0:10000000
+shower:11:12:0:2:0:3
+zone:11:12:0:2:0:0:shower:trackme
+trashcan:9:10:0:1:0:0
+zone:9:10:0:1:0:0:rubbish bin :trackme
+tile:16:20:4:8:0:0:mat
+src:16:20:4:8:0:4:-16:100:kids.ogg
+src:16:20:4:8:0:5:-17:100:park2.ogg
+tile:16:17:4:5:3:3:balloon2
+zone:16:17:4:5:3:3:trampoline:trackme
+tile:19:20:4:6:2:2:deepsand
+zone:19:20:4:6:2:2:sand pit:trackme
+owner:Remu
+src:0:20:0:20:0:20:-9:100:birds24.ogg:1
+src:2:6:0:6:0:5:-4:100:lake2.ogg

@@ -1,0 +1,13 @@
+mapname:hassan
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:100
+tile:0:100:0:100:0:0:carpet3
+owner:hassan
+litem:0
+starting_point:0:100:0:100:0:0
+deathpoint:0:100:0:100:0:0
+tile:0:5:0:5:0:0:metal2

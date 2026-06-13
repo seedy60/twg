@@ -1,0 +1,42 @@
+mapname:battle_field
+minx:0
+maxx:100
+miny:0
+maxy:100
+minz:0
+maxz:10
+tile:0:100:0:100:0:0:dirt8
+owner:kannadiga
+litem:1
+zone:0:100:0:100:0:10:a battle_field.
+travelpoint:0:0:20:20:0:0:desert:65:146:0:you go back to desert.:silence.ogg:silence.ogg:silence.ogg
+zone:0:0:20:20:0:0:press shift enter to go back to desert.:trackme
+starting_point:0:0:0:0:0:0
+deathpoint:100:100:100:100:0:0
+night:none.ogg
+wind:none.ogg
+item_usage_restriction:0:100:0:100:0:10:conex:partner_house:beehive:small_conex:locker:fridge:microwave:sky_racer:ford:sorento:dogan_slx:grayhound_bus:m60_tank:tank:truck:v4_by_4_jeep:dodge_charger:doom_buggy:ford_pickup_truck:mlk_mission_cruiser:muscle_car:generic_motorcycle:frog_motorcycle:ducati_street_fighter:onda_cbr_600:yamaha_r6:aprilia_v4:aprilia_rs660:ducati_diavel:yamaha_off_road:kawasaki_hipersport:kawasaki_adventure_tourer:ducati_scrumbler:bmw_off_road:motor_boat
+ai:0:100:0:100:0:0:40000:1:helecopter:soldier:minitank:tank
+reinforcement:0:10000000
+src:0:100:0:100:0:10:0:100:war2.ogg
+src:0:100:0:100:0:10:-7:100:war4.ogg:1
+src:0:100:0:100:0:10:-7:97:war2.ogg:1
+src:0:100:0:100:0:10:-10:91:war4.ogg:1
+
+tile:16:20:24:26:0:3:wallcar2
+zone:16:20:24:26:0:5:A burnt out shell of a tank lies here. :trackme
+src:16:20:24:26:0:5:-7:100:fireroar1.ogg
+zone:44:48:52:54:0:5:A crashed helicopter lies upside down. Parts and pieces of wreckage are wide spread.:trackme
+tile:16:20:24:26:3:3:roof4
+tile:44:48:52:54:3:3:roof4
+tile:22:22:62:66:0:4:wallcloth
+tile:26:26:62:66:0:4:wallcloth
+tile:22:26:66:66:0:4:wallcloth
+tile:23:25:62:66:0:0:cloth
+tile:22:26:62:66:4:4:cloth
+tile:22:26:58:60:0:0:fire
+src:22:26:58:60:0:5:0:100:fire3.ogg
+zone:22:26:58:60:0:5:This fire is where the soldiers cooked in between battles.:trackme
+zone:22:26:62:66:0:10:an abandoned tent. There were once soldiers here.:trackme
+tile:30:34:22:26:0:0:brokenglass
+zone:30:34:22:26:0:10:Some debris from the tank and overturned helicopter.:trackme
